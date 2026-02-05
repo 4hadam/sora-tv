@@ -1,3 +1,15 @@
 User-agent: *
 Allow: /
-Sitemap: https://dulcet-babka-2323c3.netlify.app/sitemap.xml
+Disallow: /admin
+Disallow: /private
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://isura.com/sitemap.xml
+
+# Target specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

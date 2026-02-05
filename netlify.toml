@@ -10,11 +10,51 @@
 [context.production]
   command = "npm run build"
 
-[headers]
-  [[headers.values]]
-    key = "Cache-Control"
-    value = "max-age=31536000"
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
 
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+
+[headers]
+  for = "/*"
   [[headers.values]]
     key = "X-Content-Type-Options"
     value = "nosniff"
+  [[headers.values]]
+    key = "X-Frame-Options"
+    value = "SAMEORIGIN"
+  [[headers.values]]
+    key = "X-XSS-Protection"
+    value = "1; mode=block"
+  [[headers.values]]
+    key = "Referrer-Policy"
+    value = "no-referrer-when-downgrade"
+
+[headers]
+  for = "/sitemap.xml"
+  [[headers.values]]
+    key = "Content-Type"
+    value = "application/xml"
+  [[headers.values]]
+    key = "Cache-Control"
+    value = "public, max-age=604800"
+
+[headers]
+  for = "/robots.txt"
+  [[headers.values]]
+    key = "Content-Type"
+    value = "text/plain"
+  [[headers.values]]
+    key = "Cache-Control"
+    value = "public, max-age=604800"
+
+[headers]
+  for = "/*.{js,css,woff,woff2,ttf}"
+  [[headers.values]]
+    key = "Cache-Control"
+    value = "public, max-age=31536000, immutable"
