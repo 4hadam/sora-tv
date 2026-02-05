@@ -187,7 +187,9 @@ export default function GlobeViewer({
             if (countryName && onCountryClick) onCountryClick(countryName)
           })
       } catch (err) {
-        if (!aborted) console.error("Error loading countries data:", err)
+        if (!aborted) {
+          // Error loading countries data - silently fail with fallback
+        }
       }
     }
 

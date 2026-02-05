@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dulcet-babka-2323c3.netlify.app/sitemap.xml

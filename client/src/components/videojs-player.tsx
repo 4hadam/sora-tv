@@ -55,7 +55,7 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
 
       // تهيئة المشغل
       const player = videojs(videoElement, options, () => {
-        console.log("Video.js Player is ready")
+        // Player initialized
       })
 
       playerRef.current = player
@@ -65,7 +65,7 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
     return () => {
       const player = playerRef.current
       if (player && !player.isDisposed()) {
-        console.log("Disposing Video.js player")
+        // Cleanup Video.js player
         // player.dispose() // (مُعطل عن قصد)
         playerRef.current = null
       }
@@ -92,15 +92,15 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
           sourceType = "application/x-mpegURL"; 
         }
 
-        console.log("Updating Video.js source to:", src, "Type:", sourceType);
-        
         player.src({
           src: src,
           type: sourceType 
         })
         
         if (autoPlay) {
-          player.play()?.catch(e => console.warn("Autoplay blocked for new src"));
+          player.play()?.catch(() => {
+            // Autoplay blocked
+          });
         }
       }
       

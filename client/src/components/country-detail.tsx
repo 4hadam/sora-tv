@@ -37,7 +37,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
       const favoriteKey = `${keyCountry}:${channel}`
       setIsFavorited(favorites.includes(favoriteKey))
     } catch (error) {
-      console.error("Error loading favorites:", error)
+      // Error loading favorites - ignored
     }
   }, [country, channel, isMounted, activeCategory])
 
@@ -57,7 +57,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
         setIsFavorited(true)
       }
     } catch (error) {
-      console.error("Error toggling favorite:", error)
+      // Error toggling favorite - ignored
     }
   }
 
@@ -101,7 +101,6 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
         }
       } catch (err) {
         setError("Failed to load stream list or channels: " + (err as Error).message)
-        console.error("Error loading stream list:", err)
       } finally {
         setLoading(false)
       }

@@ -31,7 +31,6 @@ export default function VideoPlayer({
   const youTubeVideoId = getYouTubeVideoId(src)
 
   const handleYouTubeError = (event: any) => {
-    console.error("YouTube Error Code:", event.data)
     setErrorMessage("This YouTube video is unavailable.")
     setError(true)
     setLoading(false)

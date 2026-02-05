@@ -400,7 +400,7 @@ export default function CountrySidebar({
 
         setChannels(data)
       } catch (err) {
-        console.error(err)
+        // Error fetching channels
         setChannels([])
       } finally {
         setLoading(false)

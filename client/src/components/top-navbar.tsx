@@ -21,8 +21,10 @@ export default function TopNavbar({
   // useEffect(() => { ... }, [])
 
   useEffect(() => {
-    const baseUrl = window.location.href.split('#')[0]; 
-    setTvFill(`url(${baseUrl}#tvGradient)`);
+    if (typeof window !== 'undefined') {
+      const baseUrl = window.location.href.split('#')[0];
+      setTvFill(`url(${baseUrl}#tvGradient)`);
+    }
   }, [])
   
   return (
