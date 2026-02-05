@@ -160,6 +160,8 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   { "name": "Swamiji TV European", "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8", "category": "General" },
   { "name": "TV 1 Oberösterreich", "url": "https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8", "category": "General" },
   { "name": "W24", "url": "httpsExamples://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8", "category": "General" },
+  { "name": "2M  +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General" },
+
   { "name": "Wetter-Panorama", "url": "https://www.youtube-nocookie.com/embed/NIuO6hrFTrg", "category": "General" }
 ],
 "Angola": [
