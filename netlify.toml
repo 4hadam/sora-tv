@@ -10,17 +10,7 @@
 [context.production]
   command = "npm run build"
 
-[[redirects]]
-  from = "/sitemap.xml"
-  to = "/sitemap.xml"
-  status = 200
-
-[[redirects]]
-  from = "/robots.txt"
-  to = "/robots.txt"
-  status = 200
-
-[headers]
+[[headers]]
   for = "/*"
   [[headers.values]]
     key = "X-Content-Type-Options"
@@ -35,7 +25,7 @@
     key = "Referrer-Policy"
     value = "no-referrer-when-downgrade"
 
-[headers]
+[[headers]]
   for = "/sitemap.xml"
   [[headers.values]]
     key = "Content-Type"
@@ -44,7 +34,7 @@
     key = "Cache-Control"
     value = "public, max-age=604800"
 
-[headers]
+[[headers]]
   for = "/robots.txt"
   [[headers.values]]
     key = "Content-Type"
@@ -53,7 +43,7 @@
     key = "Cache-Control"
     value = "public, max-age=604800"
 
-[headers]
+[[headers]]
   for = "/*.{js,css,woff,woff2,ttf}"
   [[headers.values]]
     key = "Cache-Control"
