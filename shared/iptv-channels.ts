@@ -2826,7 +2826,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "General" },
     { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "General" },
     { "name": "Al Maghribia", "url": "https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd", "category": "General" },
-    { "name": "الأولى (Al Aoula)", "url": "https://snrt.player.easybroadcast.io/events/73_aloula_w1dqfwm", "category": "General" },
+      
 
   ],
   
