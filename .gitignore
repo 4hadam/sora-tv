@@ -1,2 +1,15 @@
-https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsiZGF0YSI6MTM4OTgxNjA2LCJwdXIiOiJibG9iX2lkIn19--e771246defa619f427d56c92fd78e8162739cb33/.gitignore
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+build/
+
+# Local
+.local/
 .env
+*.log
+
+# Attached assets
+attached_assets/

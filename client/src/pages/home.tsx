@@ -1,9 +1,21 @@
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, Suspense, lazy } from "react"
 import TopNavbar from "@/components/top-navbar"
-import GlobeViewer from "@/components/globe-viewer"
+import { useIsMobileDevice } from "@/hooks/use-is-mobile-device"
+
+// ✅ Lazy load only heavy components (globe.gl is ~300KB)
+const GlobeViewer = lazy(() => import("@/components/globe-viewer"))
+
+// Regular imports for other components
 import CountrySidebar from "@/components/country-sidebar"
 import CountryDetail from "@/components/country-detail"
-import CategorySidebar from "@/components/CategorySidebar" 
+import CategorySidebar from "@/components/CategorySidebar"
+
+// ✅ Loading indicator for lazy components
+const ComponentLoader = () => (
+  <div className="w-full h-full flex items-center justify-center bg-black/20">
+    <div className="animate-spin w-8 h-8 border-2 border-yellow-500 border-t-transparent rounded-full" />
+  </div>
+)
 
 export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
@@ -12,17 +24,13 @@ export default function Home() {
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false) 
   const [searchQuery, setSearchQuery] = useState("")
   const [currentTime, setCurrentTime] = useState("")
-  const [isMobile, setIsMobile] = useState(false)
-
   const [isCategorySidebarOpen, setIsCategorySidebarOpen] = useState(false)
-  const [activeCategory, setActiveCategory] = useState("all-channels") 
+  const [activeCategory, setActiveCategory] = useState("all-channels")
+  
+  // ✅ Use optimized mobile detection hook
+  const isMobile = useIsMobileDevice()
 
   useEffect(() => setMounted(true), [])
-
-  useEffect(() => {
-    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    setIsMobile(isMobileDevice);
-  }, []) 
 
   useEffect(() => {
     const updateTime = () =>
@@ -86,11 +94,13 @@ export default function Home() {
         
 {/* 🌍 الكرة الأرضية */}
 <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
-  <GlobeViewer
-    selectedCountry={selectedCountry}
-    onCountryClick={handleGlobeCountryClick}
-    isMobile={isMobile}
-  />
+  <Suspense fallback={<ComponentLoader />}>
+    <GlobeViewer
+      selectedCountry={selectedCountry}
+      onCountryClick={handleGlobeCountryClick}
+      isMobile={isMobile}
+    />
+  </Suspense>
 </div>
         {/* 🎥 مشغل الفيديو (سطح المكتب فقط) */}
         {!isMobile && selectedChannel && (selectedCountry || activeCategory !== "all-channels") && ( 
@@ -127,7 +137,7 @@ export default function Home() {
           </div>
         )}
 
-        {/* 📱 🖥️  قائمة الفئات المنبثقة (لجميع الأحجام) */}
+{/* 📱 🖥️  قائمة الفئات المنبثقة (لجميع الأحجام) */}
         <>
           <div
             className={`fixed top-16 left-0 bottom-0 z-40 w-64 bg-[#0B0D11] shadow-lg transform transition-transform duration-300 ease-in-out

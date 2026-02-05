@@ -30,6 +30,33 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // ✅ Separate heavy vendor libraries
+          'globe-gl': ['globe.gl'],
+          'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
+          'ui-components': [
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-dropdown-menu',
+            '@radix-ui/react-popover',
+            '@radix-ui/react-select',
+            '@radix-ui/react-tabs',
+            '@radix-ui/react-toast',
+          ],
+          'query': ['@tanstack/react-query'],
+        }
+      }
+    },
+    // ✅ Optimization settings
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+      }
+    },
+    sourcemap: false,
+    reportCompressedSize: false,
   },
   server: {
     fs: {
@@ -37,4 +64,13 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      'wouter',
+      '@radix-ui/react-dialog',
+      '@radix-ui/react-dropdown-menu',
+    ]
+  }
 });
