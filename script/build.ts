@@ -1,6 +1,6 @@
 import { build as esbuild } from "esbuild";
 import { build as viteBuild } from "vite";
-import { rm, readFile } from "fs/promises";
+import { rm, readFile, copyFile } from "fs/promises";
 
 // server deps to bundle to reduce openat(2) syscalls
 // which helps cold start times
@@ -37,6 +37,14 @@ async function buildAll() {
 
   console.log("building client...");
   await viteBuild();
+
+  // ✅ Copy _redirects to dist/public for Netlify
+  try {
+    await copyFile("client/public/_redirects", "dist/public/_redirects");
+    console.log("✓ _redirects copied to dist/public");
+  } catch (err) {
+    console.warn("⚠️  Failed to copy _redirects:", err);
+  }
 
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));
