@@ -3,6 +3,7 @@
 import React, { useEffect, useRef } from "react"
 import videojs from "video.js"
 import Player from "video.js/dist/types/player"
+import { useVolumeControl } from "@/hooks/use-volume-control"
 
 // (هام) استيراد CSS الأساسي لـ Video.js
 import "video.js/dist/video-js.css"
@@ -27,11 +28,12 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
 }) => {
   const videoNodeRef = useRef<HTMLVideoElement | null>(null)
   const playerRef = useRef<Player | null>(null)
+  const { volume, updateVolume, isHydrated } = useVolumeControl()
 
   // (1) 💡 التأثير الأول: لإنشاء المشغل وتدميره (مرة واحدة فقط)
   useEffect(() => {
     // نتأكد من عدم وجود مشغل حالي وأن العنصر موجود
-    if (!playerRef.current && videoNodeRef.current) {
+    if (!playerRef.current && videoNodeRef.current && isHydrated) {
       const videoElement = videoNodeRef.current
       
       const options = {
@@ -55,7 +57,16 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
 
       // تهيئة المشغل
       const player = videojs(videoElement, options, () => {
-        // Player initialized
+        // تطبيق مستوى الصوت المحفوظ
+        if (!muted) {
+          player.volume(volume)
+        }
+      })
+
+      // الاستماع للتغييرات في مستوى الصوت
+      player.on('volumechange', () => {
+        const newVolume = player.volume()
+        updateVolume(newVolume)
       })
 
       playerRef.current = player
@@ -70,7 +81,7 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
         playerRef.current = null
       }
     }
-  }, []) // 👈🔴 (التعديل) إزالة isMobile من الاعتماديات
+  }, [isHydrated, volume, muted]) // 👈🔴 أضفنا isHydrated و volume و muted
 
   // (3) 💡 التأثير الثاني: لتحديث الخصائص (مثل تغيير القناة)
   useEffect(() => {
@@ -97,6 +108,11 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
           type: sourceType 
         })
         
+        // تطبيق مستوى الصوت المحفوظ عند تغيير القناة
+        if (!muted && isHydrated) {
+          player.volume(volume)
+        }
+        
         if (autoPlay) {
           player.play()?.catch(() => {
             // Autoplay blocked
@@ -108,7 +124,7 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
       player.autoplay(autoPlay || false)
       player.muted(muted || false)
     }
-  }, [src, autoPlay, muted, isLive]) 
+  }, [src, autoPlay, muted, isLive, volume, isHydrated]) 
 
   return (
     <div data-vjs-player className="w-full h-full">
