@@ -1,0 +1,62 @@
+name: 🔄 تحديث قنوات IPTV
+
+on:
+  schedule:
+    # كل يوم جمعة الساعة 03:00 UTC (5:00 صباحاً بتوقيت مكة)
+    - cron: '0 3 * * 5'
+  workflow_dispatch: # يمكن التشغيل اليدوي
+
+jobs:
+  update-channels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 📥 استقبال الكود
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🟢 إعداد Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 📦 تثبيت الحزم
+        run: npm ci
+
+      - name: 🔄 تحديث قنوات IPTV
+        run: npx tsx script/update-iptv-channels.ts
+        timeout-minutes: 20
+
+      - name: 📝 إنشاء Pull Request
+        if: ${{ env.CHANNELS_UPDATED == 'true' }}
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: '🔄 تحديث قنوات IPTV من iptv-org (تلقائي)'
+          title: '🔄 تحديث قنوات IPTV'
+          body: |
+            # تحديث قنوات IPTV 📺
+            
+            تم اكتشاف قنوات جديدة وتحديث الملف تلقائياً من:
+            https://github.com/iptv-org/iptv
+            
+            **التغييرات:**
+            - ✅ تم اختبار جميع الروابط
+            - ✅ تم إضافة القنوات الشغالة فقط
+            - ✅ تم تنظيم القنوات حسب الدول
+            
+            يرجى مراجعة التغييرات قبل الدمج.
+          branch: update-iptv-channels
+          authors: |
+            github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          delete-branch: true
+
+      - name: 📊 إرسال التقرير
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: update-report
+          path: ./script/update-report.json
+          retention-days: 30
