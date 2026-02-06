@@ -101,83 +101,118 @@ function parseM3ULine(line: string): { info: ParsedChannel; url: string } | null
 }
 
 async function fetchAndProcessIPTVChannels(): Promise<Record<string, Channel[]>> {
-  console.log('🔄 جاري جلب قنوات IPTV من iptv-org/iptv...');
+  console.log('🔄 جاري جلب قنوات IPTV من مصادر موثوقة...');
 
   const channelsByCountry: Record<string, Channel[]> = {};
 
+  // قائمة مصادر IPTV موثوقة
+  const iptvSources = [
+    { 
+      url: 'https://iptv-org.github.io/iptv/index.m3u',
+      name: 'IPTV.org - Index'
+    },
+    { 
+      url: 'https://github.com/iptv-org/iptv/raw/master/playlists/ar.m3u',
+      name: 'Arabic Channels'
+    },
+    {
+      url: 'https://github.com/iptv-org/iptv/raw/master/playlists/en.m3u',
+      name: 'English Channels'
+    }
+  ];
+
   try {
-    // جلب قائمة الملفات من iptv-org
-    const response = await axios.get(
-      'https://raw.githubusercontent.com/iptv-org/iptv/master/index.m3u',
-      { timeout: 30000 }
-    );
+    for (const source of iptvSources) {
+      console.log(`\n📥 جاري جلب: ${source.name}...`);
+      
+      try {
+        const response = await axios.get(source.url, {
+          timeout: 20000,
+          headers: {
+            'User-Agent': 'Mozilla/5.0'
+          }
+        });
 
-    const lines = response.data.split('\n');
-    let currentChannelInfo: ParsedChannel | null = null;
+        const lines = response.data.split('\n');
+        let currentChannelInfo: ParsedChannel | null = null;
 
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i].trim();
 
-      if (line.startsWith('#EXTINF')) {
-        const parsed = parseM3ULine(line);
-        if (parsed) {
-          currentChannelInfo = parsed.info;
-        }
-      } else if (line && !line.startsWith('#') && currentChannelInfo) {
-        const url = line;
-
-        // اختبار الرابط
-        console.log(`✓ اختبار: ${currentChannelInfo.name}...`);
-        const isUrlValid = await testChannelUrl(url);
-
-        if (isUrlValid) {
-          // استخراج رمز الدولة من tvg-id أو group-title
-          let countryCode = '';
-          let countryName = '';
-
-          if (currentChannelInfo.tvg_id) {
-            const codeMatch = currentChannelInfo.tvg_id.match(/([A-Z]{2})/);
-            if (codeMatch) {
-              countryCode = codeMatch[1];
-              countryName = countryCodeMap[countryCode] || countryCode;
+          if (line.startsWith('#EXTINF')) {
+            const parsed = parseM3ULine(line);
+            if (parsed) {
+              currentChannelInfo = parsed.info;
             }
-          }
+          } else if (line && !line.startsWith('#') && currentChannelInfo && line.length > 5) {
+            const url = line;
 
-          if (!countryName && currentChannelInfo.group_title) {
-            // محاولة استخراج اسم الدولة من group-title
-            const groupParts = currentChannelInfo.group_title.split('|');
-            if (groupParts.length > 0) {
-              countryName = groupParts[0].trim();
+            // اختبار الرابط بسرعة
+            const isUrlValid = await testChannelUrl(url);
+
+            if (isUrlValid) {
+              // استخراج اسم الدولة من tvg-id أو group-title
+              let countryName = 'International';
+
+              if (currentChannelInfo.tvg_id) {
+                const codeMatch = currentChannelInfo.tvg_id.match(/([a-z]{2})\./i);
+                if (codeMatch) {
+                  const code = codeMatch[1].toUpperCase();
+                  const mappedCountry = countryCodeMap[code];
+                  if (mappedCountry) {
+                    countryName = mappedCountry;
+                  }
+                }
+              }
+
+              if (countryName === 'International' && currentChannelInfo.group_title) {
+                const groupParts = currentChannelInfo.group_title.split('|');
+                if (groupParts.length > 0) {
+                  const potentialCountry = groupParts[0].trim();
+                  // تحقق من أنها دولة حقيقية
+                  if (Object.values(countryCodeMap).includes(potentialCountry)) {
+                    countryName = potentialCountry;
+                  }
+                }
+              }
+
+              const channel: Channel = {
+                name: currentChannelInfo.name || 'Unknown Channel',
+                url: url,
+                logo: currentChannelInfo.tvg_logo,
+                category: currentChannelInfo.group_title || 'General',
+                countryName: countryName,
+              };
+
+              if (!channelsByCountry[countryName]) {
+                channelsByCountry[countryName] = [];
+              }
+
+              // تجنب التكرار
+              const isDuplicate = channelsByCountry[countryName].some(
+                ch => ch.url === url && ch.name === currentChannelInfo.name
+              );
+              
+              if (!isDuplicate && channelsByCountry[countryName].length < 50) {
+                channelsByCountry[countryName].push(channel);
+                console.log(`  ✅ ${currentChannelInfo.name} (${countryName})`);
+              }
             }
+
+            currentChannelInfo = null;
           }
-
-          if (!countryName) {
-            countryName = 'Uncategorized';
-          }
-
-          const channel: Channel = {
-            name: currentChannelInfo.name,
-            url: url,
-            logo: currentChannelInfo.tvg_logo,
-            category: currentChannelInfo.group_title || 'General',
-            countryName: countryName,
-          };
-
-          if (!channelsByCountry[countryName]) {
-            channelsByCountry[countryName] = [];
-          }
-
-          channelsByCountry[countryName].push(channel);
-          console.log(`✅ تمت إضافة: ${currentChannelInfo.name} (${countryName})`);
-        } else {
-          console.log(`❌ الرابط معطل: ${currentChannelInfo.name}`);
         }
 
-        currentChannelInfo = null;
+        console.log(`✓ تمت معالجة: ${source.name}`);
+      } catch (error) {
+        console.log(`  ⚠️ خطأ في معالجة ${source.name}`);
       }
+
+      // انتظر قليلاً قبل المصدر التالي
+      await new Promise(resolve => setTimeout(resolve, 1000));
     }
   } catch (error) {
-    console.error('❌ خطأ في جلب القنوات:', error);
+    console.error('❌ خطأ عام في جلب القنوات:', error);
   }
 
   return channelsByCountry;
