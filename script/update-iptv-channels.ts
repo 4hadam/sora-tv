@@ -267,8 +267,8 @@ async function main() {
   const channels = await fetchAndProcessIPTVChannels();
   console.log(`\n📊 تم جمع ${Object.keys(channels).length} دول\n`);
   
-  // اختياري: تحديث الملف
-  // await updateIPTVChannelsFile(channels);
+  // حفظ القنوات في الملف تلقائياً
+  await updateIPTVChannelsFile(channels);
   
   console.log('✅ اكتمل!\n');
 }
