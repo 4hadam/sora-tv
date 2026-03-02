@@ -1,14 +1,30 @@
 import { IPTVChannel } from "./schema";
 
 export const channelsByCountry: Record<string, IPTVChannel[]> = {
-  "Morocco": [
-    { "name": "2M Maroc", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General" },
-    // ... أضف القنوات المغربية هنا ...
+  "Afghanistan": [
   ],
-  "Spain": [
-    { "name": "Telemadrid", "url": "https://telemadrid-23-secure2.akamaized.net/master.m3u8", "category": "General" },
-    // ... أضف القنوات الإسبانية هنا ...
+  "South Africa": [
+    { "name": "1KZN TV", "url": "https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8", "category": "General" },
+    { "name": "947 Joburg", "url": "https://www.youtube-nocookie.com/embed/T68d5MUspE8", "category": "General" },
+    { "name": "Anytime TV", "url": "https://tv.anytimemedia.co.za:3673/hybrid/play.m3u8", "category": "General" },
+    { "name": "BOKTV", "url": "https://livestream2.bokradio.co.za/hls/Bok5c.m3u8", "category": "General" },
+    { "name": "Cape Town TV", "url": "https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8", "category": "General" },
+    { "name": "CNBC Africa", "url": "https://www.youtube-nocookie.com/embed/5q5iUsORkhc", "category": "General" },
+    { "name": "Faith TV", "url": "https://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8", "category": "General" },
+    { "name": "Homebase TV", "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_022/Stream/playlist.m3u8", "category": "General" },
+    { "name": "Kfm 94.5", "url": "https://www.youtube-nocookie.com/embed/YAQtn-kfDEM", "category": "General" },
+    { "name": "LN24SA", "url": "https://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8", "category": "General" },
+    { "name": "NuView TV", "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8", "category": "General" },
+    { "name": "Redemption TV Ministry", "url": "https://live.nixsat.com/play/rtm/index.m3u8", "category": "General" },
+    { "name": "ROV TV", "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_012/Stream/playlist.m3u8", "category": "General" },
+    { "name": "SABC Lehae", "url": "https://sabctretalh.cdn.mangomolo.com/lehae/smil:lehae.stream.smil/master.m3u8", "category": "General" },
+    { "name": "SABC News", "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8", "category": "General" },
+    { "name": "Soweto TV", "url": "https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/playlist.m3u8", "category": "General" },
+    { "name": "Tshwane TV", "url": "https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8", "category": "General" },
+    { "name": "TV BRICS Africa", "url": "https://cdn.freevisiontv.co.za/sttv/smil:brics.stream.smil/playlist.m3u8", "category": "General" },
+    { "name": "Zee Bollymovies", "url": "https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8", "category": "General" },
   ],
+  ...باقي الدول ...
 };
 
 export function getChannelsByCountry(country: string): IPTVChannel[] {
