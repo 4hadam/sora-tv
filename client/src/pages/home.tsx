@@ -1,6 +1,8 @@
 import { useState, useEffect, Suspense, lazy } from "react"
+import { useLocation } from "wouter"
 import TopNavbar from "@/components/top-navbar"
 import { useIsMobileDevice } from "@/hooks/use-is-mobile-device"
+import { countryCodeMap } from "@/lib/country-flags"
 
 // ✅ Lazy load only heavy components (globe.gl is ~300KB)
 const GlobeViewer = lazy(() => import("@/components/globe-viewer"))
@@ -18,6 +20,7 @@ const ComponentLoader = () => (
 )
 
 export default function Home() {
+  const [location, setLocation] = useLocation()
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [selectedChannel, setSelectedChannel] = useState<string | null>(null)
   const [mounted, setMounted] = useState(false)
@@ -31,6 +34,27 @@ export default function Home() {
   const isMobile = useIsMobileDevice()
 
   useEffect(() => setMounted(true), [])
+
+  // Handle URL-based country selection
+  useEffect(() => {
+    const pathSegments = location.split("/").filter(Boolean)
+    const countryCode = pathSegments[0]
+
+    if (countryCode) {
+      // Reverse lookup: find country name by code
+      const countryName = Object.entries(countryCodeMap).find(
+        ([_, code]) => code === countryCode.toLowerCase()
+      )?.[0]
+
+      if (countryName) {
+        setSelectedCountry(countryName)
+        setActiveCategory("all-channels")
+        setSelectedChannel(null)
+      }
+    } else {
+      setSelectedCountry(null)
+    }
+  }, [location])
 
   useEffect(() => {
     const updateTime = () =>
@@ -49,15 +73,22 @@ export default function Home() {
 
   // 🎯 --- Event Handlers ---
   const handleGlobeCountryClick = (countryName: string) => {
-    setSelectedChannel(null)
-    setSelectedCountry(countryName)
-    setActiveCategory("all-channels")
-    if (isMobile) setMobileSidebarOpen(true)
+    const countryCode = countryCodeMap[countryName]
+    if (countryCode) {
+      setLocation(`/${countryCode}`)
+    }
   }
 
   const handleSelectCountry = (country: string | null) => {
+    if (country) {
+      const countryCode = countryCodeMap[country]
+      if (countryCode) {
+        setLocation(`/${countryCode}`)
+      }
+    } else {
+      setLocation("/")
+    }
     setSelectedChannel(null)
-    setSelectedCountry(country)
     setActiveCategory("all-channels")
     if (isMobile && !country) setMobileSidebarOpen(false)
   }
