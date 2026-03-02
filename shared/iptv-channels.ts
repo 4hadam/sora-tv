@@ -3602,7 +3602,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "NTD TV", "url": "https://live.ntdtv.com/live900/playlist.m3u8", "category": "" },
   ],
   "Morocco": [
-    { "name": "Al Aoula Maroc", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8", "category": "General", "logo": "https://i.imgur.com/AlAoulaLogo.png" },
+    { "name": "Al Aoula Maroc", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8", "category": "General" },
     { "name": "2M Monde +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General" },
     { "name": "Chada TV", "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8", "category": "General" },
     { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "General" },
