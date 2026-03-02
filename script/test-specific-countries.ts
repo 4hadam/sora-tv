@@ -120,7 +120,63 @@ function buildOutputFile(
         content += "  ],\n";
     }
 
-    content += "};\n";
+    content += "};\n\n";
+
+    // Add helper functions
+    content += `/**
+ * ✅ Helper: Get channels by country name
+ */
+export function getChannelsByCountry(country: string): IPTVChannel[] {
+  return channelsByCountry[country] || [];
+}
+
+/**
+ * ✅ Helper: Get channels by category
+ */
+export function getChannelsByCategory(category: string): IPTVChannel[] {
+  const channels: IPTVChannel[] = [];
+  for (const countryChannels of Object.values(channelsByCountry)) {
+    channels.push(
+      ...countryChannels.filter((ch) => ch.category === category)
+    );
+  }
+  return channels;
+}
+
+/**
+ * ✅ Helper: Normalize YouTube URLs to embed format
+ */
+export function normalizeYouTubeUrl(url: string): string {
+  try {
+    // If already an embed link, return as is
+    if (url.includes("youtube-nocookie.com/embed/") || url.includes("youtube.com/embed/")) {
+      return url;
+    }
+    
+    // Extract video ID from various YouTube URL formats
+    let videoId: string | null = null;
+    
+    if (url.includes("youtube.com/watch?v=")) {
+      const match = url.match(/watch\\?v=([^&\\s]+)/);
+      videoId = match?.[1] || null;
+    } else if (url.includes("youtu.be/")) {
+      const match = url.match(/youtu\\.be\\/([^\\?&\\s]+)/);
+      videoId = match?.[1] || null;
+    } else if (url.includes("youtube.com/embed/")) {
+      const match = url.match(/embed\\/([^\\?&\\s]+)/);
+      videoId = match?.[1] || null;
+    }
+    
+    // Return embed URL if we found a video ID, otherwise return original
+    if (videoId) {
+      return \`https://www.youtube-nocookie.com/embed/\${videoId}\`;
+    }
+    
+    return url;
+  } catch {
+    return url;
+  }
+}\n`;
 
     return content;
 }
