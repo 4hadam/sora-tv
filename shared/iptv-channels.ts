@@ -24,7 +24,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "TV BRICS Africa", "url": "https://cdn.freevisiontv.co.za/sttv/smil:brics.stream.smil/playlist.m3u8", "category": "General" },
     { "name": "Zee Bollymovies", "url": "https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8", "category": "General" },
   ],
-  ...باقي الدول ...
+  // إضافة باقي الدول هنا عند الحاجة
 };
 
 export function getChannelsByCountry(country: string): IPTVChannel[] {
