@@ -1,15 +1,46 @@
+# 🤖 Google Search Console Optimization
+# This robots.txt file allows search engines to crawl Sora TV
+
 User-agent: *
 Allow: /
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+
+# Disallow private/admin pages
 Disallow: /admin
 Disallow: /private
+Disallow: /internal
+Disallow: /*.pdf$
+
+# Crawl optimization
 Crawl-delay: 1
+Request-rate: 1/1s
 
-# Sitemaps
-Sitemap: https://isura.com/sitemap.xml
-
-# Target specific search engines
+# Specific search engine rules
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
+Priority: high
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
+
+User-agent: Yandexbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap (Google, Bing, Yandex will find this)
+Sitemap: /sitemap.xml

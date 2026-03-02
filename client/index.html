@@ -1,35 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Sora TV - مشاهدة القنوات العالمية</title>
-    <meta name="description" content="موقع لمشاهدة القنوات التلفزيونية العالمية على الخريطة التفاعلية" />
-    <meta name="keywords" content="قنوات, تلفزيون, بث مباشر, خريطة" />
-    <meta property="og:title" content="Sora TV - مشاهدة القنوات العالمية" />
-    <meta property="og:description" content="موقع لمشاهدة القنوات التلفزيونية العالمية على الخريطة التفاعلية" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://isura.com/" />
-    <meta property="og:image" content="https://isura.com/placeholder-logo.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sora TV - مشاهدة القنوات العالمية" />
-    <meta name="twitter:description" content="موقع لمشاهدة القنوات التلفزيونية العالمية على الخريطة التفاعلية" />
-    <meta name="twitter:image" content="https://isura.com/placeholder-logo.png" />
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="Sora TV" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="canonical" href="https://isura.com/" />
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-    </noscript>
-  </head>
-  <body style="font-family: 'Cairo', Arial, sans-serif;">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx" async></script>
-  </body>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+
+  <!-- 🟢 SEO Basic Tags -->
+  <title>Sora TV - مشاهدة القنوات التلفزيونية العالمية المباشرة</title>
+  <meta name="description"
+    content="منصة Sora TV لمشاهدة القنوات التلفزيونية العالمية بث مباشر على خريطة تفاعلية. اكتشف قنوات الأخبار والرياضة والأفلام من جميع أنحاء العالم" />
+  <meta name="keywords"
+    content="قنوات تلفزيونية, بث مباشر, IPTV, قنوات عالمية, أخبار مباشر, رياضة مباشرة, أفلام, مسلسلات" />
+  <meta name="author" content="Sora TV" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!-- 🟢 Open Graph Tags (Social Media) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sora TV - مشاهدة القنوات التلفزيونية العالمية" />
+  <meta property="og:description"
+    content="منصة Sora TV لمشاهدة القنوات التلفزيونية العالمية بث مباشر. قنوات أخبار وأفلام ورياضة من جميع أنحاء العالم" />
+  <meta property="og:image" content="/placeholder-logo.png" />
+  <meta property="og:image:alt" content="Sora TV Logo" />
+
+  <!-- 🟢 Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sora TV - مشاهدة القنوات العالمية" />
+  <meta name="twitter:description" content="بث مباشر للقنوات التلفزيونية العالمية على خريطة تفاعلية" />
+  <meta name="twitter:image" content="/placeholder-logo.png" />
+
+  <!-- 🟢 Canonical URL (يتم تحديثه ديناميكياً) -->
+  <link rel="canonical" href="" />
+
+  <!-- 🟢 Sitemap & RSS -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+  <!-- 🟢 Icons -->
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
+
+  <!-- 🟢 Fonts (Optimized Loading) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" as="style"
+    onload="this.rel='stylesheet'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  </noscript>
+
+  <!-- 🟢 Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Sora TV",
+      "description": "منصة لمشاهدة القنوات التلفزيونية العالمية بث مباشر",
+      "url": "",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "?search={search_term_string}"
+        }
+      },
+      "image": "/placeholder-logo.png",
+      "sameAs": [
+        "https://twitter.com/soratv",
+        "https://instagram.com/soratv"
+      ]
+    }
+    </script>
+
+  <!-- 🟢 Organization Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Sora TV",
+      "description": "منصة بث القنوات التلفزيونية العالمية",
+      "url": "",
+      "logo": "/placeholder-logo.png",
+      "telephone": "",
+      "email": ""
+    }
+    </script>
+</head>
+
+<body style="font-family: 'Cairo', Arial, sans-serif;">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx" async></script>
+
+  <!-- 🟢 Set Canonical URL dynamically -->
+  <script>
+    document.querySelector('link[rel="canonical"]').href = window.location.origin;
+    const schemaWebsite = document.querySelectorAll('script[type="application/ld+json"]')[0];
+    const schemaOrg = document.querySelectorAll('script[type="application/ld+json"]')[1];
+
+    if (schemaWebsite && schemaOrg) {
+      const wsData = JSON.parse(schemaWebsite.innerText);
+      const orgData = JSON.parse(schemaOrg.innerText);
+      wsData.url = window.location.origin;
+      orgData.url = window.location.origin;
+      schemaWebsite.innerText = JSON.stringify(wsData);
+      schemaOrg.innerText = JSON.stringify(orgData);
+    }
+  </script>
+</body>
+
 </html>
