@@ -1,6 +1,54 @@
 import { IPTVChannel } from "./schema";
 
 export const channelsByCountry: Record<string, IPTVChannel[]> = {
+  "Morocco": [
+    { "name": "2M Maroc", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General" },
+    // ... أضف القنوات المغربية هنا ...
+  ],
+  "Spain": [
+    { "name": "Telemadrid", "url": "https://telemadrid-23-secure2.akamaized.net/master.m3u8", "category": "General" },
+    // ... أضف القنوات الإسبانية هنا ...
+  ],
+};
+
+export function getChannelsByCountry(country: string): IPTVChannel[] {
+  return channelsByCountry[country] || [];
+}
+
+export function getChannelsByCategory(category: string): IPTVChannel[] {
+  const channels: IPTVChannel[] = [];
+  for (const countryChannels of Object.values(channelsByCountry)) {
+    channels.push(...countryChannels.filter((ch) => ch.category === category));
+  }
+  return channels;
+}
+
+export function normalizeYouTubeUrl(url: string): string {
+  try {
+    if (url.includes("youtube-nocookie.com/embed/") || url.includes("youtube.com/embed/")) {
+      return url;
+    }
+    let videoId: string | null = null;
+    if (url.includes("youtube.com/watch?v=")) {
+      const match = url.match(/watch\?v=([^&\s]+)/);
+      videoId = match?.[1] || null;
+    } else if (url.includes("youtu.be/")) {
+      const match = url.match(/youtu\.be\/([^\?&\s]+)/);
+      videoId = match?.[1] || null;
+    } else if (url.includes("youtube.com/embed/")) {
+      const match = url.match(/embed\/([^\?&\s]+)/);
+      videoId = match?.[1] || null;
+    }
+    if (videoId) {
+      return `https://www.youtube-nocookie.com/embed/${videoId}`;
+    }
+    return url;
+  } catch {
+    return url;
+  }
+}
+
+export const channelsByCountry: Record<string, IPTVChannel[]> = {
   "Afghanistan": [
   ],
   "South Africa": [
