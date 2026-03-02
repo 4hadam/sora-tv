@@ -1,0 +1,7 @@
+// Google publisher ID (if you use Google AdSense)
+google.com, pub-xxxxxxxxxxxxxxxx, DIRECT, f08c47fec0942fa0
+
+// Placeholder - Add your network partners here
+// Example:
+// openx.com, 123456789, DIRECT, 6a698e2d17692722
+// rubicon.com, 13144, DIRECT, 0bde5d9e8e2541a7

@@ -53,22 +53,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
   </noscript>
 
-  <!-- 🟢 Structured Data (JSON-LD) -->
+  <!-- 🟢 Structured Data (JSON-LD) - Website Schema -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Sora TV",
-      "description": "منصة لمشاهدة القنوات التلفزيونية العالمية بث مباشر",
-      "url": "",
+      "description": "منصة Sora TV لمشاهدة القنوات التلفزيونية العالمية بث مباشر على خريطة تفاعلية",
+      "url": "https://lsura.com",
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "?search={search_term_string}"
+          "urlTemplate": "https://lsura.com/?search={search_term_string}"
         }
       },
-      "image": "/placeholder-logo.png",
+      "image": "https://lsura.com/placeholder-logo.png",
+      "inLanguage": "ar",
       "sameAs": [
         "https://twitter.com/soratv",
         "https://instagram.com/soratv"
@@ -82,11 +83,41 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Sora TV",
-      "description": "منصة بث القنوات التلفزيونية العالمية",
-      "url": "",
-      "logo": "/placeholder-logo.png",
-      "telephone": "",
-      "email": ""
+      "description": "منصة بث القنوات التلفزيونية العالمية المباشرة",
+      "url": "https://lsura.com",
+      "logo": "https://lsura.com/placeholder-logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MA"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "support@lsura.com"
+      },
+      "sameAs": [
+        "https://twitter.com/soratv",
+        "https://instagram.com/soratv"
+      ]
+    }
+    </script>
+
+  <!-- 🟢 Video/Streaming Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Sora TV Live Streaming",
+      "description": "بث مباشر للقنوات التلفزيونية العالمية",
+      "url": "https://lsura.com",
+      "embedUrl": "https://lsura.com",
+      "thumbnailUrl": "https://lsura.com/placeholder-logo.png",
+      "uploadDate": "2026-03-02T00:00:00Z",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "WatchAction",
+        "userInteractionCount": "1000000"
+      }
     }
     </script>
 </head>

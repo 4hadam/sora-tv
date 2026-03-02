@@ -1,0 +1,77 @@
+{
+    "name": "Sora TV - مشاهدة القنوات التلفزيونية المباشرة العالمية",
+    "short_name": "Sora TV",
+    "description": "منصة Sora TV لمشاهدة القنوات التلفزيونية العالمية بث مباشر على خريطة تفاعلية",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "categories": [
+        "entertainment",
+        "news",
+        "sports"
+    ],
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-maskable.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-1.png",
+            "sizes": "540x720",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/screenshot-2.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "أخبار مباشر",
+            "short_name": "الأخبار",
+            "description": "شاهد آخر الأخبار العالمية المباشرة",
+            "url": "/?category=News",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "البث الرياضي",
+            "short_name": "الرياضة",
+            "description": "شاهد أحدث المباريات والأحداث الرياضية",
+            "url": "/?category=Sports",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "prefer_related_applications": false
+}

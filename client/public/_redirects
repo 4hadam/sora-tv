@@ -1,1 +1,32 @@
+# SEO & Analytics Friendly Redirects
+# Sora TV Routing Configuration
+
+# Main SPA route
 /*    /index.html   200
+
+# Security headers and meta files - serve directly
+/robots.txt       /robots.txt         200
+/sitemap.xml      /sitemap.xml        200
+/sitemap-index.xml /sitemap-index.xml 200
+/sitemap-countries.xml /sitemap-countries.xml 200
+/.well-known/*    /.well-known/:splat 200
+
+# SEO optimized redirects
+/index            /                   301
+/home             /                   301
+/home.html        /                   301
+/index.html       /                   301
+
+# Trailing slash normalization (important for SEO)
+/channel/*        /channel/:splat      200
+/country/*        /country/:splat      200
+/category/*       /category/:splat     200
+
+# Legacy URLs redirect (if needed)
+/old-path         /                   301
+
+# Prevent indexing of unwanted paths
+/admin/*          /                   404
+/api/*            /                   404
+/internal/*       /                   404
+/private/*        /                   404
