@@ -121,61 +121,54 @@ function buildOutputFile(
 
     content += "};\n\n";
 
-    // Add helper functions
-    content += `/**
- * ✅ Helper: Get channels by country name
- */
-export function getChannelsByCountry(country: string): IPTVChannel[] {
-  return channelsByCountry[country] || [];
-}
+    // Add helper functions (plain text, not template strings)
+    content += "/**\n";
+    content += " * Helper: Get channels by country name\n";
+    content += " */\n";
+    content += "export function getChannelsByCountry(country: string): IPTVChannel[] {\n";
+    content += "  return channelsByCountry[country] || [];\n";
+    content += "}\n\n";
 
-/**
- * ✅ Helper: Get channels by category
- */
-export function getChannelsByCategory(category: string): IPTVChannel[] {
-  const channels: IPTVChannel[] = [];
-  for (const countryChannels of Object.values(channelsByCountry)) {
-    channels.push(
-      ...countryChannels.filter((ch) => ch.category === category)
-    );
-  }
-  return channels;
-}
+    content += "/**\n";
+    content += " * Helper: Get channels by category\n";
+    content += " */\n";
+    content += "export function getChannelsByCategory(category: string): IPTVChannel[] {\n";
+    content += "  const channels: IPTVChannel[] = [];\n";
+    content += "  for (const countryChannels of Object.values(channelsByCountry)) {\n";
+    content += "    channels.push(\n";
+    content += "      ...countryChannels.filter((ch) => ch.category === category)\n";
+    content += "    );\n";
+    content += "  }\n";
+    content += "  return channels;\n";
+    content += "}\n\n";
 
-/**
- * ✅ Helper: Normalize YouTube URLs to embed format
- */
-export function normalizeYouTubeUrl(url: string): string {
-  try {
-    // If already an embed link, return as is
-    if (url.includes("youtube-nocookie.com/embed/") || url.includes("youtube.com/embed/")) {
-      return url;
-    }
-    
-    // Extract video ID from various YouTube URL formats
-    let videoId: string | null = null;
-    
-    if (url.includes("youtube.com/watch?v=")) {
-      const match = url.match(/watch\\?v=([^&\\s]+)/);
-      videoId = match?.[1] || null;
-    } else if (url.includes("youtu.be/")) {
-      const match = url.match(/youtu\\.be\\/([^\\?&\\s]+)/);
-      videoId = match?.[1] || null;
-    } else if (url.includes("youtube.com/embed/")) {
-      const match = url.match(/embed\\/([^\\?&\\s]+)/);
-      videoId = match?.[1] || null;
-    }
-    
-    // Return embed URL if we found a video ID, otherwise return original
-    if (videoId) {
-      return \`https://www.youtube-nocookie.com/embed/\${videoId}\`;
-    }
-    
-    return url;
-  } catch {
-    return url;
-  }
-}\n`;
+    content += "/**\n";
+    content += " * Helper: Normalize YouTube URLs to embed format\n";
+    content += " */\n";
+    content += "export function normalizeYouTubeUrl(url: string): string {\n";
+    content += "  try {\n";
+    content += "    if (url.includes(\"youtube-nocookie.com/embed/\") || url.includes(\"youtube.com/embed/\")) {\n";
+    content += "      return url;\n";
+    content += "    }\n";
+    content += "    let videoId: string | null = null;\n";
+    content += "    if (url.includes(\"youtube.com/watch?v=\")) {\n";
+    content += "      const match = url.match(/watch\\\\?v=([^&\\\\s]+)/);\n";
+    content += "      videoId = match?.[1] || null;\n";
+    content += "    } else if (url.includes(\"youtu.be/\")) {\n";
+    content += "      const match = url.match(/youtu\\\\.be\\\\/([^\\\\?&\\\\s]+)/);\n";
+    content += "      videoId = match?.[1] || null;\n";
+    content += "    } else if (url.includes(\"youtube.com/embed/\")) {\n";
+    content += "      const match = url.match(/embed\\\\/([^\\\\?&\\\\s]+)/);\n";
+    content += "      videoId = match?.[1] || null;\n";
+    content += "    }\n";
+    content += "    if (videoId) {\n";
+    content += "      return `https://www.youtube-nocookie.com/embed/${videoId}`;\n";
+    content += "    }\n";
+    content += "    return url;\n";
+    content += "  } catch {\n";
+    content += "    return url;\n";
+    content += "  }\n";
+    content += "}\n";
 
     return content;
 }
