@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { AlertCircle, X, Star } from "lucide-react"
-import { getChannelsByCountry, getChannelsByCategory } from "@shared/iptv-channels" 
+import { getChannelsByCountry, getChannelsByCategory } from "@shared/iptv-channels"
 import VideoPlayer from "@/components/video-player"
 import VideoJsPlayer from "@/components/videojs-player"
 
@@ -23,7 +23,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
   const [error, setError] = useState<string>("")
   const [isFavorited, setIsFavorited] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
-  const [isYouTube, setIsYouTube] = useState(false) 
+  const [isYouTube, setIsYouTube] = useState(false)
 
   useEffect(() => {
     setIsMounted(true)
@@ -65,33 +65,33 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
     setLoading(true)
     setError("")
     setStreamUrl("")
-    setIsYouTube(false) 
-    
+    setIsYouTube(false)
+
     const fetchChannels = async () => {
       try {
         let channels: Channel[] = []
         let channelSource: string = country
 
         if (activeCategory === "all-channels" || (activeCategory !== country)) {
-            channels = await getChannelsByCountry(country)
-            channelSource = country
-        } 
+          channels = await getChannelsByCountry(country)
+          channelSource = country
+        }
         else {
-            channels = await getChannelsByCategory(activeCategory)
-            channelSource = activeCategory
+          channels = await getChannelsByCategory(activeCategory)
+          channelSource = activeCategory
         }
 
         const selectedChannel = channels.find((c) => c.name === channel)
         if (selectedChannel && selectedChannel.url) {
           const url = selectedChannel.url.trim()
           if (url.startsWith("http://") || url.startsWith("https://")) {
-            
+
             if (url.includes("youtube.com") || url.includes("youtube-nocookie.com")) {
               setIsYouTube(true)
-              setStreamUrl(url) 
+              setStreamUrl(url)
             } else {
               setIsYouTube(false)
-              setStreamUrl(url) 
+              setStreamUrl(url)
             }
           } else {
             setError("Invalid stream URL format. Only HTTP/HTTPS streams are supported.")
@@ -110,12 +110,12 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
 
   return (
     <div className="relative w-full h-full flex items-center justify-center bg-transparent">
-      
+
       <div className={
         isMobile
-          // 👈🔴 (التعديل) تغيير h-full إلى aspect-video
+          // Note: Change h-full to aspect-video
           ? "relative w-full aspect-video bg-black"
-          // (لوضع سطح المكتب: استخدم التنسيقات الأصلية للنافذة العائمة)
+          // For desktop mode: use original floating window dimensions
           : "relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
       }>
         {loading ? (
@@ -134,7 +134,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             <VideoPlayer
               src={streamUrl}
               autoPlay
-              muted={false} 
+              muted={false}
               isMobile={isMobile}
             />
           ) : (
@@ -142,7 +142,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
               src={streamUrl}
               isLive={true}
               autoPlay={true}
-              muted={false} 
+              muted={false}
               isMobile={isMobile}
             />
           )
@@ -164,9 +164,8 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             aria-label={isFavorited ? "Remove from favorites" : "Add to favorites"}
           >
             <Star
-              className={`w-5 h-5 transition-all ${
-                isFavorited ? "fill-yellow-400 text-yellow-400" : "text-white"
-              }`}
+              className={`w-5 h-5 transition-all ${isFavorited ? "fill-yellow-400 text-yellow-400" : "text-white"
+                }`}
             />
           </button>
           <button

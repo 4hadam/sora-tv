@@ -19,7 +19,7 @@ interface ParsedChannel {
   name: string
 }
 
-// قائمة الدول ورموزها
+// Countries and their country codes
 const countryCodeMap: Record<string, string> = {
   'MA': 'Morocco',
   'SA': 'Saudi Arabia',
@@ -107,11 +107,11 @@ async function fetchAndProcessIPTVChannels(): Promise<Record<string, Channel[]>>
 
   // قائمة مصادر IPTV موثوقة
   const iptvSources = [
-    { 
+    {
       url: 'https://iptv-org.github.io/iptv/index.m3u',
       name: 'IPTV.org - Index'
     },
-    { 
+    {
       url: 'https://github.com/iptv-org/iptv/raw/master/playlists/ar.m3u',
       name: 'Arabic Channels'
     },
@@ -124,7 +124,7 @@ async function fetchAndProcessIPTVChannels(): Promise<Record<string, Channel[]>>
   try {
     for (const source of iptvSources) {
       console.log(`\n📥 جاري جلب: ${source.name}...`);
-      
+
       try {
         const response = await axios.get(source.url, {
           timeout: 20000,
@@ -192,7 +192,7 @@ async function fetchAndProcessIPTVChannels(): Promise<Record<string, Channel[]>>
               const isDuplicate = channelsByCountry[countryName].some(
                 ch => ch.url === url && ch.name === currentChannelInfo.name
               );
-              
+
               if (!isDuplicate && channelsByCountry[countryName].length < 50) {
                 channelsByCountry[countryName].push(channel);
                 console.log(`  ✅ ${currentChannelInfo.name} (${countryName})`);
@@ -266,10 +266,10 @@ async function main() {
   console.log('🚀 بدء تحديث قنوات IPTV...\n');
   const channels = await fetchAndProcessIPTVChannels();
   console.log(`\n📊 تم جمع ${Object.keys(channels).length} دول\n`);
-  
+
   // حفظ القنوات في الملف تلقائياً
   await updateIPTVChannelsFile(channels);
-  
+
   console.log('✅ اكتمل!\n');
 }
 

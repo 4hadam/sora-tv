@@ -7,7 +7,7 @@ export const useVolumeControl = () => {
   const [volume, setVolume] = useState<number>(DEFAULT_VOLUME)
   const [isHydrated, setIsHydrated] = useState(false)
 
-  // قراءة مستوى الصوت من localStorage عند التحميل
+  // Read volume level from localStorage on load
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const savedVolume = localStorage.getItem(VOLUME_STORAGE_KEY)
@@ -21,7 +21,7 @@ export const useVolumeControl = () => {
     }
   }, [])
 
-  // حفظ مستوى الصوت في localStorage عند التغيير
+  // Save volume level to localStorage on change
   const updateVolume = (newVolume: number) => {
     const clampedVolume = Math.max(0, Math.min(1, newVolume))
     setVolume(clampedVolume)

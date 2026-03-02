@@ -21,12 +21,12 @@ export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [selectedChannel, setSelectedChannel] = useState<string | null>(null)
   const [mounted, setMounted] = useState(false)
-  const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false) 
+  const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
   const [currentTime, setCurrentTime] = useState("")
   const [isCategorySidebarOpen, setIsCategorySidebarOpen] = useState(false)
   const [activeCategory, setActiveCategory] = useState("all-channels")
-  
+
   // ✅ Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
 
@@ -47,27 +47,27 @@ export default function Home() {
 
   if (!mounted) return null
 
-  // 🎯 --- معالجات الأحداث ---
+  // 🎯 --- Event Handlers ---
   const handleGlobeCountryClick = (countryName: string) => {
     setSelectedChannel(null)
     setSelectedCountry(countryName)
-    setActiveCategory("all-channels") 
+    setActiveCategory("all-channels")
     if (isMobile) setMobileSidebarOpen(true)
   }
 
   const handleSelectCountry = (country: string | null) => {
     setSelectedChannel(null)
     setSelectedCountry(country)
-    setActiveCategory("all-channels") 
-    if (isMobile && !country) setMobileSidebarOpen(false) 
+    setActiveCategory("all-channels")
+    if (isMobile && !country) setMobileSidebarOpen(false)
   }
-  
+
   const handleCategorySelect = (category: string) => {
-    setActiveCategory(category) 
-    setSelectedCountry(null)    
-    setSelectedChannel(null)    
-    setIsCategorySidebarOpen(false) 
-    
+    setActiveCategory(category)
+    setSelectedCountry(null)
+    setSelectedChannel(null)
+    setIsCategorySidebarOpen(false)
+
     if (isMobile && !mobileSidebarOpen) {
       setMobileSidebarOpen(true)
     }
@@ -85,25 +85,25 @@ export default function Home() {
 
   return (
     <div className="flex flex-col h-screen w-full bg-transparent text-white overflow-hidden">
-      <TopNavbar 
+      <TopNavbar
         onMenuClick={toggleCategorySidebar}
         isMenuOpen={isCategorySidebarOpen}
       />
 
       <div className="flex-1 overflow-hidden relative">
-        
-{/* 🌍 الكرة الأرضية */}
-<div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
-  <Suspense fallback={<ComponentLoader />}>
-    <GlobeViewer
-      selectedCountry={selectedCountry}
-      onCountryClick={handleGlobeCountryClick}
-      isMobile={isMobile}
-    />
-  </Suspense>
-</div>
-        {/* 🎥 مشغل الفيديو (سطح المكتب فقط) */}
-        {!isMobile && selectedChannel && (selectedCountry || activeCategory !== "all-channels") && ( 
+
+        {/* 🌍 Globe Viewer */}
+        <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
+          <Suspense fallback={<ComponentLoader />}>
+            <GlobeViewer
+              selectedCountry={selectedCountry}
+              onCountryClick={handleGlobeCountryClick}
+              isMobile={isMobile}
+            />
+          </Suspense>
+        </div>
+        {/* 🎥 Video Player (Desktop Only) */}
+        {!isMobile && selectedChannel && (selectedCountry || activeCategory !== "all-channels") && (
           <div
             className="absolute top-0 bottom-0 z-30 flex items-center justify-center p-4 sm:p-8 
                       left-0 right-0 sm:right-[320px] lg:right-[340px]"
@@ -113,12 +113,12 @@ export default function Home() {
               channel={selectedChannel}
               onBack={handleBackFromPlayer}
               isMobile={isMobile}
-              activeCategory={activeCategory} 
+              activeCategory={activeCategory}
             />
           </div>
         )}
 
-        {/* 🖥️ قائمة سطح المكتب (الخاصة بالدول - يمين) */}
+        {/* 🖥️ Desktop Sidebar (Countries - Right) */}
         {!isMobile && (
           <div
             className="absolute right-0 top-16 bottom-0 w-[320px] lg:w-[340px] z-20 bg-gray-900/90 backdrop-blur-md"
@@ -128,16 +128,16 @@ export default function Home() {
               selectedCountry={selectedCountry}
               onSelectCountry={handleSelectCountry}
               onSelectChannel={handleSelectChannel}
-              onClose={() => {}}
+              onClose={() => { }}
               externalSearch={searchQuery}
               currentTime={currentTime}
               isMobile={isMobile}
-              activeCategory={activeCategory} 
+              activeCategory={activeCategory}
             />
           </div>
         )}
 
-{/* 📱 🖥️  قائمة الفئات المنبثقة (لجميع الأحجام) */}
+        {/* 📱 🖥️  Category Sidebar (All Sizes) */}
         <>
           <div
             className={`fixed top-16 left-0 bottom-0 z-40 w-64 bg-[#0B0D11] shadow-lg transform transition-transform duration-300 ease-in-out
@@ -158,7 +158,7 @@ export default function Home() {
         </>
 
 
-        {/* 📱 قائمة الهاتف (الخاصة بالقنوات) */}
+        {/* 📱 Mobile Sidebar (Channels) */}
         {isMobile && (
           <>
             <div
@@ -167,29 +167,28 @@ export default function Home() {
                 top-16 bottom-0 flex flex-col`}
             >
               {selectedChannel && (
-                // 👈🔴 (التعديل 1) إزالة flex-1
+                // Note 1:
                 <div className="w-full bg-black flex-shrink-0 relative">
                   <CountryDetail
-                    country={selectedCountry ?? activeCategory} 
+                    country={selectedCountry ?? activeCategory}
                     channel={selectedChannel}
                     onBack={handleBackFromPlayer}
                     isMobile={isMobile}
-                    activeCategory={activeCategory} 
+                    activeCategory={activeCategory}
                   />
                 </div>
               )}
-              
+
               <div
                 onClick={toggleMobileSidebar}
-                className={`w-full flex items-center justify-center cursor-grab flex-shrink-0 ${
-                  selectedChannel ? 'py-0' : 'py-1.5' // (تعديل الهامش من المرة السابقة)
-                }`}
+                className={`w-full flex items-center justify-center cursor-grab flex-shrink-0 ${selectedChannel ? 'py-0' : 'py-1.5' // Previous margin adjustment
+                  }`}
                 aria-label="Toggle sidebar"
               >
                 <span className="w-12 h-1.5 bg-gray-700 rounded-full" />
               </div>
-              
-              {/* 👈🔴 (التعديل 2) تغيير h-[60%] إلى flex-1 */}
+
+              {/* Note 2: Change h-[60%] to flex-1 */}
               <div className="flex-1 overflow-y-auto custom-scroll">
                 <CountrySidebar
                   selectedCountry={selectedCountry}
@@ -198,8 +197,8 @@ export default function Home() {
                   onClose={toggleMobileSidebar}
                   externalSearch={searchQuery}
                   currentTime={currentTime}
-                  isMobile={isMobile} 
-                  activeCategory={activeCategory} 
+                  isMobile={isMobile}
+                  activeCategory={activeCategory}
                 />
               </div>
             </div>

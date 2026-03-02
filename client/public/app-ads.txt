@@ -1,4 +1,4 @@
-# Sora TV - App Ads Configuration
+# Sora.tv - App Ads Configuration
 # This file is used for app advertising networks
 
 # Google Play Store

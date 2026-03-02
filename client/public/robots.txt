@@ -1,5 +1,5 @@
-# 🤖 Sora TV - محرك البحث Google الأمثل
-# يسمح لمحركات البحث بالزحف الكامل للموقع
+# 🤖 Sora.tv - Google Search Engine Optimization
+# Allows search engines to crawl all content freely
 
 User-agent: *
 Allow: /
@@ -12,32 +12,32 @@ Allow: /*.gif
 Allow: /*.svg
 Allow: /*.webp
 
-# منع الصفحات الداخلية والخاصة
+# Disallow private and internal pages
 Disallow: /admin
 Disallow: /private
 Disallow: /internal
 Disallow: /api/
 Disallow: /*.pdf$
 
-# تحسين سرعة الزحف
+# Crawl optimization for faster indexing
 Crawl-delay: 0
 Request-rate: 100/60s
 
 # Sitemaps
-Sitemap: https://lsura.com/sitemap.xml
-Sitemap: https://lsura.com/sitemap-countries.xml
+Sitemap: https://sora.tv/sitemap.xml
+Sitemap: https://sora.tv/sitemap-countries.xml
 
-# Google specific rules
+# Google Specific Rules
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
-# Bing specific rules
+# Bing Specific Rules
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
-# Block bad bots
+# Block Bad Bots
 User-agent: MJ12bot
 Disallow: /
 
@@ -46,6 +46,7 @@ Disallow: /
 
 User-agent: SemrushBot
 Disallow: /
+
 
 
 # Specific search engine rules

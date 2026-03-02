@@ -2,7 +2,7 @@
 
 import type { MouseEvent } from "react"
 
-// 1. Props (من ملفك القديم)
+// 1. Props
 interface CategorySidebarProps {
   activeCategory: string | null
   onCategorySelect: (category: string) => void
@@ -14,33 +14,33 @@ export default function CategorySidebar({
   onCategorySelect,
   onClose,
 }: CategorySidebarProps) {
-  
-  // 2. معالج الضغط (من ملفك القديم)
+
+  // 2. Click Handler
   const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
     const target = e.currentTarget.dataset.target
     if (target) {
       onCategorySelect(target)
     }
-    // onClose() // يمكنك تفعيل هذا إذا أردت أن تغلق القائمة عند الضغط على الهاتف
+    // onClose() // You can enable this to close the menu on mobile
   }
 
-  // 3. دالة كلاسات Tailwind
+  // 3. Tailwind Class Function
   const getButtonClass = (target: string) => {
-    // كلاسات أساسية مترجمة من "drawer-menu-button"
+    // Base classes
     const baseClass = "flex items-center w-full gap-4 px-3 py-2.5 rounded-lg text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
-    // كلاسات نشطة مترجمة من "is-active"
+    // Active state classes
     const isActive = activeCategory === target ? "bg-gray-800 text-white font-semibold" : ""
     return `${baseClass} ${isActive}`.trim()
   }
 
-  // كلاس الأيقونة مترجم من "icon"
+  // Icon classes
   const iconClass = "w-6 h-6 flex items-center justify-center flex-shrink-0"
 
   return (
-    // هذا هو "drawer-content" مترجماً
+    // Navigation drawer content
     <nav className="w-full h-full flex flex-col p-4 text-white overflow-y-auto custom-scroll">
-      
-      {/* === القسم العلوي === */}
+
+      {/* === Top Section === */}
       <div className="flex flex-col">
         <ul className="space-y-1">
           <li>
@@ -83,19 +83,19 @@ export default function CategorySidebar({
             </button>
           </li>
         </ul>
-        {/* "drawer-divider" */}
+        {/* Divider */}
         <hr className="my-4 border-gray-700" />
       </div>
 
-      {/* === القسم الأوسط (Explore) === */}
+      {/* === Middle Section (Explore) === */}
       <div className="flex flex-col flex-1">
         <ul className="space-y-1">
-          {/* "drawer-section-title" */}
+          {/* Section title */}
           <li className="px-3 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
             Explore
           </li>
-          
-          {/* --- بداية القائمة المضافة --- */}
+
+          {/* --- Start of category list --- */}
           <li><button type="button" data-target="all-channels" className={getButtonClass("all-channels")} onClick={handleClick}><span className={iconClass}><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M10.5 17.15l3.98-2.28c.67-.38.67-1.35 0-1.74l-3.98-2.28c-.67-.38-1.5.11-1.5.87v4.55c0 .77.83 1.26 1.5.88zM21 6h-7.59l2.94-2.94c.2-.2.2-.51 0-.71s-.51-.2-.71 0L12 5.99 8.36 2.35c-.2-.2-.51-.2-.71 0s-.2.51 0 .71L10.59 6H3c-1.1 0-2 .89-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.11-.9-2-2-2zm-1 14H4c-.55 0-1-.45-1-1V9c0-.55.45-1 1-1h16c.55 0 1 .45 1 1v10c0 .55-.45 1-1 1z" fill="currentColor"></path></svg> </span><span>All Channels</span></button></li>
           <li><button type="button" data-target="top-news" className={getButtonClass("top-news")} onClick={handleClick}><span className={iconClass}><svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"></rect></g><g><path d="M22,3l-1.67,1.67L18.67,3L17,4.67L15.33,3l-1.66,1.67L12,3l-1.67,1.67L8.67,3L7,4.67L5.33,3L3.67,4.67L2,3v16 c0,1.1,0.9,2,2,2l16,0c1.1,0,2-0.9,2-2V3z M11,19H4v-6h7V19z M20,19h-7v-2h7V19z M20,15h-7v-2h7V15z M20,11H4V8h16V11z" fill="currentColor"></path></g></svg> </span><span>Top News</span></button></li>
           <li><button type="button" data-target="news" className={getButtonClass("news")} onClick={handleClick}><span className={iconClass}><svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"></rect></g><g><path d="M22,3l-1.67,1.67L18.67,3L17,4.67L15.33,3l-1.66,1.67L12,3l-1.67,1.67L8.67,3L7,4.67L5.33,3L3.67,4.67L2,3v16 c0,1.1,0.9,2,2,2l16,0c1.1,0,2-0.9,2-2V3z M11,19H4v-6h7V19z M20,19h-7v-2h7V19z M20,15h-7v-2h7V15z M20,11H4V8h16V11z" fill="currentColor"></path></g></svg> </span><span>News</span></button></li>
@@ -125,13 +125,13 @@ export default function CategorySidebar({
           <li><button type="button" data-target="shop" className={getButtonClass("shop")} onClick={handleClick}><span className={iconClass}><svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><path d="M0,0h24v24H0V0z" fill="none"></path></g><g><g><path d="M21.41,11.41l-8.83-8.83C12.21,2.21,11.7,2,11.17,2H4C2.9,2,2,2.9,2,4v7.17c0,0.53,0.21,1.04,0.59,1.41l8.83,8.83 c0.78,0.78,2.05,0.78,2.83,0l7.17-7.17C22.2,13.46,22.2,12.2,21.41,11.41z M12.83,20L4,11.17V4h7.17L20,12.83L12.83,20z" fill="currentColor"></path><circle cx="6.5" cy="6.5" r="1.5" fill="currentColor"></circle></g></g></svg> </span><span>Shop</span></button></li>
           <li><button type="button" data-target="travel" className={getButtonClass("travel")} onClick={handleClick}><span className={iconClass}><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" fill="currentColor"></path></svg> </span><span>Travel</span></button></li>
           <li><button type="button" data-target="weather" className={getButtonClass("weather")} onClick={handleClick}><span className={iconClass}><svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><rect fill="none" height="24" width="24"></rect><path d="M11,4V2c0-0.55,0.45-1,1-1s1,0.45,1,1v2c0,0.55-0.45,1-1,1S11,4.55,11,4z M18.36,7.05l1.41-1.42c0.39-0.39,0.39-1.02,0-1.41 c-0.39-0.39-1.02-0.39-1.41,0l-1.41,1.42c-0.39,0.39-0.39,1.02,0,1.41C17.34,7.44,17.97,7.44,18.36,7.05z M22,11h-2 c-0.55,0-1,0.45-1,1s0.45,1,1,1h2c0.55,0,1-0.45,1-1S22.55,11,22,11z M12,19c-0.55,0-1,0.45-1,1v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2 C13,19.45,12.55,19,12,19z M5.64,7.05L4.22,5.64c-0.39-0.39-0.39-1.03,0-1.41s1.03-0.39,1.41,0l1.41,1.41 c0.39,0.39,0.39,1.03,0,1.41S6.02,7.44,5.64,7.05z M16.95,16.95c-0.39,0.39-0.39,1.03,0,1.41l1.41,1.41c0.39,0.39,1.03,0.39,1.41,0 c0.39-0.39,0.39-1.03,0-1.41l-1.41-1.41C17.98,16.56,17.34,16.56,16.95,16.95z M2,13h2c0.55,0,1-0.45,1-1s-0.45-1-1-1H2 c-0.55,0-1,0.45-1,1S1.45,13,2,13z M5.64,19.78l1.41-1.41c0.39-0.39,0.39-1.03,0-1.41s-1.03-0.39-1.41,0l-1.41,1.41 c-0.39,0.39-0.39,1.03,0,1.41C4.61,20.17,5.25,20.17,5.64,19.78z M12,6c-3.31,0-6,2.69-6,6s2.69,6,6,6s6-2.69,6-6S15.31,6,12,6z" fill="currentColor"></path></svg> </span><span>Weather</span></button></li>
-          {/* --- نهاية القائمة المضافة --- */}
-        
+          {/* --- End of category list --- */}
+
         </ul>
       </div>
 
-      {/* === القسم السفلي === */}
-      {/* mt-auto يدفع هذا القسم للأسفل */}
+      {/* === Bottom Section === */}
+      {/* mt-auto pushes this section to the bottom */}
       <div className="flex flex-col mt-auto pt-4">
         <hr className="my-4 border-gray-700" />
         <ul className="space-y-1">

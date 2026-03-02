@@ -1,7 +1,7 @@
 {
-    "name": "Sora TV - مشاهدة القنوات التلفزيونية المباشرة العالمية",
-    "short_name": "Sora TV",
-    "description": "منصة Sora TV لمشاهدة القنوات التلفزيونية العالمية بث مباشر على خريطة تفاعلية",
+    "name": "Sora.tv - Watch Live World TV Channels Online",
+    "short_name": "Sora.tv",
+    "description": "Watch free live TV channels from around the world. Stream global news, sports, entertainment, and more.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
@@ -49,9 +49,9 @@
     ],
     "shortcuts": [
         {
-            "name": "أخبار مباشر",
-            "short_name": "الأخبار",
-            "description": "شاهد آخر الأخبار العالمية المباشرة",
+            "name": "News Live",
+            "short_name": "News",
+            "description": "Watch live news channels from around the world",
             "url": "/?category=News",
             "icons": [
                 {
@@ -61,9 +61,9 @@
             ]
         },
         {
-            "name": "البث الرياضي",
-            "short_name": "الرياضة",
-            "description": "شاهد أحدث المباريات والأحداث الرياضية",
+            "name": "Sports Live",
+            "short_name": "Sports",
+            "description": "Watch live sports events and matches worldwide",
             "url": "/?category=Sports",
             "icons": [
                 {

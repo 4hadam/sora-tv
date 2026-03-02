@@ -287,8 +287,8 @@ function detectChannelLang(channel: any, countryFallback?: string | null): strin
 
   /** رموز اللغات القياسية (ISO 639-1) */
   const validLangs = new Set([
-    "ar","en","fr","es","pt","tr","ur","he","de","ru","zh","it","nl","pl","sv","no","fi","da","hi","bn","sw",
-    "am","km","ms","vi","ja","ko","ro","az","cs","el","sr","hr","bg","hu","sk","sl","mk","lt","lv","et","fa"
+    "ar", "en", "fr", "es", "pt", "tr", "ur", "he", "de", "ru", "zh", "it", "nl", "pl", "sv", "no", "fi", "da", "hi", "bn", "sw",
+    "am", "km", "ms", "vi", "ja", "ko", "ro", "az", "cs", "el", "sr", "hr", "bg", "hu", "sk", "sl", "mk", "lt", "lv", "et", "fa"
   ])
 
   // 1️⃣ فحص الحقول المباشرة الشائعة
@@ -324,7 +324,7 @@ function detectChannelLang(channel: any, countryFallback?: string | null): strin
 
   // 2️⃣ فحص النصوص الداخلية لكن بدون كلمات مثل TV / HD / Radio / Music
   const text = JSON.stringify(channel).toLowerCase()
-  const blacklist = ["tv","hd","fm","radio","video","music","channel","news","live","feed"]
+  const blacklist = ["tv", "hd", "fm", "radio", "video", "music", "channel", "news", "live", "feed"]
   const safeText = blacklist.reduce((acc, w) => acc.replaceAll(w, ""), text)
 
   // 3️⃣ الكشف عبر حروف أو كلمات دلالية
@@ -418,11 +418,11 @@ export default function CountrySidebar({
 
   const handleSelectCountry = (country: string) => onSelectCountry(country)
 
-  // تعديل دالة "الرجوع"
+  // Back button handler
   const handleBack = () => {
-    // دائماً ارجع إلى قائمة الدول (سواء كنت في دولة أو في قائمة فئة عامة)
+    // Always return to countries list (whether in a country or general category)
     onSelectCountry(null)
-    // (ملاحظة: page.tsx يجب أن يعيد activeCategory إلى "all-channels")
+    // (Note: page.tsx should reset activeCategory to "all-channels")
   }
 
   const handleSelectChannel = (channel: IPTVChannel) => {
@@ -521,7 +521,7 @@ export default function CountrySidebar({
                 {channels.map((channel, index) => {
                   const isYT = isYouTubeChannel(channel)
                   const lang = detectChannelLang(channel, selectedCountry || channel.countryName || undefined) || ""
-                  
+
                   // تحديد العلم الصحيح
                   const flagCode = selectedCountry ? getCode(selectedCountry) : getCode(channel.countryName || "")
 
