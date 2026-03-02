@@ -45,8 +45,8 @@ export default function TopNavbar({
             href="/"
             className="flex items-center"
             aria-label="Home - sora.tv"
-          />
-          <svg
+          >
+            <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 480 140"
             role="img"
@@ -85,6 +85,7 @@ export default function TopNavbar({
             <circle cx="210" cy="73" r="7" fill="#FF4B2B" />
             <text x="219" y="84" fill={tvFill}>tv</text>
             <rect x="0" y="0" width="480" height="140" fill="transparent" />
+          </svg>
           </a>
 
           {/* Country Display with Flag */}
