@@ -2,20 +2,23 @@
 
 import { useEffect, useState } from "react"
 import { Menu, X } from "lucide-react"
+import { getCountryFlag } from "@/lib/country-flags"
 
 interface TopNavbarProps {
   onMenuClick?: () => void
   isMenuOpen?: boolean
+  selectedCountry?: string | null
 }
 
 export default function TopNavbar({
   onMenuClick,
   isMenuOpen = false,
+  selectedCountry = null,
 }: TopNavbarProps) {
-  
+
   // 🔴 تم حذف 'scrolled' لأن الخلفية أصبحت ثابتة
   // const [scrolled, setScrolled] = useState(false)
-  const [tvFill, setTvFill] = useState("#000000") 
+  const [tvFill, setTvFill] = useState("#000000")
 
   // 🔴 تم حذف 'useEffect' الخاص بـ 'onScroll'
   // useEffect(() => { ... }, [])
@@ -26,7 +29,7 @@ export default function TopNavbar({
       setTvFill(`url(${baseUrl}#tvGradient)`);
     }
   }, [])
-  
+
   return (
     <header
       // 🔴🔴🔴 التعديل هنا: تغيير الخلفية 🔴🔴🔴
@@ -35,13 +38,14 @@ export default function TopNavbar({
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-[#0B0D11]`}
     >
       <div className="relative px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-        
-        {/* ✨ Logo (في البداية) */}
-        <a
-          href="/"
-          className="flex items-center" 
-          aria-label="Home - sora.tv"
-        >
+
+        {/* ✨ Logo & Country (on the left) */}
+        <div className="flex items-center gap-4">
+          <a
+            href="/"
+            className="flex items-center"
+            aria-label="Home - sora.tv"
+          />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 480 140"
@@ -54,11 +58,11 @@ export default function TopNavbar({
             <desc>شعار sora.tv بخط Caros Soft Bold...</desc>
             <defs>
               <linearGradient id="tvGradient" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0%" stopColor="#FF4B2B"/>
-                <stop offset="25%" stopColor="#FF7A2B"/>
-                <stop offset="50%" stopColor="#FFD75A"/>
-                <stop offset="70%" stopColor="#62E3C6"/>
-                <stop offset="100%" stopColor="#27A9E1"/>
+                <stop offset="0%" stopColor="#FF4B2B" />
+                <stop offset="25%" stopColor="#FF7A2B" />
+                <stop offset="50%" stopColor="#FFD75A" />
+                <stop offset="70%" stopColor="#62E3C6" />
+                <stop offset="100%" stopColor="#27A9E1" />
               </linearGradient>
             </defs>
             <style>
@@ -78,16 +82,25 @@ export default function TopNavbar({
               `}
             </style>
             <text x="87.5" y="84" fill="#FFFFFF">sora</text>
-            <circle cx="210" cy="73" r="7" fill="#FF4B2B"/>
+            <circle cx="210" cy="73" r="7" fill="#FF4B2B" />
             <text x="219" y="84" fill={tvFill}>tv</text>
-            <rect x="0" y="0" width="480" height="140" fill="transparent"/>
-          </svg>
-        </a>
+            <rect x="0" y="0" width="480" height="140" fill="transparent" />
+          </a>
 
+          {/* Country Display with Flag */}
+          {selectedCountry && (
+            <div className="hidden sm:flex items-center gap-2 px-3 py-1 rounded-lg bg-gray-800/50">
+              <span className="text-xl">{getCountryFlag(selectedCountry)}</span>
+              <span className="text-sm font-medium text-gray-300">{selectedCountry}</span>
+            </div>
+          )}
+        </div>
+
+        {/* Menu Button (on the right
         {/* 🔴 زر القائمة (في اليمين) */}
         <div className="flex items-center">
           <button
-            onClick={onMenuClick} 
+            onClick={onMenuClick}
             className="text-white focus:outline-none"
             aria-label="Toggle menu"
           >

@@ -88,8 +88,7 @@ export default function Home() {
       <TopNavbar
         onMenuClick={toggleCategorySidebar}
         isMenuOpen={isCategorySidebarOpen}
-      />
-
+        selectedCountry={selectedCountry}
       <div className="flex-1 overflow-hidden relative">
 
         {/* 🌍 Globe Viewer */}
