@@ -89,6 +89,8 @@ export default function Home() {
         onMenuClick={toggleCategorySidebar}
         isMenuOpen={isCategorySidebarOpen}
         selectedCountry={selectedCountry}
+      />
+
       <div className="flex-1 overflow-hidden relative">
 
         {/* 🌍 Globe Viewer */}
