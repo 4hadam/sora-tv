@@ -21,6 +21,7 @@ export default function GlobeViewer({
   const polygonsDataRef = useRef<any>(null)
   const starsRef = useRef<THREE.Group | null>(null)
   const resizeObserverRef = useRef<ResizeObserver | null>(null)
+  const touchStartRef = useRef<{ x: number; y: number; time: number } | null>(null)
 
   const vividPalette = [
     "#FFEB3B", "#FF5722", "#2196F3", "#4CAF50", "#E91E63",
@@ -53,12 +54,12 @@ export default function GlobeViewer({
         .globeImageUrl(
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
         )
-        .showAtmosphere(true) 
-        .atmosphereColor("#4488FF") 
-        .atmosphereAltitude(0.28) 
+        .showAtmosphere(true)
+        .atmosphereColor("#4488FF")
+        .atmosphereAltitude(0.28)
         .polygonSideColor(() => "rgba(255,255,255,0.1)")
         // 🔴🔴🔴 التعديل هنا: إظهار الحدود فقط على سطح المكتب 🔴🔴🔴
-        .polygonStrokeColor(() => isMobile ? "transparent" : "rgba(0,0,0,0.25)") 
+        .polygonStrokeColor(() => isMobile ? "transparent" : "rgba(0,0,0,0.25)")
 
       globe.renderOrder = 1;
       globe.scene().background = new THREE.Color(0x000000)
@@ -111,15 +112,15 @@ export default function GlobeViewer({
 
       const whiteColor = "#FFFFFF";
       const goldenColor = "#FFEBBE";
-      
+
       if (isMobile) {
         createStars(500, whiteColor, 4.0, 6000)
         createStars(300, goldenColor, 3.5, 7500)
       } else {
-        createStars(1500, whiteColor, 4.5, 6000) 
+        createStars(1500, whiteColor, 4.5, 6000)
         createStars(1000, goldenColor, 3.6, 7500)
       }
-      
+
       scene.add(starGroup)
       starsRef.current = starGroup
 
@@ -222,9 +223,108 @@ export default function GlobeViewer({
       const altitude = isMobile ? 3.5 : 2.5;
       globeRef.current.pointOfView({ altitude: altitude }, 400);
     }
-  }, [isMobile]);
+  }, [isMobile])
 
-  return (
-    <div ref={containerRef} className="w-full h-full bg-transparent" aria-label="pixelated dot stars globe" />
-  )
-}
+  // معالج أحداث Touch للموبايل - تحويل الضغطة إلى Click
+  useEffect(() => {
+    if (!isMobile || !globeRef.current || !containerRef.current) return;
+
+    let touchIdentifier: number | null = null;
+    const touchThreshold = 15; // بكسل
+
+    const handleTouchStart = (e: TouchEvent) => {
+      if (e.touches.length === 1) {
+        const touch = e.touches[0];
+        touchIdentifier = touch.identifier;
+        touchStartRef.current = {
+          x: touch.clientX,
+          y: touch.clientY,
+          time: Date.now()
+        };
+      }
+    };
+
+    const handleTouchEnd = (e: TouchEvent) => {
+      if (!touchStartRef.current || touchIdentifier === null) return;
+
+      let touchEnd = null;
+      for (const touch of Array.from(e.changedTouches)) {
+        if (touch.identifier === touchIdentifier) {
+          touchEnd = touch;
+          break;
+        }
+      }
+
+      if (!touchEnd) return;
+
+      const { x: startX, y: startY, time: startTime } = touchStartRef.current;
+      const deltaX = Math.abs(touchEnd.clientX - startX);
+      const deltaY = Math.abs(touchEnd.clientY - startY);
+      const deltaTime = Date.now() - startTime;
+
+      // التحقق من أنها ضغطة قصيرة وليست حركة مسح
+      if (deltaX <= touchThreshold && deltaY <= touchThreshold && deltaTime < 300) {
+        // محاولة الحصول على الدولة المُضغوط عليها
+        if (polygonsDataRef.current && globeRef.current) {
+          const rect = containerRef.current!.getBoundingClientRect();
+          const canvasX = (touchEnd.clientX - rect.left) / rect.width;
+          const canvasY = (touchEnd.clientY - rect.top) / rect.height;
+
+          // استخدم raycasting داخل globe.gl
+          const camera = globeRef.current.camera?.();
+          const renderer = globeRef.current.renderer?.();
+
+          if (camera && renderer && canvasX >= 0 && canvasX <= 1 && canvasY >= 0 && canvasY <= 1) {
+            const mouse = new THREE.Vector2();
+            mouse.x = canvasX * 2 - 1;
+            mouse.y = -(canvasY * 2 - 1);
+
+            const raycaster = new THREE.Raycaster();
+            raycaster.setFromCamera(mouse, camera);
+
+            const scene = globeRef.current.scene?.();
+            if (scene) {
+              // البحث في جميع الكائنات في المشهد
+              const allObjects: THREE.Object3D[] = [];
+              scene.traverse((obj) => {
+                allObjects.push(obj);
+              });
+
+              const intersects = raycaster.intersectObjects(allObjects, true);
+
+              // البحث عن بيانات feature في الكائنات المتقاطعة
+              for (const intersection of intersects) {
+                const userData = (intersection.object as any).userData;
+                if (userData?.feature?.properties?.ADMIN) {
+                  const countryName = userData.feature.properties.ADMIN;
+                  if (onCountryClick) {
+                    onCountryClick(countryName);
+                  }
+                  break;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      touchIdentifier = null;
+      touchStartRef.current = null;
+    };
+
+    containerRef.current.addEventListener("touchstart", handleTouchStart, { passive: true });
+    containerRef.current.addEventListener("touchend", handleTouchEnd, { passive: true });
+
+    return () => {
+      containerRef.current?.removeEventListener("touchstart", handleTouchStart);
+      containerRef.current?.removeEventListener("touchend", handleTouchEnd);
+
+      return (
+        <div
+          ref={containerRef}
+          className="w-full h-full bg-transparent pointer-events-auto"
+          aria-label="pixelated dot stars globe"
+          style={{ touchAction: "none" }}
+        />
+      )
+    }
