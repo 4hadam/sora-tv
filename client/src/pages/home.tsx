@@ -1,4 +1,4 @@
-import { useState, useEffect, type ComponentType } from "react"
+import { useState, useEffect, lazy, Suspense, type ComponentType } from "react"
 import { useLocation } from "wouter"
 import TopNavbar from "@/components/top-navbar"
 import { useIsMobileDevice } from "@/hooks/use-is-mobile-device"
@@ -11,10 +11,22 @@ type GlobeViewerType = ComponentType<{
   isMobile?: boolean
 }>
 
-// Regular imports for other components
-import CountrySidebar from "@/components/country-sidebar"
-import CountryDetail from "@/components/country-detail"
+// 🚀 Lazy-load heavy components that import 1.7MB iptv-channels.ts
+// This keeps the initial bundle lean and defers channel-data parsing to after first paint
+const CountrySidebar = lazy(() => import("@/components/country-sidebar"))
+const CountryDetail = lazy(() => import("@/components/country-detail"))
+
+// CategorySidebar is tiny — keep static
 import CategorySidebar from "@/components/CategorySidebar"
+
+// Lightweight skeleton shown while channel-data chunks load
+const SidebarSkeleton = () => (
+  <div className="w-full h-full bg-gray-900/80 animate-pulse flex flex-col gap-2 p-3">
+    {Array.from({ length: 8 }).map((_, i) => (
+      <div key={i} className="h-12 rounded-lg bg-gray-800/60" />
+    ))}
+  </div>
+)
 
 // Globe placeholder — shown while globe.gl hasn't loaded yet
 const GlobePlaceholder = () => (
@@ -200,13 +212,15 @@ export default function Home() {
             className="absolute top-0 bottom-0 z-30 flex items-center justify-center p-4 sm:p-8 
                       left-0 right-0 sm:right-[320px] lg:right-[340px]"
           >
-            <CountryDetail
-              country={selectedCountry ?? activeCategory}
-              channel={selectedChannel}
-              onBack={handleBackFromPlayer}
-              isMobile={isMobile}
-              activeCategory={activeCategory}
-            />
+            <Suspense fallback={null}>
+              <CountryDetail
+                country={selectedCountry ?? activeCategory}
+                channel={selectedChannel}
+                onBack={handleBackFromPlayer}
+                isMobile={isMobile}
+                activeCategory={activeCategory}
+              />
+            </Suspense>
           </div>
         )}
 
@@ -216,16 +230,18 @@ export default function Home() {
             className="absolute right-0 top-16 bottom-0 w-[320px] lg:w-[340px] z-20 bg-gray-900/90 backdrop-blur-md"
             role="complementary"
           >
-            <CountrySidebar
-              selectedCountry={selectedCountry}
-              onSelectCountry={handleSelectCountry}
-              onSelectChannel={handleSelectChannel}
-              onClose={() => { }}
-              externalSearch={searchQuery}
-              currentTime={currentTime}
-              isMobile={isMobile}
-              activeCategory={activeCategory}
-            />
+            <Suspense fallback={<SidebarSkeleton />}>
+              <CountrySidebar
+                selectedCountry={selectedCountry}
+                onSelectCountry={handleSelectCountry}
+                onSelectChannel={handleSelectChannel}
+                onClose={() => { }}
+                externalSearch={searchQuery}
+                currentTime={currentTime}
+                isMobile={isMobile}
+                activeCategory={activeCategory}
+              />
+            </Suspense>
           </div>
         )}
 
@@ -261,13 +277,15 @@ export default function Home() {
               {selectedChannel && (
                 // Note 1:
                 <div className="w-full bg-black flex-shrink-0 relative">
-                  <CountryDetail
-                    country={selectedCountry ?? activeCategory}
-                    channel={selectedChannel}
-                    onBack={handleBackFromPlayer}
-                    isMobile={isMobile}
-                    activeCategory={activeCategory}
-                  />
+                  <Suspense fallback={null}>
+                    <CountryDetail
+                      country={selectedCountry ?? activeCategory}
+                      channel={selectedChannel}
+                      onBack={handleBackFromPlayer}
+                      isMobile={isMobile}
+                      activeCategory={activeCategory}
+                    />
+                  </Suspense>
                 </div>
               )}
 
@@ -282,16 +300,18 @@ export default function Home() {
 
               {/* Note 2: Change h-[60%] to flex-1 */}
               <div className="flex-1 overflow-y-auto custom-scroll">
-                <CountrySidebar
-                  selectedCountry={selectedCountry}
-                  onSelectCountry={handleSelectCountry}
-                  onSelectChannel={handleSelectChannel}
-                  onClose={toggleMobileSidebar}
-                  externalSearch={searchQuery}
-                  currentTime={currentTime}
-                  isMobile={isMobile}
-                  activeCategory={activeCategory}
-                />
+                <Suspense fallback={<SidebarSkeleton />}>
+                  <CountrySidebar
+                    selectedCountry={selectedCountry}
+                    onSelectCountry={handleSelectCountry}
+                    onSelectChannel={handleSelectChannel}
+                    onClose={toggleMobileSidebar}
+                    externalSearch={searchQuery}
+                    currentTime={currentTime}
+                    isMobile={isMobile}
+                    activeCategory={activeCategory}
+                  />
+                </Suspense>
               </div>
             </div>
             {mobileSidebarOpen && (
