@@ -59,19 +59,13 @@ export default function Home() {
 
   useEffect(() => {
     setMounted(true)
-
-    // Load globe after browser is idle — no interaction needed, but doesn't block first paint
-    const load = () => {
+    // Load globe 300ms after mount — short enough to show quickly, long enough to not block first paint
+    const t = setTimeout(() => {
       import("@/components/globe-viewer").then((mod) => {
         setGlobeViewer(() => mod.default)
       })
-    }
-
-    if ("requestIdleCallback" in window) {
-      (window as any).requestIdleCallback(load, { timeout: 2000 })
-    } else {
-      setTimeout(load, 500)
-    }
+    }, 300)
+    return () => clearTimeout(t)
   }, [])
 
   // Handle URL-based country selection
