@@ -1,6 +1,10 @@
-# 🤖 Sora.tv - Google Search Engine Optimization
-# Allows search engines to crawl all content freely
+# 🤖 Robots.txt for Sora.tv
+# Global Free Live TV Streaming Platform
+# Contact: support@sora.tv
 
+# ============================================
+# DEFAULT RULES FOR ALL SEARCH ENGINES
+# ============================================
 User-agent: *
 Allow: /
 Allow: /*.js
@@ -11,33 +15,254 @@ Allow: /*.jpeg
 Allow: /*.gif
 Allow: /*.svg
 Allow: /*.webp
+Allow: /*.woff
+Allow: /*.woff2
+Allow: /*.otf
+
+# Explicitly allow all country pages
+Allow: /af
+Allow: /al
+Allow: /dz
+Allow: /ad
+Allow: /ao
+Allow: /ag
+Allow: /ar
+Allow: /am
+Allow: /au
+Allow: /at
+Allow: /az
+Allow: /bs
+Allow: /bh
+Allow: /bd
+Allow: /bb
+Allow: /by
+Allow: /be
+Allow: /bz
+Allow: /bj
+Allow: /bt
+Allow: /bo
+Allow: /ba
+Allow: /bw
+Allow: /br
+Allow: /bn
+Allow: /bg
+Allow: /bf
+Allow: /bi
+Allow: /kh
+Allow: /cm
+Allow: /ca
+Allow: /cv
+Allow: /cf
+Allow: /td
+Allow: /cl
+Allow: /cn
+Allow: /co
+Allow: /km
+Allow: /cg
+Allow: /cd
+Allow: /cr
+Allow: /hr
+Allow: /cu
+Allow: /cy
+Allow: /cz
+Allow: /dk
+Allow: /dj
+Allow: /dm
+Allow: /do
+Allow: /ec
+Allow: /eg
+Allow: /sv
+Allow: /gq
+Allow: /er
+Allow: /ee
+Allow: /sz
+Allow: /et
+Allow: /fj
+Allow: /fi
+Allow: /fr
+Allow: /ga
+Allow: /gm
+Allow: /ge
+Allow: /de
+Allow: /gh
+Allow: /gr
+Allow: /gd
+Allow: /gt
+Allow: /gn
+Allow: /gw
+Allow: /gy
+Allow: /ht
+Allow: /hn
+Allow: /hk
+Allow: /hu
+Allow: /is
+Allow: /in
+Allow: /id
+Allow: /ir
+Allow: /iq
+Allow: /ie
+Allow: /il
+Allow: /it
+Allow: /ci
+Allow: /jm
+Allow: /jp
+Allow: /jo
+Allow: /kz
+Allow: /ke
+Allow: /ki
+Allow: /kp
+Allow: /kr
+Allow: /kw
+Allow: /kg
+Allow: /la
+Allow: /lv
+Allow: /lb
+Allow: /ls
+Allow: /lr
+Allow: /ly
+Allow: /li
+Allow: /lt
+Allow: /lu
+Allow: /mg
+Allow: /mw
+Allow: /my
+Allow: /mv
+Allow: /ml
+Allow: /mt
+Allow: /mh
+Allow: /mr
+Allow: /mu
+Allow: /mx
+Allow: /fm
+Allow: /md
+Allow: /mc
+Allow: /mn
+Allow: /me
+Allow: /ma
+Allow: /mz
+Allow: /mm
+Allow: /na
+Allow: /nr
+Allow: /np
+Allow: /nl
+Allow: /nz
+Allow: /ni
+Allow: /ne
+Allow: /ng
+Allow: /no
+Allow: /om
+Allow: /pk
+Allow: /pw
+Allow: /ps
+Allow: /pa
+Allow: /pg
+Allow: /py
+Allow: /pe
+Allow: /ph
+Allow: /pl
+Allow: /pt
+Allow: /qa
+Allow: /ro
+Allow: /ru
+Allow: /rw
+Allow: /kn
+Allow: /lc
+Allow: /vc
+Allow: /ws
+Allow: /sm
+Allow: /st
+Allow: /sa
+Allow: /sn
+Allow: /rs
+Allow: /sc
+Allow: /sl
+Allow: /sg
+Allow: /sk
+Allow: /si
+Allow: /sb
+Allow: /so
+Allow: /za
+Allow: /es
+Allow: /lk
+Allow: /sd
+Allow: /sr
+Allow: /se
+Allow: /ch
+Allow: /sy
+Allow: /tw
+Allow: /tj
+Allow: /tz
+Allow: /th
+Allow: /tl
+Allow: /tg
+Allow: /to
+Allow: /tt
+Allow: /tn
+Allow: /tr
+Allow: /tm
+Allow: /tv
+Allow: /ug
+Allow: /ua
+Allow: /ae
+Allow: /gb
+Allow: /us
+Allow: /uy
+Allow: /uz
+Allow: /vu
+Allow: /va
+Allow: /ve
+Allow: /vn
+Allow: /ye
+Allow: /zm
+Allow: /zw
 
 # Disallow private and internal pages
 Disallow: /admin
 Disallow: /private
 Disallow: /internal
-Disallow: /api/
+Disallow: /api/private
+Disallow: /user/settings
 Disallow: /*.pdf$
+Disallow: /config
+Disallow: /env
+Disallow: /.env
+Disallow: /.git
+Disallow: /.github
+Disallow: /node_modules
 
-# Crawl optimization for faster indexing
-Crawl-delay: 0
-Request-rate: 100/60s
-
-# Sitemaps
-Sitemap: https://sora.tv/sitemap.xml
-Sitemap: https://sora.tv/sitemap-countries.xml
-
-# Google Specific Rules
+# ============================================
+# GOOGLE SPECIFIC RULES (GOOGLEBOT)
+# ============================================
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
+Request-rate: 500/60s
 
-# Bing Specific Rules
+# ============================================
+# BING SPECIFIC RULES (BINGBOT)
+# ============================================
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
+Request-rate: 100/60s
 
-# Block Bad Bots
+# ============================================
+# OTHER MAJOR SEARCH ENGINES
+# ============================================
+User-agent: Yandexbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================
+# BLOCK AGGRESSIVE/UNWANTED BOTS
+# ============================================
 User-agent: MJ12bot
 Disallow: /
 
@@ -47,30 +272,18 @@ Disallow: /
 User-agent: SemrushBot
 Disallow: /
 
-
-
-# Specific search engine rules
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 0
-Priority: high
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Yandexbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-# Block bad bots
-User-agent: AhrefsBot
+User-agent: DotBot
 Disallow: /
 
-User-agent: SemrushBot
+User-agent: MojeekBot
 Disallow: /
 
-# Sitemap (Google, Bing, Yandex will find this)
-Sitemap: /sitemap.xml
+User-agent: Qwantify
+Disallow: /
+
+# ============================================
+# SITEMAPS
+# ============================================
+Sitemap: https://sora.tv/sitemap.xml
+Sitemap: https://sora.tv/sitemap-index.xml
+Sitemap: https://sora.tv/sitemap-countries.xml
