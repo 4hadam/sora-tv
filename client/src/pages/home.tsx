@@ -57,6 +57,13 @@ export default function Home() {
   }, [location])
 
   useEffect(() => {
+    // عندما يتم تحديد دولة على الموبايل، افتح الـ sidebar تلقائياً
+    if (isMobile && selectedCountry) {
+      setMobileSidebarOpen(true)
+    }
+  }, [selectedCountry, isMobile])
+
+  useEffect(() => {
     const updateTime = () =>
       setCurrentTime(
         new Date().toLocaleTimeString([], {
