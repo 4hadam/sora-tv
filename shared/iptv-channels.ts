@@ -9285,7 +9285,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   },
   {
     "name": "ATV",
-    "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
     "category": "Entertainment",
     "logo": "https://i.imgur.com/HyVUwFC.png"
   },
@@ -9321,7 +9321,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   },
   {
     "name": "Can TV",
-    "url": "http://canbroadcast.com:7000/canlican/tv.m3u8",
+    "url": "https://livetv.canbroadcast.com:7443/canlican/tv.m3u8",
     "category": "News",
     "logo": "https://i.imgur.com/oIMtuwB.png"
   },
@@ -9441,7 +9441,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   },
   {
     "name": "FB TV",
-    "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
+    "url": "https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
     "category": "Sports",
     "logo": "https://i.imgur.com/qBVqtYd.png"
   },
@@ -10041,7 +10041,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   },
   {
     "name": "TV Den",
-    "url": "http://canli.tvden.com.tr/hls/live.m3u8",
+    "url": "https://canli.tvden.com.tr/hls/live.m3u8",
     "category": "General",
     "logo": "https://i.imgur.com/Uhg95Ze.png"
   },
