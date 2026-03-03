@@ -16,7 +16,7 @@ interface VideoJsPlayerProps {
   isLive: boolean
   autoPlay?: boolean
   muted?: boolean
-  isMobile?: boolean 
+  isMobile?: boolean
 }
 
 const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
@@ -24,7 +24,7 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
   isLive,
   autoPlay = true,
   muted = false,
-  isMobile = false, 
+  isMobile = false,
 }) => {
   const videoNodeRef = useRef<HTMLVideoElement | null>(null)
   const playerRef = useRef<Player | null>(null)
@@ -35,7 +35,7 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
     // نتأكد من عدم وجود مشغل حالي وأن العنصر موجود
     if (!playerRef.current && videoNodeRef.current && isHydrated) {
       const videoElement = videoNodeRef.current
-      
+
       const options = {
         autoplay: autoPlay,
         muted: muted,
@@ -44,12 +44,12 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
         fluid: true, // 👈🔴 (التعديل) يجب أن تكون true دائماً
         liveui: isLive,
         controlBar: {
-          progressControl: false, 
+          progressControl: false,
         },
         html5: {
-          vhs: { 
+          vhs: {
             overrideNative: true,
-            withCredentials: false 
+            withCredentials: false
           },
         },
         playsinline: true,
@@ -89,42 +89,41 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
 
     // نتأكد أن المشغل جاهز
     if (player && !player.isDisposed()) {
-      
-      const currentSrc = player.currentSrc() 
-      
+
+      const currentSrc = player.currentSrc()
+
       if (currentSrc !== src) {
-        
-        let sourceType = "";
-        if (src.endsWith('.m3u8')) {
-          sourceType = "application/x-mpegURL"; // HLS
-        } else if (src.endsWith('.mpd')) {
+
+        let sourceType = "application/x-mpegURL"; // افتراضي: HLS
+        if (src.endsWith('.mpd')) {
           sourceType = "application/dash+xml"; // DASH
-        } else if (src.includes("easybroadcast.io")) {
-          sourceType = "application/x-mpegURL"; 
+        } else if (src.endsWith('.mp4')) {
+          sourceType = "video/mp4";
         }
+        // كل الروابط الأخرى (.m3u8 أو بدون امتداد) → HLS
 
         player.src({
           src: src,
-          type: sourceType 
+          type: sourceType
         })
-        
+
         // تطبيق مستوى الصوت المحفوظ عند تغيير القناة
         if (!muted && isHydrated) {
           player.volume(volume)
         }
-        
+
         if (autoPlay) {
           player.play()?.catch(() => {
             // Autoplay blocked
           });
         }
       }
-      
+
       // تحديث الخصائص الأخرى
       player.autoplay(autoPlay || false)
       player.muted(muted || false)
     }
-  }, [src, autoPlay, muted, isLive, volume, isHydrated]) 
+  }, [src, autoPlay, muted, isLive, volume, isHydrated])
 
   return (
     <div data-vjs-player className="w-full h-full">
