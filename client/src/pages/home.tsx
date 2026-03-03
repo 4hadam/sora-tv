@@ -12,6 +12,20 @@ import CountrySidebar from "@/components/country-sidebar"
 import CountryDetail from "@/components/country-detail"
 import CategorySidebar from "@/components/CategorySidebar"
 
+// Globe placeholder — shown while globe.gl hasn't loaded yet
+const GlobePlaceholder = () => (
+  <div className="w-full h-full flex items-center justify-center bg-[#0B0D11]">
+    <div className="relative w-48 h-48 sm:w-64 sm:h-64 opacity-30">
+      <div className="absolute inset-0 rounded-full border border-white/10 animate-pulse" />
+      <div className="absolute inset-4 rounded-full border border-white/10" />
+      <div className="absolute inset-8 rounded-full border border-white/10" />
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="w-3 h-3 rounded-full bg-white/30 animate-ping" />
+      </div>
+    </div>
+  </div>
+)
+
 // ✅ Loading indicator for lazy components
 const ComponentLoader = () => (
   <div className="w-full h-full flex items-center justify-center bg-black/20">
@@ -24,6 +38,7 @@ export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [selectedChannel, setSelectedChannel] = useState<string | null>(null)
   const [mounted, setMounted] = useState(false)
+  const [globeReady, setGlobeReady] = useState(false)
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
   const [currentTime, setCurrentTime] = useState("")
@@ -33,7 +48,18 @@ export default function Home() {
   // ✅ Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
 
-  useEffect(() => setMounted(true), [])
+  useEffect(() => {
+    setMounted(true)
+    // Defer globe load until after first paint — prevents blocking the main thread
+    const schedule = (cb: () => void) => {
+      if ("requestIdleCallback" in window) {
+        (window as any).requestIdleCallback(cb, { timeout: 3000 })
+      } else {
+        setTimeout(cb, 200)
+      }
+    }
+    schedule(() => setGlobeReady(true))
+  }, [])
 
   // Handle URL-based country selection
   useEffect(() => {
@@ -159,13 +185,17 @@ export default function Home() {
 
         {/* 🌍 Globe Viewer */}
         <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
-          <Suspense fallback={<ComponentLoader />}>
-            <GlobeViewer
-              selectedCountry={selectedCountry}
-              onCountryClick={handleGlobeCountryClick}
-              isMobile={isMobile}
-            />
-          </Suspense>
+          {globeReady ? (
+            <Suspense fallback={<ComponentLoader />}>
+              <GlobeViewer
+                selectedCountry={selectedCountry}
+                onCountryClick={handleGlobeCountryClick}
+                isMobile={isMobile}
+              />
+            </Suspense>
+          ) : (
+            <GlobePlaceholder />
+          )}
         </div>
         {/* 🎥 Video Player (Desktop Only) */}
         {!isMobile && selectedChannel && (selectedCountry || activeCategory !== "all-channels") && (
