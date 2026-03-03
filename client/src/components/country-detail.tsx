@@ -72,14 +72,25 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
         let channels: Channel[] = []
         let channelSource: string = country
 
-        if (activeCategory === "all-channels" || (activeCategory !== country)) {
+        if (country && country !== "") {
           channels = await getChannelsByCountry(country)
           channelSource = country
-        }
-        else {
+          // If not found in country channels and category is set, also check category
+          if (activeCategory && activeCategory !== "all-channels") {
+            const inCountry = channels.filter(Boolean).find((c) => c.name === channel)
+            if (!inCountry) {
+              const catChannels = await getChannelsByCategory(activeCategory)
+              channels = catChannels
+              channelSource = activeCategory
+            }
+          }
+        } else if (activeCategory && activeCategory !== "all-channels") {
           channels = await getChannelsByCategory(activeCategory)
           channelSource = activeCategory
         }
+
+        // Filter out any null/undefined entries to prevent crashes
+        channels = channels.filter((c): c is Channel => c != null && typeof c.name === "string")
 
         const selectedChannel = channels.find((c) => c.name === channel)
         if (selectedChannel && selectedChannel.url) {

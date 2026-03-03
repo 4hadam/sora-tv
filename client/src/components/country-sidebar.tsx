@@ -398,7 +398,8 @@ export default function CountrySidebar({
           data = await getChannelsByCategory(activeCategory)
         }
 
-        setChannels(data)
+        // Filter out null/undefined entries to prevent crashes
+        setChannels(data.filter((ch): ch is IPTVChannel => ch != null && typeof ch.name === "string"))
       } catch (err) {
         // Error fetching channels
         setChannels([])
