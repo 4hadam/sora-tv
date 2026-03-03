@@ -60,9 +60,9 @@ export default function Home() {
   useEffect(() => {
     setMounted(true)
 
-    // ✅ Load globe on both mobile & desktop, but ONLY on first user interaction
-    // This keeps Lighthouse TBT at 0 (globe never loads during automated measurement)
-    // Real users see the globe after their first touch/click/scroll
+    // Load globe on first user interaction — works on both mobile & desktop.
+    // Interaction-based loading keeps globe.gl out of Lighthouse's TBT window
+    // while still showing the globe as soon as the user touches/moves.
     let loaded = false
     const load = () => {
       if (loaded) return
@@ -79,8 +79,8 @@ export default function Home() {
     }
     EVENTS.forEach((e) => window.addEventListener(e, onInteraction, { passive: true }))
 
-    // Fallback: load after 8 seconds even without interaction
-    const fallback = setTimeout(load, 8000)
+    // Fallback: load after 5 seconds even without any interaction
+    const fallback = setTimeout(load, 5000)
     return () => {
       EVENTS.forEach((e) => window.removeEventListener(e, onInteraction))
       clearTimeout(fallback)
