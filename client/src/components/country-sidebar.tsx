@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { ChevronLeft } from "lucide-react"
 
-import { getChannelsByCountry, getChannelsByCategory } from "@shared/iptv-channels"
 import { COUNTRY_CODE_MAP } from "@shared/country-codes"
 
 interface IPTVChannel {
@@ -391,11 +390,17 @@ export default function CountrySidebar({
 
         // --- المنطق الجديد ---
         if (selectedCountry) {
-          // (أ) المستخدم ضغط على دولة: جلب القنوات لهذه الدولة (مفلترة حسب الفئة)
-          data = await getChannelsByCountry(selectedCountry, activeCategory)
+          // (أ) المستخدم ضغط على دولة: جلب القنوات لهذه الدولة من API
+          const cat = activeCategory || 'all-channels'
+          const res = await fetch(`/api/channels/${encodeURIComponent(selectedCountry)}?category=${encodeURIComponent(cat)}`)
+          if (!res.ok) throw new Error(`API error ${res.status}`)
+          data = (await res.json()).channels
         } else if (isCategoryBrowsing) {
-          // (ب) المستخدم ضغط على فئة: جلب كل القنوات من كل الدول التي تطابق هذه الفئة
-          data = await getChannelsByCategory(activeCategory)
+          // (ب) المستخدم ضغط على فئة: جلب القنوات حسب الفئة من API
+          const cat = activeCategory as string
+          const res = await fetch(`/api/channels-by-category?category=${encodeURIComponent(cat)}`)
+          if (!res.ok) throw new Error(`API error ${res.status}`)
+          data = (await res.json()).channels
         }
 
         // Filter out null/undefined entries to prevent crashes

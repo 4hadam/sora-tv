@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { AlertCircle, X, Star } from "lucide-react"
-import { getChannelsByCountry, getChannelsByCategory } from "@shared/iptv-channels"
+
 import VideoPlayer from "@/components/video-player"
 import VideoJsPlayer from "@/components/videojs-player"
 
@@ -73,19 +73,23 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
         let channelSource: string = country
 
         if (country && country !== "") {
-          channels = await getChannelsByCountry(country)
+          const res = await fetch(`/api/channels/${encodeURIComponent(country)}`)
+          if (!res.ok) throw new Error(`API error ${res.status}`)
+          channels = (await res.json()).channels
           channelSource = country
           // If not found in country channels and category is set, also check category
           if (activeCategory && activeCategory !== "all-channels") {
             const inCountry = channels.filter(Boolean).find((c) => c.name === channel)
             if (!inCountry) {
-              const catChannels = await getChannelsByCategory(activeCategory)
-              channels = catChannels
+              const catRes = await fetch(`/api/channels-by-category?category=${encodeURIComponent(activeCategory)}`)
+              if (catRes.ok) channels = (await catRes.json()).channels
               channelSource = activeCategory
             }
           }
         } else if (activeCategory && activeCategory !== "all-channels") {
-          channels = await getChannelsByCategory(activeCategory)
+          const res = await fetch(`/api/channels-by-category?category=${encodeURIComponent(activeCategory)}`)
+          if (!res.ok) throw new Error(`API error ${res.status}`)
+          channels = (await res.json()).channels
           channelSource = activeCategory
         }
 

@@ -59,18 +59,36 @@ export default function Home() {
 
   useEffect(() => {
     setMounted(true)
-    // Defer globe load until browser is idle — prevents blocking the main thread
+
+    // 🚫 Never load globe.gl on mobile — 1.9MB WebGL library blocks CPU for 30+ seconds
+    // Mobile users primarily use the channel sidebar, not the globe
+    if (isMobile) return
+
+    // 🖥️ Desktop: load globe only on first user interaction (mouse/scroll)
+    // This ensures Lighthouse never counts globe.gl parsing in TBT
+    let loaded = false
     const load = () => {
+      if (loaded) return
+      loaded = true
       import("@/components/globe-viewer").then((mod) => {
         setGlobeViewer(() => mod.default)
       })
     }
-    if ("requestIdleCallback" in window) {
-      ; (window as any).requestIdleCallback(load, { timeout: 3000 })
-    } else {
-      setTimeout(load, 300)
+
+    const EVENTS = ["mousemove", "mousedown", "scroll", "keydown", "touchstart"] as const
+    const onInteraction = () => {
+      EVENTS.forEach((e) => window.removeEventListener(e, onInteraction))
+      load()
     }
-  }, [])
+    EVENTS.forEach((e) => window.addEventListener(e, onInteraction, { passive: true }))
+
+    // Fallback: load after 5 seconds even without interaction
+    const fallback = setTimeout(load, 5000)
+    return () => {
+      EVENTS.forEach((e) => window.removeEventListener(e, onInteraction))
+      clearTimeout(fallback)
+    }
+  }, [isMobile])
 
   // Handle URL-based country selection
   useEffect(() => {

@@ -33,11 +33,7 @@ export default defineConfig({
     // Don't inject <link rel="modulepreload"> for heavy deferred chunks
     modulePreload: {
       resolveDependencies: (_filename: string, deps: string[]) =>
-        deps.filter((d) =>
-          !d.includes('globe') &&
-          !d.includes('video') &&
-          !d.includes('channel-data')
-        ),
+        deps.filter((d) => !d.includes('globe') && !d.includes('video')),
     },
     rollupOptions: {
       output: {
@@ -45,9 +41,7 @@ export default defineConfig({
           // ✅ Separate heavy vendor libraries
           'globe-gl': ['globe.gl'],
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
-          // ✅ 1.7MB channel database in its own chunk — shared by CountrySidebar + CountryDetail
-          // CountrySidebar and CountryDetail are lazy-loaded so this chunk stays out of initial bundle
-          'channel-data': [path.resolve(import.meta.dirname, 'shared/iptv-channels.ts')],
+          // iptv-channels.ts is now server-only — not in client bundle
           'ui-components': [
             '@radix-ui/react-dialog',
             '@radix-ui/react-dropdown-menu',

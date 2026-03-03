@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { channelsByCountry, type IPTVChannel, normalizeYouTubeUrl } from "@shared/iptv-channels";
+import { channelsByCountry, getChannelsByCountry, getChannelsByCategory, type IPTVChannel, normalizeYouTubeUrl } from "@shared/iptv-channels";
 
 // Helper function for channel filtering
 function filterChannel(channel: IPTVChannel, category: string | null): boolean {
@@ -70,36 +70,36 @@ export async function registerRoutes(
         // Skip some headers if needed, or set them all
         res.setHeader(key, value);
       });
-      
+
       // Explicitly set CORS for the proxy response
       res.setHeader("Access-Control-Allow-Origin", "*");
       res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
       res.setHeader("Access-Control-Allow-Headers", "*");
 
       if (response.body) {
-         // @ts-ignore - native fetch body to node stream
-         const reader = response.body.getReader();
-         const stream = new ReadableStream({
-           start(controller) {
-             return pump();
-             function pump() {
-               return reader.read().then(({ done, value }) => {
-                 if (done) {
-                   controller.close();
-                   return;
-                 }
-                 controller.enqueue(value);
-                 return pump();
-               });
-             }
-           }
-         });
-         
-         // In Node 20+, we can just iterate the body or use arrayBuffer
-         // But for simplicity with Express response (which is a stream):
-         const arrayBuffer = await response.arrayBuffer();
-         res.write(Buffer.from(arrayBuffer));
-         res.end();
+        // @ts-ignore - native fetch body to node stream
+        const reader = response.body.getReader();
+        const stream = new ReadableStream({
+          start(controller) {
+            return pump();
+            function pump() {
+              return reader.read().then(({ done, value }) => {
+                if (done) {
+                  controller.close();
+                  return;
+                }
+                controller.enqueue(value);
+                return pump();
+              });
+            }
+          }
+        });
+
+        // In Node 20+, we can just iterate the body or use arrayBuffer
+        // But for simplicity with Express response (which is a stream):
+        const arrayBuffer = await response.arrayBuffer();
+        res.write(Buffer.from(arrayBuffer));
+        res.end();
       } else {
         res.end();
       }
@@ -146,6 +146,21 @@ export async function registerRoutes(
 
     } catch (error) {
       console.error("Error fetching channels by category:", error);
+      res.status(500).json({ error: "Failed to fetch channels" });
+    }
+  });
+
+  // Channels by Country API — called by the client instead of static 1.7MB bundle
+  app.get("/api/channels/:country", async (req, res) => {
+    try {
+      const country = decodeURIComponent(req.params.country);
+      const category = req.query.category as string | undefined;
+
+      let channels: IPTVChannel[] = getChannelsByCountry(country, category);
+      channels = channels.map((ch) => ({ ...ch, url: normalizeYouTubeUrl(ch.url || "") }));
+      res.json({ channels });
+    } catch (error) {
+      console.error("Error fetching channels by country:", error);
       res.status(500).json({ error: "Failed to fetch channels" });
     }
   });
