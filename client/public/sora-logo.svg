@@ -2,18 +2,7 @@
   <!-- Black background -->
   <rect width="200" height="200" fill="#000000"/>
   
-  <!-- Red circle (O) -->
-  <circle cx="50" cy="100" r="30" fill="#FF5555"/>
-  
-  <!-- Orange cross (T) -->
-  <g transform="translate(100, 100)">
-    <!-- Horizontal bar -->
-    <rect x="-25" y="-8" width="50" height="16" fill="#FFA500" rx="2"/>
-    <!-- Vertical bar -->
-    <rect x="-8" y="-35" width="16" height="50" fill="#FF8800" rx="2"/>
-  </g>
-  
-  <!-- Gradient V (Yellow to Cyan) -->
+  <!-- Gradient definitions -->
   <defs>
     <linearGradient id="vGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#FFEB3B;stop-opacity:1" />
@@ -21,8 +10,22 @@
     </linearGradient>
   </defs>
   
-  <!-- V shape -->
-  <g transform="translate(150, 100)">
-    <polygon points="0,0 -20,-40 -10,-40 10,0 20,-40 30,-40" fill="url(#vGradient)"/>
+  <!-- Red circle (O) - brighter and cleaner -->
+  <circle cx="45" cy="100" r="28" fill="#FF4444"/>
+  
+  <!-- Orange cross (T) - thicker and bolder -->
+  <g transform="translate(100, 100)">
+    <!-- Horizontal bar -->
+    <rect x="-28" y="-10" width="56" height="20" fill="#FFA500" rx="3"/>
+    <!-- Vertical bar -->
+    <rect x="-10" y="-38" width="20" height="56" fill="#FF8800" rx="3"/>
+  </g>
+  
+  <!-- V shape with gradient (Yellow to Cyan) -->
+  <g transform="translate(155, 100)">
+    <!-- Left stroke of V -->
+    <polygon points="0,-45 15,5 8,8 -8,0" fill="url(#vGradient)"/>
+    <!-- Right stroke of V -->
+    <polygon points="0,-45 -15,5 -8,8 8,0" fill="url(#vGradient)"/>
   </g>
 </svg>
