@@ -318,13 +318,15 @@ export default function GlobeViewer({
     return () => {
       containerRef.current?.removeEventListener("touchstart", handleTouchStart);
       containerRef.current?.removeEventListener("touchend", handleTouchEnd);
+    };
+  }, [isMobile, onCountryClick]);
 
-      return (
-        <div
-          ref={containerRef}
-          className="w-full h-full bg-transparent pointer-events-auto"
-          aria-label="pixelated dot stars globe"
-          style={{ touchAction: "none" }}
-        />
-      )
-    }
+  return (
+    <div
+      ref={containerRef}
+      className="w-full h-full bg-transparent pointer-events-auto"
+      aria-label="pixelated dot stars globe"
+      style={{ touchAction: "none" }}
+    />
+  );
+}
