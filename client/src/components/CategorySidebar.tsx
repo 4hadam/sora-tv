@@ -1,6 +1,7 @@
 "use client"
 
 import type { MouseEvent } from "react"
+import { useLocation } from "wouter"
 
 // 1. Props
 interface CategorySidebarProps {
@@ -15,13 +16,15 @@ export default function CategorySidebar({
   onClose,
 }: CategorySidebarProps) {
 
+  const [, navigate] = useLocation()
+
   // 2. Click Handler
   const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
     const target = e.currentTarget.dataset.target
-    if (target) {
-      onCategorySelect(target)
-    }
-    // onClose() // You can enable this to close the menu on mobile
+    if (!target) return
+    if (target === "faq") { navigate("/faq"); return }
+    if (target === "privacy-policy") { navigate("/privacy"); return }
+    onCategorySelect(target)
   }
 
   // 3. Tailwind Class Function

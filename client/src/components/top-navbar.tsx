@@ -88,20 +88,8 @@ export default function TopNavbar({
           </a>
         </div>
 
-        {/* Right side: FAQ link + menu button */}
+        {/* Right side: menu button */}
         <div className="flex items-center gap-4">
-          <a
-            href="/faq"
-            className="hidden sm:inline-flex items-center text-xs text-white/40 hover:text-white/80 transition-colors"
-          >
-            FAQ
-          </a>
-          <a
-            href="/privacy"
-            className="hidden sm:inline-flex items-center text-xs text-white/40 hover:text-white/80 transition-colors"
-          >
-            Privacy
-          </a>
           <button
             onClick={onMenuClick}
             className="text-white focus:outline-none"
