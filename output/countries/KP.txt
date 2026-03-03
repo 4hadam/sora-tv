@@ -1,0 +1,19 @@
+============================================================
+North Korea (KP)
+============================================================
+Total Channels: 2
+Source: https://tv.garden/
+============================================================
+
+[1] Korean Central Television (KCTV) (1080i) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.intchoson.com/kctv/index.m3u8
+Logo: https://i.imgur.com/p02AEOF.png
+Category: General
+[2] like Gecko) Chrome/118.0.4044.138 Safari/537.36" group-title="General",Korean Central Television (KCTV)
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer.nknews.org/tvdash/stream.mpd
+Logo: https://i.imgur.com/p02AEOF.png
+Category: General

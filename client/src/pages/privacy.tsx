@@ -10,7 +10,7 @@ const sections: PolicySection[] = [
     {
         icon: <Lock size={18} />,
         title: "Introduction",
-        body: "We understand how important privacy is. This policy outlines our practices — primarily that we don't collect personal data. By using Sora.tv, you agree to these terms.",
+        body: "We understand how important privacy is. This policy outlines our practices — primarily that we don't collect personal data. By using Sora tv, you agree to these terms.",
     },
     {
         icon: <Link2 size={18} />,
@@ -20,7 +20,7 @@ const sections: PolicySection[] = [
     {
         icon: <ShieldCheck size={18} />,
         title: "Security",
-        body: "We use HTTPS to encrypt and protect every connection. Your browsing and viewing activity on Sora.tv is kept secure end-to-end.",
+        body: "We use HTTPS to encrypt and protect every connection. Your browsing and viewing activity on Sora tv is kept secure end-to-end.",
     },
     {
         icon: <EyeOff size={18} />,
@@ -30,7 +30,7 @@ const sections: PolicySection[] = [
     {
         icon: <Eye size={18} />,
         title: "No Third-Party Trackers",
-        body: "Sora.tv has zero third-party trackers embedded. Your visits are completely unmonitored — we don't use analytics, ad networks, or any tracking pixels.",
+        body: "Sora tv has zero third-party trackers embedded. Your visits are completely unmonitored — we don't use analytics, ad networks, or any tracking pixels.",
     },
     {
         icon: <Star size={18} />,
@@ -40,12 +40,12 @@ const sections: PolicySection[] = [
     {
         icon: <Globe size={18} />,
         title: "Compliance with Data Protection",
-        body: "Because Sora.tv does not collect or process personal data, we naturally align with global privacy standards including GDPR and CCPA. Your privacy isn't just a policy — it's built into how the platform works.",
+        body: "Because Sora tv does not collect or process personal data, we naturally align with global privacy standards including GDPR and CCPA. Your privacy isn't just a policy — it's built into how the platform works.",
     },
     {
         icon: <RefreshCw size={18} />,
         title: "Policy Updates",
-        body: "We may update this policy as Sora.tv evolves. Any changes will be reflected on this page. We recommend checking back occasionally to stay informed.",
+        body: "We may update this policy as Sora tv evolves. Any changes will be reflected on this page. We recommend checking back occasionally to stay informed.",
     },
     {
         icon: <Mail size={18} />,
@@ -87,7 +87,7 @@ export default function Privacy() {
                     Your privacy, protected.
                 </h1>
                 <p className="text-white/50 text-base sm:text-lg max-w-xl mx-auto">
-                    Sora.tv is built from the ground up with privacy in mind. No tracking, no data collection, no compromises.
+                    Sora tv is built from the ground up with privacy in mind. No tracking, no data collection, no compromises.
                 </p>
                 <p className="text-white/25 text-xs mt-4">
                     Last updated: {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
@@ -131,7 +131,7 @@ export default function Privacy() {
 
             {/* Footer */}
             <div className="border-t border-white/5 py-8 text-center text-xs text-white/25 space-y-2">
-                <p>© {new Date().getFullYear()} Sora.tv — Watch live TV from anywhere, for free.</p>
+                <p>© {new Date().getFullYear()} Sora tv — Watch live TV from anywhere, for free.</p>
                 <p>
                     <a href="/faq" className="hover:text-white/50 transition-colors underline underline-offset-2">
                         FAQ

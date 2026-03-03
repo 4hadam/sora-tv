@@ -1,0 +1,79 @@
+============================================================
+Singapore (SG)
+============================================================
+Total Channels: 12
+Source: https://tv.garden/
+============================================================
+
+[1] Channel 5
+------------------------------------------------
+IPTV URLs (1):
+  • https://app.viloud.tv/hls/channel/dcbf7a54c89ba12d98cc7c401c37f565.m3u8
+Logo: https://i.imgur.com/9NKp5aV.png
+Category: General
+[2] Channel 8
+------------------------------------------------
+IPTV URLs (1):
+  • https://app.viloud.tv/hls/channel/57148804a268f59e0c1af0c1b67a2f7e.m3u8
+Logo: https://i.imgur.com/6YPZc24.png
+Category: General
+[3] Channel U
+------------------------------------------------
+IPTV URLs (1):
+  • https://app.viloud.tv/hls/channel/aaf404bee904cff424bb5d1f6fdf9333.m3u8
+Logo: https://i.imgur.com/9MzEjoY.png
+Category: Entertainment
+[4] CNA (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+Logo: https://i.imgur.com/awIDugE.png
+Category: News
+[5] CNA Originals
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/500px-CNA_new_logo.svg.png
+Category: Documentary
+[6] meWATCH LIVE 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
+Logo: https://i.imgur.com/ppxUDxB.png
+Category: Entertainment
+[7] NTV7
+------------------------------------------------
+IPTV URLs (1):
+  • https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
+Logo: https://i.imgur.com/jDWR3xI.png
+Category: General
+[8] RTM ASEAN
+------------------------------------------------
+IPTV URLs (1):
+  • https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
+Logo: https://i.imgur.com/skAiUxg.png
+Category: News
+[9] Suria
+------------------------------------------------
+IPTV URLs (1):
+  • https://app.viloud.tv/hls/channel/f0aa5d1d897c28bc8abed7afa90979c7.m3u8
+Logo: https://i.imgur.com/9xWAwzy.png
+Category: Undefined
+[10] Tech Storm (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(abe4ead2-1a88-4330-9f41-382fcf94bba2)/index.m3u8
+Logo: https://i.imgur.com/fAprFBJ.png
+Category: Undefined
+[11] Vasantham
+------------------------------------------------
+IPTV URLs (1):
+  • https://app.viloud.tv/hls/channel/eb2ee7c84d70f692284466961bfedcb7.m3u8
+Logo: https://i.imgur.com/vqVEcuT.png
+Category: Undefined
+[12] Zee Bollymovies (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512
+Category: Movies

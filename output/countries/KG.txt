@@ -1,0 +1,49 @@
+============================================================
+Kyrgyzstan (KG)
+============================================================
+Total Channels: 7
+Source: https://tv.garden/
+============================================================
+
+[1] 312 Кино
+------------------------------------------------
+IPTV URLs (1):
+  • http://176.126.166.43:1935/live/312kino/playlist.m3u8
+Logo: https://i.ibb.co/3m9LrLj/k7gIibH.png
+Category: Movies
+[2] 312 ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://176.126.166.43:1935/live/312musik/playlist.m3u8
+Logo: https://i.ibb.co/S6sZvqk/iLSGi6c.png
+Category: Entertainment
+[3] Manas TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://212.42.111.152:8080/hls/manas.m3u8
+Logo: https://i.ibb.co/2Kvcj5Q/manas.jpg
+Category: Culture;Education;Entertainment
+[4] Next TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://gohoski.fvds.ru:3000/mediabay/601/playlist.m3u8
+Logo: https://i.imgur.com/9MiwdgD.png
+Category: Undefined
+[5] TV1 KG
+------------------------------------------------
+IPTV URLs (1):
+  • http://212.2.225.30:1935/live/site.stream/playlist.m3u8
+Logo: https://i.imgur.com/Mti9t9C.png
+Category: General
+[6] TV15 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://gohoski.fvds.ru:3000/mediabay/655/playlist.m3u8
+Logo: https://i.ibb.co/1byxRtp/tv15.png
+Category: General
+[7] Ош Пирим (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://gohoski.fvds.ru:3000/mediabay/697/playlist.m3u8
+Logo: https://i.ibb.co/9VBnyQ1/cropped-white.png
+Category: General

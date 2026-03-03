@@ -1,0 +1,13 @@
+============================================================
+Chad (TD)
+============================================================
+Total Channels: 1
+Source: https://tv.garden/
+============================================================
+
+[1] Tele Tchad
+------------------------------------------------
+IPTV URLs (1):
+  • https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
+Logo: https://i.imgur.com/udSzfHD.png
+Category: General

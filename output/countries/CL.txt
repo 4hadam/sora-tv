@@ -1,0 +1,481 @@
+============================================================
+Chile (CL)
+============================================================
+Total Channels: 79
+Source: https://tv.garden/
+============================================================
+
+[1] 13C
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
+Logo: https://i.imgur.com/Zfe2f5j.png
+Category: Culture
+[2] 13 Entretención
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8
+Logo: https://i.imgur.com/utI1tJV.png
+Category: Entertainment
+[3] 13 Festival
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
+Logo: https://i.imgur.com/Ymk6j5o.png
+Category: Music
+[4] 13 Humor
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8
+Logo: https://i.imgur.com/KvMuTzN.png
+Category: Comedy
+[5] 13 Kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
+Logo: https://i.imgur.com/8WJUbSD.png
+Category: Kids
+[6] 13 Prime
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/p4mmBxEzSmKAxY1GusOHrw/master.m3u8
+Logo: https://i.imgur.com/R6D228s.png
+Category: Lifestyle
+[7] 13 Realities
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
+Logo: https://i.imgur.com/m0SuwMU.png
+Category: Entertainment
+[8] 13 Teleseries
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
+Logo: https://i.imgur.com/csBNi2L.png
+Category: Series
+[9] AE Radio TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8
+Logo: https://i.imgur.com/425dj2i.jpeg
+Category: Music
+[10] Antofagasta TV (ATV)
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
+Logo: https://i.imgur.com/XIQr0fs.png
+Category: General
+[11] Arica TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5eff35271151c.streamlock.net:1936/8002/8002/playlist.m3u8
+Logo: https://i.imgur.com/I67WOgT.png
+Category: General
+[12] Atacama Noticias (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.tustreaming.cl/atacamanoticias/index.m3u8
+Logo: https://i.imgur.com/Avx4Ecf.png
+Category: News
+[13] Atacama TV (Copiapó) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.tustreaming.cl/atacamatv/index.m3u8
+Logo: https://i.postimg.cc/rwS082hL/atacama-tv.png
+Category: Undefined
+[14] Aysen TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://v1.tustreaming.cl/aysentv/index.m3u8
+Logo: https://i.imgur.com/DmdBf9S.png
+Category: General
+[15] Buin Somos Todos (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://bst.buin.cl/0.m3u8
+Logo: https://i.imgur.com/zzeBtux.png
+Category: Undefined
+[16] Campus TV (Talca) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8
+Logo: https://i.imgur.com/LvzLg33.png
+Category: Undefined
+[17] Canal 1 Nuble
+------------------------------------------------
+IPTV URLs (1):
+  • https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
+Logo: https://i.imgur.com/PGSixH5.png
+Category: General
+[18] Canal 9 Bío Bío Televisión (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
+Logo: https://i.imgur.com/J2G1WMs.png
+Category: Undefined
+[19] Canal 13
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.250.127.17:9800/play/a067/index.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/
+Category: General
+[20] Canal 74 San Antonio
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv5.voxtvhd.com.br/canal74hd/canal74hd/playlist.m3u8
+Logo: https://i.imgur.com/WRYsbjX.png
+Category: Undefined
+[21] Canal ISB (Iglesia San Bernardo)
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
+Logo: https://i.imgur.com/cQ4ggTw.png
+Category: Religious
+[22] CDTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8
+Logo: https://i.imgur.com/pMnk2TH.png
+Category: Legislative
+[23] Chile Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.tustreaming.cl/chilechannel/index.m3u8
+Logo: https://i.imgur.com/F1it6fh.png
+Category: Entertainment;Travel
+[24] ChileVision
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.250.127.17:9800/play/a05h/index.m3u8
+Logo: https://i.imgur.com/PRijvR0.png
+Category: General
+[25] Chiloe Red 25
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.tustreaming.cl/chiloered/index.m3u8
+Logo: https://i.imgur.com/3tqrImm.png
+Category: Culture
+[26] Click TV (Coronel)
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.tustreaming.cl/clicktv/playlist.m3u8
+Logo: https://i.imgur.com/H0XNbMS.png
+Category: Documentary
+[27] Contivision
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8
+Logo: https://i.imgur.com/Lz2OlKf.png
+Category: News
+[28] Dance FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8
+Logo: https://i2.paste.pics/ff3e1e1045a1968dcdbcda3824a94eb3.png
+Category: Music
+[29] Décima TV (Ancud)
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited2-cl-isp.dps.live/decimatv/decimatv.smil/playlist.m3u8
+Logo: https://i.imgur.com/eu8hDDc.png
+Category: General
+[30] Disney Channel Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://201.230.121.186:8000/play/a0fb/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg
+Category: Animation;Kids
+[31] EGM Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://paneltv.online:1936/8186/8186/playlist.m3u8
+Logo: https://i.imgur.com/RXRKPvs.png
+Category: General
+[32] Girovisual
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8
+Logo: https://i.imgur.com/BYBMuhf.png
+Category: Entertainment
+[33] Holvoet TV (Copiapó) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/holvoettv/holvoettv.smil/playlist.m3u8
+Logo: https://i.imgur.com/9JKRO3R.png
+Category: Culture
+[34] Huasco Televisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://paneltv.online:1936/8024/8024/playlist.m3u8
+Logo: https://i.imgur.com/Fo2DV70.png
+Category: General
+[35] ITV Patagonia
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-cl.dps.live/itv/itv.smil/playlist.m3u8
+Logo: https://i.postimg.cc/tJ8F8XJL/339934625-6637234786303842-283053087769760685-n-removebg-preview.png
+Category: General
+[36] La Popular TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.arkeo.cl:1936/enlacetv1/enlacetv1/playlist.m3u8
+Logo: https://i.imgur.com/AWdgMCC.png
+Category: General
+[37] La Red (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8
+Logo: https://i.imgur.com/nJOVM6e.png
+Category: General
+[38] Latina Network TV (576i)
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-server.mivideo.pro:8081/latinavzla/tracks-v1a1/mono.m3u8
+Logo: https://www.vivalivetv.com/public/files/shows/0/1/3782-294x165-FFFFFF.jpg
+Category: General
+[39] MTNA TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mtna.tv/hls/mtna/mtna.m3u8
+Logo: https://i.imgur.com/v7SA92F.png
+Category: Religious
+[40] Nativa TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv5.voxtvhd.com.br/nativatv/nativatv/playlist.m3u8
+Logo: https://i.imgur.com/0SFE2Fr.png
+Category: General
+[41] NCTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://pantera1-100gb-cl-movistar.dps.live/nctv/nctv.smil/playlist.m3u8
+Logo: https://i.imgur.com/oo5vDBv.png
+Category: News
+[42] Nick Jr. Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.199.6.1:17001/play/a0pb/index.m3u8
+Logo: https://i.imgur.com/KT4tdQs.png
+Category: Kids
+[43] Nickelodeon Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://179.51.136.19:8000/play/a0q4/index.m3u8
+Logo: https://i.imgur.com/E84jnP8.png
+Category: Kids
+[44] Nublevision
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.arkeo.cl:1936/nublevision/nublevision/playlist.m3u8
+Logo: https://i.imgur.com/nkQyR1X.png
+Category: General
+[45] Pichilemu TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8
+Logo: https://i.imgur.com/eaJVCwM.png
+Category: Undefined
+[46] Pucón TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://pantera1-100gb-cl-movistar.dps.live/pucontv/pucontv.smil/playlist.m3u8
+Logo: https://i.imgur.com/nO4cV3E.png
+Category: Undefined
+[47] Puranoticia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://pnt.janusmedia.tv/hls/pnt.m3u8
+Logo: https://i.imgur.com/NklUi6Y.png
+Category: News
+[48] Radio Ritmo (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://panel.tvstream.cl:1936/8046/8046/playlist.m3u8
+Logo: https://i.imgur.com/qU3E0kX.png
+Category: Undefined
+[49] Santa María Televisión (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://pantera1-100gb-cl-movistar.dps.live/smtv/smtv.smil/playlist.m3u8
+Logo: https://i.imgur.com/SnbGpoK.png
+Category: Undefined
+[50] SoloBáilalo
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
+Logo: https://i.imgur.com/SImJE7c.png
+Category: Music
+[51] SUR TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/surtv/surtv.smil/playlist.m3u8
+Logo: https://i.imgur.com/wDCqoor.png
+Category: General
+[52] T13
+------------------------------------------------
+IPTV URLs (1):
+  • https://jireh-2-hls-video-us-isp.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
+Logo: https://i.imgur.com/2Vlkl2x.png
+Category: News
+[53] T-Vinet
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/inet2/inet2.smil/playlist.m3u8
+Logo: https://i.imgur.com/KisHIpA.png
+Category: Undefined
+[54] Telecanal
+------------------------------------------------
+IPTV URLs (1):
+  • http://45.232.210.1:8029/play/a00s/index.m3u8
+Logo: https://i.imgur.com/3g6SbSt.png
+Category: News
+[55] Telemundo Internacional
+------------------------------------------------
+IPTV URLs (1):
+  • http://190.2.212.209:8050/play/a0oa
+Logo: https://i.imgur.com/j2O4ndp.png
+Category: General
+[56] Teletrak
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
+Logo: https://i.imgur.com/NoJvlig.png
+Category: Sports
+[57] Televida
+------------------------------------------------
+IPTV URLs (1):
+  • https://tls-cl.cdnz.cl/televida/live/playlist.m3u8
+Logo: https://i.imgur.com/bmNA8hq.png
+Category: Religious
+[58] Tevex (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://v4.tustreaming.cl/tevexinter/index.m3u8
+Logo: https://i.imgur.com/FnInQRd.png
+Category: Business
+[59] Thema Televisión (La Serena) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/thema/thema.smil/playlist.m3u8
+Logo: https://www.thematelevision.cl/wp-content/uploads/2019/08/fffffffff.png
+Category: Undefined
+[60] TNE (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.tustreaming.cl/tnetv/index.m3u8
+Logo: https://i.imgur.com/8QbvXva.png
+Category: Religious
+[61] Turf Movil
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&id=
+Logo: https://i.imgur.com/TwIe4lK.png
+Category: Sports
+[62] TV Chile (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+Logo: https://i.imgur.com/oYFto0V.png
+Category: General
+[63] TV Quellón (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3u8
+Logo: https://i.imgur.com/MOwLCwT.png
+Category: Undefined
+[64] TV Senado
+------------------------------------------------
+IPTV URLs (1):
+  • https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
+Logo: https://i.imgur.com/CNUZ6ig.png
+Category: Undefined
+[65] TV UCT
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/uct/uct.smil/playlist.m3u8
+Logo: https://i.imgur.com/tpI0WQH.png
+Category: Undefined
+[66] TVN3 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
+Logo: https://i.imgur.com/9LEiQPJ.png
+Category: Classic
+[67] TVO San Vicente
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ff3d9babae13.streamlock.net/8014/8014/playlist.m3u8
+Logo: https://i.imgur.com/PCVWtHd.png
+Category: Undefined
+[68] TVR (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8
+Logo: https://i.postimg.cc/prDRDZw3/TVR-Logo.png
+Category: Undefined
+[69] TVU Concepción
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
+Logo: https://i.ibb.co/5vFMTxt/Logo-tvu.png
+Category: General
+[70] U Los Lagos TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.ulagos.cl/web/live.m3u8
+Logo: https://i.imgur.com/HxUZseV.png
+Category: Undefined
+[71] UCV TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
+Logo: https://i.postimg.cc/jjGpZf4T/UCV-Logo.png
+Category: Culture
+[72] UESTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tls-cl.cdnz.cl/uestv/live/playlist.m3u8
+Logo: https://i.imgur.com/tAyiNZV.png
+Category: Undefined
+[73] Universidad Autónoma Temuco (UATV) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8
+Logo: https://i.imgur.com/BdZGS66.png
+Category: Undefined
+[74] UTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.tustreaming.cl/utv/index.m3u8
+Logo: https://i.imgur.com/ZJNSpfZ.png
+Category: Undefined
+[75] V Classic TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
+Logo: https://i.imgur.com/WIACJSy.png
+Category: Music
+[76] VC Online
+------------------------------------------------
+IPTV URLs (1):
+  • https://panel.tvstream.cl:1936/8024/8024/playlist.m3u8
+Logo: https://i.imgur.com/VlKl2VB.png
+Category: Undefined
+[77] Vision Plus TV (1080i)
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ff3d9babae13.streamlock.net/jwagpqxehu/jwagpqxehu/playlist.m3u8
+Logo: https://i.imgur.com/mpNcG5F.png
+Category: Undefined
+[78] VTV Valle de Aconcagua (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://unlimited1-us.dps.live/vtv/vtv.smil/playlist.m3u8
+Logo: https://i.imgur.com/0bFVvKj.png
+Category: Undefined
+[79] WappTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/wapptv/master.m3u8?ads.vf=sP7W-jxtEdq
+Logo: https://i.imgur.com/Bv1yJ1d.png
+Category: Lifestyle

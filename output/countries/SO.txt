@@ -1,0 +1,49 @@
+============================================================
+Somalia (SO)
+============================================================
+Total Channels: 7
+Source: https://tv.garden/
+============================================================
+
+[1] Arlaadi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ap02.iqplay.tv:8082/iqb8002/alr114iapp/playlist.m3u8
+Logo: https://i.imgur.com/2tlFMXF.png
+Category: General
+[2] Hirshabelle TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://ap02.iqplay.tv:8081/iqb8002/h1rshbe1iptv/playlist.m3u8
+Logo: https://i.imgur.com/Kk0A2o7.png
+Category: General
+[3] Puntland TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8
+Logo: https://i.imgur.com/C8EvQUo.png
+Category: General
+[4] Saab TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ap02.iqplay.tv:8082/iqb8002/s03btv/playlist.m3u8
+Logo: https://i.imgur.com/JEC1J89.png
+Category: General
+[5] SBC TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn.mediavisionuae.com:1935/live/sbctv.stream/playlist.m3u8
+Logo: https://i.imgur.com/VLhgTIA.png
+Category: General
+[6] SNTV Daljir
+------------------------------------------------
+IPTV URLs (1):
+  • https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
+Logo: https://i.imgur.com/zmVKI26.jpg
+Category: General
+[7] Somali National TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8
+Logo: https://i.imgur.com/2y8gv7V.png
+Category: General

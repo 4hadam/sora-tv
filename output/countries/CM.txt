@@ -1,0 +1,85 @@
+============================================================
+Cameroon (CM)
+============================================================
+Total Channels: 13
+Source: https://tv.garden/
+============================================================
+
+[1] Afrique54 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.getstreamhosting.com:1936/8318/8318/playlist.m3u8
+Logo: https://i.imgur.com/WIaRpiS.png
+Category: News
+[2] Afrique Media
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.odysee.live/content/fe06b3cdc9412e359368b2455b6ea5e93856e382/master.m3u8
+Logo: https://i.imgur.com/spQgX7X.png
+Category: News
+[3] CAM 10 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.it-innov.com/cam10tv/index.m3u8
+Logo: https://i.imgur.com/xspb9uY.png
+Category: General
+[4] Canal 2 International
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/canal2international/playlist.m3u8
+Logo: https://i.imgur.com/BzA2z7m.png
+Category: General
+[5] CEN Télévision
+------------------------------------------------
+IPTV URLs (1):
+  • https://strhlslb01.streamakaci.tv/cen/cen-multi/playlist.m3u8
+Logo: https://i.ibb.co/2vJfdgN/unnamed.jpg
+Category: General
+[6] CRTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/crtv/playlist.m3u8
+Logo: https://i.imgur.com/cQWNh3L.png
+Category: General
+[7] Equinoxe TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/equinoxtv/playlist.m3u8
+Logo: https://i.imgur.com/GKbnBlo.png
+Category: General
+[8] Laura Dave Media TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.lauradavemedia.com/ldm/index.m3u8
+Logo: https://i.imgur.com/zzG1S2n.png
+Category: General
+[9] My Righteous TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/ssh101/ssh101/myrighteous/playlist.m3u8
+Logo: https://i.imgur.com/wKSLNHB.png
+Category: Religious
+[10] My TV Channel (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
+Logo: https://i.imgur.com/vh2373L.png
+Category: Undefined
+[11] Play TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
+Logo: https://i.imgur.com/1dmBqpf.png
+Category: Music
+[12] PLEX TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
+Logo: https://i.ibb.co/H4VktvG/Plex-TV-237.jpg
+Category: Entertainment
+[13] TR24
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.it-innov.com/tr24/index.m3u8
+Logo: https://i.ibb.co/fQrBY1M/tr24-telepack.jpg
+Category: Entertainment

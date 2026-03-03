@@ -1,0 +1,73 @@
+============================================================
+Kuwait (KW)
+============================================================
+Total Channels: 11
+Source: https://tv.garden/
+============================================================
+
+[1] Bahry
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/bahry1live/bahry1.smil/playlist.m3u8
+Logo: https://bahry.faulio.com/storage/mediagallery/9a/c7/fullhd_6a5a505408b027c0d4a4453c72258f9db0d2cb20.png
+Category: Undefined
+[2] Ch4Teen
+------------------------------------------------
+IPTV URLs (1):
+  • https://ch14.tv/live/ch4teenclip/playlist.m3u8
+Logo: https://i.imgur.com/pHpFGeg.png
+Category: Religious
+[3] KTV 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/kG0d8Ay.png
+Category: General
+[4] KTV 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtktv2ta.cdn.mangomolo.com/ktv2/smil:ktv2.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/hB57mNh.png
+Category: Culture;News
+[5] KTV Al Qurain
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:tktvaq.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/naVEZtj.png
+Category: Religious
+[6] KTV Arabe
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/jg3VAxO.png
+Category: Culture
+[7] KTV Ethraa
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtethta.cdn.mangomolo.com/eth/smil:eth.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/hqEbc49.png
+Category: Religious
+[8] KTV News
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtkbta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/erZ0Ol1.png
+Category: News
+[9] KTV Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/R1hGX1d.png
+Category: Sports
+[10] KTV Sport Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/l4oX0gf.png
+Category: Sports
+[11] Marina TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ffs.gulfsat.com/Marina-TV-HD/index.m3u8
+Logo: https://i.imgur.com/F2PzEaw.png
+Category: Music

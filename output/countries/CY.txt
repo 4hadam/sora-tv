@@ -1,0 +1,127 @@
+============================================================
+Cyprus (CY)
+============================================================
+Total Channels: 20
+Source: https://tv.garden/
+============================================================
+
+[1] Alfa Sport (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx
+Logo: https://i.imgur.com/vhMPYIW.png
+Category: Sports
+[2] ANT1 Cyprus
+------------------------------------------------
+IPTV URLs (1):
+  • http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+Logo: https://i.imgur.com/2KAObBt.png
+Category: Entertainment
+[3] BRT 1 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/brt1hd/bant1/playlist.m3u8
+Logo: https://i.imgur.com/gOPAi2c.png
+Category: Undefined
+[4] BRT 2 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/brt2hd/bant1/playlist.m3u8
+Logo: https://i.imgur.com/t5kbIuj.png
+Category: Undefined
+[5] BRT 3
+------------------------------------------------
+IPTV URLs (1):
+  • http://185.234.111.229:8000/play/a07e
+Logo: https://i.imgur.com/uczNZ3E.png
+Category: Undefined
+[6] City Channel (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dev.aftermind.xyz/edge-hls/unitrust/citychannel/index.m3u8?token=8TXWzhY3h6jrzqEqx
+Logo: https://i.imgur.com/oo2fxta.png
+Category: Undefined
+[7] FX (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://saran-live.ercdn.net/fx/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/330px-FX_International_logo.svg.png
+Category: Undefined
+[8] GÜNEŞ TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/gunestv/bant1/playlist.m3u8
+Logo: https://i.imgur.com/XmlXofJ.png
+Category: Undefined
+[9] Kanal Sim (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/simtv/bantp1/playlist.m3u8
+Logo: https://i.imgur.com/UHYJURw.png
+Category: General
+[10] Kibris Genç TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/kibrisgenctv/bant1/playlist.m3u8
+Logo: https://i.imgur.com/eBdQn9h.png
+Category: News
+[11] Kibris Kanal T (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/kanalt/bantp1/playlist.m3u8
+Logo: https://i.imgur.com/4bA4pXT.png
+Category: General
+[12] Kibris TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/kibristv/bant1/playlist.m3u8
+Logo: https://i.imgur.com/5MJZPTo.png
+Category: Undefined
+[13] RΙΚ Sat (CYBC S) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+Logo: https://i.imgur.com/BIKwFhD.png
+Category: Undefined
+[14] Sat 7 Arabic
+------------------------------------------------
+IPTV URLs (1):
+  • https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8
+Logo: https://i.imgur.com/BzDjQeQ.png
+Category: Undefined
+[15] Sat 7 Kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
+Logo: https://i.imgur.com/M0ik0i2.png
+Category: Kids;Religious
+[16] Sat7 Pars
+------------------------------------------------
+IPTV URLs (1):
+  • https://svs.itworkscdn.net/sat7parslive/sat7pars.smil/playlist.m3u8
+Logo: https://i.imgur.com/VTLQeul.png
+Category: Religious
+[17] Sat7 Türk
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
+Logo: https://i.imgur.com/cKQIK4i.png
+Category: Undefined
+[18] Sigma TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sl2.sigmatv.com/hls/live.m3u8
+Logo: https://i.imgur.com/DXKx102.png
+Category: Undefined
+[19] TV 2020 (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8
+Logo: https://i.imgur.com/rtfsNdd.png
+Category: Undefined
+[20] Vouli TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dev.aftermind.xyz/edge-hls/unitrust/voulitv/index.m3u8?token=8TXWzhY3h6jrzqEqx
+Logo: https://i.ibb.co/tzQ3jCR/cropped-VOULI-TV-LOGO-HIGH-RESOLUTION-BLUE.png
+Category: News

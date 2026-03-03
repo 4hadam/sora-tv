@@ -1,0 +1,67 @@
+============================================================
+Myanmar (MM)
+============================================================
+Total Channels: 10
+Source: https://tv.garden/
+============================================================
+
+[1] Channel K
+------------------------------------------------
+IPTV URLs (1):
+  • https://l1-xl1.myanmarnet.com/relay/channelk/ch1/stream.m3u8
+Logo: https://i.imgur.com/6PqxuhF.png
+Category: Entertainment
+[2] DVB TV (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-stream.dvb.no/hls/stream_src/index.m3u8
+Logo: https://i.imgur.com/VdezHOv.png
+Category: News
+[3] FORTUNE TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
+Logo: https://i.imgur.com/MM5evnD.png
+Category: Entertainment
+[4] Mahar TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.mahar.live/mahar/website.stream/playlist.m3u8
+Logo: https://i.imgur.com/ig0QECf.png
+Category: General
+[5] MN TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://l1-xl1.myanmarnet.com/relay/mntv/ch1/stream.m3u8
+Logo: https://i.imgur.com/nssm7QK.png
+Category: General
+[6] MRTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://mrtvott.com/cache/MRTV-HD/master.m3u8
+Logo: https://i.imgur.com/uyv7oJH.png
+Category: General
+[7] MRTV 4
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-live-pyone.secureswiftcontent.com/han/MRTV4/MRTV4/LiveOutput/manifest.m3u8
+Logo: https://i.imgur.com/J4i1VBb.png
+Category: General
+[8] MRTV Entertainment
+------------------------------------------------
+IPTV URLs (1):
+  • https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
+Logo: https://i.imgur.com/c9q6oT0.png
+Category: Entertainment
+[9] MRTV NRC
+------------------------------------------------
+IPTV URLs (1):
+  • https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
+Logo: https://i.imgur.com/5aLFslk.jpg
+Category: Culture
+[10] RTM ASEAN
+------------------------------------------------
+IPTV URLs (1):
+  • https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
+Logo: https://i.imgur.com/skAiUxg.png
+Category: News

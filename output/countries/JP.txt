@@ -1,0 +1,390 @@
+============================================================
+Japan (JP)
+============================================================
+Total Channels: 64
+Source: https://tv.garden/
+============================================================
+
+[1] ABC
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
+Logo: https://i.imgur.com/I11J99B.png
+Category: General
+[2] BS Asahi
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
+Logo: https://static.wikia.nocookie.net/logopedia/images/d/dd/Bs_Asahi_Logo.jpg/revision/latest/scale-to-width-down/512
+Category: General
+[3] BS Fuji TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
+Logo: https://i.imgur.com/GzdCXAJ.png
+Category: General
+[4] BS Nippon TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
+Logo: https://i.imgur.com/D8lhZCI.png
+Category: General
+[5] BS Shochiku Tokyu
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31
+Logo: https://i.imgur.com/pSKCgvv.png
+Category: Undefined
+[6] BS TBS
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
+Logo: https://i.imgur.com/h20eGKq.png
+Category: General
+[7] BS TV Tokyo
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
+Logo: https://static.wikia.nocookie.net/logopedia/images/3/39/BSTVTokyo_2024logo-TeletoVer.svg/revision/latest/scale-to-width-down/512
+Category: General
+[8] CGNTV Japan
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
+Logo: https://i.imgur.com/5LNZeVq.png
+Category: Religious
+[9] Channel Ginga
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
+Logo: https://www.ch-ginga.jp/assets/images/common/header_logo.png
+Category: General
+[10] Disney Channel Japan
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
+Logo: https://i.imgur.com/VSq7b5E.jpg
+Category: Kids
+[11] Dlife
+------------------------------------------------
+IPTV URLs (1):
+  • https://43.100.9.67/api/streams/live/cs312/1080p/mpegts
+Category: Series
+[12] Eisei Gekijo
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
+Logo: https://yt3.googleusercontent.com/d5yMuTHpdKEjTqXDEnS-iYo_AaKwuwYtHRs3gbLB9Hg8j_XtXyUXOeKxetptLhz85SciuA5i=s512-c-k-c0x00ffffff-no-rj
+Category: Movies
+[13] Family Gekijo
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
+Logo: https://i.imgur.com/PCx6Qz3.png
+Category: Family
+[14] Fishing Vision
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
+Logo: https://i.imgur.com/qX6nNOF.png
+Category: Outdoor
+[15] Fuji TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
+Logo: https://i.imgur.com/sEWDmMD.png
+Category: General
+[16] Fuji TV NEXT
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
+Logo: https://static.wikia.nocookie.net/logopedia/images/3/3b/Next-fujitv_logo.jpg/revision/latest
+Category: Entertainment
+[17] Gaora Sports
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
+Logo: https://i.imgur.com/UgKRfuw.png
+Category: Sports
+[18] Golf Network
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
+Logo: https://i.imgur.com/s6lmfXF.png
+Category: Sports
+[19] Green Channel
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
+Logo: https://i.imgur.com/sD3z8j7.png
+Category: Outdoor
+[20] GSTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://japaneast.av.mk.io/mediakindcdn-mediakind/b8278d70-0a5f-400c-9b16-c7acf7004355/index.qfm/manifest(format=m3u8-cmaf)
+Logo: https://i.imgur.com/ECnVG5I.png
+Category: Shop
+[21] History Channel Japan
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png
+Category: Documentary
+[22] Home Drama Channel
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
+Logo: https://i.imgur.com/iNkKh7w.png
+Category: Entertainment
+[23] J Sports 1
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
+Logo: https://i.imgur.com/vEpjLnj.png
+Category: Sports
+[24] J Sports 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
+Logo: https://i.imgur.com/g1GLVH2.png
+Category: Sports
+[25] J Sports 3
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
+Logo: https://i.imgur.com/xdI361E.png
+Category: Sports
+[26] J Sports 4
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
+Logo: https://i.imgur.com/fBcyZNL.png
+Category: Sports
+[27] Jidaigeki Senmon
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
+Logo: https://i.imgur.com/8T72RIH.png
+Category: Entertainment
+[28] JOAB-DTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
+Logo: https://i.imgur.com/WxtftlO.png
+Category: Education
+[29] Kansai TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
+Logo: https://i.imgur.com/WMNg5De.png
+Category: General
+[30] Kayo Pops
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
+Logo: https://yt3.googleusercontent.com/ytc/AIdro_m1AFOxZHFBvf-eLgADxBaFKa54T5oDOvxEaQfz9VMCU_c=s512-c-k-c0x00ffffff-no-rj
+Category: Music
+[31] Kids Station
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
+Logo: https://i.imgur.com/Z2HEh0A.jpeg
+Category: Kids
+[32] MBS
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
+Logo: https://i.imgur.com/RfrkGrd.png
+Category: General
+[33] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",MNB World
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
+Logo: https://i.imgur.com/PHlj84Q.png
+Category: General
+[34] MTV Japan
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png
+Category: Entertainment
+[35] Music Japan TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
+Logo: https://i.imgur.com/DkF8YZq.jpeg
+Category: Music
+[36] National Geographic Japan
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png
+Category: Documentary
+[37] NHK BS
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
+Logo: https://i.imgur.com/t0uZcSR.png
+Category: General
+[38] NHK BSP4K
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
+Logo: https://i.imgur.com/uvPpFo5.png
+Category: Entertainment
+[39] NHK G (Osaka)
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
+Logo: https://i.imgur.com/fAZ2BEZ.png
+Category: General
+[40] NHK G (Tokyo)
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
+Logo: https://i.imgur.com/fAZ2BEZ.png
+Category: General
+[41] NHK Kishou Saigai (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
+Logo: https://i.imgur.com/oWKCBIz.png
+Category: Weather
+[42] Nihon Eiga Senmon
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
+Logo: https://i.imgur.com/B2wzA67.png
+Category: Movies
+[43] Nippon TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
+Logo: https://i.imgur.com/IxD8V5X.png
+Category: General
+[44] Nittele G Plus
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
+Logo: https://i.imgur.com/7237pCC.png
+Category: Sports
+[45] QVC Japan
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+Logo: https://i.imgur.com/6TWUVrh.png
+Category: Shop
+[46] Shop Channel (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream3.shopch.jp/HLS/master.m3u8
+Logo: https://www.shopch.jp/com/images/common/logo_2021.png
+Category: Shop
+[47] Sky A
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
+Logo: https://i.imgur.com/JU3wZ0k.png
+Category: Undefined
+[48] Space Shower TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26
+Logo: https://static.wikia.nocookie.net/logopedia/images/2/24/Space_Shower_-_1999.svg/revision/latest/scale-to-width-down/512
+Category: Music
+[49] Star 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs27
+Logo: https://i.imgur.com/QOriZy5.png
+Category: Movies
+[50] Star 3
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs28
+Logo: https://i.imgur.com/Z1x8ecY.png
+Category: Movies
+[51] Sun TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
+Logo: https://i.imgur.com/0qtXIRM.png
+Category: Entertainment
+[52] TAKARAZUKA SKY STAGE
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
+Logo: https://www.starcat.co.jp/ch/upload/channel/38/takarazuka-skystage_logo.jpg
+Category: Undefined
+[53] TBS
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
+Logo: https://i.imgur.com/dUn2GRn.png
+Category: General
+[54] TBS News
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TBS_News_2020_logo.png/512px-TBS_News_2020_logo.png
+Category: News
+[55] Toei Channel
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
+Logo: https://i.imgur.com/QsTjHDU.jpeg
+Category: Undefined
+[56] Tokyo MX1
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
+Logo: https://i.imgur.com/0i5rDRN.png
+Category: General
+[57] TV Asahi
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
+Logo: https://i.imgur.com/YCqB5Kj.png
+Category: General
+[58] TV Osaka
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
+Logo: https://i.imgur.com/rUmrruq.png
+Category: General
+[59] TV Tokyo
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/512px-TV_Tokyo_%28Japanese%29_2023.svg.png
+Category: General
+[60] Weathernews
+------------------------------------------------
+IPTV URLs (1):
+  • https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
+Logo: https://i.imgur.com/A8uRSTS.png
+Category: Weather
+[61] WOWOW Cinema
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+Logo: https://i.imgur.com/Wx9fkCW.png
+Category: Movies
+[62] WOWOW Live
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
+Logo: https://i.imgur.com/jPAYT5F.png
+Category: Undefined
+[63] WOWOW Prime
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
+Logo: https://i.imgur.com/vACq7w8.png
+Category: Undefined
+[64] YTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
+Logo: https://i.imgur.com/ONbuWvo.png
+Category: General

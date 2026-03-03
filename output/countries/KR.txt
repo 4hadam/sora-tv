@@ -1,0 +1,469 @@
+============================================================
+South Korea (KR)
+============================================================
+Total Channels: 77
+Source: https://tv.garden/
+============================================================
+
+[1] ABN TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod2.abn.co.kr/IPHONE/abn.m3u8
+Logo: https://www.abn.co.kr/resources/images/logo.png
+Category: General
+[2] Arirang Radio
+------------------------------------------------
+IPTV URLs (1):
+  • http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+Logo: https://i.imgur.com/dtfiG9k.png
+Category: General
+[3] Arirang TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+Logo: https://i.imgur.com/Asu5pE9.png
+Category: General;News
+[4] Arirang TV HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash3.antik.sk/live/test_arirang/playlist.m3u8
+Logo: https://i.imgur.com/Asu5pE9.png
+Category: General;News
+[5] BBS Buddhist Broadcasting
+------------------------------------------------
+IPTV URLs (1):
+  • http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
+Logo: https://i.imgur.com/01UmXRe.png
+Category: Religious
+[6] BTN TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8
+Logo: https://i.imgur.com/sOoS7RQ.png
+Category: Religious
+[7] CGNTV South Korea
+------------------------------------------------
+IPTV URLs (1):
+  • https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
+Logo: https://i.imgur.com/zwZASOB.png
+Category: Religious
+[8] Channel A [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://channelalive.ktcdn.co.kr/chalivepc/_definst_/atv2/playlist.m3u8
+Logo: https://i.imgur.com/W9laHPD.png
+Category: General
+[9] CJ OnStyle
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
+Logo: https://i.imgur.com/JiSfEBv.png
+Category: Shop
+[10] CJ OnStyle Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8
+Logo: https://i.imgur.com/OYmOL20.png
+Category: Shop
+[11] EBS 1 (400p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/512px-EBS_1TV_Logo.svg.png
+Category: Education
+[12] EBS 2 (400p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/512px-EBS_2TV_Logo.svg.png
+Category: Education
+[13] EBS E (400p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+Logo: https://i.imgur.com/5wLJzb0.png
+Category: Education
+[14] EBS kids (400p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
+Logo: https://i.imgur.com/62oo8Bx.png
+Category: Kids
+[15] EBS+ 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
+Logo: https://i.imgur.com/aCeuhon.png
+Category: Education
+[16] EBS+ 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+Logo: https://i.imgur.com/pllIMGi.png
+Category: Education
+[17] FGTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8
+Logo: https://i.ibb.co/crxz0fd/yfgc-hearder-logo.png
+Category: Religious
+[18] GCN24 Korean
+------------------------------------------------
+IPTV URLs (1):
+  • http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
+Logo: https://i.imgur.com/yzwtMOC.png
+Category: Religious
+[19] Gongyoung Shopping
+------------------------------------------------
+IPTV URLs (1):
+  • https://etv.publichs.com/live5.stream/playlist.m3u8
+Logo: https://i.imgur.com/YL3rpd7.png
+Category: Shop
+[20] GoodTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8
+Logo: https://i.ibb.co/1v913gn/logo-goodtv.png
+Category: Religious
+[21] GS My Shop
+------------------------------------------------
+IPTV URLs (1):
+  • https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8
+Logo: https://i.imgur.com/ETPQwui.png
+Category: Shop
+[22] GS Shop
+------------------------------------------------
+IPTV URLs (1):
+  • https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8
+Logo: https://i.imgur.com/F7QDbEy.png
+Category: Shop
+[23] GugakTV 국악방송
+------------------------------------------------
+IPTV URLs (1):
+  • https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+Logo: https://i.imgur.com/Ey7Htm8.png
+Category: Music
+[24] Gugbang TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
+Logo: https://i.imgur.com/f1tz5fg.png
+Category: News
+[25] Home & Shopping
+------------------------------------------------
+IPTV URLs (1):
+  • https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
+Logo: https://i.imgur.com/IcexRXG.png
+Category: Shop
+[26] Hyundai Home Shopping
+------------------------------------------------
+IPTV URLs (1):
+  • https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8
+Logo: https://i.imgur.com/NJpECmq.png
+Category: Shop
+[27] Hyundai Home Shopping Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8
+Logo: https://i.imgur.com/DoNOuZE.png
+Category: Shop
+[28] Job Plus TV (한국직업방송)
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.jobplustv.or.kr/live/wowtvlive1.sdp/playlist.m3u8
+Logo: https://i.imgur.com/Y5Zg5SR.png
+Category: Business
+[29] KCTV 광주 CH05 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
+Logo: https://i.imgur.com/IHkZpaI.png
+Category: General
+[30] Korea TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+Logo: https://i.ibb.co/WkrLDJW/Screenshot-20230714-135036-removebg-preview.png
+Category: Legislative;News
+[31] KShopping
+------------------------------------------------
+IPTV URLs (1):
+  • https://fhs8036.bd-61.ktcdn.co.kr/klive/smil:klive.smil/playlist.m3u8
+Logo: https://i.imgur.com/Tmb3xK8.png
+Category: Shop
+[32] Lotte Home Shopping
+------------------------------------------------
+IPTV URLs (1):
+  • https://pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8
+Logo: https://i.imgur.com/dJeNehc.png
+Category: Shop
+[33] Lotte OneTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
+Logo: https://i.imgur.com/bXe7tYE.png
+Category: Shop
+[34] MBC Andong (안동 MBC) (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
+Logo: https://i.imgur.com/nqRWpUu.png
+Category: General
+[35] MBC Busan (부산MBC) (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.bsmbc.com/livetv/BusanMBC_TV_onairstream/playlist.m3u8
+Logo: https://i.imgur.com/jiFOYi5.png
+Category: General
+[36] MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
+Logo: https://i.imgur.com/lthyx2P.png
+Category: General
+[37] MBC Chungbuk (MBC 충북) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
+Logo: https://i.imgur.com/uR0gScb.png
+Category: General
+[38] MBC Daegu (대구 MBC) (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
+Logo: https://i.imgur.com/LlYQR8m.png
+Category: General
+[39] MBC Daejeon (대전 MBC) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
+Logo: https://i.imgur.com/HCbvAiM.png
+Category: General
+[40] MBC Drama (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://mytv.dothome.co.kr/ch/catv/26.php
+Logo: https://i.imgur.com/Q20rqnX.png
+Category: Entertainment
+[41] MBC Gangwon (MBC 강원영동) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
+Logo: https://i.imgur.com/FGsKCH3.png
+Category: General
+[42] MBC Gwangju (광주 MBC) (1080p) [Geo-blocked] [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://media.kjmbc.co.kr/hls/live/stream/playlist.m3u8
+Logo: https://i.imgur.com/wmGJgYh.png
+Category: General
+[43] MBC Gyeongnam (경남 MBC) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://624a79c87201d.streamlock.net/MBCTV/TV1.stream/playlist.m3u8
+Logo: https://i.imgur.com/Ronb1JP.png
+Category: General
+[44] MBC Jeju (제주 MBC) (352p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
+Logo: https://i.imgur.com/JM4rxGU.png
+Category: General
+[45] MBC Jeonju
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ee9633b25727.streamlock.net/jmbc_tv/_definst_/jmbc_tv.stream/playlist.m3u8
+Logo: https://i.imgur.com/3C57SwN.png
+Category: General
+[46] MBC Mokpo (목포 MBC) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
+Logo: https://i.imgur.com/5oraHc0.png
+Category: General
+[47] MBC Net (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://mytv.dothome.co.kr/ch/catv/28.php
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/512px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png
+Category: Undefined
+[48] MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
+Logo: https://i.imgur.com/3VSuYsn.png
+Category: General
+[49] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",MNB World
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
+Logo: https://i.imgur.com/PHlj84Q.png
+Category: General
+[50] MTN
+------------------------------------------------
+IPTV URLs (1):
+  • http://183.110.27.87/mtnlive/720/playlist.m3u8
+Logo: https://i.imgur.com/MS0lqoG.png
+Category: Undefined
+[51] National Assembly TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/kr/natv.m3u8
+Logo: https://i.imgur.com/UKdB8vD.png
+Category: Legislative
+[52] NBS Korea Agricultural Broadcasting
+------------------------------------------------
+IPTV URLs (1):
+  • https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
+Logo: https://i.imgur.com/pOSroOE.png
+Category: Education
+[53] NHTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8
+Logo: https://i.imgur.com/DfECkgB.png
+Category: Entertainment
+[54] NS Home Shopping
+------------------------------------------------
+IPTV URLs (1):
+  • https://livestream.nsmall.com/IPHONE/nsmallMobile.m3u8
+Logo: https://i.imgur.com/Q9xsDQo.png
+Category: Shop
+[55] NS Shop Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://shoppstream.nsmall.com/IPHONE/mobile.m3u8
+Logo: https://i.imgur.com/7KmXNci.png
+Category: Shop
+[56] OBS Gyeongin TV (OBS경인TV) (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod.obs.co.kr:444/live/obsstream1/tv.stream/playlist.m3u8
+Logo: https://i.imgur.com/oWB3ApR.png
+Category: General
+[57] OCN
+------------------------------------------------
+IPTV URLs (1):
+  • http://202.60.106.14:8080/207/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/OCN_Logo.svg/512px-OCN_Logo.svg.png
+Category: Movies;Series
+[58] OUN
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.knou.ac.kr/knou1/live1/playlist.m3u8
+Logo: https://i.imgur.com/7s6JtcU.png
+Category: Education
+[59] RTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtv-stream2.a04f922e9e85c8d25ebfeae3dfd22a67.com/rtv/rtv.m3u8
+Logo: https://i.imgur.com/Vhp7yR7.png
+Category: Undefined
+[60] RUTC TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8
+Logo: https://i.ibb.co/yPDhKBp/rutc-logo.jpg
+Category: Religious
+[61] SBS CJB (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+Logo: https://i.imgur.com/zVunmpQ.png
+Category: General
+[62] SBS G1 (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8
+Logo: https://i.imgur.com/ABdmZMc.png
+Category: General
+[63] SBS JIBS (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://123.140.197.22/stream/1/play.m3u8
+Logo: https://i.imgur.com/iAz0Psw.png
+Category: General
+[64] SBS JTV (406p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
+Logo: https://i.imgur.com/byss0Ld.png
+Category: General
+[65] SBS KBC (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
+Logo: https://i.imgur.com/Srsw4Mi.png
+Category: General
+[66] SBS KNN (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.knn.co.kr/hls/9ly4534y7dm2xfa123r2_tv/index.m3u8
+Logo: https://i.imgur.com/gaBq1Lz.png
+Category: General
+[67] SBS TBC (540p) [Geo-blocked] [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://203.251.91.122:1935/on-air-Backup/tv/playlist.m3u8
+Logo: https://i.imgur.com/jknoVmp.png
+Category: General
+[68] SBS UBC (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8
+Logo: https://i.imgur.com/BBCoqIf.png
+Category: General
+[69] Shinsegae Shopping TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveout.catenoid.net/live-02-shinsegaetvshopping/shinsegaetvshopping_720p/playlist.m3u8
+Logo: https://i.imgur.com/Hq3yjqA.png
+Category: Shop
+[70] Shopping NT
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.shoppingntmall.com/live/10011.m3u8
+Logo: https://i.imgur.com/BgbJp5X.png
+Category: Shop
+[71] TBS Seoul
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
+Logo: https://i.imgur.com/iOnWS6V.png
+Category: Undefined
+[72] TV Chosun
+------------------------------------------------
+IPTV URLs (1):
+  • http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
+Logo: https://i.imgur.com/62EwaCG.png
+Category: General
+[73] TV Chosun 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
+Logo: https://i.imgur.com/Ev5JoBJ.png
+Category: Undefined
+[74] W Shopping
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveout.catenoid.net/live-05-wshopping/wshopping_1500k/playlist.m3u8
+Logo: https://i.imgur.com/hfXjVJd.png
+Category: Shop
+[75] WBS TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://157.245.196.186/live/livestream.m3u8
+Logo: https://i.imgur.com/Lhz1Egi.png
+Category: Religious
+[76] YTN
+------------------------------------------------
+IPTV URLs (1):
+  • http://202.60.106.14:8080/214/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/512px-YTN_logo_2014.svg.png
+Category: General
+[77] Zee Bollymovies (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512
+Category: Movies

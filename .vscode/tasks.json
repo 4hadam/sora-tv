@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "رفع تحديثات المغرب",
+			"type": "shell",
+			"command": "git add shared/iptv-channels.ts && git commit -m \"🖼️ Update Morocco channel logos with real Wikipedia sources\" && git push origin main"
+		},
+		{
+			"label": "Push Morocco Logos",
+			"type": "shell",
+			"command": "git add shared/iptv-channels.ts ; git commit -m \"Update Morocco channel logos with real Wikipedia sources\" ; git push origin main"
+		}
+	]
+}

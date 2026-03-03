@@ -1,0 +1,205 @@
+============================================================
+El Salvador (SV)
+============================================================
+Total Channels: 33
+Source: https://tv.garden/
+============================================================
+
+[1] Agape TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fc584f3f19c9.streamlock.net/agape/smil:agape.smil/playlist.m3u8
+Logo: https://i.imgur.com/DsGmrnc.png
+Category: General
+[2] Árbol de Vida TV (240p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://yupistream.top:19360/livearbol/livearbol.m3u8
+Logo: https://i.imgur.com/4sGDc4X.jpg
+Category: Religious
+[3] Awapa Sports TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
+Logo: https://i.imgur.com/MNw5cJH.jpg
+Category: Sports
+[4] Canal 2 (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/512px-Canal_2_TCS.png
+Category: General
+[5] Canal 3 Impresionante
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8
+Logo: https://i.imgur.com/mdfiWG9.png
+Category: General
+[6] Canal 6 (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
+Logo: https://i.imgur.com/M4muPLK.png
+Category: General
+[7] Canal 10
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/tves/videotves/playlist.m3u8
+Logo: https://i.imgur.com/y2ppMnY.png
+Category: General
+[8] Canal 11 TuTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.giostreaming.app/canal11/canal11.m3u8
+Logo: https://i.imgur.com/itqQEux.png
+Category: General
+[9] Canal 12
+------------------------------------------------
+IPTV URLs (1):
+  • https://alba-sv-c12-c12.stream.mediatiquestream.com/index.m3u8
+Logo: https://i.imgur.com/UGDbp3O.png
+Category: General
+[10] Canal 15 El Zamorano [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo.tecnoservix.stream:3007/live/canal15zamoranolive.m3u8
+Logo: https://i.imgur.com/op13ujg.png
+Category: General
+[11] Canal 15 Usulután (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.grupocsanetwork.com:19360/canal15/canal15.m3u8
+Logo: https://i.imgur.com/LsrCVy3.jpg
+Category: General
+[12] Canal 26 TV IAP
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo.tecnoservix.stream:3899/live/canal26tvlive.m3u8
+Logo: https://i.imgur.com/JE7FsnN.png
+Category: Religious
+[13] Canal 65 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://panel.streamingtv-mediacp.online:1936/tv65/tv65/playlist.m3u8
+Logo: https://i.imgur.com/P15QovY.png
+Category: Religious
+[14] El Camino TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d32e2b9b7eed.streamlock.net:4443/ectv/ectv/playlist.m3u8
+Logo: https://i.imgur.com/ZSktjGB.png
+Category: Religious
+[15] Elim TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.soporteccrtv.xyz/hls/master-dveo.m3u8
+Logo: https://i.imgur.com/payIg0N.png
+Category: Religious
+[16] GSG TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://schurch1.bozztv.com/livecdn69/live/playlist.m3u8
+Logo: https://i.imgur.com/8fZnNu0.png
+Category: Religious
+[17] JFV TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://2nbyj587d53k-hls-live.5centscdn.com/09/25b94ec89b2aa708c3c4ad0014b09845.sdp/playlist.m3u8
+Logo: https://i.imgur.com/SrmI6nU.jpeg
+Category: Religious
+[18] Josué TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://videoserver.tmcreativos.com:19360/abbftuhxxs/abbftuhxxs.m3u8
+Logo: https://i.imgur.com/LNWGe1D.jpg
+Category: Religious
+[19] Legislative Assembly of El Salvador (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.asamblea.gob.sv/hls/plenariahd.m3u8
+Logo: https://i.imgur.com/OBuiCyb.png
+Category: Legislative
+[20] Megavisión Canal 19
+------------------------------------------------
+IPTV URLs (1):
+  • https://mgvchannel19-ioriver-cdn.encoders.immergo.tv/master.m3u8
+Logo: https://i.imgur.com/voyVP6X.png
+Category: General
+[21] Megavisión Canal 21
+------------------------------------------------
+IPTV URLs (1):
+  • https://mgvchannel21-ioriver-cdn.encoders.immergo.tv/master.m3u8
+Logo: https://i.imgur.com/HbdYU9k.png
+Category: General
+[22] RTV Canal 57
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
+Logo: https://i.imgur.com/tnOGWqL.png
+Category: General
+[23] Sol TV Morazán (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://rtmp.info:1935/soltv/envivo/playlist.m3u8
+Logo: https://i.imgur.com/jaBxxpt.png
+Category: General
+[24] Taber TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fc584f3f19c9.streamlock.net/tabertv/videotabertv/playlist.m3u8
+Logo: https://i.imgur.com/ikq2iSf.png
+Category: Religious
+[25] TCS+ (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8
+Logo: https://i.imgur.com/iYFWG06.png
+Category: General
+[26] Tigo Sports TV El Salvador (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://channel03.tigosports.com.sv/out/v1/31f36d52d558475ca18799d8ca5e4b40/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/512px-Tigo_Sports_2025.png
+Category: Sports
+[27] TribunaTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudflare.streamgato.us:3300/live/tribunatvlive.m3u8
+Logo: https://i.imgur.com/C5vHpd0.png
+Category: News
+[28] TV CRET
+------------------------------------------------
+IPTV URLs (1):
+  • https://radiocret.net:8082/hls/tvcret.m3u8
+Logo: https://i.imgur.com/ChonoKb.png
+Category: Religious
+[29] TV Getsemaní
+------------------------------------------------
+IPTV URLs (1):
+  • https://serversv.com:8080/hls/tvgetsemani.m3u8
+Logo: https://i.imgur.com/C9SJCcE.jpg
+Category: Religious
+[30] TV León de Judá
+------------------------------------------------
+IPTV URLs (1):
+  • https://6110f70ea8d0e.streamlock.net/1838/1838/playlist.m3u8
+Logo: https://i.imgur.com/ZUCppwi.png
+Category: Religious
+[31] TVC Network (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.castr.com/643880749cf895435bf8eadf/live_d0b3cf70e24111ed8ed2951b4c7d1b75/index.m3u8
+Logo: https://i.imgur.com/S1xiWB3.png
+Category: General
+[32] TVCa Televisión Católica Arquidiocesana
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/tvcaelsalvador/playlist.m3u8
+Logo: https://i.imgur.com/uPWWtCA.png
+Category: Religious
+[33] TVM El Salvador [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://201.247.102.189/tmp_hls/stream/index.m3u8
+Logo: https://i.imgur.com/fyCC8R6.png
+Category: News

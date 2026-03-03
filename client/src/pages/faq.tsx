@@ -9,24 +9,24 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
     {
-        question: "What is Sora.tv?",
+        question: "What is Sora tv?",
         answer:
-            "Sora.tv is a free, browser-based platform for streaming live TV channels from around the world. Explore global news, sports, culture, and entertainment through an interactive 3D globe or a simple country list. No account, no signup, and zero ads — just instant access to thousands of live streams.",
+            "Sora tv is a free, browser-based platform for streaming live TV channels from around the world. Explore global news, sports, culture, and entertainment through an interactive 3D globe or a simple country list. No account, no signup, and zero ads — just instant access to thousands of live streams.",
     },
     {
         question: "How can I watch world TV channels for free?",
         answer:
-            "Simply open Sora.tv, spin the 3D globe or browse the country list, pick a region, and tap any channel in the sidebar. We link directly to publicly available streams so you can start watching in seconds — completely free.",
+            "Simply open Sora tv, spin the 3D globe or browse the country list, pick a region, and tap any channel in the sidebar. We link directly to publicly available streams so you can start watching in seconds — completely free.",
     },
     {
-        question: "Is Sora.tv free to use?",
+        question: "Is Sora tv free to use?",
         answer:
             "100% free. No subscription, no account, no hidden fees, and no ads. Just pick a channel and enjoy.",
     },
     {
         question: "What is IPTV?",
         answer:
-            "IPTV (Internet Protocol Television) means delivering TV content over the internet rather than cable or satellite. Sora.tv aggregates publicly available IPTV streams, giving you access to local and international news, sports, movies, and more — from anywhere in the world.",
+            "IPTV (Internet Protocol Television) means delivering TV content over the internet rather than cable or satellite. Sora tv aggregates publicly available IPTV streams, giving you access to local and international news, sports, movies, and more — from anywhere in the world.",
     },
     {
         question: "Where do the TV channels come from?",
@@ -44,9 +44,9 @@ const faqData: FAQItem[] = [
             "The channel list is updated regularly thanks to the global IPTV community. New channels get added and broken links get removed on an ongoing basis, so you can always find something new.",
     },
     {
-        question: "Is Sora.tv legal and safe?",
+        question: "Is Sora tv legal and safe?",
         answer:
-            "Sora.tv only links to streams that are already publicly available on the internet — we don't host any video content ourselves. All connections use HTTPS for security. We do not use third-party trackers and we do not collect any personal data. See the About section for the full legal disclaimer.",
+            "Sora tv only links to streams that are already publicly available on the internet — we don't host any video content ourselves. All connections use HTTPS for security. We do not use third-party trackers and we do not collect any personal data. See the About section for the full legal disclaimer.",
     },
     {
         question: "Why are some channels not available?",
@@ -64,9 +64,9 @@ const faqData: FAQItem[] = [
             "Some channels are licensed for specific regions and may not be accessible from all countries. Channels with geographic restrictions are marked with a lock icon.",
     },
     {
-        question: "How does Sora.tv protect my privacy?",
+        question: "How does Sora tv protect my privacy?",
         answer:
-            "Your privacy matters to us. We do not collect, store, or share any personal information. There are no third-party trackers or analytics on Sora.tv. You can watch freely knowing your data stays entirely your own.",
+            "Your privacy matters to us. We do not collect, store, or share any personal information. There are no third-party trackers or analytics on Sora tv. You can watch freely knowing your data stays entirely your own.",
     },
 ]
 
@@ -136,7 +136,7 @@ export default function FAQ() {
                     How can we help?
                 </h1>
                 <p className="text-white/50 text-base sm:text-lg max-w-xl mx-auto">
-                    Everything you need to know about watching free live TV on Sora.tv.
+                    Everything you need to know about watching free live TV on Sora tv.
                 </p>
             </div>
 
@@ -169,7 +169,7 @@ export default function FAQ() {
 
             {/* Footer */}
             <div className="border-t border-white/5 py-8 text-center text-xs text-white/25 space-y-2">
-                <p>© {new Date().getFullYear()} Sora.tv — Watch live TV from anywhere, for free.</p>
+                <p>© {new Date().getFullYear()} Sora tv — Watch live TV from anywhere, for free.</p>
                 <p>
                     <a href="/faq" className="hover:text-white/50 transition-colors underline underline-offset-2">
                         FAQ

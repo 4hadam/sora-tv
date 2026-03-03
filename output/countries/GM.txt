@@ -1,0 +1,19 @@
+============================================================
+Gambia (GM)
+============================================================
+Total Channels: 2
+Source: https://tv.garden/
+============================================================
+
+[1] Paradise TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl06.bozztv.com/astv-ptvgambia/index.m3u8
+Logo: https://i.imgur.com/0aT45vk.png
+Category: General
+[2] QTV Gambia (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.qtv.gm/hls/live.stream.m3u8
+Logo: https://i.imgur.com/ZsTuADb.png
+Category: General

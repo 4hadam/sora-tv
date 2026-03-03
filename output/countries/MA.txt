@@ -1,0 +1,67 @@
+============================================================
+Morocco (MA)
+============================================================
+Total Channels: 10
+Source: https://tv.garden/
+============================================================
+
+[1] 2M Monde
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
+Logo: https://i.imgur.com/MvpntzA.png
+Category: General
+[2] 2M Monde +1
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
+Logo: https://i.imgur.com/MvpntzA.png
+Category: General
+[3] Al Maghribia [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd
+Logo: https://i.imgur.com/7GaahYh.png
+Category: General
+[4] Chada TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8
+Logo: https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png
+Category: General
+[5] CNA (Chaîne Nord Africaine) (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8
+Logo: https://i.imgur.com/Ki3ySUE.png
+Category: Religious
+[6] MBC 5
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8
+Logo: https://i.imgur.com/fRWaDyF.png
+Category: Family
+[7] Medi 1 TV Arabic
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8
+Logo: https://i.imgur.com/3YsZPY6.jpeg
+Category: News
+[8] Medi 1 TV Maghreb
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
+Logo: https://i.imgur.com/F5OFQsp.jpeg
+Category: News
+[9] StoryChannel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://136044159.r.cdnsun.net/storychannel.m3u8
+Logo: https://i.imgur.com/ZBV6xph.png
+Category: Culture
+[10] Tele Maroc
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8
+Logo: https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png
+Category: Culture;Entertainment;News

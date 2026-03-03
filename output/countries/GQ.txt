@@ -1,0 +1,19 @@
+============================================================
+Equatorial Guinea (GQ)
+============================================================
+Total Channels: 2
+Source: https://tv.garden/
+============================================================
+
+[1] SolTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.solmediaeg.com/soltv/soltv.m3u8
+Logo: https://i.imgur.com/TJHk6Va.png
+Category: Entertainment
+[2] TVGE
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/tvge/playlist.m3u8
+Logo: https://i.imgur.com/iOdHgPd.png
+Category: General

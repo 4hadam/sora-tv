@@ -1,0 +1,91 @@
+============================================================
+Tajikistan (TJ)
+============================================================
+Total Channels: 14
+Source: https://tv.garden/
+============================================================
+
+[1] Badakhshon
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/11/3m.m3u8
+Logo: https://i.imgur.com/iK6AmkZ.png
+Category: General
+[2] Dushanbe HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/7/3m.m3u8
+Logo: https://i.imgur.com/WWPIziG.png
+Category: General
+[3] Futbol
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/8/3m.m3u8
+Logo: https://i.imgur.com/RngmCDn.png
+Category: Sports
+[4] Ilm va Tabiat
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/15/3m.m3u8
+Logo: https://i.imgur.com/MDULX7X.png
+Category: Science
+[5] Jahonnamo
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/4/3m.m3u8
+Logo: https://i.imgur.com/ffqdD8W.png
+Category: General
+[6] Khatlon
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/10/3m.m3u8
+Logo: https://i.imgur.com/X4xVpBj.png
+Category: General
+[7] Tajikistan
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/1/3m.m3u8
+Logo: https://i.imgur.com/sEXCFNk.png
+Category: General
+[8] TMT
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/9/3m.m3u8
+Logo: https://i.imgur.com/Dg0UkNR.png
+Category: General
+[9] TV Bahoriston
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/3/3m.m3u8
+Logo: https://i.imgur.com/Dacai5z.png
+Category: Kids
+[10] TV Kulob
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/12/3m.m3u8
+Logo: https://i.imgur.com/AFgEYFp.png
+Category: General
+[11] TV Safina
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/2/3m.m3u8
+Logo: https://i.imgur.com/Ho2vKZJ.png
+Category: Undefined
+[12] TV Sayohi
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/16/3m.m3u8
+Logo: https://i.imgur.com/lAkMrtr.png
+Category: Travel
+[13] TV Sinamo
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/6/3m.m3u8
+Logo: https://i.imgur.com/W2qz5a4.png
+Category: Undefined
+[14] TV Sugd
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.teleradiocom.tj/14/3m.m3u8
+Logo: https://i.imgur.com/YzkwTHb.png
+Category: General

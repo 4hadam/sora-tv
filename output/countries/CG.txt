@@ -1,0 +1,37 @@
+============================================================
+Congo (CG)
+============================================================
+Total Channels: 5
+Source: https://tv.garden/
+============================================================
+
+[1] Beb TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-hls-qunv.livepush.io/live_cdn/em8A-kbzIfHqu73/index.m3u8
+Logo: https://i.imgur.com/3XOk1lP.jpeg
+Category: General
+[2] Esaie 45 Tele
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-esaie45/index.m3u8
+Logo: https://i.imgur.com/nc9QBnD.png
+Category: Religious
+[3] JOS TV HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.berosat.live:19360/jos-tv-stream/jos-tv-stream.m3u8
+Logo: https://i.imgur.com/Ai9kpuu.jpeg
+Category: Culture
+[4] Nazali's HDTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://194.163.135.238:5080/WebRTCApp/streams/590264631485484547459082.m3u8
+Logo: https://i.imgur.com/SrdRtqn.png
+Category: Entertainment
+[5] Télé Congo
+------------------------------------------------
+IPTV URLs (1):
+  • http://51.254.199.122:8080/telecongo/index.m3u8
+Logo: https://i.imgur.com/r4B5zq4.png
+Category: General

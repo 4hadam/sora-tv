@@ -1,6 +1,6 @@
 {
-    "name": "Sora.tv - Watch Live World TV Channels Online",
-    "short_name": "Sora.tv",
+    "name": "Sora tv - Watch Live World TV Channels Online",
+    "short_name": "Sora tv",
     "description": "Watch free live TV channels from around the world. Stream global news, sports, entertainment, and more.",
     "start_url": "/",
     "display": "standalone",

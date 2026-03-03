@@ -1,0 +1,49 @@
+============================================================
+Guyana (GY)
+============================================================
+Total Channels: 7
+Source: https://tv.garden/
+============================================================
+
+[1] GMTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341
+Logo: https://i.imgur.com/GJYb8c8.png
+Category: Music
+[2] GTN Canada (1080i) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8
+Logo: https://i.imgur.com/7bQPJOd.png
+Category: General
+[3] GuyBai TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livechannel.mdc.akamaized.net/stitch/livechannel/1342/master1400000.m3u8;session=live_stream_1342
+Logo: https://i.imgur.com/LlASANE.png
+Category: General
+[4] HGPTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8
+Logo: https://i.imgur.com/0aIH6V5.png
+Category: General
+[5] Ignite Television (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rpn.bozztv.com/ignitelive/ignitetv/ignitetv/tracks-v1a1/mono.m3u8
+Logo: https://i.imgur.com/aQI9tsg.jpeg
+Category: General
+[6] Little Guyana TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.getstreamhosting.com:1936/8122/8122/playlist.m3u8
+Logo: https://i.imgur.com/b475xOT.jpg
+Category: General
+[7] MTV Guyana (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
+Logo: https://i.imgur.com/Ky70brA.png
+Category: General

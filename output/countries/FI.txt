@@ -1,0 +1,175 @@
+============================================================
+Finland (FI)
+============================================================
+Total Channels: 28
+Source: https://tv.garden/
+============================================================
+
+[1] Eveo (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/eveo/live.m3u8?hd=true
+Logo: https://i.imgur.com/fFIq7tY.png
+Category: General
+[2] Hero (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/hero/live.m3u8?hd=true
+Logo: https://i.imgur.com/4t5JQLY.png
+Category: Movies
+[3] Jim
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/jim/live.m3u8?hd=true
+Logo: https://i.imgur.com/PkMgY0K.png
+Category: Entertainment
+[4] JRTV Järviradio
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
+Logo: https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg
+Category: Music
+[5] Liv
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/liv/live.m3u8?hd=true
+Logo: https://i.imgur.com/k6NsXBj.png
+Category: Entertainment
+[6] MTV3
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/mtv3/live.m3u8
+Logo: https://i.imgur.com/C5rQbBM.png
+Category: General
+[7] MTV Ava
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/ava/live.m3u8
+Logo: https://i.imgur.com/WxNCiAk.png
+Category: Entertainment
+[8] MTV Sub
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/sub/live.m3u8
+Logo: https://i.imgur.com/rmV8LO1.png
+Category: Undefined
+[9] MTV Uutiset
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8
+Logo: https://i.imgur.com/ZO8ShOK.png
+Category: News
+[10] NärTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8
+Logo: https://i.imgur.com/Ht5yePq.png
+Category: General
+[11] National Geographic (Finland) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png
+Category: Documentary
+[12] Navahang TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.navahang.live/hls/stream.m3u8
+Logo: https://i.imgur.com/YteKXJy.png
+Category: Music
+[13] Nelonen
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/nelonen/live.m3u8
+Logo: https://i.imgur.com/BFbCyfY.png
+Category: General
+[14] Nopola News (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
+Logo: https://i.imgur.com/vDoQaGl.png
+Category: News
+[15] Onni TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8
+Logo: https://i.imgur.com/Vba4jUk.png
+Category: General
+[16] Rakuten TV Action Movies Finland
+------------------------------------------------
+IPTV URLs (1):
+  • https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[17] Rakuten TV Comedy Movies Finland
+------------------------------------------------
+IPTV URLs (1):
+  • https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[18] Rakuten TV Drama Movies Finland
+------------------------------------------------
+IPTV URLs (1):
+  • https://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[19] Rakuten TV Family Movies Finland
+------------------------------------------------
+IPTV URLs (1):
+  • https://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Family;Movies
+[20] Rakuten TV Nordic Films
+------------------------------------------------
+IPTV URLs (1):
+  • https://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8
+Logo: https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/ff79e878-3eea-45fc-b0cd-55d6acce9b18-width200-quality90.jpeg
+Category: Movies
+[21] Rakuten TV Top Movies Finland
+------------------------------------------------
+IPTV URLs (1):
+  • https://1d1b0d4cb6ae4c31985d13221795695b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6057/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[22] STAR Channel (Finland)
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/star-channel/live.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png
+Category: Undefined
+[23] Taivas TV7
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8
+Logo: https://i.imgur.com/JyJNiXy.png
+Category: Religious
+[24] Viaplay TV (Finland) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?hd=true
+Logo: https://upload.wikimedia.org/wikipedia/commons/9/94/Viaplay_TV_logo.svg
+Category: Sports
+[25] YLE TV 1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
+Logo: https://i.imgur.com/6yXZwUL.png
+Category: Undefined
+[26] YLE TV 2 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://yletvworld.akamaized.net/hls/live/622541/yletv2w/index.m3u8
+Logo: https://i.imgur.com/4xkc6PL.png
+Category: Undefined
+[27] YLE TV Teema & Fem (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://yletvworld.akamaized.net/hls/live/622547/yletvteemafemw/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yle_Teema_%26_Fem.svg/512px-Yle_Teema_%26_Fem.svg.png
+Category: Undefined
+[28] YleX Studio Live
+------------------------------------------------
+IPTV URLs (1):
+  • https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png
+Category: Music

@@ -1,0 +1,145 @@
+============================================================
+Georgia (GE)
+============================================================
+Total Channels: 23
+Source: https://tv.garden/
+============================================================
+
+[1] 1TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8
+Logo: https://i.imgur.com/FSkYLPK.png
+Category: General
+[2] 2TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8
+Logo: https://i.imgur.com/FJBL6zI.png
+Category: General
+[3] Adjarasport 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
+Logo: https://i.imgur.com/SVV5xHC.png
+Category: Sports
+[4] Comedy TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.146.5.178:8087/play/a00b/index.m3u8
+Logo: https://i.imgur.com/i1TANKv.png
+Category: Comedy
+[5] Ertsulovneba
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sstv.ge/live/sstv/playlist.m3u8
+Logo: https://i.imgur.com/KuuODMM.png
+Category: Religious
+[6] Euronews Georgia
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-euronewsgeorgia/index.m3u8
+Logo: https://i.imgur.com/VNJ4soR.png
+Category: News
+[7] Formula
+------------------------------------------------
+IPTV URLs (1):
+  • https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8
+Logo: https://i.imgur.com/fsqBn8G.png
+Category: News
+[8] GDS TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.146.5.178:8087/play/a00a/index.m3u8
+Logo: https://i.imgur.com/gv61tFf.png
+Category: General
+[9] Imedi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.cdn.xsg.ge/imedihd/index.m3u8
+Logo: https://i.imgur.com/94hNyxZ.png
+Category: General
+[10] Kartuli TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-qartulitv/index.m3u8
+Logo: https://i.imgur.com/k6kCnBZ.jpeg
+Category: Culture
+[11] Kavkasia TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-kavkasia/index.m3u8
+Logo: https://i.imgur.com/Z5b7w7K.png
+Category: General
+[12] Marao TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-marao/index.m3u8
+Logo: https://i.imgur.com/Nurmw1G.png
+Category: Lifestyle
+[13] Mtavari Arkhi
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/dvrfl05/gin-mtavariarxi/index.m3u8
+Logo: https://i.imgur.com/tLtGnJW.png
+Category: General
+[14] Obieqtivi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/dvrfl05/gin-obieqtivitv/index.m3u8
+Logo: https://i.imgur.com/Kqc8H8X.png
+Category: News
+[15] Palitra News (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.palitranews.ge/hls/palitratv/index.m3u8
+Logo: https://i.imgur.com/BW95PMF.png
+Category: News
+[16] Pos TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-postv/index.m3u8
+Logo: https://i.imgur.com/UOiXFEW.png
+Category: General
+[17] Rioni TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://video.rionitv.com:9090/hls/live/rioni.m3u8
+Logo: https://i.imgur.com/ogMqmth.png
+Category: Undefined
+[18] Rustavi 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.146.5.178:8087/play/a008/index.m3u8
+Logo: https://i.imgur.com/rPqd1Cx.png
+Category: Undefined
+[19] Silk Universal
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-silkuniversal/index.m3u8
+Logo: https://i.imgur.com/z0XHsPE.png
+Category: Undefined
+[20] TV 25
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-tv25/index.m3u8
+Logo: https://www.magticom.ge/images/channels/MjAxOC8wOS8xMC9lNWU0YmY2OC1iNjgzLTQ1NWMtYTQzZi00YmZmYWFiYTcyYTguanBn.jpg
+Category: General
+[21] TV Pirveli
+------------------------------------------------
+IPTV URLs (1):
+  • http://dvrfl05.bozztv.com/gin-tvpirveli/index.m3u8
+Logo: https://i.imgur.com/cGHsM1x.png
+Category: General
+[22] TVC
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.146.5.178:8087/play/a009/index.m3u8
+Logo: https://sul.ge/images/televizia/tvc.png
+Category: General
+[23] АБАЗА-ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
+Logo: https://i.imgur.com/7Jo7UAf.png
+Category: General

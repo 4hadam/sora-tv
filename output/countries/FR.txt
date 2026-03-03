@@ -1,0 +1,906 @@
+============================================================
+France (FR)
+============================================================
+Total Channels: 150
+Source: https://tv.garden/
+============================================================
+
+[1] 6ter (1080p) [Geo-blocked] [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8
+Logo: https://i.imgur.com/2nd5Cox.png
+Category: Entertainment
+[2] 20 Minutes TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/320px-20_Minutes_TV_IDF_logo_%282023%29.png
+Category: General
+[3] AB1 [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/ab1/browser-dash/ab1.mpd
+Logo: https://i.imgur.com/9C7UsOe.png
+Category: Entertainment
+[4] ADN TV+
+------------------------------------------------
+IPTV URLs (1):
+  • https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
+Logo: https://i.imgur.com/HQZQyWt.png
+Category: Animation
+[5] Africa 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+Logo: https://africa24tv.com/wp-content/uploads/2021/09/logo.png
+Category: News
+[6] Africa 24 English
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
+Logo: https://africa24tv.com/wp-content/uploads/2023/12/logo-Africa24TVEnglish.png
+Category: News
+[7] Africa 24 Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+Logo: https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1
+Category: News;Sports
+[8] Alpe d’Huez TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+Logo: https://i.imgur.com/090tCQ5.png
+Category: General
+[9] Angers Tele
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/angerstele.m3u8
+Logo: https://i.imgur.com/CMKKbaP.png
+Category: General
+[10] Animaux [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/animaux/browser-dash/animaux.mpd
+Logo: https://i.imgur.com/FM9FVAG.png
+Category: Education
+[11] Antenne Réunion (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
+Logo: https://i.imgur.com/EPIMMaB.png
+Category: General
+[12] AraBel
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/arabel.m3u8
+Logo: https://www.arabel.fm/wp-content/uploads/2021/10/Logo-AraBel.png
+Category: Undefined
+[13] Arte (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+Logo: https://i.imgur.com/ecXMjNl.png
+Category: Entertainment
+[14] arte HD (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8
+Logo: https://i.imgur.com/ecXMjNl.png
+Category: Entertainment
+[15] B Smart TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/bsmart.m3u8
+Logo: https://i.imgur.com/RyVEFcG.png
+Category: Undefined
+[16] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE
+Logo: https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg
+Category: News
+[17] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="General",BFM Alsace
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/iRsbEpg.png
+Category: General
+[18] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Business;News",BFM Business
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/psqIHn4.png
+Category: Business;News
+[19] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM DICI Alpes du Sud
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/bV77l68.png
+Category: News
+[20] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM DICI Haute-Provence
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/bV77l68.png
+Category: News
+[21] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM Grand Lille
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/HE5xP0r.png
+Category: News
+[22] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM Grand Littoral
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/j7F9MwH.png
+Category: News
+[23] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM Lyon
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/0uiiZRo.png
+Category: News
+[24] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM Marseille
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/h7t0l6q.png
+Category: News
+[25] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM Nice Côte d'Azur
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/iiVFvIw.png
+Category: News
+[26] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM Normandie
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/WWWQ44G.png
+Category: News
+[27] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News;Science",BFM Tech & Co
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/FQ0FpXV.png
+Category: News;Science
+[28] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM Toulon Var
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/vp1oVj3.png
+Category: News
+[29] like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="News",BFM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?end=END&start=LIVE
+Logo: https://i.imgur.com/YJCcczD.png
+Category: News
+[30] Brionnais TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
+Logo: https://i.imgur.com/y94bhqX.jpg
+Category: General
+[31] C Star (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/d17/browser-HLS8/d17.m3u8
+Logo: https://i.imgur.com/w4kAX1V.png
+Category: Entertainment
+[32] Caillou
+------------------------------------------------
+IPTV URLs (1):
+  • https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
+Logo: https://i.imgur.com/RgKaoe4.png
+Category: Undefined
+[33] Canal 32
+------------------------------------------------
+IPTV URLs (1):
+  • https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+Logo: https://i.imgur.com/lAsE6kN.png
+Category: General
+[34] Canal J HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/canalj/browser-HLS8/canalj.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/512px-Canal_J_2019_Logo.png
+Category: Kids
+[35] Canal+ en clair (720p) [Geo-blocked] [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-dash/canalplusclair.mpd
+Logo: https://i.imgur.com/5HcyMnW.png
+Category: Entertainment
+[36] Cannes Lérins TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
+Logo: https://i.imgur.com/atlgnum.png
+Category: General
+[37] Cine Western
+------------------------------------------------
+IPTV URLs (1):
+  • https://f7ad58aa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1dQX0hMUw/playlist.m3u8
+Logo: https://i.imgur.com/tteOFkL.png
+Category: Movies
+[38] Clubbing TV France
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
+Logo: https://i.imgur.com/MyiA92q.png
+Category: Music
+[39] CNews (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/itele/browser-HLS8/itele.m3u8
+Logo: https://i.imgur.com/sSNhk2g.png
+Category: News
+[40] DBM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
+Logo: https://i.imgur.com/ab6p2SW.png
+Category: Music
+[41] Disney Jr.
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg
+Category: Kids
+[42] DNTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.num221tech.com:5443/LiveApp/streams/dntv.m3u8
+Logo: https://i.imgur.com/Pw1ifln.png
+Category: Entertainment
+[43] EMCI TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/emciafrique.m3u8
+Category: Religious
+[44] Equidia
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
+Logo: https://i.imgur.com/QPpbRcZ.png
+Category: Sports
+[45] Euronews French
+------------------------------------------------
+IPTV URLs (1):
+  • https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
+Logo: https://i.imgur.com/8t9mdg9.png
+Category: News
+[46] Euronews French HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
+Logo: https://i.imgur.com/8t9mdg9.png
+Category: News
+[47] FashionTV Paris L'Original
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+Logo: https://i.imgur.com/GFTAN5Q.png
+Category: Lifestyle
+[48] FashionTV Secrets
+------------------------------------------------
+IPTV URLs (1):
+  • https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1
+Logo: https://i.ibb.co/fVGJyCC8/w512.png
+Category: Lifestyle
+[49] FIFA+ French
+------------------------------------------------
+IPTV URLs (1):
+  • https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png
+Category: Sports
+[50] France 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/france2/mono.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png
+Category: General
+[51] France 2 HD (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png
+Category: General
+[52] France 3 HD (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png
+Category: General
+[53] France 4 HD (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png
+Category: Kids
+[54] France 5
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/france5/mono.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png
+Category: General
+[55] France 5 HD (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png
+Category: General
+[56] France 24 French
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/France_24_logo_%282013%29.svg/512px-France_24_logo_%282013%29.svg.png
+Category: News
+[57] France Inter
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinter.m3u8
+Logo: https://i.imgur.com/MgBeU52.png
+Category: General
+[58] Franceinfo
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinfotv.m3u8
+Logo: https://i.imgur.com/eITXz6A.png
+Category: News
+[59] Francophonie24
+------------------------------------------------
+IPTV URLs (1):
+  • https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
+Logo: https://i.imgur.com/uM1v1sd.png
+Category: Documentary
+[60] Fun Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/funradiofr.m3u8
+Logo: https://i.imgur.com/wgxuYsQ.png
+Category: Music
+[61] Generations TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+Logo: https://i.imgur.com/NgBrDMe.png
+Category: Undefined
+[62] Gong
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
+Logo: https://i.imgur.com/lA9UFMG.png
+Category: Animation
+[63] Gulli (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/gulli/browser-HLS8/gulli.m3u8
+Logo: https://i.imgur.com/kqYssbW.png
+Category: Kids
+[64] HANDICAP TV France
+------------------------------------------------
+IPTV URLs (1):
+  • https://srv.webtvmanager.fr:3697/stream/play.m3u8
+Logo: https://i.imgur.com/vXbAeD0.png
+Category: Lifestyle
+[65] ici Elsass
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/icielsass.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/fr/6/69/Ici_Elsass.svg
+Category: General
+[66] ILTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
+Logo: https://i.imgur.com/fVhrJHK.png
+Category: Undefined
+[67] KOZOOM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8?ads.vf=gPEEXzG-WvO
+Logo: https://i.imgur.com/M1Ee79b.png
+Category: Sports
+[68] KTO (404p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
+Logo: https://i.imgur.com/EY6TsdV.png
+Category: Religious
+[69] L'Equipe
+------------------------------------------------
+IPTV URLs (1):
+  • https://dshn8inoshngm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gac2i63dmu8b7/LEquipe_FR.m3u8
+Logo: https://i.imgur.com/t35zhM9.png
+Category: Sports
+[70] LCI HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd
+Logo: https://i.imgur.com/DED8EXs.png
+Category: News
+[71] LCP [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/lcp/browser-HLS8/lcp.m3u8
+Logo: https://i.imgur.com/k7UImOJ.png
+Category: Legislative
+[72] Le Figaro IDF
+------------------------------------------------
+IPTV URLs (1):
+  • https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
+Logo: https://i.imgur.com/a8RuRUQ.png
+Category: General
+[73] Le Media TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lemedia.m3u8
+Logo: https://i.imgur.com/OK20oyl.png
+Category: News
+[74] Littoral FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
+Logo: https://i.imgur.com/DCZKAQ1.png
+Category: Music
+[75] Lyon Capitale TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lyoncapitale.m3u8
+Logo: https://i.imgur.com/4WfnEaj.png
+Category: News
+[76] M6 [Geo-blocked] [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
+Logo: https://i.imgur.com/7GVp3fW.png
+Category: Entertainment
+[77] Maison & Travaux TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/maisonettravaux.m3u8
+Logo: https://i.imgur.com/uYpc6nE.png
+Category: Lifestyle
+[78] MDL
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
+Logo: https://i.imgur.com/REN30bx.png
+Category: Undefined
+[79] Melody
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiokaraoke.m3u8
+Logo: https://i.imgur.com/9GVyQ6x.png
+Category: Music
+[80] Men's UP TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mensuptv.m3u8
+Logo: https://i.imgur.com/5BZwRFs.png
+Category: General
+[81] Mezzo (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8
+Logo: https://i.imgur.com/auNdGeW.png
+Category: Music
+[82] Monte Carlo Digital Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
+Logo: https://i.imgur.com/99h8F1y.jpeg
+Category: Lifestyle
+[83] Motorvision.tv (French)
+------------------------------------------------
+IPTV URLs (1):
+  • https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883047
+Logo: https://i.imgur.com/5cs5GkJ.png
+Category: Auto
+[84] Mouv' TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mouv.m3u8
+Logo: https://i.imgur.com/64nzKEu.jpg
+Category: Music
+[85] MTV (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png
+Category: Entertainment
+[86] Museum TV [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8
+Logo: https://i.imgur.com/WbjURLo.png
+Category: Culture
+[87] My Gospel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.cmediahosthosting.net:3046/live/mygospeltvlive.m3u8
+Logo: https://mygospeltv.fr/wp-content/uploads/2022/05/MY-GODPEL-TV-e1652783900988.png
+Category: Music;Religious
+[88] MyZen TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
+Logo: https://i.imgur.com/fIi8o0C.png
+Category: Relax
+[89] Nickelodeon
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
+Logo: https://i.imgur.com/E84jnP8.png
+Category: Kids
+[90] Nickelodeon Junior
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/512px-Nickelodeon_Junior.png
+Category: Kids
+[91] NOVO19 (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/novo19/browser-HLS8/novo19.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/langfr-512px-Logo_NOVO19_-_2025.svg.png
+Category: General
+[92] Novo Comedy
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/novo-comedy/video.m3u8?ads.vf=WY7qC3DIF58
+Logo: https://novocomedy.com/wp-content/uploads/LogoNovocomedy.png
+Category: Comedy
+[93] P2M TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo2.pro-fhi.net:3207/stream/play.m3u8
+Logo: https://i.imgur.com/TrecSeG.png
+Category: Music
+[94] Planete+ (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/planeteplus/browser-HLS8/planeteplus.m3u8
+Logo: https://i.imgur.com/RMbMGMg.png
+Category: Undefined
+[95] Public Senat 24/24
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8
+Logo: https://i.imgur.com/nHWWLBP.png
+Category: Legislative
+[96] Puissance TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
+Logo: https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg
+Category: General
+[97] Qwest TV Jazz & Beyond
+------------------------------------------------
+IPTV URLs (1):
+  • https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
+Logo: https://i.imgur.com/89yWH5L.png
+Category: Music
+[98] Radio Frontieres
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiofrontieres.m3u8
+Logo: https://www.frontieresmedia.fr/img/logo.svg
+Category: Undefined
+[99] Radio Karaoke
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiokaraoke-2.m3u8
+Logo: https://i.imgur.com/9uRggjD.png
+Category: Music
+[100] RMC Decouverte (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rmcdecouverte/browser-HLS8/rmcdecouverte.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/langfr-350px-RMC_D%C3%A9couverte_logo_2017.svg.png
+Category: Undefined
+[101] RMC Life [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8
+Logo: https://img1.dc2.oqee.net/channel_pictures/3606/w512
+Category: Entertainment;Interactive
+[102] RMC Story (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/numero23/browser-HLS8/numero23.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/512px-Logo_RMC_Story_2025.png
+Category: Undefined
+[103] RT France (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/512px-RT-France-logo.svg.png
+Category: News
+[104] RTL2
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/rtl2.m3u8
+Logo: https://i.imgur.com/deC4z34.png
+Category: Music
+[105] RTL9 [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rtl9/browser-dash/rtl9.mpd
+Logo: https://i.imgur.com/nFqjVNW.png
+Category: Entertainment
+[106] Sony One Blacklist
+------------------------------------------------
+IPTV URLs (1):
+  • https://06cb85ad6ccb4a6b97f561e62d16ad3f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-822-FR-SONYONETHEBLACKLIST-LG_FR/playlist.m3u8
+Logo: https://i.imgur.com/uJC8rXr.png
+Category: Series
+[107] Sony One Favoris
+------------------------------------------------
+IPTV URLs (1):
+  • https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8
+Logo: https://i.imgur.com/RO4AM4b.png
+Category: Movies
+[108] Sony One Hits Action
+------------------------------------------------
+IPTV URLs (1):
+  • https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
+Logo: https://i.imgur.com/pXsZEsR.png
+Category: Movies
+[109] Sony One Hits Comedie
+------------------------------------------------
+IPTV URLs (1):
+  • https://7aa9671895264ec9a384dfed1b992171.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-818-FR-SONYONEHITSCOMDIE-LG_FR/playlist.m3u8
+Logo: https://i.imgur.com/8sHuxxS.png
+Category: Movies
+[110] Sony One Series Comedie
+------------------------------------------------
+IPTV URLs (1):
+  • https://4f2a3e1ff5274297b115cf0f7da1c2cd.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-819-FR-SONYONESRIESCOMDIE-LG_FR/playlist.m3u8
+Logo: https://i.ibb.co/ns4Md77B/FR-FAST-Plex-Comedy-TV-logo-dark.png
+Category: Series
+[111] Sony One Series Thriller
+------------------------------------------------
+IPTV URLs (1):
+  • https://483a1e90c18641c9a6d27becd41ad892.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-821-FR-SONYONESRIESTHRILLER-LG_FR/playlist.m3u8
+Logo: https://i.imgur.com/RVS8LDj.png
+Category: Series
+[112] Sud Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8
+Logo: https://www.sudradio.fr/wp-content/themes/sud-2023/assets/img/logo-fondblanc-parlons.png
+Category: Undefined
+[113] T18
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/langfr-512px-Logo_de_la_chaine_T18.svg.png
+Category: General
+[114] TéléGohelle
+------------------------------------------------
+IPTV URLs (1):
+  • https://videas.agglo-lenslievin.fr/index.m3u8
+Logo: https://i.imgur.com/Oa3Pwbf.png
+Category: General
+[115] Telenantes
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8
+Logo: https://i.imgur.com/G1SCqNI.png
+Category: Undefined
+[116] Telesud
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telesud.m3u8
+Logo: https://i.imgur.com/bC3qiGK.png
+Category: Undefined
+[117] TF1 HD (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
+Logo: https://i.imgur.com/QxHt9NC.png
+Category: Entertainment
+[118] TF1 Series Films (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8
+Logo: https://i.imgur.com/4CJIDKQ.png
+Category: Movies
+[119] TFX (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8
+Logo: https://i.imgur.com/d91GcVf.png
+Category: Undefined
+[120] TiVi5 Monde [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8
+Logo: https://i.imgur.com/fVVKpmk.png
+Category: Undefined
+[121] TMC HD (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png
+Category: General
+[122] TRACE Brazuca
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/DFBocPu.png
+Category: Music
+[123] TRACE Latina
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01131-tracetv-amg01131c3-stirr-us-4391.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/CUVAi4u.png
+Category: Music
+[124] Trace Sport Stars (Australia)
+------------------------------------------------
+IPTV URLs (1):
+  • https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/FabFP5A.png
+Category: Sports
+[125] Trace Urban (Australia)
+------------------------------------------------
+IPTV URLs (1):
+  • https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/DLIbUMx.png
+Category: Music
+[126] Trek HD (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/escales/browser-HLS8/escales.m3u8
+Logo: https://i.imgur.com/TcF53W4.png
+Category: Undefined
+[127] TV3V
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
+Logo: https://i.ibb.co/X2yd0zL/logo-tv3v.jpg
+Category: General
+[128] TV5Monde France Belgique Suisse Monaco (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
+Logo: https://i.imgur.com/WmRbudc.png
+Category: General
+[129] TV5Monde France Belgium Switzerland Monaco HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/tv5mondefbs/browser-HLS8/tv5mondefbs.m3u8
+Logo: https://i.imgur.com/WmRbudc.png
+Category: General
+[130] TV5Monde Info (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
+Logo: https://i.imgur.com/AJx5Fy2.png
+Category: News
+[131] TV5Monde Style (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
+Logo: https://i.imgur.com/cwC7Q2V.png
+Category: Lifestyle
+[132] TV7 Colmar
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
+Logo: https://i.imgur.com/kSdGi43.png
+Category: General
+[133] TV78
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
+Logo: https://i.imgur.com/stzE1Ij.png
+Category: Undefined
+[134] TV Monaco
+------------------------------------------------
+IPTV URLs (1):
+  • https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/512px-TVMonaco_2023.svg.png
+Category: General
+[135] TVR (Bretagne)
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
+Logo: https://www.tvr.bzh/favicon-1024.png
+Category: Undefined
+[136] TZiK [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8
+Logo: https://i.imgur.com/TAagRkn.png
+Category: Music
+[137] ViàMatélé
+------------------------------------------------
+IPTV URLs (1):
+  • https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8
+Logo: https://i.imgur.com/XVCV9rj.png
+Category: Undefined
+[138] viàMoselleTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
+Logo: https://i.imgur.com/hrm5QnU.png
+Category: General
+[139] viàOccitanie (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117.m3u8
+Logo: https://i.imgur.com/NzuKt1R.png
+Category: General
+[140] viàTéléPaese
+------------------------------------------------
+IPTV URLs (1):
+  • https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
+Logo: https://i.imgur.com/TLZsAKK.png
+Category: General
+[141] Vosges Télévision (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
+Logo: https://i.imgur.com/7y7ancc.png
+Category: Undefined
+[142] W9 [Geo-blocked] [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8
+Logo: https://i.imgur.com/reYeMuE.png
+Category: Entertainment
+[143] Wildside TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/cQkfRhH.png
+Category: Movies
+[144] Zee One Français
+------------------------------------------------
+IPTV URLs (1):
+  • https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png
+Category: Entertainment
+[145] zenith
+------------------------------------------------
+IPTV URLs (1):
+  • https://srv.zenith-tv.fr:8888/zenithwchl/index.m3u8
+Logo: https://znth.tv/static/site_app/thy%20logo.svg
+Category: Culture;General
+[146] Zylo Ciné Nanar
+------------------------------------------------
+IPTV URLs (1):
+  • https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/YnUZd3W.png
+Category: Movies
+[147] Zylo Emotion' L
+------------------------------------------------
+IPTV URLs (1):
+  • https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
+Logo: https://i.imgur.com/MP34aaj.png
+Category: Movies
+[148] Zylo Fréquence Novelas
+------------------------------------------------
+IPTV URLs (1):
+  • https://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8
+Logo: https://i.imgur.com/fEjNAps.png
+Category: Series
+[149] Zylo Into Crime
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/43at4M2.png
+Category: Documentary
+[150] Zylo ScreamIN
+------------------------------------------------
+IPTV URLs (1):
+  • https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
+Logo: https://i.imgur.com/tGmKbil.png
+Category: Movies

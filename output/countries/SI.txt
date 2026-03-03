@@ -1,0 +1,91 @@
+============================================================
+Slovenia (SI)
+============================================================
+Total Channels: 14
+Source: https://tv.garden/
+============================================================
+
+[1] Exodus TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://584943999.r.worldssl.net/584943999/_definst_/vzivo/playlist.m3u8
+Logo: https://i.imgur.com/WKr5ncQ.png
+Category: Religious
+[2] Folx Slovenija
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdne.folxplay.tv/folx-trz/streams/ch-5/master.m3u8
+Logo: https://i.imgur.com/RK1IASU.png
+Category: Music
+[3] GTV (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://91.220.221.60/gtv_hls/gtv_03.m3u8
+Logo: https://i.imgur.com/LHChpid.png
+Category: Culture
+[4] History Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HISTORYHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png
+Category: Documentary
+[5] Kanal A
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer01.xploretv.si/__cl/cg:prod/__c/A1_SI_AKANALHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
+Logo: https://i.imgur.com/JHNpcqF.png
+Category: General
+[6] One Adria
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdne.folxplay.tv/folx-trz/streams/ch-6/master.m3u8
+Logo: https://i.imgur.com/NYkMamU.png
+Category: Music
+[7] SLO 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO1HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
+Logo: https://i.imgur.com/E3YmlxF.png
+Category: Undefined
+[8] SLO 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO2HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
+Logo: https://i.imgur.com/OPlzjjv.png
+Category: Undefined
+[9] SLO 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO3HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
+Logo: https://i.imgur.com/yPb2FKg.png
+Category: Undefined
+[10] Tržič TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vpn.video2go.live:444/trzic/tv/playlist.m3u8
+Logo: https://i.imgur.com/VZiaoqz.png
+Category: Undefined
+[11] TV SLO 1 HD (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://23.88.66.93/SLO1/index.m3u8
+Logo: https://i.imgur.com/E3YmlxF.png
+Category: Undefined
+[12] TV SLO 2 HD (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://23.88.66.93/SLO2/index.m3u8
+Logo: https://i.imgur.com/OPlzjjv.png
+Category: Undefined
+[13] TV Uršlja (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://ott.sgn.net/hls/tvurslja.m3u8
+Logo: https://i.imgur.com/PZwdXlN.png
+Category: General
+[14] TV Veseljak Golica HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://radio.serv.si/VeseljakGolicaTV/tracks-v1a1/mono.m3u8
+Logo: https://i.imgur.com/49VrbSW.png
+Category: Undefined

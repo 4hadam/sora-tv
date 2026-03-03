@@ -1,0 +1,145 @@
+============================================================
+Croatia (HR)
+============================================================
+Total Channels: 23
+Source: https://tv.garden/
+============================================================
+
+[1] Bravo! Kids TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.social3.hr/play/r3CK_tdsFIFL3bN7w4NW1plrwsCToUBsRFjhxM68sZY/m3u8
+Logo: https://i.imgur.com/JcJ6fQ9.png
+Category: Kids
+[2] Bravo! TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.social3.hr/bravoTVkdjd7djd/XAbSERW5p3/2.m3u8
+Logo: https://i.imgur.com/FN2J9hv.png
+Category: Music
+[3] CMC TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.cmctv.hr:49998/cmc/live.m3u8
+Logo: https://i.imgur.com/FCb7Ag2.png
+Category: Music
+[4] Diadora TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://diadoratv.stream/live/diadora/playlist.m3u8
+Logo: https://i.imgur.com/qZzsASl.png
+Category: General
+[5] Extra TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
+Logo: https://i.imgur.com/5edYPBO.png
+Category: Music
+[6] like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="General",HRT 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://webtvstream.bhtelecom.ba/hrt1.m3u8
+Logo: https://i.imgur.com/lDSctzX.png
+Category: General
+[7] HRT 1 HD (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd
+Logo: https://i.imgur.com/lDSctzX.png
+Category: General
+[8] like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="General",HRT 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://webtvstream.bhtelecom.ba/hrt2.m3u8
+Logo: https://i.imgur.com/yyePcl1.png
+Category: General
+[9] HRT 2 HD (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT2/default/index.mpd
+Logo: https://i.imgur.com/yyePcl1.png
+Category: General
+[10] like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Culture;Documentary",HRT 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://webtvstream.bhtelecom.ba/hrt3.m3u8
+Logo: https://i.imgur.com/4OrOJRx.png
+Category: Culture;Documentary
+[11] HRT 3 HD (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT3/default/index.mpd
+Logo: https://i.imgur.com/4OrOJRx.png
+Category: Culture;Documentary
+[12] HRT 4 HD (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd
+Logo: https://i.imgur.com/VcNrY0m.png
+Category: News
+[13] Klape i Tambure TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.cmctv.hr:49998/kit/live.m3u8
+Logo: https://i.imgur.com/sKj3dgc.png
+Category: Music
+[14] Klasik TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://178.253.194.105/klasiktv/playlist.m3u8
+Logo: https://i.imgur.com/C90BYlb.png
+Category: Movies
+[15] Libertas TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.luci.xyz/hls/LTV.m3u8
+Logo: https://i.imgur.com/4R4fhbd.png
+Category: General
+[16] OTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.agatin.hr:3559/live/otvlive.m3u8
+Logo: https://i.imgur.com/67zVdu2.png
+Category: News
+[17] Radio Televizija Banovina (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://pool.alter-media.hr:1936/live/myStream/playlist.m3u8?DVR=
+Logo: https://i.imgur.com/gCFgC5D.png
+Category: Undefined
+[18] SBTV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.leveex.hr/hls/live.m3u8
+Logo: https://i.imgur.com/MIampxZ.png
+Category: General
+[19] STV
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.201.163.244:8080/hls/hdmi.m3u8
+Logo: https://i.imgur.com/Z3yRl17.png
+Category: General
+[20] Trend TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://185.62.75.22:1935/trend/myStream/playlist.m3u8
+Logo: https://i.imgur.com/4SmNISY.jpg
+Category: General
+[21] TV Jadran (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
+Logo: https://i.imgur.com/UWMHnOG.png
+Category: News
+[22] TV Nova
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.agatin.hr:3727/live/tvnovalive.m3u8
+Logo: https://i.imgur.com/gFjJ7YB.png
+Category: Entertainment
+[23] TV Zapad (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://85.94.67.158/TVZAPAD/index.fmp4.m3u8
+Logo: https://i.imgur.com/cgCeX12.png
+Category: General

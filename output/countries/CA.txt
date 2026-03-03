@@ -1,0 +1,1007 @@
+============================================================
+Canada (CA)
+============================================================
+Total Channels: 167
+Source: https://tv.garden/
+============================================================
+
+[1] 3ABN Canada
+------------------------------------------------
+IPTV URLs (1):
+  • https://3abn.bozztv.com/3abncanada/3ABN/master.m3u8
+Logo: https://i.imgur.com/U99CsEc.png
+Category: Religious
+[2] 5AAB TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
+Logo: https://i.imgur.com/jrGrfof.png
+Category: Entertainment
+[3] A&E East (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvpass.org/live/AEEast/hd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/512px-A%26E_Network_logo.svg.png
+Category: Entertainment
+[4] Afghan Nobel Movies
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
+Logo: https://i.ibb.co/zfdbVSm/logo-1.png
+Category: Movies
+[5] Afghan Nobel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.relentlessinnovations.net:1936/afghannobeltv/afghannobeltv/playlist.m3u8
+Logo: https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg
+Category: General
+[6] Amazing Discoveries TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8
+Logo: https://i.imgur.com/I0oPFTj.png
+Category: Religious
+[7] Autentic History
+------------------------------------------------
+IPTV URLs (1):
+  • https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentichistory_white.png
+Category: Documentary
+[8] Autentic Travel
+------------------------------------------------
+IPTV URLs (1):
+  • https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png
+Category: Lifestyle
+[9] Az Star TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
+Logo: https://i.imgur.com/di3XX5L.png
+Category: General
+[10] BNN Bloomberg
+------------------------------------------------
+IPTV URLs (1):
+  • https://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/512px-BNN_Bloomberg.svg.png
+Category: Business
+[11] C Malayalam TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
+Logo: https://i.imgur.com/rpg0bQA.png
+Category: Culture
+[12] Cable 14 Hamilton
+------------------------------------------------
+IPTV URLs (1):
+  • https://flowcaster1-ch.cdn.clearcable.net/C14/smil:C14.smil/playlist.m3u8?iimae0UC2aendtime=1665196120&iimae0UC2ahash=NzcDbuotaJAVf1DsNxuGHBlfCXSvHDIt5sqMUMgrRMU=&iimae0UC2astarttime=1665181720
+Logo: https://i.imgur.com/bJ7ygTq.png
+Category: Undefined
+[13] Canada One (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
+Category: Undefined
+[14] Canal Savoir
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.savoir.media/live/stream.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png
+Category: Education
+[15] CBC Calgary (CBRT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042763/CBCRCLINEAR_TOR_9/master5.m3u8
+Logo: https://i.imgur.com/ocq1x2B.png
+Category: General
+[16] CBC Edmonton (CBXT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042765/CBCRCLINEAR_TOR_11/master5.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/512px-CBC_Logo_1992-Present.svg.png
+Category: General
+[17] CBC Manitoba (CBWT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042767/CBCRCLINEAR_TOR_13/master5.m3u8
+Logo: https://i.imgur.com/aWNHg5z.png
+Category: General
+[18] CBC Montréal (CBMT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042761/CBCRCLINEAR_TOR_7/master5.m3u8
+Logo: https://i.imgur.com/OiiM6Mz.png
+Category: General
+[19] CBC New Brunswick (CBAT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042757/CBCRCLINEAR_TOR_3/master5.m3u8
+Logo: https://i.imgur.com/xflShTG.png
+Category: General
+[20] CBC Newfoundland and Labrador (CBNT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042755/CBCRCLINEAR_TOR_1/master5.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CBNT-DT_2017.svg/512px-CBNT-DT_2017.svg.png
+Category: General
+[21] CBC News Network
+------------------------------------------------
+IPTV URLs (1):
+  • https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8
+Logo: https://i.imgur.com/SjTdhvJ.png
+Category: News
+[22] CBC North (CFYK-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042766/CBCRCLINEAR_TOR_12/master5.m3u8
+Logo: https://i.imgur.com/EHGOQhj.png
+Category: General
+[23] CBC Nova Scotia (CBHT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042758/CBCRCLINEAR_TOR_4/master5.m3u8
+Logo: https://i.imgur.com/jdlYY4t.png
+Category: General
+[24] CBC Ottawa (CBOT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042762/CBCRCLINEAR_TOR_8/master5.m3u8
+Logo: https://i.imgur.com/v3DJUa8.png
+Category: General
+[25] CBC Prince Edward Island (CBCT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042756/CBCRCLINEAR_TOR_2/master5.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CBCT-DT_2017.svg/512px-CBCT-DT_2017.svg.png
+Category: General
+[26] CBC Saskatchewan (CBKT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042764/CBCRCLINEAR_TOR_10/master5.m3u8
+Logo: https://i.imgur.com/PWGVjsg.png
+Category: General
+[27] CBC Toronto (CBLT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/512px-CBC_Logo_1992-Present.svg.png
+Category: General
+[28] CBC Vancouver (CBUT-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042768/CBCRCLINEAR_TOR_14/master5.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png
+Category: General
+[29] CBC Windsor (CBET-DT) (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cbcrclinear-tor.akamaized.net/hls/live/2042759/CBCRCLINEAR_TOR_5/master5.m3u8
+Logo: https://i.imgur.com/NFts1uU.png
+Category: General
+[30] Channel Y (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn19.live247stream.com/channely/tv/playlist.m3u8
+Logo: https://i.imgur.com/OqSl2Qf.png
+Category: News
+[31] CHCO-TV (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://temp4.isilive.ca/live/CHCOTV/live/index.m3u8
+Logo: https://i.imgur.com/EpMawIy.png
+Category: General
+[32] CityNews Calgary
+------------------------------------------------
+IPTV URLs (1):
+  • https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8
+Logo: https://m.media-amazon.com/images/I/51Icdznow+L.png
+Category: News
+[33] CityNews Edmonton
+------------------------------------------------
+IPTV URLs (1):
+  • https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8
+Logo: https://m.media-amazon.com/images/I/51Icdznow+L.png
+Category: News
+[34] CityNews Toronto
+------------------------------------------------
+IPTV URLs (1):
+  • https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+Logo: https://m.media-amazon.com/images/I/51Icdznow+L.png
+Category: News
+[35] CityNews Vancouver
+------------------------------------------------
+IPTV URLs (1):
+  • https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8
+Logo: https://m.media-amazon.com/images/I/51Icdznow+L.png
+Category: News
+[36] Cowboy Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8?ads.vf=6g9ilXeXVD8
+Logo: https://i.imgur.com/xwntWOP.png
+Category: Undefined
+[37] CPAC
+------------------------------------------------
+IPTV URLs (1):
+  • https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/512px-2016_CPAC_logo.svg.png
+Category: Legislative
+[38] Deshi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+Logo: https://i.imgur.com/PzqzgMm.png
+Category: General
+[39] Dukh Nivaran (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn12.henico.net:8080/live/dncal/index.m3u8
+Logo: https://i.imgur.com/Zh60l1x.png
+Category: Culture
+[40] Eawaz TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer12.vdn.dstreamone.net/saazoawaz/saazoawaz/playlist.m3u8
+Logo: https://i.imgur.com/vB4yzen.png
+Category: Culture
+[41] EET TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu.streamjo.com/eetlive/eettv.m3u8
+Logo: https://i.imgur.com/rntSEDZ.png
+Category: Culture
+[42] Erfan Halgheh TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.erfanhalgheh.live/hls/stream.m3u8
+Logo: https://i.ibb.co/mGC5BMR/erfan-halgheh-tv-au.png
+Category: Religious
+[43] EWTN Canada
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8
+Logo: https://i.imgur.com/sua70RO.png
+Category: Religious
+[44] Feva TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://d3c1w351ahk83d.cloudfront.net/scheduler/scheduleMaster/416.m3u8
+Logo: https://i.imgur.com/QSi0YTS.png
+Category: Entertainment
+[45] FIFA+ United States
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png
+Category: Sports
+[46] Fight Network
+------------------------------------------------
+IPTV URLs (1):
+  • https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
+Logo: https://i.imgur.com/vlKPZHR.png
+Category: Sports
+[47] Game+
+------------------------------------------------
+IPTV URLs (1):
+  • https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
+Logo: https://i.imgur.com/Lj69WbR.png
+Category: Sports
+[48] Gaunda Punjab TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8
+Logo: https://i.imgur.com/ArRZRM3.png
+Category: General
+[49] GH Canada TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.bozztv.com/tvstat-tamar/tvstat-tamar/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/gg/gh-canada-tv-ca.png
+Category: General
+[50] Golf Channel (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvpass.org/live/GolfChannel/hd
+Logo: https://i.imgur.com/Lgux6Ik.png
+Category: Sports
+[51] GTN Canada (1080i) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8
+Logo: https://i.imgur.com/7bQPJOd.png
+Category: General
+[52] GurSikh Sabha TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn12.henico.net:8080/live/gsctv/index.m3u8
+Logo: https://i.imgur.com/2EKCtQm.png
+Category: Religious
+[53] Hamdard TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.hamdardtv.com/hamdard/index.m3u8
+Logo: https://i.ibb.co/JcD2xck/logo-hamda.png
+Category: News
+[54] Hard Knocks (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HardKnocks-SportsTribal/121.m3u8
+Logo: https://i.imgur.com/nt9B6jx.png
+Category: Sports
+[55] Hyder TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.live247stream.com/hyder/tv/playlist.m3u8
+Logo: https://i.imgur.com/reHjjRZ.png
+Category: Culture
+[56] ICI Montreal
+------------------------------------------------
+IPTV URLs (1):
+  • https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8
+Logo: https://i.imgur.com/x0vLIWr.png
+Category: General
+[57] Ici Radio-Canada Télé (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive-dai.akamaized.net/hls/live/696614/cancbftprem/master.m3u8
+Logo: https://i.imgur.com/pFCJGj4.png
+Category: General
+[58] Ici Radio-Canada Télé Alberta (CBXFT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704020/cancbxft/master.m3u8
+Logo: https://i.imgur.com/xN4Valg.png
+Category: General
+[59] Ici Radio-Canada Télé Colombie-Britannique/Yukon (CBUFT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704017/cancbuft/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/512px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png
+Category: General
+[60] Ici Radio-Canada Télé Est du Québec (CJBR-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704024/cancjbr/master.m3u8
+Logo: https://i.imgur.com/1B3d8Jc.png
+Category: General
+[61] Ici Radio-Canada Télé Estrie (CKSH-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704016/cancksh/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/512px-SRC-TV.svg.png
+Category: General
+[62] Ici Radio-Canada Télé Manitoba (CBWFT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704018/cancbwft/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ICI_Manitoba_logo_2018.svg/512px-ICI_Manitoba_logo_2018.svg.png
+Category: General
+[63] Ici Radio-Canada Télé Mauricie/Centre-du-Québec (CKTM-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704021/cancktm/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/512px-SRC-TV.svg.png
+Category: General
+[64] Ici Radio-Canada Télé Ontario (CBLFT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704022/cancblft/master.m3u8
+Logo: https://i.imgur.com/1f798e8.png
+Category: General
+[65] Ici Radio-Canada Télé Ottawa/Gatineau (CBOFT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/664046/cancboft/master.m3u8
+Logo: https://i.imgur.com/373Y8Py.png
+Category: General
+[66] Ici Radio-Canada Télé Québec (CBVT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/664045/cancbvt/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/512px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png
+Category: General
+[67] Ici Radio-Canada Télé Saguenay/Lac-St-Jean (CKTV-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704023/cancktv/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/512px-SRC-TV.svg.png
+Category: General
+[68] Ici Radio-Canada Télé Saskatchewan (CBKFT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704019/cancbkft/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ICI_Saskatchewan_logo_2018.svg/512px-ICI_Saskatchewan_logo_2018.svg.png
+Category: General
+[69] Ici Radio-Canada Télé Terre-Neuve-et-Labrador (CBAFT-DT) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704014/cancbaft/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ICI_Acadie_logo_2018.svg/512px-ICI_Acadie_logo_2018.svg.png
+Category: General
+[70] ICI RDI
+------------------------------------------------
+IPTV URLs (1):
+  • https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/512px-ICI_RDI_logo.svg.png
+Category: News
+[71] icnet 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://icnet1hls.wns.live/hls/stream.m3u8
+Logo: https://i.imgur.com/aeS4Sjv.png
+Category: Religious
+[72] IIPC TV (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://uni10rtmp.tulix.tv/iipctv/iipctv.smil/playlist.m3u8
+Logo: https://i.imgur.com/mIih39Y.png
+Category: Religious
+[73] iTV Afrobeats Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://ca1.buximedia.com/itv/afrobeats/tracks-v1a1/mono.m3u8
+Logo: https://i.ibb.co/pvLQmQK7/itv.png
+Category: Music
+[74] iTV Arabic Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://ca1.buximedia.com/itv/arabic/tracks-v1a1/mono.m3u8
+Logo: https://i.ibb.co/pvLQmQK7/itv.png
+Category: Music
+[75] iTV Indian Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://ca1.buximedia.com/itv/indian/tracks-v1a1/mono.m3u8
+Logo: https://i.ibb.co/pvLQmQK7/itv.png
+Category: Music
+[76] iTV Latin Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://ca1.buximedia.com/itv/latin/tracks-v1a1/mono.m3u8
+Logo: https://i.ibb.co/pvLQmQK7/itv.png
+Category: Music
+[77] iTV Turkish Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://ca1.buximedia.com/itv/turkish/tracks-v1a1/mono.m3u8
+Logo: https://i.ibb.co/pvLQmQK7/itv.png
+Category: Music
+[78] iTV Urban Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://ca1.buximedia.com/itv/love2/tracks-v1a1/mono.m3u8
+Logo: https://i.ibb.co/pvLQmQK7/itv.png
+Category: Music
+[79] Knowledge Network (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8
+Logo: https://i.imgur.com/VfofmZZ.png
+Category: Education;Kids
+[80] LCN [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvalive.akamaized.net/hls/live/2014213/tvan01/tvan01.m3u8
+Logo: https://i.imgur.com/iKDLgOG.png
+Category: News
+[81] Legislative Assembly of British Columbia
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8
+Logo: https://i.imgur.com/5QGxHhh.png
+Category: Legislative
+[82] Legislative Assembly of British Columbia Committee A
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/ll/legislative-assembly-of-british-columbia-ca.png
+Category: Legislative
+[83] Legislative Assembly of Ontario
+------------------------------------------------
+IPTV URLs (1):
+  • https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
+Logo: https://i.imgur.com/n24MrsX.png
+Category: Legislative
+[84] Legislative Assembly TV Nunavut
+------------------------------------------------
+IPTV URLs (1):
+  • http://temp2.isilive.ca/live/nunavut/live-eng/index.m3u8
+Logo: https://i.imgur.com/wY9WhYS.png
+Category: Legislative
+[85] Love Nature
+------------------------------------------------
+IPTV URLs (1):
+  • https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
+Logo: https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png
+Category: Outdoor
+[86] Melody Hits
+------------------------------------------------
+IPTV URLs (1):
+  • https://mumt03.tangotv.in/MELODYHITS/index.m3u8
+Logo: https://i.imgur.com/OOMkVrU.png
+Category: Music
+[87] MHZ
+------------------------------------------------
+IPTV URLs (1):
+  • https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/a5fw83n.jpg
+Category: Entertainment
+[88] Montreal Greek TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.greektv.ca/hls1/greektv.m3u8
+Logo: https://i.imgur.com/Y5YnUit.png
+Category: Culture
+[89] Mr. Bean Animated
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png
+Category: Animation;Kids
+[90] NACTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream2.pivotalelements.com/memfs/2d2e1038-9eb2-44df-a9b9-109de5752f3b_output_0.m3u8
+Logo: https://i.imgur.com/FzM95rH.png
+Category: General
+[91] NBA TV Canada
+------------------------------------------------
+IPTV URLs (1):
+  • http://user.scalecdn.co:8080/live/54706135/09221986/3092.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/a/a4/NBA_TV_Canada_2020.png
+Category: Sports
+[92] NETV Toronto
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.vectromdigital.com:1936/netvtoronto/netvtoronto/playlist.m3u8
+Logo: https://i.imgur.com/WXRBuOW.png
+Category: Movies
+[93] Newfoundland Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/b/bd/CJON-TV.PNG
+Category: General
+[94] Nicktoons
+------------------------------------------------
+IPTV URLs (1):
+  • http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654ca7f92c1d3300086b608c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b6610-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=359ee837-a829-4fe0-9d99-8dc36018ced2
+Logo: https://i.ibb.co/ZpmVmC3G/IMG-0291.jpg
+Category: Kids
+[95] Now TV 102.3FM Edmonton (CKNO-FM)
+------------------------------------------------
+IPTV URLs (1):
+  • https://videostream.jpbgdigital.com/NOWTV.m3u8
+Logo: https://i.imgur.com/sF2g7KE.png
+Category: Music
+[96] NTD TV Canada
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.ntdtv.com/mllive860/playlist.m3u8
+Logo: https://i.imgur.com/iyFXcDy.png
+Category: General
+[97] NTD TV Canada West
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.ntdtv.com/cwlive220/playlist.m3u8
+Logo: https://i.imgur.com/iyFXcDy.png
+Category: General
+[98] NTV+
+------------------------------------------------
+IPTV URLs (1):
+  • https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
+Logo: https://i.imgur.com/YEUhPBv.png
+Category: Undefined
+[99] Ontario Parliamentary Network
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
+Logo: https://i.imgur.com/xKXs6ER.png
+Category: Legislative
+[100] Outdoor Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8
+Logo: https://i.imgur.com/Kh4MWaY.png
+Category: Outdoor
+[101] Pamir TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+Logo: https://i.imgur.com/sCBbBOj.png
+Category: Culture;Music
+[102] Pardesi TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+Logo: https://i.imgur.com/CwAdPpZ.jpg
+Category: Culture
+[103] PBC Tapesh TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.tapesh.tv/tapesh/playlist.m3u8
+Logo: https://i.imgur.com/50JzsmH.png
+Category: General
+[104] Plymouth Rock TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://d30au7974f7qoa.cloudfront.net/scheduler/scheduleMaster/419.m3u8
+Logo: https://i.imgur.com/KO3cVav.png
+Category: Undefined
+[105] Prime Asia TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://primeasia.selfip.net/Samsung/index.m3u8
+Logo: https://jiotvimages.cdn.jio.com/dare_images/images/Prime_Asia_HD.png
+Category: Undefined
+[106] Prime Canada TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/playlist.m3u8
+Logo: https://i.imgur.com/Vji81jB.png
+Category: Entertainment
+[107] Probashi TV News
+------------------------------------------------
+IPTV URLs (1):
+  • http://158.69.24.53:8080/probashi_tv/index.m3u8
+Logo: https://i.imgur.com/7oTsfQ4.png
+Category: News
+[108] Qello Concerts by Stingray
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/IRyFTWq.png
+Category: Music
+[109] Quo Vadis TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tgn.bozztv.com/qvtv/qvtv-web/playlist.m3u8
+Logo: https://i.imgur.com/pEqDDHl.png
+Category: Religious
+[110] Radio Tele Evangile Sans Limite
+------------------------------------------------
+IPTV URLs (1):
+  • https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8
+Logo: https://i.imgur.com/CL32kFA.png
+Category: Religious
+[111] RT France (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/512px-RT-France-logo.svg.png
+Category: News
+[112] Sardari TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8
+Category: Undefined
+[113] Sikh Spiritual Centre Rexdale
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn12.henico.net:8443/live/ssct/index.m3u8
+Logo: https://i.imgur.com/YKXoIsr.png
+Category: Undefined
+[114] Sohail TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.sohailtv.com/sohail/playlist/index.m3u8
+Logo: https://i.ibb.co/dtzjKfT/Sohail-TV.png
+Category: General
+[115] Sooriyan TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+Logo: https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg
+Category: Entertainment
+[116] STAR International
+------------------------------------------------
+IPTV URLs (1):
+  • https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8
+Logo: https://i.imgur.com/6NUpxhr.png
+Category: Entertainment
+[117] Stingray Classic Rock
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/FBgu8yB.png
+Category: Music
+[118] Stingray Classica
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/nh1k5RC.png
+Category: Music
+[119] Stingray CMusic
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/3UppN5P.png
+Category: Music
+[120] Stingray DJAZZ
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/512px-Stingray_Djazz.png
+Category: Music
+[121] Stingray Easy Listening
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png
+Category: Music
+[122] Stingray Flashback 70s
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/jf5C9QF.png
+Category: Music
+[123] Stingray Hit List
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/lgpIwId.png
+Category: Music
+[124] Stingray Holiday Hits
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/4xVVKH8.png
+Category: Music
+[125] Stingray Hot Country
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/PZhxyIT.png
+Category: Music
+[126] Stingray Karaoke
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/9TLTLS3.png
+Category: Music
+[127] Stingray Naturescape
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/882kd90.png
+Category: Music
+[128] Stingray Nothin' But 90s
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/Tq3I0po.png
+Category: Music
+[129] Stingray Pop Adult
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/H2ugC9L.png
+Category: Music
+[130] Stingray Remember the 80s
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/6E3wYrb.png
+Category: Music
+[131] Stingray Remember the 80s
+------------------------------------------------
+IPTV URLs (1):
+  • https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8
+Logo: https://i.imgur.com/duwc8E8.png
+Category: Music
+[132] Stingray Rock Alternative
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/mt8ulVX.png
+Category: Music
+[133] Stingray Romance Latino
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png
+Category: Music
+[134] Stingray Smooth Jazz
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/h1DsOzH.png
+Category: Music
+[135] Stingray Soul Storm
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/dU1KC3f.png
+Category: Music
+[136] Stingray The Spa
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/ywAN923.png
+Category: Music
+[137] Stingray Today's KPOP
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/mMbntB5.png
+Category: Music
+[138] Stingray Today's Latin Pop
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/Os3kRRP.png
+Category: Music
+[139] Stingray Urban Beat
+------------------------------------------------
+IPTV URLs (1):
+  • https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8
+Logo: https://i.imgur.com/Os3kRRP.png
+Category: Music
+[140] SVBC 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8
+Logo: https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/SVBC%202.png
+Category: Religious
+[141] SVBC 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8
+Logo: https://jiotvimages.cdn.jio.com/dare_images/images/SVBC3.png
+Category: Religious
+[142] SVBC 4
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8
+Logo: https://jiotvimages.cdn.jio.com/dare_images/images/SVBC4.png
+Category: Religious
+[143] SVBC Sri Venkateswara Bhakti Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
+Logo: https://jiotvimages.cdn.jio.com/dare_images/images/Sri_Venkateshwar_Bhakti.png
+Category: Religious
+[144] TAG TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn11.live247stream.com/tag/tv/playlist.m3u8
+Logo: https://i.imgur.com/4PA2adF.png
+Category: Undefined
+[145] Tamil Entertainment Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin-de-y376549.cdn.nextologies.com:444/4c3caf7294b3/fbbd0aee3d9a8260/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/d/dd/Tamil_Entertainment_Television.png
+Category: Entertainment
+[146] Tamil Vision TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8
+Logo: https://i.imgur.com/DodsLuW.png
+Category: Undefined
+[147] TCF TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://66.11.33.44:8081/live/TCF/playlist.m3u8
+Logo: https://i.imgur.com/lHsS6Lj.png
+Category: Culture;General
+[148] The Graham Norton Show
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png
+Category: Entertainment
+[149] Today's Shopping Choice (TSC)
+------------------------------------------------
+IPTV URLs (1):
+  • https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TSC_logo.svg/512px-TSC_logo.svg.png
+Category: Shop
+[150] Toronto 360 TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn3.toronto360.tv:8081/toronto360/hd/playlist.m3u8
+Logo: https://i.imgur.com/YJYdHKO.png
+Category: Undefined
+[151] TSN1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvpass.org/live/tsn1/hd
+Logo: https://i.imgur.com/eRFE0jZ.png
+Category: Sports
+[152] TSN2 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvpass.org/live/tsn2/hd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/512px-TSN2.svg.png
+Category: Sports
+[153] TSN3 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvpass.org/live/tsn3/hd
+Logo: https://i.imgur.com/AYza8KO.png
+Category: Sports
+[154] TSN4 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvpass.org/live/tsn4/hd
+Logo: https://i.imgur.com/qJyAWU8.png
+Category: Sports
+[155] TSN5 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvpass.org/live/tsn5/hd
+Logo: https://i.imgur.com/HEzHpzz.png
+Category: Sports
+[156] TSN The Ocho
+------------------------------------------------
+IPTV URLs (1):
+  • https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400003R3_20240709T002034SQUARE.png
+Category: Sports
+[157] TV 16 Toronto (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://rtmp.smartstream.video:1935/capco/tv29/playlist.m3u8
+Logo: https://i.imgur.com/c4lLchb.png
+Category: Undefined
+[158] TV Punjab (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8
+Logo: https://en.tvpunjab.com/storage/2022/03/logo-2022.png
+Category: News
+[159] TVA [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-6285-14620fd14048)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/512px-TVA_logo_2020.svg.png
+Category: General
+[160] TVE Internacional America (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8
+Logo: https://i.ibb.co/RpKLCMvp/tve.png
+Category: Undefined
+[161] TVOKids
+------------------------------------------------
+IPTV URLs (1):
+  • https://bcovlive-a.akamaihd.net/rf86f817779524249abf842af6d16f55f/us-east-1/15364602001/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/512px-Tvokids-logo.svg.png
+Category: Kids
+[162] Uvagut TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dee7mwgg9dzvl.cloudfront.net/hls/uvagut/playlist.m3u8
+Logo: https://i.imgur.com/RR7ATr2.png
+Category: Undefined
+[163] Watan-e-Maa TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8
+Logo: https://i.ibb.co/1rDrKJG/Watan-E-Maa-Tv-Logo-300-Dpi.png
+Category: General
+[164] WCGtv Public
+------------------------------------------------
+IPTV URLs (1):
+  • https://wowzastream.westmancom.com/wcgtvlive/wcgtvPSA.stream/master.m3u8
+Logo: https://i.imgur.com/q7UPbEG.png
+Category: Undefined
+[165] Wild TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/512px-Wild_TV_logo_2020.png
+Category: Undefined
+[166] Willow Sports (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png
+Category: Sports
+[167] Zee TV Canada
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin-cae-m462953.toober.com/4c3caf7294b3/c8bf99484885/playlist.m3u8
+Logo: https://i.imgur.com/mARKUZ9.png
+Category: Undefined

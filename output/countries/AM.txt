@@ -1,0 +1,25 @@
+============================================================
+Armenia (AM)
+============================================================
+Total Channels: 3
+Source: https://tv.garden/
+============================================================
+
+[1] Armenia 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://amtv.tulixcdn.com/amtv2/am2abr/index.m3u8
+Logo: https://i.imgur.com/HIwJ4lc.png
+Category: General
+[2] Armenia 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://amtv.tulixcdn.com/amtv3/am3abr/index.m3u8
+Logo: https://i.imgur.com/AXmXw9X.png
+Category: General
+[3] First Channel News
+------------------------------------------------
+IPTV URLs (1):
+  • https://amtvusdvr.tulix.tv/am3abr/index.m3u8
+Logo: https://i.imgur.com/RlYJUH4.png
+Category: News

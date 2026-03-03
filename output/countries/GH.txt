@@ -1,0 +1,67 @@
+============================================================
+Ghana (GH)
+============================================================
+Total Channels: 10
+Source: https://tv.garden/
+============================================================
+
+[1] Adinkra TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/adinkratvny/adinkratvny/playlist.m3u8
+Logo: https://i.imgur.com/uwuSXJ8.png
+Category: Undefined
+[2] Channel247
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.localstreamgh.com/Channel247/index.m3u8
+Logo: https://i.imgur.com/8qNPgBa.png
+Category: General
+[3] Fish TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.localstreamgh.com/fishtv/index.m3u8
+Logo: https://i.imgur.com/A4VeRnS.png
+Category: General
+[4] Hope4Life TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://144.217.14.88/hls/hope4life.m3u8
+Logo: https://i.imgur.com/p24tAjs.jpg
+Category: Religious
+[5] Hope Channel Ghana
+------------------------------------------------
+IPTV URLs (1):
+  • https://videodelivery.net/dfbdca87f2a6291aa4fdc8fe3290769b/manifest/video.m3u8
+Logo: https://i.imgur.com/d1P9ekm.png
+Category: Religious
+[6] MOGPA TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livestream.anojed.com/ablazetv/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+Logo: https://i.imgur.com/34PmVAq.png
+Category: Religious
+[7] MOGPA TV Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://bk7l2r2nyx53-hls-live.5centscdn.com/mogpatvplus/2567a5ec9705eb7ac2c984033e06189d.sdp/playlist.m3u8
+Logo: https://i.imgur.com/0YLSM3R.png
+Category: Religious
+[8] OTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5dcabf026b188.streamlock.net/OceansTV/livestream/playlist.m3u8
+Logo: https://pbs.twimg.com/profile_images/1034118312437919744/emeWo-ag_400x400.jpg
+Category: Entertainment
+[9] Resurrection TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://1681360479.rsc.cdn77.org/1681360479/index.m3u8
+Logo: https://i.imgur.com/IncyJW8.png
+Category: Undefined
+[10] TV3
+------------------------------------------------
+IPTV URLs (1):
+  • https://adesa.tv/live/tv3_AdesaAdb.m3u8
+Logo: https://i.imgur.com/8t967Hq.png
+Category: Undefined

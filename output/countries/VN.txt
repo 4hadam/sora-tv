@@ -1,0 +1,326 @@
+============================================================
+Vietnam (VN)
+============================================================
+Total Channels: 54
+Source: https://tv.garden/
+============================================================
+
+[1] An Giang TV1 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.angiangtv.vn/live/kgtv/kgtv.m3u8
+Logo: https://i.imgur.com/mgp6RAU.png
+Category: General
+[2] An Giang TV2 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.angiangtv.vn/live/kgtv2/kgtv2.m3u8
+Logo: https://i.imgur.com/efrauLr.png
+Category: Entertainment
+[3] An Giang TV3 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8
+Logo: https://i.imgur.com/gZUV4z8.png
+Category: Entertainment
+[4] ANTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
+Logo: https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi
+Category: Undefined
+[5] Cà Mau TV (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.ctvcamau.vn/live/tv/tv.m3u8
+Category: Undefined
+[6] Cần Thơ TV1
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.canthotv.vn/live/tv/chunklist.m3u8
+Logo: https://i.ibb.co/MDhNH26J/cantho1-2025.png
+Category: General
+[7] Cần Thơ TV2
+------------------------------------------------
+IPTV URLs (1):
+  • https://megasystems-6c680321cd.gw-dthcdn.com/haugiangtv/haugiangtv.m3u8
+Logo: https://i.ibb.co/JjVvkMsf/cantho2-2025.png
+Category: Education;Science
+[8] Cần Thơ TV3
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.canthotv.vn/cs3/tv/chunklist.m3u8
+Logo: https://i.ibb.co/d4G2PD9s/cantho3-2025.png
+Category: Undefined
+[9] Cao Bằng TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
+Logo: https://i.imgur.com/dGonewm.png
+Category: General
+[10] Đà Nẵng TV1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mediatech.vn/live/285b59a111d76974225a8e3004bfc31a509/chunklist.m3u8
+Logo: https://i.imgur.com/EOMuO1z.png
+Category: General
+[11] Đà Nẵng TV2 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8
+Category: General
+[12] Da Vinci Asia Vietnam
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/DAVINVY/04.m3u8
+Logo: https://i.imgur.com/iBx7K1M.png
+Category: Education
+[13] Điện Biên TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://truyenhinh.vnptvas.vn/live.m3u8?c=vstv362&deviceId=&deviceType=&gcId=1532&location=NA&pkg=pkg11.hni&q=high&requestTime=1586309420781&time=1586395820&token=LX-ibJYRUq9pflRtYAxfYQ&type=tv&userId=
+Logo: https://i.imgur.com/u308o8q.png
+Category: General
+[14] Đồng Nai 1 (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://118.107.85.4:1935/live/smil:DNTV1.smil/chunklist.m3u8
+Logo: https://i.imgur.com/oQyioVa.png
+Category: General;News
+[15] Đồng Nai 2 (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://118.107.85.4:1935/live/smil:DNTV2.smil/chunklist.m3u8
+Logo: https://i.imgur.com/tNKPSkO.png
+Category: Entertainment;Sports
+[16] Đồng Tháp TV1
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh34.vtvprime.vn/hls/DONGTHAPTV/index.m3u8
+Logo: https://i.ibb.co/XFX7yw0/logo2-1.png
+Category: General
+[17] Đồng Tháp TV2
+------------------------------------------------
+IPTV URLs (1):
+  • https://618b88f69e53b.streamlock.net/THDT2/thdttv2/chunklist.m3u8
+Logo: https://i.imgur.com/yonKxgZ.png
+Category: Undefined
+[18] Hà Tĩnh TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://wse.hatinhtv.net/live/httv1/chunklist.m3u8
+Logo: https://i.imgur.com/4yIgKKx.png
+Category: General
+[19] HanoiTV1 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist.m3u8
+Logo: https://i.imgur.com/Je3K25E.png
+Category: General
+[20] HanoiTV2 (2160p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudstreamhntv.tek4tv.vn/events/HN2/chunklist.m3u8
+Logo: https://i.imgur.com/szivqh2.png
+Category: General
+[21] Hmong TV Network
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/cvabroadcasting.stream/playlist.m3u8
+Logo: https://yt3.googleusercontent.com/aj3kdBQTgfxP-bDnleou4m1ykjPRFexvfTZZuvWlNc75Hn9-NTqXYEdEJ_KOcTSsbKj24K1B9BM=s512-c-k-c0x00ffffff-no-rj
+Category: Culture
+[22] HTV1
+------------------------------------------------
+IPTV URLs (1):
+  • https://vc.101vn.com/htv/htvcmb.php?id=2631
+Category: General
+[23] HTV3
+------------------------------------------------
+IPTV URLs (1):
+  • https://vc.101vn.com/htv/htvcmb.php?id=2535
+Category: Entertainment;General;Series
+[24] HTV Key
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/HTVKey/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png
+Category: Education
+[25] HTV Thể thao (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8
+Category: Sports
+[26] Huế TV (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/e/e9/LogoHueTV_2025.png
+Category: Undefined
+[27] Khánh Hòa TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livektv2.baokhanhhoa.vn/hls/ktv.m3u8
+Logo: https://i.imgur.com/qLMcGPT.png
+Category: General
+[28] Khánh Hòa TV1
+------------------------------------------------
+IPTV URLs (1):
+  • https://livektv2.baokhanhhoa.vn/hls/ktv1.m3u8
+Logo: https://i.imgur.com/HIyUzLM.png
+Category: General
+[29] Lâm Đồng TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://118.107.85.5:1935/live/smil:LTV.smil/chunklist.m3u8
+Logo: https://i.imgur.com/lSMoGlv.png
+Category: General
+[30] Lao SV TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8
+Logo: https://i.imgur.com/ZIXtazI.png
+Category: Shop
+[31] Lao-Thai TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
+Logo: https://i.imgur.com/q6cQzbv.png
+Category: Shop
+[32] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",MNB World
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
+Logo: https://i.imgur.com/PHlj84Q.png
+Category: General
+[33] QPVN HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/QPTV/index.m3u8
+Logo: https://i.imgur.com/GQO7UNu.png
+Category: Undefined
+[34] RTM ASEAN
+------------------------------------------------
+IPTV URLs (1):
+  • https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
+Logo: https://i.imgur.com/skAiUxg.png
+Category: News
+[35] SCTV1
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/SCTV1/index.m3u8
+Logo: https://i.imgur.com/UcMXcHF.png
+Category: Undefined
+[36] SCTV2
+------------------------------------------------
+IPTV URLs (1):
+  • ttps://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8
+Logo: https://i.imgur.com/8i5DXIg.png
+Category: Undefined
+[37] SCTV4
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/SCTV4/index.m3u8
+Logo: https://i.imgur.com/qkZhzQq.png
+Category: Undefined
+[38] SCTV6 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist.m3u8
+Logo: https://i.imgur.com/2oOVS42.png
+Category: Undefined
+[39] Tây Ninh TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-hq.evgcdn.net/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8
+Logo: https://tayninhtv.vn/static/images/logo.png
+Category: General
+[40] Tea TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/WorbnyD.jpg
+Category: Shop
+[41] Thái Nguyên TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.thainguyentv.vn/hls/livestream.m3u8
+Logo: https://thainguyentv.vn/modules/frontend/themes/ptthtn/images/logo.png
+Category: General
+[42] Uniquely Thai
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
+Logo: https://i.imgur.com/cTSDB8O.png
+Category: Shop
+[43] VBS TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tgn.bozztv.com/vbstvcdn/vbstv/ngrp:vbstv_all/playlist.m3u8
+Logo: https://i.imgur.com/OkslYzP.png
+Category: General
+[44] Vietnam Today
+------------------------------------------------
+IPTV URLs (1):
+  • https://amagi-live.ondemandkorea.com/amgplt0456.m3u8
+Logo: https://i.imgur.com/xW9rY7s.png
+Category: Undefined
+[45] VTV1 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV1_HD/index.m3u8
+Logo: https://i.imgur.com/vZYlGIW.png
+Category: Undefined
+[46] VTV2 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV2_HD/index.m3u8
+Logo: https://i.imgur.com/qWWpYRR.png
+Category: Undefined
+[47] VTV3 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV3_HD/index.m3u8
+Logo: https://i.imgur.com/4lJG1fu.png
+Category: Undefined
+[48] VTV4 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV4_HD/index.m3u8
+Logo: https://i.imgur.com/WsLLmR2.png
+Category: Undefined
+[49] VTV5 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV5_HD/index.m3u8
+Logo: https://i.imgur.com/Vnnna1C.png
+Category: Undefined
+[50] VTV5 Tây Nam Bộ HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV5_TNB/index.m3u8
+Logo: https://i.imgur.com/xiuHjEQ.png
+Category: Undefined
+[51] VTV5 Tây Nguyên HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV5_TN/index.m3u8
+Logo: https://i.imgur.com/Hlcnqqt.png
+Category: Undefined
+[52] VTV7 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV7_HD/index.m3u8
+Logo: https://i.imgur.com/ZwoP823.png
+Category: Undefined
+[53] VTV8 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV8_HD/index.m3u8
+Logo: https://i.imgur.com/rf9adGJ.png
+Category: Undefined
+[54] VTV9 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveh12.vtvprime.vn/hls/VTV9_HD/index.m3u8
+Logo: https://i.imgur.com/QiY55sy.png
+Category: Undefined

@@ -1,0 +1,133 @@
+============================================================
+Sri Lanka (LK)
+============================================================
+Total Channels: 21
+Source: https://tv.garden/
+============================================================
+
+[1] Asia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.asiatvnet.com/1/live/master.m3u8
+Logo: https://saddlebrown-jellyfish-181801.hostingersite.com/ATV-logo.png
+Category: Entertainment;Family;General
+[2] Charana TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3-moblive.yuppcdn.net/transhd2/smil:chtv05.smil/index.m3u8
+Logo: https://www.lyngsat.com/logo/tv/cc/charana-tv-lk.png
+Category: Education;Entertainment
+[3] Hiru TV (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
+Logo: https://i.imgur.com/M66UqPB.png
+Category: Entertainment
+[4] Jaya TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3-moblive.yuppcdn.net/drm/smil:jayamagatvdrm.smil/index.m3u8
+Logo: https://i.imgur.com/J8NA1i9.jpeg
+Category: Religious
+[5] MMC TV USA
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.relentlessinnovations.net:1936/rspe-tv/rspe-tv/playlist.m3u8
+Logo: https://i.imgur.com/0MwrSYE.png
+Category: Religious
+[6] Monara TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://jk3lz8xklw79-hls-live.5centscdn.com/lpl/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+Logo: https://i.imgur.com/EB99mzR.png
+Category: Entertainment
+[7] National Geographic HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.113.103.202:8001/play/a007/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NATIONAL_GEOGRAPHIC_CHANNEL/images/LOGO_HD/image.png
+Category: Documentary
+[8] National Geographic Wild
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a06r/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png
+Category: Documentary
+[9] National Geographic Wild HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.113.103.202:8001/play/a02s/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png
+Category: Documentary
+[10] NDTV LANKA
+------------------------------------------------
+IPTV URLs (1):
+  • https://g4wlkqqwl23a-hls-live.5centscdn.com/NDTVLANKA/1ff5fa54d14c3ff6c6bd3918bbb7db5d.sdp/playlist.m3u8
+Logo: https://i.imgur.com/5cyTVRJ.png
+Category: Entertainment
+[11] Nethra TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3-moblive.yuppcdn.net/transsd/smil:chii02.smil/playlist.m3u8?dvr=
+Logo: https://i.imgur.com/vSrIN1U.jpg
+Category: General
+[12] Nickelodeon
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a0cq/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png
+Category: Kids
+[13] Shakthi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge4-moblive.yuppcdn.net/transsd/smil:saktv10.smil/playlist.m3u8?dvr=
+Logo: https://i.imgur.com/RX6IwK8.png
+Category: Undefined
+[14] Shraddha TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3-moblive.yuppcdn.net/drm1/smil:shraddhatvdrm.smil/index.m3u8
+Logo: https://i.imgur.com/sZ3fEMi.png
+Category: Undefined
+[15] Star Tamil Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge4-moblive.yuppcdn.net/trans1sd/smil:strtml19.smil/playlist.m3u8?dvr=
+Logo: https://i.imgur.com/fjHcr9z.jpg
+Category: Movies
+[16] Swarnavahini
+------------------------------------------------
+IPTV URLs (1):
+  • https://jk3lz8xklw79-hls-live.5centscdn.com/live/6226f7cbe59e99a90b5cef6f94f966fd.sdp/playlist.m3u8
+Logo: https://i.imgur.com/0hnpeq9.png
+Category: Undefined
+[17] The Buddhist
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3-moblive.yuppcdn.net/drm1/smil:thebuddhistdrm.smil/index.m3u8
+Logo: https://i.imgur.com/DUzOKWM.png
+Category: Undefined
+[18] TNL TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3-moblive.yuppcdn.net/transsd/smil:tnl12.smil/playlist.m3u8?dvr=
+Logo: https://i.imgur.com/UWsxPJK.png
+Category: General
+[19] TV 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://d3ssd0juqbxbw.cloudfront.net/mtvsinstlive/master.m3u8
+Logo: https://i.imgur.com/QShk1BV.png
+Category: Entertainment
+[20] Vasantham TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://j78dp2pnlq5r-hls-live.comcities.net/ITNDigital/20a317b0496a4930b375290505e5d628.sdp/playlist_dvr.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/1/18/Vasanthamtv_channel.jpg
+Category: Undefined
+[21] Verbum TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3-moblive.yuppcdn.net/drm1/smil:verbumtvdrm.smil/index.m3u8
+Logo: https://i.imgur.com/YEKEaB4.png
+Category: Undefined

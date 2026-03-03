@@ -1,0 +1,25 @@
+============================================================
+Sudan (SD)
+============================================================
+Total Channels: 3
+Source: https://tv.garden/
+============================================================
+
+[1] Al Alamiya 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://82.212.74.98:8000/live/7815.m3u8
+Logo: https://i.imgur.com/5FrE3Nv.png
+Category: Education
+[2] Dabanga TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.dabangasudan.org/hls/stream.m3u8
+Logo: https://i.imgur.com/BH1N6TA.png
+Category: Education;News
+[3] Sudan TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8
+Logo: https://i.imgur.com/XUPAYAA.png
+Category: Undefined

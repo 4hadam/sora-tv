@@ -1,0 +1,148 @@
+============================================================
+Estonia (EE)
+============================================================
+Total Channels: 24
+Source: https://tv.garden/
+============================================================
+
+[1] Best of Dance TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8
+Category: Music
+[2] DanceTV Algorhythm
+------------------------------------------------
+IPTV URLs (1):
+  • https://m2b2.worldcast.tv:7443/dancetelevisionfour/dancetelevisionfour.m3u8
+Category: Music
+[3] DanceTV Deep House District
+------------------------------------------------
+IPTV URLs (1):
+  • https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
+Logo: https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png
+Category: Music
+[4] DanceTV EDM Mainstage
+------------------------------------------------
+IPTV URLs (1):
+  • https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8
+Logo: https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png
+Category: Music
+[5] DanceTV House Floor
+------------------------------------------------
+IPTV URLs (1):
+  • https://m2b2.worldcast.tv:7443/dancetelevisionfive/dancetelevisionfive.m3u8
+Logo: https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png
+Category: Music
+[6] DanceTV Minimal Tech
+------------------------------------------------
+IPTV URLs (1):
+  • https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8
+Logo: https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png
+Category: Music
+[7] DanceTV Techno Warehouse
+------------------------------------------------
+IPTV URLs (1):
+  • https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8
+Logo: https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png
+Category: Music
+[8] ETV
+------------------------------------------------
+IPTV URLs (1):
+  • https://sb.err.ee/live/etv.m3u8
+Logo: https://i.imgur.com/5URjPgG.png
+Category: General
+[9] ETV2
+------------------------------------------------
+IPTV URLs (1):
+  • https://sb.err.ee/live/etv2.m3u8
+Logo: https://i.imgur.com/fUjGHDa.png
+Category: Culture;Kids
+[10] ETV+
+------------------------------------------------
+IPTV URLs (1):
+  • https://sb.err.ee/live/etvpluss.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/a/a2/ETV%2B_logo.png
+Category: Entertainment
+[11] KidZone Max (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd
+Logo: https://i.imgur.com/qJSvxE2.png
+Category: Kids
+[12] Kino 24
+------------------------------------------------
+IPTV URLs (1):
+  • http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
+Logo: https://i.imgur.com/QAdDARF.png
+Category: Movies
+[13] Life TV (432p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
+Logo: https://i.imgur.com/JhrTB82.png
+Category: Religious
+[14] Movify Kino
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
+Logo: https://i.imgur.com/XIk5EJN.png
+Category: Classic;Movies
+[15] Multimania (Latvia)
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8
+Logo: https://i.imgur.com/J9Lwc0T.png
+Category: Animation;Kids
+[16] Nickelodeon
+------------------------------------------------
+IPTV URLs (1):
+  • http://195.64.140.147:10121/121
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/1200px-Nickelodeon_2023_logo_%28outline%29.svg.png
+Category: Animation;Kids
+[17] Pingviin
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8
+Logo: https://i.imgur.com/b6xupqO.png
+Category: Animation;Kids
+[18] Pro100TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+Logo: https://i.imgur.com/YfQEflM.png
+Category: Animation;Classic;Entertainment;Family;Movies
+[19] Riigikogu
+------------------------------------------------
+IPTV URLs (1):
+  • https://le02.euddn.net/6487956abb8faf0706d8c4c2465f54cb3625b812fec8e13d11668907ff00f44b004ea22691a9216c71ebda22b7e6e57c8b923aeee9e1e6aa447947c014b7a3babd73ab865562f4ae463ce0c617da65805296ed52a0af64d7d881781d282ea970de7a1ab524c1ea73e271a8df71d43212f4850e2d81241308886184db1abf516f2d6d0b9965402fc7c960e27fa968eabb077474e7493c278ebae58d614923fb2f5c76c2865cb681763ffd765a39a629ce/smil:rk_live_1.smil/playlist.m3u8
+Logo: https://i.imgur.com/dJRGDt2.png
+Category: Undefined
+[20] Taevas TV7
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8
+Logo: https://i.imgur.com/usXedIj.png
+Category: Religious
+[21] TBN Baltia
+------------------------------------------------
+IPTV URLs (1):
+  • http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
+Logo: https://i.imgur.com/rKBaK56.png
+Category: Religious
+[22] Viasat Kino
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.254.128.5:22280/viasat_kino/index.m3u8
+Logo: https://i.imgur.com/io0WAkA.png
+Category: Movies
+[23] Viasat Kino Action
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.254.128.5:22280/viasat_kino_action/index.m3u8
+Logo: https://i.imgur.com/HwsNIDK.png
+Category: Movies
+[24] Хочу всё знать
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/HochuVjeZnat_Mpeg4/index.m3u8
+Category: General

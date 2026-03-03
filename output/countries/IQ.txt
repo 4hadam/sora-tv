@@ -1,0 +1,301 @@
+============================================================
+Iraq (IQ)
+============================================================
+Total Channels: 49
+Source: https://tv.garden/
+============================================================
+
+[1] Abalfadhl TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://t.northtelecom.org/ABALFADHLTV.m3u8
+Logo: https://i.ibb.co/cCmjqtQ/logo-2.png
+Category: Religious
+[2] ABNsat
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediaserver.abnvideos.com/streams/abnsat.m3u8
+Logo: https://i.imgur.com/WhPlJzh.jpeg
+Category: Religious
+[3] Afarin Baxcha
+------------------------------------------------
+IPTV URLs (1):
+  • https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
+Logo: https://i.postimg.cc/4xRkBDRx/Afarin-Baxcha-200.png
+Category: Kids
+[4] Afarin TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
+Logo: https://i.imgur.com/6MnXD7g.png
+Category: Kids
+[5] Al Iraqia
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8
+Logo: https://i.imgur.com/8qQouTW.jpg
+Category: General
+[6] Al Iraqia News
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
+Logo: https://i.imgur.com/feQTXeZ.jpg
+Category: News
+[7] Al Rasheed TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
+Logo: https://i.imgur.com/ltyRjPK.png
+Category: General
+[8] Al-Aimma TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://stream.alaimma.tv/hls/alaimma/h3b1rd584cpq8p60okoj01rnfigdcnia.m3u8
+Logo: https://alaimma.tv/alaimma-logo.png
+Category: Religious
+[9] Al-Jawadain TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
+Logo: https://i.imgur.com/Eo3UYCK.png
+Category: Religious
+[10] Al-Sharqiya
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
+Logo: https://i.imgur.com/mJIG5IV.png
+Category: General
+[11] Al-Sharqiya News
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
+Logo: https://i.imgur.com/PeAcXB9.png
+Category: News
+[12] Alhurra
+------------------------------------------------
+IPTV URLs (1):
+  • https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8
+Logo: https://i.imgur.com/tiQp2sR.png
+Category: News
+[13] Alhurra Iraq
+------------------------------------------------
+IPTV URLs (1):
+  • https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8
+Logo: https://i.imgur.com/fsgQDcN.png
+Category: News
+[14] Alquran
+------------------------------------------------
+IPTV URLs (1):
+  • https://ktvlive.online/stream/hls/ch1.m3u8
+Logo: https://i.imgur.com/lqVwrAF.png
+Category: Religious
+[15] Anwar TV2
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8
+Logo: https://i.imgur.com/yHZXPcn.png
+Category: News
+[16] AVA Family
+------------------------------------------------
+IPTV URLs (1):
+  • https://familyhls.avatv.live/hls/stream.m3u8
+Logo: https://www.lyngsat.com/logo/tv/aa/ava-family-iq.png
+Category: Family
+[17] Avar TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://avr.host247.net/live/AvarTv/playlist.m3u8
+Logo: https://i.imgur.com/JazFBkW.jpeg
+Category: Undefined
+[18] Bayyinat TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://nl2.livekadeh.com/hls2/Bayyinat.m3u8
+Logo: https://i.imgur.com/PVQKsjE.png
+Category: Religious
+[19] BeitolAbbas TV Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.beitolabbas.tv/live/beitolabbastv.m3u8
+Logo: https://i.imgur.com/s8PfUQy.png
+Category: Religious
+[20] Channel 8 Kurdish
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/480px-Channel8corp.png
+Category: News
+[21] Dijlah TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ghaasiflu.online/Dijlah/index.m3u8
+Logo: https://i.imgur.com/kyzH3G5.png
+Category: News
+[22] EmanTv
+------------------------------------------------
+IPTV URLs (1):
+  • https://avr.host247.net/live/emantv/playlist.m3u8
+Logo: https://i.imgur.com/QmgaPSi.png
+Category: Family
+[23] FarmodaTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://avr.host247.net/live/FarmodaTV/playlist.m3u8
+Logo: https://i.imgur.com/x4KCQlH.png
+Category: Religious
+[24] Imam Hussein TV 1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.imamhossaintv.com/live/ih1.m3u8
+Logo: https://i.imgur.com/pDdUvz7.png
+Category: Religious
+[25] Imam Hussein TV 2 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.imamhossaintv.com/live/ih2.m3u8
+Logo: https://i.imgur.com/IXVSPdJ.png
+Category: Religious
+[26] Imam Hussein TV 3 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.imamhossaintv.com/live/ih3.m3u8
+Logo: https://i.imgur.com/emQRHQZ.png
+Category: Religious
+[27] Imam Hussein TV 4 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.imamhossaintv.com/live/ih4.m3u8
+Logo: https://i.imgur.com/0UYcylY.png
+Category: Religious
+[28] iNEWS TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.i-news.tv/hls/stream.m3u8
+Logo: https://i.imgur.com/9lOuzHQ.png
+Category: News
+[29] Iraq Future
+------------------------------------------------
+IPTV URLs (1):
+  • https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8
+Logo: https://i.imgur.com/Z7woTe5.png
+Category: General
+[30] Kurdistan 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1x82nydcxndze.cloudfront.net/live/index.m3u8
+Logo: https://i.imgur.com/9QWs2ms.png
+Category: News
+[31] Kurdistan TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
+Logo: https://i.imgur.com/mjQptpc.png
+Category: General
+[32] KurdMax Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://6476e46b58f91.streamlock.net/music/MUSIC2402/playlist.m3u8
+Logo: https://i.imgur.com/otnIdEu.png
+Category: Music
+[33] KurdMax Show
+------------------------------------------------
+IPTV URLs (1):
+  • https://6476e46b58f91.streamlock.net/liveTrans/SHOWS123/playlist.m3u8
+Logo: https://i.imgur.com/XTmyGmL.png
+Category: Entertainment
+[34] KurdMax Sorani
+------------------------------------------------
+IPTV URLs (1):
+  • https://6476e46b58f91.streamlock.net/liveTrans/KURDS2211/playlist.m3u8
+Logo: https://i.imgur.com/JkK8HG8.png
+Category: Entertainment
+[35] Kurdsat
+------------------------------------------------
+IPTV URLs (1):
+  • https://iko-live.akamaized.net/KurdsatTV/master.m3u8
+Logo: https://i.imgur.com/UAbSwYA.png
+Category: Entertainment
+[36] Kurdsat News
+------------------------------------------------
+IPTV URLs (1):
+  • https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
+Logo: https://i.imgur.com/F3XRwkt.png
+Category: News
+[37] Marjaeyat TV Arabic
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8
+Logo: https://i.imgur.com/LsYYkUI.png
+Category: Religious
+[38] Marjaeyat TV English
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8
+Logo: https://i.imgur.com/Dvf61Jp.png
+Category: Religious
+[39] Marjaeyat TV Persian (240p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
+Logo: https://i.imgur.com/fCj05f0.png
+Category: Religious
+[40] MBC Iraq
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
+Logo: https://i.imgur.com/D0LxiPE.png
+Category: General
+[41] Mixkurdy
+------------------------------------------------
+IPTV URLs (1):
+  • https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
+Logo: https://i.imgur.com/WHeH5i7.png
+Category: Family
+[42] NRT TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://media.streambrothers.com:1936/8226/8226/playlist.m3u8
+Logo: https://i.imgur.com/uGKGtbW.png
+Category: News
+[43] NUBAR Plus TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://stream.nubar.tv:1935/private/NUBARPlus/playlist.m3u8
+Logo: https://i.ibb.co/XpgWb6B/IMG-20230628-140407.jpg
+Category: Entertainment
+[44] Payam TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
+Logo: https://i.imgur.com/qySEibb.png
+Category: News
+[45] Rudaw TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
+Logo: https://i.imgur.com/Zo3IWOn.png
+Category: News
+[46] Shams TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.shams.tv/hls/stream.m3u8
+Logo: https://www.semakurd.net/sites/default/files/imagecache/400xY/shemis-tv.jpg
+Category: News
+[47] UTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8
+Logo: https://i.imgur.com/9qFHjnu.png
+Category: Undefined
+[48] Waar TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarmedia_source/chunks.m3u8
+Logo: https://i.imgur.com/rK0y02d.png
+Category: Undefined
+[49] Zagros (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
+Logo: https://i.imgur.com/9Mspf32.png
+Category: General

@@ -1,0 +1,193 @@
+============================================================
+Cambodia (KH)
+============================================================
+Total Channels: 31
+Source: https://tv.garden/
+============================================================
+
+[1] Apsara TV11
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.ams.com.kh/app/stream/playlist.m3u8
+Logo: https://i.imgur.com/9wJe71I.png
+Category: General
+[2] Bayon TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8
+Logo: https://i.imgur.com/Gry2KEN.jpg
+Category: General
+[3] BTV News
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-evg2.tv360.metfone.com.kh/livetest/bayontest.stream/playlist.m3u8
+Logo: https://i.imgur.com/sUHiRj3.png
+Category: News
+[4] CITV Channel
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/CITVChannel.playlist.m3u8
+Logo: https://i.imgur.com/BxVXPag.png
+Category: Religious
+[5] CNC
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.happywatch99.com/livehd12/ade9370aadadedbee81fa5e0f228bd37.sdp/playlist.m3u8
+Logo: https://i.imgur.com/J8YLi0C.png
+Category: News
+[6] CTN
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.happywatch99.com/livehd10/02587745dbd71d978954203d7ec78497.sdp/playlist.m3u8
+Logo: https://i.imgur.com/r523kOq.png
+Category: Undefined
+[7] CTV8 HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.happywatch99.com/livehd17/60b8e758d3dac2865fa0cd868d0f7ec4.sdp/playlist.m3u8
+Logo: https://i.imgur.com/yrdr4Po.png
+Category: General
+[8] CTV 9
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/ctv9_hd_playlist.m3u8
+Logo: https://i.imgur.com/jgVJt2G.png
+Category: Undefined
+[9] D Music (1280p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/dd/d-music-kh.png
+Category: Music
+[10] EAC News TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8
+Logo: https://i.imgur.com/EuYhS9Z.png
+Category: News
+[11] EBC General Education (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
+Logo: https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png
+Category: Education
+[12] Fresh News
+------------------------------------------------
+IPTV URLs (1):
+  • http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8
+Logo: https://i.imgur.com/bV6sawt.png
+Category: News
+[13] Hang Meas HDTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:hmhdt12356.smil/playlist.m3u8
+Logo: https://i.imgur.com/P8oOR8I.png
+Category: General
+[14] Komsan TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8
+Logo: https://i.imgur.com/SNTf2r3.png
+Category: Movies
+[15] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",MNB World
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
+Logo: https://i.imgur.com/PHlj84Q.png
+Category: General
+[16] MOI TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://202.62.56.22:8080/hls/MOITV.m3u8
+Logo: https://i.imgur.com/fbI2ybo.png
+Category: Legislative
+[17] MSJ TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/MSJTV_hd_playlist.m3u8
+Logo: https://i.imgur.com/TilslGU.png
+Category: General
+[18] My TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.happywatch99.com/livehd11/90ecf35382a7597e553200692c3fc384.sdp/playlist.m3u8
+Logo: https://i.imgur.com/lhxRefQ.png
+Category: Entertainment
+[19] NTV
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
+Logo: https://i.imgur.com/SoBhuIb.png
+Category: Undefined
+[20] One TV Cinema 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/ChineseDrama.playlist.m3u8
+Logo: https://i.imgur.com/H8PiAbA.png
+Category: Movies
+[21] One TV Drama 3
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/KoreanDrama.playlist.m3u8
+Logo: https://i.imgur.com/wHtqMqB.png
+Category: Series
+[22] One TV E-School Cambodia
+------------------------------------------------
+IPTV URLs (1):
+  • http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8
+Logo: https://i.imgur.com/wLzVdeT.png
+Category: Education
+[23] PNN
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/PNN.playlist.m3u8.m3u8
+Logo: https://i.imgur.com/ObtFGBW.png
+Category: Undefined
+[24] Rasmey Hang Meas HDTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8
+Logo: https://i.imgur.com/EcqEMMg.png
+Category: Undefined
+[25] RTM ASEAN
+------------------------------------------------
+IPTV URLs (1):
+  • https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
+Logo: https://i.imgur.com/skAiUxg.png
+Category: News
+[26] SEATV
+------------------------------------------------
+IPTV URLs (1):
+  • https://seatv.netlinkbroadcaster.com/hls/test.m3u8
+Logo: https://i.imgur.com/oZPorvg.png
+Category: Undefined
+[27] Town TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://43.252.18.195:5080/live/streams/Town_khmer_etv.playlist.m3u8
+Logo: https://i.imgur.com/9fUGvVG.png
+Category: Undefined
+[28] TV5 Cambodia
+------------------------------------------------
+IPTV URLs (1):
+  • https://es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8
+Logo: https://i.imgur.com/iMZLyoX.png
+Category: Undefined
+[29] TVK
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8
+Logo: https://i.imgur.com/5hPxjcl.png
+Category: General
+[30] TVK 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8
+Logo: https://i.imgur.com/L36ptO2.png
+Category: Education
+[31] WIKI TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8
+Logo: https://i.imgur.com/rnV0Ui1.png
+Category: Education

@@ -1,0 +1,217 @@
+============================================================
+Haiti (HT)
+============================================================
+Total Channels: 35
+Source: https://tv.garden/
+============================================================
+
+[1] BPX TV Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8
+Logo: https://i.imgur.com/86VXni8.jpeg
+Category: Music
+[2] Canal+ Haiti [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u8
+Logo: https://i.imgur.com/Gad5qrd.png
+Category: Entertainment
+[3] Dega TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/saintlouisltv/saintlouisltv/playlist.m3u8
+Logo: https://i.ibb.co/ZTYvHyR/DEGA-TV-TELEPACK.jpg
+Category: Music
+[4] Fidele TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/FIDELETV/FIDELETV/playlist.m3u8
+Logo: https://i.ibb.co/YtBZ0Lc/FIDELE-TV.png
+Category: Entertainment
+[5] Haiti News Channel (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://haititivi.com/website/haitinews/index.m3u8
+Logo: https://m.media-amazon.com/images/I/51bJg+c7vRL.png
+Category: News
+[6] HMI PROMZ NEWS
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8
+Logo: https://i.imgur.com/gwPaw3v.png
+Category: Music
+[7] Kajou TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.getstreamhosting.com:1936/8055/8055/playlist.m3u8
+Logo: https://i.imgur.com/2XzghdT.png
+Category: Culture
+[8] Metropole
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hdirect/hdirect-telemetrolple2/index.m3u8
+Logo: https://i.imgur.com/Ei1Su4V.png
+Category: Music
+[9] MTV (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png
+Category: Entertainment
+[10] NETALKOLE TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://watch.haitilive.net/naktvhd/index.m3u8
+Logo: https://i.imgur.com/SdVrpzY.png
+Category: General
+[11] Nickelodeon Junior
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/512px-Nickelodeon_Junior.png
+Category: Kids
+[12] PVS TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://2-fss-1.streamhoster.com/pl_122/202676-1357858-1/playlist.m3u8
+Logo: https://i.imgur.com/7YCi514.png
+Category: General
+[13] Radio Tele 6 Univers
+------------------------------------------------
+IPTV URLs (1):
+  • https://acwstream.com/lakay/tele6/tracks-v1a1/mono.m3u8
+Logo: https://i.imgur.com/aeVXn7p.jpeg
+Category: General
+[14] Radio Télé 4VEH
+------------------------------------------------
+IPTV URLs (1):
+  • https://uni01rtmp.tulix.tv/4vehtv/4vehtv-firetv/playlist.m3u8
+Logo: https://i.imgur.com/AnOjqaS.png
+Category: Religious
+[15] Radio Télé Amen FM (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://184.173.179.163:1935/daniel/daniel/playlist.m3u8
+Logo: https://i.imgur.com/MTaFdHE.png
+Category: Religious
+[16] Radio Tele Eclair
+------------------------------------------------
+IPTV URLs (1):
+  • https://play.streamhaiti.com:3585/live/radioteleeclairlive.m3u8
+Logo: https://i.imgur.com/jV30pSq.png
+Category: General
+[17] Radio Tele Full Gospel
+------------------------------------------------
+IPTV URLs (1):
+  • https://f-tx-edge-87.christianworldmedia.com/EJCFG/mp4:EJCFG/playlist.m3u8
+Logo: https://i.imgur.com/WbwIp9y.jpeg
+Category: Religious
+[18] Radio Tele Ginen
+------------------------------------------------
+IPTV URLs (1):
+  • http://teleginen.srfms.com:1935/teleginen/livestream/playlist.m3u8
+Logo: https://i.imgur.com/ESlt16G.png
+Category: General
+[19] Radio Télé Hit
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/RadioTelehit/RadioTelehit/playlist.m3u8
+Logo: https://i.ibb.co/Gt2QDgf/cropped-transparent2-103x70.png
+Category: Music
+[20] Radio Télé Kajou (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/RadioTelekAJOU/RadioTelekAJOU/playlist.m3u8
+Logo: https://i.ibb.co/1MhvJ3B/logork.png
+Category: Music
+[21] Radio Tele Planet Compas (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8
+Logo: https://i.imgur.com/ddb4lsa.png
+Category: General
+[22] Radio Tele Puissance
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.getstreamhosting.com:1936/8560/8560/playlist.m3u8
+Logo: https://i.imgur.com/ZLPwJug.png
+Category: Religious
+[23] Radio Tele Sentinel
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/radiotelesentinel/radiotelesentinel/playlist.m3u8
+Logo: https://i.imgur.com/hy3BJxj.png
+Category: Religious
+[24] Radio Tele SuperStar
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hdirect/hdirect-telecaraibes/index.m3u8
+Logo: https://i.imgur.com/GoaeyVV.png
+Category: Entertainment
+[25] Radio Télé Wisdom (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/daniel/daniel/playlist.m3u8
+Logo: https://i.ibb.co/DQksC23/unnamed-1.jpg
+Category: Religious
+[26] Radio Télévision Shilo (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://watch.haitilive.net/freehb/rtvs/index.m3u8
+Logo: https://cdn.onlineradiobox.com/img/l/0/98960.v3.png
+Category: General
+[27] RTH-TV1
+------------------------------------------------
+IPTV URLs (1):
+  • https://2-fss-2.streamhoster.com/pl_120/amlst:206708-4203440/playlist.m3u8
+Logo: https://i.imgur.com/4z0FiEA.png
+Category: General
+[28] RTH-TV2 Gospel
+------------------------------------------------
+IPTV URLs (1):
+  • https://2-fss-2.streamhoster.com/pl_120/amlst:206708-4202592/playlist.m3u8
+Logo: https://i.imgur.com/4z0FiEA.png
+Category: Religious
+[29] Tele Haiti (1088p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://66.175.238.147:1935/live/myStream/playlist.m3u8
+Logo: https://i.imgur.com/Hso9j58.png
+Category: General
+[30] Tele Louange
+------------------------------------------------
+IPTV URLs (1):
+  • https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8
+Logo: https://i.imgur.com/DjnMUuL.png
+Category: Religious
+[31] Tele Pam
+------------------------------------------------
+IPTV URLs (1):
+  • https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
+Logo: https://i.ibb.co/xMYMyHh/telepammmm.png
+Category: General
+[32] Tele Variete
+------------------------------------------------
+IPTV URLs (1):
+  • https://acwstream.com/hb/chaine30/playlist.m3u8
+Logo: https://i.imgur.com/0J5MzTB.png
+Category: General
+[33] TeleMIX
+------------------------------------------------
+IPTV URLs (1):
+  • https://haititivi.com/haiti/telemix1/index.m3u8
+Logo: https://i.ibb.co/HpX99Ks/unnamed.jpg
+Category: Entertainment
+[34] TNH
+------------------------------------------------
+IPTV URLs (1):
+  • https://bozztv.com/dvrfl03/hdirect/hdirect-telecaraibes/index.m3u8
+Logo: https://i.imgur.com/8nvCXzt.png
+Category: General
+[35] TV Panou (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tvpanoucom.srfms.com:1935/tvpanoucom/livestream/playlist.m3u8
+Logo: https://i.imgur.com/zee6sWn.png
+Category: General

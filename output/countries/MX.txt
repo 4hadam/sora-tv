@@ -1,0 +1,846 @@
+============================================================
+Mexico (MX)
+============================================================
+Total Channels: 140
+Source: https://tv.garden/
+============================================================
+
+[1] 8NTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
+Logo: https://i.imgur.com/7ecgGIG.png
+Category: General
+[2] 15TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.fastocloud.com/leonel.m3u8
+Logo: https://i.imgur.com/CZ8LKmA.png
+Category: General
+[3] ADN 40
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
+Logo: https://i.imgur.com/Og17U9N.png
+Category: News
+[4] Alcance TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
+Logo: https://i.imgur.com/5nYjRlb.png
+Category: Religious
+[5] AMX Noticias (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
+Logo: https://i.imgur.com/snIU1UA.jpg
+Category: News
+[6] Así Sucede Guanajuato (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/encoder13/playlist.m3u8
+Logo: https://i.imgur.com/6W7HUtG.png
+Category: General
+[7] Azteca 7 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
+Logo: https://i.imgur.com/UtFXjIn.png
+Category: General
+[8] Azteca Internacional
+------------------------------------------------
+IPTV URLs (1):
+  • https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png
+Category: Entertainment
+[9] Azteca Uno (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8
+Logo: https://i.imgur.com/rRxgBtI.png
+Category: General
+[10] B15 Fresnillo
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8
+Logo: https://i.imgur.com/kaUhEQy.png
+Category: General
+[11] B15 Zacatecas
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8
+Logo: https://i.imgur.com/kaUhEQy.png
+Category: General
+[12] BAMOS TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video2.getstreamhosting.com:19360/8092/8092.m3u8
+Logo: https://i.imgur.com/ntK4D64.png
+Category: Religious
+[13] California Medios TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/medios/medios/playlist.m3u8
+Logo: https://i.imgur.com/IDvpRNI.png
+Category: General
+[14] Canal 5 TV Cozumel
+------------------------------------------------
+IPTV URLs (1):
+  • https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
+Logo: https://i.imgur.com/0nzNMuP.jpeg
+Category: General
+[15] Canal 10 Cancún (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
+Logo: https://i.imgur.com/TvTn3hO.png
+Category: Undefined
+[16] Canal 10 Chiapas
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
+Logo: https://i.imgur.com/dw6puHC.png
+Category: General
+[17] Canal 10 Durango
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
+Logo: https://i.imgur.com/H34quHQ.png
+Category: Undefined
+[18] Canal 13 Bajío (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_1c690d40dfb711eeabd66ba1b9ba93a1/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[19] Canal 13 Campeche (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_38c14fb0dfbd11ee8847c303f3096501/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[20] Canal 13 Chiapas (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_55784330f36711ee97a7a19a8448730c/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[21] Canal 13 Guadalajara (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_fa0ed380dfbe11eeabd66ba1b9ba93a1/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[22] Canal 13 Michoacán (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_0424eb20dfbf11ee821911a0b6ba5091/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[23] Canal 13 Oaxaca (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_0bd65ed0dfbf11ee848c53d8a686e201/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[24] Canal 13 Puebla (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_19c1e870dfbf11eeadd41749c3286f4a/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[25] Canal 13 Tabasco (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_185f5f10888711ee83e2f144889e3879/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[26] Canal 13 Tapachula (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_2b589fc0dfbf11ee9ce13534ca2a46c3/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[27] Canal 13 Yucatán (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-207963.castr.net/65313d270e749722b6474684/live_4d3635d0dfbf11eeaae187cc1ffaf09b/index.fmp4.m3u8
+Logo: https://i.imgur.com/SlycKgZ.png
+Category: General
+[28] Canal 15 ILCE Summa Sabres
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
+Logo: https://i.imgur.com/r7czgOc.png
+Category: Education
+[29] Canal 22 Nacional (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8
+Logo: https://i.imgur.com/6qiYvhe.png
+Category: Undefined
+[30] Canal 26 Aguascalientes
+------------------------------------------------
+IPTV URLs (1):
+  • https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
+Logo: https://i.imgur.com/PAvnVN9.png
+Category: Undefined
+[31] Canal 28 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.castr.com/653d77dcde70014f52ad1e19/live_bf24d4208d8611eeb116dbe87aa63be0/rewind-3600.m3u8
+Logo: https://i.imgur.com/lr4MZFg.png
+Category: General
+[32] Canal 30 Cintalapa (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rpn3.bozztv.com/ssh101/ssh101/canal30mx/playlist.m3u8
+Logo: https://i.imgur.com/xv13N7q.jpg
+Category: General
+[33] Canal 33 Tijuana
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
+Logo: https://iili.io/JCt1Nbn.png
+Category: General;News
+[34] Canal 44 Chihuahua (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8
+Logo: https://i.imgur.com/YDp8MlN.png
+Category: Undefined
+[35] Canal 44 Ciudad Juárez (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8
+Logo: https://i.imgur.com/oRudPXX.png
+Category: General
+[36] Canal 50.1 Juárez (XEJ-TDT)
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/juarez50/playlist.m3u8
+Logo: https://i.imgur.com/iOYlKpF.png
+Category: General
+[37] Canal del Congreso 45.1
+------------------------------------------------
+IPTV URLs (1):
+  • https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834.m3u8
+Logo: https://i.imgur.com/xAC6gQO.png
+Category: Legislative
+[38] Canal Parlamento del Congreso de Jalisco (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8
+Logo: https://i.imgur.com/fLpkHfZ.png
+Category: Legislative
+[39] Capital 21 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • hhttps://video.cdmx.gob.mx/redes/stream.m3u8
+Logo: https://i.imgur.com/8ign49i.png
+Category: Culture;Entertainment
+[40] Conecta TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+Logo: https://i.imgur.com/qEk0QGa.png
+Category: Music
+[41] CreaLaTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.mexiserver.com:2000/hls/crealatv/crealatv.m3u8
+Logo: https://i.imgur.com/Bnjj29f.png
+Category: General
+[42] Despierta TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video2.lhdserver.es/despiertatv/live.m3u8
+Logo: https://i.imgur.com/hywjKNo.jpg
+Category: General
+[43] Eclipse TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo6.instainternet.com:3272/live/jobetalborezlive.m3u8
+Logo: https://i.imgur.com/GiDD8xG.jpg
+Category: General
+[44] El Sonorense (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8
+Logo: https://i.imgur.com/aKvPd4g.jpg
+Category: Culture
+[45] Estrella Games
+------------------------------------------------
+IPTV URLs (1):
+  • https://estrella-games-oando.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/Z52nEnH.png
+Category: Entertainment;Family
+[46] Estrella News
+------------------------------------------------
+IPTV URLs (1):
+  • https://estrella-news-oando.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/HRrkhLq.png
+Category: News
+[47] Estrella TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://estrellatv-oando.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/IZxjnyp.png
+Category: Entertainment
+[48] Expresa TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
+Logo: https://i.imgur.com/kFVVGrg.png
+Category: General
+[49] Filmex (Xumo) (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://filmex-filmex-xumo.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/Hiz2OyC.png
+Category: Movies
+[50] Filmex Clásico (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://filmex-filmexclasico-xumo.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/D3dj4mv.png
+Category: Movies
+[51] Foro TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://channel02-notusa.akamaized.net/hls/live/2023914/event01/index.m3u8
+Logo: https://i.imgur.com/dDFrONz.png
+Category: News
+[52] ICRTV Colima
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
+Logo: https://i.imgur.com/iUks0ot.png
+Category: Legislative
+[53] IERTBCS Canal 8.2 La Paz (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/xhbzc82/xhbzc82/playlist.m3u8
+Logo: https://i.imgur.com/R3icGuG.png
+Category: Entertainment
+[54] IERTBCS Canal 8 La Paz (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8
+Logo: https://i.imgur.com/R3icGuG.png
+Category: General
+[55] IMRyT Morelos TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.mexiserver.com:19360/morelostv/morelostv.m3u8
+Logo: https://i.imgur.com/D91O6ka.png
+Category: General
+[56] Ingenio TV (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://aprende-usea.streaming.media.azure.net/9317ea3f-03a0-4266-9292-ac97a0e41c4d/output-20230609-123537-manifest.ism/manifest(format=m3u8-cmaf).m3u8
+Logo: https://i.imgur.com/pAppH1M.png
+Category: Undefined
+[57] ITV Deportes
+------------------------------------------------
+IPTV URLs (1):
+  • https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+Logo: https://iili.io/J1kV1Bn.png
+Category: Entertainment;Sports
+[58] Jalisco TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
+Logo: https://i.imgur.com/N4meE8I.png
+Category: Culture;Education
+[59] Justicia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
+Logo: https://i.imgur.com/zyAS1hk.png
+Category: Legislative
+[60] Las Estrellas
+------------------------------------------------
+IPTV URLs (1):
+  • https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+Logo: https://i.imgur.com/g5ShxZ7.png
+Category: General
+[61] Lobo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
+Logo: https://i.imgur.com/3fA50RJ.png
+Category: Music
+[62] María Visión Mexico (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
+Logo: https://i.imgur.com/GylOPxE.png
+Category: Religious
+[63] Mexiquense TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
+Logo: https://i.imgur.com/iVfzakA.png
+Category: General
+[64] Milenio Televisión (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8
+Logo: https://i.imgur.com/TG1T5Oh.png
+Category: News
+[65] Monte Maria
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8
+Logo: https://i.imgur.com/0rMHbbM.png
+Category: Religious
+[66] Multimedios Bajío (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5d4b0fec848918070128c8cb.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[67] Multimedios CDMX (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5f2d9d6ff17144074bd8a284.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[68] Multimedios Ciudad Juárez (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5d9e440d675235586a92be7f.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[69] Multimedios Guadalajara (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5c54d38ca392a5119bb0aa0d.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[70] Multimedios Laguna (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/57bf686a61ff39e1085d43e1.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[71] Multimedios Monterrey (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[72] Multimedios Puebla (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5d56ed29c92dd106ff01543b.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[73] Multimedios Saltillo (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5d5d51a4e9a40e25f4a0332c.m3u8
+Logo: https://i.imgur.com/4IGzNdq.png
+Category: General
+[74] MVS TV [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dish.akamaized.net/Content/HLS_HLS_CLR/Live/channel(mvs)/variant.m3u8
+Logo: https://i.imgur.com/TcB37yV.png
+Category: General
+[75] MyTime Movie Network Mexico
+------------------------------------------------
+IPTV URLs (1):
+  • https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/pw4NZK1.png
+Category: Movies
+[76] Nayarit Comunica
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.iplanay.gob.mx/hls/nayarittv.m3u8
+Logo: https://i.imgur.com/aZCTkjU.jpg
+Category: General
+[77] Nick Jr. Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.199.6.1:17001/play/a0pb/index.m3u8
+Logo: https://i.imgur.com/KT4tdQs.png
+Category: Kids
+[78] Notigram TV (XHFGL-TDT)
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8
+Logo: https://i.imgur.com/9ZXCQvy.png
+Category: General
+[79] Nueve TV San Luís Potosí
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/.m3u8
+Logo: https://i.imgur.com/3fzB7zY.png
+Category: General
+[80] Once México
+------------------------------------------------
+IPTV URLs (1):
+  • https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+Logo: https://i.imgur.com/K0351vF.png
+Category: Education
+[81] Presumiendo México
+------------------------------------------------
+IPTV URLs (1):
+  • https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8
+Logo: https://i.imgur.com/bFG4Rqz.png
+Category: Culture
+[82] PSN
+------------------------------------------------
+IPTV URLs (1):
+  • https://srspsn.live/live/livestream.m3u8
+Logo: https://i.imgur.com/7i7GkSL.png
+Category: Entertainment;News
+[83] PSN Canal 45.2
+------------------------------------------------
+IPTV URLs (1):
+  • https://srspsn2.live/live/livestream.m3u8
+Logo: https://i.imgur.com/7i7GkSL.png
+Category: News
+[84] Radio y Televisión Crisol de la Alegría (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://omegaingenieria.com:19360/CRisolTVdigital-Live_abr/CRisolTVdigital-Live_abr.m3u8
+Logo: https://i.imgur.com/EW2z5Ko.jpg
+Category: Religious
+[85] Radiotele Morelia
+------------------------------------------------
+IPTV URLs (1):
+  • http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8
+Logo: https://i.imgur.com/XpcCZvu.png
+Category: General
+[86] Raly TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8072/index.m3u8
+Logo: https://i.imgur.com/W8a1dIa.png
+Category: General
+[87] RCG TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
+Logo: https://i.imgur.com/kYtAR26.png
+Category: Undefined
+[88] RCG TV 2 (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5caf24a595d94.streamlock.net:1937/stream56/stream56/playlist.m3u8
+Logo: https://i.imgur.com/hXs9b7v.png
+Category: Undefined
+[89] RTG
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8
+Logo: https://i.imgur.com/k9M2MOT.png
+Category: Undefined
+[90] RTQ Querétaro
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
+Logo: https://i.imgur.com/RRckCvf.png
+Category: Undefined
+[91] Señal España (XHUNES-TDT)
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8
+Logo: https://i.imgur.com/LbZkdca.png
+Category: Education
+[92] SET Televisión Canal 26.1 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8
+Logo: https://i.imgur.com/dbJKErB.png
+Category: Undefined
+[93] SET Televisión Canal 26.2 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d0d1d7a6be9e.streamlock.net/sicom/canal2/playlist.m3u8
+Logo: https://i.imgur.com/dbJKErB.png
+Category: Education
+[94] SIPSE TV 8.1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://webprod.sipse.com.mx:8080/show/merida.m3u8
+Logo: https://i.imgur.com/123P7dV.png
+Category: General
+[95] SIPSE TVCUN 8.1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
+Logo: https://i.imgur.com/uiTgClU.png
+Category: General
+[96] Sistema Michoacano de TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/enlinea/enlinea/playlist.m3u8
+Logo: https://i.imgur.com/7MXF4Fd.png
+Category: Undefined
+[97] SIZART Canal 24 (XHZHZ-TDT)
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8
+Logo: https://i.imgur.com/RxhABeK.png
+Category: General
+[98] SQCS Canal 4
+------------------------------------------------
+IPTV URLs (1):
+  • https://video0.rogohosting.com:19360/4982/4982.m3u8
+Logo: https://i.imgur.com/qnx8nBP.png
+Category: Undefined
+[99] Super9 TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.radiohosting.online:1936/TV344/TV344/playlist.m3u8
+Logo: https://i.imgur.com/TntqGmR.png
+Category: General
+[100] Super Channel 12
+------------------------------------------------
+IPTV URLs (1):
+  • https://servilive.com:3263/live/channel12live.m3u8
+Logo: https://i.imgur.com/dLHIvKz.png
+Category: General
+[101] TELE 4 Ojocaliente
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/encoder53/playlist.m3u8
+Logo: https://i.imgur.com/TkzIqR2.jpg
+Category: General
+[102] Tele Saltillo
+------------------------------------------------
+IPTV URLs (1):
+  • https://servilive.com:3879/live/telesaltillolive.m3u8
+Logo: https://i.imgur.com/PgBtvgO.png
+Category: Undefined
+[103] Tele UV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
+Logo: https://i.imgur.com/8MdUH69.jpeg
+Category: Education
+[104] Tele Yucatan (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
+Logo: https://i.imgur.com/XkpDSmO.png
+Category: Undefined
+[105] TeleFórmula
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/62f2c855f7981b5a5a2d8763.m3u8
+Logo: https://i.imgur.com/y0a0xwY.png
+Category: Undefined
+[106] Telemax (XEWH-TDT)
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
+Logo: https://i.imgur.com/klhTyDU.png
+Category: Undefined
+[107] Teleplay Sureste
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
+Logo: https://i.imgur.com/MeV5N08.png
+Category: Entertainment
+[108] Teleritmo (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
+Logo: https://i.imgur.com/9s380Bz.png
+Category: Undefined
+[109] The Pet Collective International
+------------------------------------------------
+IPTV URLs (1):
+  • https://the-pet-collective-international-mx.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/yH7n2dF.png
+Category: Family
+[110] Tlaxcala Televisión (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vid26.mega00.com:5443/live/streams/qNmc7nulmq8zPYZE1582752735050.m3u8
+Logo: https://i.imgur.com/5vaEhfy.png
+Category: Undefined
+[111] Transmedia Televisión Morelia (614p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8
+Logo: https://i.imgur.com/jYMpVQA.png
+Category: Undefined
+[112] TRC Televisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fe2654d6127d.streamlock.net/trc/videotrc/playlist.m3u8
+Logo: https://i.imgur.com/W4xwCdl.png
+Category: Undefined
+[113] Turistik TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn1.cef-technology.com/stream_web/turistik/playlist.m3u8
+Logo: https://i.imgur.com/g9j0ze8.png
+Category: Travel
+[114] TV BUAP
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvenvivo.buap.mx/livestream/stream/index.m3u8
+Logo: https://i.imgur.com/hHrIn0r.png
+Category: Education
+[115] TV Cuatro 4.1
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8
+Logo: https://i.imgur.com/Of044Jx.png
+Category: General
+[116] TV Cuatro 4.2
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8
+Logo: https://i.imgur.com/Of044Jx.png
+Category: Culture
+[117] TV Guanajuato
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/tvguanajuato/playlist.m3u8
+Logo: https://i.imgur.com/HbnCZSF.png
+Category: General
+[118] TV Independencia
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/tvindependencia/playlist.m3u8
+Logo: https://i.imgur.com/kuyQvUP.png
+Category: General
+[119] TV Libertad
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/tvlibertad/playlist.m3u8
+Logo: https://i.imgur.com/yvbhH8c.png
+Category: General
+[120] TV Lobo Durango
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/lobodurango/videolobodurango/playlist.m3u8
+Logo: https://i.imgur.com/q9p1Spj.png
+Category: Undefined
+[121] TV Mar La Paz
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fc584f3f19c9.streamlock.net/tvmarlapaz/smil:tvmarlapaz.smil/playlist.m3u8
+Logo: https://i.imgur.com/z9iVlMn.png
+Category: General
+[122] TV Mar Los Cabos
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fc584f3f19c9.streamlock.net/tvmarloscabos/smil:tvmarloscabos.smil/playlist.m3u8
+Logo: https://i.imgur.com/z9iVlMn.png
+Category: General
+[123] TV Mar Puerto Vallarta
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m3u8
+Logo: https://i.imgur.com/z9iVlMn.png
+Category: General
+[124] TV Nuevo León Canal 28 (XHMNL-TDT)
+------------------------------------------------
+IPTV URLs (1):
+  • https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
+Logo: https://i.imgur.com/9qL4LJF.png
+Category: Education
+[125] TV UG (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/universidadgto/videouniversidadgto/playlist.m3u8
+Logo: https://i.imgur.com/pxkDpTU.jpeg
+Category: Education
+[126] TV UJAT (XHUJAT-TDT) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
+Logo: https://i.imgur.com/4demWOi.png
+Category: Education
+[127] TVMÁS (XHGV-TDT) (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8
+Logo: https://i.imgur.com/15kcNRb.png
+Category: Undefined
+[128] TVP Culiacán (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8
+Logo: https://i.imgur.com/uX1S3kt.png
+Category: General
+[129] TVP Los Mochis (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/gpacifico2/mochis.smil/playlist.m3u8
+Logo: https://i.imgur.com/uX1S3kt.png
+Category: General
+[130] TVP Mazatlán (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8
+Logo: https://i.imgur.com/uX1S3kt.png
+Category: General
+[131] TVP Obregón (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/gpacifico3/obregon.smil/playlist.m3u8
+Logo: https://i.imgur.com/uX1S3kt.png
+Category: General
+[132] UACJ-TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca3e84a76d30.streamlock.net/uacj/videouacj/playlist.m3u8
+Logo: https://i.imgur.com/a1WaGTQ.jpeg
+Category: Education
+[133] UDG TV Canal 44 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveos.bytecazt.com/udgtv/streams/cfprivq23akg00a7ke2g_d306m7q9io6g00fsq3cg_.m3u8
+Logo: https://i.imgur.com/QKvINA6.png
+Category: General
+[134] Ultra TV Puebla (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8
+Logo: https://www.ultralaradio.mx/sad/imagenes/sucursales/1.png
+Category: Undefined
+[135] UMTV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u8
+Logo: https://i.imgur.com/sjxVdPh.png
+Category: Undefined
+[136] Unison TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.unison.mx/hls/unisontvatem.m3u8
+Logo: https://i.imgur.com/7ixWRId.png
+Category: Education
+[137] VB Media TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8
+Logo: https://i.imgur.com/5qlVblr.png
+Category: Entertainment
+[138] Visión Televisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8016/index.m3u8
+Logo: https://i.imgur.com/HV5tgcM.png
+Category: Music
+[139] WeatherSpy
+------------------------------------------------
+IPTV URLs (1):
+  • https://jukin-weatherspy-2-mx.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/KIEKOt1.png
+Category: Weather
+[140] ZAZ
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
+Category: Entertainment

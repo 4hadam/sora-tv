@@ -1,0 +1,60 @@
+============================================================
+Syria (SY)
+============================================================
+Total Channels: 9
+Source: https://tv.garden/
+============================================================
+
+[1] Alalam News Channel Syria
+------------------------------------------------
+IPTV URLs (1):
+  • https://live2.alalam.ir/live/Alalam/index.m3u8
+Logo: https://i.imgur.com/WQKYPKD.png
+Category: News
+[2] Althania
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/syriatv02live/syriatv02.smil/playlist.m3u8
+Category: General
+[3] Damascus Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://radiodamascus.ortas.live/RDimshq/RDimshqLive/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/radio/rr/radio-damascus-sy.png
+Category: Undefined
+[4] Halab Today TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://mn-nl.mncdn.com/halabtoday/livestream/index.m3u8
+Logo: https://pbs.twimg.com/profile_images/1779495135841075200/aPINrLwe_400x400.png
+Category: News
+[5] Rojava TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8
+Logo: https://i.imgur.com/42noysO.png
+Category: General
+[6] Ronahi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8
+Logo: https://i.imgur.com/JSvJpD8.png
+Category: Undefined
+[7] Syria One
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.syriaone.tv/live/syriaone.m3u8
+Logo: https://tv.syriaone.tv/SyriaONETVB.png
+Category: Undefined
+[8] Syria TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
+Logo: https://i.imgur.com/FjuVuXF.jpeg
+Category: News
+[9] Welat TV (1080i)
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.badinan.xyz/welat/tv/playlist.m3u8
+Logo: https://avatars.githubusercontent.com/u/213803648?s=400&u=e27c09d39f813b9698de9c6559cbf7f196bf6fce&v=4
+Category: News

@@ -1,0 +1,25 @@
+============================================================
+Mozambique (MZ)
+============================================================
+Total Channels: 3
+Source: https://tv.garden/
+============================================================
+
+[1] TV Maná Moçambique
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
+Logo: https://i.imgur.com/R5YrV5s.png
+Category: Religious
+[2] TV Vitória
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv1.srvif.com/tvvitoriamz/tvvitoriamz/playlist.m3u8
+Logo: https://i.imgur.com/HlWzzfj.png
+Category: Entertainment
+[3] TVM
+------------------------------------------------
+IPTV URLs (1):
+  • http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8
+Logo: https://i.imgur.com/Vqv7R3Y.png
+Category: General

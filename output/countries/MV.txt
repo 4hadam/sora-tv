@@ -1,0 +1,73 @@
+============================================================
+Maldives (MV)
+============================================================
+Total Channels: 11
+Source: https://tv.garden/
+============================================================
+
+[1] Channel 13 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.theyraonline.com/live/channel13@live/index.m3u8
+Logo: https://i.imgur.com/lR5jUSU.jpeg
+Category: General
+[2] Disney International HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://111.88.78.21:8000/play/a0qo/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png
+Category: Kids
+[3] Maldives TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://lana.psm.mv/live/mtv.m3u8
+Logo: https://i.imgur.com/Zl2FmFC.png
+Category: Travel
+[4] MMTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://sendlive.online/hls/mmtv.m3u8
+Logo: https://i.imgur.com/21tpl5b.png
+Category: General
+[5] Munnaaru
+------------------------------------------------
+IPTV URLs (1):
+  • https://customer-ujex1meek7koqd9x.cloudflarestream.com/6a46f90ca384c7419efdbef3ff1892a9/manifest/video.m3u8
+Logo: https://i.imgur.com/Adhr5xq.png
+Category: Religious
+[6] NTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://sstv.ssplay.mv/hls/local-channel/ntv-e3d4300b49c8c901e9339174215d7580/index.m3u8
+Logo: https://i.imgur.com/jnXpcwV.png
+Category: General
+[7] PSM News
+------------------------------------------------
+IPTV URLs (1):
+  • https://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8
+Logo: https://i.imgur.com/mGuBbPv.png
+Category: News
+[8] SSTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://sstv.ssplay.mv/hls/sstv-live/index.m3u8
+Logo: https://i.imgur.com/jtIhDZk.png
+Category: General
+[9] TV Maldives
+------------------------------------------------
+IPTV URLs (1):
+  • https://customer-ujex1meek7koqd9x.cloudflarestream.com/9e93379c0d46ee588b99263d95bd9c42/manifest/video.m3u8
+Logo: https://i.imgur.com/1c7rFKC.png
+Category: General
+[10] VTV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vtvstream.vnews.mv/vtvlive/vmedia/playlist.m3u8
+Logo: https://i.imgur.com/6bY9Umo.png
+Category: News
+[11] YES
+------------------------------------------------
+IPTV URLs (1):
+  • https://customer-ujex1meek7koqd9x.cloudflarestream.com/4f0b316cdb0fbb7f8ca93860ed11d38b/manifest/video.m3u8
+Logo: https://i.imgur.com/HARIGQl.png
+Category: News

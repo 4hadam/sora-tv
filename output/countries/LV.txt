@@ -1,0 +1,102 @@
+============================================================
+Latvia (LV)
+============================================================
+Total Channels: 16
+Source: https://tv.garden/
+============================================================
+
+[1] KidZone Max (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd
+Logo: https://i.imgur.com/qJSvxE2.png
+Category: Kids
+[2] Kino 24
+------------------------------------------------
+IPTV URLs (1):
+  • http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
+Logo: https://i.imgur.com/QAdDARF.png
+Category: Movies
+[3] Movify Kino
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
+Logo: https://i.imgur.com/XIk5EJN.png
+Category: Classic;Movies
+[4] Multimania (Latvia)
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8
+Logo: https://i.imgur.com/J9Lwc0T.png
+Category: Animation;Kids
+[5] Pingvīns (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/PingvinsLV_Mpeg4/video.m3u8
+Logo: https://i.imgur.com/hfXoJIY.png
+Category: Animation;Kids
+[6] Pro100TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+Logo: https://i.imgur.com/YfQEflM.png
+Category: Animation;Classic;Entertainment;Family;Movies
+[7] Radio SWH TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://00ff00.latnet.media/edge/swh_tv.smil/playlist.m3u8
+Logo: https://i.imgur.com/cFrNsXn.png
+Category: Music
+[8] Re TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://retv2132.cloudycdn.services/slive/_definst_/retv_retv_channel_5k7_42787_default_891_hls.smil/playlist.m3u8
+Logo: https://i.imgur.com/Z3cre5Xm.png
+Category: Undefined
+[9] TV Jūrmala
+------------------------------------------------
+IPTV URLs (1):
+  • https://air.star.lv/TV_Jurmala_multistream/index.m3u8
+Logo: https://i.imgur.com/tQHkHD0.png
+Category: General
+[10] TV XXI
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/TV_XXI/index.m3u8
+Logo: https://i.imgur.com/Fja4bWt.png
+Category: Undefined
+[11] TVNET
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.tvnet.lv/stream/amlst:61659/playlist.m3u8
+Logo: https://i.imgur.com/jzv1ssE.png
+Category: Undefined
+[12] Viasat Kino
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.254.128.5:22280/viasat_kino/index.m3u8
+Logo: https://i.imgur.com/io0WAkA.png
+Category: Movies
+[13] Viasat Kino Action
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.254.128.5:22280/viasat_kino_action/index.m3u8
+Logo: https://i.imgur.com/HwsNIDK.png
+Category: Movies
+[14] Vidusdaugavas Televīzija
+------------------------------------------------
+IPTV URLs (1):
+  • https://straume.vdtv.lv/vdtv2/index.m3u8
+Logo: https://i.imgur.com/L5U3PQR.png
+Category: General
+[15] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",ТНТ International
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
+Logo: https://i.imgur.com/l0RGbRI.png
+Category: Entertainment
+[16] Хочу всё знать
+------------------------------------------------
+IPTV URLs (1):
+  • https://void.greenhosting.ru/HochuVjeZnat_Mpeg4/index.m3u8
+Category: General

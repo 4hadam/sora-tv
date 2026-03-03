@@ -1,0 +1,181 @@
+============================================================
+Serbia (RS)
+============================================================
+Total Channels: 29
+Source: https://tv.garden/
+============================================================
+
+[1] 24Kitchen Serbia
+------------------------------------------------
+IPTV URLs (1):
+  • http://91.132.74.5:8000/play/a00a
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/24Kitchen.png/512px-24Kitchen.png
+Category: Cooking
+[2] Balkan Radio Salzburg
+------------------------------------------------
+IPTV URLs (1):
+  • https://channel.streams.ovh:1936/balkanradiosalzburgtv/balkanradiosalzburgtv/playlist.m3u8
+Logo: https://i.imgur.com/UDyxgXf.png
+Category: Entertainment
+[3] DM Sat [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/dmsat/browser-dash/dmsat.mpd
+Logo: https://i.imgur.com/LdeA1Cn.png
+Category: Music
+[4] EDU TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5aa64ca8b95b8.streamlock.net:4443/edutv/edutelevizija/playlist.m3u8
+Logo: https://i.imgur.com/NE48DJb.png
+Category: Education
+[5] Marsh TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn.dovecher.tv:8081/live/marsh/playlist.m3u8
+Logo: https://i.imgur.com/Dt1mPyX.png
+Category: Undefined
+[6] Narodna TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge8.pink.rs/narodnatv/index.m3u8
+Logo: https://i.imgur.com/dua57HD.png
+Category: Undefined
+[7] Pannon RTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.nmih.hu:4102/live.m3u8
+Logo: https://i.imgur.com/xQa2idL.png
+Category: General
+[8] Pink
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge8.pink.rs/pinktv/index.m3u8
+Logo: https://i.imgur.com/66wHb7E.png
+Category: Undefined
+[9] Radio Hit FM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
+Logo: https://i.imgur.com/gP2OT4S.png
+Category: Music
+[10] Radio Karolina TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/0.m3u8
+Logo: https://i.imgur.com/g2HpLX1.png
+Category: Music
+[11] Radio Lola (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://peer2.tdiradio.com/static/streaming-playlists/hls/7c3ea8d3-49dc-4e1b-8b1e-dc6fab71f5cf/0.m3u8
+Logo: https://i.imgur.com/41eE8fl.png
+Category: Music
+[12] RTS 1 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://webtvstream.bhtelecom.ba/rts1.m3u8
+Logo: https://i.imgur.com/S1pKHSR.png
+Category: Undefined
+[13] RTS 2 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://webtvstream.bhtelecom.ba/rts2.m3u8
+Logo: https://i.imgur.com/jltAf5h.png
+Category: Undefined
+[14] RTS Svet HD (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd
+Logo: https://i.imgur.com/LjunOdy.png
+Category: Undefined
+[15] RTV 1 (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • mmsh://212.200.255.151/rtv1
+Logo: https://i.imgur.com/CG44YT3.png
+Category: Undefined
+[16] RTV 2 (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • mmsh://212.200.255.151/rtv2
+Logo: https://i.imgur.com/skpr66t.png
+Category: Undefined
+[17] RTV AS
+------------------------------------------------
+IPTV URLs (1):
+  • https://srv1.adriatelekom.com/TVAS/index.m3u8
+Logo: https://i.imgur.com/LIUtEgD.png
+Category: Undefined
+[18] RTV Bap
+------------------------------------------------
+IPTV URLs (1):
+  • https://53be5ef2d13aa.streamlock.net/rtvbap/uzivo/playlist.m3u8
+Logo: https://i.imgur.com/TBAtPH6.png
+Category: Undefined
+[19] Sandzak TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.iptv.nextfiber.rs/nxt004/master.m3u8
+Logo: https://i.imgur.com/lm9Fgsp.png
+Category: Undefined
+[20] SOS Kanal Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
+Logo: https://i.imgur.com/9SD40uH.png
+Category: Sports
+[21] TDI Radio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8
+Logo: https://i.imgur.com/POdTmaD.png
+Category: Music
+[22] Top TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://82.165.71.58:8081/TopTV/live/playlist.m3u8
+Logo: https://i.imgur.com/UJqbKEC.png
+Category: Music
+[23] TV Arta
+------------------------------------------------
+IPTV URLs (1):
+  • https://gjirafa-video-live.gjirafa.net/gjvideo-live/mps-vgx-u9p-qv1/index.m3u8
+Logo: https://i.imgur.com/MAhJkK9.png
+Category: News
+[24] TV Belle Amie
+------------------------------------------------
+IPTV URLs (1):
+  • http://92.60.238.10:1935/live/belleamie/playlist.m3u8
+Logo: https://i.imgur.com/tOlN5Rz.png
+Category: General
+[25] TV Duga Plus (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://109.92.29.10:1935/tvduga/tvduga/playlist.m3u8
+Logo: https://i.imgur.com/qZV3JW5.png
+Category: Music
+[26] TV Hram (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod1.laki.eu/live/hram/index.m3u8
+Logo: https://i.imgur.com/XzAYOFK.png
+Category: Undefined
+[27] TV Kanal M
+------------------------------------------------
+IPTV URLs (1):
+  • http://176.67.210.1/hls/kanalm.m3u8
+Logo: https://i.imgur.com/hqNVRUU.png
+Category: Undefined
+[28] TV Pi Kanal (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.pikanal.rs/pikanal/pgm.m3u8
+Logo: https://i.imgur.com/8ugnFa3.png
+Category: Undefined
+[29] TV Pirot (240p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5bc45691ca49f.streamlock.net/tvpirot/uzivo/playlist.m3u8
+Logo: https://i.imgur.com/o5y1ok6.png
+Category: Undefined

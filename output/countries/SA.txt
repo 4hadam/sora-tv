@@ -1,0 +1,325 @@
+============================================================
+Saudi Arabia (SA)
+============================================================
+Total Channels: 53
+Source: https://tv.garden/
+============================================================
+
+[1] Abdulmajeed Abdullah
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
+Logo: https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png
+Category: Music
+[2] Aflam
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index.m3u8
+Logo: https://i.imgur.com/cTLj7Yt.png
+Category: Movies
+[3] Al Arabiya English
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8
+Logo: https://shahid.mbc.net/mediaObject/7cfc0baf-1201-477f-b722-d3099fafe17f?height=230&width=512&croppingPoint=&version=1&type=png
+Category: News
+[4] Al Ekhbariya
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
+Logo: https://i.imgur.com/WcRlHQm.png
+Category: News
+[5] Al Hadath
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8
+Logo: https://i.imgur.com/De4SEWE.png
+Category: News
+[6] Al Quran Al Kareem TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+Logo: https://i.imgur.com/A2fJysM.png
+Category: Religious
+[7] Al Resalah (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/risala_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/7o4HgrP.png
+Category: Religious
+[8] Al Riyadh Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8
+Logo: https://i.imgur.com/8PH1Lak.png
+Category: Undefined
+[9] Al Saudiya
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
+Logo: https://i.imgur.com/GRQTndk.png
+Category: General
+[10] Al Saudiya Alaan
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8
+Logo: https://i.imgur.com/sEOjApe.png
+Category: Undefined
+[11] Al Sunnah Al Nabawiyah TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
+Logo: https://i.imgur.com/S6LcTJv.png
+Category: Religious
+[12] Al-Majd Holy Quran
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge66.magictvbox.com/liveApple/al_majd/tracks-v1a1/mono.m3u8
+Logo: https://i.imgur.com/JBelAQj.png
+Category: Religious
+[13] Alkhuzama Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8
+Logo: https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b
+Category: Undefined
+[14] Anime
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/e7350ddf46c94dddafe14b099394ff56/index.m3u8
+Logo: https://shahid.mbc.net/mediaObject/a5893f8d-8488-4c21-ab97-a627f99c7676?height=auto&width=512&croppingPoint=&version=1&type=png
+Category: Animation
+[15] Asharq Discovery
+------------------------------------------------
+IPTV URLs (1):
+  • https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+Logo: https://i.imgur.com/Czxi7yk.png
+Category: Documentary;Education
+[16] Asharq Documentary
+------------------------------------------------
+IPTV URLs (1):
+  • https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+Logo: https://i.imgur.com/v6VsFEt.png
+Category: Documentary
+[17] Asharq News
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-news.asharq.com/asharq.m3u8
+Logo: https://i.imgur.com/bqRC3sl.png
+Category: Business;News
+[18] Asharq Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8
+Logo: https://i.imgur.com/M6K8cD3.jpeg
+Category: Business;News
+[19] Atfal & Mawaheb TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8
+Logo: https://i.imgur.com/Y2BqP9m.png
+Category: Kids
+[20] Bab Al Hara
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/948c54279b594944adde578c95f1d7d1/index.m3u8
+Logo: https://i.imgur.com/QtlnZbq.png
+Category: Series
+[21] Big Time Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a311c1389698ff7e736/index.m3u8
+Logo: https://shahid.mbc.net/mediaObject/4e042cb6-500b-4e4c-a8ca-21a5a7a7a71b
+Category: Undefined
+[22] Fairuz
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/bba3ef00b71b470fa955d93a9ca8c277/index.m3u8
+Logo: https://shahid.mbc.net/mediaObject/f809d51c-e83d-43c9-8236-78731c2216ad?type=png
+Category: Music
+[23] Iqraa Africa & Europe
+------------------------------------------------
+IPTV URLs (1):
+  • https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8
+Logo: https://i.imgur.com/nUlZvSe.png
+Category: Religious
+[24] Iqraa Arabic (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8
+Logo: https://i.imgur.com/HPVsIa4.png
+Category: Religious
+[25] Iqraa Quran
+------------------------------------------------
+IPTV URLs (1):
+  • https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
+Logo: https://i.imgur.com/HPVsIa4.png
+Category: Religious
+[26] LBC (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/whyZXzW.png
+Category: General
+[27] M+
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8?ads.vf=6otIjpqWKPe
+Logo: https://i.imgur.com/Ho8N310.png
+Category: Music
+[28] Majid Al Mohandis
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8
+Logo: https://i.discogs.com/Fk9Bm8gTYJYeVXIJKX-EOGmYQ90sVQPtkIW5ZK4fydo/rs:fit/g:sm/q:90/h:372/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2OTY4/MzMtMTU2ODk0NjI5/MC01Njk2LmpwZWc.jpeg
+Category: Music
+[29] Makkah TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
+Logo: https://i.imgur.com/PRPcOi0.png
+Category: Religious
+[30] Maraya
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/a4a39d8e92e34b0780ca602270a59512/index.m3u8
+Logo: https://shahid.mbc.net/mediaObject/d089a559-4f41-4def-a786-f98fcfbf0464?height=auto&width=288&croppingPoint=&version=1&type=png
+Category: Series
+[31] MBC Loud
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/index.m3u8
+Logo: https://i.imgur.com/mptwwLs.png
+Category: Music
+[32] Mohammed Abdo
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8
+Logo: https://assets.mbcmood.com/channels/1720184012Mohammed%20Abdo%20banner.png
+Category: Music
+[33] Movies Action
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
+Logo: https://i.imgur.com/NIVhISa.png
+Category: Movies
+[34] Movies Thriller
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
+Logo: https://i.imgur.com/JWihdcl.png
+Category: Movies
+[35] Nidae AlIslam Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8
+Logo: https://i.imgur.com/laEk64E.png
+Category: Music
+[36] Panorama FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://d6izdil55uftn.cloudfront.net/out/v1/0a06d1d6377c47edbd48721ed724bd08/index.m3u8
+Logo: https://i.imgur.com/JkDD3bK.png
+Category: Music
+[37] Quran Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8
+Logo: https://i.imgur.com/ut0kr4x.png
+Category: Undefined
+[38] Rabeh Saqer
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/index.m3u8
+Logo: https://shahid.mbc.net/mediaObject/b98b0635-c8ed-4a7c-9efa-5856e278f54b?type=png
+Category: Music
+[39] Rashid AlMajed
+------------------------------------------------
+IPTV URLs (1):
+  • https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8
+Logo: https://assets.mbcmood.com/channels/1720177618Rashid%20AlMajed.webp
+Category: Music
+[40] Rotana Aflam+
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8?ads.vf=0PRJnP3xh_q
+Logo: https://i.imgur.com/DLDfFpu.png
+Category: Undefined
+[41] Rotana Cinema KSA (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/pGgp38I.png
+Category: Movies
+[42] Rotana Classic (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/pMMUvkt.png
+Category: Classic
+[43] Rotana Clip (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/nhREk0o.png
+Category: Undefined
+[44] Rotana Comedy (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/comedy_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/IlT8U6S.png
+Category: Comedy
+[45] Rotana Drama (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/drama_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/btnhPjZ.png
+Category: Series
+[46] Rotana FM KSA
+------------------------------------------------
+IPTV URLs (1):
+  • rtmp://live.restream.io/pull/play_320121_94512612fd0e084bd284
+Logo: https://rotanaradios.com/wp-content/uploads/2024/10/Asset-4.png
+Category: Music
+[47] Rotana Khalijia (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/6HMluzv.png
+Category: Music
+[48] Rotana Music (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/2zFQbQi.png
+Category: Music
+[49] Saudi Thaqafiya TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
+Logo: https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=512&croppingPoint=&version=1&type=jpeg
+Category: Culture
+[50] Saudia Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
+Logo: https://i.imgur.com/CvrR7wW.png
+Category: Undefined
+[51] SBC
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
+Logo: https://i.imgur.com/9JSQglj.png
+Category: General
+[52] Spooky Nights
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8
+Logo: https://shahid.mbc.net/mediaObject/b0016b19-b35b-4ea6-afb9-5b74a0aac825?height=auto&width=512&croppingPoint=&version=1&type=png
+Category: Movies
+[53] Tarab
+------------------------------------------------
+IPTV URLs (1):
+  • https://shls-live-enc.edgenextcdn.net/out/v1/90143f040feb40589d18c57863d9e829/index.m3u8
+Logo: https://assets.mbcmood.com/channels/1738059679TARAB_Logo.png
+Category: Music

@@ -1,0 +1,37 @@
+============================================================
+Oman (OM)
+============================================================
+Total Channels: 5
+Source: https://tv.garden/
+============================================================
+
+[1] Alistiqama TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8
+Logo: https://i.imgur.com/2FPtYZr.png
+Category: Religious
+[2] Oman Althakafia
+------------------------------------------------
+IPTV URLs (1):
+  • https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/b38wNPK.png
+Category: Culture
+[3] Oman Mubashir
+------------------------------------------------
+IPTV URLs (1):
+  • https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/UkQTR5b.png
+Category: News
+[4] Oman Sports TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/1omi7p8.png
+Category: Sports
+[5] Oman TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8
+Logo: https://i.imgur.com/rBftT9x.png
+Category: General

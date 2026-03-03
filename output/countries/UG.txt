@@ -1,0 +1,115 @@
+============================================================
+Uganda (UG)
+============================================================
+Total Channels: 18
+Source: https://tv.garden/
+============================================================
+
+[1] 3ABN TV Uganda (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://3abn.bozztv.com/3abn/3abn_uganda_live/index.m3u8
+Logo: https://i.imgur.com/mml9lI2.png
+Category: Religious
+[2] ACW UG TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.acwugtv.com/hls/stream.m3u8
+Logo: https://i.imgur.com/8pzEmcJ.jpeg
+Category: General;Music
+[3] Alpha Digital
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamfi-alphatvdgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
+Logo: https://i.imgur.com/sLt242H.png
+Category: Religious
+[4] Ark TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
+Logo: https://i.imgur.com/yCHNZXD.png
+Category: Religious
+[5] BTM TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://btmug.zerocdn.org/hls/stream.m3u8
+Logo: https://i.imgur.com/NUvA2jf.png
+Category: General
+[6] BTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamfi-alphadgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
+Logo: https://i.imgur.com/rcHZ1al.png
+Category: Entertainment
+[7] Bukedde TV 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.hydeinnovations.com/bukedde1flussonic/index.m3u8
+Logo: https://i.imgur.com/HFq5QlJ.png
+Category: General
+[8] Bukedde TV 2 (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.hydeinnovations.com/bukedde2flussonic/index.m3u8
+Logo: https://i.imgur.com/ukwPZeY.png
+Category: General
+[9] Dream TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
+Logo: https://i.imgur.com/XRUDhqQ.png
+Category: Religious
+[10] Faraja Television (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://panel.freedomflixtv.org:3868/hybrid/play.m3u8
+Logo: https://i.imgur.com/NmnOGHI.jpg
+Category: General
+[11] FORT TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8
+Logo: https://i.ibb.co/4KN5zW9/fort-tv-logo-GENE.png
+Category: Entertainment
+[12] Galaxy TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.castr.com/6463248048d6cd3e143655b2/live_43351ad0f3b411ed81c78fcc31887c54/index.fmp4.m3u8
+Logo: https://i.imgur.com/P5OABe5.png
+Category: Music
+[13] Gugudde TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://jk3lzqq4lw79-hls-live.5centscdn.com/gugudde/c9a1fdac6e082dd89e7173244f34d7b3.sdp/chunks.m3u8
+Logo: https://i.imgur.com/XEakc6Q.png
+Category: Religious
+[14] Praise Jesus Tower TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vsrv1.az-streamingserver.com:3555/live/dyjoqlgklive.m3u8
+Logo: https://i.imgur.com/KT4qIve.png
+Category: Religious
+[15] Ramogi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://citizentv.castr.com/5ea49827ff3b5d7b22708777/live_9b761ff063f511eca12909b8ef1524b4/index.m3u8
+Logo: https://i.imgur.com/N2Uz9mc.jpg
+Category: General
+[16] Salt TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.salttelevision.com/app/stream/abr.m3u8
+Logo: https://i.imgur.com/AK9nE6Y.png
+Category: Religious
+[17] TV West
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.hydeinnovations.com/tvwest-flussonic/index.m3u8
+Logo: https://i.imgur.com/EiJzkIz.png
+Category: General
+[18] Wan Luo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.hydeinnovations.com/luotv-flussonic/index.m3u8
+Logo: https://i.imgur.com/4PUUp3E.png
+Category: General

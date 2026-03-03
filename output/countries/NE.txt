@@ -1,0 +1,43 @@
+============================================================
+Niger (NE)
+============================================================
+Total Channels: 6
+Source: https://tv.garden/
+============================================================
+
+[1] Africa TV3 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://africatv.live.net.sa:1935/live/africatv3/playlist.m3u8
+Logo: https://i.imgur.com/iibE9WL.png
+Category: Religious
+[2] Dounia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/dvrfl06/astv/astv-douniatv/index.m3u8
+Logo: https://i.imgur.com/ENBCDaQ.png
+Category: General
+[3] Saraounia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/dvrfl06/astv/astv-saraouna/index.m3u8
+Logo: https://i.imgur.com/O8XIcpH.png
+Category: News
+[4] StoryChannel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://136044159.r.cdnsun.net/storychannel.m3u8
+Logo: https://i.imgur.com/ZBV6xph.png
+Category: Culture
+[5] Tal TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediaserver1.castpin.com/hls/taltv/index.m3u8
+Logo: https://i.imgur.com/KWMP0t1.png
+Category: Entertainment
+[6] Télé Sahel
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/telesahel/playlist.m3u8
+Logo: https://i.imgur.com/vboq428.png
+Category: General

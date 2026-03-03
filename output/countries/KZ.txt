@@ -1,0 +1,163 @@
+============================================================
+Kazakhstan (KZ)
+============================================================
+Total Channels: 26
+Source: https://tv.garden/
+============================================================
+
+[1] 24KZ
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvcdn01.oktv.kz/tv/24kz/index.m3u8
+Logo: https://24.kz/templates/khabar24/img/logo-new.png
+Category: News
+[2] 31 Kanal
+------------------------------------------------
+IPTV URLs (1):
+  • https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8
+Logo: https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg
+Category: General
+[3] Abai TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8
+Logo: https://i.imgur.com/Nw2R7Dq.png
+Category: Culture
+[4] Alau TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://otv.wotom.net/alau/stream.m3u8
+Logo: https://i.imgur.com/gK6ZRzp.png
+Category: Undefined
+[5] Aqjaiyq
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/oraltv/index.m3u8
+Logo: https://i.imgur.com/ZqIzzmf.png
+Category: General
+[6] Aqtóbe
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/aktobetv/index.m3u8
+Logo: https://i.imgur.com/csKl1z6.png
+Category: General
+[7] Atyraý
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/atyrautv/index.m3u8
+Logo: https://i.imgur.com/kva4O3T.png
+Category: General
+[8] Balapan TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
+Logo: https://i.imgur.com/2o5T0gi.png
+Category: Kids
+[9] Ertis (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/pavlodartv/index.m3u8
+Logo: https://i.imgur.com/tghMiwW.png
+Category: General
+[10] Jambyl (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/taraztv/index.m3u8
+Logo: https://i.imgur.com/X7N3JK4.png
+Category: General
+[11] Kókshe (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/kokshetautv/index.m3u8
+Logo: https://i.imgur.com/pOR3FSR.png
+Category: General
+[12] Mańǵystaý (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/mangystautv/index.m3u8
+Logo: https://i.imgur.com/9JfLseu.png
+Category: General
+[13] MuzzOne
+------------------------------------------------
+IPTV URLs (1):
+  • https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8
+Logo: https://i.imgur.com/nHVABXh.png
+Category: Music
+[14] Ontústik
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/shymkenttv/index.m3u8
+Logo: https://i.imgur.com/xqr1hjN.png
+Category: General
+[15] Qazaqstan International
+------------------------------------------------
+IPTV URLs (1):
+  • https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8
+Logo: https://cdn.qazaqstan.tv/qazaqstan.png?w=420&h=196&format=png&resize=aspectfill&g=centeralt=
+Category: General
+[16] Qazaqstan TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8
+Logo: https://i.imgur.com/oI8g396.png
+Category: General
+[17] QazSport (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8
+Logo: https://i.imgur.com/UDJ0P5Q.png
+Category: Sports
+[18] Qostanai (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/kostanaytv/index.m3u8
+Logo: https://i.imgur.com/eOz4xJ8.png
+Category: Undefined
+[19] Qyzyljar
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/petropavltv/index.m3u8
+Logo: https://i.imgur.com/7l1WSDJ.png
+Category: Undefined
+[20] Qyzylorda
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8
+Logo: https://i.imgur.com/r4BFQpE.png
+Category: General
+[21] Saryarqa (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/karagandytv/index.m3u8
+Logo: https://i.imgur.com/EIXwi1c.png
+Category: General
+[22] Semeı
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.kaztrk.kz/regional/semeytv/index.m3u8
+Logo: https://i.ibb.co/P9V0532/Captura.png
+Category: General
+[23] Silk Way
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash2.antik.sk/live/test_qazaq_tv_tizen/playlist.m3u8
+Logo: https://i.imgur.com/SJNDksF.png
+Category: General
+[24] КТК (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8
+Logo: https://i.imgur.com/BurrNTo.png
+Category: General
+[25] МТРК (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8
+Logo: https://i.imgur.com/XMyRwDk.png
+Category: General
+[26] Новое телевидение (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8
+Logo: https://i.imgur.com/mmKWrWs.png
+Category: General

@@ -1,0 +1,85 @@
+============================================================
+Laos (LA)
+============================================================
+Total Channels: 13
+Source: https://tv.garden/
+============================================================
+
+[1] Brian TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/briantv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/zG1WNgU.jpg
+Category: News
+[2] Dao Lane Xang (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/khaomwungmai.sdp/playlist.m3u8
+Logo: https://i.imgur.com/yE7nZ6w.png
+Category: General
+[3] Hmong Star TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/dRsacao.png
+Category: Culture
+[4] ISTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/ichannel.sdp/playlist.m3u8
+Logo: https://i.imgur.com/TGAKFcV.jpg
+Category: General
+[5] Lao Net TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/laonet.sdp/playlist.m3u8
+Logo: https://i.imgur.com/ohbRT05.png
+Category: Undefined
+[6] Look Thoong TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/eT7iE34.png
+Category: Music
+[7] LS TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/fs3dQ6J.png
+Category: Shop
+[8] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",MNB World
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
+Logo: https://i.imgur.com/PHlj84Q.png
+Category: General
+[9] MV Lao TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge2a.v2h-cdn.com/live_mvhub/mvlao.stream/playlist.m3u8
+Logo: https://i.imgur.com/oVlQUKM.png
+Category: Entertainment
+[10] Ning TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/ANnEPnK.png
+Category: Entertainment
+[11] Oh Muang Lao TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/ohmuanglao.stream/playlist.m3u8
+Logo: https://i.imgur.com/SdB3Vyr.jpg
+Category: General
+[12] RTM ASEAN
+------------------------------------------------
+IPTV URLs (1):
+  • https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
+Logo: https://i.imgur.com/skAiUxg.png
+Category: News
+[13] Vati Lao TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
+Logo: https://i.imgur.com/NwxXABV.png
+Category: Entertainment

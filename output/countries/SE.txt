@@ -1,0 +1,109 @@
+============================================================
+Sweden (SE)
+============================================================
+Total Channels: 17
+Source: https://tv.garden/
+============================================================
+
+[1] Aryen TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://aryen.tv/live/tv/playlist.m3u8
+Logo: https://i.imgur.com/hIhzT7t.png
+Category: Undefined
+[2] ATG Live
+------------------------------------------------
+IPTV URLs (1):
+  • https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
+Logo: https://i.imgur.com/bPWFXkL.png
+Category: Sports
+[3] Di TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8
+Logo: https://i.imgur.com/zApTDWn.png
+Category: News
+[4] Expressen TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
+Logo: https://i.imgur.com/ai0BIci.png
+Category: News
+[5] Himlen TV7
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod.tv7.fi/tv7-se/smil:tv7-se.smil/playlist.m3u8
+Logo: https://i.imgur.com/k8a7KNn.png
+Category: Religious
+[6] Horse & Country TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
+Logo: https://i.imgur.com/1x6zYZr.png
+Category: Outdoor
+[7] Komala TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.tvkomala.com/live/komala/playlist.m3u8
+Logo: https://i.imgur.com/D6KBLB8.png
+Category: Culture
+[8] Kunskapskanalen (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://svt-live-channel.akamaized.net/l6/se/svtk/master-fmp4.m3u8?defaultSubLang=1&format=hls
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kunskapskanalen_2017.svg/512px-Kunskapskanalen_2017.svg.png
+Category: Education
+[9] LifeStyleTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://app.viloud.tv/hls/channel/711fd3f3a4728449889ee22ba72958ff.m3u8
+Logo: https://i.imgur.com/0mreWrM.jpg
+Category: Religious
+[10] Miracle TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.miracleonline.org/hls/miracle1.m3u8
+Logo: https://i.imgur.com/rc68GZJ.png
+Category: Religious
+[11] NRK 1 (1080i) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://nrk-live-no.akamaized.net/nrk1/muxed.m3u8
+Logo: https://i.imgur.com/9tj8ds7.png
+Category: General
+[12] NRK 2 (1080i) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://nrk-live-no.akamaized.net/nrk2/muxed.m3u8
+Logo: https://i.imgur.com/SiAdoK9.png
+Category: General
+[13] NRK 3 (1080i) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://nrk-live-no.akamaized.net/nrk3/muxed.m3u8
+Logo: https://i.imgur.com/TNhV2I7.png
+Category: Entertainment
+[14] NRK Super (1080i) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://nrk-live-no.akamaized.net/nrksuper/muxed.m3u8
+Logo: https://i.imgur.com/xIATe2T.png
+Category: Kids
+[15] SVT1 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://svt-live-channel.akamaized.net/l4/se/svt1/master-fmp4.m3u8?defaultSubLang=1&format=hls
+Logo: https://i.imgur.com/j6KusQX.png
+Category: Undefined
+[16] SVT2 (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://svt-live-channel.akamaized.net/l6/se/svt2/master-fmp4.m3u8?defaultSubLang=1&format=hls
+Logo: https://i.imgur.com/pGWvCxp.png
+Category: Undefined
+[17] The Pet Collective Sweden
+------------------------------------------------
+IPTV URLs (1):
+  • https://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/yH7n2dF.png
+Category: Family

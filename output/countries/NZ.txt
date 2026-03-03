@@ -1,0 +1,181 @@
+============================================================
+New Zealand (NZ)
+============================================================
+Total Channels: 29
+Source: https://tv.garden/
+============================================================
+
+[1] Adventure Earth
+------------------------------------------------
+IPTV URLs (1):
+  • https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/adventureearth_white.png
+Category: Documentary
+[2] Autentic History
+------------------------------------------------
+IPTV URLs (1):
+  • https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentichistory_white.png
+Category: Documentary
+[3] Autentic Travel
+------------------------------------------------
+IPTV URLs (1):
+  • https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png
+Category: Lifestyle
+[4] Bravo +1
+------------------------------------------------
+IPTV URLs (1):
+  • https://i.mjh.nz/.r/bravo-plus1.m3u8
+Logo: https://i.imgur.com/hphQ2kw.png
+Category: Undefined
+[5] Channel 200
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1jlnqid3sfc6m.cloudfront.net/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
+Logo: https://i.imgur.com/gAebu4q.png
+Category: Entertainment
+[6] Duna World
+------------------------------------------------
+IPTV URLs (1):
+  • http://146.59.85.40:89/dunaworld/index.m3u8
+Logo: https://i.imgur.com/uOBQJZS.png
+Category: General
+[7] ERT World
+------------------------------------------------
+IPTV URLs (1):
+  • https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png
+Category: General
+[8] Euronews French
+------------------------------------------------
+IPTV URLs (1):
+  • https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
+Logo: https://i.imgur.com/8t9mdg9.png
+Category: News
+[9] Euronews French HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
+Logo: https://i.imgur.com/8t9mdg9.png
+Category: News
+[10] Firstlight
+------------------------------------------------
+IPTV URLs (1):
+  • https://uni01rtmp.tulix.tv/firstlight/firstlight.smil/playlist.m3u8
+Logo: https://i.imgur.com/gtDROeT.png
+Category: Religious
+[11] FUEL TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
+Logo: https://i.imgur.com/I8mviBy.png
+Category: Sports
+[12] Juice TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://juicex.nz/hls/mystream.m3u8
+Logo: https://i.imgur.com/WaaaW0w.png
+Category: Music
+[13] Kordia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
+Logo: https://i.imgur.com/BQ0qWzX.png
+Category: Undefined
+[14] MIS Televizija (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8
+Logo: https://i.imgur.com/qvrNVFg.png
+Category: Culture
+[15] Mr. Bean Animated
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png
+Category: Animation;Kids
+[16] Parliament TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ptvlive.kordia.net.nz/out/v1/daf20b9a9ec5449dadd734e50ce52b74/index.m3u8
+Logo: https://i.imgur.com/2aHW4q7.png
+Category: Legislative
+[17] Sky Open (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://primetv-prod.akamaized.net/v1/prime-freeview-aes128.m3u8
+Logo: https://i.imgur.com/eYyYojh.png
+Category: Undefined
+[18] Sky open +1 (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://linear-p.media.skyone.co.nz/primeplus1.clear.m3u8
+Logo: https://i.imgur.com/eYyYojh.png
+Category: Undefined
+[19] STAR International
+------------------------------------------------
+IPTV URLs (1):
+  • https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8
+Logo: https://i.imgur.com/6NUpxhr.png
+Category: Entertainment
+[20] Te Reo
+------------------------------------------------
+IPTV URLs (1):
+  • https://i.mjh.nz/.r/te-reo.m3u8
+Logo: https://i.imgur.com/3CNvYUN.png
+Category: Undefined
+[21] TVNZ 1 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2ce82tpc3p734.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_1/master.m3u8
+Logo: https://i.imgur.com/Nx76HUE.png
+Category: General
+[22] TVNZ 2 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://duoak7vltfob0.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_2/master.m3u8
+Logo: https://i.imgur.com/9sV4dbH.png
+Category: General
+[23] TVNZ Duke [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dayqb844napyo.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_Duke/master.m3u8
+Logo: https://i.imgur.com/tJf9DEI.png
+Category: General
+[24] TVSN
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8
+Logo: https://i.imgur.com/lmoAFm3.png
+Category: Shop
+[25] TVSN Beauty
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-tvsn.simplestreamcdn.com/live12/tvsnbeauty/bitrate1.isml/.m3u8
+Logo: https://i.imgur.com/lmoAFm3.png
+Category: Shop
+[26] TVSN Jewellery
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-tvsn.simplestreamcdn.com/live13/tvsnjewellery/bitrate1.isml/.m3u8
+Logo: https://i.imgur.com/lmoAFm3.png
+Category: Shop
+[27] Wairarapa TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.np.co.nz/WAITVABR/WAITVABR/playlist.m3u8
+Logo: https://i.imgur.com/xm4KBwE.png
+Category: Undefined
+[28] Whakaata Maori
+------------------------------------------------
+IPTV URLs (1):
+  • https://i.mjh.nz/.r/maori-tv.m3u8
+Logo: https://i.imgur.com/oT3PrHZ.png
+Category: Undefined
+[29] Zee Bollymovies Australia (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg17931-zee-amg17931c8-samsung-au-8871.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512
+Category: Movies

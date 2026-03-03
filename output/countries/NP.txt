@@ -1,0 +1,79 @@
+============================================================
+Nepal (NP)
+============================================================
+Total Channels: 12
+Source: https://tv.garden/
+============================================================
+
+[1] Capital TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8
+Logo: https://i.imgur.com/hb4bq1t.png
+Category: General
+[2] Divya Darshan TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.divyadarshantv.com/hls/stream.m3u8
+Logo: https://i.imgur.com/EwDQ12F.png
+Category: Religious
+[3] Indigenous Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8
+Logo: https://i.ibb.co/2MByL1X/indigenous-television.png
+Category: General
+[4] Kantipur TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8
+Logo: https://i.imgur.com/HEVo2Gc.png
+Category: General
+[5] Mithila Nepal TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://150.107.205.212:1935/live/mithila/playlist.m3u8?DVR=
+Logo: https://i.ibb.co/CWn3fH9/1689333550464.jpg
+Category: General
+[6] National Geographic HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.113.103.202:8001/play/a007/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NATIONAL_GEOGRAPHIC_CHANNEL/images/LOGO_HD/image.png
+Category: Documentary
+[7] National Geographic Wild
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a06r/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png
+Category: Documentary
+[8] National Geographic Wild HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.113.103.202:8001/play/a02s/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png
+Category: Documentary
+[9] Nepal 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
+Logo: https://jiotvimages.cdn.jio.com/dare_images/images/Nepal_one.png
+Category: Entertainment
+[10] Nick Jr.
+------------------------------------------------
+IPTV URLs (1):
+  • http://161.248.38.40:8000/play/a074/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png
+Category: Kids
+[11] Nickelodeon
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a0cq/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png
+Category: Kids
+[12] Sonic
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a0dl/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png
+Category: Kids

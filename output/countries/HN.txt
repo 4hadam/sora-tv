@@ -1,0 +1,409 @@
+============================================================
+Honduras (HN)
+============================================================
+Total Channels: 67
+Source: https://tv.garden/
+============================================================
+
+[1] Alfa & Omega Vision (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://srv.panelcast.net/dorian/dorian/playlist.m3u8
+Logo: https://i.imgur.com/4BSKCQT.png
+Category: General
+[2] Alsacias Televisión (ATV | Canal 28)
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/atv/index.m3u8
+Logo: https://i.imgur.com/SbuD1UW.png
+Category: General
+[3] Aviva TV (288p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.misistemareseller.com/atvhonduras/atvhonduras/playlist.m3u8
+Logo: https://i.imgur.com/0jMM4TQ.png
+Category: Undefined
+[4] Azteca Honduras
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu-azteca/index.m3u8
+Logo: https://i.imgur.com/sxFh1dw.png
+Category: General
+[5] Campus TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8
+Logo: https://i.imgur.com/E1TmADM.png
+Category: Education
+[6] Canal 5 El Líder (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/6287fda8ea3b8b397d1ca2ed.m3u8
+Logo: https://i.imgur.com/4hEYFa9.png
+Category: General
+[7] Canal 7 Talanga Visión
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/talangatv/playlist.m3u8
+Logo: https://i.ibb.co/0cqcyz4/Logo-2020-azul-El-lider-de-la-zona.png
+Category: General
+[8] Canal 11 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
+Logo: https://i.imgur.com/Sht2Rd4.png
+Category: General
+[9] Canal 32 STO (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/stocanal32hn/playlist.m3u8
+Logo: https://i.imgur.com/dS4Gb0Q.jpg
+Category: General
+[10] Ceiba Vision Canal 36
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu/hondu-ceibavisionhd/index.m3u8
+Logo: https://i.imgur.com/90h9abf.png
+Category: General
+[11] Cholusat Sur 36 (214p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://audiotvserver.net:1935/livemedia/cholusat/playlist.m3u8
+Logo: https://i.imgur.com/6qL2hE5.png
+Category: News
+[12] Choluteca TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/cholutecatv/index.m3u8
+Logo: https://i.imgur.com/mpc4Isd.png
+Category: Religious
+[13] CHTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://viewhn.com/chtv/live/playlist.m3u8
+Logo: https://i.imgur.com/QLQgwc6.png
+Category: General
+[14] CVA TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://190.124.161.21:8086/cvatv/live.m3u8
+Logo: https://i.imgur.com/R8P5enu.jpg
+Category: General
+[15] Dios Te Ve
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/diostevetv/index.m3u8
+Logo: https://i.imgur.com/7hNwUV2.png
+Category: Religious
+[16] Dios Te Ve Kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/diostevekids/index.m3u8
+Logo: https://i.imgur.com/GnZicVH.png
+Category: Kids;Religious
+[17] Dios Tv Talanga
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.webmedialive.com/unciontv/live/playlist.m3u8
+Logo: https://i.ibb.co/mb8F7R1/Db52f621d30793337de1cdcfc4f02be1.png
+Category: Religious
+[18] DTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu-dtelevision/index.m3u8
+Logo: https://i.imgur.com/UpsLEAV.png
+Category: General
+[19] Ebenezer TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e85d90130e77.streamlock.net/6010/ngrp:6010_all/playlist.m3u8
+Logo: https://i.imgur.com/IC30j61.png
+Category: Religious
+[20] EDN TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://60417ddeaf0d9.streamlock.net/edntv/videoedntv/playlist.m3u8
+Logo: https://i.imgur.com/5fPsYTz.png
+Category: Entertainment
+[21] Girasol TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/girasoltv/girasoltv/playlist.m3u8
+Logo: https://i.imgur.com/2t7A2yg.png
+Category: Entertainment
+[22] Globo TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://panel.dattalive.com/8122/8122/playlist.m3u8
+Logo: https://i.imgur.com/hxGvZ77.png
+Category: General
+[23] Go TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu/hondu-gotv/index.m3u8
+Logo: https://i.imgur.com/qPugeWX.png
+Category: General
+[24] HCH
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu-hchtv/index.m3u8
+Logo: https://i.imgur.com/2CB5ezq.png
+Category: News
+[25] Inmaculada TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/radiotvcholy/playlist.m3u8
+Logo: https://i.imgur.com/2lisFJV.png
+Category: Religious
+[26] Kerusso TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/kerussotv/index.m3u8
+Logo: https://i.imgur.com/S79uof0.png
+Category: Religious
+[27] La 98.1 TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://6019dcac4147f.streamlock.net:9443/la98/Invosa/playlist.m3u8
+Logo: https://i.imgur.com/7380kTN.png
+Category: Music
+[28] La Top 102.9
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
+Logo: https://i.imgur.com/ZqwLPag.jpg
+Category: Music
+[29] La Top 107.7
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
+Logo: https://i.imgur.com/vgHhh1W.jpg
+Category: Music
+[30] Lenca Television Canal 40 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://lencatelevision.com/hls/stream.m3u8
+Logo: https://i.imgur.com/fc5IHSy.png
+Category: News
+[31] Litoral Atlántico HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8
+Logo: https://i.imgur.com/UXsgEPX.png
+Category: General
+[32] LTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e85d90130e77.streamlock.net/6022/6022/playlist.m3u8
+Logo: https://i.imgur.com/KBYUOcP.png
+Category: General
+[33] Más Noticias Televisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.amixtv.com:8081/mntvh/index.m3u8
+Logo: https://i.imgur.com/FG4nfRX.jpg
+Category: News
+[34] Maya TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://media.streambrothers.com:19360/8356/8356.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Maya_TV_logo.png/512px-Maya_TV_logo.png
+Category: News
+[35] Metro TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/metrotv/index.m3u8
+Logo: https://i.imgur.com/BqS8BHi.png
+Category: Entertainment
+[36] Olanchito TV Canal 23
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu/hondu-otvcanal23/index.m3u8
+Logo: https://i.imgur.com/v1o1oT5.png
+Category: General
+[37] Omega TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8
+Logo: https://i.ibb.co/nfJhQMx/Bj7qf5-Tb-Z9.jpg
+Category: Entertainment
+[38] Q'hubo TV (410p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e85d90130e77.streamlock.net/6024/6024/playlist.m3u8
+Logo: https://i.imgur.com/yZmnfvj.png
+Category: Undefined
+[39] Radio Ideal 104.7 FM (La Esperanza) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.idealfm104-7.com/hls/0/stream.m3u8
+Logo: https://i.imgur.com/chPfoOs.png
+Category: Music
+[40] Radio Imagen 105.1 FM (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.imagenfm105-1.com/hls/stream.m3u8
+Logo: https://i.ibb.co/C9zjz9p/343159606-190989583743350-3489987129696505785-n.jpg
+Category: Music
+[41] RCV TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
+Logo: https://i.imgur.com/0TEeEFG.jpg
+Category: News
+[42] RSV Honduras
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/dvrfl03/hondu/hondu-rsvhonduras/index.m3u8
+Logo: https://i.imgur.com/yr7Ellh.jpg
+Category: Entertainment
+[43] RTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu/hondu-rtvtv/index.m3u8
+Logo: https://i.imgur.com/c8wAvxC.png
+Category: Undefined
+[44] San Ignacio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://amixtv.live:3753/live/sitvlive.m3u8
+Logo: https://i.ibb.co/XJNGsv0/903784d2b8df3f29a43579b78d4341d3.png
+Category: General
+[45] Sercano TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://stream.grupoabchn.com:1935/SERCANOHD/SERCANOLive.smil/playlist.m3u8
+Logo: https://pbs.twimg.com/profile_images/972873782972076032/6cacahDX_400x400.jpg
+Category: Undefined
+[46] Sula TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.webmedialive.com/sulatv/live/playlist.m3u8
+Logo: https://i.imgur.com/v90r5jS.png
+Category: General
+[47] Talanga TV Canal 39 (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/Tv39Talanga/playlist.m3u8
+Logo: https://i.imgur.com/5GiUzHC.jpg
+Category: Family
+[48] TDV TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/TierraDeValientes/playlist.m3u8
+Logo: https://i.ibb.co/C2mr74y/Ee0f72e3708fb045177dd894cc93ae99.png
+Category: Religious
+[49] Telavisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/telaVision/playlist.m3u8
+Logo: https://i.imgur.com/vzjqAZh.jpg
+Category: General
+[50] Telecadena 7 y 4
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu-telecadena/index.m3u8
+Logo: https://i.imgur.com/PTN7fCa.png
+Category: General
+[51] Teleceiba
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu-teleceiba/index.m3u8
+Logo: https://i.imgur.com/oPSfsvy.png
+Category: Undefined
+[52] TeleDanlí Canal 9 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:1936/8224/8224/playlist.m3u8
+Logo: https://i.imgur.com/BACuUSc.png
+Category: Undefined
+[53] Telemás
+------------------------------------------------
+IPTV URLs (1):
+  • https://viewhn.com/telemas/live/playlist.m3u8
+Logo: https://i.imgur.com/eORs1yt.jpg
+Category: General
+[54] TeleProgreso
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl03.bozztv.com/hondu-teleprogreso/index.m3u8
+Logo: https://i.imgur.com/yBDI3AF.png
+Category: Undefined
+[55] Telerayo
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/telerayo/index.m3u8
+Logo: https://i.imgur.com/jLQsU1u.png
+Category: Entertainment
+[56] Televisión Comayagua Canal 40 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediacp.us:8081/8034/index.m3u8
+Logo: https://i.imgur.com/uDLhsDM.png
+Category: Undefined
+[57] Televisión Metrópolis 19.1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e85d90130e77.streamlock.net/6028/6028/playlist.m3u8
+Logo: https://i.imgur.com/X5C1GzB.png
+Category: General
+[58] Televisión Metrópolis 19.2 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8
+Logo: https://i.imgur.com/QaocW5x.png
+Category: General
+[59] Television Olanchana
+------------------------------------------------
+IPTV URLs (1):
+  • https://viewhn.com/canal30/live/playlist.m3u8
+Logo: https://i.imgur.com/8LnLEQz.png
+Category: General
+[60] TEN Canal 10 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/hn/tentv.m3u8
+Logo: https://i.imgur.com/HQiKyHy.jpg
+Category: Undefined
+[61] TSi (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/6287fdc9303e3008289ab711.m3u8
+Logo: https://i.imgur.com/GEyxDnf.png
+Category: News
+[62] TV Centro 27.2 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8
+Logo: https://i.imgur.com/Wo2scQf.jpg
+Category: Entertainment
+[63] TV Centro HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:1936/8032/8032/playlist.m3u8
+Logo: https://i.imgur.com/bcfmqHb.png
+Category: General
+[64] TV Copán (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/tvcopan/index.m3u8
+Logo: https://i.imgur.com/JiPmRFr.png
+Category: Undefined
+[65] UNAH UTV (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-utv.unah.edu.hn/web/salida.m3u8
+Logo: https://i.imgur.com/GhzaYbK.png
+Category: Undefined
+[66] UNE TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://amixtv.live:3395/live/unetvlive.m3u8
+Logo: https://i.imgur.com/V9Fpd3Y.png
+Category: Undefined
+[67] VTV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://d3q93l5bumjyoq.cloudfront.net/index.m3u8
+Logo: https://i.imgur.com/CsPkwD5.png
+Category: General

@@ -1,0 +1,115 @@
+============================================================
+Luxembourg (LU)
+============================================================
+Total Channels: 18
+Source: https://tv.garden/
+============================================================
+
+[1] apart TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://2-fss-2.streamhoster.com/pl_124/206820-4338160-1/playlist.m3u8
+Logo: https://i.imgur.com/IBcMIcZ.png
+Category: Business;Culture;Lifestyle
+[2] Chamber TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://media02.webtvlive.eu/chd-edge/smil:chamber_tv_hd.smil/playlist.m3u8
+Logo: https://i.imgur.com/0QHb3bc.png
+Category: Legislative
+[3] Disney Channel (576p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg
+Category: Kids
+[4] Dudelange TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer20.multimedia.blue/Eltrona/DudelangeTV/playlist.m3u8
+Logo: https://i.imgur.com/2dLYZsc.png
+Category: General
+[5] eldo.TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8
+Logo: https://i.imgur.com/vCMQLlt.png
+Category: Entertainment
+[6] Hesper TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer20.multimedia.blue/Eltrona/HesperangeTV/playlist.m3u8
+Logo: https://i.imgur.com/91CJCPs.png
+Category: General
+[7] LCI HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd
+Logo: https://i.imgur.com/DED8EXs.png
+Category: News
+[8] Mamer TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer20.multimedia.blue/Eltrona/MamerTV/playlist.m3u8
+Logo: https://i.imgur.com/THnWggV.jpg
+Category: General
+[9] MierschTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer20.multimedia.blue/Eltrona/merschTV/playlist.m3u8
+Logo: https://i.imgur.com/Vdc1GYP.jpg
+Category: General
+[10] Nick Germany (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://0d26a00dfbb1.airspace-cdn.cbsivideo.com/nick1999/master/nick1999.m3u8
+Logo: https://i.imgur.com/E84jnP8.png
+Category: Kids
+[11] Pétange Info TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer20.multimedia.blue/Eltrona/PetangeTV/playlist.m3u8
+Logo: https://i.imgur.com/qeaD5Az.png
+Category: General
+[12] RTL9 [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rtl9/browser-dash/rtl9.mpd
+Logo: https://i.imgur.com/nFqjVNW.png
+Category: Entertainment
+[13] RTL Gold
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
+Logo: https://i.imgur.com/LzHQoUv.png
+Category: Music
+[14] RTL Radio Web TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
+Logo: https://i.imgur.com/qyc8LsE.png
+Category: General
+[15] RTL Télé Lëtzebuerg
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
+Logo: https://i.imgur.com/fkW5Gbl.png
+Category: General
+[16] RTL Today Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
+Logo: https://i.imgur.com/O1c6wpt.png
+Category: Music
+[17] RTL Zwee
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
+Logo: https://i.imgur.com/7SmCtyy.png
+Category: General
+[18] RTL-TVI (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+Logo: https://i.imgur.com/2CimAAN.png
+Category: Undefined

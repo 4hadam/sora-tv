@@ -1,0 +1,175 @@
+============================================================
+South Africa (ZA)
+============================================================
+Total Channels: 28
+Source: https://tv.garden/
+============================================================
+
+[1] 1KZN TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8
+Logo: https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg
+Category: Entertainment;Family;General
+[2] Afriwood Blockbuster
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/afriwood-blockbuster/video.m3u8?ads.vf=W6V4C1LsfJK
+Logo: https://i.imgur.com/aESdqiB.png
+Category: Movies
+[3] BOKTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
+Logo: https://i.imgur.com/mcNjuuO.png
+Category: Music
+[4] Cape Town TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8
+Logo: https://i.imgur.com/Y8FK1Kk.png
+Category: General
+[5] Cinema Hausa
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinema-hausa/video.m3u8?ads.vf=v-YPzZubeoG
+Logo: https://i.imgur.com/uV5cHDW.png
+Category: Movies
+[6] Crime and Evidence
+------------------------------------------------
+IPTV URLs (1):
+  • https://afxporigin.telemedia.co.za/afxp/abr_crimeandevidence/playlist.m3u8
+Logo: https://i.imgur.com/xwGquEb.png
+Category: Undefined
+[7] ETVN
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin2.afxp.telemedia.co.za/abr_kapang/enterepreneur/playlist.m3u8
+Logo: https://i.imgur.com/lXMzsNM.png
+Category: News
+[8] Faith TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8
+Logo: https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bcf232.jpg
+Category: Religious
+[9] GNF TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://oqgdrb8my4rm-hls-live.5centscdn.com/GNF02/bcea197d8b00f79cb716c6288a861000.sdp/playlist.m3u8
+Logo: https://i.imgur.com/vCB7u0e.png
+Category: Religious
+[10] Homebase TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://webstreaming-2.viewmedia.tv/web_022/Stream/playlist.m3u8
+Logo: https://i.imgur.com/MaLNfJG.png
+Category: Religious
+[11] LN24SA
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8
+Logo: https://i.imgur.com/Hg5YTwu.png
+Category: News
+[12] LoveworldSAT
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/index.m3u8
+Logo: https://i.imgur.com/Fg65XCS.png
+Category: Religious
+[13] NuView TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8
+Logo: https://i.imgur.com/dYRJ7F0.png
+Category: Entertainment
+[14] Redemption TV Ministry
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.nixsat.com/play/rtm/index.m3u8
+Logo: https://i.imgur.com/63SmAby.png
+Category: Religious
+[15] RLW TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://webstreaming-8.viewmedia.tv/web_119/Stream/playlist.m3u8
+Logo: https://i.imgur.com/VcwqoEF.png
+Category: Religious
+[16] ROV TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_012/Stream/playlist.m3u8
+Logo: https://i.imgur.com/sbeuEYY.png
+Category: Undefined
+[17] SABC 1 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sabconeta.cdn.mangomolo.com/sabc1/smil:sabc1.stream.smil/master.m3u8
+Logo: https://i.imgur.com/G8OXWe4.png
+Category: Undefined
+[18] SABC 2 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sabctwota.cdn.mangomolo.com/sabc2/smil:sabc2.stream.smil/master.m3u8
+Logo: https://i.imgur.com/rj6i9sn.png
+Category: Undefined
+[19] SABC 3 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sabctreta.cdn.mangomolo.com/sabc3/smil:sabc3.stream.smil/master.m3u8
+Logo: https://i.imgur.com/eEhLk1D.png
+Category: Undefined
+[20] SABC Lehae [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sabctretalh.cdn.mangomolo.com/lehae/smil:lehae.stream.smil/master.m3u8
+Logo: https://i.imgur.com/YhdnZHH.png
+Category: News
+[21] SABC News (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8
+Logo: https://i.imgur.com/liLta8j.png
+Category: News
+[22] Seraphim TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://restream.churchtv247.co.za/Apostle/Hggc@24/1.m3u8
+Logo: https://i.imgur.com/MfeKk07.png
+Category: Religious
+[23] Soweto TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/playlist.m3u8
+Logo: https://admango.cdn.mangomolo.com/analytics/uploads/188/654228e5b5.jpg
+Category: Entertainment;Family
+[24] Sports Connect
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sports-connect/video.m3u8?ads.vf=K-yU3EWs_wu
+Logo: https://i.imgur.com/0sNWg54.png
+Category: Sports
+[25] Trigger
+------------------------------------------------
+IPTV URLs (1):
+  • https://origin2.afxp.telemedia.co.za/abr/trigger/playlist.m3u8
+Logo: https://i.imgur.com/TrlrcWf.png
+Category: Undefined
+[26] True African
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-african/video.m3u8?ads.vf=XoE3oY9edza
+Logo: https://i.imgur.com/nDi2br7.png
+Category: Undefined
+[27] Tshwane TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8
+Logo: https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png
+Category: Entertainment;Family;General
+[28] TV BRICS English
+------------------------------------------------
+IPTV URLs (1):
+  • https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
+Logo: https://i.imgur.com/8rKNuS6.png
+Category: General

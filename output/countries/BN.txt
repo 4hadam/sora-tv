@@ -1,0 +1,37 @@
+============================================================
+Brunei (BN)
+============================================================
+Total Channels: 5
+Source: https://tv.garden/
+============================================================
+
+[1] NTV7
+------------------------------------------------
+IPTV URLs (1):
+  • https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
+Logo: https://i.imgur.com/jDWR3xI.png
+Category: General
+[2] RTB Aneka
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
+Logo: https://i.imgur.com/MY40GrC.png
+Category: General
+[3] RTB Go
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
+Logo: https://i.imgur.com/CGlzsD5.png
+Category: General
+[4] RTB Sukmaindera
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
+Logo: https://i.imgur.com/WpMGnTr.png
+Category: General
+[5] RTM ASEAN
+------------------------------------------------
+IPTV URLs (1):
+  • https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
+Logo: https://i.imgur.com/skAiUxg.png
+Category: News

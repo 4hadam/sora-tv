@@ -1,0 +1,349 @@
+============================================================
+Costa Rica (CR)
+============================================================
+Total Channels: 57
+Source: https://tv.garden/
+============================================================
+
+[1] 88 Stereo (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
+Logo: https://i.imgur.com/i3YwORV.png
+Category: Music
+[2] 360 RFTV (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://acceso.mediosdecostarica.com:3638/live/360rftvcrlive.m3u8
+Logo: https://i.imgur.com/EBtgnxR.png
+Category: General
+[3] ¡OPA! (1080i) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8
+Logo: https://i.imgur.com/300c1ZH.png
+Category: Entertainment
+[4] Antena Seis TV (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.azulstream.com:8081/antenaseistv/index.m3u8
+Logo: https://i.imgur.com/9Nh2mo9.png
+Category: General
+[5] BestClasicosTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://acceso.mediosdecostarica.com:3873/multi_live/play.m3u8
+Logo: https://i.imgur.com/a/BRb8AVL.png
+Category: Undefined
+[6] Canal 1 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vid.canal1cr.com:3424/multi_live/play_720.m3u8
+Logo: https://i.ibb.co/KhNS8Dy/cropped-logoo-1.png
+Category: General
+[7] Canal 2 (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://alba-cr-repretel-c2.stream.mediatiquestream.com/index.m3u8
+Logo: https://i.imgur.com/Nn8BtH5.png
+Category: General
+[8] Canal 3 KMK TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
+Logo: https://i.imgur.com/sgRDRBK.jpg
+Category: Music
+[9] Canal 4 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://alba-cr-repretel-c4.stream.mediatiquestream.com/index.m3u8
+Logo: https://i.imgur.com/5arZEgO.png
+Category: General
+[10] Canal 6 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8
+Logo: https://i.imgur.com/nfKJftW.png
+Category: General
+[11] Canal 8 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
+Logo: https://i.imgur.com/nefPi2Y.png
+Category: General
+[12] Canal 10 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://acceso.mediosdecostarica.com:3606/live/canal10costaricalive.m3u8
+Logo: https://i.imgur.com/TO6WQbW.png
+Category: General
+[13] Canal 11 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://alba-cr-repretel-c11.stream.mediatiquestream.com/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Repretel_11_logo.png/512px-Repretel_11_logo.png
+Category: General
+[14] Canal 14 San Carlos (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tvn.obix.tv:1935/TVN/CH14.stream_720p/playlist.m3u8
+Logo: https://i.imgur.com/1aNEo6U.png
+Category: Undefined
+[15] Cartago Medios TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://acceso.mediosdecostarica.com:3511/live/cartagomediostvlive.m3u8
+Logo: https://i.imgur.com/Vcd40AL.png
+Category: General
+[16] Colosal TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8
+Logo: https://i.imgur.com/0DZB3eB.png
+Category: Entertainment
+[17] Costa Rica Channel (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video0.rogohosting.com:19360/8006/8006.m3u8
+Logo: https://i.imgur.com/N4pFVVF.png
+Category: Culture;Travel
+[18] Coto Brus TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8030/index.m3u8
+Logo: https://i.ibb.co/vJZqrFY/a4ed367c69c23110d458a332af95be0be64566f288ccb5f261689344e6ba5e0d.png
+Category: General
+[19] Extrema Kids TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+Logo: https://www.vivalivetv.com/public/files/shows/0/1/3027-294x165-FFFFFF.jpg
+Category: Animation;Kids
+[20] Extrema TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
+Logo: https://i.imgur.com/E9AuhOU.png
+Category: Religious
+[21] GAMTV.cr
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8
+Logo: https://i.ibb.co/xFCS7wM/GAMTVCR.png
+Category: General
+[22] Garabito TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8
+Logo: https://i.imgur.com/sAYNKJ8.png
+Category: General
+[23] Gex TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
+Logo: https://gextv.com/LOGO-WHITE.png
+Category: Entertainment;Music
+[24] IQ Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtmp.info/iqtv/envivo/playlist.m3u8
+Logo: https://i.imgur.com/hwuaomt.png
+Category: Music
+[25] Limón TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://k4.usastreams.com/limontv1/limontv1/playlist.m3u8
+Logo: https://i.ibb.co/rdpcv7C/1689421727166.jpg
+Category: General
+[26] Los Santos TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://lstv.duckdns.org:449/hls/lstv.m3u8
+Logo: https://i.imgur.com/5xw86wu.png
+Category: General
+[27] Nicoya TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8
+Logo: https://i.imgur.com/Lj2jRn3.png
+Category: General
+[28] Norte Informativo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://videohd.live:19360/8076/8076.m3u8
+Logo: https://i.ibb.co/2MNzXN7/Channels4-profile-9.jpg
+Category: News
+[29] Quince UCR (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://163.178.170.127:1935/quinceucr/quinceucr/playlist.m3u8
+Logo: https://i.imgur.com/U7DUlem.png
+Category: Undefined
+[30] Radio Turrialba TV Sports (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/turrialbatv/playlist.m3u8
+Logo: https://i.imgur.com/2ZcUXbE.png
+Category: Sports
+[31] Retrox TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/giatv/giatv-TVCHANNEL/TVCHANNEL/chunks.m3u8
+Logo: https://i.imgur.com/viJBL6f.png
+Category: Classic
+[32] RTTV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:19360/8212/8212.m3u8
+Logo: https://i.imgur.com/eTfsCCq.png
+Category: Undefined
+[33] RTV Chirripó
+------------------------------------------------
+IPTV URLs (1):
+  • https://lstv.duckdns.org:449/hls/rtchirripo.m3u8
+Logo: https://i.imgur.com/XWmwwbj.jpg
+Category: General
+[34] San José TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtmp.info/sanjosetv/envivo/playlist.m3u8
+Logo: https://i.ibb.co/mbB8hqL/blanco-crop.png
+Category: Religious
+[35] Sarapiqui TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tiquiciatv.com:1935/stv/web/playlist.m3u8
+Logo: https://i.imgur.com/obTnd32.png
+Category: General
+[36] SOY Plancha TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8
+Logo: https://i.ibb.co/P4kpMgk/1689344714578.jpg
+Category: Music
+[37] Super Cable
+------------------------------------------------
+IPTV URLs (1):
+  • http://191.102.39.254:5000/live/5up3r5/playlist.m3u8
+Logo: https://i.imgur.com/KYtJp8F.png
+Category: Entertainment
+[38] TDtv
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8230/index.m3u8
+Logo: https://i.imgur.com/OFSOvpd.jpg
+Category: General
+[39] Tele Uno (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.teleunotv.cr:1935/TVUNO/TVUNO/playlist.m3u8
+Logo: https://i.imgur.com/eRwYxc2.png
+Category: Undefined
+[40] TeleBrunca (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/playlist.m3u8
+Logo: https://i.imgur.com/m3xu6Ms.png
+Category: General
+[41] Telefides
+------------------------------------------------
+IPTV URLs (1):
+  • https://s2.cwebtv.net:4433/telefides/telefides/playlist.m3u8
+Logo: https://i.ibb.co/yn5M8dw/telefides-costa-rica.png
+Category: Religious
+[42] TeleMas (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mist01.homestream.fun/hls/tlmas904/0_1/index.m3u8
+Logo: https://i.imgur.com/5Rc8mA5.png
+Category: Entertainment
+[43] Telered Television (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://k20.usastreams.com:8081/telered/index.m3u8
+Logo: https://i.imgur.com/cIvfnsa.jpg
+Category: General
+[44] TeleSUR Costa Rica (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s1.tvdatta.com:3582/live/telesurlive.m3u8
+Logo: https://i.imgur.com/KUpgeOf.png
+Category: Undefined
+[45] Teletica 7 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn01.teletica.com/TeleticaLiveStream/Stream/playlist_dvr.m3u8
+Logo: https://i.imgur.com/ctnvE3c.png
+Category: General
+[46] TicaVision
+------------------------------------------------
+IPTV URLs (1):
+  • https://5eac7b031d945.streamlock.net/TICAVISION/TICAVISION/playlist.m3u8
+Logo: https://i.imgur.com/mev90pC.jpg
+Category: General
+[47] Tigo Sports (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/livetigocr/playlist.m3u8
+Logo: https://i.imgur.com/UrsLSRs.png
+Category: Sports
+[48] like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="General",Trivision 36
+------------------------------------------------
+IPTV URLs (1):
+  • https://liveingesta118.cdnmedia.tv/trivisionlive/rtmp01-900/chunklist.m3u8?DVR=
+Logo: https://i.imgur.com/aadWnIx.jpg
+Category: General
+[49] TV Sur Canal 9 (620p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8
+Logo: https://i.imgur.com/7HbISMV.png
+Category: Undefined
+[50] TV Sur Canal 14
+------------------------------------------------
+IPTV URLs (1):
+  • https://k20.usastreams.com:8081/tvsur/index.m3u8
+Logo: https://i.imgur.com/OpHYYZA.png
+Category: Undefined
+[51] Urbano TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8
+Logo: https://i.imgur.com/KVVU9PI.png
+Category: Music
+[52] Video Tour Channel (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://k4.usastreams.com/videotour/videotour/playlist.m3u8
+Logo: https://i.imgur.com/zEi8eMC.png
+Category: Music
+[53] Vintage Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8
+Logo: https://i.imgur.com/KImqYnN.jpeg
+Category: Music
+[54] VM Latino (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
+Logo: https://i.imgur.com/Dvo1b82.png
+Category: Music
+[55] VoiceOver Radio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8198/index.m3u8
+Logo: https://i.imgur.com/HzGs1Eh.png
+Category: Music
+[56] Zona Music TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://acceso.radiosportstv.online:3022/stream/play.m3u8
+Logo: https://i.imgur.com/TJ5l9iI.png
+Category: Music
+[57] Zurquí TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://videoserver.tmcreativos.com:19360/gesfnvpamn/gesfnvpamn.m3u8
+Logo: https://i.imgur.com/XvktUBB.jpg
+Category: General

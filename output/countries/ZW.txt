@@ -1,0 +1,13 @@
+============================================================
+Zimbabwe (ZW)
+============================================================
+Total Channels: 1
+Source: https://tv.garden/
+============================================================
+
+[1] Yadah TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u8
+Logo: https://i.imgur.com/4BNVhoC.png
+Category: Religious

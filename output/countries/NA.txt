@@ -1,0 +1,31 @@
+============================================================
+Namibia (NA)
+============================================================
+Total Channels: 4
+Source: https://tv.garden/
+============================================================
+
+[1] NBC 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls2.nbcplus.na/hls/high_nbc1.m3u8
+Logo: https://i.imgur.com/ykQerMH.png
+Category: General
+[2] NBC 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls2.nbcplus.na/hls/high_nbc2.m3u8
+Logo: https://i.imgur.com/A6jxUvU.png
+Category: News
+[3] NBC 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls2.nbcplus.na/hls/high_nbc3.m3u8
+Logo: https://i.imgur.com/7j8Km6e.png
+Category: Entertainment
+[4] NTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://s-pl-01.mediatool.tv/playout/ntv-abr/index.m3u8
+Logo: https://i.imgur.com/c7jUmGS.jpg
+Category: General

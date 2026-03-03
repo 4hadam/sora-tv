@@ -1,0 +1,499 @@
+============================================================
+Ecuador (EC)
+============================================================
+Total Channels: 82
+Source: https://tv.garden/
+============================================================
+
+[1] América Estéreo Guayaquil
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8
+Logo: https://i.imgur.com/gUqKymM.png
+Category: General
+[2] América Estéreo Ibarra
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.makrodigital.com/americaestereoibarra/americaestereoibarra/playlist.m3u8
+Logo: https://i.imgur.com/gUqKymM.png
+Category: General
+[3] América Estéreo Quito
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.makrodigital.com/americaestereoquito/americaestereoquito/playlist.m3u8
+Logo: https://i.imgur.com/gUqKymM.png
+Category: General
+[4] América Estéreo Tulcán
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.makrodigital.com/americaestereotulcan/americaestereotulcan/playlist.m3u8
+Logo: https://i.imgur.com/gUqKymM.png
+Category: General
+[5] Antena Uno RadioVideo
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvdatta.com:3578/live/antenaunolive.m3u8
+Logo: https://i.imgur.com/PCN6iZJ.png
+Category: Undefined
+[6] Asomavisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://asomatv.cloud-ip.cc/livestream/stream.m3u8
+Logo: https://i.imgur.com/a5avk5R.png
+Category: Undefined
+[7] Austral TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8
+Logo: https://i.imgur.com/zgGuCYL.png
+Category: General
+[8] Bacán Te Veo
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv6.voxtvhd.com.br/vacantveo2/vacantveo2/playlist.m3u8
+Logo: https://i.imgur.com/m1LK6rY.png
+Category: Entertainment
+[9] Canal Sur
+------------------------------------------------
+IPTV URLs (1):
+  • https://avm.ecuamedia.net/canalsur/live/playlist.m3u8
+Logo: https://i.imgur.com/LMoIpU2.jpg
+Category: General
+[10] Capricho TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.compuwebecuador.com:3783/live/caprichotvlive.m3u8
+Logo: https://i.imgur.com/eUoj9bG.png
+Category: General
+[11] Ciracu TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8
+Logo: https://i.imgur.com/mkf2TJ6.png
+Category: Culture
+[12] Clic TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv1.voxhdnet.com/yorka7322/yorka7322/playlist.m3u8
+Logo: https://i.imgur.com/bvSLm9U.png
+Category: Entertainment
+[13] Colorados Visión TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://177.234.247.66:9975/ColoradosTV/index.m3u8
+Logo: https://i.imgur.com/vfCTmZv.png
+Category: General
+[14] Curiquingue TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video2.lhdserver.es/pjtv/live.m3u8
+Logo: https://i.imgur.com/oukGx28.png
+Category: General
+[15] Disney Channel Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://201.230.121.186:8000/play/a0fb/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg
+Category: Animation;Kids
+[16] Duende Tv (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.fansplay.tv/livestreams/21.GdPGZIRcwzZ9vgE5.m3u8
+Logo: https://i.imgur.com/6125FPV.jpg
+Category: General
+[17] Durán TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8074/index.m3u8
+Logo: https://i.imgur.com/8k8DsBL.png
+Category: General
+[18] Ecotel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ecoteltv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
+Logo: https://i.imgur.com/pVlZUSV.png
+Category: News
+[19] Ecuador TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://samson.streamerr.co:8081/shogun/index.m3u8
+Logo: https://i.imgur.com/cma6WO0.png
+Category: General
+[20] EcuaMundo Radio TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://pacific.direcnode.com:3353/live/ecuamundotvlive.m3u8
+Logo: https://i.imgur.com/EMe5oWn.jpg
+Category: Music
+[21] Ecuavisa Guayaquil (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dai.google.com/linear/hls/event/GyPkTVDZSXGhpOvxPK7m2g/master.m3u8
+Logo: https://i.imgur.com/Hl5wowk.png
+Category: General
+[22] Ecuavisa Quito (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://redirector.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8
+Logo: https://i.imgur.com/Hl5wowk.png
+Category: General
+[23] El Sol Network TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8
+Logo: https://i.imgur.com/TIH3zlP.png
+Category: Music
+[24] FM Mundo
+------------------------------------------------
+IPTV URLs (1):
+  • https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
+Logo: https://i.imgur.com/1nNnYQO.png
+Category: Music
+[25] FX Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.199.6.1:17001/play/a04u/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png
+Category: Entertainment
+[26] Gamavisión (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.esradioecuador.com/hls/stream.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png
+Category: General
+[27] GM7 Digital [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s2.tvdatta.com:3858/live/gm7digitallive.m3u8
+Logo: https://www.vivalivetv.com/public/files/shows/0/1/3708-294x165-FFFFFF.jpg
+Category: General
+[28] Hechos Ecuador (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.hechosecuador.com:5443/WebRTCApp/streams/hechosecuador.m3u8
+Logo: https://i.imgur.com/koMQZNX.png
+Category: General
+[29] IeanJesus Ecuador
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud37.ecuatel.com/iglesia2020/Stream1/playlist.m3u8
+Logo: https://i.imgur.com/TyckDSV.png
+Category: Religious
+[30] Imperio TV Canal 6
+------------------------------------------------
+IPTV URLs (1):
+  • https://live21.bozztv.com/akamaissh101/ssh101/imperiotvcanal6/playlist.m3u8
+Logo: https://i.imgur.com/NrsNljx.png
+Category: General
+[31] Infinita TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://s2.tvdatta.com:3753/hybrid/play.m3u8
+Logo: https://i.imgur.com/1nHxdkR.png
+Category: Music
+[32] Inti TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e2f36bc1c433.streamlock.net/inti/inti-network.stream/.m3u8
+Logo: https://i.imgur.com/2WirGqb.png
+Category: Education
+[33] La Nueva Radio TV 97.7
+------------------------------------------------
+IPTV URLs (1):
+  • https://sv72.ecuaradiotv.net/lanuevatv/live/playlist.m3u8
+Logo: https://i.imgur.com/19FN4Lp.png
+Category: Entertainment
+[34] La Perla Radio TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8068/index.m3u8
+Logo: https://i.imgur.com/8wDMgmB.jpg
+Category: Music
+[35] Latacunga TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv1.voxtvhd.com.br/latacungatv/latacungatv/playlist.m3u8
+Logo: https://i.imgur.com/YjgYYH3.png
+Category: Entertainment
+[36] Loreto TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://loretotv.moxapps.shop/live/QFM7KYOlxWd47ybXB3Z1u2P13Py1/index.m3u8
+Logo: https://i.imgur.com/3qGSAT3.png
+Category: General
+[37] Mágica Tv
+------------------------------------------------
+IPTV URLs (1):
+  • https://magicatv.4pu.com/hls/stream.m3u8
+Logo: https://i.imgur.com/h4FQuIz.jpg
+Category: Entertainment
+[38] Majestad Televisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://videoserver.tmcreativos.com:19360/majestadtv/majestadtv.m3u8
+Logo: https://i.imgur.com/d1GWRnm.png
+Category: General
+[39] MakroDigital Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://makrodigitaltv.makrodigital.com/makrodigitaltelevision/iptv/playlist.m3u8
+Logo: https://makrodigitaltelevision.com/logo.jpg
+Category: Entertainment
+[40] Manavisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://play.once.net.ec/play/Ily2oYdd3E1fi9wK2zORoRovFU9P5xM0g3CNVK2MT0M/.m3u8
+Logo: https://i.imgur.com/mZkW342.png
+Category: Culture
+[41] Marca TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://200.7.219.221:8088/live/livetv/index.m3u8
+Logo: https://i.imgur.com/ez1NxwJ.jpg
+Category: General
+[42] Mario Pinto TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8028/index.m3u8
+Logo: https://i.imgur.com/9rU6yWo.jpg
+Category: News
+[43] Mel Radio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8334/index.m3u8
+Logo: https://i.imgur.com/uu8Clh2.png
+Category: Entertainment
+[44] Metropoli Medios TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8214/index.m3u8
+Logo: https://i.imgur.com/yID5T2S.jpg
+Category: Music
+[45] Multicanal Catamayo (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://multicanal.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
+Logo: https://i.imgur.com/IHKBGmu.png
+Category: General
+[46] Nick Jr. Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.199.6.1:17001/play/a0pb/index.m3u8
+Logo: https://i.imgur.com/KT4tdQs.png
+Category: Kids
+[47] Nickelodeon Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://179.51.136.19:8000/play/a0q4/index.m3u8
+Logo: https://i.imgur.com/E84jnP8.png
+Category: Kids
+[48] Nortvisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://server.asilivehd.com:3242/live/nortvisionlive.m3u8
+Logo: https://i.imgur.com/MLzcPgT.jpg
+Category: General
+[49] Ñuka TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8118/index.m3u8
+Logo: https://i.imgur.com/4r2Ycju.png
+Category: General
+[50] Ondas Quevedeñas TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv6.voxtvhd.com.br/radiosuprema/radiosuprema/playlist.m3u8
+Logo: https://i.imgur.com/K9pW0LA.jpeg
+Category: General
+[51] Oromar TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
+Logo: https://i.imgur.com/j5Vvxd5.png
+Category: General
+[52] Pantalla Clásica EC (512p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live21.bozztv.com/akamaissh101/ssh101/pantallaclasics/playlist.m3u8
+Logo: https://i.imgur.com/mhbERF9.jpg
+Category: Movies;Series
+[53] PJ Digital Radio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo1.panelstreaming.live:3363/hybrid/play.m3u8
+Logo: https://i.imgur.com/m92oDuB.png
+Category: Music
+[54] Plus TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://plustv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
+Logo: https://i.imgur.com/TZqOINg.png
+Category: General
+[55] Puruwa TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.tvcontrolcp.com:1936/puruwatv/puruwatv/playlist.m3u8
+Logo: https://i.imgur.com/CYldC2R.png
+Category: General
+[56] Radio Alegria 98.5 FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.compuwebecuador.com:3880/stream/play.m3u8
+Logo: https://i.imgur.com/N00aS3x.png
+Category: Music
+[57] Radio Bonita 106.7
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudvideo.servers10.com:8081/8154/index.m3u8
+Logo: https://i.imgur.com/IvZtqyz.png
+Category: Music
+[58] Radio Cuenca Estéreo
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8074/index.m3u8
+Logo: https://i.imgur.com/qZzSOeU.png
+Category: Music
+[59] Radio Fantástica 98.9 FM
+------------------------------------------------
+IPTV URLs (1):
+  • http://190.107.232.9:8082/livestream/stream.m3u8
+Logo: https://i.imgur.com/mpcIbrH.jpg
+Category: Music
+[60] Radio Impacto 2 (288p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://panel.streamingtv-mediacp.online:1936/jawepvrvyz/jawepvrvyz/playlist.m3u8
+Logo: https://i.imgur.com/YvK1hm7.png
+Category: Undefined
+[61] Radio Monumental TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8
+Logo: https://i.imgur.com/a97MaV2.png
+Category: Music
+[62] Red TVE Ventanas
+------------------------------------------------
+IPTV URLs (1):
+  • https://s2.tvdatta.com:3825/live/redtvelive.m3u8
+Logo: https://i.imgur.com/Pzf2ZAW.png
+Category: General
+[63] RTRTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv3ecuador.site/hls/stream/index.m3u8
+Logo: https://i.imgur.com/dvP2yqB.png
+Category: General
+[64] RTS
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2qsan2ut81n2k.cloudfront.net/live/72a3661e-1019-45f8-af10-af59f6ef6222/ts:abr.m3u8
+Logo: https://i.imgur.com/PML8cJA.png
+Category: General
+[65] RTU (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.makrodigital.com/rtu/rtu/chunks.m3u8?nimblesessionid=
+Logo: https://i.imgur.com/1OWvMP4.png
+Category: News
+[66] RTV Riobamba (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sv72.ecuaradiotv.net/rtvhd/live/manifest.m3u8
+Logo: https://i.imgur.com/DzxGHRZ.png
+Category: General
+[67] Señal Positiva TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8108/index.m3u8
+Logo: https://i.imgur.com/flbMpMP.png
+Category: Entertainment
+[68] Sono Onda TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.obslivestream.com/sonoondatv/index.m3u8
+Logo: https://i.imgur.com/HWHeqWY.png
+Category: Undefined
+[69] Teleamazonas Quito (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/fd4ab346-b4e3-4628-abf0-b5a1bc192428.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/512px-Teleamazonas_Logo.png
+Category: General
+[70] Telemar
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8
+Logo: https://i.imgur.com/0vX9oJF.png
+Category: General
+[71] Telerama (240p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://play.once.net.ec/telerama/live.tv/538.m3u8
+Logo: https://i.imgur.com/whIRrjo.png
+Category: General
+[72] Telesucesos (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/streams/UIO-HD_adaptive.m3u8
+Logo: https://i.imgur.com/D1BBTv8.png
+Category: General
+[73] TV Cisne
+------------------------------------------------
+IPTV URLs (1):
+  • https://video2.lhdserver.es/tvcisne/live.m3u8
+Logo: https://i.imgur.com/xIuFSnx.png
+Category: General
+[74] TV Color Canal 36
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
+Logo: https://i.imgur.com/QJW6khK.jpg
+Category: General
+[75] TV Legislativa (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
+Logo: https://i.imgur.com/3Y6Lp5l.png
+Category: Legislative
+[76] TV Universal Ecuador
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8
+Logo: https://i.imgur.com/TIsk5zN.png
+Category: Religious
+[77] TVC
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2qsan2ut81n2k.cloudfront.net/live/19e86940-42cc-485e-80f4-89ae27c69f1b/ts:abr.m3u8
+Logo: https://i.imgur.com/zhdIwlm.png
+Category: General
+[78] UEBI TV Online (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ventaxtv.com:3575/live/uebilive.m3u8
+Logo: https://i.imgur.com/Tf0BF2q.jpg
+Category: Education
+[79] UNIANDES TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
+Logo: https://i.imgur.com/1rluyB7.png
+Category: Education
+[80] Unsion TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://provedores.unsion.tv:8081/srt/1/playlist.m3u8
+Logo: https://i.imgur.com/HQGBqGU.png
+Category: Undefined
+[81] Vos y TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
+Logo: https://i.imgur.com/294FDCB.png
+Category: Music
+[82] Zaracay TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video2.makrodigital.com/zaracay/zaracay/playlist.m3u8
+Logo: https://i.imgur.com/6q0Gp9R.png
+Category: General

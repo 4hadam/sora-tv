@@ -1,0 +1,1861 @@
+============================================================
+Russia (RU)
+============================================================
+Total Channels: 309
+Source: https://tv.garden/
+============================================================
+
+[1] 2x2
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/2x2/index.m3u8
+Logo: https://i.imgur.com/fhQFLEl.png
+Category: Entertainment
+[2] 7TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/7TV/index.m3u8
+Logo: https://i.imgur.com/GpCwqUF.png
+Category: Undefined
+[3] 12 канал
+------------------------------------------------
+IPTV URLs (1):
+  • https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
+Logo: https://i.imgur.com/OA9hm6e.png
+Category: General
+[4] 15+ Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
+Logo: https://i.imgur.com/kj21hwd.png
+Category: Music
+[5] 360°
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
+Logo: https://i.imgur.com/VTJqdoX.png
+Category: General
+[6] 360° Новости
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
+Logo: https://i.imgur.com/YXDeX8q.png
+Category: News
+[7] 365 Дней
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/365_dney/index.m3u8
+Logo: https://i.imgur.com/NfnAiTR.png
+Category: Documentary
+[8] .sci-fi
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/SONY_SCI_FI/index.m3u8
+Logo: https://i.imgur.com/nSSUHcg.png
+Category: Science
+[9] alpha Cinema
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+Logo: https://i.imgur.com/146OgfU.png
+Category: Comedy;Family;Movies
+[10] alpha Funny
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
+Logo: https://i.ibb.co/ZcCXw5P/alphaf.png
+Category: Comedy
+[11] alpha Moretime
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
+Logo: https://i.imgur.com/ibQfUr7.png
+Category: Comedy;Movies
+[12] Amedia 1
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/A1/index.m3u8
+Logo: https://i.imgur.com/2pAHdAi.png
+Category: Music
+[13] Amedia 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/A2/index.m3u8
+Logo: https://i.imgur.com/NqHla2V.png
+Category: Series
+[14] Amedia Hit
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Amedia_HIT_HD/index.m3u8
+Logo: https://i.imgur.com/a8ZBGBw.png
+Category: Movies;Series
+[15] Amedia Premium
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Amedia_Premium_HD/index.m3u8
+Logo: https://i.imgur.com/UUjehw9.png
+Category: Movies;Series
+[16] Angel TV Russian
+------------------------------------------------
+IPTV URLs (1):
+  • https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
+Logo: https://i.imgur.com/qKLEGU7.png
+Category: Religious
+[17] Ani
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Ani/index.m3u8
+Logo: https://i.imgur.com/i2AP0hp.png
+Category: Kids
+[18] BRIDGE
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Bridge_TV/index.m3u8
+Logo: https://i.imgur.com/qYObfrG.png
+Category: Music
+[19] BRIDGE Classic
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Bridge_TV_Classic/index.m3u8
+Logo: https://i.imgur.com/JJTQq81.png
+Category: Classic;Music
+[20] BRIDGE Deluxe
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Bridge_TV_HD/index.m3u8
+Logo: https://i.imgur.com/EazL8w7.png
+Category: Music
+[21] BRIDGE Hits
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Bridge_TV_Dance/index.m3u8
+Logo: https://i.imgur.com/sIW9oR4.png
+Category: Music
+[22] Cinema
+------------------------------------------------
+IPTV URLs (1):
+  • http://catchup.videoline.ru/cinema/playlist.m3u8
+Logo: https://i.imgur.com/b5e9qUA.png
+Category: Movies
+[23] DanceHits80
+------------------------------------------------
+IPTV URLs (1):
+  • http://dancehits80.denvs.ru:8080/index.m3u8
+Logo: https://i.imgur.com/uMw3kks.png
+Category: Music
+[24] DTR Music 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://kino-stream.online/hls/DTRMUSIC1.m3u8
+Logo: https://i.imgur.com/3picWDA.png
+Category: Music
+[25] DTR Zona 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://kino-stream.online/hls/DTRZONA1.m3u8
+Logo: https://i.imgur.com/ddPUnpQ.png
+Category: Entertainment
+[26] DTR Zona 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://kino-stream.online/hls/DTRZONA2.m3u8
+Logo: https://i.imgur.com/odKqEZu.png
+Category: Entertainment
+[27] English Class HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/English_club_TV_HD/index.m3u8
+Logo: https://i.imgur.com/gst7wW7.png
+Category: Education
+[28] Europa Plus TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Europa_Plus_HD/index.m3u8
+Logo: https://i.imgur.com/GLc4qrc.png
+Category: Music
+[29] FAN
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Fan/index.m3u8
+Logo: https://i.imgur.com/mDeTbaF.png
+Category: Animation;Movies
+[30] FASHION & LIFESTYLE
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Fashion_One_HD/index.m3u8
+Logo: https://i.imgur.com/ETmpllL.png
+Category: Lifestyle
+[31] FON Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8
+Logo: https://i.imgur.com/tXABQDE.png
+Category: Music
+[32] FoodTime
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Eda_Premium_HD/index.m3u8
+Logo: https://i.imgur.com/gxCYAwH.png
+Category: Cooking
+[33] HDL
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/HD_Life/index.m3u8
+Logo: https://i.imgur.com/tKgmhxh.png
+Category: Documentary
+[34] Hollywood
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/AMC/index.m3u8
+Logo: https://i.imgur.com/1j7cT2I.png
+Category: Movies
+[35] KHL
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/KHL_TV/index.m3u8
+Logo: https://i.imgur.com/RgdHdOV.png
+Category: Sports
+[36] KHL Prime
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/KHL_TV_HD/index.m3u8
+Logo: https://i.imgur.com/pwxT0ON.png
+Category: Sports
+[37] Kino 24
+------------------------------------------------
+IPTV URLs (1):
+  • http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
+Logo: https://i.imgur.com/QAdDARF.png
+Category: Movies
+[38] Leomax 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
+Logo: https://i.imgur.com/qU9ohQu.png
+Category: Shop
+[39] Match! Strana
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Match_Strana/index.m3u8
+Logo: https://i.imgur.com/X02s2UE.png
+Category: Sports
+[40] MMA-TV.com
+------------------------------------------------
+IPTV URLs (1):
+  • https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
+Logo: https://i.imgur.com/QhdxNsB.png
+Category: Sports
+[41] NSC+
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.15plusmg.ru/memfs/5a03fc7a-8417-4874-b56f-91b8aeba1210.m3u8
+Logo: https://i.imgur.com/6k9LYOw.png
+Category: Entertainment
+[42] Pro100TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+Logo: https://i.imgur.com/YfQEflM.png
+Category: Animation;Classic;Entertainment;Family;Movies
+[43] RT Documentary Russian
+------------------------------------------------
+IPTV URLs (1):
+  • https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8
+Logo: https://i.imgur.com/aeu5zIC.png
+Category: Documentary
+[44] RTG TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/RTG/index.m3u8
+Logo: https://i.imgur.com/ZMKPAho.png
+Category: Travel
+[45] RU.TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/RU_TV/index.m3u8
+Logo: https://i.imgur.com/Z7HUU7V.png
+Category: Music
+[46] Shopping Live (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
+Logo: https://i.imgur.com/EMmGnjV.png
+Category: Shop
+[47] Sochi Live HD (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
+Logo: https://www.cableman.ru/sites/default/files/sochi_live.png
+Category: General
+[48] SONGTV Russia
+------------------------------------------------
+IPTV URLs (1):
+  • https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
+Logo: https://i.imgur.com/nM7LbmV.png
+Category: Music
+[49] START Air
+------------------------------------------------
+IPTV URLs (1):
+  • https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
+Logo: https://i.imgur.com/4bACa7x.png
+Category: Movies
+[50] START World
+------------------------------------------------
+IPTV URLs (1):
+  • https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
+Logo: https://i.imgur.com/TXtY5eM.png
+Category: Movies
+[51] STS kids
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/STS_Kids_HD/index.m3u8
+Logo: https://i.imgur.com/o9kLpAL.png
+Category: Kids
+[52] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Family",STS Love (576i)
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8
+Logo: https://i.imgur.com/YBVZoDd.png
+Category: Family
+[53] TERRA
+------------------------------------------------
+IPTV URLs (1):
+  • https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
+Logo: https://i.imgur.com/ZxUjCpF.png
+Category: Documentary
+[54] Travel+Adventure
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Travel_Adventure_HD/index.m3u8
+Logo: https://i.imgur.com/AlpdXC4.png
+Category: Travel
+[55] Tsargrad TV (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?s=is_mLq_kjPYLsOJ4qj85tw&e=2070278263&scheme=https
+Logo: https://i.imgur.com/34RINpb.png
+Category: Religious
+[56] TV BRICS Russian
+------------------------------------------------
+IPTV URLs (1):
+  • https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
+Logo: https://i.imgur.com/vLpm8tN.png
+Category: General
+[57] TV PRO
+------------------------------------------------
+IPTV URLs (1):
+  • http://rtmp.tvpro-online.ru/hls/ch1.m3u8
+Logo: https://i.imgur.com/sbuSefI.png
+Category: Undefined
+[58] Univer TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
+Logo: https://i.imgur.com/r3u0mxr.png
+Category: Undefined
+[59] viju TV1000 Русское
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8
+Logo: https://i.imgur.com/Meak2y4.png
+Category: Movies
+[60] VITAL Drive
+------------------------------------------------
+IPTV URLs (1):
+  • https://autopilot.catcast.tv/content/37909/index.m3u8
+Logo: https://i.imgur.com/XoR9zLh.png
+Category: Sports
+[61] VIVA Russia
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
+Logo: https://i.imgur.com/OFhQQCD.png
+Category: Music
+[62] Авто Плюс
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Avto_Plus/index.m3u8
+Logo: https://i.imgur.com/sVc8cFt.png
+Category: Auto
+[63] Аист ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/bcw0s4V.png
+Category: General
+[64] Арис 24 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
+Logo: https://i.imgur.com/CTFVEAb.png
+Category: General
+[65] Арктика 24 (Архангельск)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
+Logo: https://i.imgur.com/kmbdyr6.png
+Category: General
+[66] Архыз 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
+Logo: https://i.imgur.com/blAtdkJ.png
+Category: Undefined
+[67] Астрахань 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
+Logo: https://i.imgur.com/9WcnjQN.png
+Category: News
+[68] Астрахань.Ru Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+Logo: https://i.imgur.com/BKaEtqL.png
+Category: Sports
+[69] Астрахань.Ru TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
+Logo: https://i.imgur.com/w4ys6zm.png
+Category: Undefined
+[70] Башкортостан 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
+Logo: https://i.imgur.com/s34Wtz6.png
+Category: General
+[71] Белгород 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
+Logo: https://i.imgur.com/EEirvyx.png
+Category: General
+[72] БелРос
+------------------------------------------------
+IPTV URLs (1):
+  • https://live2.mediacdn.ru/sr1/tro/playlist.m3u8
+Logo: https://i.imgur.com/tUF33HD.png
+Category: General
+[73] Бокс ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Boks_TV/index.m3u8
+Logo: https://i.imgur.com/R1UjyfX.png
+Category: Sports
+[74] Большая Азия
+------------------------------------------------
+IPTV URLs (1):
+  • http://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
+Logo: https://i.imgur.com/vruuPKF.png
+Category: Undefined
+[75] БСТ (Башкирское спутниковое телевидение)
+------------------------------------------------
+IPTV URLs (1):
+  • https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
+Logo: https://i.imgur.com/IDotHmQ.png
+Category: Undefined
+[76] Вера 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f05e059699ae.streamlock.net/WEB_Vera24/ngrp:Vera24.stream-adaptive/playlist.m3u8
+Logo: https://i.imgur.com/Qer5Lnh.png
+Category: Religious
+[77] Вести ФМ
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173
+Logo: https://i.imgur.com/ZBHqSZj.png
+Category: News
+[78] Ветта 24 (Пермь) (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
+Logo: https://i.imgur.com/zKH1b5k.png
+Category: Undefined
+[79] Вместе РФ
+------------------------------------------------
+IPTV URLs (1):
+  • https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
+Logo: https://i.imgur.com/KI1qZNc.png
+Category: Undefined
+[80] Волга (HD)
+------------------------------------------------
+IPTV URLs (1):
+  • http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8
+Logo: https://i.imgur.com/xHs1pr1.png
+Category: Undefined
+[81] Волгоград 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
+Logo: https://i.imgur.com/gFMnaU5.png
+Category: Undefined
+[82] Восток 24 (Владивосток)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8
+Logo: https://i.imgur.com/YEXDsMn.png
+Category: General
+[83] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Время
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
+Logo: https://i.imgur.com/jZlj3ga.png
+Category: Undefined
+[84] Губерния (Самара)
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/IlL57Rm.png
+Category: General
+[85] Дагестан
+------------------------------------------------
+IPTV URLs (1):
+  • https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
+Logo: https://i.imgur.com/jumkRvc.png
+Category: Undefined
+[86] Детское кино International [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://autopilot.catcast.tv/content/38720/index.m3u8
+Logo: https://i.imgur.com/dJqFRhQ.png
+Category: Movies
+[87] Дождь (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tvrain.svg/512px-Tvrain.svg.png
+Category: Undefined
+[88] Доктор
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Doktor/index.m3u8
+Logo: https://i.imgur.com/VNirxxn.png
+Category: Education;Lifestyle
+[89] Дом Кино
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.thestream.cyou/live/44.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/512px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png
+Category: Movies
+[90] Дом Кино Премиум HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8
+Logo: https://i.imgur.com/rJpQtvK.png
+Category: Movies
+[91] Домашний (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+Logo: https://i.imgur.com/XVRwgom.png
+Category: Lifestyle
+[92] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Lifestyle",Домашний International
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
+Logo: https://i.imgur.com/nf7GRXb.png
+Category: Lifestyle
+[93] Дон 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8
+Logo: https://i.imgur.com/fW15la1.png
+Category: News
+[94] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Legislative",Дума ТВ [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dumatv.iptv2022.com/playlist.m3u8
+Logo: https://i.imgur.com/JvlO3PU.png
+Category: Legislative
+[95] Евразия (Орск)
+------------------------------------------------
+IPTV URLs (1):
+  • https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
+Logo: https://i.imgur.com/4JUHIVS.png
+Category: General
+[96] Еврокино
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Evrokino/index.m3u8
+Logo: https://i.imgur.com/8LPtPf6.png
+Category: Movies
+[97] Енисей (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
+Logo: https://i.imgur.com/57deE7f.png
+Category: General
+[98] Жара TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Zhara/index.m3u8
+Logo: https://i.imgur.com/41K9Y2s.png
+Category: Music
+[99] Живая Планета
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Zhivaya_Planeta/index.m3u8
+Logo: https://i.imgur.com/onNv1tM.png
+Category: Undefined
+[100] ЖИВИ!
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Zhivi/index.m3u8
+Logo: https://i.imgur.com/LPqySGk.png
+Category: Lifestyle
+[101] За!ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.televizor-24-tochka.ru/live/25.m3u8
+Logo: https://i.imgur.com/pVPTl8J.png
+Category: General
+[102] Запад 24 (Калининград)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8
+Logo: https://i.imgur.com/HerCP0u.png
+Category: General
+[103] Звезда (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+Logo: https://i.imgur.com/4PAcpfM.png
+Category: General
+[104] Звезда Плюс
+------------------------------------------------
+IPTV URLs (1):
+  • http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
+Logo: https://i.imgur.com/NNmjD9Z.png
+Category: Undefined
+[105] Здоровое ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Zdorovoe_TV/index.m3u8
+Logo: https://i.imgur.com/jedtE5l.png
+Category: Lifestyle
+[106] Зоо ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Zoo_TV/index.m3u8
+Logo: https://i.imgur.com/p7WzqGS.png
+Category: Undefined
+[107] Известия
+------------------------------------------------
+IPTV URLs (1):
+  • http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
+Logo: https://i.imgur.com/r5HzA6J.png
+Category: News
+[108] Иллюзион+
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Illusion_plus/index.m3u8
+Logo: https://i.imgur.com/9GvuHQ5.png
+Category: Movies
+[109] Ингушетия ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8
+Logo: https://i.imgur.com/Fw2Hkk4.png
+Category: General
+[110] Индия
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Zee_TV_Russia/index.m3u8
+Logo: https://i.imgur.com/xDVcDOc.png
+Category: Entertainment
+[111] История
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Istoriya/index.m3u8
+Logo: https://i.imgur.com/eEjPail.png
+Category: Documentary
+[112] К16 (Саров) (406p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
+Logo: https://i.imgur.com/7tNDKHe.png
+Category: General
+[113] Кавказ 24 (Ставрополь)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/stavropol/kavkaz24-hd/index.m3u8
+Logo: https://i.imgur.com/DyJw1Pi.png
+Category: General
+[114] Карусель (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+Logo: https://i.imgur.com/4wmnx1W.png
+Category: Kids
+[115] КВН ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/KVN_TV/index.m3u8
+Logo: https://i.imgur.com/Vw3LFLX.png
+Category: Comedy
+[116] Кинеко
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Kineko_HD/index.m3u8
+Logo: https://i.imgur.com/Otfvlmf.png
+Category: Movies
+[117] Кино 1 International [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://kino-1.catcast.tv/content/38617/index.m3u8
+Logo: https://i.imgur.com/zsCPLs4.png
+Category: Movies
+[118] Кинопоказ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Kinopokaz/index.m3u8
+Logo: https://i.imgur.com/nNjMyAq.png
+Category: Movies
+[119] КИНОСАТ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Kineko/index.m3u8
+Logo: https://i.imgur.com/7KsNvBz.png
+Category: Movies
+[120] КИНОТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod.tuva.ru/kinotv/index.m3u8
+Logo: https://i.imgur.com/sMpamNO.png
+Category: Movies
+[121] Конный Мир
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-01.bonus-tv.ru/kmir/playlist.m3u8
+Logo: https://i.imgur.com/X6otbK0.png
+Category: Outdoor
+[122] Красная линия
+------------------------------------------------
+IPTV URLs (1):
+  • http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
+Logo: https://i.imgur.com/TgZ8Uv1.png
+Category: Undefined
+[123] КРИК-ТВ (Екатеринбург)
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
+Logo: https://i.imgur.com/rtuChZR.png
+Category: News
+[124] Крым 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
+Logo: https://i.imgur.com/k4C0uvp.png
+Category: News
+[125] Кто есть Кто
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Kto_est_kto/index.m3u8
+Logo: https://i.imgur.com/PmD17UQ.png
+Category: Education
+[126] Кубань 24 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8
+Logo: https://i.imgur.com/atzrXcz.png
+Category: General
+[127] Культура (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/512px-Russia-Cultura.svg.png
+Category: Culture
+[128] Курай (Уфа)
+------------------------------------------------
+IPTV URLs (1):
+  • https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
+Logo: https://i.imgur.com/hZXBD9F.png
+Category: General
+[129] Кухня ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Kuhnya_TV/index.m3u8
+Logo: https://i.imgur.com/7jxZnuS.png
+Category: Cooking
+[130] ЛДПР ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
+Logo: https://i.imgur.com/gCmCRfe.png
+Category: General
+[131] Легендарный 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://sevas.1tvcrimea.ru/legendarniy24.m3u8
+Logo: https://i.imgur.com/z9t6x8B.png
+Category: News
+[132] Лен ТВ 24 (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
+Logo: https://i.imgur.com/d02uxkB.png
+Category: General
+[133] Луганск 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.televizor-24-tochka.ru/live/29.m3u8
+Logo: https://i.imgur.com/AihoVc0.png
+Category: General
+[134] Луч
+------------------------------------------------
+IPTV URLs (1):
+  • https://mow-9-ll.facecast.io:8443/hls_re/c631505e4fd6d14665c0.m3u8
+Logo: https://i.imgur.com/tXH51br.png
+Category: General
+[135] Магнат ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
+Logo: https://i.imgur.com/r485aZL.png
+Category: Shop
+[136] Мама
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Mama/index.m3u8
+Logo: https://i.imgur.com/kmMIjjf.png
+Category: Kids
+[137] Матур ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+Logo: https://i.imgur.com/Pg7K7eV.png
+Category: Music
+[138] МАТЧ! Арена
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Match_Arena/index.m3u8
+Logo: https://i.imgur.com/udTzwzu.png
+Category: Sports
+[139] МАТЧ! Боец
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Match_Boec/index.m3u8
+Logo: https://i.imgur.com/DogOkA4.png
+Category: Sports
+[140] МАТЧ! Игра
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Match_Igra/index.m3u8
+Logo: https://i.imgur.com/5XWpF19.png
+Category: Sports
+[141] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Sports",Матч! Планета
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Match_Planeta/HLSv3-FTA/Match_Planeta.m3u8
+Logo: https://i.imgur.com/vhyMb9D.png
+Category: Sports
+[142] Миллет
+------------------------------------------------
+IPTV URLs (1):
+  • https://live1.1tvcrimea.ru/milletlive.m3u8
+Logo: https://i.imgur.com/hUjLRLy.png
+Category: News
+[143] Мир (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+Logo: https://i.imgur.com/AqWaJT8.png
+Category: General
+[144] Мир 24
+------------------------------------------------
+IPTV URLs (1):
+  • http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+Logo: https://i.imgur.com/dj9c8Yd.png
+Category: News
+[145] Мир +2 (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
+Logo: https://i.imgur.com/AqWaJT8.png
+Category: General
+[146] Мир +4 (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
+Logo: https://i.imgur.com/AqWaJT8.png
+Category: General
+[147] Мир +7
+------------------------------------------------
+IPTV URLs (1):
+  • http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
+Logo: https://i.imgur.com/AqWaJT8.png
+Category: General
+[148] Мир Белагорья (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
+Logo: https://mirbelogorya.ru/images/logo/Logo_Mir_Belogorya_purple_gradient.png
+Category: Undefined
+[149] Мир Сериала
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Mir_Seriala/index.m3u8
+Logo: https://i.imgur.com/uzj7wVp.png
+Category: Series
+[150] Москва 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
+Logo: https://i.imgur.com/gXbUMVy.png
+Category: General
+[151] МосОбрТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://retc.educom.ru/mosobrtv/tv1/index.m3u8
+Logo: https://i.imgur.com/t6PmOD5.png
+Category: Education
+[152] Моя Планета
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Moya_Planeta_HD/index.m3u8
+Logo: https://i.imgur.com/uIiAdBv.png
+Category: Outdoor
+[153] МТВ (Волгоград) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/pdCAUrP.png
+Category: General
+[154] Муз союз
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
+Logo: https://i.imgur.com/Puk1Bhx.png
+Category: Music;Religious
+[155] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Music",МузТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.televizor-24-tochka.ru/live/20.m3u8
+Logo: https://i.imgur.com/BtqrHmz.png
+Category: Music
+[156] Музыка 1 International [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://kino-1.catcast.tv/content/37745/index.m3u8
+Logo: https://i.imgur.com/DIKe5vA.png
+Category: Music
+[157] Музыка Live
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/La-Minor_TV/index.m3u8
+Logo: https://i.imgur.com/RH6hTWG.png
+Category: Music
+[158] Музыка Кино International [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://kino-1.catcast.tv/content/37739/index.m3u8
+Logo: https://i.imgur.com/2SG0Swa.png
+Category: Music
+[159] Музыка Первого
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Muzika_Pervogo/index.m3u8
+Logo: https://i.imgur.com/U0vKj3P.png
+Category: Music
+[160] Мульт
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Mult/index.m3u8
+Logo: https://i.imgur.com/xi351Fx.png
+Category: Kids
+[161] Мульт и Музыка
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Multimuzika/index.m3u8
+Logo: https://i.imgur.com/SYt6BZP.png
+Category: Kids
+[162] Мультимания
+------------------------------------------------
+IPTV URLs (1):
+  • https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
+Logo: https://i.imgur.com/abh8ZBA.png
+Category: Animation;Kids
+[163] Надежда
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
+Logo: https://i.imgur.com/ah6VnFJ.png
+Category: Religious
+[164] Нано ТВ HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://s1.tv-nano.com/Nano_rec/index.m3u8
+Logo: https://i.imgur.com/dYj3XDa.png
+Category: Documentary
+[165] Настоящее Время
+------------------------------------------------
+IPTV URLs (1):
+  • https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
+Logo: https://i.imgur.com/hKo8ApU.png
+Category: News
+[166] Наука
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod.tuva.ru/nauka2/index.m3u8
+Logo: https://i.imgur.com/ZZxzueO.png
+Category: Documentary
+[167] НВК Саха (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8
+Logo: https://i.imgur.com/LwXNUhf.png
+Category: General
+[168] Неизвестная Россия
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.ntv.ru/unknown_russia/playlist.m3u8
+Logo: https://i.imgur.com/W7ste2f.png
+Category: Undefined
+[169] Нижний Новгород 24 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
+Logo: https://i.imgur.com/ZWgPVIC.png
+Category: General
+[170] Ника ТВ (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
+Logo: https://i.imgur.com/dccsFAu.png
+Category: General
+[171] Новгородское областное телевидение [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8
+Logo: https://i.imgur.com/2JspHVY.png
+Category: General
+[172] Новый Век
+------------------------------------------------
+IPTV URLs (1):
+  • https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
+Logo: https://i.imgur.com/8aYYi3r.png
+Category: General
+[173] Новый Русский
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
+Logo: https://i.imgur.com/iuRSScH.png
+Category: Movies
+[174] Ностальгия
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Nostalgiya/index.m3u8
+Logo: https://i.imgur.com/YBdBc0J.png
+Category: Classic
+[175] НТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8
+Logo: https://i.imgur.com/9r1BKzK.png
+Category: General
+[176] НТВ (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+Logo: https://i.imgur.com/9r1BKzK.png
+Category: General
+[177] НТВ Право
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.ntv.ru/th_pravo/playlist.m3u8
+Logo: https://i.imgur.com/3ChnWGg.png
+Category: Undefined
+[178] НТВ Сериал
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.ntv.ru/th_serial/playlist.m3u8
+Logo: https://i.imgur.com/QdVa8tl.png
+Category: Series
+[179] НТВ Стиль
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.ntv.ru/th_style/playlist.m3u8
+Logo: https://i.imgur.com/rX6K6qT.png
+Category: Lifestyle
+[180] НТВ Хит
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.ntv.ru/th_hit/playlist.m3u8
+Logo: https://i.imgur.com/FfKBvz5.png
+Category: Series
+[181] НТК 21 (Биробиджан) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8
+Logo: https://i.imgur.com/W9s1flH.png
+Category: General
+[182] НТМ (Народное телевидение Мордовии) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+Logo: https://i.imgur.com/AH50pGT.png
+Category: General
+[183] НТС (Севастополь) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
+Logo: https://i.imgur.com/skkDR7q.png
+Category: General
+[184] о2тв
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/O2_HD/index.m3u8
+Logo: https://i.imgur.com/CM6z7fA.png
+Category: Music
+[185] Осетия Ирыстон
+------------------------------------------------
+IPTV URLs (1):
+  • https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
+Logo: https://i.imgur.com/N0Zn4zU.png
+Category: General
+[186] ОСН
+------------------------------------------------
+IPTV URLs (1):
+  • http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
+Logo: https://www.osnmedia.ru/wp-content/uploads/2024/11/osn-logo-header.png
+Category: General
+[187] ОТВ Приморье
+------------------------------------------------
+IPTV URLs (1):
+  • https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist.m3u8
+Logo: https://i.imgur.com/2zd8trG.png
+Category: Entertainment
+[188] Открытый мир. Здоровье
+------------------------------------------------
+IPTV URLs (1):
+  • https://v4.proofix.ru/0mir/index.m3u8
+Logo: https://i.imgur.com/7orZOJA.png
+Category: Lifestyle
+[189] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",ОТР
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.televizor-24-tochka.ru/live/12.m3u8
+Logo: https://i.imgur.com/VaWlnjZ.png
+Category: General
+[190] Патриот (576i)
+------------------------------------------------
+IPTV URLs (1):
+  • http://catchup.videoline.ru/asvtv/index.m3u8
+Logo: https://patriotkanal.ru/assets/cached/2025/02/resize/264_112_q100_patriot-only-logo.png
+Category: Movies
+[191] Первый канал
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+Logo: https://i.imgur.com/RUSX0rX.png
+Category: General
+[192] Первый Крымский
+------------------------------------------------
+IPTV URLs (1):
+  • https://live1.1tvcrimea.ru/1tvcrimea.m3u8
+Logo: https://i.imgur.com/i6hg7QG.png
+Category: General
+[193] Первый Музыкальный Канал HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://rtmp.one.by:1300
+Logo: https://i.imgur.com/YdyFJrl.png
+Category: Music
+[194] Первый Музыкальный Канал Россия HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://rtmp.one.by:2300
+Logo: https://i.imgur.com/rEo7nR1.png
+Category: Music
+[195] Первый Республиканский
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.televizor-24-tochka.ru/live/27.m3u8
+Logo: https://i.imgur.com/ti4OMBv.png
+Category: News
+[196] Первый Ярославский
+------------------------------------------------
+IPTV URLs (1):
+  • https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist.m3u8
+Logo: https://yarreg.ru/gallery/news/2025/03/293241/3.jpeg
+Category: General
+[197] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Победа 720p
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
+Logo: https://i.imgur.com/4KiYSln.png
+Category: Undefined
+[198] Поехали!
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Poehali/index.m3u8
+Logo: https://i.imgur.com/ZNCpbII.png
+Category: Entertainment
+[199] Прима
+------------------------------------------------
+IPTV URLs (1):
+  • https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
+Logo: https://i.imgur.com/33XGMch.png
+Category: Undefined
+[200] Продвижение
+------------------------------------------------
+IPTV URLs (1):
+  • https://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/playlist.m3u8
+Logo: https://i.imgur.com/KlsnfG9.png
+Category: Undefined
+[201] Просвещение (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
+Logo: https://i.imgur.com/uppFhhq.png
+Category: Undefined
+[202] Пятница! (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+Logo: https://i.imgur.com/UfmlXxe.png
+Category: Entertainment
+[203] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",Пятница! International
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
+Logo: https://i.imgur.com/N2z3EZC.png
+Category: Entertainment
+[204] Пятый Канал (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+Logo: https://i.imgur.com/KPXMa3U.png
+Category: General
+[205] Радио Говорит Москва (Веб-камера)
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.govoritmoskva.ru/rufm/index.m3u8
+Logo: https://i.imgur.com/z2mxf3E.png
+Category: News
+[206] Радио Хит (Орск)
+------------------------------------------------
+IPTV URLs (1):
+  • http://lova.me/hls/hithd.m3u8
+Logo: https://i.imgur.com/5xKqV1s.png
+Category: Music
+[207] Радио Шансон (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+Logo: https://i.imgur.com/lbqM3K2.png
+Category: Music
+[208] Радость моя
+------------------------------------------------
+IPTV URLs (1):
+  • https://radm.mediacdn.ru/cdn/radost/playlist.m3u8
+Logo: https://i.imgur.com/B5FA62o.png
+Category: Kids
+[209] РБК
+------------------------------------------------
+IPTV URLs (1):
+  • https://uiptv.do.am/1ufc/701293058/playlist.m3u8
+Logo: https://i.imgur.com/CwhmJby.png
+Category: Business
+[210] РЕН ТВ (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+Logo: https://i.imgur.com/0Tu5lte.png
+Category: General
+[211] РЖД ТВ (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
+Logo: https://i.imgur.com/lf1r9L6.png
+Category: Undefined
+[212] Родное Кино
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Rodnoe_kino/index.m3u8
+Logo: https://i.imgur.com/H70LxoZ.png
+Category: Movies
+[213] Россия 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+Logo: https://i.imgur.com/Osd2JHL.png
+Category: General
+[214] Россия 1 (+6)
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Rossiya_1/index.m3u8
+Logo: https://i.imgur.com/Osd2JHL.png
+Category: General
+[215] Россия 1 HD (Архангельск)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/russia1-hd/index.m3u8
+Logo: https://i.imgur.com/Osd2JHL.png
+Category: General
+[216] Россия 24 (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://uiptv.do.am/1ufc/000000006/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png
+Category: News
+[217] Русский Бестселлер
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Russkiy_Bestseller/index.m3u8
+Logo: https://i.imgur.com/w0ZE9QJ.png
+Category: Movies
+[218] Русский Детектив
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Russkiy_Detektiv/index.m3u8
+Logo: https://i.imgur.com/H3qhN8S.png
+Category: Movies
+[219] Русский Иллюзион
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Russkiy_illusion/index.m3u8
+Logo: https://i.imgur.com/RlsqFN8.png
+Category: Movies
+[220] Русский Роман
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Russkiy_Roman/index.m3u8
+Logo: https://i.imgur.com/cQN0P2B.png
+Category: Movies
+[221] Русский Экстрим
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Russkiy_Ekstrim/index.m3u8
+Logo: https://i.imgur.com/hJK7mOW.png
+Category: Sports
+[222] Рыжий
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Rizhiy/index.m3u8
+Logo: https://i.imgur.com/acrU2IE.png
+Category: Kids
+[223] С1 (Сургут) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sitv.ru/hls/stv.m3u8
+Logo: https://i.imgur.com/chNBF5t.png
+Category: Undefined
+[224] Салям (Уфа)
+------------------------------------------------
+IPTV URLs (1):
+  • https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
+Logo: https://i.imgur.com/FfULLr1.png
+Category: Undefined
+[225] Самара 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8
+Logo: https://i.imgur.com/YUe3Dwd.png
+Category: General
+[226] Самара ГИС (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.samaragis.ru/new/new/tracks-v1a1/mono.m3u8
+Logo: https://samaragis.ru/wp-includes/images/logo.png
+Category: Undefined
+[227] Санкт-Петербург
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8
+Logo: https://i.imgur.com/9At4oG7.png
+Category: Undefined
+[228] Сапфир
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Sapfir/index.m3u8
+Logo: https://i.imgur.com/NMOBvle.png
+Category: Series
+[229] Сарафан
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Sarafan/index.m3u8
+Logo: https://i.imgur.com/u4q1rMT.png
+Category: Undefined
+[230] Своё ТВ (Ставрополь)
+------------------------------------------------
+IPTV URLs (1):
+  • https://svoetv.mediacdn.ru/cdn/svoetv/playlist.m3u8
+Logo: https://i.imgur.com/3cP2fmX.png
+Category: Undefined
+[231] Север (Нарьян-Мар)
+------------------------------------------------
+IPTV URLs (1):
+  • https://2vko9pchwon.a.trbcdn.net/livemaster/8ilgc_cw63ucn03p.smil/playlist.m3u8
+Logo: https://i.imgur.com/sTOQLYl.png
+Category: Undefined
+[232] Сибирь 24 (Красноярск)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8
+Logo: https://i.imgur.com/jgwQPl0.png
+Category: General
+[233] Сибирь 24 (Новосибирск)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
+Logo: https://i.imgur.com/jgwQPl0.png
+Category: General
+[234] Симферополь 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://simf.1tvcrimea.ru/simferopol24.m3u8
+Logo: https://i.imgur.com/S2QJ3bc.png
+Category: General
+[235] Сити Эдем Meditation Music [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/47410/index.m3u8
+Logo: https://i.imgur.com/HPWevWb.png
+Category: Music
+[236] Сити Эдем Play Христианский Музыкальный [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/34100/index.m3u8
+Logo: https://i.imgur.com/ozEqob9.png
+Category: Music
+[237] Сити Эдем АвтоГид [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/47515/index.m3u8
+Logo: https://i.imgur.com/qpe8L27.png
+Category: Auto
+[238] Сити Эдем Бирма Play [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/34364/index.m3u8
+Logo: https://i.imgur.com/38Q5L5W.png
+Category: Music
+[239] Сити Эдем КиноАзия [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/34393/index.m3u8
+Logo: https://i.imgur.com/gaket4B.png
+Category: Movies
+[240] Сити Эдем КиноАрт [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/38398/index.m3u8
+Logo: https://i.imgur.com/67CWCtz.png
+Category: Movies
+[241] Сити Эдем КиноДетектив [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/41327/index.m3u8
+Logo: https://i.imgur.com/9rKHwBV.png
+Category: Movies
+[242] Сити Эдем КиноДок [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/38354/index.m3u8
+Logo: https://i.imgur.com/itRbMX3.png
+Category: Documentary;Series
+[243] Сити Эдем КиноДрама [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/45269/index.m3u8
+Logo: https://i.imgur.com/29ddffh.png
+Category: Movies
+[244] Сити Эдем КиноКлассика [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/34185/index.m3u8
+Logo: https://i.imgur.com/0qGCS1S.png
+Category: Movies
+[245] Сити Эдем КиноКомедия [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/41331/index.m3u8
+Logo: https://i.imgur.com/Aga2XVA.png
+Category: Movies
+[246] Сити Эдем КиноМистика [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/40783/index.m3u8
+Logo: https://i.imgur.com/s1Pid0K.png
+Category: Movies
+[247] Сити Эдем КиноСемья [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://v2.catcast.tv/content/38128/index.m3u8
+Logo: https://i.imgur.com/YoWOZMx.png
+Category: Movies
+[248] Сити Эдем КиноФантастика [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/45268/index.m3u8
+Logo: https://i.imgur.com/I64FeIO.png
+Category: Movies
+[249] Сити Эдем КиноЭкшен [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/41333/index.m3u8
+Logo: https://i.imgur.com/uuzuvD0.png
+Category: Movies
+[250] Сити Эдем Классическая Музыка [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/47400/index.m3u8
+Logo: https://i.imgur.com/l7BE8l6.png
+Category: Music
+[251] Сити Эдем МедЗдрав [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/47519/index.m3u8
+Logo: https://i.imgur.com/BM4E0Kr.png
+Category: Lifestyle
+[252] Сити Эдем Рецепты Гурмана [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/47516/index.m3u8
+Logo: https://i.imgur.com/wR0pvRc.png
+Category: Cooking
+[253] Сити Эдем Сиртаки ТВ [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/46421/index.m3u8
+Logo: https://i.imgur.com/V3MTfyc.png
+Category: Music
+[254] Сити Эдем ТВ Христианский [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/34246/index.m3u8
+Logo: https://i.imgur.com/X9kACKi.png
+Category: General;Religious
+[255] Сити Эдем ТелеНовелла [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cityeden.catcast.tv/content/46209/index.m3u8
+Logo: https://i.imgur.com/mT5liTh.png
+Category: Series
+[256] Смайл ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f05e059699ae.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
+Logo: https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png
+Category: Kids
+[257] Смотрим 100% Детское
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/29d87e02-f367-48b1-b63e-6ce7923ab089
+Logo: https://i.imgur.com/1hsNeTa.png
+Category: Kids
+[258] Смотрим 100% Классика
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/78a66c7c-df38-4091-b2e1-9eeeb4c96338
+Logo: https://i.imgur.com/aASNpKq.png
+Category: Classic;Movies
+[259] Смотрим 100% Любовь
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/0d85159d-e782-4260-ac99-ac8c55df4248
+Logo: https://i.imgur.com/4EFh0nu.png
+Category: Series
+[260] Смотрим 100% Мужское
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619226d
+Logo: https://i.imgur.com/UY3fjYU.png
+Category: Series
+[261] Смотрим 100% Праздник
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a542564
+Logo: https://i.imgur.com/NEcqFse.png
+Category: Entertainment
+[262] Смотрим 100% Факты
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5d34f
+Logo: https://i.imgur.com/dB3cJzO.png
+Category: Documentary
+[263] Смотрим Честный Детектив
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
+Logo: https://cdn-st3.smotrim.ru/vh/pictures/svg/444/241/8.svg
+Category: Series
+[264] Солнце
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.mediacdn.ru/live/solntse/playlist.m3u8
+Logo: https://i.imgur.com/HCefxaK.png
+Category: Animation;Kids
+[265] Соловьев LIVE
+------------------------------------------------
+IPTV URLs (1):
+  • https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
+Logo: https://i.imgur.com/v0OYe1d.png
+Category: Undefined
+[266] Сочи 24 HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
+Logo: https://i.imgur.com/iwWxkl6.png
+Category: General;News
+[267] Союз
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
+Logo: https://i.imgur.com/w3OewHc.png
+Category: Religious
+[268] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Religious",Спас
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.televizor-24-tochka.ru/live/15.m3u8
+Logo: https://i.imgur.com/yY39nMg.png
+Category: Religious
+[269] СТАРТ Триумф
+------------------------------------------------
+IPTV URLs (1):
+  • https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8
+Logo: https://i.imgur.com/L9jTieL.png
+Category: Sports
+[270] Страна FM (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+Logo: https://i.imgur.com/WsPlKJJ.png
+Category: Music
+[271] СТС (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+Logo: https://i.imgur.com/ilUzAeb.png
+Category: Family
+[272] Студия Факт
+------------------------------------------------
+IPTV URLs (1):
+  • https://042auhsnh0x.a.trbcdn.net/livemaster/rmhtb_live-7td9v6w34o6.smil/playlist.m3u8
+Logo: https://i.imgur.com/y73pRGZ.png
+Category: Undefined
+[273] Суббота! (450p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
+Logo: https://i.imgur.com/nsk8PpB.png
+Category: Undefined
+[274] Сургут 24 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video1.in-news.ru/c24/index.m3u8
+Logo: https://i.imgur.com/OxvqXMt.png
+Category: Undefined
+[275] Таврия
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.televizor-24-tochka.ru/live/24.m3u8
+Logo: https://i.imgur.com/gqung6i.png
+Category: General
+[276] Тамыр (Уфа)
+------------------------------------------------
+IPTV URLs (1):
+  • https://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
+Logo: https://i.imgur.com/Ia3acCB.png
+Category: Kids
+[277] ТВ Центр
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/ru/7/72/TV_Tsentr_2013_Logo.svg
+Category: Undefined
+[278] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",ТВ Центр International
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/TV_center/HLSv3-FTA/TV_center.m3u8
+Logo: https://i.imgur.com/tsCOnBW.png
+Category: Undefined
+[279] ТВ-3 (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+Logo: https://i.imgur.com/JLAvq8O.png
+Category: Entertainment
+[280] ТВК 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://air.tvk6.ru/tvk24/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%A2%D0%92%D0%9A_%282015%29.png
+Category: Undefined
+[281] Твое TV HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://tvoetv.space:8080/tvoetv/index.m3u8
+Logo: https://i.imgur.com/kKAM7dP.png
+Category: Entertainment
+[282] Твое ТВ Юмор
+------------------------------------------------
+IPTV URLs (1):
+  • http://tvoetv.space:8080/tvoetv_humor/index.m3u8
+Logo: https://smotret.tv/images/tvoe-tv-yumor.webp
+Category: Comedy
+[283] Театр
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Sochi_HD/index.m3u8
+Logo: https://i.imgur.com/nc2ijCH.png
+Category: Culture
+[284] Телеканал 86 (Сургут) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sitv.ru/hls/s86.m3u8
+Logo: https://i.imgur.com/0dRS4Cb.png
+Category: General
+[285] Телеканал Краснодар
+------------------------------------------------
+IPTV URLs (1):
+  • https://krasnodar.mediacdn.ru/live/cdn/krasnodar/playlist.m3u8
+Logo: https://i.imgur.com/YVtutzp.png
+Category: General
+[286] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Cooking",Телекафе
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
+Logo: https://i.imgur.com/1H3h1HL.png
+Category: Cooking
+[287] Телепутешествия
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Teleputeshestviya/index.m3u8
+Logo: https://i.imgur.com/eXJm1n3.png
+Category: Travel
+[288] Телерадиокомпания 555 (Алушта)
+------------------------------------------------
+IPTV URLs (1):
+  • http://trk555.tv:8888/live
+Logo: https://i.imgur.com/JQZkxeA.png
+Category: General
+[289] Телплюс ТВ (Астрахань) (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.astrakhan.ru/telplushd/playlist.m3u8
+Logo: https://i.imgur.com/1zbcZ3p.png
+Category: Undefined
+[290] ТК Алмазный край
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.almaz-media.tv:8080/hls/576.m3u8
+Logo: https://i.imgur.com/zErXTdF.png
+Category: General
+[291] ТКР (Рязань) (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
+Logo: https://i.imgur.com/VqtPB7L.png
+Category: Undefined
+[292] ТНВ-Планета (Казань)
+------------------------------------------------
+IPTV URLs (1):
+  • https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8
+Logo: https://i.imgur.com/ijA1zDw.png
+Category: Undefined
+[293] ТНТ (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+Logo: https://i.imgur.com/T4A6rEI.png
+Category: Entertainment
+[294] ТНТ4
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/TNT4/index.m3u8
+Logo: https://i.imgur.com/gBokU5i.png
+Category: Entertainment
+[295] Толк HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
+Logo: https://i.imgur.com/l7JZ79P.png
+Category: News
+[296] Тонус
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Zdorovie/index.m3u8
+Logo: https://i.imgur.com/pGm8QCj.png
+Category: Undefined
+[297] Точка ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Tochka_TV/index.m3u8
+Logo: https://i.imgur.com/yyNR5jG.png
+Category: Undefined
+[298] Три Ангела
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.tv.3angels.ru/stream.m3u8
+Logo: https://i.imgur.com/4fhBbam.png
+Category: Religious
+[299] Уникум
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Detskiy/index.m3u8
+Logo: https://i.imgur.com/kSJZjDL.png
+Category: Undefined
+[300] Урал 24 (Челябинск)
+------------------------------------------------
+IPTV URLs (1):
+  • https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/index.m3u8
+Logo: https://i.imgur.com/eoI4KuB.png
+Category: General
+[301] Феникс плюс Кино
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Feniks_plus_kino/index.m3u8
+Logo: https://i.imgur.com/S9OPMLE.png
+Category: Movies
+[302] Футбол
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.148.48.15/Futbol_HD/index.m3u8
+Logo: https://i.imgur.com/pEuaZVx.png
+Category: Sports
+[303] Че! (540p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
+Logo: https://i.imgur.com/ZOcDGpB.png
+Category: Entertainment
+[304] Шансон ТВ (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://uiptv.do.am/1ufc/602079679/playlist.m3u8
+Logo: https://i.imgur.com/Fk4sd8t.png
+Category: Music
+[305] Шаян ТВ (Татарстан)
+------------------------------------------------
+IPTV URLs (1):
+  • https://shayan.bonus-tv.ru/cdn/shayan/playlist.m3u8
+Logo: https://i.imgur.com/CvFwczN.png
+Category: Undefined
+[306] Щёлковское ТВ (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://stream0.tv41.ru/live.m3u8
+Logo: https://i.imgur.com/0us6l04.png
+Category: Undefined
+[307] Ю
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-01.bonus-tv.ru/u/playlist.m3u8
+Logo: https://i.imgur.com/KDZvt0Q.png
+Category: Entertainment
+[308] Ювелирочка ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
+Logo: https://i.imgur.com/IcWtXCZ.png
+Category: Shop
+[309] Югра
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
+Logo: https://i.imgur.com/561FRwI.png
+Category: Undefined

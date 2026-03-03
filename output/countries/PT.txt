@@ -1,0 +1,277 @@
+============================================================
+Portugal (PT)
+============================================================
+Total Channels: 45
+Source: https://tv.garden/
+============================================================
+
+[1] ADB TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer-a03.videos.sapo.pt/live/sobrenaturaltv_3/playlist.m3u8
+Logo: https://i.ibb.co/HGfTJwt/ADBTV.jpg
+Category: Religious
+[2] Angel TV Portuguese
+------------------------------------------------
+IPTV URLs (1):
+  • https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportuguese_all/playlist.m3u8
+Logo: https://i.imgur.com/qKLEGU7.png
+Category: Religious
+[3] ARTV Canal Parlamento (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
+Logo: https://i.imgur.com/y00t9hr.png
+Category: Legislative
+[4] Disney Channel
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg
+Category: Kids
+[5] Euronews Portuguese
+------------------------------------------------
+IPTV URLs (1):
+  • https://6e52fb8b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c1BvcnR1Z3Vlc19ITFM/playlist.m3u8
+Logo: https://i.imgur.com/8t9mdg9.png
+Category: News
+[6] Famatv (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
+Logo: https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg
+Category: Music
+[7] FIFA+ Portuguese
+------------------------------------------------
+IPTV URLs (1):
+  • https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png
+Category: Sports
+[8] FUEL TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
+Logo: https://i.imgur.com/I8mviBy.png
+Category: Sports
+[9] KTO (404p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
+Logo: https://i.imgur.com/EY6TsdV.png
+Category: Religious
+[10] Kuriakos Cine
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+Logo: https://i.imgur.com/CZViCwB.jpg
+Category: Movies
+[11] Kuriakos Kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+Logo: https://i.imgur.com/SRX6EPY.png
+Category: Animation;Kids;Religious
+[12] Kuriakos Music
+------------------------------------------------
+IPTV URLs (1):
+  • http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
+Logo: https://i.imgur.com/Zl40NYi.jpg
+Category: Music
+[13] Kuriakos TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8
+Logo: https://i.imgur.com/xdAW0D5.png
+Category: Religious
+[14] Maná Church Online (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8
+Logo: https://i.imgur.com/FRDJSim.png
+Category: Religious
+[15] Maná Cirkev Online (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8
+Logo: https://i.imgur.com/tYhXeRq.png
+Category: Religious
+[16] Maná Église Online (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8
+Logo: https://i.imgur.com/xQYly8O.png
+Category: Religious
+[17] Maná Iglesia Online (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8
+Logo: https://i.imgur.com/0IUvfcJ.png
+Category: Religious
+[18] Maná Igreja Online (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8
+Logo: https://i.imgur.com/0IUvfcJ.png
+Category: Religious
+[19] Maná Tserkov' Onlayn (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8
+Logo: https://i.imgur.com/PruXLqS.png
+Category: Religious
+[20] NPC Rádio e TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8
+Logo: https://i.imgur.com/mw1lYWE.png
+Category: Music
+[21] ON FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+Logo: https://onfmwordpressfiles.ams3.digitaloceanspaces.com/wp-content/uploads/2023/03/17130121/logo-on-fm.png
+Category: Music
+[22] Porto Canal
+------------------------------------------------
+IPTV URLs (1):
+  • https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
+Logo: https://i.imgur.com/DwziwMY.png
+Category: General
+[23] Rádio Sines (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
+Logo: https://i.imgur.com/Oe6F1nL.png
+Category: General
+[24] RecordTV Europa (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-recordeuropa.visioncdn.com/live/recordeuropa/master.m3u8
+Logo: https://i.imgur.com/DvxfBTE.png
+Category: General
+[25] RFPtv
+------------------------------------------------
+IPTV URLs (1):
+  • https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
+Logo: https://i.imgur.com/I60nQuR.png
+Category: Music
+[26] RTP 1 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+Logo: https://i.imgur.com/w7GV86i.png
+Category: General
+[27] RTP 2 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+Logo: https://i.imgur.com/T6WUqdn.png
+Category: General
+[28] RTP Açores (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/512px-RTP_A%C3%A7ores_%282016%29.svg.png
+Category: General
+[29] RTP Madeira (504p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+Logo: https://i.imgur.com/nJNWTqA.png
+Category: General
+[30] RTP Memória (504p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+Logo: https://i.imgur.com/jCpfdiJ.png
+Category: General
+[31] SIC
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+Logo: https://i.imgur.com/SPMqiDG.png
+Category: General
+[32] SIC Alta Definição
+------------------------------------------------
+IPTV URLs (1):
+  • https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
+Logo: https://i.imgur.com/VdPwyQv.png
+Category: Undefined
+[33] SIC Notícias
+------------------------------------------------
+IPTV URLs (1):
+  • https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
+Logo: https://i.imgur.com/Gi6Q26M.png
+Category: News
+[34] SIC Replay
+------------------------------------------------
+IPTV URLs (1):
+  • https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
+Logo: https://i.imgur.com/fj84mXz.png
+Category: Undefined
+[35] TV Maná 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8
+Logo: https://i.imgur.com/6jNqpTP.png
+Category: Religious
+[36] TV Maná 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
+Logo: https://i.imgur.com/VYNjVov.png
+Category: Religious
+[37] TV Maná Brasil
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8
+Logo: https://i.imgur.com/AFb712e.png
+Category: Religious
+[38] TV Maná English
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8
+Logo: https://i.imgur.com/I66IkCw.png
+Category: Religious
+[39] TV Maná Español
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8
+Logo: https://i.imgur.com/sUlrSwP.png
+Category: Religious
+[40] TV Maná Russkiy
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
+Logo: https://i.imgur.com/fACHqmY.png
+Category: Religious
+[41] TVI
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
+Logo: https://i.imgur.com/H8Tgl7m.png
+Category: General
+[42] TVI Ficção
+------------------------------------------------
+IPTV URLs (1):
+  • https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
+Logo: https://cdn.iol.pt/img/logostvi/branco/tvificcao.png
+Category: Series
+[43] TVI Reality (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
+Logo: https://i.imgur.com/C9rxqA5.png
+Category: Entertainment
+[44] V+ TVI
+------------------------------------------------
+IPTV URLs (1):
+  • https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/pt/e/ef/V%2BTVI_Logo.png
+Category: General
+[45] Way TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-hls.castr-cdn.com/5d714f6a0bd97874e36f14e4/live_057ee4605c1711efbd4135c4457c726c/index.fmp4.m3u8
+Logo: https://i.ibb.co/gdpvKpS/cropped-Asset-1.png
+Category: Religious

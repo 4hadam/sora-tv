@@ -1,0 +1,43 @@
+============================================================
+Uruguay (UY)
+============================================================
+Total Channels: 6
+Source: https://tv.garden/
+============================================================
+
+[1] Disney Channel Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://201.230.121.186:8000/play/a0fb/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg
+Category: Animation;Kids
+[2] National Geographic Latin America South
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.183.182.166:8000/play/a0vd/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png
+Category: Documentary
+[3] Ovacion TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
+Logo: https://i.imgur.com/7Xndgxk.png
+Category: Sports
+[4] Star Channel Latin America South
+------------------------------------------------
+IPTV URLs (1):
+  • http://181.188.216.5:18000/play/a0pm/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png
+Category: Movies;Series
+[5] Telemundo Internacional
+------------------------------------------------
+IPTV URLs (1):
+  • http://190.2.212.209:8050/play/a0oa
+Logo: https://i.imgur.com/j2O4ndp.png
+Category: General
+[6] VIVO TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.vivotv.uy/hls/stream.m3u8
+Logo: https://i.ibb.co/Drx6fgZ/Logo-white.png
+Category: Entertainment

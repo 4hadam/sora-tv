@@ -43,18 +43,18 @@ export default function TopNavbar({
           <a
             href="/"
             className="flex items-center"
-            aria-label="Home - sora.tv"
+            aria-label="Home - Sora tv"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 480 140"
               role="img"
-              aria-label="sora.tv logo Caros Soft Bold"
+              aria-label="Sora tv logo Caros Soft Bold"
               // 🔴 تم حذف التعديل على 'scale' الخاص بـ 'scrolled'
               className={`h-14 w-auto transition-transform duration-500 hover:scale-105`}
             >
               {/* ... (باقي محتوى الشعار SVG) ... */}
-              <desc>شعار sora.tv بخط Caros Soft Bold...</desc>
+              <desc>شعار Sora tv بخط Caros Soft Bold...</desc>
               <defs>
                 <linearGradient id="tvGradient" x1="0" y1="0" x2="1" y2="0">
                   <stop offset="0%" stopColor="#FF4B2B" />

@@ -1,0 +1,25 @@
+============================================================
+Cuba (CU)
+============================================================
+Total Channels: 3
+Source: https://tv.garden/
+============================================================
+
+[1] Pasiones
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvrfl04.tulix.tv/teleup-pasiones/mpegts
+Logo: https://i.imgur.com/BCWbGf9.png
+Category: Entertainment
+[2] Prensa Latina TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8192/index.m3u8
+Logo: https://i.imgur.com/jbm2S9O.jpg
+Category: News
+[3] Radio y Televisión Martí
+------------------------------------------------
+IPTV URLs (1):
+  • https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8
+Logo: https://i.imgur.com/J2ZMa4g.png
+Category: General

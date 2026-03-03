@@ -1,0 +1,145 @@
+============================================================
+Uzbekistan (UZ)
+============================================================
+Total Channels: 23
+Source: https://tv.garden/
+============================================================
+
+[1] BIZ Cinema
+------------------------------------------------
+IPTV URLs (1):
+  • https://fl.biztv.media/cinema_720_EMfSyXgoRdiIHgldXTZICucKTIeCKO/index.m3u8
+Logo: https://biztv.uz/static/media/biz-cinema.286b83dc.png
+Category: Movies
+[2] BIZ Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8
+Logo: https://i.ibb.co/DfsCJwk/Uz-biz-music-5462.jpg
+Category: Music
+[3] BIZ TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://fl.biztv.media/biz_tv_720_uni8jhub4h8fub4idejswh8dh3j94finbu4nidj39inwsj92in3d/index.m3u8
+Logo: https://biztv.uz/static/media/logo.5f993187.png
+Category: Entertainment
+[4] Bolajon
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1007/playlist.m3u8
+Logo: https://i.imgur.com/s7o0ifu.png
+Category: Kids
+[5] Dasturxon TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1206/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/APM2ej5.jpeg
+Category: General
+[6] Dunyo bo'ylab
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1006/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/KArB5U6.png
+Category: General
+[7] FTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1018/playlist.m3u8
+Logo: https://i.imgur.com/7lpISyN.jpg
+Category: Music
+[8] Kinoteatr
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/emH1BgC.png
+Category: Movies
+[9] Madaniyat va ma'rifat
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1005/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/eeNLXCP.png
+Category: General
+[10] Mahalla
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1013/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/GtABiJI.png
+Category: Undefined
+[11] Milliy
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1014/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/v4FBm26.png
+Category: General
+[12] MY5
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1217/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/bjlzu5k.png
+Category: Entertainment
+[13] Navo
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1008/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/7dZ64y9.png
+Category: General
+[14] O'zbekiston
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/QUIIhTD.png
+Category: General
+[15] O'zbekiston 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1011/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/VRFhKbw.png
+Category: News
+[16] O'zbekiston Tarixi
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1209/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/iTTd3Ir.png
+Category: Documentary
+[17] Qaraqalpaqstan
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1467/playlist.m3u8
+Logo: https://i.imgur.com/G3qrUJh.png
+Category: General
+[18] Renessans TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1221/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/cVlcqCX.png
+Category: General
+[19] Sevimli TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1017/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/iMwzRlr.png
+Category: Family
+[20] Toshkent
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1003/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/Z9R4nZg.png
+Category: General
+[21] UzReport TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/Bch2RHc.jpg
+Category: News
+[22] Yoshlar
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1002/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/s4xfUSx.png
+Category: General
+[23] Zo'r TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
+Logo: https://i.imgur.com/NuzyhVM.png
+Category: Entertainment;Music

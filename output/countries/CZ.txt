@@ -1,0 +1,169 @@
+============================================================
+Czech Republic (CZ)
+============================================================
+Total Channels: 27
+Source: https://tv.garden/
+============================================================
+
+[1] ČT 1
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/test_ct1_25p/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%C4%8CT1_logo_2012.svg/512px-%C4%8CT1_logo_2012.svg.png
+Category: General
+[2] ČT 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/test_ct2_25p/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%C4%8CT2_logo_2012.svg/512px-%C4%8CT2_logo_2012.svg.png
+Category: Documentary
+[3] ČT24
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/512px-%C4%8CT24_logo.png
+Category: News
+[4] ČT Sport
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/512px-%C4%8CT_sport_logo.png
+Category: Sports
+[5] ČT:D/ČT art
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/512px-%C4%8CT-D_logo.svg.png
+Category: Kids
+[6] Elektrika TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
+Logo: https://i.imgur.com/OLd5od5.png
+Category: Undefined
+[7] JČ1
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.jc1.cz/hls/jc1.m3u8
+Logo: https://i.imgur.com/AM8YtcV.png
+Category: General
+[8] Jihočeská televize
+------------------------------------------------
+IPTV URLs (1):
+  • https://vysilani.zaktv.cz/broadcast/hls/jtv/index.m3u8
+Logo: https://i.imgur.com/Hi8hZzl.png
+Category: General
+[9] Kino Barrandov
+------------------------------------------------
+IPTV URLs (1):
+  • http://83.167.253.107/hdmi1_ext
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/512px-Kino_Barrandov_logo.png
+Category: Movies
+[10] Minimax (576p)
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/test_minimax/playlist.m3u8
+Logo: https://i.imgur.com/WWOlm1x.png
+Category: Kids
+[11] Mňau TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca49f2417d90.streamlock.net/mnau/livestream/playlist.m3u8
+Logo: https://i.imgur.com/deVHJKS.png
+Category: Undefined
+[12] Óčko
+------------------------------------------------
+IPTV URLs (1):
+  • https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/512px-%C3%93%C4%8Dko_logo_2012.png
+Category: Music
+[13] Óčko Expres
+------------------------------------------------
+IPTV URLs (1):
+  • https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%C3%93%C4%8Dko_Expres_logo.png/512px-%C3%93%C4%8Dko_Expres_logo.png
+Category: Music
+[14] Óčko Gold
+------------------------------------------------
+IPTV URLs (1):
+  • https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8
+Logo: https://i.imgur.com/nrWNyLc.jpg
+Category: Music
+[15] OIK TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer05.low-latency.cz/oiktv/index.m3u8
+Logo: https://i.imgur.com/1mXxQ02.png
+Category: General
+[16] Plzeň TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8
+Logo: https://i.imgur.com/TxLKSqL.png
+Category: General
+[17] Polar2 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8
+Logo: https://i.imgur.com/hCPiMYZ.png
+Category: General
+[18] Polar TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.polar.cz/polar/polarlive-1/playlist.m3u8
+Logo: https://i.imgur.com/pTJHIX1.png
+Category: General
+[19] Prima
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/prima_avc_25p/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Prima_2013.png/512px-Prima_2013.png
+Category: Undefined
+[20] Prima Love (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/prima_love_avc_25p/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Prima_Love_logo_2018.png/512px-Prima_Love_logo_2018.png
+Category: Undefined
+[21] Retro Music Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+Logo: https://i.imgur.com/pyOjdZs.png
+Category: Music
+[22] RTM Plus (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.rtmplus.cz/live/1-playlist.m3u8
+Logo: https://i.imgur.com/RNdcP2J.png
+Category: Undefined
+[23] Slager Muzika
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-23.mazana.tv/slagrmuzika.m3u8s
+Logo: https://i.imgur.com/hKdXwrW.png
+Category: Music
+[24] Slager Original
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-13.mazana.tv/slagroriginal.m3u8s
+Logo: https://i.imgur.com/0YjeWcq.png
+Category: Music
+[25] TV Brno 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.polar.cz/tvbrno1/tvbrno1live-1/playlist.m3u8
+Logo: https://i.imgur.com/8Xm3WSn.png
+Category: General
+[26] ÚTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
+Logo: https://i.imgur.com/ulfeIwM.png
+Category: Undefined
+[27] Východočeská TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
+Logo: https://i.imgur.com/4Wwptd3.png
+Category: Undefined

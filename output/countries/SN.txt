@@ -1,0 +1,133 @@
+============================================================
+Senegal (SN)
+============================================================
+Total Channels: 21
+Source: https://tv.garden/
+============================================================
+
+[1] 2STV
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/2stv/playlist.m3u8
+Logo: https://i.imgur.com/WByVBZf.png
+Category: Culture
+[2] A2i Music (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
+Logo: https://i.imgur.com/Fykhzxh.jpg
+Category: Music
+[3] A2i Naija (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/A2iNaija/myStream/playlist.m3u8
+Logo: https://i.imgur.com/yq7ghPE.jpg
+Category: Education
+[4] A2i Religion (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/A2iReligion/myStream/playlist.m3u8
+Logo: https://i.imgur.com/54WrwyN.jpg
+Category: Religious
+[5] A2i TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
+Logo: https://i.imgur.com/YlDFir7.jpg
+Category: General
+[6] Amani TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://goccn.cloud/hls/amanitv/index.m3u8
+Logo: https://i.imgur.com/0cY4K7G.png
+Category: Culture
+[7] Chabiba TV (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://endour.net/hls/RUgLAPCbPdF5oPSTX2Hvl/index.m3u8
+Logo: https://i.imgur.com/qVTOklV.png
+Category: Religious
+[8] CNM TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/cnmtv/myStream/playlist.m3u8
+Logo: https://i.ibb.co/0cfdGKv/1630802325205.jpg
+Category: General
+[9] Diaspora 24 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo3.pro-fhi.net:3218/stream/play.m3u8
+Logo: https://i.imgur.com/4devfx1.png
+Category: Undefined
+[10] Louga TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/Mbacke/myStream/playlist.m3u8
+Logo: https://i.ibb.co/xXZ5kFy/unnamed.jpg
+Category: General
+[11] One Nation TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://endour.net/hls/One_nationtv/index.m3u8
+Logo: https://i.imgur.com/RGHbkZU.png
+Category: Culture
+[12] RTS 1
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/rts1/playlist.m3u8
+Logo: https://i.imgur.com/HHGktpF.png
+Category: General
+[13] RTS 2
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/rts2/playlist.m3u8
+Logo: https://i.imgur.com/YypHsF4.png
+Category: Entertainment
+[14] Sen TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/sentv/playlist.m3u8
+Logo: https://i.imgur.com/beVCugh.png
+Category: General
+[15] Seneweb TV [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo2.pro-fhi.net:3297/stream/play.m3u8
+Logo: https://i.imgur.com/i9P2qjs.png
+Category: General
+[16] SenJeunes TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/senjeunestv/myStream/playlist.m3u8
+Logo: https://i.imgur.com/MeCSPsI.jpg
+Category: General
+[17] Sunu Label TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3.acangroup.org:1929/publiclive/sunulabel/playlist.m3u8
+Logo: https://i.imgur.com/Ibp7IBk.jpeg
+Category: News
+[18] TeleMusik Senegal
+------------------------------------------------
+IPTV URLs (1):
+  • https://58c04fb1d143f.streamlock.net/rezopropartner_1_live/rezopropartner_1_live/playlist.m3u8
+Logo: https://i.imgur.com/dPAPLsd.png
+Category: Music
+[19] Tempo Afric TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamspace.live/hls/tempoafrictv/livestream.m3u8
+Logo: https://i.imgur.com/mggN4mS.jpg
+Category: News
+[20] TFM
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/tfm/playlist.m3u8
+Logo: https://i.imgur.com/TQWBlXn.png
+Category: General
+[21] Walf TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/walftv/playlist.m3u8
+Logo: https://i.imgur.com/IrBAqIJ.png
+Category: General

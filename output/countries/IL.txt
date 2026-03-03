@@ -1,0 +1,97 @@
+============================================================
+Israel (IL)
+============================================================
+Total Channels: 15
+Source: https://tv.garden/
+============================================================
+
+[1] Angel TV Hebrew
+------------------------------------------------
+IPTV URLs (1):
+  • https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8
+Logo: https://i.imgur.com/qKLEGU7.png
+Category: Religious
+[2] Channel 9 (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://50.7.231.221:8081/185/index.m3u8?wmsAuthSign=okad
+Logo: https://i.imgur.com/pttM3KQ.png
+Category: News
+[3] Hala TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.panet.com/edge/halaTV/playlist.m3u8
+Logo: https://i.imgur.com/028M4Ew.png
+Category: General
+[4] Hidabroot
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8
+Logo: https://i.imgur.com/CTH4Hu2.png
+Category: Religious
+[5] I24 News Arabic
+------------------------------------------------
+IPTV URLs (1):
+  • https://bcovlive-a.akamaihd.net/95116e8d79524d87bf3ac20ba04241e3/eu-central-1/5377161796001/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/512px-LOGO_i24NEWS.png
+Category: News
+[6] I24 News French
+------------------------------------------------
+IPTV URLs (1):
+  • https://bcovlive-a.akamaihd.net/41814196d97e433fb401c5e632d985e9/eu-central-1/5377161796001/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/512px-LOGO_i24NEWS.png
+Category: News
+[7] I24 News Hebrew
+------------------------------------------------
+IPTV URLs (1):
+  • https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/playlist.m3u8
+Logo: https://www.i24news.tv/images/favicon.png
+Category: News
+[8] Kabbalah for the People (Israel) (504p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge3.uk.kab.tv/live/tv66-heb-high/playlist.m3u8
+Logo: https://i.imgur.com/VxAHOgr.png
+Category: Religious
+[9] KAN 11 Israel
+------------------------------------------------
+IPTV URLs (1):
+  • https://kan11w.media.kan.org.il/hls/live/2105694/2105694/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/512px-Kan11Logo.svg.png
+Category: General
+[10] Kan Kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/512px-KanHinuchit.svg.png
+Category: Education
+[11] Knesset Channel (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
+Logo: https://i.imgur.com/QXB1jv8.png
+Category: Legislative
+[12] Makan 33
+------------------------------------------------
+IPTV URLs (1):
+  • https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
+Logo: https://i.imgur.com/RVtQTed.png
+Category: News
+[13] Relevant TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://6180c994cb835402.mediapackage.eu-west-1.amazonaws.com/out/v1/f1339272dd24416ca60b00e69075d783/index.m3u8
+Logo: https://i.imgur.com/jCZ5gFO.png
+Category: News
+[14] Reshet 13
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
+Logo: https://i.imgur.com/eFM3bTq.png
+Category: General
+[15] Shelanu TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://1247634592.rsc.cdn77.org/1247634592/playlist.m3u8
+Logo: https://i.imgur.com/UVz2Ojq.png
+Category: Religious

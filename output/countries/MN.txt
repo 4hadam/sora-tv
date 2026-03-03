@@ -1,0 +1,229 @@
+============================================================
+Mongolia (MN)
+============================================================
+Total Channels: 37
+Source: https://tv.garden/
+============================================================
+
+[1] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",AsianBox
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/AsianBOX/DASH-FTA/AsianBOX.mpd
+Logo: https://i.imgur.com/WAYZSgx.png
+Category: Entertainment
+[2] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Business",Bloomberg TV Mongolia HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/BloombergMon/DASH-FTA/BloombergMon.mpd
+Logo: https://i.imgur.com/OuogLHx.png
+Category: Business
+[3] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",C1
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/C1/DASH-FTA/C1.mpd
+Logo: https://i.imgur.com/v1mHG5x.png
+Category: General
+[4] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",Central TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Ekh_Oron/DASH-FTA/Ekh_Oron.mpd
+Logo: https://i.imgur.com/E9wAUrT.png
+Category: General
+[5] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",Channel 11
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Channel11/DASH-FTA/Channel11.mpd
+Logo: https://i.imgur.com/GztOajC.png
+Category: General
+[6] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Movies",Cinema
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/CinemaTV/DASH-FTA/CinemaTV.mpd
+Logo: https://i.imgur.com/yib6dM2.png
+Category: Movies
+[7] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",Dream TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Dreambox/DASH-FTA/Dreambox.mpd
+Logo: https://i.imgur.com/YPbvzgV.png
+Category: Entertainment
+[8] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="News",Eagle News HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Eagle/DASH-FTA/Eagle.mpd
+Logo: https://i.imgur.com/2oqXpve.jpg
+Category: News
+[9] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Education;Entertainment",Education
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Education/DASH-FTA/Education.mpd
+Logo: https://i.imgur.com/0m8t3vh.png
+Category: Education;Entertainment
+[10] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="News",ETV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/ETV/DASH-FTA/ETV.mpd
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/ETV_Mongolia_logo.png/512px-ETV_Mongolia_logo.png
+Category: News
+[11] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Gandan TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/GTV/DASH-FTA/GTV.mpd
+Logo: https://i.imgur.com/z18PSIo.png
+Category: Undefined
+[12] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Global TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/GlobalTV/DASH-FTA/GlobalTV.mpd
+Logo: https://i.imgur.com/Es5FX4z.png
+Category: Undefined
+[13] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Culture",Malchin TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Malchin/DASH-FTA/Malchin.mpd
+Logo: https://i.imgur.com/vCdEBZo.png
+Category: Culture
+[14] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",MN25
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MN25/DASH-FTA/MN25.mpd
+Logo: https://i.imgur.com/F3MMJMd.png
+Category: General
+[15] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",MNB
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB/DASH-FTA/MNB.mpd
+Logo: https://i.imgur.com/RdRd0to.png
+Category: General
+[16] MNB Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+Logo: https://i.imgur.com/z854PC3.png
+Category: Sports
+[17] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",MNB World
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
+Logo: https://i.imgur.com/PHlj84Q.png
+Category: General
+[18] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",MNB Монголын Мэдээ
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd
+Logo: https://i.imgur.com/KUvJzUD.png
+Category: Undefined
+[19] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="News",MNC
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/MNCTV/DASH-FTA/MNCTV.mpd
+Logo: https://i.imgur.com/gMVqbwU.png
+Category: News
+[20] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Movies",MovieBox
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Moviebox/DASH-FTA/Moviebox.mpd
+Logo: https://i.imgur.com/xeO1Zb4.png
+Category: Movies
+[21] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",NTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
+Logo: https://i.imgur.com/2JbqbPY.png
+Category: General
+[22] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",ONTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd
+Logo: https://i.imgur.com/EzODUBO.png
+Category: General
+[23] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Legislative",Parliament TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/Parlament/DASH-FTA/Parlament.mpd
+Logo: https://i.imgur.com/OD7YKuz.jpeg
+Category: Legislative
+[24] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",SBN
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/SBN/DASH-FTA/SBN.mpd
+Logo: https://i.imgur.com/E3fvpwn.png
+Category: General
+[25] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",Seven Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/TV7/HLS-FTA/TV7.m3u8
+Logo: https://i.imgur.com/9Ld5ATz.png
+Category: General
+[26] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Suld TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/SuldTV/DASH-FTA/SuldTV.mpd
+Logo: https://i.imgur.com/CnLxehv.png
+Category: Undefined
+[27] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",TenGer TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/VTV/DASH-FTA/VTV.mpd
+Logo: https://i.imgur.com/MmPvkcO.png
+Category: General
+[28] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",TM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/TM/DASH-FTA/TM.mpd
+Logo: https://i.imgur.com/Bza9r7U.png
+Category: General
+[29] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",TV4
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/TV4/DASH-FTA/TV4.mpd
+Logo: https://i.imgur.com/WSvUsxy.png
+Category: Undefined
+[30] TV5
+------------------------------------------------
+IPTV URLs (1):
+  • https://10st.vcast.im/MYASIATV/TV5/playlist.m3u8
+Logo: https://i.imgur.com/asGQfGN.png
+Category: General
+[31] TV5Monde France Belgique Suisse Monaco (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
+Logo: https://i.imgur.com/WmRbudc.png
+Category: General
+[32] TV5Monde France Belgium Switzerland Monaco HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/tv5mondefbs/browser-HLS8/tv5mondefbs.m3u8
+Logo: https://i.imgur.com/WmRbudc.png
+Category: General
+[33] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",TV8 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/TV8HD/DASH-FTA/TV8HD.mpd
+Logo: https://i.imgur.com/EguOdxW.png
+Category: General
+[34] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",TV9 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/TV9HD/DASH-FTA/TV9HD.mpd
+Logo: https://i.imgur.com/QFteAgd.png
+Category: General
+[35] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",UBS
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd
+Logo: https://i.imgur.com/dIRMYYd.png
+Category: General
+[36] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",Өлзий ТВ
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/UlziiTV/DASH-FTA/UlziiTV.mpd
+Logo: https://i.imgur.com/p7tsUTI.png
+Category: General
+[37] like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="General",Соён Гэгээрүүлэгч
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn4.skygo.mn/live/disk1/SoyonGegeeruulegch/DASH-FTA/SoyonGegeeruulegch.mpd
+Logo: https://i.imgur.com/iBZVvtW.png
+Category: General

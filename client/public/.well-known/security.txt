@@ -1,11 +1,11 @@
-Contact: security@sora.tv
-Security-Policy: https://sora.tv/security-policy
+Contact: security@Sora tv
+Security-Policy: https://Sora tv/security-policy
 Expires: 2026-12-31T23:59:59.000Z
 Preferred-Languages: en
-Canonical: https://sora.tv/.well-known/security.txt
+Canonical: https://Sora tv/.well-known/security.txt
 
-# Security Information for Sora.tv
-# Report security vulnerabilities to: security@sora.tv
+# Security Information for Sora tv
+# Report security vulnerabilities to: security@Sora tv
 # We take security seriously and will respond within 48 hours
 
 Acknowledgments: https://lsura.com/security-acknowledgments

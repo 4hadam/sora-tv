@@ -1,0 +1,115 @@
+============================================================
+Nicaragua (NI)
+============================================================
+Total Channels: 18
+Source: https://tv.garden/
+============================================================
+
+[1] Canal 4 (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://138.117.4.70:8075/Canal04_CooTelmnbv/playlist.m3u8
+Logo: https://i.imgur.com/nhgtZdt.png
+Category: News
+[2] Canal 6 Nicaragüense (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://138.117.4.70:8075/Canal06_CooTel/playlist.m3u8
+Logo: https://i.imgur.com/6BWAZdq.png
+Category: General
+[3] Canal 7 Boaco (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.amixtv.com/c7boaco/index.m3u8
+Logo: https://i.imgur.com/chXNX9k.jpeg
+Category: General
+[4] Canal 15 Nicaragüense (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cootv.cootel.com.ni:8095/Canal15_CooTel/playlist.m3u8
+Logo: https://i.imgur.com/DGBMuEs.png
+Category: Education
+[5] Canal Cvisión (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.cvision.live/cvision_stream.m3u8
+Logo: https://i.imgur.com/WUq3NlG.png
+Category: General
+[6] CDNN 23 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cootv.cootel.com.ni:8095/Canal23_CooTel/playlist.m3u8
+Logo: https://i.imgur.com/7CNzlB6.png
+Category: News
+[7] Escúchame Radio TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv1.transmissaodigital.com/pedro9800/pedro9800/playlist.m3u8
+Logo: https://i.imgur.com/gt6UvG8.png
+Category: Religious
+[8] JBN Canal 39 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hdbox.chunklistv.com/live?stream=jbn39
+Logo: https://i.imgur.com/vFi0FMZ.png
+Category: Religious
+[9] MegaBox (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hdbox.chunklistv.com/live?stream=megabox
+Logo: https://i.imgur.com/JqaW7Ei.png
+Category: Music
+[10] MTV Chontales (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://altair.hostingnica.net/hls/mtv_stream/index.m3u8
+Logo: https://i.imgur.com/zgUPYdv.png
+Category: General
+[11] Olam Metro TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://netzerstreaming.com:4433/hls/olammetro/index.m3u8
+Logo: https://i.imgur.com/dDZnyUA.jpeg
+Category: Religious
+[12] Radio Visión de Dios Stereo (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.tvcontrolcp.com:1936/8286/8286/playlist.m3u8
+Logo: https://i.imgur.com/ckY8DRW.jpg
+Category: Religious
+[13] Telenorte
+------------------------------------------------
+IPTV URLs (1):
+  • http://astrasvip.com:1935/Telenorte/Telenorte/playlist.m3u8
+Logo: https://i.imgur.com/rvxjAO6.png
+Category: General
+[14] TV45-3ABN Nicaragua (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
+Logo: https://i.imgur.com/sI0msrn.png
+Category: Religious
+[15] TVONE Nicaragua (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hdbox.chunklistv.com/live?stream=tvone
+Logo: https://i.imgur.com/FNk6rdz.png
+Category: Music
+[16] Viva TV Canal 30 San Juan de Río Coco [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.amixtv.com/vivatv/index.m3u8
+Logo: https://i.imgur.com/n0buXRa.jpeg
+Category: General
+[17] Vos TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://ott.streann.com:8080/loadbalancer/services/public/channels/59e60c4997381ef50d15c041/playlist.m3u8
+Logo: https://i.imgur.com/Lbi87xv.png
+Category: General
+[18] WTV Canal 20
+------------------------------------------------
+IPTV URLs (1):
+  • https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
+Logo: https://i.imgur.com/nb81xeU.png
+Category: Entertainment

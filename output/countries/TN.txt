@@ -1,0 +1,25 @@
+============================================================
+Tunisia (TN)
+============================================================
+Total Channels: 3
+Source: https://tv.garden/
+============================================================
+
+[1] Jawhara TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8
+Logo: https://i.imgur.com/mRSQ5bP.png
+Category: Music
+[2] Mosaique FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
+Logo: https://i.imgur.com/GDUykah.png
+Category: Music
+[3] StoryChannel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://136044159.r.cdnsun.net/storychannel.m3u8
+Logo: https://i.imgur.com/ZBV6xph.png
+Category: Culture

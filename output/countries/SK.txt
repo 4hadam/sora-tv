@@ -1,0 +1,253 @@
+============================================================
+Slovakia (SK)
+============================================================
+Total Channels: 41
+Source: https://tv.garden/
+============================================================
+
+[1] :Šport
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
+Logo: https://i.imgur.com/oAtcxNZ.png
+Category: Sports
+[2] :24
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
+Logo: https://i.imgur.com/tTCuczU.png
+Category: News
+[3] Dvojka STV2 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://n5.stv.livebox.sk/stv-tv/addfd31846e34200883cc2b4e9e6c855/stv2.smil/playlist.m3u8
+Logo: https://i.imgur.com/ft10wQn.png
+Category: Documentary
+[4] Jednotka STV1 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://n4.stv.livebox.sk/stv-tv/fe09ae603df84846978c9d960f699900/stv1.smil/playlist.m3u8
+Logo: https://i.imgur.com/aqVki9i.png
+Category: General
+[5] Kino Barrandov
+------------------------------------------------
+IPTV URLs (1):
+  • http://83.167.253.107/hdmi1_ext
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/512px-Kino_Barrandov_logo.png
+Category: Movies
+[6] LifeTv
+------------------------------------------------
+IPTV URLs (1):
+  • https://lifetv.mpks.sk/s.m3u8
+Logo: https://i.imgur.com/jO8kAY2.png
+Category: Religious
+[7] Minimax (576p)
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.15.19/live/test_minimax/playlist.m3u8
+Logo: https://i.imgur.com/WWOlm1x.png
+Category: Kids
+[8] MTR
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8
+Logo: https://www.mtr.sk/img/logo-mtr-0.png
+Category: General
+[9] Óčko
+------------------------------------------------
+IPTV URLs (1):
+  • https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/512px-%C3%93%C4%8Dko_logo_2012.png
+Category: Music
+[10] Raj TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ottst05.flexitv.sk/2827-tv-pc.m3u8
+Logo: https://i.imgur.com/CGckMyx.png
+Category: Undefined
+[11] Régió TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.geniusnet.sk:8081/regiotv/pl.m3u8
+Logo: https://i.imgur.com/WlF6tlZ.png
+Category: General
+[12] Retro Music Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+Logo: https://i.imgur.com/pyOjdZs.png
+Category: Music
+[13] Senzi
+------------------------------------------------
+IPTV URLs (1):
+  • http://lb.streaming.sk/senzi/stream/playlist.m3u8
+Logo: https://i.imgur.com/1qJMmBu.png
+Category: Undefined
+[14] Slager Muzika
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-23.mazana.tv/slagrmuzika.m3u8s
+Logo: https://i.imgur.com/hKdXwrW.png
+Category: Music
+[15] Slager Original
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-13.mazana.tv/slagroriginal.m3u8s
+Logo: https://i.imgur.com/0YjeWcq.png
+Category: Music
+[16] Televízia Močenok
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8
+Logo: https://i.imgur.com/psb8GxZ.png
+Category: General
+[17] Televízia OSEM
+------------------------------------------------
+IPTV URLs (1):
+  • http://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8
+Logo: https://i.imgur.com/Z7URrp1.png
+Category: Undefined
+[18] TV9
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash4.antik.sk/live/test_tv9/playlist.m3u8
+Logo: https://i.imgur.com/Sco4x8t.png
+Category: Undefined
+[19] TV Brezová
+------------------------------------------------
+IPTV URLs (1):
+  • http://95.105.193.219:88/hls/tvb.m3u8
+Logo: https://i.imgur.com/59LpYoF.png
+Category: General
+[20] TV Central
+------------------------------------------------
+IPTV URLs (1):
+  • https://arenasportslovakia.ddns.net/hls/cetv2.m3u8
+Logo: https://i.imgur.com/LqGT8o9.png
+Category: Undefined
+[21] TV DK (486p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://80.94.54.11:1935/live/dolnykubin1/playlist.m3u8
+Logo: https://i.imgur.com/qTOnPXe.png
+Category: Undefined
+[22] TV Liptov
+------------------------------------------------
+IPTV URLs (1):
+  • http://95.105.255.137:1935/tvturiec/tvliptov.stream/playlist.m3u8
+Logo: https://i.imgur.com/CkvB3af.png
+Category: General
+[23] TV LocAll
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv.geniusnet.sk:8081/localltv/pl.m3u8
+Logo: https://i.imgur.com/xN1CJol.png
+Category: Undefined
+[24] TV Lux (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.tvlux.sk/lux/ngrp:lux.stream_all/playlist.m3u8
+Logo: https://i.imgur.com/mAMyTkq.png
+Category: Undefined
+[25] TV Mistral
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash3.antik.sk/live/test_mistral_atktv/playlist.m3u8
+Logo: https://i.imgur.com/IOJ6rcb.jpeg
+Category: General
+[26] TV Myjava
+------------------------------------------------
+IPTV URLs (1):
+  • http://95.105.193.219:88/hls/tvm.m3u8
+Logo: https://i.imgur.com/9f9VmvF.png
+Category: General
+[27] TV Nitricka
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash4.antik.sk/live/test_nitricka/playlist.m3u8
+Logo: https://i.imgur.com/iwWyG1A.png
+Category: General
+[28] TV Nové Zámky (486p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://s1.media-planet.sk/live/novezamky/BratuMarian.m3u8
+Logo: https://i.imgur.com/jGZlnzT.png
+Category: General
+[29] TV NRSR (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8
+Logo: https://i.imgur.com/hsJsu3I.png
+Category: Legislative
+[30] TV Poprad (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://213.81.153.221:8080/poprad
+Logo: https://i.imgur.com/x6ZvOp6.png
+Category: General
+[31] TV Romana
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.7.11/live/test_tv_romana_web_player/playlist.m3u8
+Logo: https://i.imgur.com/r7avFBX.png
+Category: Undefined
+[32] TV Ružinov (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
+Logo: https://i.imgur.com/bUGuntH.png
+Category: Undefined
+[33] TV Sen
+------------------------------------------------
+IPTV URLs (1):
+  • http://95.105.193.219:88/hls/tvsen.m3u8
+Logo: https://i.imgur.com/ckm2oLD.png
+Category: General
+[34] TV Severka (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.7.11/live/test_severka_web_player/playlist.m3u8
+Logo: https://i.imgur.com/oQSee9S.png
+Category: Undefined
+[35] TV Skalica
+------------------------------------------------
+IPTV URLs (1):
+  • http://95.105.193.219:88/hls/tvs.m3u8
+Logo: https://i.imgur.com/GB8fMoJ.png
+Category: General
+[36] TV Stará Turá
+------------------------------------------------
+IPTV URLs (1):
+  • http://95.105.193.219:88/hls/tvst.m3u8
+Logo: https://i.imgur.com/kerkvRX.png
+Category: General
+[37] TV Vega (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://88.212.7.11/live/test_tv_vega_web_player/playlist.m3u8
+Logo: https://i.imgur.com/Qw3NeLA.png
+Category: Undefined
+[38] TV Vita
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash3.antik.sk/live/test_vita/playlist.m3u8
+Logo: https://i.imgur.com/Cx1GLbo.png
+Category: Culture
+[39] TVT
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8
+Logo: https://i.imgur.com/QG0iZlG.png
+Category: Undefined
+[40] VIO TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://slovanet-livestream.ceelabs.com:1935/live/VioTV.stream_transcoded/playlist.m3u8
+Logo: https://i.imgur.com/7EL3VZ5.png
+Category: Undefined
+[41] Zapadoslovenska TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8
+Logo: https://i.imgur.com/D72Y1IB.png
+Category: General

@@ -1,0 +1,270 @@
+============================================================
+Pakistan (PK)
+============================================================
+Total Channels: 44
+Source: https://tv.garden/
+============================================================
+
+[1] 92 News HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
+Logo: https://i.imgur.com/gp1Ao4s.jpeg
+Category: News
+[2] ABN News
+------------------------------------------------
+IPTV URLs (1):
+  • http://116.90.120.149:8000/play/a01r/index.m3u8
+Logo: https://www.lyngsat.com/logo/tv/aa/abn-news-pk.png
+Category: News
+[3] ABN Urdu
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediaserver.abnvideos.com/streams/abnurdu.m3u8
+Logo: https://i.imgur.com/Y9ScPIl.png
+Category: Religious
+[4] Aik News
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.primexsports.com/pnn/live/playlist.m3u8
+Logo: https://i.imgur.com/svPXoAP.png
+Category: News
+[5] ARY Musik
+------------------------------------------------
+IPTV URLs (1):
+  • https://arymusik.aryzap.com/3fd38b2c62d0c3bbd74aedabb533c03a/6459fa78/v1/01847ac7a4930b8ed5aa6ed04aba/01847ac8f5f70b8ed5aa6ed04abd/main.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/b/bb/ARY_Musik_logo.png
+Category: Music
+[6] aurLife HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://124.109.47.101/hls/stream1.m3u8
+Logo: https://i.imgur.com/GfWLn3O.jpg
+Category: General
+[7] City 41
+------------------------------------------------
+IPTV URLs (1):
+  • http://163.61.227.29:8000/play/a02r/index.m3u8
+Category: News
+[8] Discover Pakistan
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8
+Logo: https://i.imgur.com/IJH47fJ.png
+Category: Travel
+[9] Dunya News (INT Feed) (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
+Logo: https://i.imgur.com/1PbtW0y.png
+Category: News
+[10] Fazal TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn9.live247stream.com/punjabitvcanada/tv/playlist.m3u8
+Logo: https://i.imgur.com/c0fvKia.png
+Category: Religious
+[11] Filmax
+------------------------------------------------
+IPTV URLs (1):
+  • http://163.61.227.29:8000/play/a02o/index.m3u8
+Logo: https://i.imgur.com/eLmdZ6k.png
+Category: Movies
+[12] Filmazia
+------------------------------------------------
+IPTV URLs (1):
+  • http://163.61.227.29:8000/play/a02l/index.m3u8
+Logo: https://i.imgur.com/hpTCANa.png
+Category: Movies
+[13] Geo Tez (576i)
+------------------------------------------------
+IPTV URLs (1):
+  • https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
+Logo: https://geotez.tv/assets/front/images/tez_logo.png
+Category: News
+[14] God Stands TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[15] God Stands TV Arabic
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[16] God Stands TV Chinese
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[17] God Stands TV English
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[18] God Stands TV Hindi
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[19] God Stands TV Punjabi
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/PunjabiStreaming.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[20] God Stands TV Tagalog
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[21] God Stands TV Urdu
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.godstands.tv:5443/WebRTCApp/streams/UrduStreaming.m3u8
+Logo: https://i.imgur.com/EO6cYUI.png
+Category: Religious
+[22] Grace Network
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.live247stream.com/grace/tv/playlist.m3u8
+Logo: https://i.imgur.com/QSaZPJ4.png
+Category: Religious
+[23] HarPal Geo
+------------------------------------------------
+IPTV URLs (1):
+  • https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
+Logo: https://i.imgur.com/NX3vvAX.png
+Category: Culture
+[24] Humraaz TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn61.liveonlineservices.com/hls/humraaz.m3u8
+Logo: https://i.imgur.com/1Lc9t0D.png
+Category: News
+[25] Isaac TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.live247stream.com/isaac/tv/playlist.m3u8
+Logo: https://i.imgur.com/RHDbsiO.png
+Category: Religious
+[26] JooMusic
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
+Logo: https://i.imgur.com/KHuKQQL.png
+Category: Music
+[27] Joshua TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.live247stream.com/joshua/tv/playlist.m3u8
+Logo: https://i.imgur.com/x9xPR2h.png
+Category: Religious
+[28] Kay2 HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://163.61.227.29:8000/play/a038/index.m3u8
+Logo: https://i.imgur.com/CRKk0iP.png
+Category: General
+[29] King TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8
+Logo: https://i.imgur.com/dujrwRE.png
+Category: Religious
+[30] Lahore News (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8
+Logo: https://i.imgur.com/bQfQeEA.jpeg
+Category: News
+[31] Madani Channel English
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8
+Logo: https://i.imgur.com/Abi9j0A.png
+Category: Religious
+[32] Madani Channel Urdu
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.madanichannel.tv/static/streaming-playlists/hls/b9790f10-cb0d-4e30-82bf-84a756234e58/master.m3u8
+Logo: https://i.imgur.com/MitLeCJ.png
+Category: Religious
+[33] Minimax (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://116.90.120.149:8000/play/a01c/index.m3u8
+Logo: https://i.imgur.com/TJvf8vd.png
+Category: Kids
+[34] One Golf
+------------------------------------------------
+IPTV URLs (1):
+  • http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
+Logo: https://i.imgur.com/7JhaEW5.png
+Category: Sports
+[35] Peace TV Urdu
+------------------------------------------------
+IPTV URLs (1):
+  • https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8
+Logo: https://github.com/fawazahmed0/tiger/raw/master/peace/urdu.jpg
+Category: Religious
+[36] PMI TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.live247stream.com/pmi/tv/playlist.m3u8
+Logo: https://i.imgur.com/SfyCwXj.png
+Category: Undefined
+[37] Praise TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.live247stream.com/praise/tv/playlist.m3u8
+Logo: https://i.imgur.com/T9fIdLs.png
+Category: Undefined
+[38] Raavi TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://116.90.120.149:8000/play/a01f/index.m3u8
+Logo: https://i.imgur.com/Sdvg5h2.png
+Category: Undefined
+[39] See TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://116.90.120.149:8000/play/a01l/index.m3u8
+Logo: https://i.imgur.com/25atwRe.png
+Category: Undefined
+[40] Shine Star TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://f-tx-edge-87.christianworldmedia.com/shinetvpak2/mp4:shinetvpak2/playlist.m3u8
+Logo: https://i.imgur.com/I3lTIeN.png
+Category: Undefined
+[41] Sindh TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://mumt01.tangotv.in/SINDHTV/index.m3u8
+Logo: https://i.imgur.com/izpeOsx.png
+Category: Undefined
+[42] Such TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.primexsports.com/suchnews/live/playlist.m3u8
+Logo: https://i.imgur.com/yYMh3JJ.png
+Category: News
+[43] Ten Sports Pakistan
+------------------------------------------------
+IPTV URLs (1):
+  • http://121.91.61.106:8000/play/a04h/index.m3u8
+Logo: https://i.imgur.com/nnqpYNm.png
+Category: Sports
+[44] Zindagi TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8
+Logo: https://i.imgur.com/XBHvR5J.png
+Category: Undefined

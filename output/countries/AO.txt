@@ -1,0 +1,25 @@
+============================================================
+Angola (AO)
+============================================================
+Total Channels: 3
+Source: https://tv.garden/
+============================================================
+
+[1] KK TV Angola
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.manasat.com/ktv-angola/smil:ktv-angola.smil/playlist.m3u8
+Logo: https://i.imgur.com/jWOB0oU.png
+Category: Religious
+[2] Muzangala TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8
+Logo: https://i.imgur.com/fBeaJoS.png
+Category: Music
+[3] TV Zimbo
+------------------------------------------------
+IPTV URLs (1):
+  • https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
+Logo: https://i.imgur.com/SFD8CBh.png
+Category: General

@@ -1,0 +1,115 @@
+============================================================
+Belize (BZ)
+============================================================
+Total Channels: 18
+Source: https://tv.garden/
+============================================================
+
+[1] BBN TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/06-BBN/index.m3u8
+Logo: https://i.imgur.com/Hs988Ku.jpg
+Category: General
+[2] Belize Adventist Television Network
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer1.nexgen.bz/ATN/index.m3u8
+Logo: https://i.imgur.com/JV2BYDw.png
+Category: Religious
+[3] BHA TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/15-BHA/index.m3u8
+Logo: https://i.imgur.com/Nz5zM3H.png
+Category: Travel
+[4] Channel 7
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/07-CHANNEL7/index.m3u8
+Logo: https://i.imgur.com/bazepkM.png
+Category: General
+[5] Color Blind TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/12-CBTV/index.m3u8
+Logo: https://i.imgur.com/vlVZa7N.png
+Category: Entertainment
+[6] CTV3
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/03-CTVOW/index.m3u8
+Logo: https://i.imgur.com/8UlIKtS.png
+Category: News
+[7] Flex Studio Radio TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/fsradiotv/playlist.m3u8
+Logo: https://i.imgur.com/tZjqtxd.png
+Category: Music
+[8] Guadalupe Media
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer1.nexgen.bz/GUADALUPE_MEDIA/index.m3u8
+Logo: https://i.imgur.com/EfaOwRE.png
+Category: Religious
+[9] Hitz TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/13-HITZ/index.m3u8
+Logo: https://i.imgur.com/SbZgsDh.png
+Category: Music
+[10] Love Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/01-LOVE/index.m3u8
+Logo: https://i.imgur.com/nT3Wxr6.png
+Category: News
+[11] Max TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/14-MAX/index.m3u8
+Logo: https://i.imgur.com/TF4snV6.jpeg
+Category: Music
+[12] PGTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/16-PGTV/index.m3u8
+Logo: https://i.imgur.com/GwDoH4C.png
+Category: News
+[13] PlusTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/04-PLUS/index.m3u8
+Logo: https://i.imgur.com/76U55vI.png
+Category: General
+[14] The National Channel 10
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/10-TNC/index.m3u8
+Logo: https://i.imgur.com/j2SJ9tA.png
+Category: Entertainment
+[15] TNC Sports
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer1.nexgen.bz/TNC_SPORTS/index.m3u8
+Logo: https://i.imgur.com/jT2VFzA.jpeg
+Category: Sports
+[16] Vibes Media
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/09-POSVIBES/index.m3u8
+Logo: https://i.imgur.com/SQr4IX4.jpeg
+Category: General
+[17] WAVE TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/08-WAVE/index.m3u8
+Logo: https://i.imgur.com/V8Hfgis.jpg
+Category: Music
+[18] XTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamer2.nexgen.bz/02-KREM/index.m3u8
+Logo: https://i.imgur.com/zDDM5hP.png
+Category: General

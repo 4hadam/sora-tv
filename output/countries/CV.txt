@@ -1,0 +1,13 @@
+============================================================
+Cape Verde (CV)
+============================================================
+Total Channels: 1
+Source: https://tv.garden/
+============================================================
+
+[1] Radio TV Sal One
+------------------------------------------------
+IPTV URLs (1):
+  • https://lon.rtsp.me/r3ZnG6WN2HIRxPARhAirIQ/1713628621/hls/9QdykDAy.m3u8
+Logo: https://i.imgur.com/pCz7ifY.jpg
+Category: Music

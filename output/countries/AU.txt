@@ -1,0 +1,433 @@
+============================================================
+Australia (AU)
+============================================================
+Total Channels: 71
+Source: https://tv.garden/
+============================================================
+
+[1] 2GB Sydney
+------------------------------------------------
+IPTV URLs (1):
+  • https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
+Logo: https://i.ibb.co/jwM8DFG/2GB-1.png
+Category: News
+[2] 3AW Melbourne
+------------------------------------------------
+IPTV URLs (1):
+  • https://3awlive.akamaized.net/hls/live/2032295/3AW/index.m3u8
+Logo: https://i.imgur.com/Z4MdB0S.png
+Category: News
+[3] 6PR Perth
+------------------------------------------------
+IPTV URLs (1):
+  • https://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8
+Logo: https://i.imgur.com/Q9iCxg1.png
+Category: News
+[4] 9Gem (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://9now-livestreams.akamaized.net/hls/live/2008311/gem-syd/master.m3u8
+Logo: https://i.imgur.com/cwLzqaw.png
+Category: Entertainment
+[5] 9Go! (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://9now-livestreams.akamaized.net/hls/live/2008312/go-syd/master.m3u8
+Logo: https://i.imgur.com/RLijQI8.png
+Category: Entertainment;Kids
+[6] 9Life (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://9now-livestreams.akamaized.net/hls/live/2008313/life-syd/master.m3u8
+Logo: https://i.imgur.com/HlJOrGI.png
+Category: Lifestyle
+[7] 10 Bold Adelaide
+------------------------------------------------
+IPTV URLs (1):
+  • https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
+Logo: https://i.imgur.com/2xglh33.png
+Category: Lifestyle;Relax
+[8] ABC Entertains
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-me.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/512px-ABC_Entertains_logo.svg.png
+Category: Education;Kids
+[9] ABC Kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-kids.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512
+Category: Kids
+[10] ABC News
+------------------------------------------------
+IPTV URLs (1):
+  • https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+Logo: https://i.imgur.com/BrW7gk8.png
+Category: News
+[11] ABC TV ACT
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-act.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[12] ABC TV NSW
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-nsw.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[13] ABC TV NT
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-nt.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[14] ABC TV Plus
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-tv-plus.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png
+Category: Entertainment
+[15] ABC TV QLD
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-qld.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[16] ABC TV SA
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-sa.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[17] ABC TV TAS
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-tas.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[18] ABC TV VIC
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-vic.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[19] ABC TV WA
+------------------------------------------------
+IPTV URLs (1):
+  • https://c.mjh.nz/abc-wa.m3u8
+Logo: https://i.imgur.com/DPVQSjM.png
+Category: General
+[20] Adventure Earth
+------------------------------------------------
+IPTV URLs (1):
+  • https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/adventureearth_white.png
+Category: Documentary
+[21] Angel TV Australia
+------------------------------------------------
+IPTV URLs (1):
+  • https://janya-digimix.akamaized.net/vglive-sk-310787/australia/ngrp:angelaustralia_all/playlist.m3u8
+Logo: https://i.imgur.com/qKLEGU7.png
+Category: Religious
+[22] ausbiz TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
+Logo: https://i.imgur.com/8vGGdB0.png
+Category: Business
+[23] Autentic History
+------------------------------------------------
+IPTV URLs (1):
+  • https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentichistory_white.png
+Category: Documentary
+[24] Autentic Travel
+------------------------------------------------
+IPTV URLs (1):
+  • https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+Logo: https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png
+Category: Lifestyle
+[25] Bloomberg TV Australia
+------------------------------------------------
+IPTV URLs (1):
+  • https://bloomberg.com/media-manifest/streams/aus.m3u8
+Logo: https://i.imgur.com/OuogLHx.png
+Category: Business
+[26] C31 Melbourne
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8
+Logo: https://i.imgur.com/Ge1EutY.png
+Category: General
+[27] Channel 7 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://npc.cdn.7livecloud.io/hls/live/SYD1/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/512px-Seven_Network_logo.svg.png
+Category: General
+[28] Channel 9 Adelaide (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8
+Logo: https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png
+Category: General
+[29] Channel 9 Brisbane (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/bne/ch9/hls/r1/index.m3u8
+Logo: https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png
+Category: General
+[30] Channel 9 Perth (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/per/ch9/hls/r1/index.m3u8
+Logo: https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png
+Category: General
+[31] Channel 9 Sydney (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/syd/ch9/hls/r1/index.m3u8
+Logo: https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png
+Category: General
+[32] Channel 44
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8
+Logo: https://i.imgur.com/P2wUGh9.png
+Category: General
+[33] Cricket Gold
+------------------------------------------------
+IPTV URLs (1):
+  • https://d382r3rgbxdixq.cloudfront.net/scheduler/scheduleMaster/418.m3u8
+Logo: https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png
+Category: Sports
+[34] CTB Perth
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.ctbperth.net.au/hls/0/stream.m3u8
+Logo: https://i.imgur.com/VB8gtCy.jpeg
+Category: General
+[35] CTB Perth Movies
+------------------------------------------------
+IPTV URLs (1):
+  • https://movies.ctbperth.net.au/hls/stream.m3u8
+Logo: https://i.imgur.com/VB8gtCy.jpeg
+Category: Movies
+[36] Duna World
+------------------------------------------------
+IPTV URLs (1):
+  • http://146.59.85.40:89/dunaworld/index.m3u8
+Logo: https://i.imgur.com/uOBQJZS.png
+Category: General
+[37] ERT World
+------------------------------------------------
+IPTV URLs (1):
+  • https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png
+Category: General
+[38] Euronews French
+------------------------------------------------
+IPTV URLs (1):
+  • https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
+Logo: https://i.imgur.com/8t9mdg9.png
+Category: News
+[39] Euronews French HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
+Logo: https://i.imgur.com/8t9mdg9.png
+Category: News
+[40] Expo Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8
+Logo: https://i.imgur.com/2KzCShW.png
+Category: Shop
+[41] Folk Klub
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
+Logo: https://i.imgur.com/Seq7Od7.png
+Category: Music
+[42] FUEL TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
+Logo: https://i.imgur.com/I8mviBy.png
+Category: Sports
+[43] Hope Channel Australia
+------------------------------------------------
+IPTV URLs (1):
+  • https://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8
+Logo: https://i.imgur.com/8Zs7rDm.png
+Category: Religious
+[44] Horse & Country TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
+Logo: https://i.imgur.com/1x6zYZr.png
+Category: Outdoor
+[45] INTV Australia
+------------------------------------------------
+IPTV URLs (1):
+  • http://tv1.intv.mk:1935/live/intv/index.m3u8
+Logo: https://i.imgur.com/1nJl0Pv.png
+Category: Music
+[46] Juice TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://juicex.nz/hls/mystream.m3u8
+Logo: https://i.imgur.com/WaaaW0w.png
+Category: Music
+[47] Kordia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
+Logo: https://i.imgur.com/BQ0qWzX.png
+Category: Undefined
+[48] MIS Televizija (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8
+Logo: https://i.imgur.com/qvrNVFg.png
+Category: Culture
+[49] Mission Asia
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8
+Logo: https://i.imgur.com/B5mKwF6.png
+Category: Religious
+[50] Mr. Bean Animated
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png
+Category: Animation;Kids
+[51] PBC Tapesh TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.tapesh.tv/tapesh/playlist.m3u8
+Logo: https://i.imgur.com/50JzsmH.png
+Category: General
+[52] Racing.com
+------------------------------------------------
+IPTV URLs (1):
+  • https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+Logo: https://i.imgur.com/Q55HX1O.png
+Category: Sports
+[53] Shalom World Australia (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://broadcaster-1.cclouds.in/srt-3/channel3_abr/playlist.m3u8
+Logo: https://i.imgur.com/wnNd3b8.png
+Category: Religious
+[54] Shalom World Prayer
+------------------------------------------------
+IPTV URLs (1):
+  • https://broadcaster-1.cclouds.in/srt-4/channel4_abr/playlist.m3u8
+Logo: https://i.imgur.com/uUrTto3.png
+Category: Religious
+[55] Sky News Extra 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+Logo: https://i.imgur.com/ZsPb8nL.png
+Category: News
+[56] Sky News Extra 2 (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
+Logo: https://i.imgur.com/ZsPb8nL.png
+Category: News
+[57] Sky News Extra 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+Logo: https://i.imgur.com/ZsPb8nL.png
+Category: News
+[58] Sky Racing 1 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://skylivetab-new.akamaized.net/hls/live/2038780/sky1/index.m3u8
+Logo: https://i.imgur.com/Hf0EiaW.png
+Category: Sports
+[59] Sky Racing 2 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://skylivetab-new.akamaized.net/hls/live/2038781/sky2/index.m3u8
+Logo: https://i.imgur.com/TxQvFnQ.png
+Category: Sports
+[60] Sky Thoroughbred Central (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://skylivetab-new.akamaized.net/hls/live/2038782/stcsd/index.m3u8
+Logo: https://i.imgur.com/1SxIsnw.png
+Category: Sports
+[61] STAR International
+------------------------------------------------
+IPTV URLs (1):
+  • https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8
+Logo: https://i.imgur.com/6NUpxhr.png
+Category: Entertainment
+[62] Swamiji TV Australian (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8
+Logo: https://i.imgur.com/nrLcuzs.png
+Category: Outdoor
+[63] Tastemade Australia
+------------------------------------------------
+IPTV URLs (1):
+  • https://tmint-aus-samsungau.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/xP7Ehn8.png
+Category: Cooking
+[64] TBN Inspire
+------------------------------------------------
+IPTV URLs (1):
+  • https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8
+Logo: https://i.imgur.com/GSM0Pkr.png
+Category: Religious
+[65] The Pet Collective International
+------------------------------------------------
+IPTV URLs (1):
+  • https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/yH7n2dF.png
+Category: Family
+[66] ToonGoggles
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
+Logo: https://i.imgur.com/JMnxswq.png
+Category: Kids
+[67] TVSN
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8
+Logo: https://i.imgur.com/lmoAFm3.png
+Category: Shop
+[68] TVSN Beauty
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-tvsn.simplestreamcdn.com/live12/tvsnbeauty/bitrate1.isml/.m3u8
+Logo: https://i.imgur.com/lmoAFm3.png
+Category: Shop
+[69] TVSN Jewellery
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-tvsn.simplestreamcdn.com/live13/tvsnjewellery/bitrate1.isml/.m3u8
+Logo: https://i.imgur.com/lmoAFm3.png
+Category: Shop
+[70] WeatherSpy
+------------------------------------------------
+IPTV URLs (1):
+  • https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/GTxN2nH.png
+Category: Weather
+[71] Zee Bollymovies Australia (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg17931-zee-amg17931c8-samsung-au-8871.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512
+Category: Movies

@@ -1,0 +1,145 @@
+============================================================
+Egypt (EG)
+============================================================
+Total Channels: 23
+Source: https://tv.garden/
+============================================================
+
+[1] Aghapy TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg
+Category: Religious
+[2] Al Ghad TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
+Logo: https://i.imgur.com/ga6NXb9.png
+Category: News
+[3] Al Masriyah [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/almasriyah/browser-HLS8/almasriyah.m3u8
+Logo: https://i.ibb.co/Kx7wmXCQ/almasriya.png
+Category: General
+[4] ATVSat (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8
+Logo: https://i.imgur.com/pwM5txv.png
+Category: Religious
+[5] CBC
+------------------------------------------------
+IPTV URLs (1):
+  • https://flu.systemnet.tv/CBC/index.m3u8
+Logo: https://i.imgur.com/8apNaLP.png
+Category: General
+[6] CBC Drama
+------------------------------------------------
+IPTV URLs (1):
+  • https://flu.systemnet.tv/CBCDrama/index.m3u8
+Logo: https://i.imgur.com/I8YdakH.png
+Category: Series
+[7] CBC Sofra
+------------------------------------------------
+IPTV URLs (1):
+  • https://flu.systemnet.tv/CBCSofra/index.m3u8
+Logo: https://i.imgur.com/YAdk2WR.png
+Category: Lifestyle
+[8] Coptic TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5aafcc5de91f1.streamlock.net/ctvchannel.tv/ctv.smil/playlist.m3u8
+Logo: https://www.ctvchannel.tv/images/CTV-logo-white.png
+Category: Religious
+[9] El Radio 9090 FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://9090video.mobtada.com/hls/stream.m3u8
+Logo: https://www.9090.fm/images/logo.png
+Category: Music
+[10] Elbeshara GTV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
+Logo: https://i.imgur.com/b0Wx7pE.png
+Category: Religious
+[11] Huda TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8
+Logo: https://i.imgur.com/1UUjU26.png
+Category: Religious
+[12] Koogi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
+Logo: https://i.imgur.com/zojMTP9.png
+Category: Kids;Religious
+[13] MBC 1 Egypt
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
+Logo: https://i.imgur.com/CiA3plN.png
+Category: General
+[14] MBC Masr
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
+Logo: https://i.imgur.com/o2elx0u.png
+Category: General
+[15] MBC Masr 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
+Logo: https://i.imgur.com/KHo7Gtn.png
+Category: General
+[16] MBC Masr Drama
+------------------------------------------------
+IPTV URLs (1):
+  • https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
+Logo: https://media0070.elcinema.com/tvguide/1399_1.png
+Category: Series
+[17] Mekameleen TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
+Logo: https://i.imgur.com/q7iVchl.png
+Category: News
+[18] Melody Hits
+------------------------------------------------
+IPTV URLs (1):
+  • https://mumt03.tangotv.in/MELODYHITS/index.m3u8
+Logo: https://i.imgur.com/OOMkVrU.png
+Category: Music
+[19] Mix Hollywood
+------------------------------------------------
+IPTV URLs (1):
+  • https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
+Logo: https://i.imgur.com/1ENdbZn.png
+Category: Movies
+[20] NogoumFMTV (672p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://nogoumtv.nrpstream.com/hls/stream.m3u8
+Logo: https://i.imgur.com/krp3kgv.png
+Category: Music
+[21] PNC Drama
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/master.m3u8?ads.vf=xdliEBYtdWS
+Logo: https://i.imgur.com/Hg34mg3.png
+Category: Series
+[22] Rotana Cinema Egypt (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.imgur.com/dGlKoLW.png
+Category: Movies
+[23] Watan TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
+Logo: https://i.imgur.com/pZyKaUH.png
+Category: General

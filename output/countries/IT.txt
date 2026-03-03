@@ -1,0 +1,1602 @@
+============================================================
+Italy (IT)
+============================================================
+Total Channels: 266
+Source: https://tv.garden/
+============================================================
+
+[1] 7 RadioVisione
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8
+Logo: https://radio7note.com/img/favicon/android-icon-192x192.png
+Category: Music
+[2] 7 YOU & ME
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream10.xdevel.com/video0s977798-2239/stream/playlist.m3u8
+Logo: https://i.imgur.com/Rte2K3x.png
+Category: Music
+[3] 12 TV Parma (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8
+Logo: https://i.imgur.com/mBYxWOg.png
+Category: General
+[4] 20 Mediaset [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(lb)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/512px-20_Mediaset_2018.svg.png
+Category: Entertainment
+[5] 27 TwentySeven [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live2.msf.cdn.mediaset.net/content/hls_h0_cls_vos/live/channel(ts)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/512px-Twentyseven_logo.svg.png
+Category: Movies;Series
+[6] 51 Radio TV (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
+Logo: https://www.51news.it/images/loghi/logo_tv_radio_51news.png
+Category: Music
+[7] 70-80 TV (1080P)
+------------------------------------------------
+IPTV URLs (1):
+  • https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
+Logo: https://i.imgur.com/y4kNV3Q.png
+Category: Music
+[8] 111 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8
+Logo: https://i.imgur.com/kVREx1Q.png
+Category: General
+[9] A2i TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
+Logo: https://i.imgur.com/YlDFir7.jpg
+Category: General
+[10] ACI Sport TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+Logo: https://i.imgur.com/U8cHMOt.png
+Category: Sports
+[11] Adnkronos
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8
+Logo: https://i.imgur.com/mEoDAf1.png
+Category: News
+[12] Alma TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.0.207.99:1935/AlmaTv/AlmaTv/playlist.m3u8
+Logo: https://i.imgur.com/MfFOnJp.png
+Category: Lifestyle
+[13] Alto Adige TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8
+Logo: https://i.imgur.com/yt7JJrn.png
+Category: General
+[14] Antenna 2 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8
+Logo: https://i.imgur.com/kNrzk3X.png
+Category: General
+[15] Antenna Sud
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.antennasudwebtv.it:9443/hls/vod.m3u8
+Logo: https://i.imgur.com/Sf0bA4P.png
+Category: General
+[16] Antenna Sud Extra
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.antennasudwebtv.it:9443/hls/vod92.m3u8
+Logo: https://i.imgur.com/kiCcHzc.png
+Category: General
+[17] Antenna Tre Veneto (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d8c0cee6f3d.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8
+Category: General
+[18] Aurora Arte
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
+Logo: https://i.imgur.com/Y1Yq3iV.png
+Category: Culture
+[19] Azzurra TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ed05.top-ix.org/avtvlive/azzurra/streaming/playlist.m3u8
+Logo: https://i.imgur.com/qWIZNEc.png
+Category: General
+[20] BeJoy.kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8
+Logo: https://bejoy.kids/wp-content/uploads/2025/09/Logo_Bejoy.png
+Category: Kids
+[21] Bergamo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8
+Logo: https://i.imgur.com/Np3RaKv.png
+Category: General
+[22] Bom Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
+Logo: https://bomchannel.it/wp-content/uploads/2025/02/Tavola-disegno-1-768x432.png
+Category: General
+[23] CafeTV24
+------------------------------------------------
+IPTV URLs (1):
+  • https://srvx1.selftv.video/cafe/live/playlist.m3u8
+Logo: https://i.imgur.com/SRFzjja.png
+Category: Undefined
+[24] Calabria TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8
+Logo: https://i.imgur.com/noTgJJp.png
+Category: General
+[25] Camera dei Deputati (via RR)
+------------------------------------------------
+IPTV URLs (1):
+  • https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8
+Logo: https://i.imgur.com/hv4zi9N.png
+Category: Legislative
+[26] Canale 2 Altamura (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8
+Logo: https://i.imgur.com/7XXdN5T.png
+Category: General
+[27] Canale 5 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/512px-Canale_5_-_2018_logo.svg.png
+Category: Entertainment
+[28] Canale 5 HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/512px-Canale_5_-_2018_logo.svg.png
+Category: Entertainment
+[29] Canale 7
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/canale7/canale7/playlist.m3u8
+Logo: https://canale7.tv/assets/front/img/fb_logo.jpg
+Category: General
+[30] Canale 8
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8
+Logo: https://i.imgur.com/xwYmFgj.png
+Category: Undefined
+[31] Canale 10 (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://37.187.142.147:1935/ch10live/high.stream/playlist.m3u8
+Logo: https://i.imgur.com/8Pay0Vv.png
+Category: General
+[32] Canale 21 Extra
+------------------------------------------------
+IPTV URLs (1):
+  • https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S42170132/sT6C3LFaD1iA/playlist.m3u8
+Logo: https://i.imgur.com/Jy8lMOg.png
+Category: General
+[33] CarinaTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://samson.streamerr.co:8081/carinatv/tracks-v1a1/playlist.m3u8
+Logo: https://i.imgur.com/ANGD7gv.png
+Category: Undefined
+[34] Casa Italia 53
+------------------------------------------------
+IPTV URLs (1):
+  • https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
+Logo: https://i.imgur.com/X8BI1Md.png
+Category: Shop
+[35] CG Entertainment
+------------------------------------------------
+IPTV URLs (1):
+  • https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/XeWzy7e.png
+Category: Entertainment
+[36] Cine 34 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cine34_logo.svg/512px-Cine34_logo.svg.png
+Category: Movies
+[37] Class CNBC
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/classcnbc.m3u8
+Logo: https://i.imgur.com/3Ei5VHa.png
+Category: Business
+[38] Class TV Moda
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/classtvmoda.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Class-tv-moda.png/512px-Class-tv-moda.png
+Category: Lifestyle
+[39] Company TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
+Logo: https://i.imgur.com/ccdwsWj.png
+Category: Music
+[40] Cusano Italia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8
+Logo: https://i.imgur.com/fOluzuE.png
+Category: General
+[41] Deejay TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
+Logo: https://i.imgur.com/YV27Chs.png
+Category: General
+[42] DI.TV 80
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
+Logo: https://i.imgur.com/2AqKAMy.png
+Category: General
+[43] Disney Channel (576p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg
+Category: Kids
+[44] Donna TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8
+Logo: https://i.imgur.com/39cSNHs.png
+Category: Series
+[45] Elive TV Brescia (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
+Logo: https://i.imgur.com/gZxjLph.png
+Category: General
+[46] Entella TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8
+Logo: https://i.imgur.com/pGJcMmB.png
+Category: General
+[47] Esperia TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/8/81/ESPERIATV18_verde.png
+Category: General
+[48] Etna Espresso Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8
+Logo: https://i.imgur.com/lSI5QgV.png
+Category: News
+[49] èTv Marche
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8
+Logo: https://i.imgur.com/U6OW577.png
+Category: News
+[50] èTv Rete 7
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.ipstream.it/etv/etv.stream/playlist.m3u8
+Logo: https://i.imgur.com/xYVI5OC.png
+Category: News
+[51] Euro TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
+Logo: https://i.imgur.com/HFWWzKT.png
+Category: Undefined
+[52] Failarmy
+------------------------------------------------
+IPTV URLs (1):
+  • https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/VIpQJxL.png
+Category: Comedy
+[53] Fano TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5cbd3bc28341f.streamlock.net:444/fanotv_live/_definst_/43DA-3923-9C72-4E9F/playlist.m3u8
+Logo: https://i.imgur.com/rN6h7XU.png
+Category: General
+[54] FIFA+ Italy
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png
+Category: Sports
+[55] FM ITALIA
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
+Logo: https://i.imgur.com/54CO2u9.png
+Category: Music
+[56] Giornale Radio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
+Logo: https://i.imgur.com/2Y5qiao.png
+Category: News
+[57] Giovanni Paolo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://media2021.rtvweb.com/giovannipaolotv/web/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/gg/giovanni-paolo-tv-it.png
+Category: Religious
+[58] GM24
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.softwarecreation.it/GM24/GM24/playlist.m3u8
+Logo: https://i.imgur.com/PoXd0su.png
+Category: Shop
+[59] GO-TV Canale 163
+------------------------------------------------
+IPTV URLs (1):
+  • https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
+Logo: https://i.imgur.com/11V0QSp.png
+Category: General
+[60] Gold TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
+Logo: https://i.imgur.com/Yzc47k9.png
+Category: Entertainment
+[61] Gold TV Sat
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.softwarecreation.it/GoldTvSat/GoldTvSat/playlist.m3u8
+Logo: https://i.imgur.com/gQzNIg5.png
+Category: Entertainment
+[62] GRP VERATV
+------------------------------------------------
+IPTV URLs (1):
+  • https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5_output_0.m3u8
+Logo: https://i.imgur.com/jasSHXJ.png
+Category: General
+[63] Horse TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
+Logo: https://i.imgur.com/nK4UUX4.png
+Category: Sports
+[64] Icaro TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
+Logo: https://i.imgur.com/nWBWzNy.png
+Category: General
+[65] INWILD (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg00861-amg00861c7-firetv-us-4725.playouts.now.amagi.tv/playlist.m3u8
+Logo: https://jiotvimages.cdn.jio.com/dare_images/images/Inwild.png
+Category: Outdoor;Shop
+[66] Iris [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ki)/index.m3u8
+Logo: https://i.imgur.com/ZLnSLh4.png
+Category: Entertainment
+[67] Italia 1 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/512px-Italia_1_logo.svg.png
+Category: General
+[68] Italia 1 HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/512px-Italia_1_logo.svg.png
+Category: General
+[69] Italia 2 (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/512px-Logo_Italia2.svg.png
+Category: Entertainment
+[70] Italia 2 TV (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8
+Logo: https://i.imgur.com/TDSgG28.png
+Category: Undefined
+[71] Italia 7
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.0.207.99:1935/italia7/italia7/playlist.m3u8
+Logo: https://i.imgur.com/xc0kUHk.png
+Category: Undefined
+[72] Italian Fishing TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://fms.premio.link/fishingtv/playlist.m3u8
+Logo: https://i.imgur.com/qrn6tUO.png
+Category: Outdoor
+[73] Iunior TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
+Logo: https://i.imgur.com/FBOJnfT.png
+Category: Kids
+[74] Juwelo Italia
+------------------------------------------------
+IPTV URLs (1):
+  • https://sdn-global-live-streaming-packager-cache.3qsdn.com/7841/7841_264_live.m3u8
+Logo: https://i.imgur.com/T3r1khc.png
+Category: Shop
+[75] Kiss Kiss Napoli TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8
+Logo: https://i.imgur.com/RsGiBwE.png
+Category: Music
+[76] Kiss Kiss TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8
+Logo: https://i.imgur.com/ja6c2YZ.png
+Category: Music
+[77] L'altro Corriere TV (720P)
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.cp.ets-sistemi.it:1936/laltrocorriere-tv/laltrocorriere-tv/playlist.m3u8
+Logo: https://i.imgur.com/05YWVCq.png
+Category: News
+[78] La5 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ka)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/512px-La5_Mediaset.svg.png
+Category: Entertainment
+[79] La7 Cinema (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
+Logo: https://i.imgur.com/khPweok.png
+Category: Undefined
+[80] LA7d
+------------------------------------------------
+IPTV URLs (1):
+  • https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
+Logo: https://i.imgur.com/sM0A3GD.png
+Category: General
+[81] LA7 HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/512px-LA7_-_Logo_2011.svg.png
+Category: General
+[82] La C TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8
+Logo: https://i.imgur.com/TF4LKp0.png
+Category: General
+[83] La TR3 Marsala
+------------------------------------------------
+IPTV URLs (1):
+  • https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
+Logo: https://i.imgur.com/R4sqZQu.png
+Category: General
+[84] LaC News 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
+Logo: https://www.omnys.com/media/news/lac-news24-icona.png
+Category: News
+[85] Lazio TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://151.0.207.99:1935/live/LAZIOTV12/playlist.m3u8
+Logo: https://i.imgur.com/TNLD9yD.png
+Category: General
+[86] Le Cronache TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://77.68.40.210:8888/hls/cronache.m3u8
+Logo: https://i.imgur.com/d8ziiEJ.png
+Category: General
+[87] Lira TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5d79ae45bc63b.streamlock.net/Liratv/Liratv/playlist.m3u8
+Logo: https://i.imgur.com/sC9ELuY.jpg
+Category: News
+[88] Luna TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/lunatv/lunatv/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/ll/luna-tv-it.png
+Category: General
+[89] m2o TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Radio_m2o_-_Logo_2019.svg/512px-Radio_m2o_-_Logo_2019.svg.png
+Category: Music
+[90] MadeinBO TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
+Logo: https://i.imgur.com/47X44DD.png
+Category: Sports
+[91] Maria Vision
+------------------------------------------------
+IPTV URLs (1):
+  • https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:CHANNEL_2/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/mm/maria-plus-vision-italia-mx-it.png
+Category: Religious
+[92] Mediaset Extra [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kq)/index.m3u8
+Logo: https://i.imgur.com/G51Lvah.png
+Category: General
+[93] Mediaset Italia [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(i2)/index.m3u8
+Logo: https://i.imgur.com/F4gyqhw.png
+Category: General
+[94] MediterraniaTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59bb40cf810aa.streamlock.net:4443/streamingvincente/streamingvincente/playlist.m3u8
+Logo: https://i.imgur.com/PJbXCoe.png
+Category: General
+[95] Medjugorje Italia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/mm/medjugorje_italia_tv_ba.png
+Category: Religious
+[96] Minformo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5db313b643fd8.streamlock.net/MinformoTV/MinformoTV/playlist.m3u8
+Logo: https://i.imgur.com/9Oq6fLw.png
+Category: News
+[97] Nautical Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
+Logo: https://i.imgur.com/2ByDyzL.png
+Category: Sports
+[98] NTN
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
+Logo: https://i.imgur.com/AW5fJwa.png
+Category: General
+[99] Odeon 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.softwarecreation.it/Odeon/Odeon/playlist.m3u8
+Logo: https://i.imgur.com/Ho7SdXY.png
+Category: General
+[100] Onda Novara TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://585b674743bbb.streamlock.net/9006/9006/master.m3u8
+Logo: https://i.imgur.com/DTxhOhT.png
+Category: General
+[101] Onda TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5926fc9c7c5b2.streamlock.net/9040/9040/chunklist_w1373908906.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/it/thumb/9/99/Ondatv.jpg/512px-Ondatv.jpg
+Category: General
+[102] Orler TV (420p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://w1.mediastreaming.it/orlertv/livestream/playlist.m3u8
+Logo: https://i.imgur.com/Ia7iULa.png
+Category: Culture
+[103] Otto Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://ottop-live-meride.akamaized.net/hls/live/2039996/ch1/playlist.m3u8
+Logo: https://i.imgur.com/zxdwM4f.png
+Category: General
+[104] Paci Contemporary Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/pacicontemporarychannel/pacicontemporarychannel/playlist.m3u8
+Logo: https://i.imgur.com/RtOvD2M.png
+Category: Culture
+[105] Padre Pio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/a/a4/Padre_Pio_TV.jpg
+Category: Religious
+[106] Paradise TV [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8
+Logo: https://i.imgur.com/OKhpyWr.png
+Category: Undefined
+[107] Parole di Vita
+------------------------------------------------
+IPTV URLs (1):
+  • https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
+Logo: https://i.imgur.com/vkFlXbR.png
+Category: Religious
+[108] Passione Lotto
+------------------------------------------------
+IPTV URLs (1):
+  • http://185.63.52.103:8080/hls/passionelotto/1_2/index.m3u8
+Logo: https://i.imgur.com/jYmy4G5.png
+Category: Entertainment
+[109] Peer TV Alto Adige
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.peer.biz/live/peertv-it.m3u8
+Logo: https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png
+Category: Outdoor;Travel
+[110] Peer TV South Tyrol
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.peer.biz/live/peertv-en.m3u8
+Logo: https://www.peer.biz/peertv-iptv/peer-tv-south-tyrol.png
+Category: Outdoor;Travel
+[111] Peer TV Südtirol
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.peer.biz/live/peertv.m3u8
+Logo: https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png
+Category: Outdoor;Travel
+[112] Prima TV Sicilia
+------------------------------------------------
+IPTV URLs (1):
+  • https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8
+Logo: https://i.imgur.com/HE9c8Sk.png
+Category: General
+[113] PrimaFree
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8
+Logo: https://irp.cdn-website.com/184bfd6a/MOBILE/jpg/477.jpg
+Category: General
+[114] PrimAntenna TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8
+Logo: https://i.imgur.com/4Bx2321.png
+Category: General
+[115] Primocanale (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
+Logo: https://i.imgur.com/eunZ2Sa.png
+Category: Undefined
+[116] Promovideo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8
+Logo: https://i.imgur.com/eKpS5Ck.png
+Category: General
+[117] Quarto Canale Flegreo
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8
+Logo: https://i.imgur.com/XfNSWp0.png
+Category: General
+[118] QVC Italia
+------------------------------------------------
+IPTV URLs (1):
+  • https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
+Logo: https://i.imgur.com/6TWUVrh.png
+Category: Shop
+[119] Radio 51 TV (480p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://178.32.140.155/canale51/canale51/playlist.m3u8
+Logo: https://i.imgur.com/UupkBt6.png
+Category: Undefined
+[120] Radio Birikina TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8
+Logo: https://i.imgur.com/CFAx6m5.png
+Category: Undefined
+[121] Radio Freccia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
+Logo: https://i.imgur.com/RxeRlar.png
+Category: Music
+[122] Radio Ibiza TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5929b138b139d.streamlock.net/RadioIbizaTV/livestream/playlist.m3u8
+Logo: https://i.imgur.com/KfFqYQi.png
+Category: Undefined
+[123] Radio Iglesias (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8
+Logo: https://i.imgur.com/2OXQpZM.png
+Category: Undefined
+[124] Radio Iglesias Sardegna (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8
+Logo: https://i.imgur.com/KDtVpLl.png
+Category: Undefined
+[125] Radio Number One (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8
+Logo: https://i.imgur.com/8cpuaG5.png
+Category: Undefined
+[126] Radio Piter Pan TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8
+Logo: https://i.imgur.com/hbqVWV4.png
+Category: Music
+[127] Radio Roma News
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radioromanews.m3u8
+Logo: https://i.imgur.com/E2BhLK4.png
+Category: News
+[128] Radio Roma Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radioromatv.m3u8
+Logo: https://i.imgur.com/E2BhLK4.png
+Category: Undefined
+[129] Radio Studio Delta TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8
+Logo: https://i.imgur.com/xJqVOpn.png
+Category: Undefined
+[130] Radio Taormina Sicilia (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream2.xdevel.com/video1s3-7/stream/playlist.m3u8
+Logo: https://i.imgur.com/SrhtocV.png
+Category: Undefined
+[131] Radio Zeta TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
+Logo: https://i.imgur.com/K2xLMin.png
+Category: Music
+[132] Rai 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png
+Category: Undefined
+[133] Rai 1 HD (720p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png
+Category: Undefined
+[134] Rai 2 (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/512px-Rai_2_-_Logo_2016.svg.png
+Category: Undefined
+[135] Rai 2 HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/512px-Rai_2_-_Logo_2016.svg.png
+Category: Undefined
+[136] Rai 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/512px-Rai_3_-_Logo_2016.svg.png
+Category: Undefined
+[137] Rai 4
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966
+Logo: https://i.imgur.com/sEY21rg.png
+Category: Undefined
+[138] RAI 4K [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
+Logo: https://i.imgur.com/O1K1fv4.png
+Category: Undefined
+[139] Rai 5
+------------------------------------------------
+IPTV URLs (1):
+  • http://78.130.250.2:8023/play/a04o/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/512px-Rai_5_-_Logo_2017.svg.png
+Category: Undefined
+[140] Rai Gulp
+------------------------------------------------
+IPTV URLs (1):
+  • http://78.130.250.2:8023/play/a04m/index.m3u8
+Logo: https://i.imgur.com/irAhPJM.png
+Category: Undefined
+[141] Rai Gulp HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
+Logo: https://i.imgur.com/irAhPJM.png
+Category: Undefined
+[142] Rai Movie (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002
+Logo: https://i.imgur.com/0FjxXU9.png
+Category: Movies
+[143] Rai News 24
+------------------------------------------------
+IPTV URLs (1):
+  • http://78.130.250.2:8023/play/a04l/index.m3u8
+Logo: https://i.imgur.com/n2u57y3.png
+Category: News
+[144] Rai News 24 HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
+Logo: https://i.imgur.com/n2u57y3.png
+Category: News
+[145] Rai Premium (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992
+Logo: https://i.imgur.com/40g5Urz.png
+Category: Undefined
+[146] Rai Scuola
+------------------------------------------------
+IPTV URLs (1):
+  • http://78.130.250.2:8023/play/a04h/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/512px-Rai_Scuola_-_Logo_2017.svg.png
+Category: Education
+[147] Rai Scuola HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/512px-Rai_Scuola_-_Logo_2017.svg.png
+Category: Education
+[148] Rai Sport HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
+Logo: https://i.imgur.com/6PEevOM.png
+Category: Sports
+[149] Rai Storia (576p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/512px-Rai_Storia_-_Logo_2017.svg.png
+Category: Undefined
+[150] Rai Storia HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/512px-Rai_Storia_-_Logo_2017.svg.png
+Category: Undefined
+[151] Rai Yoyo
+------------------------------------------------
+IPTV URLs (1):
+  • http://78.130.250.2:8023/play/a04d/index.m3u8
+Logo: https://i.imgur.com/9gCxiDy.png
+Category: Kids
+[152] Rakuten TV Action Movies Italy
+------------------------------------------------
+IPTV URLs (1):
+  • https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[153] Rakuten TV Comedy Movies Italy
+------------------------------------------------
+IPTV URLs (1):
+  • https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[154] Rakuten TV Drama Movies Italy
+------------------------------------------------
+IPTV URLs (1):
+  • https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[155] Rakuten TV Family Movies Italy
+------------------------------------------------
+IPTV URLs (1):
+  • https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Family;Movies
+[156] Rakuten TV Top Movies Italy
+------------------------------------------------
+IPTV URLs (1):
+  • https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
+Logo: https://i.imgur.com/Meew6eX.png
+Category: Movies
+[157] RDS Social TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8
+Logo: https://i.imgur.com/bxGvE8C.png
+Category: Undefined
+[158] ReggioTV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
+Logo: https://i.imgur.com/cEwJkRV.png
+Category: Undefined
+[159] Rete 4 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(r4)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png
+Category: Undefined
+[160] Rete 4 HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png
+Category: Undefined
+[161] Rete 8
+------------------------------------------------
+IPTV URLs (1):
+  • https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8
+Logo: https://i.imgur.com/jojCxg3.png
+Category: General
+[162] Rete 55 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.internet.one/Rete55_Live/index.m3u8
+Logo: https://i.imgur.com/UtS9YLc.png
+Category: Undefined
+[163] Rete Biella TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
+Logo: https://i.imgur.com/I4OVxIb.png
+Category: Undefined
+[164] Rete Oro (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
+Logo: https://i.imgur.com/3oYiBSz.png
+Category: Undefined
+[165] Rete TV Italia
+------------------------------------------------
+IPTV URLs (1):
+  • https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
+Logo: https://i.imgur.com/BR7QfUF.png
+Category: General
+[166] Retemia (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5db313b643fd8.streamlock.net/Retemia/Retemia/playlist.m3u8
+Logo: https://i.imgur.com/IbzQpfn.png
+Category: Undefined
+[167] Reteveneta
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/it/d/df/Logo_Rete_Veneta.png
+Category: Undefined
+[168] Rossini TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5cbd3bc28341f.streamlock.net:444/rossinitv_live/944A-63A6-9EB8-4492/playlist.m3u8
+Logo: https://i.imgur.com/wGKsAk3.png
+Category: General
+[169] RTC Telecalabria (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://fl1.mediastreaming.it:1935/calabriachannel/livestream/playlist.m3u8
+Logo: https://i.imgur.com/NnFopuS.png
+Category: Undefined
+[170] RTL 102.5 Best
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8
+Logo: https://i.imgur.com/9PNlbaq.png
+Category: Music
+[171] RTL 102.5 Bro&Sis
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist_video.m3u8
+Logo: https://i.imgur.com/EWbK4XZ.png
+Category: Music
+[172] RTL 102.5 Caliente
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8
+Logo: https://i.imgur.com/P0zsi6I.png
+Category: Music
+[173] RTL 102.5 Disco
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8
+Logo: https://i.imgur.com/JA1OPrz.png
+Category: Music
+[174] RTL 102.5 Napulè
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8
+Logo: https://i.imgur.com/HFPw1YW.png
+Category: Music
+[175] RTL 102.5 Traffic
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8
+Logo: https://i.imgur.com/EBftMcB.png
+Category: Music
+[176] RTL 102.5 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
+Logo: https://i.imgur.com/75qUdR7.png
+Category: Music
+[177] RTM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8
+Logo: https://i.imgur.com/w9Twxsi.png
+Category: General
+[178] RTP
+------------------------------------------------
+IPTV URLs (1):
+  • https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/it/thumb/8/86/Logo_Radio_Televisione_Peloritana.svg/512px-Logo_Radio_Televisione_Peloritana.svg.png
+Category: Undefined
+[179] RTTR Trento
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8
+Logo: https://i.imgur.com/6DyzN8M.png
+Category: Undefined
+[180] RTV38
+------------------------------------------------
+IPTV URLs (1):
+  • https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
+Logo: https://i.imgur.com/YOlwudm.png
+Category: General
+[181] San Marino RTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
+Logo: https://i.imgur.com/ZJSWusT.png
+Category: Undefined
+[182] San Marino RTV Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
+Logo: https://i.imgur.com/PGm944g.png
+Category: Sports
+[183] Senato TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8
+Logo: https://i.imgur.com/h4NyN5d.png
+Category: Legislative
+[184] SL48 TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://media.velcom.it:1935/sl48/sl48/playlist.m3u8
+Logo: https://i.imgur.com/0iPU3JE.png
+Category: Music
+[185] Sophia TV Italy
+------------------------------------------------
+IPTV URLs (1):
+  • https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8
+Logo: https://i.imgur.com/RPXusvS.png
+Category: Undefined
+[186] Sport Italia
+------------------------------------------------
+IPTV URLs (1):
+  • https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8
+Logo: https://i.imgur.com/0CJGGgd.png
+Category: Sports
+[187] Sportitalia 24 (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
+Logo: https://i.imgur.com/RSwnoLn.png
+Category: Sports
+[188] Sportitalia Motori (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
+Logo: https://i.imgur.com/hu56Ya5.png
+Category: Sports
+[189] Sportitalia Solocalcio
+------------------------------------------------
+IPTV URLs (1):
+  • https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8
+Logo: https://i.imgur.com/hu56Ya5.png
+Category: Sports
+[190] ST Europe Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
+Logo: https://i.imgur.com/M5j7y2N.png
+Category: Entertainment
+[191] Stereo 5 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.aswifi.it/stereo5/live/index.m3u8
+Logo: https://i.imgur.com/sCDcYFW.png
+Category: Undefined
+[192] Super J TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://54627d4fc5996.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8
+Logo: https://i.imgur.com/H3uItqg.png
+Category: Undefined
+[193] Super TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8
+Logo: https://i.imgur.com/hxF3yhw.png
+Category: General;Series
+[194] Super TV Oristano (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://193.70.81.40:1935/supertvoristano/supertvoristano/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/it/2/22/Logosupertvoristano.png
+Category: General
+[195] Super!
+------------------------------------------------
+IPTV URLs (1):
+  • https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/512px-Super%21_logo_2021.svg.png
+Category: Undefined
+[196] SuperSix Lombardia
+------------------------------------------------
+IPTV URLs (1):
+  • https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/0/0a/SuperSix_TV_Logo.png
+Category: General
+[197] T9
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
+Logo: https://i.imgur.com/kQKzpYj.png
+Category: General
+[198] Taurianova TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/taurianovatv/taurianovatv/playlist.m3u8
+Logo: https://www.taurianovatv.it/wp-content/uploads/2024/04/cropped-FotoJet-2-HD15.jpg
+Category: General
+[199] Teatro TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://m.iostream.it/hls/teatrotv/teatrotv.m3u8
+Logo: https://i.imgur.com/GbyLSc2.png
+Category: Culture
+[200] Tele Abruzzo
+------------------------------------------------
+IPTV URLs (1):
+  • http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8
+Logo: https://i.imgur.com/XymK2PR.png
+Category: Undefined
+[201] Tele Liguria Sud
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8
+Logo: https://i.imgur.com/OxgSGUW.png
+Category: Undefined
+[202] Tele One 16
+------------------------------------------------
+IPTV URLs (1):
+  • https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8
+Logo: https://www.lyngsat.com/logo/tv/tt/tele-one-16-it.png
+Category: General
+[203] Tele Pavia
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/telepavia/telepavia/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/6/66/LOGO_telePAVIA.png
+Category: Undefined
+[204] Tele Pegaso Catania (404p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8
+Logo: https://i.imgur.com/2syaOJz.png
+Category: Undefined
+[205] Tele Quattro
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/telequattro/telequattro/playlist.m3u8
+Logo: https://telequattro.medianordest.it/wp-content/uploads/2020/10/T4Logo120.png
+Category: Undefined
+[206] Tele Radio Sciacca (240p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://5cbd3bc28341f.streamlock.net:1935/trs_live/teleradiosciacca-tv/playlist.m3u8
+Logo: https://i.imgur.com/uyNOVUW.png
+Category: Undefined
+[207] Tele Sondrio News (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d8c0cee6f3d.streamlock.net/tsn/tsn_mobile/playlist.m3u8
+Logo: https://i.imgur.com/eE37h7Q.png
+Category: News
+[208] Teleacras
+------------------------------------------------
+IPTV URLs (1):
+  • https://5cbd3bc28341f.streamlock.net:444/teleacras/live/playlist.m3u8
+Logo: https://i.imgur.com/c3Kw2XT.png
+Category: General
+[209] TeleArena
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
+Logo: https://i.imgur.com/cTmsGJD.png
+Category: Undefined
+[210] Telechiara
+------------------------------------------------
+IPTV URLs (1):
+  • http://fms.tvavicenza.it:1935/telechiara/diretta/playlist.m3u8
+Logo: https://i.imgur.com/LpXeY4v.png
+Category: General
+[211] Telecolor Lombardia (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8
+Logo: https://i.imgur.com/QfJqBno.png
+Category: Undefined
+[212] Telefoggia (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8
+Logo: https://i.imgur.com/ImvO2rV.png
+Category: Undefined
+[213] Telefriuli
+------------------------------------------------
+IPTV URLs (1):
+  • https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/playlist.m3u8
+Logo: https://i.imgur.com/He3uCs6.png
+Category: Undefined
+[214] Telegela 647
+------------------------------------------------
+IPTV URLs (1):
+  • https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8
+Logo: https://i.imgur.com/ppkX45f.png
+Category: News
+[215] Telegranda (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://live.sloode.com:1935/telegranda_live/C2AD-0664-DC75-4744/playlist.m3u8
+Logo: https://i.imgur.com/j3r0URO.png
+Category: Undefined
+[216] Telejato
+------------------------------------------------
+IPTV URLs (1):
+  • https://telejato.liberotratto.com/hls/0/stream.m3u8
+Logo: https://i.imgur.com/2EJdCJO.png
+Category: News
+[217] Teleliberta (486p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://api.new.livestream.com/accounts/17114188/events/4902226/live.m3u8
+Logo: https://i.imgur.com/424KS6J.png
+Category: Undefined
+[218] TeleMajg
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/telemajg/telemajg/playlist.m3u8
+Logo: https://i.imgur.com/j5fnQ1h.png
+Category: General
+[219] Telemantova
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8
+Logo: https://i.imgur.com/WYXiov6.png
+Category: General
+[220] TeleMia
+------------------------------------------------
+IPTV URLs (1):
+  • https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png
+Category: Undefined
+[221] TeleMia Extra
+------------------------------------------------
+IPTV URLs (1):
+  • https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png
+Category: Undefined
+[222] TeleMistretta
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8
+Logo: https://i.imgur.com/BLhvyEi.png
+Category: Undefined
+[223] Telemolise
+------------------------------------------------
+IPTV URLs (1):
+  • http://185.202.128.1:1935/TelemoliseStream/telemoliseTV.stream/playlist.m3u8
+Logo: https://i.imgur.com/aTs88Es.png
+Category: Undefined
+[224] teleMonteneve (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it:1935/telemonteneve/telemonteneve/live.m3u8
+Logo: https://i.imgur.com/UAtEkvI.png
+Category: Undefined
+[225] Telenord (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5db313b643fd8.streamlock.net/Telenord/Telenord/playlist.m3u8
+Logo: https://telenord.it/assets/images/logo.png
+Category: Undefined
+[226] Telenova
+------------------------------------------------
+IPTV URLs (1):
+  • https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8
+Logo: https://i.imgur.com/lo9OiWg.png
+Category: Undefined
+[227] Telepace 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8
+Logo: https://i.imgur.com/TpdsPWG.png
+Category: Religious
+[228] Telepace 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8
+Logo: https://i.imgur.com/qvcf6QC.png
+Category: Culture;Religious
+[229] Telepace 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://932y4273djv8-hls-live.mariatvcdn.it/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/playlist.m3u8
+Logo: https://i.imgur.com/hE4i2ft.png
+Category: Education;Religious
+[230] Telepace 4
+------------------------------------------------
+IPTV URLs (1):
+  • https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8
+Logo: https://i.imgur.com/JKHEL1H.png
+Category: Religious
+[231] Telepace Trento
+------------------------------------------------
+IPTV URLs (1):
+  • https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8
+Logo: https://tvtvtv.ru/icons/telepace_trento.png
+Category: Religious
+[232] TeleRama
+------------------------------------------------
+IPTV URLs (1):
+  • https://58d921499d3d3.streamlock.net/TeleRama/livestream/playlist.m3u8
+Logo: https://i.imgur.com/0YTYXB9.png
+Category: General
+[233] Teleromagna
+------------------------------------------------
+IPTV URLs (1):
+  • https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8
+Logo: https://i.imgur.com/GGPtHX3.png
+Category: General
+[234] TeleSanDomenico
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8
+Logo: https://i.imgur.com/l52v9uv.png
+Category: Religious
+[235] Telestense
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e73cf528f404.streamlock.net/TeleEstense/livestream/playlist.m3u8
+Logo: https://i.imgur.com/E3ZVcJ3.png
+Category: General
+[236] Telesud Trapani (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://5cbd3bc28341f.streamlock.net:1935/telesud/live/playlist.m3u8
+Logo: https://i.imgur.com/JNohS1G.png
+Category: Undefined
+[237] Teletricolore (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8
+Logo: https://i.imgur.com/GajzIN6.png
+Category: Undefined
+[238] TeleTusciaSabina 2000 (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8
+Logo: https://i.imgur.com/cfexNL9.png
+Category: Undefined
+[239] Televallo
+------------------------------------------------
+IPTV URLs (1):
+  • https://5cbd3bc28341f.streamlock.net:444/televallo/live/playlist.m3u8
+Logo: https://i.imgur.com/SfGVu6a.png
+Category: General
+[240] TeleVenezia
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d8c0cee6f3d.streamlock.net/televenezia/televenezia/playlist.m3u8
+Logo: https://i.imgur.com/RG4o4Ni.png
+Category: Undefined
+[241] TG Norba 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8
+Logo: https://i.imgur.com/zAZcSgz.png
+Category: Undefined
+[242] TGCom 24 [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8
+Logo: https://i.imgur.com/fPmvbGH.png
+Category: News
+[243] The Pet Collective
+------------------------------------------------
+IPTV URLs (1):
+  • https://the-pet-collective-international-it.samsung.wurl.tv/playlist.m3u8
+Logo: https://i.imgur.com/yH7n2dF.png
+Category: Family
+[244] TLT Molise
+------------------------------------------------
+IPTV URLs (1):
+  • https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8
+Logo: https://i.imgur.com/4G8fqtn.png
+Category: General
+[245] Top Crime [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live3-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(lt)/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Top_Crime_-_Logo_2013.svg/512px-Top_Crime_-_Logo_2013.svg.png
+Category: Series
+[246] TR Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://livetr.teleromagna.it/mia/live/playlist.m3u8
+Logo: https://i.imgur.com/ELXmaqg.png
+Category: Sports
+[247] Trentino TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8
+Logo: https://i.imgur.com/Xcw3TRB.png
+Category: Undefined
+[248] TV7 Benevento (288p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
+Logo: https://i.imgur.com/VBhVaKB.png
+Category: Undefined
+[249] TV7 Triveneta
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.gruppotv7.com:8090/hls/ireporter.m3u8
+Logo: https://i.imgur.com/ndFoo4V.png
+Category: Undefined
+[250] tv9 Telemaremma
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/transmuxv1/streams/2095a288-1384-ed2e-5da0-278ccbb72295.m3u8
+Logo: https://i.imgur.com/3WAyf6H.png
+Category: News
+[251] TV 2000
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/it/thumb/0/0d/Logo_tv2000_2015.svg/512px-Logo_tv2000_2015.svg.png
+Category: Religious
+[252] TV Campane 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://eu1.servers10.com:8081/8032/index.m3u8
+Logo: https://i.imgur.com/GsdVpll.png
+Category: General
+[253] TV Prato
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/index.m3u8
+Logo: https://i.imgur.com/72mAJtf.png
+Category: Undefined
+[254] TV Qui (Modena)
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8
+Logo: https://i.imgur.com/YfMVNDE.png
+Category: Undefined
+[255] TV Sei (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://185.202.128.1:1935/Tv6Stream/tv6TV.stream/playlist.m3u8
+Logo: https://i.imgur.com/H8fklOG.png
+Category: Undefined
+[256] TV Yes Italia
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.aswifi.it/radioyes/live/index.m3u8
+Logo: https://i.imgur.com/3CDxatu.png
+Category: Undefined
+[257] TVA (Vicenza)
+------------------------------------------------
+IPTV URLs (1):
+  • http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/it/thumb/0/0f/TVA_Vicenza_-_Logo_2018.svg/512px-TVA_Vicenza_-_Logo_2018.svg.png
+Category: Undefined
+[258] TVL (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8
+Logo: https://i.imgur.com/2wkSHNI.png
+Category: Undefined
+[259] TVRS (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8
+Logo: https://i.imgur.com/6bxtL6D.png
+Category: Undefined
+[260] Umbria TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
+Logo: https://i.imgur.com/olJIJ7c.png
+Category: Undefined
+[261] UniNettuno University TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
+Logo: https://i.imgur.com/c9So8nf.png
+Category: Undefined
+[262] Vera TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it/veratv/mp4:veratv/playlist.m3u8
+Logo: https://i.imgur.com/7o1bq3p.png
+Category: Undefined
+[263] Video Rola
+------------------------------------------------
+IPTV URLs (1):
+  • https://d3b2epqdk0p7vd.cloudfront.net/out/v1/8a448b5e16384af4a3c8146a7b049c32/index.m3u8
+Logo: https://i.imgur.com/9w54eVy.png
+Category: Music
+[264] Videolina (Sardegna) (404p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://livestreaming.videolina.it/live/Videolina/playlist.m3u8
+Logo: https://i.imgur.com/nQwXaef.png
+Category: Undefined
+[265] Visual Radio (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8
+Logo: https://i.imgur.com/ah14ah0.png
+Category: Undefined
+[266] Wedding TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.cp.ets-sistemi.it:1936/profservtv/profservtv/playlist.m3u8
+Logo: https://i.imgur.com/dFCrfbk.png
+Category: Culture

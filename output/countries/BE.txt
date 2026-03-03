@@ -1,0 +1,265 @@
+============================================================
+Belgium (BE)
+============================================================
+Total Channels: 43
+Source: https://tv.garden/
+============================================================
+
+[1] AB3 HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/ab3/browser-HLS8/ab3.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/AB3_2025.svg/512px-AB3_2025.svg.png
+Category: Entertainment
+[2] ACTV [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/live/95d2f733-1bc2-4bd5-9b96-c53ed3fc450f/95d2f733-1bc2-4bd5-9b96-c53ed3fc450f.isml/master.m3u8
+Logo: https://files.catbox.moe/8v2y8m.png
+Category: General
+[3] ATV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ATV_Belgium_logo.svg/527px-ATV_Belgium_logo.svg.png
+Category: General
+[4] Bel RTL
+------------------------------------------------
+IPTV URLs (1):
+  • https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8
+Logo: https://i.imgur.com/0DUprIW.png
+Category: Music
+[5] Bouke [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/live/95d2f70d-9229-478b-9aed-bc4fa220316d/95d2f70d-9229-478b-9aed-bc4fa220316d.isml/master.m3u8
+Logo: https://i.imgur.com/STLavel.png
+Category: Undefined
+[6] Bruzz
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls-origin01-bruzz.cdn02.rambla.be/main/adliveorigin-bruzz/_definst_/V3n5YY.smil/playlist.m3u8
+Logo: https://i.imgur.com/OYlYidF.png
+Category: Undefined
+[7] BX1 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59959724487e3.streamlock.net/stream/live/playlist.m3u8
+Logo: https://i.imgur.com/0OkSa6c.png
+Category: Undefined
+[8] Canal Zoom [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/live/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5.isml/master.m3u8
+Logo: https://i.imgur.com/JUNP8Rx.png
+Category: General
+[9] FIFA+ French
+------------------------------------------------
+IPTV URLs (1):
+  • https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png
+Category: Sports
+[10] FomixTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.fomixmedia.nl/FomixTV/video.m3u8
+Logo: https://i.imgur.com/7SLYEMG.png
+Category: General;Music;Public
+[11] HLN Live
+------------------------------------------------
+IPTV URLs (1):
+  • https://dpg-eventstreams.akamaized.net/hlnlivesrt-xmr/streamx/hlnlivesrt_720p.m3u8
+Logo: https://i.ibb.co/zbCrZG9/hq-hln.png
+Category: News
+[12] Japanim TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://foxkidstv.be:3369/stream/play.m3u8
+Logo: https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png
+Category: Animation;Kids
+[13] Joe FM (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://dpp-streamlive-plain.medialaancdn.be/joe_kijklive/plain/hls_hd.m3u8
+Logo: https://i.ibb.co/k9KJWzN/320px-Joe-radio-logo-2016-svg.png
+Category: Music
+[14] KTO (404p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
+Logo: https://i.imgur.com/EY6TsdV.png
+Category: Religious
+[15] La Trois
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.184.64.85:12000/stream/allchannel/rtbflatrois/master.m3u8
+Logo: https://i.imgur.com/jMs4h9F.png
+Category: General
+[16] La Une
+------------------------------------------------
+IPTV URLs (1):
+  • https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/6d35e26e/1bffdaaf.isml/.m3u8
+Logo: https://i.imgur.com/jMwZp7z.png
+Category: Entertainment
+[17] LCI HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd
+Logo: https://i.imgur.com/DED8EXs.png
+Category: News
+[18] LN24
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-ln24.digiteka.com/1911668011/index.m3u8
+Logo: https://i.imgur.com/1EkZRwn.png
+Category: News
+[19] MaTele (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.matele.be/hls/live.m3u8
+Logo: https://i.imgur.com/rw72POr.png
+Category: General
+[20] MNM
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-radio-cf-vrt.akamaized.net/groupa/live/bac277a1-306d-44a0-8e2e-e5b9c07fa270/live.isml/.m3u8
+Logo: https://i.imgur.com/L4cD18H.png
+Category: Music
+[21] MTV (1080p) [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png
+Category: Entertainment
+[22] Notele (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8
+Logo: https://i.imgur.com/fGS55nR.png
+Category: General
+[23] Play Crime (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://playmedia-playcrime-goplay-dash.amagi.tv/master.mpd
+Logo: https://i.imgur.com/hPh8tRq.png
+Category: Undefined
+[24] Q-Music (Belgium)
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-video.dpgmedia.net/e087512ad0c32643/out/v1/82d59bbe343b4d0896f829c59da82dc0/index.m3u8
+Logo: https://i.imgur.com/VX5e9Xt.png
+Category: Music
+[25] Qu4tre
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/rtc/95d2f6ec-22f7-4027-b23d-d5372116b2ad/95d2f6ec-22f7-4027-b23d-d5372116b2ad.isml/master.m3u8
+Logo: https://i.imgur.com/GHFuvmZ.png
+Category: General
+[26] Radio Contact
+------------------------------------------------
+IPTV URLs (1):
+  • https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8
+Logo: https://i.imgur.com/32mmGvB.png
+Category: Music
+[27] RT France (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/512px-RT-France-logo.svg.png
+Category: News
+[28] RTL-TVI (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+Logo: https://i.imgur.com/2CimAAN.png
+Category: Undefined
+[29] Stêrk TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://muzkurd.com/sterktv/sterk/playlist.m3u8
+Logo: https://i.imgur.com/bIheNAI.png
+Category: News
+[30] TeleMB
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/telemb/95d2f6ca-817a-48c0-aba5-6323a621c2d6/95d2f6ca-817a-48c0-aba5-6323a621c2d6.isml/master.m3u8
+Logo: https://i.imgur.com/XAggjM4.png
+Category: Undefined
+[31] Tipik
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.184.64.85:12000/stream/allchannel/rtbftipik/master.m3u8
+Logo: https://i.imgur.com/LKLjnrp.png
+Category: Undefined
+[32] Trends Z
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZFR-LIVE/index.m3u8
+Logo: https://i.imgur.com/qtiGLzZ.png
+Category: Business
+[33] Trends Z
+------------------------------------------------
+IPTV URLs (1):
+  • https://d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZNL-LIVE/index.m3u8
+Logo: https://i.imgur.com/YzgYJxM.png
+Category: Business
+[34] TV5Monde France Belgique Suisse Monaco (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
+Logo: https://i.imgur.com/WmRbudc.png
+Category: General
+[35] TV5Monde France Belgium Switzerland Monaco HD [Geo-Blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://viamotionhsi.netplus.ch/live/eds/tv5mondefbs/browser-HLS8/tv5mondefbs.m3u8
+Logo: https://i.imgur.com/WmRbudc.png
+Category: General
+[36] TV Lux
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/tvlux/95d2f632-0780-4ac1-9895-9e50212dd3b6/95d2f632-0780-4ac1-9895-9e50212dd3b6.isml/master.m3u8
+Logo: https://i.imgur.com/ljbdWkC.png
+Category: Undefined
+[37] TVcom
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/tvcom/95d2f656-ba85-4e13-affc-f1936be1a86d/95d2f656-ba85-4e13-affc-f1936be1a86d.isml/master.m3u8
+Logo: https://i.imgur.com/3KuRD19.png
+Category: General
+[38] Vedia
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvlocales-live.freecaster.com/vedia/95d2f480-b0b0-4027-9f4a-057183312305/95d2f480-b0b0-4027-9f4a-057183312305.isml/master.m3u8
+Logo: https://i.imgur.com/7LnH6yu.png
+Category: Undefined
+[39] VRT Radio 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-radio-cf-vrt.akamaized.net/groupa/live/d6fdec5d-5d67-4cc3-9f8c-e3e8993c8ee4/live.isml/.m3u8
+Logo: https://i.ibb.co/pwCs0YY/512px-VRT-Radio-1-logo-svg.png
+Category: General
+[40] VRT Radio 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-radio-cf-vrt.akamaized.net/groupa/live/e96793cc-eac5-4ed2-8eb5-617c2f6abc55/live.isml/.m3u8
+Logo: https://i.ibb.co/47mc8nJ/VRT-Radio-2-2022-svg.png
+Category: General
+[41] VRT Radio Klara
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-radio-cf-vrt.akamaized.net/groupb/live/eee20dc8-158a-4194-8d92-0c5a73ffcd3b/live.isml/.m3u8
+Logo: https://i.ibb.co/YdDkSJW/VRT-Klara-2020-svg.png
+Category: Music
+[42] VRT Radio StuBru
+------------------------------------------------
+IPTV URLs (1):
+  • https://live-radio-cf-vrt.akamaized.net/groupb/live/0f394a26-c87d-475e-8590-e9c6e79b28d9/live.isml/.m3u8
+Logo: https://i.ibb.co/y0TcsXw/512px-VRT-Stu-Bru-logo-svg.png
+Category: Music
+[43] Zee One Français
+------------------------------------------------
+IPTV URLs (1):
+  • https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png
+Category: Entertainment

@@ -1,0 +1,545 @@
+============================================================
+Romania (RO)
+============================================================
+Total Channels: 90
+Source: https://tv.garden/
+============================================================
+
+[1] A7TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://a7tvlive.ro/A7TV/A7TV/playlist.m3u8
+Logo: https://i.imgur.com/RmFg8BN.png
+Category: General
+[2] Agro TV (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://agrotv.streamnet.ro/mobile_tv/agrotv.m3u8
+Logo: https://i.imgur.com/S7X1PiC.png
+Category: Outdoor
+[3] Aleph Business
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamw.m.ro/Aleph/ngrp:Alephbiz.stream_all/playlist.m3u8
+Logo: https://i.imgur.com/IqvZBeo.png
+Category: Business
+[4] Aleph News
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/playlist.m3u8
+Logo: https://i.imgur.com/qPRQZMI.png
+Category: News
+[5] Alfa Omega TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://aom-live.maghost.ro/aomTV/streams/OOztu5o9Fx6dh9mD1711027803849.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/e/e3/Aotv_logo_svg.svg/revision/latest/scale-to-width-down/512
+Category: Religious
+[6] Angelus TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video.angelustv.ro/hls/angelustv.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/1/12/Angelus_TV.svg/revision/latest/scale-to-width-down/512
+Category: Religious
+[7] Antena 1 (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.rundletv.eu.org/LIVE$Antena1/6.m3u8/Level/300720051?end=END&start=LIVE
+Logo: https://i.imgur.com/EPmwuuv.png
+Category: General
+[8] Antena 1 HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://hokrus113.zokares1.cfd/ah1/usergenx304Jtlrnd.m3u8
+Logo: https://i.imgur.com/EPmwuuv.png
+Category: General
+[9] Antena Monden
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
+Logo: https://static.wikia.nocookie.net/logopedia/images/0/01/Antena_Monden_2022.png/revision/latest/scale-to-width-down/300
+Category: Lifestyle
+[10] Antena Stars
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.rundletv.eu.org/LIVE$AntenaStars/6.m3u8/Level/300720051?end=END&start=LIVE
+Logo: https://static.wikia.nocookie.net/logopedia/images/7/7e/A_Stars_2022.png/revision/latest/scale-to-width-down/300
+Category: Entertainment
+[11] AntenaSport (1280p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.rundletv.eu.org/LIVE$AntenaSport/6.m3u8/Level/300720051?end=END&start=LIVE
+Category: Sports
+[12] Ardeal TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://frn.rtsp.me/wzhx8pmNF7-kstp_J0AdjA/1695647213/hls/yZ9ED27Q.m3u8
+Logo: https://i.imgur.com/5XwtFKd.png
+Category: General
+[13] Arges TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3cy.m3u8
+Logo: https://i.imgur.com/qufz6nk.png
+Category: General
+[14] Atomic Academy TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://atomic.streamnet.ro/academia.m3u8
+Logo: https://i.imgur.com/ZbrDIbZ.png
+Category: Music
+[15] Atomic TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://atomic.streamnet.ro/atomictv.m3u8
+Logo: https://i.imgur.com/O4uI0Uy.png
+Category: Music
+[16] Banat TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.btv.ro/hls/banat-tv.m3u8
+Logo: https://i.imgur.com/yVsocid.png
+Category: General
+[17] Bucovina TV (576i)
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.bucovinatv.ro/proxy/video/playlist.m3u8
+Logo: https://i.imgur.com/6klhXxp.png
+Category: Undefined
+[18] CaTine
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.antenaplay.ro/live/CaTine/playlist.m3u8
+Logo: https://i.imgur.com/eFNHuIh.png
+Category: Lifestyle
+[19] Comedy Play
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.antenaplay.ro/live/ComedyPlay/playlist.m3u8
+Logo: https://i.imgur.com/6kAeVOk.png
+Category: Comedy
+[20] Credo TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://cdn.credonet.tv:1935/ctv/livecredo/playlist.m3u8
+Logo: https://i.imgur.com/RD4TgcM.png
+Category: Religious
+[21] Digi 24
+------------------------------------------------
+IPTV URLs (1):
+  • https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8
+Logo: https://i.imgur.com/qmRnD0M.png
+Category: News
+[22] Disney Channel
+------------------------------------------------
+IPTV URLs (1):
+  • http://84.54.128.52:9090/play/3006/index.m3u8
+Logo: https://i.imgur.com/UxrAiAe.png
+Category: Kids
+[23] Dotto TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.dottotv.ro/index.m3u8
+Logo: https://i.imgur.com/pfs882Z.png
+Category: News
+[24] Euronews Romania
+------------------------------------------------
+IPTV URLs (1):
+  • https://ythls.armelin.one/channel/UCbATDExtWstHnwWELZnXNZA.m3u8
+Logo: https://i.imgur.com/jUOVUXt.png
+Category: News
+[25] Exclusiv TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ythls.armelin.one/channel/UCXxTnMoETkhNTmsqZc0JMhQ.m3u8
+Logo: https://i.imgur.com/xw1IWoO.png
+Category: Music
+[26] Exploris (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.38.8.130:39419
+Logo: https://i.imgur.com/r4zKU1e.png
+Category: Undefined
+[27] Happy Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.rundletv.eu.org/LIVE$HappyChannel/6.m3u8/Level/300720051?end=END&start=LIVE
+Logo: https://i.imgur.com/kpFaiku.png
+Category: Entertainment
+[28] HD365 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://testcam.go.ro:8080/hls/hd365.m3u8
+Logo: https://i.imgur.com/2cLx4ja.png
+Category: General
+[29] Hello Taste
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.antenaplay.ro/live/HelloTaste/playlist.m3u8
+Logo: https://i.imgur.com/TdKO0er.png
+Category: Cooking
+[30] Hunedoara 1 (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://netstreaming.eu/hd1.m3u8
+Logo: https://i.imgur.com/9bz15ad.png
+Category: General
+[31] IasiTV Life (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.streambox.ro/hls/itv/index.m3u8
+Logo: https://i.imgur.com/HY7EL5e.png
+Category: General
+[32] Impact TV Dance
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.tvimpact.live/hls/dancetv.m3u8
+Logo: https://i.imgur.com/G5mNdpE.png
+Category: Music
+[33] Impact TV Manele
+------------------------------------------------
+IPTV URLs (1):
+  • https://online.tvimpact.live/hls/impact_tv.m3u8
+Logo: https://i.imgur.com/G5mNdpE.png
+Category: Music
+[34] Info TV Romania
+------------------------------------------------
+IPTV URLs (1):
+  • https://euw32.playlist.ttvnw.net/v1/playlist/CtMEHCWSOLVBIjzQRcYCDzxENBPC6QqL19TpF5ZzroQT-yNzbMsnZXDlRrM1BO_2b6B7tSj4UoyGleh1IEErCJvZXm2eKnttsjBlm1UWcu9ScTtqCCA0AQTpiAl701WUV4dCdtucbddiDtMpNARcl1umUiox9zdJ7saZS-007zh-cbMCfmc8wVX53DJqfivrOcg6ftsD8p4-z0lF7zimP_IOuZeLag9CNrrY7vRkQfYIKZcFsQza5myUR5Rat5Mo7BIdvsuOnFbULzL83qRdTOXOBEzKx73HrEXXRatJtHFxITl_m-4LzU44DCGHnrr1DwsSA5exWtvNvvcbdTx0MsmP-mBfLl__P3EVC4monCpTfMJAFwxnFf9AReWkPrvK4NTasVMnoXQ2Whzm4BmM9JwcyJPdWADFXvizZzYu-9beVSvbZxFJ1iIKI-2F-oThl8QfH9s6T6EVEu3-Q27YrZhjwdJoqyHjvL-4vn0RC6REzM4XSkfEmJEu91-9Zw9nVhvWTFxoh2exnuCWGdXhMKjfhpTGH4WquIZBQvscG_0bh7BxYkUu1GGDo5OIP17dNEx6j410QancOzFxe5ORNJ5q0zCQdZ1QAvO3qO00mXjNwhG6S7A30bUzqcH5hhzOxsFQZFgOgoLtDJH5YLggf4McxMRgIIWbRyTkcYonUjjP_CeEgg8jV3hIRE1FZWV6gOlhQoAxPr3rK91hKaM40y_6UYCdgUGsI6s1-wQvI6vGpKrwzTkxdNqFQHddjqKb2r6GBsEqEtGZPSP1T9ZhRH6iPz2u2BoM-X76Wi1YVfDbFLhBIAEqCWV1LXdlc3QtMjD3DA.m3u8
+Logo: https://i.imgur.com/rLzapB3.png
+Category: News
+[35] Informatia TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://informatia.streamnet.ro/mobile_tv/informatiatv.m3u8
+Logo: https://i.imgur.com/P1ZbVRg.png
+Category: News
+[36] Intermedia TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://83.103.150.198:8080
+Logo: https://i.imgur.com/cNXM4Mu.png
+Category: General
+[37] JOB TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://jobtvserver.eu/hls/stream.m3u8
+Logo: https://i.imgur.com/UzcZNe3.png
+Category: Business
+[38] Kanal D
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.kanald.ro/iphone/knd-live.m3u8
+Logo: https://i.imgur.com/15ILp0P.png
+Category: General
+[39] Kanal D2
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream2.kanald.ro/iphone/knd2-live_low/index.m3u8
+Logo: https://i.imgur.com/0SMSIm9.png
+Category: Undefined
+[40] Kiss TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
+Logo: https://i.imgur.com/NKfVymH.png
+Category: Music
+[41] Light Channel (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://streamer1.streamhost.org:1935/salive/GMIlcbgM/playlist.m3u8
+Logo: https://i.imgur.com/S3Fbf8T.png
+Category: Undefined
+[42] LiraTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
+Logo: https://i.imgur.com/hBswXYZ.png
+Category: Music
+[43] Magic TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8
+Logo: https://i.imgur.com/9izrr4d.png
+Category: Music
+[44] MediCOOL TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.antenaplay.ro/live/MediCOOLTV/chunklist.m3u8
+Logo: https://i.imgur.com/Xe7x1k2.png
+Category: Lifestyle
+[45] Metropola TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.livemetropolatv.ro/MetropolaTV/Metro/playlist.m3u8
+Logo: https://i.imgur.com/Gzq05v8.png
+Category: General
+[46] Mireasa
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8
+Logo: https://i.imgur.com/k0VO0LH.png
+Category: Series
+[47] MISA TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vidl.misatv.ro:5050/MSTV/romanian_720p_baseline/playlist.m3u8
+Logo: https://i.imgur.com/2RxQNm6.png
+Category: Religious
+[48] Moldova TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.38.8.130:39435
+Logo: https://i.imgur.com/gPMlDCP.png
+Category: General
+[49] Mooz Dance
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtmp.digitalbroadcast.ro/moozdance/moozdance.m3u8
+Logo: https://i.imgur.com/aX70RD2.png
+Category: Music
+[50] Mooz Hits
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtmp.digitalbroadcast.ro/moozhits/moozhits.m3u8
+Logo: https://i.imgur.com/GwATd3Y.png
+Category: Music
+[51] Mooz Ro!
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtmp.digitalbroadcast.ro/moozro/moozro.m3u8
+Logo: https://i.imgur.com/Ft24x5T.png
+Category: Music
+[52] Motorvision.tv (French)
+------------------------------------------------
+IPTV URLs (1):
+  • https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883047
+Logo: https://i.imgur.com/5cs5GkJ.png
+Category: Auto
+[53] Muscel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamnet.pro/musceltv/live/playlist.m3u8
+Logo: https://i.ibb.co/Bq9CHyn/Musceltv1.png
+Category: General
+[54] Nasul TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.nasul.tv/live/stream.m3u8
+Logo: https://i.imgur.com/MoguWme.png
+Category: General
+[55] Nova TV Brasov (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://novapress.ro:2022/live/nova/playlist.m3u8
+Logo: https://i.imgur.com/33Vn0Ij.png
+Category: General
+[56] Observator News
+------------------------------------------------
+IPTV URLs (1):
+  • https://live1ag.antenaplay.ro/live_ObservatorNews/live_ObservatorNews.m3u8
+Logo: https://i.imgur.com/f6xEIAr.png
+Category: News
+[57] PRO TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.rundletv.eu.org/LIVE$ProTV/Level/300720051?end=END&start=LIVE
+Logo: https://i.imgur.com/zVk3WlT.png
+Category: Undefined
+[58] Pro TV News
+------------------------------------------------
+IPTV URLs (1):
+  • https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0
+Category: News
+[59] PROFI 24 TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://owncast-jjg42-u20330.vm.elestio.app/hls/0/stream.m3u8
+Logo: https://profi24.ro/wp-content/uploads/2025/03/Logo_Profi24_Nou_Logo_Profi24_Landscape_Logo_Profi24_Landscape-e1742981714264.png
+Category: General
+[60] Profit News (404p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream1.profit.ro:1945/profit/livestream/playlist.m3u8
+Logo: https://i.imgur.com/eD4LBDV.png
+Category: News
+[61] Rapsodia TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://92.86.248.141:8080/ram/playlist.m3u8
+Logo: https://i.imgur.com/mwMG7BB.png
+Category: Undefined
+[62] Realitatea Sportiva
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
+Logo: https://i.imgur.com/BaEyZto.png
+Category: Sports
+[63] Rock TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
+Logo: https://i.imgur.com/VB88A5V.png
+Category: Music
+[64] Romania TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
+Logo: https://i.imgur.com/ZIfEp5I.png
+Category: Undefined
+[65] ROTV Valencia
+------------------------------------------------
+IPTV URLs (1):
+  • https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
+Logo: https://i.imgur.com/0TDnVQ4.png
+Category: Entertainment
+[66] SperantaTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://jstre.am/live/jsl:2gNjpghXRLE.m3u8
+Logo: https://i.imgur.com/KUyqQCX.png
+Category: Religious
+[67] Super TV (1080i) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.supertv.ro/live/supertv/playlist.m3u8
+Logo: https://i.imgur.com/pzxUE0O.png
+Category: Music
+[68] Tele7ABC HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.tele7abc.ro/hls/stream/index.m3u8
+Logo: https://i.imgur.com/CheqyWH.png
+Category: General
+[69] Tele7music
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.tele7music.ro/hls/stream/index.m3u8
+Logo: https://i.imgur.com/11b5W8u.png
+Category: Music
+[70] TeleM Botosani (540p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.137.197.15:8080/testing/pl5/playlist/ram/playlist.m3u8
+Logo: https://i.imgur.com/3EZ8CmJ.png
+Category: General
+[71] TeleMoldova + [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vdo.ssl-stream.com:3247/stream/play.m3u8
+Logo: https://i.imgur.com/8z0zLjw.jpeg
+Category: News
+[72] Telestar1
+------------------------------------------------
+IPTV URLs (1):
+  • https://dvb.tennet.ro/mobile_tv/telestar.m3u8
+Logo: https://i.imgur.com/BTKh5ef.png
+Category: Undefined
+[73] Traditional TV
+------------------------------------------------
+IPTV URLs (1):
+  • http://83.103.149.75:8085/udp/239.30.0.9:4000
+Logo: https://i.ibb.co/G5bNH48/Traditional-TV-HD.png
+Category: Music
+[74] TV Buzau
+------------------------------------------------
+IPTV URLs (1):
+  • http://78.96.33.89:8080
+Logo: https://i.imgur.com/GhFmUVO.png
+Category: General
+[75] TV SUD (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream2.live-stream.ro/WebRTCApp/streams/118334672595255049029831.m3u8
+Logo: https://i.imgur.com/m3Slmbe.png
+Category: News
+[76] TVPlus Suceava
+------------------------------------------------
+IPTV URLs (1):
+  • http://85.186.22.140/testing/pl5/playlist/ram/playlist.m3u8
+Logo: https://i.imgur.com/f4fzoLe.png
+Category: Undefined
+[77] TVR 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/CcUX1gB.png
+Category: General
+[78] TVR 2
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/mKouHIZ.png
+Category: General
+[79] TVR 3
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/yHCuTap.png
+Category: General
+[80] TVR Cluj
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/RkDra93.png
+Category: General
+[81] TVR Craiova
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/vxWbQiy.png
+Category: General
+[82] TVR Cultural
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/U9i70C9.png
+Category: Culture
+[83] TVR Iasi (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://82.208.141.70:8778/1.m3u8
+Logo: https://i.imgur.com/Kxkihds.png
+Category: General
+[84] TVR Info
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/7oE7ThR.png
+Category: News
+[85] TVR International
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/w28wcHs.png
+Category: General
+[86] TVR Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/320px-TVR_Sport_Logo_2023.svg.png
+Category: General;Sports
+[87] TVR Targu-Mures
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
+Logo: https://i.imgur.com/9Hptdqj.png
+Category: General
+[88] TVR Timisoara
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/chunklist_b5160000.m3u8
+Logo: https://i.imgur.com/0x6Edei.png
+Category: General
+[89] TVSat (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://89.38.8.130:39443
+Logo: https://i.imgur.com/54GHZMv.png
+Category: Undefined
+[90] ZU TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.rundletv.eu.org/LIVE$RadioZU/6.m3u8/Level/300720051?end=END&start=LIVE
+Logo: https://i.imgur.com/1gtkGhB.png
+Category: Music

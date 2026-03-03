@@ -1,0 +1,49 @@
+============================================================
+Libya (LY)
+============================================================
+Total Channels: 7
+Source: https://tv.garden/
+============================================================
+
+[1] Al Masar TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://starmenajo.com/hls/almasar/index.m3u8
+Logo: https://play-lh.googleusercontent.com/FHPrsr391mPFqKfTq6ZdvWPZNVfsZeTAVQ8rjQF-NosnRdNipUy5xa43RWkiF4tGcQU
+Category: News
+[2] February Channel
+------------------------------------------------
+IPTV URLs (1):
+  • https://b01c02nl.mediatriple.net/videoonlylive/mtfknklgwrlive/broadcast_5dc818c793576.smil/playlist.m3u8
+Logo: https://i.imgur.com/WdMIpsA.png
+Category: News
+[3] Libya Al Ahrar TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8
+Logo: https://i.imgur.com/xkQKVGi.png
+Category: News
+[4] Libya Al Wataniya
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8
+Logo: https://i.imgur.com/KSUny9D.jpeg
+Category: General
+[5] StoryChannel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://136044159.r.cdnsun.net/storychannel.m3u8
+Logo: https://i.imgur.com/ZBV6xph.png
+Category: Culture
+[6] Tanasuh TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://kilolink.pulsarstarsolutions.com/live/smil:tanasuhtv.smil/manifest.m3u8
+Logo: https://i.imgur.com/iBAhM2v.png
+Category: General
+[7] Wasat TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://alwasattv.hibridcdn.net/alwasattv/alwasat_abr/playlist.m3u8
+Logo: https://i.imgur.com/f9pL2NE.png
+Category: General

@@ -1,0 +1,37 @@
+============================================================
+Jamaica (JM)
+============================================================
+Total Channels: 5
+Source: https://tv.garden/
+============================================================
+
+[1] Bless TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bless-tv/master.m3u8?ads.vf=hNDXxFtFEya
+Logo: https://i.imgur.com/USshSMj.png
+Category: Religious
+[2] Fame95 FM
+------------------------------------------------
+IPTV URLs (1):
+  • https://rjr-fame.akamaized.net/hls/live/2033820/RJR_FAME/master.m3u8
+Logo: https://i.imgur.com/n3PUxes.png
+Category: Music
+[3] Jamaica Online TV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvsw7-hls.secdn.net/tvsw7-chorigin/play/prod-bb11dd0e11ca45229a3f58aeff5213d8/playlist.m3u8
+Logo: https://i.imgur.com/Aw9u4Ax.png
+Category: General
+[4] MTM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://angel.btbn.tv:5443/mtmtv/streams/live.m3u8
+Logo: https://i.imgur.com/krcVhrx.png
+Category: Religious
+[5] TVJ (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod2live.univtec.com/manifest/a99a1804-dc83-411f-8c1c-b62f08cdfa59.m3u8
+Logo: https://i.imgur.com/R4PoC3L.png
+Category: General

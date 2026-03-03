@@ -1,0 +1,379 @@
+============================================================
+Venezuela (VE)
+============================================================
+Total Channels: 62
+Source: https://tv.garden/
+============================================================
+
+[1] Aguacate TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
+Logo: https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg
+Category: Entertainment
+[2] Alcance TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://rv100.globalhost1.com:3516/live/tjjqdqurlive.m3u8
+Logo: https://i.imgur.com/veeuqS1.png
+Category: Religious
+[3] Anzoátegui TV (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8
+Logo: https://i.imgur.com/SLqrEOz.png
+Category: General
+[4] AS3 Sport TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.as3sport.online:3394/hybrid/play.m3u8
+Logo: https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg
+Category: Sports
+[5] Audaz TV (432p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:1936/8264/8264/playlist.m3u8
+Logo: https://i.imgur.com/QtCgtZq.jpg
+Category: Religious
+[6] Barinas TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp13.myplaytv.com/barinastv/barinastv/playlist.m3u8
+Logo: https://i.ibb.co/D7bLHGB/1575-Barinas-TV.png
+Category: General
+[7] BTA TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
+Logo: https://i.imgur.com/vygOosC.png
+Category: Music
+[8] Canal 21 Táchira
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8
+Logo: https://i.imgur.com/7Tb7CF4.jpg
+Category: General
+[9] Canal Once
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.streamcasthd.com:3676/live/canal11delzulialive.m3u8
+Logo: https://i.imgur.com/puM9ASa.png
+Category: General
+[10] Catatumbo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
+Logo: https://i.imgur.com/LBI2la0.png
+Category: General
+[11] Chivacoa TV Internacional
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
+Logo: https://i.imgur.com/9rbwZFY.png
+Category: General
+[12] Disney Channel Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://201.230.121.186:8000/play/a0fb/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg
+Category: Animation;Kids
+[13] Explosión Creativa (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp.myplaytv.com/explosioncreativa/explosioncreativa/playlist.m3u8
+Logo: https://i.imgur.com/Znd1Ml9.png
+Category: Science
+[14] Fortuna TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8
+Logo: https://i.imgur.com/RPiTPnK.png
+Category: General
+[15] FX Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://38.199.6.1:17001/play/a04u/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png
+Category: Entertainment
+[16] GlobalTV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3179/live/globaltvlive.m3u8
+Logo: https://imgur.com/hzM9D9L.jpg
+Category: General
+[17] Grande TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/grandetv2240/playlist.m3u8
+Logo: https://i.imgur.com/jxCirrP.png
+Category: General
+[18] Guaro TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3592/stream/play.m3u8
+Logo: https://i.ibb.co/LN92K6h/IMG-20230705-154347.jpg
+Category: Entertainment
+[19] interTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
+Logo: https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg
+Category: Entertainment
+[20] Isla TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8
+Logo: https://i.imgur.com/l11Ixhi.jpeg
+Category: General
+[21] Italianissimo (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp.myplaytv.com/italianissimo/italianissimo/playlist.m3u8
+Logo: https://i.imgur.com/JCpbUZB.png
+Category: Music
+[22] KandelaTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8
+Logo: https://i.imgur.com/cCFxyIp.jpg
+Category: Music
+[23] Latina TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
+Logo: https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1
+Category: General
+[24] LGD Television
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3403/hybrid/play.m3u8
+Logo: https://i.imgur.com/a9E0DTY.jpeg
+Category: Religious
+[25] Más Talk
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8
+Logo: https://i.imgur.com/unE2LGz.jpg
+Category: Entertainment
+[26] Meridiano TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://e1.viginet.vectormax.com:5210/quickstart/114-934-21/index.m3u8
+Logo: https://i.imgur.com/I6gsUqD.png
+Category: Sports
+[27] Monagas Visión (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:1936/monagasvision-2/monagasvision-2/playlist.m3u8
+Logo: https://i.imgur.com/yfgTa2d.png
+Category: General
+[28] Nickelodeon Latin America
+------------------------------------------------
+IPTV URLs (1):
+  • http://179.51.136.19:8000/play/a0q4/index.m3u8
+Logo: https://i.imgur.com/E84jnP8.png
+Category: Kids
+[29] Norteña TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/giatv/giatv-2525Jmv/2525Jmv/chunks.m3u8
+Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxdsPdnBB5hs1XZHDHtf0p8T861Vl1UlHE1ljD_IEtI9KlFtEAYsesMHh8RLuW6nIFLY&usqp=CAU
+Category: Entertainment
+[30] Oasis Televisión (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://vcp1.myplaytv.com/oasistv/oasistv/playlist.m3u8
+Logo: https://i.imgur.com/TEr1U90.png
+Category: General
+[31] Onza TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv1.srvstm.com/gproducciones/gproducciones/playlist.m3u8
+Logo: https://i.imgur.com/usrP6T2.png
+Category: General
+[32] Oxigeno TV (360p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp.myplaytv.com/oxigenotv/oxigenotv/playlist.m3u8
+Logo: https://i.imgur.com/n3PweBQ.png
+Category: Music
+[33] PortuTV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
+Logo: https://i.imgur.com/jHUSfGz.png
+Category: General
+[34] Proclamación TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://video2.getstreamhosting.com:19360/8000/8000.m3u8
+Logo: https://i.imgur.com/8dt7awY.jpeg
+Category: Religious
+[35] PromarTV (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png
+Category: General
+[36] Reforma TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5bf8041cb3fed.streamlock.net/ReformaTV/ReformaTV/playlist.m3u8
+Logo: https://i.imgur.com/iZMDddR.png
+Category: Religious
+[37] Siembra TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8
+Logo: https://i.imgur.com/zRX91Xr.png
+Category: General
+[38] Somos TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8
+Logo: https://i.imgur.com/jOroeJZ.png
+Category: General
+[39] TAM TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv.webtuya.com:3726/hybrid/play.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_TAM.png
+Category: General
+[40] TeleAragua
+------------------------------------------------
+IPTV URLs (1):
+  • http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
+Logo: https://i.imgur.com/jPzcb2S.png
+Category: General
+[41] Teleboconó (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ssh101stream.ssh101.com/akamaissh101/ssh101/tcbstreaming/playlist.m3u8
+Logo: https://i.imgur.com/YDE4Jsi.jpg
+Category: General
+[42] Telecentro
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3161/live/telecentrolive.m3u8
+Logo: https://i.imgur.com/QtRNfaj.png
+Category: General
+[43] Telecolor
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.livescast.com:19360/telecolor/telecolor.m3u8
+Logo: https://i.imgur.com/YvdzJHj.png
+Category: General
+[44] Telesur
+------------------------------------------------
+IPTV URLs (1):
+  • https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
+Logo: https://i.imgur.com/P50VjRX.png
+Category: News
+[45] Telesur English
+------------------------------------------------
+IPTV URLs (1):
+  • https://mblenmain01.telesur.ultrabase.net/mblivev3/480p/playlist.m3u8
+Logo: https://i.imgur.com/P50VjRX.png
+Category: News
+[46] Telesur English HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
+Logo: https://i.imgur.com/P50VjRX.png
+Category: News
+[47] Telesur HD
+------------------------------------------------
+IPTV URLs (1):
+  • https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+Logo: https://i.imgur.com/P50VjRX.png
+Category: News
+[48] Televisora de Oriente
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8
+Logo: https://i.imgur.com/wFC6Xxq.png
+Category: General
+[49] TNO Radio
+------------------------------------------------
+IPTV URLs (1):
+  • https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8
+Logo: https://i.ibb.co/0rYsbRk/Logo-TNO-2021-white.png
+Category: General
+[50] Torococo TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://us.streaminghd.cl/torococotelevision/video.m3u8
+Logo: https://i.ibb.co/9N7Scn8/1400-Torococo-TV.png
+Category: General
+[51] TRT (410p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp12.myplaytv.com/trt/trt/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/6/67/Canal_trt_logo.PNG
+Category: General
+[52] TRV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp3.myplaytv.com/trv/trv/playlist.m3u8
+Logo: https://i.ibb.co/Yt6qyjL/trv.png
+Category: General
+[53] TV Andes (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp3.myplaytv.com/tvandes/tvandes/playlist.m3u8
+Logo: https://i.ibb.co/c1YHQ8K/tvandes.png
+Category: General
+[54] TV Familia
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloudusa.streamingconnect.com/tvfamiliatvbox/tvfamiliaweb.m3u8
+Logo: https://i.imgur.com/A3bU5e7.png
+Category: Family
+[55] TV Oasis Monay
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8
+Logo: https://i.imgur.com/hwd7osJ.jpeg
+Category: General
+[56] TVM para ti
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
+Logo: https://intervenhosting.net/imagenes/tvmparati.jpg
+Category: General
+[57] TVS
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
+Logo: https://i.imgur.com/J8ztiAN.png
+Category: General
+[58] UniTV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vcp6.myplaytv.com/unitv/unitv/playlist.m3u8
+Logo: https://i.imgur.com/KLGeznX.png
+Category: General
+[59] Vale TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
+Logo: https://i.imgur.com/NMI2Wed.png
+Category: General
+[60] Venevision
+------------------------------------------------
+IPTV URLs (1):
+  • https://venevision-ioriver-cdn.encoders.immergo.tv/3/streamPlaylist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_Venevisi%C3%B3n.svg/512px-Logotipo_de_Venevisi%C3%B3n.svg.png
+Category: General
+[61] Venevisión Internacional
+------------------------------------------------
+IPTV URLs (1):
+  • https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
+Logo: https://i.imgur.com/vtGED07.jpg
+Category: General
+[62] Vepaco TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
+Logo: https://i.imgur.com/0bqJksL.png
+Category: General

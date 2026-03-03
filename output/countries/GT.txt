@@ -1,0 +1,313 @@
+============================================================
+Guatemala (GT)
+============================================================
+Total Channels: 51
+Source: https://tv.garden/
+============================================================
+
+[1] Amigos TV Chiquimula
+------------------------------------------------
+IPTV URLs (1):
+  • https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8
+Logo: https://i.ibb.co/tLhcNTD/amigos-tv-chiquimula.png
+Category: Religious
+[2] Aurora Media Films
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
+Logo: https://i.imgur.com/DVC5w6H.png
+Category: Movies
+[3] BD Televisión
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/telegtmb/playlist.m3u8
+Logo: https://i.ibb.co/VBJhHkJ/Fda27b8e352949c39c8d88de33a284a4.png
+Category: General
+[4] Canal 6 Panadish
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/playlist.m3u8
+Logo: https://i.imgur.com/KJWNPiz.jpg
+Category: General
+[5] Canal 9 Barbe TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8
+Logo: https://i.imgur.com/2Sekew2.png
+Category: General
+[6] Canal 13 Esquipulas
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
+Logo: https://i.imgur.com/INKZvlN.png
+Category: General
+[7] Canal 27
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.canal27.tv:3633/live/canal27live.m3u8
+Logo: https://i.imgur.com/eA4vt8A.png
+Category: Religious
+[8] Canal 30 TV Bethel (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8
+Logo: https://i.imgur.com/PP4U1JL.png
+Category: Religious
+[9] Canal 32 Telemax (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3824/live/telemaxlive.m3u8
+Logo: https://i.imgur.com/HisGao7.png
+Category: Undefined
+[10] Canal 100 Chinique
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3295/live/canal100chilive.m3u8
+Logo: https://i.imgur.com/ygNKJXx.png
+Category: Undefined
+[11] Canal Iglesia Luz y Verdad
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/IglesialuzyVerdad/playlist.m3u8
+Logo: https://i.ibb.co/x3Vdz6h/Screenshot-20231202-125205.jpg
+Category: Religious
+[12] Canal Peniel (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3840/live/penielfamlive.m3u8
+Logo: https://i.imgur.com/Z7aKJCt.png
+Category: Religious
+[13] Canal TV Radio Maya TGBA
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/radioTGBAgtm/playlist.m3u8
+Logo: https://i.imgur.com/kORStT1.png
+Category: Religious
+[14] Canal Visof
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/Visof/playlist.m3u8
+Logo: https://i.imgur.com/XiszuLl.png
+Category: General
+[15] Candelaria TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3921/live/candetvlive.m3u8
+Logo: https://i.imgur.com/Mq1yoUQ.png
+Category: Religious
+[16] Cariñosa TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3110/live/carinosatvlive.m3u8
+Logo: https://i.imgur.com/13Kb6Lp.png
+Category: General
+[17] Cristo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/CristoTV/playlist.m3u8
+Logo: https://i.ibb.co/c2czW3M/Screenshot-20231201-180316.jpg
+Category: Religious
+[18] El-Roi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3648/live/elroitvlive.m3u8
+Logo: https://i.imgur.com/h8S0eA4.png
+Category: Religious
+[19] Espíritu Santo Y Fuego TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://inliveserver.com:1936/8392/8392/playlist.m3u8
+Logo: https://i.imgur.com/8mdSWO4.jpg
+Category: Religious
+[20] Expresión TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ssh101.bozztv.com/ssh101/expresiongrany/playlist.m3u8
+Logo: https://i.imgur.com/lFek4Pj.png
+Category: Religious
+[21] Fe Viviente
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/feVivienteGtm/playlist.m3u8
+Logo: https://i.imgur.com/PkW3cKR.png
+Category: Religious
+[22] Franchs TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/franchstv/playlist.m3u8
+Logo: https://i.imgur.com/Rr9pKQh.png
+Category: Religious
+[23] Gardenias TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/gardeniasTv/playlist.m3u8
+Logo: https://i.ibb.co/YfVmfwV/83ff2da28cae14bc47bb07e976bef578.png
+Category: Entertainment
+[24] Génesis TV (768p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3126/live/genesistvlive.m3u8
+Logo: https://i.imgur.com/gUiIC8E.png
+Category: Entertainment
+[25] Iglesia Del Camino (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://streamingcontrol.com:1935/ectv/ectv/playlist.m3u8
+Logo: https://i.imgur.com/vHfb3Z4.png
+Category: Religious
+[26] Jacal Canal 5 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/jacaltv/playlist.m3u8
+Logo: https://i.imgur.com/k1oW0C6.png
+Category: General
+[27] Jehová Nissi
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/nissiGtmH/playlist.m3u8
+Logo: https://i.imgur.com/2BkL4wq.png
+Category: Religious
+[28] Júbilo TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/jubilotv/playlist.m3u8
+Logo: https://i.ibb.co/R4QSfYd/Ba073d3280959c5ba7d25d40052a7349.png
+Category: Religious
+[29] Knal 4 Quiché (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3482/live/knal4gtlive.m3u8
+Logo: https://i.imgur.com/YRSv2Tf.png
+Category: General
+[30] Maxivisión TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8
+Logo: https://i.imgur.com/UC8WrEN.jpg
+Category: Entertainment
+[31] Multivisión Canal 3 (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.digitalgt.com:3136/live/multivisionlive.m3u8
+Logo: https://i.imgur.com/6bdj2BV.jpg
+Category: General
+[32] Multivisión Sports (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
+Logo: https://i.imgur.com/wLjSSo2.jpg
+Category: Sports
+[33] Nim TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8
+Logo: https://i.imgur.com/mBNOSzl.png
+Category: General
+[34] Peniel Kids & Young
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/penielkids/index.m3u8
+Logo: https://i.imgur.com/YtPRKmS.png
+Category: Religious
+[35] Peniel Musical
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/penielmusical/index.m3u8
+Logo: https://i.imgur.com/IFQbGEf.png
+Category: Religious
+[36] Peniel TV Biblia Abierta
+------------------------------------------------
+IPTV URLs (1):
+  • https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
+Logo: https://i.ibb.co/j3gGwYk/D64575438be2a3a54fdf64d4035ade48.png
+Category: Religious
+[37] Plenitud TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.oursnetworktv.com/latin/PlenitudGtm/playlist.m3u8
+Logo: https://i.imgur.com/BFJ7EGj.png
+Category: Religious
+[38] Presencia TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3473/live/presenciatvlive.m3u8
+Logo: https://i.imgur.com/SVho6El.png
+Category: Religious
+[39] Rhema TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8
+Logo: https://i.imgur.com/5o821rT.png
+Category: Religious
+[40] SAS TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3390/live/sastvgtlive.m3u8
+Logo: https://i.imgur.com/VShjB3o.png
+Category: Entertainment
+[41] como Gecko) Chrome" group-title="General",SIL TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8
+Logo: https://i.imgur.com/tWZXRVu.png
+Category: General
+[42] Sol TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3409/live/soltvlive.m3u8
+Logo: https://i.ibb.co/YXYv8sf/logo-soltv2.png
+Category: General
+[43] Telecosta
+------------------------------------------------
+IPTV URLs (1):
+  • https://tv91.hostingnuclear.com:19360/telecosta/telecosta.m3u8
+Logo: https://www.telecostaescuintla.com/gallery_gen/f57408fa00aca6d969248be4b56b48e6.png
+Category: Undefined
+[44] Tunevisión (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3852/live/tunevisionlive.m3u8
+Logo: https://i.imgur.com/XNiXqgj.png
+Category: Undefined
+[45] TV Florencia
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3819/live/tvflorecialive.m3u8
+Logo: https://i.imgur.com/jsbwnRb.png
+Category: General
+[46] TV María (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://streamtv.intervenhosting.net:3155/live/juandelacruz3live.m3u8
+Logo: https://i.ibb.co/qY7T9s9/cropped-TV-MARIA-LOGO-C.jpg
+Category: Religious
+[47] TV Maya
+------------------------------------------------
+IPTV URLs (1):
+  • https://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8
+Logo: https://i.imgur.com/BGFa4OO.png
+Category: Education
+[48] TV Tun (240p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3832/live/tvtunlive.m3u8
+Logo: https://i.imgur.com/dGSfHCj.png
+Category: General
+[49] TVS Retro
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8
+Logo: https://i.imgur.com/jdnHci0.png
+Category: Classic
+[50] Única TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3642/live/unicatvlive.m3u8
+Logo: https://i.imgur.com/VE5OrU7.png
+Category: Undefined
+[51] Visión TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
+Logo: https://i.imgur.com/S0JrfIl.png
+Category: Undefined

@@ -1,0 +1,79 @@
+============================================================
+Hong Kong (HK)
+============================================================
+Total Channels: 12
+Source: https://tv.garden/
+============================================================
+
+[1] HOY Infotainment (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hoytv-live-stream.hoy.tv/ch78/index.m3u8
+Logo: https://i.imgur.com/LNokYLQ.png
+Category: Undefined
+[2] HOY International Business Channel (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
+Logo: https://i.imgur.com/jaIdkbz.png
+Category: Business
+[3] HOY TV (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://hoytv-live-stream.hoy.tv/ch77/index.m3u8
+Logo: https://i.imgur.com/NfVZPTT.png
+Category: General
+[4] Pet Club TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://petclub-samsungaus.amagi.tv/playlist.m3u8
+Logo: https://i.imgur.com/ykPNNwQ.png
+Category: Entertainment
+[5] RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+Logo: https://i.imgur.com/kf818kM.png
+Category: Undefined
+[6] RTHK TV 32 (港台電視32) (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
+Logo: https://i.imgur.com/MXLuUoU.png
+Category: Undefined
+[7] RTHK TV 33 (港台電視33) (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
+Logo: https://i.imgur.com/2MProun.png
+Category: Undefined
+[8] RTHK TV 34 (港台電視34) (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
+Logo: https://i.imgur.com/Kq5A6Qn.png
+Category: Undefined
+[9] RTHK TV 35 (港台電視35) (1080p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
+Logo: https://i.imgur.com/FQmNKDS.png
+Category: News
+[10] 凤凰中文
+------------------------------------------------
+IPTV URLs (1):
+  • http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
+Logo: https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png
+Category: General
+[11] 凤凰资讯
+------------------------------------------------
+IPTV URLs (1):
+  • http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
+Logo: https://i.imgur.com/mt4h3VO.png
+Category: News
+[12] 耀才財經台
+------------------------------------------------
+IPTV URLs (1):
+  • http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+Logo: https://i.imgur.com/GVYSSgm.png
+Category: Shop

@@ -1,0 +1,151 @@
+============================================================
+Bangladesh (BD)
+============================================================
+Total Channels: 24
+Source: https://tv.garden/
+============================================================
+
+[1] Boishakhi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+Logo: https://i.imgur.com/gxL05Y4.png
+Category: General
+[2] BTV Chattogram
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
+Logo: https://i.imgur.com/hvpyuek.png
+Category: Undefined
+[3] BTV National
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/355ba051-9a60-48aa-adcf-5a6c64da8c5c/355ba051-9a60-48aa-adcf-5a6c64da8c5c_3_playlist.m3u8
+Logo: https://i.imgur.com/5OE2FDt.png
+Category: Undefined
+[4] Channel S
+------------------------------------------------
+IPTV URLs (1):
+  • https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
+Logo: https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png
+Category: Culture
+[5] Channel S (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn149.anystream.uk:8082/g1/tvchsuk03/playlist.m3u8
+Logo: https://i.imgur.com/hJxFLvF.png
+Category: Culture
+[6] Deshi TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+Logo: https://i.imgur.com/PzqzgMm.png
+Category: General
+[7] Disney International HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://111.88.78.21:8000/play/a0qo/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png
+Category: Kids
+[8] Duronto TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvsen4.aynaott.com/durontotv/index.m3u8
+Logo: https://i.imgur.com/gXsddRK.png
+Category: Kids
+[9] Ekushey TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://ekusheyserver.com/etvlivesn.m3u8
+Logo: https://i.imgur.com/lRpkGHj.png
+Category: News
+[10] Gaan Bangla
+------------------------------------------------
+IPTV URLs (1):
+  • http://vmi3039524.contaboserver.net:5050/music/index.m3u8
+Logo: https://i.imgur.com/XS9mq4n.png
+Category: Music
+[11] Jalsha Movies HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a0dt/index.m3u8
+Logo: https://i.imgur.com/25eWjX2.png
+Category: Movies
+[12] Madani Channel Bangla
+------------------------------------------------
+IPTV URLs (1):
+  • https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8
+Logo: https://i.imgur.com/vIJTVia.png
+Category: Religious
+[13] National Geographic HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.113.103.202:8001/play/a007/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NATIONAL_GEOGRAPHIC_CHANNEL/images/LOGO_HD/image.png
+Category: Documentary
+[14] National Geographic Wild
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a06r/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png
+Category: Documentary
+[15] National Geographic Wild HD
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.113.103.202:8001/play/a02s/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png
+Category: Documentary
+[16] Nick Jr.
+------------------------------------------------
+IPTV URLs (1):
+  • http://161.248.38.40:8000/play/a074/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png
+Category: Kids
+[17] Nickelodeon
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a0cq/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png
+Category: Kids
+[18] Peace TV Bangla
+------------------------------------------------
+IPTV URLs (1):
+  • https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
+Logo: https://i.imgur.com/1ztVXUi.png
+Category: Religious
+[19] Probashi TV News
+------------------------------------------------
+IPTV URLs (1):
+  • http://158.69.24.53:8080/probashi_tv/index.m3u8
+Logo: https://i.imgur.com/7oTsfQ4.png
+Category: News
+[20] Sangsad TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/9ee3b4f9-fd0a-47c5-a135-2575c5691613/9ee3b4f9-fd0a-47c5-a135-2575c5691613_3_playlist.m3u8
+Logo: https://i.imgur.com/jkouxLg.png
+Category: Legislative
+[21] Sonic
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a0dl/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png
+Category: Kids
+[22] T Sports
+------------------------------------------------
+IPTV URLs (1):
+  • https://tvsen7.aynaott.com/tsportshd/index.m3u8
+Logo: https://i.imgur.com/2JzlorD.png
+Category: Sports
+[23] Vokta TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://vokta.raytahost.com/live/voktatv/index.m3u8
+Logo: https://i.imgur.com/szAGBCU.png
+Category: General
+[24] Zee Bangla Sonar
+------------------------------------------------
+IPTV URLs (1):
+  • http://103.229.254.25:7001/play/a070/index.m3u8
+Logo: https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_CINEMA/images/LOGO_HD/image.png
+Category: Entertainment

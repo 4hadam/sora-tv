@@ -1,0 +1,73 @@
+============================================================
+Togo (TG)
+============================================================
+Total Channels: 11
+Source: https://tv.garden/
+============================================================
+
+[1] AC TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ssh101stream.ssh101.com/akamaissh101/ssh101/actvstream/playlist.m3u8
+Logo: https://i.imgur.com/SYugK7Y.png
+Category: Religious
+[2] Chandel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://kali.vdopanel.com:3660/live/vj6jlam1rlive.m3u8
+Logo: https://i.imgur.com/jQO7dVE.png
+Category: Entertainment
+[3] Dynamic Gospel TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://ssh101stream.ssh101.com/akamaissh101/ssh101/tvdynamicstream/playlist.m3u8
+Logo: https://i.imgur.com/e36BNNK.jpg
+Category: Religious
+[4] NW Economie
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.newworldtv.com/nw-economie/video/live.m3u8
+Logo: https://i.imgur.com/OmlFQa8.png
+Category: Business
+[5] NW Info 2 EN
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.newworldtv.com/nw-info-2/video/live.m3u8
+Logo: https://i.imgur.com/0W4GqFD.png
+Category: News
+[6] NW Info FR
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.newworldtv.com/nw-info/video/live.m3u8
+Logo: https://i.imgur.com/UDEY91v.png
+Category: News
+[7] NW Magazine
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.newworldtv.com/nw-magazine/video/live.m3u8
+Logo: https://i.imgur.com/RZNJZYN.png
+Category: Entertainment
+[8] RT JVA (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn140m.panaccess.com/HLS/RTVJA/index.m3u8
+Logo: https://i.imgur.com/Ja3HVLB.jpg
+Category: Religious
+[9] SOS Docteur TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://wmoy82n4y2a7-hls-live.5centscdn.com/sostv/live.stream/playlist.m3u8
+Logo: https://i.imgur.com/wQpooHw.png
+Category: Lifestyle
+[10] Television Espoir 47
+------------------------------------------------
+IPTV URLs (1):
+  • https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8
+Logo: https://i.imgur.com/utBh0xL.png
+Category: General
+[11] TVT (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://69.64.57.208/tvt/playlist.m3u8
+Logo: https://i.imgur.com/WtXonN9.png
+Category: General

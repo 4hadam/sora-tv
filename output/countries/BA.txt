@@ -1,0 +1,103 @@
+============================================================
+Bosnia (BA)
+============================================================
+Total Channels: 16
+Source: https://tv.garden/
+============================================================
+
+[1] BHRT (720p) [Geo-blocked]
+------------------------------------------------
+IPTV URLs (1):
+  • https://bhrtstream.bhtelecom.ba/bhrtportal.m3u8
+Logo: https://i.imgur.com/01bZ5rw.png
+Category: Undefined
+[2] like Gecko) Version/17.10 Safari/605.1.1" group-title="General",BHT 1
+------------------------------------------------
+IPTV URLs (1):
+  • https://webtvstream.bhtelecom.ba/hls13/bhrtportal_hd_1200.m3u8
+Logo: https://i.imgur.com/LEwlEEE.png
+Category: General
+[3] Kanal 6
+------------------------------------------------
+IPTV URLs (1):
+  • https://restreamer1.tnt.ba/hls/kanal6.m3u8
+Logo: https://i.imgur.com/GGhvR0l.png
+Category: General
+[4] María+Visión Medjugorje
+------------------------------------------------
+IPTV URLs (1):
+  • https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Italiasette/playlist.m3u8
+Logo: https://i.imgur.com/xUOspBx.png
+Category: Religious
+[5] NTV IC Kakanj
+------------------------------------------------
+IPTV URLs (1):
+  • https://lon.rtsp.me/dEqnY-myGj84bKrieCIPfA/1743271667/hls/3dH3YAD6.m3u8
+Logo: https://i.imgur.com/EtaHm2P.png
+Category: General
+[6] RTRS Plus (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
+Logo: https://i.imgur.com/k06WvYl.png
+Category: Undefined
+[7] RTRS TV (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://uzivo.rtrs.tv/tv/live/index.m3u8
+Logo: https://i.imgur.com/2Sgs5gM.png
+Category: Undefined
+[8] RTV Glas Drine (404p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
+Logo: https://i.imgur.com/9NgxOdb.png
+Category: General;Music
+[9] RTV Herceg-Bosne (576p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
+Logo: https://i.imgur.com/6FNL8Iv.png
+Category: General
+[10] RTV Zenica
+------------------------------------------------
+IPTV URLs (1):
+  • https://stream.rtvze.ba/live/123/123.m3u8
+Logo: https://i.imgur.com/TKUaflB.png
+Category: Undefined
+[11] Super TV Media
+------------------------------------------------
+IPTV URLs (1):
+  • https://mirtv.club/live/mirtv/index.m3u8
+Logo: https://i.imgur.com/XYWgd3E.png
+Category: General
+[12] Televizija 5
+------------------------------------------------
+IPTV URLs (1):
+  • https://balkanmedia.dynu.net/hls/tv5web.m3u8
+Logo: https://i.imgur.com/znpvJys.png
+Category: Undefined
+[13] Televizija M
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.tv-m.net/hls/stream.m3u8
+Logo: https://i.imgur.com/jT95ZEI.png
+Category: General
+[14] TNT Kids
+------------------------------------------------
+IPTV URLs (1):
+  • https://restreamer1.tnt.ba/hls/tntkids.m3u8
+Logo: https://i.imgur.com/irTDbpn.png
+Category: Kids
+[15] TV SLO 1 HD (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://23.88.66.93/SLO1/index.m3u8
+Logo: https://i.imgur.com/E3YmlxF.png
+Category: Undefined
+[16] TV Slon Extra (1080p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://31.47.0.130:8082
+Logo: https://i.imgur.com/AohYgH1.png
+Category: Undefined

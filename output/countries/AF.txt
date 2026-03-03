@@ -1,0 +1,174 @@
+============================================================
+Afghanistan (AF)
+============================================================
+Total Channels: 28
+Source: https://tv.garden/
+============================================================
+
+[1] 4 Afghanistan
+------------------------------------------------
+IPTV URLs (1):
+  • https://4afghls.persiana.live/hls/stream.m3u8
+Category: Undefined
+[2] ABN Afghanistan
+------------------------------------------------
+IPTV URLs (1):
+  • https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8
+Logo: https://i.imgur.com/LI30mAt.png
+Category: Religious
+[3] Afghan Nobel Movies
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
+Logo: https://i.ibb.co/zfdbVSm/logo-1.png
+Category: Movies
+[4] Afghan Nobel TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.relentlessinnovations.net:1936/afghannobeltv/afghannobeltv/playlist.m3u8
+Logo: https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg
+Category: General
+[5] Afghanistan International
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.afintl.com/hls/stream.m3u8
+Logo: https://i.imgur.com/r8MmFRX.png
+Category: News
+[6] AMC
+------------------------------------------------
+IPTV URLs (1):
+  • https://amchls.wns.live/hls/stream.m3u8
+Logo: https://i.imgur.com/yj8RNnG.png
+Category: Music
+[7] Bahar TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://59d39900ebfb8.streamlock.net/bahartv/bahartv/playlist.m3u8
+Logo: https://yt3.googleusercontent.com/ytc/AIdro_nErN-N8qBYQy7YZnf-eAS2A97TFf1Ljs7yv2nxsc6T3A=s160-c-k-c0x00ffffff-no-rj
+Category: General
+[8] Barbud Music
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/taodicakhia/IPTV_Exception/master/channels/af/tolomusic.m3u8
+Logo: https://i.imgur.com/jbbxu0g.png
+Category: Music
+[9] Chekad TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://go5lmqxjyawb-hls-live.5centscdn.com/Chekad/271ddf829afeece44d8732757fba1a66.sdp/chunks.m3u8
+Logo: https://i.imgur.com/dPTJY5M.png
+Category: News
+[10] Dunya Naw TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://dunyanhls.wns.live/hls/stream.m3u8
+Logo: https://i.ibb.co/nQkLgyn/dunya-naw-tv.png
+Category: General
+[11] Eslah TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://eslahtvhls.wns.live/hls/stream.m3u8
+Logo: https://i.imgur.com/To7VnsA.png
+Category: Religious
+[12] Hewad TV (720p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • http://51.210.199.58/hls/stream.m3u8
+Logo: https://i.imgur.com/cK2eWUZ.png
+Category: Undefined
+[13] Iman TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.relentlessinnovations.net:1936/imantv/imantv/index.m3u8
+Logo: https://i.imgur.com/Vo6cEYi.png
+Category: Religious
+[14] Kayhan TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
+Logo: https://i.imgur.com/2MDjU7x.png
+Category: Music
+[15] Maah TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.maahtv.live/hls/stream.m3u8
+Logo: https://i.imgur.com/FkyueH6.png
+Category: Movies
+[16] Payam-e-Afghan TV (480p) [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8
+Logo: https://i.imgur.com/t9wYYY9.png
+Category: General
+[17] RTA
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA1)/index.m3u8
+Logo: https://i.imgur.com/pJU2KPh.png
+Category: General
+[18] RTA Education
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA4)/index.m3u8
+Logo: https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png
+Category: Undefined
+[19] RTA News
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA2)/index.m3u8
+Logo: https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png
+Category: Undefined
+[20] RTA Sport
+------------------------------------------------
+IPTV URLs (1):
+  • https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8
+Logo: https://i.imgur.com/lEXrwos.jpg
+Category: Sports
+[21] Sada-E-Haq TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://live.relentlessinnovations.net:1936/sadaehaq/sadaehaq/playlist.m3u8
+Logo: https://i.imgur.com/J1pB59S.jpg
+Category: Religious
+[22] Shams TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://fflive-darya-educationtv.b-cdn.net/master.m3u8
+Logo: https://i.imgur.com/Lsy31iZ.jpeg
+Category: Education
+[23] Shamshad TV [Not 24/7]
+------------------------------------------------
+IPTV URLs (1):
+  • https://5a1178b42cc03.streamlock.net/shamshadtelevision/shamshadtelevision/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/2/28/Shamshad_tv_logo.jpg
+Category: Entertainment
+[24] Sharq Radio TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://59nyqa5elwap-hls-live.5centscdn.com/Sharq/eec89088ee408b80387155272b113256.sdp/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sharq_TV_Logo_2020.jpg/440px-Sharq_TV_Logo_2020.jpg
+Category: General
+[25] Sohail TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://iptv.sohailtv.com/sohail/playlist/index.m3u8
+Logo: https://i.ibb.co/dtzjKfT/Sohail-TV.png
+Category: General
+[26] Tamadon TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://hls.tamadon.live/hls/stream.m3u8
+Logo: https://i.imgur.com/edGyj5H.png
+Category: Undefined
+[27] Tolo News
+------------------------------------------------
+IPTV URLs (1):
+  • https://raw.githubusercontent.com/taodicakhia/IPTV_Exception/master/channels/af/tolonews.m3u8
+Logo: https://i.imgur.com/oxaHaTq.png
+Category: News
+[28] Watan-e-Maa TV
+------------------------------------------------
+IPTV URLs (1):
+  • https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8
+Logo: https://i.ibb.co/1rDrKJG/Watan-E-Maa-Tv-Logo-300-Dpi.png
+Category: General
