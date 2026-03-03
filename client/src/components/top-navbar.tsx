@@ -96,6 +96,12 @@ export default function TopNavbar({
           >
             FAQ
           </a>
+          <a
+            href="/privacy"
+            className="hidden sm:inline-flex items-center text-xs text-white/40 hover:text-white/80 transition-colors"
+          >
+            Privacy
+          </a>
           <button
             onClick={onMenuClick}
             className="text-white focus:outline-none"

@@ -120,6 +120,8 @@ export default function FAQ() {
                         </Link>
                         <span className="text-white/20">·</span>
                         <span className="text-white/80">FAQ</span>
+                        <span className="text-white/20">·</span>
+                        <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
                     </nav>
                 </div>
             </header>
@@ -166,8 +168,17 @@ export default function FAQ() {
             </div>
 
             {/* Footer */}
-            <div className="border-t border-white/5 py-8 text-center text-xs text-white/25">
+            <div className="border-t border-white/5 py-8 text-center text-xs text-white/25 space-y-2">
                 <p>© {new Date().getFullYear()} Sora.tv — Watch live TV from anywhere, for free.</p>
+                <p>
+                    <a href="/faq" className="hover:text-white/50 transition-colors underline underline-offset-2">
+                        FAQ
+                    </a>
+                    {" · "}
+                    <a href="/privacy" className="hover:text-white/50 transition-colors underline underline-offset-2">
+                        Privacy Policy
+                    </a>
+                </p>
             </div>
         </div>
     )
