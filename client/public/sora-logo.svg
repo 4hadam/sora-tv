@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="200" height="200" fill="#000000"/>
+  
+  <!-- Red circle (O) -->
+  <circle cx="50" cy="100" r="30" fill="#FF5555"/>
+  
+  <!-- Orange cross (T) -->
+  <g transform="translate(100, 100)">
+    <!-- Horizontal bar -->
+    <rect x="-25" y="-8" width="50" height="16" fill="#FFA500" rx="2"/>
+    <!-- Vertical bar -->
+    <rect x="-8" y="-35" width="16" height="50" fill="#FF8800" rx="2"/>
+  </g>
+  
+  <!-- Gradient V (Yellow to Cyan) -->
+  <defs>
+    <linearGradient id="vGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEB3B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00BCD4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- V shape -->
+  <g transform="translate(150, 100)">
+    <polygon points="0,0 -20,-40 -10,-40 10,0 20,-40 30,-40" fill="url(#vGradient)"/>
+  </g>
+</svg>
