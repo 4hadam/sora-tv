@@ -54,7 +54,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "2M  +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General" },
     { "name": "Wetter-Panorama", "url": "https://www.youtube-nocookie.com/embed/NIuO6hrFTrg", "category": "General" },
     { "name": "W24", "url": "httpsExamples://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/FpVNrxk.png" },
-  ],,
+  ],
   "Angola": [
     { "name": "KK TV Angola", "url": "https://w1.manasat.com/ktv-angola/smil:ktv-angola.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/jWOB0oU.png" },
     { "name": "Muzangala TV", "url": "https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/fBeaJoS.png" },
@@ -75,7 +75,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Report TV", "url": "https://deb10stream.duckdns.org/hls/stream.m3u8", "category": "General", "logo": "https://i.imgur.com/C9lM1KP.png" },
     { "name": "Zjarr TV", "url": "https://zjarr.future.al/hls/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/hNuWZWe.png" },
     { "name": "Syri", "url": "https://stream.syritv.al/SyriTV/index.m3u8", "category": "General", "logo": "https://i.imgur.com/EEHyKdL.jpeg" },
-  ],,
+  ],
   "Australia": [
     { "name": "2GB Sydney", "url": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8", "category": "General", "logo": "https://i.ibb.co/jwM8DFG/2GB-1.png" },
     { "name": "3AW Melbourne", "url": "https://3awlive.akamaized.net/hls/live/2032295/3AW/index.m3u8", "category": "General", "logo": "https://i.imgur.com/Z4MdB0S.png" },
@@ -442,7 +442,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Kalaignar Murasu", "url": "https://segment.yuppcdn.net/050522/murasu/playlist.m3u8", "category": "General", "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MURASU/images/LOGO_HD/image.png" },
     { "name": "E 24", "url": "https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8", "category": "General", "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_E24/images/LOGO_HD/image.png" },
     { "name": "E 24", "url": "https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8", "category": "General", "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_E24/images/LOGO_HD/image.png" },
-  ],,
+  ],
   "Germany": [
     { "name": "1-2-3 TV", "url": "https://123tv-mx1.flex-cdn.net/index.m3u8", "category": "General", "logo": "https://i.imgur.com/slSUDNX.png" },
     { "name": "Alex Berlin", "url": "https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8", "category": "General", "logo": "https://i.imgur.com/eTmHk4e.png" },
@@ -604,7 +604,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "SWR 3 Visual Radio", "url": "httpsM://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8", "category": "General", "logo": "https://i.imgur.com/PxSgxRO.jpg" },
     { "name": "WDR Fernsehen Bonn", "url": "httpsM://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/WDR_Fernsehen_Logo_2018.svg/512px-WDR_Fernsehen_Logo_2018.svg.png" },
     { "name": "WDR Fernsehen Siegen", "url": "httpsM://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/WDR_Fernsehen_Logo_2018.svg/512px-WDR_Fernsehen_Logo_2018.svg.png" },
-  ],,
+  ],
   "Dominican Republic": [
     { "name": "Adoram TV", "url": "https://live20.bozztv.com/giatv/giatv-adoram/adoram/chunks.m3u8", "category": "General", "logo": "https://i.imgur.com/uU01KHz.png" },
     { "name": "Agenda 56 TV", "url": "https://cloudflare.streamgato.us:3148/live/agenda56tvlive.m3u8", "category": "General", "logo": "https://i.imgur.com/G7zIVB7.png" },
@@ -773,7 +773,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Xtra Tv", "url": "https://cnn.essastream.com:3387/live/xtratvlive.m3u8", "category": "General", "logo": "https://xtratvrd.com/logo512.png" },
     { "name": "Xtremo Channel", "url": "https://ss2.tvrdomi.com:1936/xtremochannel/xtremochannel/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/bvPh0Uq.png" },
     { "name": "Telenord 12", "url": "httpsD://vdo1.streamgato.us:3345/live/telenord12live.m3u8", "category": "General", "logo": "https://i.imgur.com/o7EzEsV.png" },
-  ],,
+  ],
   "Costa Rica": [
     { "name": "¡OPA! (1080i)", "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/300c1ZH.png" },
     { "name": "360 RFTV", "url": "https://acceso.radiosportstv.online:3417/live/360rftvcrlive.m3u8", "category": "General", "logo": "https://i.imgur.com/EBtgnxR.png" },
@@ -813,7 +813,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "VM Latino", "url": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/Dvo1b82.png" },
     { "name": "Telefides", "url": "https://s2.cwebtv.net:4433/telefides/telefides/playlist.m3u8", "category": "General", "logo": "https://i.ibb.co/yn5M8dw/telefides-costa-rica.png" },
     { "name": "TV Sur Canal 14", "url": "httpsfs://k20.usastreams.com:8081/tvsur/index.m3u8", "category": "General", "logo": "https://i.imgur.com/OpHYYZA.png" },
-  ],,
+  ],
   "Chile": [
     { "name": "13 Festival", "url": "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8", "category": "General", "logo": "https://i.imgur.com/Ymk6j5o.png" },
     { "name": "13 Kids", "url": "https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8", "category": "General", "logo": "https://i.imgur.com/8WJUbSD.png" },
@@ -883,7 +883,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Puranoticia TV", "url": "httpsions://pnt.janusmedia.tv/hls/pnt.m3u8", "category": "General", "logo": "https://i.imgur.com/NklUi6Y.png" },
     { "name": "TVU Concepción", "url": "httpsTwo://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8", "category": "General", "logo": "https://i.ibb.co/5vFMTxt/Logo-tvu.png" },
     { "name": "U Los Lagos TV", "url": "https://tv.ulagos.cl/web/live.m3u8", "category": "General", "logo": "https://i.imgur.com/HxUZseV.png" },
-  ],,
+  ],
   "Colombia": [
     { "name": "Avivamiento TV", "url": "https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/ydoBp3b.png" },
     { "name": "Bum Televisión", "url": "https://movil.ejeserver.com/live/visiondorada.m3u8", "category": "General", "logo": "https://i.imgur.com/I0eGYI0.png" },
@@ -927,7 +927,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "TV San Jorge", "url": "https://asucap.com/livestream/asucap_envivo.m3u8", "category": "General", "logo": "https://i.imgur.com/vLU4Tcu.png" },
     { "name": "Zoom", "url": "https://canalzoom.smoothcloud.co:3027/live/canalzoombr1live.m3u8", "category": "General", "logo": "https://i.imgur.com/euy5zp6.png" },
     { "name": "Red+", "url": "https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8", "category": "General", "logo": "https://i.imgur.com/kuqkTMC.png" },
-  ],,
+  ],
   "Switzerland": [
     { "name": "Canal 9 en Français", "url": "https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8", "category": "General", "logo": "https://i.imgur.com/TNciMh2.png" },
     { "name": "Canal Alpha Jura", "url": "https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/eQ8xHK9.jpg" },
@@ -1083,7 +1083,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Now TV 102.3FM Edmonton (CKNO-FM)", "url": "https://videostream.jpbgdigital.com/NOWTV.m3u8", "category": "General", "logo": "https://i.imgur.com/sF2g7KE.png" },
     { "name": "Parnian TV", "url": "https://live2.parnian.tv/hls/.m3u8", "category": "General" },
     { "name": "Sikh Spiritual Centre Rexdale", "url": "https://cdn12.henico.net:8443/live/ssct/index.m3u8", "category": "General", "logo": "https://i.imgur.com/YKXoIsr.png" },
-  ],,
+  ],
   "Brazil": [
     { "name": "1001 Noites", "url": "https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/dWA9y2J.png" },
     { "name": "Adesso TV", "url": "https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/KgetM8j.png" },
@@ -1220,7 +1220,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Canal Rural", "url": "https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/w9R9IIX.png" },
     { "name": "TV Thathi", "url": "https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/w9yKTxE.png" },
     { "name": "TVCOM Maceió", "url": "httpsTwo://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/IE7IZzi.png" },
-  ],,
+  ],
   "Argentina": [
     { "name": "24/7 Canal de Noticias", "url": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8", "category": "General", "logo": "https://i.imgur.com/4hDCB1M.png" },
     { "name": "A24", "url": "https://www.youtube-nocookie.com/embed/ArKbAx1K-2U", "category": "General" },
@@ -1338,7 +1338,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Canal Santa María", "url": "https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8", "category": "General", "logo": "https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg" },
     { "name": "Magic Kids", "url": "https://magicstream.ddns.net/magicstream/stream.m3u8", "category": "General", "logo": "https://i.imgur.com/CMImqQY.png" },
     { "name": "Telemax", "url": "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/512px-Telemax_Argentina_%282018%29.png" },
-  ],,
+  ],
   "United Kingdom": [
     { "name": "Afghanistan International", "url": "https://hls.afintl.com/hls/stream.m3u8", "category": "General", "logo": "https://i.imgur.com/r8MmFRX.png" },
     { "name": "Afrobeats", "url": "https://stream.ecable.tv/afrobeats/index.m3u8", "category": "General", "logo": "https://i.imgur.com/232ndRK.png" },
@@ -1490,7 +1490,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Wicked Tuna", "url": "httpss://amg00353-amg00353c25-rakuten-us-4896.playouts.now.amagi.tv/playlist.m3u8", "category": "General" },
     { "name": "WildEarth", "url": "httpss://wildearth-xumo.amagi.tv/master.m3u8", "category": "General", "logo": "https://i.imgur.com/Vhv5gjN.png" },
     { "name": "Wonder", "url": "httpss://lds-wonder-plex.amagi.tv/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/LquGNbh.png" },
-  ],,
+  ],
   "Ukraine": [
     { "name": "5 канал", "url": "https://www.youtube-nocookie.com/embed/wkgllGD5yew", "category": "General", "logo": "https://i.imgur.com/NJsRFud.png" },
     { "name": "24 Канал онлайн", "url": "https://www.youtube-nocookie.com/embed/n1wmUnpw7vc", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png" },
@@ -1708,7 +1708,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Zylo Ciné Nanar", "url": "https_//zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/YnUZd3W.png" },
     { "name": "Zylo Fréquence Novelas", "url": "https_//d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/fEjNAps.png" },
     { "name": "Zylo Into Crime", "url": "https_//amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/43at4M2.png" },
-  ],,
+  ],
   "Russia": [
     { "name": "2х2", "url": "https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8", "category": "General" },
     { "name": "12 канал", "url": "https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/OA9hm6e.png" },
@@ -1903,7 +1903,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Ювелирочка ТВ", "url": "https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8", "category": "General" },
     { "name": "Пятый Канал", "url": "httpsions://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8", "category": "General" },
     { "name": "Сити Эдем Рецепты Гурмана", "url": "httpss://cityeden.catcast.tv/content/47516/index.m3u8", "category": "General" },
-  ],,
+  ],
   "China": [
     { "name": "CCTV-4中文国际", "url": "https://www.youtube-nocookie.com/embed/f6Kq93wnaZ8", "category": "General", "logo": "https://i.imgur.com/tWt4Wou.png" },
     { "name": "CCTV+ 1", "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/U8d4Is6.png" },
@@ -1971,7 +1971,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "长春综合", "url": "httpss://stream2.jlntv.cn/jlcc/sd/live.m3u8", "category": "General" },
     { "name": "集安综合", "url": "httpss://stream2.jlntv.cn/ja/sd/live.m3u8", "category": "General" },
     { "name": "餘姚姚江文化", "url": "httpss://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8", "category": "General" },
-  ],,
+  ],
   "Saudi Arabia": [
     { "name": "Abdulmajeed Abdullah", "url": "https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8", "category": "General", "logo": "https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png" },
     { "name": "Al Arabiya Al Hadath", "url": "https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8", "category": "General" },
@@ -2162,7 +2162,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Qatar Television 2", "url": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8", "category": "General", "logo": "https://i.imgur.com/iWJxDUm.png" },
     { "name": "Qatar Television 2", "url": "https://streamer1.qna.org.qa/148133344_live/148133344_63.sdp/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/iWJxDUm.png" },
     { "name": "Al Araby TV 2", "url": "httpshttps://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/Gp5mNea.png" },
-  ],,
+  ],
   "Bahrain": [
     { "name": "Bahrain International", "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/t6Lmntr.png" },
     { "name": "Bahrain Quran", "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/er5hOK4.png" },
@@ -2258,7 +2258,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Taha TV", "url": "https://media1.livaat.com/static/TAHA_TV/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/hdsrxvX.png" },
     { "name": "Voice of Lebanon", "url": "https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/f8WcqRY.png" },
     { "name": "Palestine Al Yawm", "url": "httpss://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8", "category": "General", "logo": "https://i.imgur.com/n8dSgx4.png" },
-  ],,
+  ],
   "Palestine": [
     { "name": "Al Najah News", "url": "https://streaming.najah.edu:8443/hls/AlNajah.m3u8", "category": "General", "logo": "https://i.imgur.com/c2bwn4G.png" },
     { "name": "Falastini TV", "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/6B3Cims.png" },
@@ -2274,7 +2274,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Raya 1", "url": "https://htvmada.mada.ps:4443/raya/index.m3u8", "category": "General", "logo": "https://www.rayatv.ps/images/logo_tv.png" },
     { "name": "Watar TV", "url": "https://htvint.mada.ps/orient/index.m3u8", "category": "General", "logo": "https://i.imgur.com/jdr22Sk.jpeg" },
     { "name": "Shabab FM", "url": "httpss://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8", "category": "General", "logo": "https://i.imgur.com/4Cyz4Bn.png" },
-  ],,
+  ],
   "Japan": [
     { "name": "ABCテレビニュース", "url": "https://www.youtube-nocookie.com/embed/-29O-q6Qfm8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" },
     { "name": "Anileap: アニリープ公式", "url": "https://www.youtube-nocookie.com/embed/4FBW3mkdKOs", "category": "General" },
@@ -2507,7 +2507,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   "Djibouti": [
     { "name": "RTD", "url": "...", "category": "General", "logo": "https://www.rtd.dj/images/logo.png#joomlaImage://local-images/logo.png?width=110&height=110" },
     { "name": "RTD", "url": "...", "category": "General", "logo": "https://www.rtd.dj/images/logo.png#joomlaImage://local-images/logo.png?width=110&height=110" },
-  ],,
+  ],
   "Italy": [
     { "name": "7 RadioVisione", "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8", "category": "General", "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png" },
     { "name": "7 STORIA", "url": "https://stream10.xdevel.com/video2s976543-2104/stream/playlist.m3u8", "category": "General" },
@@ -3720,7 +3720,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "General", "logo": "https://i.imgur.com/ZBV6xph.png" },
     { "name": "Al Maghribia", "url": "https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd", "category": "General", "logo": "https://i.imgur.com/7GaahYh.png" },
     { "name": "الأولى (Al Aoula)", "url": "https://snrt.player.easybroadcast.io/events/73_aloula_w1dqfwm", "category": "General" },
-  ],,
+  ],
   "Spain": [
     { "name": "3Cat Càmeres del temps", "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8", "category": "General", "logo": "https://i.imgur.com/zXy2kbe.png" },
     { "name": "3Cat El búnquer", "url": "https://fast-tailor.3catdirectes.cat/v1/channel/bunquer/hls.m3u8", "category": "General", "logo": "https://i.imgur.com/wiqdIjd.png" },
@@ -3899,7 +3899,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "El Toro TV", "url": "https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Eltorotv.png" },
     { "name": "Solidaria TV", "url": "httpsions://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8", "category": "General", "logo": "https://i.imgur.com/Bgm2iZY.png" },
     { "name": "XPTV2", "url": "httpsions://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8", "category": "General", "logo": "https://i.imgur.com/74Z8ATB.png" },
-  ],,
+  ],
 };
 
 /**
