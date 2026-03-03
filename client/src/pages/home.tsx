@@ -19,15 +19,6 @@ const CountryDetail = lazy(() => import("@/components/country-detail"))
 // CategorySidebar is tiny — keep static
 import CategorySidebar from "@/components/CategorySidebar"
 
-// Lightweight skeleton shown while channel-data chunks load
-const SidebarSkeleton = () => (
-  <div className="w-full h-full bg-gray-900/80 animate-pulse flex flex-col gap-2 p-3">
-    {Array.from({ length: 8 }).map((_, i) => (
-      <div key={i} className="h-12 rounded-lg bg-gray-800/60" />
-    ))}
-  </div>
-)
-
 // Globe placeholder — shown while globe.gl hasn't loaded yet
 const GlobePlaceholder = () => (
   <div className="w-full h-full flex items-center justify-center bg-[#0B0D11]">
@@ -226,7 +217,7 @@ export default function Home() {
             className="absolute right-0 top-16 bottom-0 w-[320px] lg:w-[340px] z-20 bg-gray-900/90 backdrop-blur-md"
             role="complementary"
           >
-            <Suspense fallback={<SidebarSkeleton />}>
+            <Suspense fallback={null}>
               <CountrySidebar
                 selectedCountry={selectedCountry}
                 onSelectCountry={handleSelectCountry}
@@ -296,7 +287,7 @@ export default function Home() {
 
               {/* Note 2: Change h-[60%] to flex-1 */}
               <div className="flex-1 overflow-y-auto custom-scroll">
-                <Suspense fallback={<SidebarSkeleton />}>
+                <Suspense fallback={null}>
                   <CountrySidebar
                     selectedCountry={selectedCountry}
                     onSelectCountry={handleSelectCountry}
