@@ -9519,10 +9519,56 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
 /**
  * ✅ Helper: Get channels by country name
  */
+/**
+ * Maps sidebar slugs → actual category values stored in channel data
+ */
+const CATEGORY_SLUG_MAP: Record<string, string[]> = {
+  "top-news": ["News", "General;News", "News;Public"],
+  "news": ["News", "General;News", "News;Public"],
+  "music": ["Music", "Entertainment;Music"],
+  "sports": ["Sports"],
+  "auto": ["Auto"],
+  "animation": ["Animation", "Animation;Kids"],
+  "business": ["Business"],
+  "classic": ["Classic", "Classic;Movies"],
+  "comedy": ["Comedy"],
+  "cooking": ["Cooking"],
+  "culture": ["Culture", "Culture;Education", "Culture;Entertainment"],
+  "documentary": ["Documentary"],
+  "education": ["Education", "Education;Kids", "Education;Science", "Culture;Education"],
+  "entertainment": ["Entertainment", "Entertainment;Music", "Culture;Entertainment"],
+  "family": ["Family"],
+  "general": ["General", "General;Public", "General;News", "General;Religious"],
+  "kids": ["Kids", "Animation;Kids", "Education;Kids"],
+  "legislative": ["Legislative"],
+  "lifestyle": ["Lifestyle"],
+  "movies": ["Movies", "Movies;Series", "Classic;Movies"],
+  "outdoor": ["Outdoor"],
+  "relax": ["Relax"],
+  "religious": ["Religious", "General;Religious"],
+  "series": ["Series", "Movies;Series"],
+  "science": ["Science", "Education;Science"],
+  "shop": ["Shop"],
+  "travel": ["Travel"],
+  "weather": ["Weather"],
+};
+
+/** Resolve slug or title-case category to the list of matching db values */
+function resolveCategoryValues(category: string): string[] {
+  if (!category || category === "all-channels") return [];
+  // Direct match in slug map
+  if (CATEGORY_SLUG_MAP[category.toLowerCase()]) {
+    return CATEGORY_SLUG_MAP[category.toLowerCase()];
+  }
+  // Already a proper-case value (e.g. "News") — return as-is
+  return [category];
+}
+
 export function getChannelsByCountry(country: string, category?: string | null): IPTVChannel[] {
   const channels = (channelsByCountry[country] || []).filter((ch): ch is IPTVChannel => ch != null && typeof ch.name === "string");
   if (category && category !== "all-channels") {
-    return channels.filter((ch) => ch.category === category || !ch.category);
+    const allowed = resolveCategoryValues(category);
+    return channels.filter((ch) => !ch.category || allowed.includes(ch.category));
   }
   return channels;
 }
@@ -9531,10 +9577,14 @@ export function getChannelsByCountry(country: string, category?: string | null):
  * ✅ Helper: Get channels by category
  */
 export function getChannelsByCategory(category: string): IPTVChannel[] {
+  const allowed = resolveCategoryValues(category);
+  if (allowed.length === 0) return [];
   const channels: IPTVChannel[] = [];
   for (const countryChannels of Object.values(channelsByCountry)) {
     channels.push(
-      ...countryChannels.filter((ch): ch is IPTVChannel => ch != null && typeof ch.name === "string" && ch.category === category)
+      ...countryChannels.filter((ch): ch is IPTVChannel =>
+        ch != null && typeof ch.name === "string" && !!ch.category && allowed.includes(ch.category)
+      )
     );
   }
   return channels;
