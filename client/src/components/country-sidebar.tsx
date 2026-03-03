@@ -522,7 +522,7 @@ export default function CountrySidebar({
                   const isYT = isYouTubeChannel(channel)
                   const lang = detectChannelLang(channel, selectedCountry || channel.countryName || undefined) || ""
 
-                  // تحديد العلم الصحيح
+                  // تحديد العلم الصحيح أو شعار القناة
                   const flagCode = selectedCountry ? getCode(selectedCountry) : getCode(channel.countryName || "")
 
                   return (
@@ -533,12 +533,24 @@ export default function CountrySidebar({
                         title={channel.name}
                       >
                         <div className="flex items-center gap-3 min-w-0">
-                          <img
-                            src={`https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${flagCode}.svg`}
-                            alt="flag"
-                            className="w-6 h-4 rounded-sm object-cover"
-                            onError={(e) => ((e.target as HTMLImageElement).style.display = "none")}
-                          />
+                          {/* عرض شعار القناة إن وجد، بخلاف عرض العلم */}
+                          {(channel as any).logo ? (
+                            <img
+                              src={(channel as any).logo}
+                              alt={channel.name}
+                              className="w-8 h-8 rounded-sm object-cover"
+                              onError={(e) => {
+                                (e.target as HTMLImageElement).srcset = `https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${flagCode}.svg`
+                              }}
+                            />
+                          ) : (
+                            <img
+                              src={`https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${flagCode}.svg`}
+                              alt="flag"
+                              className="w-6 h-4 rounded-sm object-cover"
+                              onError={(e) => ((e.target as HTMLImageElement).style.display = "none")}
+                            />
+                          )}
                           <span className="text-[15px] text-white truncate font-normal">{channel.name}</span>
                         </div>
 

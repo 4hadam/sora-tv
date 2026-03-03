@@ -1,6 +1,7 @@
 import axios from 'axios'
 import * as fs from 'fs'
 import * as path from 'path'
+import { execSync } from 'child_process'
 
 interface Channel {
   name: string
@@ -271,6 +272,18 @@ async function main() {
   await updateIPTVChannelsFile(channels);
 
   console.log('✅ اكتمل!\n');
+
+  // 🔄 Auto-push to GitHub
+  try {
+    console.log('🚀 جاري الرفع الى GitHub...');
+    execSync('git add shared/iptv-channels.ts', { stdio: 'inherit' });
+    execSync(`git commit -m "🔄 Update: Fetched ${Object.keys(channels).length} countries with ${Object.values(channels).flat().length} total channels"`, { stdio: 'inherit' });
+    execSync('git push origin main', { stdio: 'inherit' });
+    console.log('✅ تم الرفع الى GitHub بنجاح!\n');
+  } catch (error) {
+    console.warn('⚠️ تحذير: لم يتمكن من الرفع الى GitHub تلقائياً');
+    console.warn('   شغّل يدويّاً: git add shared/iptv-channels.ts && git commit -m "..." && git push');
+  }
 }
 
 main().catch(console.error);

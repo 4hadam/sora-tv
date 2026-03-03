@@ -21,4 +21,5 @@ export interface IPTVChannel {
   name: string;
   url: string;
   category: string;
+  logo?: string;
 }

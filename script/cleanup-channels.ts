@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+import { execSync } from "child_process";
 import { channelsByCountry } from "../shared/iptv-channels";
 
 interface IPTVChannel {
@@ -102,6 +103,18 @@ async function main() {
     console.log(`Removed:      ${totalRemoved} dead channels`);
     console.log(`Time:         ${(duration / 1000).toFixed(1)}s`);
     console.log(`\n📄 Updated: ${filePath}`);
+
+    // 🔄 Auto-push to GitHub
+    try {
+        console.log("\n🚀 Pushing to GitHub...");
+        execSync("git add shared/iptv-channels.ts", { stdio: "inherit" });
+        execSync(`git commit -m "🧹 Cleanup: Removed ${totalRemoved} dead channels, kept ${totalKept} working channels"`, { stdio: "inherit" });
+        execSync("git push origin main", { stdio: "inherit" });
+        console.log("✅ Successfully pushed to GitHub!");
+    } catch (error) {
+        console.warn("⚠️ Warning: Could not auto-push to GitHub");
+        console.warn("   Run manually: git add shared/iptv-channels.ts && git commit -m '...' && git push");
+    }
 }
 
 main().catch(console.error);
