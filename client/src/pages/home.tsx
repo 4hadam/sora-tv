@@ -1,11 +1,15 @@
-import { useState, useEffect, Suspense, lazy } from "react"
+import { useState, useEffect, type ComponentType } from "react"
 import { useLocation } from "wouter"
 import TopNavbar from "@/components/top-navbar"
 import { useIsMobileDevice } from "@/hooks/use-is-mobile-device"
 import { countryCodeMap } from "@/lib/country-flags"
 
-// ✅ Lazy load only heavy components (globe.gl is ~300KB)
-const GlobeViewer = lazy(() => import("@/components/globe-viewer"))
+// Globe viewer loaded manually (not via React.lazy) to avoid Vite modulepreload injection
+type GlobeViewerType = ComponentType<{
+  selectedCountry: string | null
+  onCountryClick?: (countryName: string) => void
+  isMobile?: boolean
+}>
 
 // Regular imports for other components
 import CountrySidebar from "@/components/country-sidebar"
@@ -26,19 +30,12 @@ const GlobePlaceholder = () => (
   </div>
 )
 
-// ✅ Loading indicator for lazy components
-const ComponentLoader = () => (
-  <div className="w-full h-full flex items-center justify-center bg-black/20">
-    <div className="animate-spin w-8 h-8 border-2 border-yellow-500 border-t-transparent rounded-full" />
-  </div>
-)
-
 export default function Home() {
   const [location, setLocation] = useLocation()
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [selectedChannel, setSelectedChannel] = useState<string | null>(null)
   const [mounted, setMounted] = useState(false)
-  const [globeReady, setGlobeReady] = useState(false)
+  const [GlobeViewer, setGlobeViewer] = useState<GlobeViewerType | null>(null)
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
   const [currentTime, setCurrentTime] = useState("")
@@ -50,15 +47,17 @@ export default function Home() {
 
   useEffect(() => {
     setMounted(true)
-    // Defer globe load until after first paint — prevents blocking the main thread
-    const schedule = (cb: () => void) => {
-      if ("requestIdleCallback" in window) {
-        (window as any).requestIdleCallback(cb, { timeout: 3000 })
-      } else {
-        setTimeout(cb, 200)
-      }
+    // Defer globe load until browser is idle — prevents blocking the main thread
+    const load = () => {
+      import("@/components/globe-viewer").then((mod) => {
+        setGlobeViewer(() => mod.default)
+      })
     }
-    schedule(() => setGlobeReady(true))
+    if ("requestIdleCallback" in window) {
+      ; (window as any).requestIdleCallback(load, { timeout: 3000 })
+    } else {
+      setTimeout(load, 300)
+    }
   }, [])
 
   // Handle URL-based country selection
@@ -185,14 +184,12 @@ export default function Home() {
 
         {/* 🌍 Globe Viewer */}
         <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
-          {globeReady ? (
-            <Suspense fallback={<ComponentLoader />}>
-              <GlobeViewer
-                selectedCountry={selectedCountry}
-                onCountryClick={handleGlobeCountryClick}
-                isMobile={isMobile}
-              />
-            </Suspense>
+          {GlobeViewer ? (
+            <GlobeViewer
+              selectedCountry={selectedCountry}
+              onCountryClick={handleGlobeCountryClick}
+              isMobile={isMobile}
+            />
           ) : (
             <GlobePlaceholder />
           )}
