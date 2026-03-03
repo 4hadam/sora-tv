@@ -60,30 +60,17 @@ export default function Home() {
   useEffect(() => {
     setMounted(true)
 
-    // Load globe on first user interaction — works on both mobile & desktop.
-    // Interaction-based loading keeps globe.gl out of Lighthouse's TBT window
-    // while still showing the globe as soon as the user touches/moves.
-    let loaded = false
+    // Load globe after browser is idle — no interaction needed, but doesn't block first paint
     const load = () => {
-      if (loaded) return
-      loaded = true
       import("@/components/globe-viewer").then((mod) => {
         setGlobeViewer(() => mod.default)
       })
     }
 
-    const EVENTS = ["mousemove", "mousedown", "scroll", "keydown", "touchstart"] as const
-    const onInteraction = () => {
-      EVENTS.forEach((e) => window.removeEventListener(e, onInteraction))
-      load()
-    }
-    EVENTS.forEach((e) => window.addEventListener(e, onInteraction, { passive: true }))
-
-    // Fallback: load after 5 seconds even without any interaction
-    const fallback = setTimeout(load, 5000)
-    return () => {
-      EVENTS.forEach((e) => window.removeEventListener(e, onInteraction))
-      clearTimeout(fallback)
+    if ("requestIdleCallback" in window) {
+      (window as any).requestIdleCallback(load, { timeout: 2000 })
+    } else {
+      setTimeout(load, 500)
     }
   }, [])
 
