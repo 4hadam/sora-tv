@@ -3602,11 +3602,11 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "NTD TV", "url": "https://live.ntdtv.com/live900/playlist.m3u8", "category": "" },
   ],
   "Morocco": [
-    { "name": "Al Aoula Maroc", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8", "category": "General", "logo": "https://static.cnrtv.ma/assets/logos/ao_maroc.png" },
-    { "name": "2M Monde +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General", "logo": "https://www.2m.ma/assets/logo.svg" },
-    { "name": "Chada TV", "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8", "category": "General", "logo": "https://chadatv.vedge.infomaniak.com/image/logo.png" },
-    { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "General", "logo": "https://medi1tv.com/assets/logo.png" },
-    { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "General", "logo": "https://storychannel.ma/assets/logo.png" },
+    { "name": "Al Aoula Maroc", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Logo_Al-Aoula_Maroc.svg/200px-Logo_Al-Aoula_Maroc.svg.png" },
+    { "name": "2M Monde +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2M_Maroc_logo.svg/200px-2M_Maroc_logo.svg.png" },
+    { "name": "Chada TV", "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Chada_TV.svg/150px-Chada_TV.svg.png" },
+    { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Medi_1_TV_logo.png" },
+    { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "General", "logo": "" },
   ],
   "Spain": [
     { "name": "3Cat Càmeres del temps", "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8", "category": "General" },
