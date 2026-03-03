@@ -1,5 +1,6 @@
 import express, { type Request, type Response, type NextFunction } from "express";
 import { createServer } from "http";
+import compression from "compression";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
 
@@ -18,6 +19,9 @@ declare module "http" {
 // --------------------
 // Middlewares
 // --------------------
+// Gzip compression for all responses
+app.use(compression());
+
 app.use(
   express.json({
     verify: (req, _res, buf) => {
