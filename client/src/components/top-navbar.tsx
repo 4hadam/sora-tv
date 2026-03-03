@@ -71,6 +71,7 @@ export default function TopNavbar({
                   src: url('https://files.catbox.moe/9195h1.woff') format('woff');
                   font-weight: 700;
                   font-style: normal;
+                  font-display: swap;
                 }
                 text {
                   font-family: 'CarosSoft', sans-serif;
