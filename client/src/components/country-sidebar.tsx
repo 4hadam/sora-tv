@@ -538,7 +538,7 @@ export default function CountrySidebar({
                             <img
                               src={(channel as any).logo}
                               alt={channel.name}
-                              className="w-8 h-8 rounded-full object-cover bg-slate-700"
+                              className="w-10 h-10 object-contain"
                               onError={(e) => {
                                 const t = e.target as HTMLImageElement
                                 t.onerror = null
