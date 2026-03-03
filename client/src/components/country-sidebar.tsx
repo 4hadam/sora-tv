@@ -538,9 +538,12 @@ export default function CountrySidebar({
                             <img
                               src={(channel as any).logo}
                               alt={channel.name}
-                              className="w-8 h-8 rounded-sm object-cover"
+                              className="w-8 h-8 rounded-full object-cover bg-slate-700"
                               onError={(e) => {
-                                (e.target as HTMLImageElement).srcset = `https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${flagCode}.svg`
+                                const t = e.target as HTMLImageElement
+                                t.onerror = null
+                                t.src = `https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${flagCode}.svg`
+                                t.className = "w-6 h-4 rounded-sm object-cover"
                               }}
                             />
                           ) : (
