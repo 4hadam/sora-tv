@@ -78,9 +78,35 @@ export default function Home() {
 
   if (!mounted) return null
 
+  // GeoJSON ADMIN names → app country names
+  const geoJsonAliases: Record<string, string> = {
+    "United States of America": "United States",
+    "Russian Federation": "Russia",
+    "Iran (Islamic Republic of)": "Iran",
+    "Syrian Arab Republic": "Syria",
+    "Lao PDR": "Laos",
+    "Korea, Republic of": "South Korea",
+    "Korea, Democratic People's Republic of": "North Korea",
+    "Bolivia (Plurinational State of)": "Bolivia",
+    "Venezuela (Bolivarian Republic of)": "Venezuela",
+    "Tanzania, United Republic of": "Tanzania",
+    "Congo, Democratic Republic of the": "Congo",
+    "Central African Rep.": "Central African Republic",
+    "W. Sahara": "Western Sahara",
+    "Dem. Rep. Congo": "Congo",
+    "Dominican Rep.": "Dominican Republic",
+    "Eq. Guinea": "Equatorial Guinea",
+    "Bosnia and Herz.": "Bosnia and Herzegovina",
+    "S. Sudan": "South Sudan",
+    "Czech Rep.": "Czech Republic",
+    "Czechia": "Czech Republic",
+    "Macedonia": "North Macedonia",
+  }
+
   // 🎯 --- Event Handlers ---
   const handleGlobeCountryClick = (countryName: string) => {
-    const countryCode = countryCodeMap[countryName]
+    const resolvedName = geoJsonAliases[countryName] || countryName
+    const countryCode = countryCodeMap[resolvedName]
     if (countryCode) {
       setLocation(`/${countryCode}`)
     }

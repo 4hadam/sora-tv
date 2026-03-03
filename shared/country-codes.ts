@@ -184,7 +184,6 @@ export const COUNTRY_CODE_MAP: Record<string, string> = {
   "United Arab Emirates": "ae",
   "United Kingdom": "gb",
   "United States": "us",
-  "United States of America": "us", // ✅ Added to fix TV Garden map
   Uruguay: "uy",
   Uzbekistan: "uz",
   Vanuatu: "vu",
