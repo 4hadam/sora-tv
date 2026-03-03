@@ -9524,7 +9524,272 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Universite TV", "logo": "", "url": "https://vdo.digitalbox.xyz:3986/live/unitvlive.m3u8", "quality": "720p", "category": "General" },
     { "name": "UU TV 2", "logo": "", "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8", "quality": "1080p", "category": "General" },
     { "name": "Vizyon 58 TV", "logo": "", "url": "https://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8", "quality": "720p", "category": "General" }
-  ],
+  ,
+  {
+    "name": "TR24 TV",
+    "url": "https://tv.ensonhaber.com/tv24/tv24.m3u8",
+    "quality": "720p",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "BENGÜTÜRK TV",
+    "url": "https://tv.ensonhaber.com/benguturk/benguturk.m3u8",
+    "quality": "720p",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Çiftçi TV",
+    "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
+    "quality": "720p",
+    "category": "Education",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "A Haber",
+    "url": "https://www.youtube-nocookie.com/embed/nmY9i63t6qo",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "A News",
+    "url": "https://www.youtube-nocookie.com/embed/L4O-IO_dySQ",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "A Para",
+    "url": "https://www.youtube-nocookie.com/embed/6-Q8v_e-M2g",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "A Spor",
+    "url": "https://www.youtube-nocookie.com/embed/mgeW8Qm8-SY",
+    "quality": "SD",
+    "category": "Sports",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Ankara Büyükşehir Belediyesi",
+    "url": "https://www.youtube-nocookie.com/embed/iZoN48pVBUs",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Aşk-ı Nevâ",
+    "url": "https://www.youtube-nocookie.com/embed/BRs0GDByyOY",
+    "quality": "SD",
+    "category": "Religious",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "beIN SPORTS Türkiye",
+    "url": "https://www.youtube-nocookie.com/embed/9xVXWLwT0vA",
+    "quality": "SD",
+    "category": "Sports",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "CAH Medya",
+    "url": "https://www.youtube-nocookie.com/embed/V7BRVvXZCzs",
+    "quality": "SD",
+    "category": "Religious",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Cartoon Network Türkiye",
+    "url": "https://www.youtube-nocookie.com/embed/yjsBRPqgzyg",
+    "quality": "SD",
+    "category": "Kids",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Cartoon Network Türkiye: Kral Şakir",
+    "url": "https://www.youtube-nocookie.com/embed/5Whk9MVTpI4",
+    "quality": "SD",
+    "category": "Kids",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Cartoonito Türkiye",
+    "url": "https://www.youtube-nocookie.com/embed/XDSd6m4SauI",
+    "quality": "SD",
+    "category": "Kids",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Çocuklar Duymasın",
+    "url": "https://www.youtube-nocookie.com/embed/aTmIS43qMS4",
+    "quality": "SD",
+    "category": "Entertainment",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "EKOTÜRK TV",
+    "url": "https://www.youtube-nocookie.com/embed/k-tCyYoS30k",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Elapro Sahne: Radyo Türküler",
+    "url": "https://www.youtube-nocookie.com/embed/eQK7fonE8t0",
+    "quality": "SD",
+    "category": "Music",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Güldür Güldür Show",
+    "url": "https://www.youtube-nocookie.com/embed/JjtngkzUqIQ",
+    "quality": "SD",
+    "category": "General",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Gülşah Film: Kemal Sunal Filmleri",
+    "url": "https://www.youtube-nocookie.com/embed/SmokHHHgvBY",
+    "quality": "SD",
+    "category": "General",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Her An Kur'an Her An Zikir",
+    "url": "https://www.youtube-nocookie.com/embed/L1BrIDsbwHI",
+    "quality": "SD",
+    "category": "Religious",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Kemal Sunal: Filmleri ve Sahneleri",
+    "url": "https://www.youtube-nocookie.com/embed/_pRHXDSK8sA",
+    "quality": "SD",
+    "category": "General",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "KRT TV",
+    "url": "https://www.youtube-nocookie.com/embed/9SjCdNwD0x0",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Kurtlar Vadisi",
+    "url": "https://www.youtube-nocookie.com/embed/NzbEHkjHn6g",
+    "quality": "SD",
+    "category": "General",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Lider Haber",
+    "url": "https://www.youtube-nocookie.com/embed/aifkeclzWZM",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Muhteşem Yüzyıl",
+    "url": "https://www.youtube-nocookie.com/embed/0dmPGl8HV3A",
+    "quality": "SD",
+    "category": "General",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "SÖZCÜ Televizyonu",
+    "url": "https://www.youtube-nocookie.com/embed/ztmY_cCtUl0",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Star TV",
+    "url": "https://www.youtube-nocookie.com/embed/82O6yOy_XwE",
+    "quality": "SD",
+    "category": "Entertainment",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "TRT World HD",
+    "url": "https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "TRT عربي",
+    "url": "https://www.youtube-nocookie.com/embed/0YBF1h2oFcM",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "TV100",
+    "url": "https://www.youtube-nocookie.com/embed/JCuAFKp_WdE",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "Ulusal Kanal",
+    "url": "https://www.youtube-nocookie.com/embed/dK96AZbCns0",
+    "quality": "SD",
+    "category": "News",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "WildBrain Çocuklar: Çilekli Kurabiye",
+    "url": "https://www.youtube-nocookie.com/embed/m3k_Ua2zWN0",
+    "quality": "SD",
+    "category": "Kids",
+    "logo": "",
+    "country": "TR"
+  },
+  {
+    "name": "WildBrain Çocuklar: Twirlywoos",
+    "url": "https://www.youtube-nocookie.com/embed/goVmLeg1hr4",
+    "quality": "SD",
+    "category": "Kids",
+    "logo": "",
+    "country": "TR"
+  }
+],
   "Trinidad and Tobago": [
     { "name": "Sankhya TV", "url": "https://5c59fd5680a05.streamlock.net/live/_definst_/ngrp:SANKHYATV.stream_all/playlist.m3u8", "category": "Religious", "logo": "https://i.ibb.co/Dgv6PvM/STV-NEW-LOGO-WITH-WHITE-SHADOW.png" },
     { "name": "The Islamic Network (480p) [Not 24/7]", "url": "http://daruttarbiyah.srfms.com:1935/daruttarbiyah/livestream/playlist.m3u8", "category": "Religious", "logo": "https://i.imgur.com/EtQolw6.png" },
