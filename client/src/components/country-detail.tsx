@@ -129,9 +129,9 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
       <div className={
         isMobile
           // Note: Change h-full to aspect-video
-          ? "relative w-full aspect-video bg-black"
+          ? "group relative w-full aspect-video bg-black"
           // For desktop mode: use original floating window dimensions
-          : "relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
+          : "group relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
       }>
         {loading ? (
           <div className="flex flex-col items-center justify-center w-full h-full bg-black text-white">
@@ -172,7 +172,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
         )}
 
         {/* ⭐ أزرار المفضلة والإغلاق */}
-        <div className="absolute top-3 right-3 flex items-center gap-2 z-40">
+        <div className="absolute top-3 right-3 flex items-center gap-2 z-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <button
             onClick={toggleFavorite}
             className="p-2 bg-black/50 hover:bg-black/70 rounded-full text-white transition-colors"
