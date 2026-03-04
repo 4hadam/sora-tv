@@ -164,65 +164,87 @@ export async function registerRoutes(
     }
   });
 
-  // Stream proxy — pipes HTTP/HTTPS streams cleanly (no buffering)
-  // Used for IPTV HLS streams to avoid mixed-content issues
+  // Stream proxy — follows redirects and pipes live MPEG-TS reliably
   app.get("/api/stream", (req, res) => {
     const url = req.query.url as string;
     if (!url) return res.status(400).end("Missing url");
 
-    const parsedUrl = new URL(url);
-    const isHttps = parsedUrl.protocol === "https:";
-    const transport = isHttps ? https : http;
-    const baseUrl = `${parsedUrl.protocol}//${parsedUrl.host}${parsedUrl.pathname.substring(0, parsedUrl.pathname.lastIndexOf("/") + 1)}`;
+    let activeReq: http.ClientRequest | null = null;
 
-    const options = {
-      hostname: parsedUrl.hostname,
-      port: parsedUrl.port || (isHttps ? 443 : 80),
-      path: parsedUrl.pathname + parsedUrl.search,
-      method: "GET",
-      headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Accept": "*/*",
-      }
+    const fetchStream = (targetUrl: string, redirectsLeft: number) => {
+      const parsedUrl = new URL(targetUrl);
+      const isHttps = parsedUrl.protocol === "https:";
+      const transport = isHttps ? https : http;
+      const baseUrl = `${parsedUrl.protocol}//${parsedUrl.host}${parsedUrl.pathname.substring(0, parsedUrl.pathname.lastIndexOf("/") + 1)}`;
+
+      const options: http.RequestOptions = {
+        hostname: parsedUrl.hostname,
+        port: parsedUrl.port || (isHttps ? 443 : 80),
+        path: parsedUrl.pathname + parsedUrl.search,
+        method: "GET",
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+          "Accept": "*/*",
+        },
+      };
+
+      activeReq = transport.request(options, (proxyRes) => {
+        const status = proxyRes.statusCode || 500;
+
+        if ([301, 302, 303, 307, 308].includes(status)) {
+          const location = proxyRes.headers.location;
+          if (!location || redirectsLeft <= 0) {
+            if (!res.headersSent) res.status(502).end("Invalid redirect");
+            return;
+          }
+          const nextUrl = new URL(location, targetUrl).toString();
+          proxyRes.resume();
+          fetchStream(nextUrl, redirectsLeft - 1);
+          return;
+        }
+
+        const contentType = `${proxyRes.headers["content-type"] || ""}`;
+        const isM3U8 = contentType.includes("mpegurl") ||
+          targetUrl.includes(".m3u8") || targetUrl.includes(".m3u");
+
+        res.setHeader("Access-Control-Allow-Origin", "*");
+        res.setHeader("Cache-Control", "no-cache");
+
+        if (isM3U8) {
+          res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
+          let body = "";
+          proxyRes.on("data", (chunk) => body += chunk.toString());
+          proxyRes.on("end", () => {
+            const rewritten = body.split("\n").map(line => {
+              const t = line.trim();
+              if (!t || t.startsWith("#")) return line;
+              const absUrl = (t.startsWith("http://") || t.startsWith("https://"))
+                ? t
+                : baseUrl + t;
+              return `/api/stream?url=${encodeURIComponent(absUrl)}`;
+            }).join("\n");
+            if (!res.writableEnded) res.end(rewritten);
+          });
+        } else {
+          res.status(status);
+          res.setHeader("Content-Type", contentType || "video/mp2t");
+          proxyRes.pipe(res);
+        }
+      });
+
+      activeReq.on("error", (err) => {
+        console.error("Stream proxy error:", err.message);
+        if (!res.headersSent) res.status(502).end("Bad gateway");
+      });
+
+      activeReq.end();
     };
 
-    const proxyReq = transport.request(options, (proxyRes) => {
-      const contentType = proxyRes.headers["content-type"] || "";
-      const isM3U8 = contentType.includes("mpegurl") ||
-        url.includes(".m3u8") || url.includes(".m3u");
-
-      res.setHeader("Access-Control-Allow-Origin", "*");
-      res.setHeader("Cache-Control", "no-cache");
-
-      if (isM3U8) {
-        res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
-        let body = "";
-        proxyRes.on("data", (chunk) => body += chunk.toString());
-        proxyRes.on("end", () => {
-          const rewritten = body.split("\n").map(line => {
-            const t = line.trim();
-            if (!t || t.startsWith("#")) return line;
-            const absUrl = (t.startsWith("http://") || t.startsWith("https://"))
-              ? t
-              : baseUrl + t;
-            return `/api/stream?url=${encodeURIComponent(absUrl)}`;
-          }).join("\n");
-          res.end(rewritten);
-        });
-      } else {
-        // Binary segment — pipe directly without buffering
-        res.setHeader("Content-Type", proxyRes.headers["content-type"] || "video/mp2t");
-        proxyRes.pipe(res);
-      }
+    req.on("close", () => {
+      if (activeReq) activeReq.destroy();
     });
 
-    proxyReq.on("error", (err) => {
-      console.error("Stream proxy error:", err.message);
-      if (!res.headersSent) res.status(502).end("Bad gateway");
-    });
-
-    req.on("close", () => proxyReq.destroy());
-    proxyReq.end();
+    fetchStream(url, 6);
   });
 
   // Football Channels API — uses IPTV_CREDS env var to protect credentials
