@@ -1,5 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
+import http from "http";
+import https from "https";
 import { storage } from "./storage";
 import { channelsByCountry, getChannelsByCountry, getChannelsByCategory, type IPTVChannel, normalizeYouTubeUrl } from "@shared/iptv-channels";
 
@@ -160,6 +162,67 @@ export async function registerRoutes(
       console.error("Error fetching channels by category:", error);
       res.status(500).json({ error: "Failed to fetch channels" });
     }
+  });
+
+  // Stream proxy — pipes HTTP/HTTPS streams cleanly (no buffering)
+  // Used for IPTV HLS streams to avoid mixed-content issues
+  app.get("/api/stream", (req, res) => {
+    const url = req.query.url as string;
+    if (!url) return res.status(400).end("Missing url");
+
+    const parsedUrl = new URL(url);
+    const isHttps = parsedUrl.protocol === "https:";
+    const transport = isHttps ? https : http;
+    const baseUrl = `${parsedUrl.protocol}//${parsedUrl.host}${parsedUrl.pathname.substring(0, parsedUrl.pathname.lastIndexOf("/") + 1)}`;
+
+    const options = {
+      hostname: parsedUrl.hostname,
+      port: parsedUrl.port || (isHttps ? 443 : 80),
+      path: parsedUrl.pathname + parsedUrl.search,
+      method: "GET",
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "*/*",
+      }
+    };
+
+    const proxyReq = transport.request(options, (proxyRes) => {
+      const contentType = proxyRes.headers["content-type"] || "";
+      const isM3U8 = contentType.includes("mpegurl") ||
+        url.includes(".m3u8") || url.includes(".m3u");
+
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.setHeader("Cache-Control", "no-cache");
+
+      if (isM3U8) {
+        res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
+        let body = "";
+        proxyRes.on("data", (chunk) => body += chunk.toString());
+        proxyRes.on("end", () => {
+          const rewritten = body.split("\n").map(line => {
+            const t = line.trim();
+            if (!t || t.startsWith("#")) return line;
+            const absUrl = (t.startsWith("http://") || t.startsWith("https://"))
+              ? t
+              : baseUrl + t;
+            return `/api/stream?url=${encodeURIComponent(absUrl)}`;
+          }).join("\n");
+          res.end(rewritten);
+        });
+      } else {
+        // Binary segment — pipe directly without buffering
+        res.setHeader("Content-Type", proxyRes.headers["content-type"] || "video/mp2t");
+        proxyRes.pipe(res);
+      }
+    });
+
+    proxyReq.on("error", (err) => {
+      console.error("Stream proxy error:", err.message);
+      if (!res.headersSent) res.status(502).end("Bad gateway");
+    });
+
+    req.on("close", () => proxyReq.destroy());
+    proxyReq.end();
   });
 
   // Football Channels API — uses IPTV_CREDS env var to protect credentials

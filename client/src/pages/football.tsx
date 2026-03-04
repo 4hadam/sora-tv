@@ -27,7 +27,7 @@ export default function Football() {
             .then(data => {
                 if (data) setChannels(data.channels.map((ch: FootballChannel) => ({
                     ...ch,
-                    url: `/api/proxy?url=${encodeURIComponent(ch.url)}`
+                    url: `/api/stream?url=${encodeURIComponent(ch.url)}`
                 })))
                 setLoading(false)
             })
