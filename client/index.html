@@ -38,7 +38,9 @@
   <meta property="og:title" content="Sora tv - Watch Live TV Worldwide" />
   <meta property="og:description"
     content="Stream free live TV channels from around the world - News, Sports, Entertainment, and more on Sora tv" />
-  <meta property="og:image" content="/placeholder-logo.png" />
+  <meta property="og:image" content="https://soratv.live/android-chrome-512.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
   <meta property="og:image:alt" content="Sora tv Logo" />
   <meta property="og:url" content="https://soratv.live" />
 
@@ -46,10 +48,10 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Sora tv - Live TV Streaming" />
   <meta name="twitter:description" content="Watch free live TV channels worldwide on Sora tv" />
-  <meta name="twitter:image" content="/placeholder-logo.png" />
+  <meta name="twitter:image" content="https://soratv.live/android-chrome-512.png" />
 
-  <!-- 🟢 Canonical URL (Updated Dynamically) -->
-  <link rel="canonical" href="" />
+  <!-- 🟢 Canonical URL (Updated Dynamically per page) -->
+  <link rel="canonical" href="https://soratv.live/" />
 
   <!-- 🟢 Sitemap & RSS -->
   <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
@@ -85,7 +87,7 @@
           "urlTemplate": "https://soratv.live/?search={search_term_string}"
         }
       },
-      "image": "https://soratv.live/placeholder-logo.png",
+      "image": "https://soratv.live/android-chrome-512.png",
       "inLanguage": "en",
       "sameAs": [
         "https://twitter.com/soratv",
@@ -102,7 +104,7 @@
       "name": "Sora tv",
       "description": "Global live TV streaming platform - Watch free channels worldwide",
       "url": "https://soratv.live",
-      "logo": "https://soratv.live/placeholder-logo.png",
+      "logo": "https://soratv.live/android-chrome-512.png",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "US"
@@ -128,7 +130,7 @@
       "description": "Watch live TV channels from around the world free",
       "url": "https://soratv.live",
       "embedUrl": "https://soratv.live",
-      "thumbnailUrl": "https://soratv.live/placeholder-logo.png",
+      "thumbnailUrl": "https://soratv.live/android-chrome-512.png",
       "uploadDate": "2026-03-02T00:00:00Z",
       "interactionStatistic": {
         "@type": "InteractionCounter",
@@ -145,17 +147,20 @@
 
   <!-- 🟢 Set Canonical URL dynamically -->
   <script>
-    document.querySelector('link[rel="canonical"]').href = window.location.origin;
+    // Fix canonical to match current full URL (important for sub-pages)
+    document.querySelector('link[rel="canonical"]').href = window.location.href;
     const schemaWebsite = document.querySelectorAll('script[type="application/ld+json"]')[0];
     const schemaOrg = document.querySelectorAll('script[type="application/ld+json"]')[1];
 
     if (schemaWebsite && schemaOrg) {
-      const wsData = JSON.parse(schemaWebsite.innerText);
-      const orgData = JSON.parse(schemaOrg.innerText);
-      wsData.url = window.location.origin;
-      orgData.url = window.location.origin;
-      schemaWebsite.innerText = JSON.stringify(wsData);
-      schemaOrg.innerText = JSON.stringify(orgData);
+      try {
+        const wsData = JSON.parse(schemaWebsite.innerText);
+        const orgData = JSON.parse(schemaOrg.innerText);
+        wsData.url = window.location.origin;
+        orgData.url = window.location.origin;
+        schemaWebsite.innerText = JSON.stringify(wsData);
+        schemaOrg.innerText = JSON.stringify(orgData);
+      } catch (e) { }
     }
   </script>
 </body>

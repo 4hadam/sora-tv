@@ -22,6 +22,16 @@ declare module "http" {
 // Gzip compression for all responses
 app.use(compression());
 
+// Force HTTPS in production (Railway terminates SSL and sets X-Forwarded-Proto)
+if (process.env.NODE_ENV === "production") {
+  app.use((req: Request, res: Response, next: NextFunction) => {
+    if (req.headers["x-forwarded-proto"] === "http") {
+      return res.redirect(301, `https://${req.headers.host}${req.url}`);
+    }
+    next();
+  });
+}
+
 app.use(
   express.json({
     verify: (req, _res, buf) => {
