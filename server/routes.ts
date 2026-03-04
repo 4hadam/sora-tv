@@ -240,8 +240,12 @@ export async function registerRoutes(
       activeReq.end();
     };
 
-    req.on("close", () => {
+    req.on("aborted", () => {
       if (activeReq) activeReq.destroy();
+    });
+
+    res.on("close", () => {
+      if (!res.writableEnded && activeReq) activeReq.destroy();
     });
 
     fetchStream(url, 6);
