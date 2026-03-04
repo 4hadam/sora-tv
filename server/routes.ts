@@ -58,49 +58,61 @@ export async function registerRoutes(
         "Cache-Control": "no-cache",
       };
 
-      const response = await fetch(url, { headers });
+      const response = await fetch(url, { headers, redirect: "follow" });
 
       if (!response.ok) {
         return res.status(response.status).json({ error: `Upstream error: ${response.statusText}` });
       }
 
-      // Pipe the response
-      res.status(response.status);
-      response.headers.forEach((value, key) => {
-        // Skip some headers if needed, or set them all
-        res.setHeader(key, value);
-      });
+      const contentType = response.headers.get("content-type") || "";
+      const finalUrl = response.url || url;
+      const isM3U8 = contentType.includes("mpegurl") ||
+        contentType.includes("x-mpegurl") ||
+        finalUrl.includes(".m3u8") ||
+        finalUrl.includes(".m3u") ||
+        url.includes(".m3u8") ||
+        url.includes(".m3u");
 
-      // Explicitly set CORS for the proxy response
+      // CORS headers always
       res.setHeader("Access-Control-Allow-Origin", "*");
       res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
       res.setHeader("Access-Control-Allow-Headers", "*");
 
-      if (response.body) {
-        // @ts-ignore - native fetch body to node stream
-        const reader = response.body.getReader();
-        const stream = new ReadableStream({
-          start(controller) {
-            return pump();
-            function pump() {
-              return reader.read().then(({ done, value }) => {
-                if (done) {
-                  controller.close();
-                  return;
-                }
-                controller.enqueue(value);
-                return pump();
-              });
-            }
-          }
-        });
+      if (isM3U8) {
+        // Rewrite m3u8 so all segment/sub-playlist URLs also go through proxy
+        const text = await response.text();
+        const baseUrl = finalUrl.substring(0, finalUrl.lastIndexOf("/") + 1);
 
-        // In Node 20+, we can just iterate the body or use arrayBuffer
-        // But for simplicity with Express response (which is a stream):
+        // Also detect m3u8 from content if not already detected
+        const looksLikeM3U8 = text.trimStart().startsWith("#EXTM3U") || text.trimStart().startsWith("#EXT");
+
+        if (!looksLikeM3U8) {
+          // Not actually m3u8, return as-is
+          res.setHeader("Content-Type", contentType || "application/octet-stream");
+          res.send(text);
+          return;
+        }
+
+        const rewritten = text.split("\n").map(line => {
+          const trimmed = line.trim();
+          if (!trimmed || trimmed.startsWith("#")) return line;
+
+          // Absolute URL
+          if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) {
+            return `/api/proxy?url=${encodeURIComponent(trimmed)}`;
+          }
+          // Relative URL
+          return `/api/proxy?url=${encodeURIComponent(baseUrl + trimmed)}`;
+        }).join("\n");
+
+        res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
+        res.send(rewritten);
+      } else {
+        response.headers.forEach((value, key) => {
+          res.setHeader(key, value);
+        });
         const arrayBuffer = await response.arrayBuffer();
         res.write(Buffer.from(arrayBuffer));
-        res.end();
-      } else {
         res.end();
       }
 
