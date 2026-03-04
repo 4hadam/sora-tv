@@ -219,7 +219,7 @@ export async function registerRoutes(
       { name: "Starz Play SPORT 2", id: 4041, logo: "https://i.imgur.com/0sNWg54.png" },
     ].map(ch => ({
       name: ch.name,
-      url: `${base}/${ch.id}`,
+      url: `${base}/${ch.id}.m3u8`,
       logo: ch.logo,
       category: "Sports",
     }));
