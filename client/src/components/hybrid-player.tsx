@@ -41,7 +41,7 @@ export default function HybridPlayer({
                 setLoading(false)
             })
             if (autoPlay) {
-                video.play().catch(() => {})
+                video.play().catch(() => { })
             }
             return
         }
@@ -66,7 +66,7 @@ export default function HybridPlayer({
             hls.on(Hls.Events.MANIFEST_PARSED, () => {
                 setLoading(false)
                 if (autoPlay) {
-                    video.play().catch(() => {})
+                    video.play().catch(() => { })
                 }
             })
 
@@ -104,7 +104,7 @@ export default function HybridPlayer({
             setLoading(false)
         })
         if (autoPlay) {
-            video.play().catch(() => {})
+            video.play().catch(() => { })
         }
 
     }, [src, autoPlay])
