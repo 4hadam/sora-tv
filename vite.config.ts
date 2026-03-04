@@ -39,7 +39,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           // ✅ Separate heavy vendor libraries
-          'three-renderer': ['three'],
+          'globe-gl': ['globe.gl'],
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
           // iptv-channels.ts is now server-only — not in client bundle
           'ui-components': [
