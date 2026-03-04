@@ -6292,17 +6292,15 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   ],
   "Morocco": [
     { "name": "Al Aoula Maroc", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8", "category": "General", "logo": "https://i.imgur.com/OmiqZMN.png" },
+    { "name": "2M Monde", "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
     { "name": "2M Monde +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
     { "name": "Chada TV", "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8", "category": "General", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" },
-    { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
-    { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "General", "logo": "https://i.imgur.com/ZBV6xph.png" },
-    { "name": "Al Maghribia", "url": "https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd", "category": "General", "logo": "https://i.imgur.com/7GaahYh.png" },
-    { "name": "الأولى (Al Aoula)", "url": "https://snrt.player.easybroadcast.io/events/73_aloula_w1dqfwm", "category": "General" },
-    { "name": "2M Monde", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
     { "name": "MBC 5", "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8", "category": "Family", "logo": "https://i.imgur.com/fRWaDyF.png" },
     { "name": "Medi 1 TV Arabic", "url": "https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/3YsZPY6.jpeg" },
     { "name": "Medi 1 TV Maghreb", "url": "https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
-    { "name": "Tele Maroc", "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8", "category": "Culture;Entertainment;News", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" }
+    { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
+    { "name": "Tele Maroc", "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8", "category": "Culture;Entertainment;News", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" },
+    { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "Culture", "logo": "https://i.imgur.com/ZBV6xph.png" }
   ],
   "Spain": [
     { "name": "3Cat Càmeres del temps", "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8", "category": "General", "logo": "https://i.imgur.com/zXy2kbe.png" },
@@ -9205,1111 +9203,1111 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "TV Sugd", "url": "https://live.teleradiocom.tj/14/3m.m3u8", "category": "General", "logo": "https://i.imgur.com/YzkwTHb.png" }
   ],
   "Turkey": [
-  {
-    "name": "4U TV",
-    "url": "https://hls.4utv.live/hls/stream.m3u8",
-    "category": "Entertainment",
-    "logo": "https://i.imgur.com/PexhKwp.png"
-  },
-  {
-    "name": "24 TV",
-    "url": "https://tv.ensonhaber.com/tv24/tv24.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/8FO41es.png"
-  },
-  {
-    "name": "360",
-    "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/agn47sQ.png"
-  },
-  {
-    "name": "Afroturk TV",
-    "url": "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/fWlLvRA.png"
-  },
-  {
-    "name": "Akit TV",
-    "url": "https://akittv-live.ercdn.net/akittv/akittv.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/oGto929.png"
-  },
-  {
-    "name": "Aksu TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/mgDCKiy.png"
-  },
-  {
-    "name": "Alanya Posta TV",
-    "url": "https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/a3w9eFe.png"
-  },
-  {
-    "name": "Almahriah TV",
-    "url": "https://starmenajo.com/hls/almahriah/index.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/GgEeTNr.png"
-  },
-  {
-    "name": "Altas TV",
-    "url": "https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/XaJ7fp6.png"
-  },
-  {
-    "name": "Al-Zahra TV Turkic",
-    "url": "https://live.al-zahratv.com/live/playlist.m3u8",
-    "category": "Religious",
-    "logo": "https://i.imgur.com/QEHKGnG.png"
-  },
-  {
-    "name": "Anadolu Net TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8",
-    "category": "General",
-    "logo": "https://www.anadolunettv.com/d/r/logo.png"
-  },
-  {
-    "name": "Aras TV",
-    "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/JsDCyWG.png"
-  },
-  {
-    "name": "AS TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
-    "category": "News",
-    "logo": "https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png"
-  },
-  {
-    "name": "ATV",
-    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
-    "category": "Entertainment",
-    "logo": "https://i.imgur.com/HyVUwFC.png"
-  },
-  {
-    "name": "Benguturk TV",
-    "url": "https://tv.ensonhaber.com/benguturk/benguturk.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/p3ON1oX.png"
-  },
-  {
-    "name": "Beyaz TV",
-    "url": "https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3",
-    "category": "General",
-    "logo": "https://i.imgur.com/uykIdML.png"
-  },
-  {
-    "name": "Bloomberg HT",
-    "url": "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8",
-    "category": "Business",
-    "logo": "https://i.imgur.com/bmkXfIE.png"
-  },
-  {
-    "name": "Bric ve Satranc TV",
-    "url": "http://139.162.182.79/live/test/index.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/TXDV1ty.png"
-  },
-  {
-    "name": "BRTV",
-    "url": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/U3qlEAp.png"
-  },
-  {
-    "name": "Can TV",
-    "url": "https://livetv.canbroadcast.com:7443/canlican/tv.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/oIMtuwB.png"
-  },
-  {
-    "name": "Cay TV",
-    "url": "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/ndupxwu.png"
-  },
-  {
-    "name": "CGTN Documentary",
-    "url": "https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8",
-    "category": "Documentary",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CGTN_Documentary_logo.png/400px-CGTN_Documentary_logo.png"
-  },
-  {
-    "name": "Ciftci TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
-    "category": "Education",
-    "logo": "https://i.imgur.com/CLzP4vL.png"
-  },
-  {
-    "name": "CNBC-e",
-    "url": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8",
-    "category": "Business",
-    "logo": "https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/cnbc-e-buyuk.png?rkt=DfS6Tgv6Hjr93k3"
-  },
-  {
-    "name": "Deniz Postasi TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/Mm8hdfx.png"
-  },
-  {
-    "name": "DHA",
-    "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/VZhag2x.png"
-  },
-  {
-    "name": "Dim TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/X4QFDhk.png"
-  },
-  {
-    "name": "Disney Jr.",
-    "url": "https://saran-live.ercdn.net/disneyjunior/index.m3u8",
-    "category": "Kids",
-    "logo": "https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png"
-  },
-  {
-    "name": "Diyanet TV",
-    "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
-    "category": "Religious",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png"
-  },
-  {
-    "name": "Diyar TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
-    "category": "Religious",
-    "logo": "https://i.imgur.com/qWkHjRA.png"
-  },
-  {
-    "name": "Dost TV",
-    "url": "https://dost.stream.emsal.im/tv/live.m3u8",
-    "category": "Religious",
-    "logo": "https://dosttv.com/wp-content/uploads/2022/02/dost_logo.png"
-  },
-  {
-    "name": "Dream Turk",
-    "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/vJ8VaZi.png"
-  },
-  {
-    "name": "Elsharq TV",
-    "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/8vmfZb5.png"
-  },
-  {
-    "name": "ERTV",
-    "url": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/VDGEPrD.png"
-  },
-  {
-    "name": "Erzurum Web TV",
-    "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/HF7N4Li.png"
-  },
-  {
-    "name": "ES TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/epAEBrp.png"
-  },
-  {
-    "name": "ETV Kayseri",
-    "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "name": "ETV Manisa",
-    "url": "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.ibb.co/QKXtdkz/sOd3INg.png"
-  },
-  {
-    "name": "Euro D",
-    "url": "https://viamotionhsi.netplus.ch/live/eds/eurod/browser-HLS8/eurod.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/x9kHsXo.png"
-  },
-  {
-    "name": "FB TV",
-    "url": "https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
-    "category": "Sports",
-    "logo": "https://i.imgur.com/qBVqtYd.png"
-  },
-  {
-    "name": "Finans Turk TV",
-    "url": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.ibb.co/wBwmB1T/iY0osc7.png"
-  },
-  {
-    "name": "Fortuna TV",
-    "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/ZbUSlOC.png"
-  },
-  {
-    "name": "FX",
-    "url": "https://saran-live.ercdn.net/fx/index.m3u8",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/330px-FX_International_logo.svg.png"
-  },
-  {
-    "name": "GEM Pixel",
-    "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
-    "category": "General",
-    "logo": "https://i.ibb.co/Q3tkbPrn/icon-27.png"
-  },
-  {
-    "name": "Grand Cinema",
-    "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
-    "category": "General",
-    "logo": "https://www.lyngsat.com/logo/tv/gg/grand-cinema.png"
-  },
-  {
-    "name": "Guneydogu TV",
-    "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/JT5pp3Y.png"
-  },
-  {
-    "name": "GZT",
-    "url": "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8",
-    "category": "Documentary",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/320px-GZT_logo.svg.png"
-  },
-  {
-    "name": "Haber61 TV",
-    "url": "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/2a2XUKl.png"
-  },
-  {
-    "name": "Haber Global",
-    "url": "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/fu6XeGS.png"
-  },
-  {
-    "name": "Haberturk TV",
-    "url": "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/6Tw3rUp.png"
-  },
-  {
-    "name": "Halk TV",
-    "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/xM0HA30.png"
-  },
-  {
-    "name": "HTSpor TV",
-    "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
-    "category": "Sports",
-    "logo": "https://www.htspor.com/images/manifest/social-share-logo.png"
-  },
-  {
-    "name": "Hunat TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/NrxHGnb.png"
-  },
-  {
-    "name": "Icel TV",
-    "url": "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/CGwImKv.png"
-  },
-  {
-    "name": "Kanal 3",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/eXErSv0.png"
-  },
-  {
-    "name": "Kanal 7",
-    "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
-    "category": "Entertainment",
-    "logo": "https://i.imgur.com/0gq9xOm.png"
-  },
-  {
-    "name": "Kanal 7 Avrupa",
-    "url": "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8",
-    "category": "Entertainment",
-    "logo": "https://i.imgur.com/wlfyj5l.png"
-  },
-  {
-    "name": "Kanal 12",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/51xCkXG.png"
-  },
-  {
-    "name": "Kanal 15",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/wb1Cdc9.png"
-  },
-  {
-    "name": "Kanal 23",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/3br8RCq.png"
-  },
-  {
-    "name": "Kanal 26",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/Mr7XPii.png"
-  },
-  {
-    "name": "Kanal 32",
-    "url": "https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://www.lyngsat.com/logo/tv/kk/kanal-32-tr.png"
-  },
-  {
-    "name": "Kanal 33",
-    "url": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/5WYaoFZ.png"
-  },
-  {
-    "name": "Kanal 58",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/Rgc66sv.png"
-  },
-  {
-    "name": "Kanal D",
-    "url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
-    "category": "General",
-    "logo": "https://i.imgur.com/9o1atM6.png"
-  },
-  {
-    "name": "Kanal D Drama",
-    "url": "https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8",
-    "category": "Entertainment",
-    "logo": "https://i.imgur.com/WIeZMKT.png"
-  },
-  {
-    "name": "Kanal Firat",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/3o8Rokp.png"
-  },
-  {
-    "name": "Kanal Hayat",
-    "url": "https://tbn02a.ltnschedule.com/hls/nx21i.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/eikZj19.png"
-  },
-  {
-    "name": "Kanal V",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/7RNjTno.png"
-  },
-  {
-    "name": "Kanal Z",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/Kr8960d.png"
-  },
-  {
-    "name": "Kay TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/MymuDJ1.png"
-  },
-  {
-    "name": "Kent Turk",
-    "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/FQKPjsm.png"
-  },
-  {
-    "name": "Konya Olay TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg"
-  },
-  {
-    "name": "Kral Pop TV",
-    "url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/ch365lh.png"
-  },
-  {
-    "name": "Lalegul TV",
-    "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
-    "category": "Religious",
-    "logo": "https://i.imgur.com/wwCysFs.png"
-  },
-  {
-    "name": "Life TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/lWeJxm0.png"
-  },
-  {
-    "name": "Line TV",
-    "url": "https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/6GNp7f8.png"
-  },
-  {
-    "name": "MaviKaradeniz TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/wyWappU.png"
-  },
-  {
-    "name": "Med Muzik",
-    "url": "http://54.36.110.140/live3/live3.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/gtUFmCD.png"
-  },
-  {
-    "name": "Mekameleen TV",
-    "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/q7iVchl.png"
-  },
-  {
-    "name": "Meltem TV",
-    "url": "https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/C3m6w5S.png"
-  },
-  {
-    "name": "Mercan TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/3CWV8bS.png"
-  },
-  {
-    "name": "MTurk TV",
-    "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/xj1gvrq.png"
-  },
-  {
-    "name": "National Geographic",
-    "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
-    "category": "Documentary",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png"
-  },
-  {
-    "name": "National Geographic Wild",
-    "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8",
-    "category": "Documentary",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png"
-  },
-  {
-    "name": "Natural TV",
-    "url": "https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/rfcJ674.png"
-  },
-  {
-    "name": "NOW TV",
-    "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
-    "category": "Entertainment",
-    "logo": "https://i.imgur.com/5EYjWK7.png"
-  },
-  {
-    "name": "Number 1 Ask",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/slwbux7.png"
-  },
-  {
-    "name": "Number 1 Damar",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/rYtbAGZ.png"
-  },
-  {
-    "name": "Number 1 Dance",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/ZM4PSyq.png"
-  },
-  {
-    "name": "Number 1 TV",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/02cDIBi.png"
-  },
-  {
-    "name": "OlayTurk TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/e9ca6gc.png"
-  },
-  {
-    "name": "On4 TV",
-    "url": "https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/qGRa1KI.png"
-  },
-  {
-    "name": "Power Dance",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/QpPteBO.png"
-  },
-  {
-    "name": "Power Love",
-    "url": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/0RzUswR.png"
-  },
-  {
-    "name": "PowerTurk Akustik",
-    "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/driabBO.png"
-  },
-  {
-    "name": "PowerTurk Slow",
-    "url": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/tQSoQXW.png"
-  },
-  {
-    "name": "PowerTurk Taptaze",
-    "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/a5nW3HU.png"
-  },
-  {
-    "name": "PowerTurk TV",
-    "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/9OPoXQG.png"
-  },
-  {
-    "name": "Power TV",
-    "url": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/XSL1gd7.png"
-  },
-  {
-    "name": "Qaf TV",
-    "url": "https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/hrk7Uce.png"
-  },
-  {
-    "name": "Semerkand TV",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/UVGGrQd.png"
-  },
-  {
-    "name": "Sports TV",
-    "url": "https://live.sportstv.com.tr/hls/low/sportstv.m3u8",
-    "category": "Sports",
-    "logo": "https://i.imgur.com/tGTVcVe.jpg"
-  },
-  {
-    "name": "Sun RTV",
-    "url": "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/64tph9N.png"
-  },
-  {
-    "name": "Tarih TV",
-    "url": "https://tv1.arectv30.sbs/live/tarihtv.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/HbIGZUt.png"
-  },
-  {
-    "name": "TBMM TV",
-    "url": "https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/512px-TBMM_TV_logo.svg.png"
-  },
-  {
-    "name": "Tele 1",
-    "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"
-  },
-  {
-    "name": "Tempo TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/tZpx32y.png"
-  },
-  {
-    "name": "TGRT Belgesel",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/VwWTnf0.png"
-  },
-  {
-    "name": "TGRT Haber",
-    "url": "https://canli.tgrthaber.com/tgrt.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/PrxwKDw.png"
-  },
-  {
-    "name": "Tivi 6",
-    "url": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/Mbi0jbz.png"
-  },
-  {
-    "name": "TJK TV 2",
-    "url": "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8",
-    "category": "Sports",
-    "logo": "https://i.imgur.com/3zHdkYG.png"
-  },
-  {
-    "name": "TJK TV",
-    "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
-    "category": "Sports",
-    "logo": "https://i.imgur.com/3zHdkYG.png"
-  },
-  {
-    "name": "TMB",
-    "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/28AyWHe.png"
-  },
-  {
-    "name": "Ton TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/f0Soeob.png"
-  },
-  {
-    "name": "Trabzon Buyuksehir Belediyesi TV",
-    "url": "https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8",
-    "category": "General",
-    "logo": "https://tbbweb.tv/img/logo.png"
-  },
-  {
-    "name": "TRT 1",
-    "url": "https://trt.daioncdn.net/trt-1/master.m3u8?app=web",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png"
-  },
-  {
-    "name": "TRT 2",
-    "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/iOCQdyD.png"
-  },
-  {
-    "name": "TRT 3",
-    "url": "https://tv-trt3.live.trt.com.tr/master.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/JrWFwBd.png"
-  },
-  {
-    "name": "TRT Arabi",
-    "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/dEfI2M9.png"
-  },
-  {
-    "name": "TRT Avaz",
-    "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png"
-  },
-  {
-    "name": "TRT Cocuk",
-    "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
-    "category": "Kids",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/512px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"
-  },
-  {
-    "name": "TRT Diyanet Cocuk",
-    "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8",
-    "category": "Kids",
-    "logo": "https://i.imgur.com/8PmXz9t.png"
-  },
-  {
-    "name": "TRT EBA",
-    "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
-    "category": "Education",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/400px-TRT_EBA_TV_logo.svg.png"
-  },
-  {
-    "name": "TRT EBA Ilkokul",
-    "url": "https://tv-e-okul00.medya.trt.com.tr/master.m3u8",
-    "category": "Education",
-    "logo": "https://i.imgur.com/CRBfZi4.png"
-  },
-  {
-    "name": "TRT EBA Lise",
-    "url": "https://tv-e-okul02.medya.trt.com.tr/master.m3u8",
-    "category": "Education",
-    "logo": "https://i.imgur.com/vj2L2L2.png"
-  },
-  {
-    "name": "TRT Haber",
-    "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
-    "category": "News",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png"
-  },
-  {
-    "name": "TRT Kurdi",
-    "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png"
-  },
-  {
-    "name": "TRT Muzik",
-    "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
-    "category": "Music",
-    "logo": "https://i.imgur.com/JgUzRH8.png"
-  },
-  {
-    "name": "TRT Turk",
-    "url": "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png"
-  },
-  {
-    "name": "TRT World",
-    "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
-    "category": "News",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png"
-  },
-  {
-    "name": "TurkHaber TV",
-    "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
-    "category": "News",
-    "logo": "https://i.imgur.com/2AcRKdL.png"
-  },
-  {
-    "name": "TV 1",
-    "url": "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/8CtrYVb.png"
-  },
-  {
-    "name": "TV 4",
-    "url": "https://turkmedya-live.ercdn.net/tv4/tv4.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/UpsQsbd.png"
-  },
-  {
-    "name": "TV8",
-    "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/300px-Tv8_Yeni_Logo.png"
-  },
-  {
-    "name": "TV 41",
-    "url": "https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/6T472LM.png"
-  },
-  {
-    "name": "TV 52",
-    "url": "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/k4R5CzO.png"
-  },
-  {
-    "name": "TV 100",
-    "url": "https://tv100-live.daioncdn.net/tv100/tv100.m3u8",
-    "category": "General",
-    "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/300px-TV100_logo.png"
-  },
-  {
-    "name": "TV 264",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/tudXdOZ.png"
-  },
-  {
-    "name": "TV Den",
-    "url": "https://canli.tvden.com.tr/hls/live.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/Uhg95Ze.png"
-  },
-  {
-    "name": "TVNET",
-    "url": "https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/mQo8yWQ.png"
-  },
-  {
-    "name": "Urfa Natik TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/8KO0uxn.png"
-  },
-  {
-    "name": "UU TV 2",
-    "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/FjFjdY5.png"
-  },
-  {
-    "name": "Viasat Explore",
-    "url": "https://tv.arectv29.sbs/live/viasathistory.m3u8",
-    "category": "Documentary",
-    "logo": "https://i.imgur.com/DyT5pKB.png"
-  },
-  {
-    "name": "V TV",
-    "url": "https://serdar.tiviplayer.com/player/m3u8/65aae71c9b93f0965aaed3a92660d98b/65aae71c9b93f0965aaed3a92660d98b.m3u8",
-    "category": "General",
-    "logo": "https://www.vtv.net.tr/uploads/logo/sitelogo_4.jpg"
-  },
-  {
-    "name": "Zarok TV",
-    "url": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8",
-    "category": "General",
-    "logo": "https://i.imgur.com/o0eevnb.png"
-  },
-  {
-    "name": "A Haber",
-    "url": "https://www.youtube-nocookie.com/embed/nmY9i63t6qo",
-    "category": "News",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png"
-  },
-  {
-    "name": "A News",
-    "url": "https://www.youtube-nocookie.com/embed/L4O-IO_dySQ",
-    "category": "News",
-    "logo": "https://i.imgur.com/6tWCzTp.png"
-  },
-  {
-    "name": "A Para",
-    "url": "https://www.youtube-nocookie.com/embed/6-Q8v_e-M2g",
-    "category": "News",
-    "logo": "https://i.imgur.com/GjHnq0c.png"
-  },
-  {
-    "name": "A Spor",
-    "url": "https://www.youtube-nocookie.com/embed/mgeW8Qm8-SY",
-    "category": "Sports",
-    "logo": "https://i.imgur.com/ZhkZzLf.png"
-  },
-  {
-    "name": "Ankara Büyükşehir Belediyesi",
-    "url": "https://www.youtube-nocookie.com/embed/iZoN48pVBUs",
-    "category": "News",
-    "logo": ""
-  },
-  {
-    "name": "Aşk-ı Nevâ",
-    "url": "https://www.youtube-nocookie.com/embed/BRs0GDByyOY",
-    "category": "Religious",
-    "logo": ""
-  },
-  {
-    "name": "beIN SPORTS Türkiye",
-    "url": "https://www.youtube-nocookie.com/embed/9xVXWLwT0vA",
-    "category": "Sports",
-    "logo": ""
-  },
-  {
-    "name": "Bursa AS TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
-    "category": "News",
-    "logo": ""
-  },
-  {
-    "name": "CAH Medya",
-    "url": "https://www.youtube-nocookie.com/embed/V7BRVvXZCzs",
-    "category": "Religious",
-    "logo": ""
-  },
-  {
-    "name": "Cartoon Network Türkiye",
-    "url": "https://www.youtube-nocookie.com/embed/yjsBRPqgzyg",
-    "category": "Kids",
-    "logo": ""
-  },
-  {
-    "name": "Cartoon Network Türkiye: Kral Şakir",
-    "url": "https://www.youtube-nocookie.com/embed/5Whk9MVTpI4",
-    "category": "Kids",
-    "logo": ""
-  },
-  {
-    "name": "Cartoonito Türkiye",
-    "url": "https://www.youtube-nocookie.com/embed/XDSd6m4SauI",
-    "category": "Kids",
-    "logo": ""
-  },
-  {
-    "name": "Çocuklar Duymasın",
-    "url": "https://www.youtube-nocookie.com/embed/aTmIS43qMS4",
-    "category": "Entertainment",
-    "logo": ""
-  },
-  {
-    "name": "Deniz Postası TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "Ekoturk",
-    "url": "https://www.youtube-nocookie.com/embed/k-tCyYoS30k",
-    "category": "News",
-    "logo": "https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65"
-  },
-  {
-    "name": "Elapro Sahne: Radyo Türküler",
-    "url": "https://www.youtube-nocookie.com/embed/eQK7fonE8t0",
-    "category": "Music",
-    "logo": ""
-  },
-  {
-    "name": "Er TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "Güldür Güldür Show",
-    "url": "https://www.youtube-nocookie.com/embed/JjtngkzUqIQ",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "Gülşah Film: Kemal Sunal Filmleri",
-    "url": "https://www.youtube-nocookie.com/embed/SmokHHHgvBY",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "Her An Kur'an Her An Zikir",
-    "url": "https://www.youtube-nocookie.com/embed/L1BrIDsbwHI",
-    "category": "Religious",
-    "logo": ""
-  },
-  {
-    "name": "Kemal Sunal: Filmleri ve Sahneleri",
-    "url": "https://www.youtube-nocookie.com/embed/_pRHXDSK8sA",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "KRT",
-    "url": "https://www.youtube-nocookie.com/embed/9SjCdNwD0x0",
-    "category": "News",
-    "logo": "https://i.imgur.com/9ZKqdQJ.png"
-  },
-  {
-    "name": "Kurtlar Vadisi",
-    "url": "https://www.youtube-nocookie.com/embed/NzbEHkjHn6g",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "Lider Haber",
-    "url": "https://www.youtube-nocookie.com/embed/aifkeclzWZM",
-    "category": "News",
-    "logo": "https://i.imgur.com/5B42KwY.png"
-  },
-  {
-    "name": "Muhteşem Yüzyıl",
-    "url": "https://www.youtube-nocookie.com/embed/0dmPGl8HV3A",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "Olay Türk TV Kayseri",
-    "url": "https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8",
-    "category": "News",
-    "logo": ""
-  },
-  {
-    "name": "SÖZCÜ Televizyonu",
-    "url": "https://www.youtube-nocookie.com/embed/ztmY_cCtUl0",
-    "category": "News",
-    "logo": ""
-  },
-  {
-    "name": "Star TV",
-    "url": "https://www.youtube-nocookie.com/embed/82O6yOy_XwE",
-    "category": "Entertainment",
-    "logo": "https://i.imgur.com/9O3DHRB.png"
-  },
-  {
-    "name": "TRT EBA Ortaokul",
-    "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
-    "category": "Education",
-    "logo": ""
-  },
-  {
-    "name": "TRT World HD",
-    "url": "https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8",
-    "category": "News",
-    "logo": ""
-  },
-  {
-    "name": "TRT عربي",
-    "url": "https://www.youtube-nocookie.com/embed/0YBF1h2oFcM",
-    "category": "News",
-    "logo": ""
-  },
-  {
-    "name": "TV4",
-    "url": "https://turkmedya-live.ercdn.net/tv4/tv4.m3u8",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "TV100",
-    "url": "https://www.youtube-nocookie.com/embed/JCuAFKp_WdE",
-    "category": "News",
-    "logo": ""
-  },
-  {
-    "name": "Ulusal Kanal",
-    "url": "https://www.youtube-nocookie.com/embed/dK96AZbCns0",
-    "category": "News",
-    "logo": "https://i.imgur.com/EwSg612.png"
-  },
-  {
-    "name": "ÜÜ TV Üsküdar Üniversitesi TV",
-    "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8",
-    "category": "General",
-    "logo": ""
-  },
-  {
-    "name": "Vav TV",
-    "url": "https://www.youtube-nocookie.com/embed/CsY0_Q3jTTs",
-    "category": "Education",
-    "logo": "https://i.imgur.com/jw0gB8L.png"
-  },
-  {
-    "name": "WildBrain Çocuklar: Çilekli Kurabiye",
-    "url": "https://www.youtube-nocookie.com/embed/m3k_Ua2zWN0",
-    "category": "Kids",
-    "logo": ""
-  },
-  {
-    "name": "WildBrain Çocuklar: Twirlywoos",
-    "url": "https://www.youtube-nocookie.com/embed/goVmLeg1hr4",
-    "category": "Kids",
-    "logo": ""
-  }
-],
+    {
+      "name": "4U TV",
+      "url": "https://hls.4utv.live/hls/stream.m3u8",
+      "category": "Entertainment",
+      "logo": "https://i.imgur.com/PexhKwp.png"
+    },
+    {
+      "name": "24 TV",
+      "url": "https://tv.ensonhaber.com/tv24/tv24.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/8FO41es.png"
+    },
+    {
+      "name": "360",
+      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/agn47sQ.png"
+    },
+    {
+      "name": "Afroturk TV",
+      "url": "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/fWlLvRA.png"
+    },
+    {
+      "name": "Akit TV",
+      "url": "https://akittv-live.ercdn.net/akittv/akittv.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/oGto929.png"
+    },
+    {
+      "name": "Aksu TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/mgDCKiy.png"
+    },
+    {
+      "name": "Alanya Posta TV",
+      "url": "https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/a3w9eFe.png"
+    },
+    {
+      "name": "Almahriah TV",
+      "url": "https://starmenajo.com/hls/almahriah/index.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/GgEeTNr.png"
+    },
+    {
+      "name": "Altas TV",
+      "url": "https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/XaJ7fp6.png"
+    },
+    {
+      "name": "Al-Zahra TV Turkic",
+      "url": "https://live.al-zahratv.com/live/playlist.m3u8",
+      "category": "Religious",
+      "logo": "https://i.imgur.com/QEHKGnG.png"
+    },
+    {
+      "name": "Anadolu Net TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8",
+      "category": "General",
+      "logo": "https://www.anadolunettv.com/d/r/logo.png"
+    },
+    {
+      "name": "Aras TV",
+      "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/JsDCyWG.png"
+    },
+    {
+      "name": "AS TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
+      "category": "News",
+      "logo": "https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png"
+    },
+    {
+      "name": "ATV",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
+      "category": "Entertainment",
+      "logo": "https://i.imgur.com/HyVUwFC.png"
+    },
+    {
+      "name": "Benguturk TV",
+      "url": "https://tv.ensonhaber.com/benguturk/benguturk.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/p3ON1oX.png"
+    },
+    {
+      "name": "Beyaz TV",
+      "url": "https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3",
+      "category": "General",
+      "logo": "https://i.imgur.com/uykIdML.png"
+    },
+    {
+      "name": "Bloomberg HT",
+      "url": "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8",
+      "category": "Business",
+      "logo": "https://i.imgur.com/bmkXfIE.png"
+    },
+    {
+      "name": "Bric ve Satranc TV",
+      "url": "http://139.162.182.79/live/test/index.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/TXDV1ty.png"
+    },
+    {
+      "name": "BRTV",
+      "url": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/U3qlEAp.png"
+    },
+    {
+      "name": "Can TV",
+      "url": "https://livetv.canbroadcast.com:7443/canlican/tv.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/oIMtuwB.png"
+    },
+    {
+      "name": "Cay TV",
+      "url": "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/ndupxwu.png"
+    },
+    {
+      "name": "CGTN Documentary",
+      "url": "https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8",
+      "category": "Documentary",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CGTN_Documentary_logo.png/400px-CGTN_Documentary_logo.png"
+    },
+    {
+      "name": "Ciftci TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
+      "category": "Education",
+      "logo": "https://i.imgur.com/CLzP4vL.png"
+    },
+    {
+      "name": "CNBC-e",
+      "url": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8",
+      "category": "Business",
+      "logo": "https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/cnbc-e-buyuk.png?rkt=DfS6Tgv6Hjr93k3"
+    },
+    {
+      "name": "Deniz Postasi TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/Mm8hdfx.png"
+    },
+    {
+      "name": "DHA",
+      "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/VZhag2x.png"
+    },
+    {
+      "name": "Dim TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/X4QFDhk.png"
+    },
+    {
+      "name": "Disney Jr.",
+      "url": "https://saran-live.ercdn.net/disneyjunior/index.m3u8",
+      "category": "Kids",
+      "logo": "https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png"
+    },
+    {
+      "name": "Diyanet TV",
+      "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
+      "category": "Religious",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png"
+    },
+    {
+      "name": "Diyar TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
+      "category": "Religious",
+      "logo": "https://i.imgur.com/qWkHjRA.png"
+    },
+    {
+      "name": "Dost TV",
+      "url": "https://dost.stream.emsal.im/tv/live.m3u8",
+      "category": "Religious",
+      "logo": "https://dosttv.com/wp-content/uploads/2022/02/dost_logo.png"
+    },
+    {
+      "name": "Dream Turk",
+      "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/vJ8VaZi.png"
+    },
+    {
+      "name": "Elsharq TV",
+      "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/8vmfZb5.png"
+    },
+    {
+      "name": "ERTV",
+      "url": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/VDGEPrD.png"
+    },
+    {
+      "name": "Erzurum Web TV",
+      "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/HF7N4Li.png"
+    },
+    {
+      "name": "ES TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/epAEBrp.png"
+    },
+    {
+      "name": "ETV Kayseri",
+      "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "name": "ETV Manisa",
+      "url": "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.ibb.co/QKXtdkz/sOd3INg.png"
+    },
+    {
+      "name": "Euro D",
+      "url": "https://viamotionhsi.netplus.ch/live/eds/eurod/browser-HLS8/eurod.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/x9kHsXo.png"
+    },
+    {
+      "name": "FB TV",
+      "url": "https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
+      "category": "Sports",
+      "logo": "https://i.imgur.com/qBVqtYd.png"
+    },
+    {
+      "name": "Finans Turk TV",
+      "url": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.ibb.co/wBwmB1T/iY0osc7.png"
+    },
+    {
+      "name": "Fortuna TV",
+      "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/ZbUSlOC.png"
+    },
+    {
+      "name": "FX",
+      "url": "https://saran-live.ercdn.net/fx/index.m3u8",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/330px-FX_International_logo.svg.png"
+    },
+    {
+      "name": "GEM Pixel",
+      "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
+      "category": "General",
+      "logo": "https://i.ibb.co/Q3tkbPrn/icon-27.png"
+    },
+    {
+      "name": "Grand Cinema",
+      "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
+      "category": "General",
+      "logo": "https://www.lyngsat.com/logo/tv/gg/grand-cinema.png"
+    },
+    {
+      "name": "Guneydogu TV",
+      "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/JT5pp3Y.png"
+    },
+    {
+      "name": "GZT",
+      "url": "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8",
+      "category": "Documentary",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/320px-GZT_logo.svg.png"
+    },
+    {
+      "name": "Haber61 TV",
+      "url": "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/2a2XUKl.png"
+    },
+    {
+      "name": "Haber Global",
+      "url": "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/fu6XeGS.png"
+    },
+    {
+      "name": "Haberturk TV",
+      "url": "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/6Tw3rUp.png"
+    },
+    {
+      "name": "Halk TV",
+      "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/xM0HA30.png"
+    },
+    {
+      "name": "HTSpor TV",
+      "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
+      "category": "Sports",
+      "logo": "https://www.htspor.com/images/manifest/social-share-logo.png"
+    },
+    {
+      "name": "Hunat TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/NrxHGnb.png"
+    },
+    {
+      "name": "Icel TV",
+      "url": "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/CGwImKv.png"
+    },
+    {
+      "name": "Kanal 3",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/eXErSv0.png"
+    },
+    {
+      "name": "Kanal 7",
+      "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
+      "category": "Entertainment",
+      "logo": "https://i.imgur.com/0gq9xOm.png"
+    },
+    {
+      "name": "Kanal 7 Avrupa",
+      "url": "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8",
+      "category": "Entertainment",
+      "logo": "https://i.imgur.com/wlfyj5l.png"
+    },
+    {
+      "name": "Kanal 12",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/51xCkXG.png"
+    },
+    {
+      "name": "Kanal 15",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/wb1Cdc9.png"
+    },
+    {
+      "name": "Kanal 23",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/3br8RCq.png"
+    },
+    {
+      "name": "Kanal 26",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/Mr7XPii.png"
+    },
+    {
+      "name": "Kanal 32",
+      "url": "https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://www.lyngsat.com/logo/tv/kk/kanal-32-tr.png"
+    },
+    {
+      "name": "Kanal 33",
+      "url": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/5WYaoFZ.png"
+    },
+    {
+      "name": "Kanal 58",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/Rgc66sv.png"
+    },
+    {
+      "name": "Kanal D",
+      "url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+      "category": "General",
+      "logo": "https://i.imgur.com/9o1atM6.png"
+    },
+    {
+      "name": "Kanal D Drama",
+      "url": "https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8",
+      "category": "Entertainment",
+      "logo": "https://i.imgur.com/WIeZMKT.png"
+    },
+    {
+      "name": "Kanal Firat",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/3o8Rokp.png"
+    },
+    {
+      "name": "Kanal Hayat",
+      "url": "https://tbn02a.ltnschedule.com/hls/nx21i.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/eikZj19.png"
+    },
+    {
+      "name": "Kanal V",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/7RNjTno.png"
+    },
+    {
+      "name": "Kanal Z",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/Kr8960d.png"
+    },
+    {
+      "name": "Kay TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/MymuDJ1.png"
+    },
+    {
+      "name": "Kent Turk",
+      "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/FQKPjsm.png"
+    },
+    {
+      "name": "Konya Olay TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg"
+    },
+    {
+      "name": "Kral Pop TV",
+      "url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/ch365lh.png"
+    },
+    {
+      "name": "Lalegul TV",
+      "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
+      "category": "Religious",
+      "logo": "https://i.imgur.com/wwCysFs.png"
+    },
+    {
+      "name": "Life TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/lWeJxm0.png"
+    },
+    {
+      "name": "Line TV",
+      "url": "https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/6GNp7f8.png"
+    },
+    {
+      "name": "MaviKaradeniz TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/wyWappU.png"
+    },
+    {
+      "name": "Med Muzik",
+      "url": "http://54.36.110.140/live3/live3.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/gtUFmCD.png"
+    },
+    {
+      "name": "Mekameleen TV",
+      "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/q7iVchl.png"
+    },
+    {
+      "name": "Meltem TV",
+      "url": "https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/C3m6w5S.png"
+    },
+    {
+      "name": "Mercan TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/3CWV8bS.png"
+    },
+    {
+      "name": "MTurk TV",
+      "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/xj1gvrq.png"
+    },
+    {
+      "name": "National Geographic",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "category": "Documentary",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png"
+    },
+    {
+      "name": "National Geographic Wild",
+      "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8",
+      "category": "Documentary",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png"
+    },
+    {
+      "name": "Natural TV",
+      "url": "https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/rfcJ674.png"
+    },
+    {
+      "name": "NOW TV",
+      "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
+      "category": "Entertainment",
+      "logo": "https://i.imgur.com/5EYjWK7.png"
+    },
+    {
+      "name": "Number 1 Ask",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/slwbux7.png"
+    },
+    {
+      "name": "Number 1 Damar",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/rYtbAGZ.png"
+    },
+    {
+      "name": "Number 1 Dance",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/ZM4PSyq.png"
+    },
+    {
+      "name": "Number 1 TV",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/02cDIBi.png"
+    },
+    {
+      "name": "OlayTurk TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/e9ca6gc.png"
+    },
+    {
+      "name": "On4 TV",
+      "url": "https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/qGRa1KI.png"
+    },
+    {
+      "name": "Power Dance",
+      "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/QpPteBO.png"
+    },
+    {
+      "name": "Power Love",
+      "url": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/0RzUswR.png"
+    },
+    {
+      "name": "PowerTurk Akustik",
+      "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/driabBO.png"
+    },
+    {
+      "name": "PowerTurk Slow",
+      "url": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/tQSoQXW.png"
+    },
+    {
+      "name": "PowerTurk Taptaze",
+      "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/a5nW3HU.png"
+    },
+    {
+      "name": "PowerTurk TV",
+      "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/9OPoXQG.png"
+    },
+    {
+      "name": "Power TV",
+      "url": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/XSL1gd7.png"
+    },
+    {
+      "name": "Qaf TV",
+      "url": "https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/hrk7Uce.png"
+    },
+    {
+      "name": "Semerkand TV",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/UVGGrQd.png"
+    },
+    {
+      "name": "Sports TV",
+      "url": "https://live.sportstv.com.tr/hls/low/sportstv.m3u8",
+      "category": "Sports",
+      "logo": "https://i.imgur.com/tGTVcVe.jpg"
+    },
+    {
+      "name": "Sun RTV",
+      "url": "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/64tph9N.png"
+    },
+    {
+      "name": "Tarih TV",
+      "url": "https://tv1.arectv30.sbs/live/tarihtv.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/HbIGZUt.png"
+    },
+    {
+      "name": "TBMM TV",
+      "url": "https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/512px-TBMM_TV_logo.svg.png"
+    },
+    {
+      "name": "Tele 1",
+      "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"
+    },
+    {
+      "name": "Tempo TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/tZpx32y.png"
+    },
+    {
+      "name": "TGRT Belgesel",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/VwWTnf0.png"
+    },
+    {
+      "name": "TGRT Haber",
+      "url": "https://canli.tgrthaber.com/tgrt.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/PrxwKDw.png"
+    },
+    {
+      "name": "Tivi 6",
+      "url": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/Mbi0jbz.png"
+    },
+    {
+      "name": "TJK TV 2",
+      "url": "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8",
+      "category": "Sports",
+      "logo": "https://i.imgur.com/3zHdkYG.png"
+    },
+    {
+      "name": "TJK TV",
+      "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
+      "category": "Sports",
+      "logo": "https://i.imgur.com/3zHdkYG.png"
+    },
+    {
+      "name": "TMB",
+      "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/28AyWHe.png"
+    },
+    {
+      "name": "Ton TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/f0Soeob.png"
+    },
+    {
+      "name": "Trabzon Buyuksehir Belediyesi TV",
+      "url": "https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8",
+      "category": "General",
+      "logo": "https://tbbweb.tv/img/logo.png"
+    },
+    {
+      "name": "TRT 1",
+      "url": "https://trt.daioncdn.net/trt-1/master.m3u8?app=web",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png"
+    },
+    {
+      "name": "TRT 2",
+      "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/iOCQdyD.png"
+    },
+    {
+      "name": "TRT 3",
+      "url": "https://tv-trt3.live.trt.com.tr/master.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/JrWFwBd.png"
+    },
+    {
+      "name": "TRT Arabi",
+      "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/dEfI2M9.png"
+    },
+    {
+      "name": "TRT Avaz",
+      "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png"
+    },
+    {
+      "name": "TRT Cocuk",
+      "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+      "category": "Kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/512px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"
+    },
+    {
+      "name": "TRT Diyanet Cocuk",
+      "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8",
+      "category": "Kids",
+      "logo": "https://i.imgur.com/8PmXz9t.png"
+    },
+    {
+      "name": "TRT EBA",
+      "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
+      "category": "Education",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/400px-TRT_EBA_TV_logo.svg.png"
+    },
+    {
+      "name": "TRT EBA Ilkokul",
+      "url": "https://tv-e-okul00.medya.trt.com.tr/master.m3u8",
+      "category": "Education",
+      "logo": "https://i.imgur.com/CRBfZi4.png"
+    },
+    {
+      "name": "TRT EBA Lise",
+      "url": "https://tv-e-okul02.medya.trt.com.tr/master.m3u8",
+      "category": "Education",
+      "logo": "https://i.imgur.com/vj2L2L2.png"
+    },
+    {
+      "name": "TRT Haber",
+      "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+      "category": "News",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png"
+    },
+    {
+      "name": "TRT Kurdi",
+      "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png"
+    },
+    {
+      "name": "TRT Muzik",
+      "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+      "category": "Music",
+      "logo": "https://i.imgur.com/JgUzRH8.png"
+    },
+    {
+      "name": "TRT Turk",
+      "url": "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png"
+    },
+    {
+      "name": "TRT World",
+      "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+      "category": "News",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png"
+    },
+    {
+      "name": "TurkHaber TV",
+      "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
+      "category": "News",
+      "logo": "https://i.imgur.com/2AcRKdL.png"
+    },
+    {
+      "name": "TV 1",
+      "url": "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/8CtrYVb.png"
+    },
+    {
+      "name": "TV 4",
+      "url": "https://turkmedya-live.ercdn.net/tv4/tv4.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/UpsQsbd.png"
+    },
+    {
+      "name": "TV8",
+      "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/300px-Tv8_Yeni_Logo.png"
+    },
+    {
+      "name": "TV 41",
+      "url": "https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/6T472LM.png"
+    },
+    {
+      "name": "TV 52",
+      "url": "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/k4R5CzO.png"
+    },
+    {
+      "name": "TV 100",
+      "url": "https://tv100-live.daioncdn.net/tv100/tv100.m3u8",
+      "category": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/300px-TV100_logo.png"
+    },
+    {
+      "name": "TV 264",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/tudXdOZ.png"
+    },
+    {
+      "name": "TV Den",
+      "url": "https://canli.tvden.com.tr/hls/live.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/Uhg95Ze.png"
+    },
+    {
+      "name": "TVNET",
+      "url": "https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/mQo8yWQ.png"
+    },
+    {
+      "name": "Urfa Natik TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/8KO0uxn.png"
+    },
+    {
+      "name": "UU TV 2",
+      "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/FjFjdY5.png"
+    },
+    {
+      "name": "Viasat Explore",
+      "url": "https://tv.arectv29.sbs/live/viasathistory.m3u8",
+      "category": "Documentary",
+      "logo": "https://i.imgur.com/DyT5pKB.png"
+    },
+    {
+      "name": "V TV",
+      "url": "https://serdar.tiviplayer.com/player/m3u8/65aae71c9b93f0965aaed3a92660d98b/65aae71c9b93f0965aaed3a92660d98b.m3u8",
+      "category": "General",
+      "logo": "https://www.vtv.net.tr/uploads/logo/sitelogo_4.jpg"
+    },
+    {
+      "name": "Zarok TV",
+      "url": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/o0eevnb.png"
+    },
+    {
+      "name": "A Haber",
+      "url": "https://www.youtube-nocookie.com/embed/nmY9i63t6qo",
+      "category": "News",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png"
+    },
+    {
+      "name": "A News",
+      "url": "https://www.youtube-nocookie.com/embed/L4O-IO_dySQ",
+      "category": "News",
+      "logo": "https://i.imgur.com/6tWCzTp.png"
+    },
+    {
+      "name": "A Para",
+      "url": "https://www.youtube-nocookie.com/embed/6-Q8v_e-M2g",
+      "category": "News",
+      "logo": "https://i.imgur.com/GjHnq0c.png"
+    },
+    {
+      "name": "A Spor",
+      "url": "https://www.youtube-nocookie.com/embed/mgeW8Qm8-SY",
+      "category": "Sports",
+      "logo": "https://i.imgur.com/ZhkZzLf.png"
+    },
+    {
+      "name": "Ankara Büyükşehir Belediyesi",
+      "url": "https://www.youtube-nocookie.com/embed/iZoN48pVBUs",
+      "category": "News",
+      "logo": ""
+    },
+    {
+      "name": "Aşk-ı Nevâ",
+      "url": "https://www.youtube-nocookie.com/embed/BRs0GDByyOY",
+      "category": "Religious",
+      "logo": ""
+    },
+    {
+      "name": "beIN SPORTS Türkiye",
+      "url": "https://www.youtube-nocookie.com/embed/9xVXWLwT0vA",
+      "category": "Sports",
+      "logo": ""
+    },
+    {
+      "name": "Bursa AS TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
+      "category": "News",
+      "logo": ""
+    },
+    {
+      "name": "CAH Medya",
+      "url": "https://www.youtube-nocookie.com/embed/V7BRVvXZCzs",
+      "category": "Religious",
+      "logo": ""
+    },
+    {
+      "name": "Cartoon Network Türkiye",
+      "url": "https://www.youtube-nocookie.com/embed/yjsBRPqgzyg",
+      "category": "Kids",
+      "logo": ""
+    },
+    {
+      "name": "Cartoon Network Türkiye: Kral Şakir",
+      "url": "https://www.youtube-nocookie.com/embed/5Whk9MVTpI4",
+      "category": "Kids",
+      "logo": ""
+    },
+    {
+      "name": "Cartoonito Türkiye",
+      "url": "https://www.youtube-nocookie.com/embed/XDSd6m4SauI",
+      "category": "Kids",
+      "logo": ""
+    },
+    {
+      "name": "Çocuklar Duymasın",
+      "url": "https://www.youtube-nocookie.com/embed/aTmIS43qMS4",
+      "category": "Entertainment",
+      "logo": ""
+    },
+    {
+      "name": "Deniz Postası TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Ekoturk",
+      "url": "https://www.youtube-nocookie.com/embed/k-tCyYoS30k",
+      "category": "News",
+      "logo": "https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65"
+    },
+    {
+      "name": "Elapro Sahne: Radyo Türküler",
+      "url": "https://www.youtube-nocookie.com/embed/eQK7fonE8t0",
+      "category": "Music",
+      "logo": ""
+    },
+    {
+      "name": "Er TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Güldür Güldür Show",
+      "url": "https://www.youtube-nocookie.com/embed/JjtngkzUqIQ",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Gülşah Film: Kemal Sunal Filmleri",
+      "url": "https://www.youtube-nocookie.com/embed/SmokHHHgvBY",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Her An Kur'an Her An Zikir",
+      "url": "https://www.youtube-nocookie.com/embed/L1BrIDsbwHI",
+      "category": "Religious",
+      "logo": ""
+    },
+    {
+      "name": "Kemal Sunal: Filmleri ve Sahneleri",
+      "url": "https://www.youtube-nocookie.com/embed/_pRHXDSK8sA",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "KRT",
+      "url": "https://www.youtube-nocookie.com/embed/9SjCdNwD0x0",
+      "category": "News",
+      "logo": "https://i.imgur.com/9ZKqdQJ.png"
+    },
+    {
+      "name": "Kurtlar Vadisi",
+      "url": "https://www.youtube-nocookie.com/embed/NzbEHkjHn6g",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Lider Haber",
+      "url": "https://www.youtube-nocookie.com/embed/aifkeclzWZM",
+      "category": "News",
+      "logo": "https://i.imgur.com/5B42KwY.png"
+    },
+    {
+      "name": "Muhteşem Yüzyıl",
+      "url": "https://www.youtube-nocookie.com/embed/0dmPGl8HV3A",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Olay Türk TV Kayseri",
+      "url": "https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8",
+      "category": "News",
+      "logo": ""
+    },
+    {
+      "name": "SÖZCÜ Televizyonu",
+      "url": "https://www.youtube-nocookie.com/embed/ztmY_cCtUl0",
+      "category": "News",
+      "logo": ""
+    },
+    {
+      "name": "Star TV",
+      "url": "https://www.youtube-nocookie.com/embed/82O6yOy_XwE",
+      "category": "Entertainment",
+      "logo": "https://i.imgur.com/9O3DHRB.png"
+    },
+    {
+      "name": "TRT EBA Ortaokul",
+      "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
+      "category": "Education",
+      "logo": ""
+    },
+    {
+      "name": "TRT World HD",
+      "url": "https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8",
+      "category": "News",
+      "logo": ""
+    },
+    {
+      "name": "TRT عربي",
+      "url": "https://www.youtube-nocookie.com/embed/0YBF1h2oFcM",
+      "category": "News",
+      "logo": ""
+    },
+    {
+      "name": "TV4",
+      "url": "https://turkmedya-live.ercdn.net/tv4/tv4.m3u8",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "TV100",
+      "url": "https://www.youtube-nocookie.com/embed/JCuAFKp_WdE",
+      "category": "News",
+      "logo": ""
+    },
+    {
+      "name": "Ulusal Kanal",
+      "url": "https://www.youtube-nocookie.com/embed/dK96AZbCns0",
+      "category": "News",
+      "logo": "https://i.imgur.com/EwSg612.png"
+    },
+    {
+      "name": "ÜÜ TV Üsküdar Üniversitesi TV",
+      "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Vav TV",
+      "url": "https://www.youtube-nocookie.com/embed/CsY0_Q3jTTs",
+      "category": "Education",
+      "logo": "https://i.imgur.com/jw0gB8L.png"
+    },
+    {
+      "name": "WildBrain Çocuklar: Çilekli Kurabiye",
+      "url": "https://www.youtube-nocookie.com/embed/m3k_Ua2zWN0",
+      "category": "Kids",
+      "logo": ""
+    },
+    {
+      "name": "WildBrain Çocuklar: Twirlywoos",
+      "url": "https://www.youtube-nocookie.com/embed/goVmLeg1hr4",
+      "category": "Kids",
+      "logo": ""
+    }
+  ],
   "Trinidad and Tobago": [
     { "name": "Sankhya TV", "url": "https://5c59fd5680a05.streamlock.net/live/_definst_/ngrp:SANKHYATV.stream_all/playlist.m3u8", "category": "Religious", "logo": "https://i.ibb.co/Dgv6PvM/STV-NEW-LOGO-WITH-WHITE-SHADOW.png" },
     { "name": "The Islamic Network (480p) [Not 24/7]", "url": "http://daruttarbiyah.srfms.com:1935/daruttarbiyah/livestream/playlist.m3u8", "category": "Religious", "logo": "https://i.imgur.com/EtQolw6.png" },
