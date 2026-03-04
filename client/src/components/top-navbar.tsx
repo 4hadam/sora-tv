@@ -1,6 +1,5 @@
 "use client"
 
-import { useEffect, useState } from "react"
 import { Menu, X } from "lucide-react"
 
 interface TopNavbarProps {
@@ -17,17 +16,8 @@ export default function TopNavbar({
 
   // 🔴 تم حذف 'scrolled' لأن الخلفية أصبحت ثابتة
   // const [scrolled, setScrolled] = useState(false)
-  const [tvFill, setTvFill] = useState("#000000")
-
-  // 🔴 تم حذف 'useEffect' الخاص بـ 'onScroll'
-  // useEffect(() => { ... }, [])
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const baseUrl = window.location.href.split('#')[0];
-      setTvFill(`url(${baseUrl}#tvGradient)`);
-    }
-  }, [])
+  // gradient reference works directly without full base URL in non-hash routing
+  const tvFill = "url(#tvGradient)"
 
   return (
     <header
