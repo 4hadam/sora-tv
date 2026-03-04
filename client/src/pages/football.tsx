@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useLocation } from "wouter"
 import TopNavbar from "@/components/top-navbar"
-import MpegTsPlayer from "@/components/mpegts-player"
+import VideoJsPlayer from "@/components/videojs-player"
 import { ArrowLeft, Tv2 } from "lucide-react"
 
 interface FootballChannel {
@@ -112,9 +112,10 @@ export default function Football() {
                                         >?</button>
                                     </div>
                                     <div className="rounded-xl overflow-hidden bg-black aspect-video">
-                                        <MpegTsPlayer
+                                        <VideoJsPlayer
                                             key={selected.url}
                                             src={selected.url}
+                                            isLive={true}
                                             autoPlay={true}
                                         />
                                     </div>
