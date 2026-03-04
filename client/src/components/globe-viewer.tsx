@@ -164,23 +164,26 @@ export default function GlobeViewer({
   isMobile = false,
 }: GlobeViewerProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
   const pointerInteracting = useRef<number | null>(null)
   const pointerInteractionMovement = useRef(0)
   const phiRef = useRef(0)
+  const globeRef = useRef<ReturnType<typeof createGlobe> | null>(null)
 
   useEffect(() => {
-    if (!canvasRef.current) return
+    if (!canvasRef.current || !containerRef.current) return
 
     let phi = 0
-    let width = 0
 
-    const onResize = () => {
-      if (canvasRef.current) {
-        width = canvasRef.current.offsetWidth
-      }
-    }
-    window.addEventListener("resize", onResize)
-    onResize()
+    // Get actual container size
+    const container = containerRef.current
+    const size = Math.min(container.offsetWidth, container.offsetHeight, 800)
+
+    // Set canvas size explicitly
+    canvasRef.current.width = size * 2
+    canvasRef.current.height = size * 2
+    canvasRef.current.style.width = `${size}px`
+    canvasRef.current.style.height = `${size}px`
 
     // Get marker for selected country
     const markers = selectedCountry && countryCoordinates[selectedCountry]
@@ -188,33 +191,33 @@ export default function GlobeViewer({
       : []
 
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: Math.min(window.devicePixelRatio, isMobile ? 1.5 : 2),
-      width: width * 2,
-      height: width * 2,
+      devicePixelRatio: 2,
+      width: size * 2,
+      height: size * 2,
       phi: 0,
       theta: 0.3,
       dark: 1,
-      diffuse: 3,
-      mapSamples: isMobile ? 12000 : 16000,
-      mapBrightness: 1.2,
-      baseColor: [0.1, 0.1, 0.15],
-      markerColor: [1, 0.85, 0.3],
-      glowColor: [0.15, 0.4, 1],
+      diffuse: 1.2,
+      mapSamples: 16000,
+      mapBrightness: 6,
+      baseColor: [0.3, 0.3, 0.3],
+      markerColor: [0.1, 0.8, 1],
+      glowColor: [0.1, 0.3, 0.8],
       markers,
       onRender: (state) => {
         // Auto-rotate when not interacting
         if (!pointerInteracting.current) {
-          phi += 0.003
+          phi += 0.005
         }
         state.phi = phi + phiRef.current
-        state.width = width * 2
-        state.height = width * 2
       },
     })
 
+    globeRef.current = globe
+
     // Handle interactions
     const handlePointerDown = (e: PointerEvent) => {
-      pointerInteracting.current = e.clientX - phiRef.current * (width / Math.PI)
+      pointerInteracting.current = e.clientX - phiRef.current * (size / Math.PI)
       pointerInteractionMovement.current = 0
       if (canvasRef.current) {
         canvasRef.current.style.cursor = "grabbing"
@@ -231,7 +234,7 @@ export default function GlobeViewer({
     const handlePointerMove = (e: PointerEvent) => {
       if (pointerInteracting.current !== null) {
         const delta = e.clientX - pointerInteracting.current
-        phiRef.current = delta / (width / Math.PI)
+        phiRef.current = delta / (size / Math.PI)
         pointerInteractionMovement.current += Math.abs(e.movementX) + Math.abs(e.movementY)
       }
     }
@@ -248,7 +251,7 @@ export default function GlobeViewer({
       if (e.touches.length === 1 && pointerInteracting.current !== null) {
         const touch = e.touches[0]
         const delta = touch.clientX - pointerInteracting.current
-        phiRef.current = delta / (width / Math.PI)
+        phiRef.current = delta / (size / Math.PI)
       }
     }
 
@@ -263,7 +266,6 @@ export default function GlobeViewer({
 
     return () => {
       globe.destroy()
-      window.removeEventListener("resize", onResize)
       if (canvasRef.current) {
         canvasRef.current.removeEventListener("pointerdown", handlePointerDown)
         canvasRef.current.removeEventListener("pointerup", handlePointerUp)
@@ -275,12 +277,13 @@ export default function GlobeViewer({
   }, [isMobile, selectedCountry])
 
   return (
-    <div className="w-full h-full flex items-center justify-center bg-black overflow-hidden">
+    <div 
+      ref={containerRef}
+      className="w-full h-full flex items-center justify-center bg-black overflow-hidden"
+    >
       <canvas
         ref={canvasRef}
-        className="w-full h-full max-w-[800px] max-h-[800px] aspect-square"
         style={{
-          contain: "layout paint size",
           touchAction: "none",
         }}
       />
