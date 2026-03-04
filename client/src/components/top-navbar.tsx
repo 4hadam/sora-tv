@@ -79,16 +79,8 @@ export default function TopNavbar({
           </a>
         </div>
 
-        {/* Right side: football link + menu button */}
+        {/* Right side: menu button */}
         <div className="flex items-center gap-4">
-          <a
-            href="/football"
-            className="hidden sm:flex items-center gap-1.5 text-sm text-white/70 hover:text-white transition font-medium"
-            aria-label="Football Channels"
-          >
-            <span>⚽</span>
-            <span>Football</span>
-          </a>
           <button
             onClick={onMenuClick}
             className="text-white focus:outline-none"

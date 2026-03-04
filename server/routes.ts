@@ -251,56 +251,6 @@ export async function registerRoutes(
     fetchStream(url, 6);
   });
 
-  // Football Channels API — uses IPTV_CREDS env var to protect credentials
-  app.get("/api/football", async (req, res) => {
-    const creds = process.env.IPTV_CREDS;
-    if (!creds) {
-      return res.status(503).json({ error: "Football channels not configured" });
-    }
-    const base = `http://ugeen.live:8080/${creds}`;
-    const channels = [
-      // ── beIN SPORTS SD (H.264 - browser compatible) ──
-      { name: "beIN SPORTS 1 HD", id: 56, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 2 HD", id: 57, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 3 HD", id: 59, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 4 HD", id: 60, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 5 HD", id: 93, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 6 HD", id: 92, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 7 HD", id: 91, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 8 HD", id: 61, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS 9 HD", id: 4035, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN Sport Global", id: 4336, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS XTRA 1", id: 4095, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS XTRA 2", id: 4504, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      { name: "beIN SPORTS NBA", id: 3973, logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/BeIN_Sports_logo_2017.svg/200px-BeIN_Sports_logo_2017.svg.png" },
-      // ── Arab Sports ─────────────────────────────────
-      { name: "ON Time Sport 1", id: 507, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "ON Time Sport 2", id: 949, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "KSA Sports 1", id: 2053, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "KSA Sports 2", id: 2054, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "KSA Sports 3", id: 2055, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "KSA Sport 4", id: 2056, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Dubai Sports 1", id: 4038, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Dubai Sports 2", id: 4093, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "AD Sport 1", id: 112, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "AD Sport 2", id: 113, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Alkass 1", id: 1461, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Alkass 2", id: 1462, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Alkass 3", id: 1463, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Alkass 4", id: 1464, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Nile Sport", id: 496, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Jordan Sport", id: 4362, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Starz Play SPORT 1", id: 4040, logo: "https://i.imgur.com/0sNWg54.png" },
-      { name: "Starz Play SPORT 2", id: 4041, logo: "https://i.imgur.com/0sNWg54.png" },
-    ].map(ch => ({
-      name: ch.name,
-      url: `${base}/${ch.id}`,
-      logo: ch.logo,
-      category: "Sports",
-    }));
-    res.json({ channels });
-  });
-
   // Channels by Country API — called by the client instead of static 1.7MB bundle
   app.get("/api/channels/:country", async (req, res) => {
     try {
