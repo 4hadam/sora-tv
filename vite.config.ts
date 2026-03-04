@@ -38,8 +38,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // ✅ Three.js for globe worker
-          'three': ['three'],
+          // ✅ Separate heavy vendor libraries
+          'globe-gl': ['globe.gl'],
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
           // iptv-channels.ts is now server-only — not in client bundle
           'ui-components': [
