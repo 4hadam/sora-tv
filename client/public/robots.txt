@@ -284,6 +284,6 @@ Disallow: /
 # ============================================
 # SITEMAPS
 # ============================================
-Sitemap: https://Sora tv/sitemap.xml
-Sitemap: https://Sora tv/sitemap-index.xml
-Sitemap: https://Sora tv/sitemap-countries.xml
+Sitemap: https://soratv.live/sitemap.xml
+Sitemap: https://soratv.live/sitemap-index.xml
+Sitemap: https://soratv.live/sitemap-countries.xml

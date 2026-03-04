@@ -5,7 +5,7 @@
   
   <!-- Morocco -->
   <url>
-    <loc>https://Sora tv/?country=Morocco</loc>
+    <loc>https://soratv.live/?country=Morocco</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -14,7 +14,7 @@
   
   <!-- Spain -->
   <url>
-    <loc>https://Sora tv/?country=Spain</loc>
+    <loc>https://soratv.live/?country=Spain</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -23,7 +23,7 @@
   
   <!-- South Africa -->
   <url>
-    <loc>https://Sora tv/?country=South%20Africa</loc>
+    <loc>https://soratv.live/?country=South%20Africa</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -32,7 +32,7 @@
   
   <!-- Austria -->
   <url>
-    <loc>https://Sora tv/?country=Austria</loc>
+    <loc>https://soratv.live/?country=Austria</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -41,7 +41,7 @@
 
   <!-- General Categories -->
   <url>
-    <loc>https://Sora tv/?category=News</loc>
+    <loc>https://soratv.live/?category=News</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -49,7 +49,7 @@
   </url>
 
   <url>
-    <loc>https://Sora tv/?category=Sports</loc>
+    <loc>https://soratv.live/?category=Sports</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -57,7 +57,7 @@
   </url>
 
   <url>
-    <loc>https://Sora tv/?category=Entertainment</loc>
+    <loc>https://soratv.live/?category=Entertainment</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -65,7 +65,7 @@
   </url>
 
   <url>
-    <loc>https://Sora tv/?category=General</loc>
+    <loc>https://soratv.live/?category=General</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
