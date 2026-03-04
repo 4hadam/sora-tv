@@ -38,8 +38,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // ✅ Separate heavy vendor libraries
-          'globe-gl': ['globe.gl'],
+          // ✅ Separate heavy vendor libraries (cobe is now lightweight ~5KB)
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
           // iptv-channels.ts is now server-only — not in client bundle
           'ui-components': [
