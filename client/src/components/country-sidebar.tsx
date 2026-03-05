@@ -480,7 +480,7 @@ export default function CountrySidebar({
           {shouldShowChannels && (
             <button
               onClick={handleBack}
-              className="p-1.5 rounded-full bg-black text-white transition-transform duration-200"
+              className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full bg-black text-white transition-transform duration-200"
               aria-label="Return to list"
             >
               <ChevronLeft className="w-5 h-5" strokeWidth={2.5} />
@@ -490,7 +490,7 @@ export default function CountrySidebar({
             {title}
           </h2>
         </div>
-        <p className="text-sm text-slate-400">{currentTime}</p>
+        <p className="text-sm text-slate-300">{currentTime}</p>
       </div>
 
       <div className="border-b border-white/10" />

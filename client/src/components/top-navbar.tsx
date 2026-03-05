@@ -108,7 +108,7 @@ export default function TopNavbar({
           <div className="relative flex items-center" ref={historyRef}>
             <button
               onClick={() => setShowHistory((p) => !p)}
-              className="text-white/70 hover:text-white focus:outline-none transition-colors"
+              className="min-w-[44px] min-h-[44px] flex items-center justify-center text-white hover:text-white/80 focus:outline-none transition-colors"
               aria-label="Watch history"
             >
               <History size={22} />
@@ -121,14 +121,14 @@ export default function TopNavbar({
                   {history.length > 0 && (
                     <button
                       onClick={() => { localStorage.removeItem("soratv_history"); setHistory([]) }}
-                      className="text-white/40 hover:text-white/70 text-xs transition-colors"
+                      className="text-white/70 hover:text-white text-xs transition-colors px-2 py-1"
                     >
                       Clear
                     </button>
                   )}
                 </div>
                 {history.length === 0 ? (
-                  <div className="px-4 py-6 text-center text-white/30 text-sm">No history yet</div>
+                  <div className="px-4 py-6 text-center text-white/60 text-sm">No history yet</div>
                 ) : (
                   <ul className="max-h-80 overflow-y-auto custom-scroll">
                     {history.map((item, i) => (
@@ -137,10 +137,10 @@ export default function TopNavbar({
                           onClick={() => { onSelectChannel?.(item.name, item.country); setShowHistory(false) }}
                           className="flex items-center gap-3 w-full px-4 py-3 hover:bg-white/5 transition-colors text-left"
                         >
-                          <History size={14} className="text-white/30 flex-shrink-0" />
+                          <History size={14} className="text-white/60 flex-shrink-0" />
                           <div className="min-w-0">
                             <p className="text-white text-sm truncate">{item.name}</p>
-                            <p className="text-white/40 text-xs">{item.country}</p>
+                            <p className="text-white/70 text-xs">{item.country}</p>
                           </div>
                         </button>
                       </li>
@@ -153,7 +153,7 @@ export default function TopNavbar({
 
           <button
             onClick={onMenuClick}
-            className="text-white focus:outline-none"
+            className="min-w-[44px] min-h-[44px] flex items-center justify-center text-white focus:outline-none"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
