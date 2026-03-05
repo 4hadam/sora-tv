@@ -211,15 +211,15 @@ export default function Home() {
           )}
         </div>
 
-        {/* 📊 Stats Counter - Top Left (hidden when channel is playing) */}
+        {/* 📊 Stats Counter - Bottom Left */}
         {!selectedChannel && (
-          <div className="fixed bottom-6 left-6 z-50 pointer-events-none">
-            <div className="flex items-center gap-1.5">
-              <span className="text-blue-200/80 text-xs font-light tracking-widest">153</span>
-              <span className="text-blue-200/60 text-xs font-light">countries</span>
-              <span className="text-blue-200/40 text-xs mx-0.5">•</span>
-              <span className="text-blue-200/80 text-xs font-light tracking-widest">9,022</span>
-              <span className="text-blue-200/60 text-xs font-light">channels</span>
+          <div className="fixed bottom-5 left-5 z-50 pointer-events-none">
+            <div className="flex items-center gap-1">
+              <span className="text-blue-200/70 font-light" style={{ fontSize: "10px" }}>153</span>
+              <span className="text-blue-200/50 font-light" style={{ fontSize: "10px" }}>countries</span>
+              <span className="text-blue-200/30 font-light mx-0.5" style={{ fontSize: "10px" }}>•</span>
+              <span className="text-blue-200/70 font-light" style={{ fontSize: "10px" }}>9,022</span>
+              <span className="text-blue-200/50 font-light" style={{ fontSize: "10px" }}>channels</span>
             </div>
           </div>
         )}
