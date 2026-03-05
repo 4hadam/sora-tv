@@ -44,7 +44,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // globe.gl removed — replaced by globe.worker.ts (Web Worker, zero TBT)
+          // ظ£à Separate heavy vendor libraries
+          'globe-gl': ['globe.gl'],
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
           // iptv-channels.ts is now server-only ظ¤ not in client bundle
           'ui-components': [
