@@ -192,16 +192,16 @@ export default function Home() {
           ) : (
             <GlobePlaceholder />
           )}
+        </div>
 
-          {/* 📊 Stats Counter - Top Left (hidden when channel is playing) */}
-          <div className={`absolute top-4 left-4 z-20 pointer-events-none transition-opacity duration-300 ${selectedChannel ? "opacity-0" : "opacity-100"}`}>
-            <div className="bg-black/60 backdrop-blur-sm rounded-xl px-4 py-2 flex items-center gap-2 border border-white/10">
-              <span className="text-white text-sm font-semibold">153</span>
-              <span className="text-white/50 text-xs">countries</span>
-              <span className="text-white/30 text-sm mx-0.5">•</span>
-              <span className="text-white text-sm font-semibold">9,022</span>
-              <span className="text-white/50 text-xs">channels</span>
-            </div>
+        {/* 📊 Stats Counter - Top Left (hidden when channel is playing) */}
+        <div className={`absolute top-4 left-4 z-30 pointer-events-none transition-opacity duration-300 ${selectedChannel ? "opacity-0" : "opacity-100"}`}>
+          <div className="flex items-center gap-2">
+            <span className="text-white/90 text-sm font-light tracking-wide">153</span>
+            <span className="text-white/50 text-xs">countries</span>
+            <span className="text-white/40 text-sm">•</span>
+            <span className="text-white/90 text-sm font-light tracking-wide">9,022</span>
+            <span className="text-white/50 text-xs">channels</span>
           </div>
         </div>
         {/* 🎥 Video Player (Desktop Only) */}
