@@ -1,12 +1,14 @@
 [
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "live.soratv.twa",
-      "sha256_cert_fingerprints": [
-        "REPLACE_WITH_SHA256_FROM_PWABUILDER"
-      ]
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "live.soratv.twa",
+            "sha256_cert_fingerprints": [
+                "D6:76:1C:DF:CC:2A:FC:EB:F6:C3:A9:12:1B:3D:F3:7B:E0:E1:DD:E2:8E:27:4E:5C:0E:D7:10:5D:65:DD:41:1D"
+            ]
+        }
     }
-  }
 ]
