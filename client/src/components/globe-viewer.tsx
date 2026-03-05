@@ -4,274 +4,234 @@ import { useEffect, useRef, useCallback } from "react"
 import * as THREE from "three"
 import type { GlobeInstance } from "globe.gl"
 
-// ─── Types ────────────────────────────────────────────────────────────────────
 interface GlobeViewerProps {
   selectedCountry: string | null
   onCountryClick?: (countryName: string) => void
   isMobile?: boolean
 }
 
-// ─── Palette ──────────────────────────────────────────────────────────────────
-const VIVID_PALETTE = [
-  "#FFEB3B", "#FF5722", "#2196F3", "#4CAF50", "#E91E63",
-  "#9C27B0", "#00BCD4", "#FFC107", "#FF9800", "#8BC34A",
-  "#03A9F4", "#F44336", "#FF4081", "#CDDC39", "#00E676",
+// 15-color vivid palette — hash-based per country
+const PALETTE = [
+  "#FF5722","#2196F3","#4CAF50","#E91E63","#9C27B0",
+  "#00BCD4","#FFC107","#FF9800","#8BC34A","#03A9F4",
+  "#FFEB3B","#F44336","#FF4081","#CDDC39","#00E676",
 ]
-
 function countryColor(name: string): string {
-  let h = 0
-  for (const c of name) h += c.charCodeAt(0)
-  return VIVID_PALETTE[h % VIVID_PALETTE.length]
+  let h = 0; for (const c of name) h = (h + c.charCodeAt(0)) & 0xffff
+  return PALETTE[h % PALETTE.length]
 }
 
-// ─── Stars ────────────────────────────────────────────────────────────────────
-// Realistic star spectrum: blue → cyan → yellow → orange → red (arccos distribution)
-const STAR_COLORS = [
-  { hue: 240, prob: 0.05 },
-  { hue: 220, prob: 0.10 },
-  { hue: 200, prob: 0.15 },
-  { hue: 170, prob: 0.20 },
-  { hue:  60, prob: 0.25 },
-  { hue:  30, prob: 0.15 },
-  { hue:   0, prob: 0.10 },
+// Star field helpers
+const STAR_SPECTRUM = [
+  { hue: 220, p: 0.12 },{ hue: 200, p: 0.15 },{ hue: 170, p: 0.20 },
+  { hue: 60,  p: 0.25 },{ hue: 30,  p: 0.15 },{ hue: 0,   p: 0.13 },
 ]
-
-function pickStarHue(): number {
-  const r = Math.random()
-  let acc = 0
-  for (const c of STAR_COLORS) {
-    acc += c.prob
-    if (r < acc) return c.hue
+function starHue(): number {
+  let r = Math.random(), acc = 0
+  for (const s of STAR_SPECTRUM) { acc += s.p; if (r < acc) return s.hue }
+  return 60
+}
+function spherePts(r: number, n: number): Float32Array {
+  const a = new Float32Array(n * 3)
+  for (let i = 0; i < n; i++) {
+    const phi = Math.acos(2 * Math.random() - 1), th = Math.PI * 2 * Math.random()
+    a[i*3]   = r * Math.sin(phi) * Math.cos(th)
+    a[i*3+1] = r * Math.sin(phi) * Math.sin(th)
+    a[i*3+2] = r * Math.cos(phi)
   }
-  return 0
+  return a
 }
-
-function makeSpherePoints(radius: number, count: number): Float32Array {
-  const pts = new Float32Array(count * 3)
-  for (let i = 0; i < count; i++) {
-    const phi   = Math.acos(2 * Math.random() - 1)
-    const theta = 2 * Math.PI * Math.random()
-    pts[i * 3]     = radius * Math.sin(phi) * Math.cos(theta)
-    pts[i * 3 + 1] = radius * Math.sin(phi) * Math.sin(theta)
-    pts[i * 3 + 2] = radius * Math.cos(phi)
+function starLayer(n: number, sz: number): THREE.Points {
+  const geo = new THREE.BufferGeometry()
+  geo.setAttribute("position", new THREE.BufferAttribute(spherePts(1000, n), 3))
+  const col = new Float32Array(n * 3)
+  for (let i = 0; i < n; i++) {
+    const L = Math.min(70 + Math.random() * 25, 100)
+    const c = new THREE.Color(`hsl(${starHue()},100%,${L}%)`)
+    col[i*3]=c.r; col[i*3+1]=c.g; col[i*3+2]=c.b
   }
-  return pts
+  geo.setAttribute("color", new THREE.BufferAttribute(col, 3))
+  return new THREE.Points(geo, new THREE.PointsMaterial({
+    size: sz, sizeAttenuation: true, vertexColors: true, depthWrite: false, depthTest: false,
+  }))
+}
+function addStars(scene: THREE.Scene, mobile: boolean): THREE.Group {
+  const g = new THREE.Group(); g.renderOrder = -1
+  const counts = mobile ? [500,600,200] : [700,800,300]
+  const sizes  = [1.0, 3.5, 5.0]
+  counts.forEach((n, i) => g.add(starLayer(n, sizes[i])))
+  scene.add(g); return g
 }
 
-function createStarLayer(count: number, size: number): THREE.Points {
-  const geo  = new THREE.BufferGeometry()
-  geo.setAttribute("position", new THREE.BufferAttribute(makeSpherePoints(1000, count), 3))
-
-  const cols = new Float32Array(count * 3)
-  for (let i = 0; i < count; i++) {
-    const L = Math.min((Math.random() * 20 + 70) * (Math.random() * 0.5 + 0.75), 100)
-    const c = new THREE.Color(`hsl(${pickStarHue()}, 100%, ${L}%)`)
-    cols[i * 3] = c.r; cols[i * 3 + 1] = c.g; cols[i * 3 + 2] = c.b
+// Merge Western Sahara into Morocco
+function fixMorocco(features: any[]): any[] {
+  const mo = features.find(f => f.properties?.ADMIN === "Morocco")
+  const ws = features.find(f => f.properties?.ADMIN === "Western Sahara")
+  if (mo && ws) {
+    const toMulti = (f: any) =>
+      f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates
+    mo.geometry = { type: "MultiPolygon", coordinates: [...toMulti(mo), ...toMulti(ws)] }
+    return features.filter(f => f.properties?.ADMIN !== "Western Sahara")
   }
-  geo.setAttribute("color", new THREE.BufferAttribute(cols, 3))
-
-  return new THREE.Points(
-    geo,
-    new THREE.PointsMaterial({ size, sizeAttenuation: true, vertexColors: true, depthWrite: false, depthTest: false }),
-  )
+  return features
 }
 
-function addStarsToScene(scene: THREE.Scene, isMobile: boolean) {
-  const group = new THREE.Group()
-  group.renderOrder = -1
-  if (isMobile) {
-    group.add(createStarLayer(500, 1.0))
-    group.add(createStarLayer(600, 3.5))
-    group.add(createStarLayer(200, 5.0))
-  } else {
-    group.add(createStarLayer(700, 1.0))
-    group.add(createStarLayer(800, 3.5))
-    group.add(createStarLayer(300, 5.0))
-  }
-  scene.add(group)
-  return group
-}
-
-// ─── GeoJSON helpers ──────────────────────────────────────────────────────────
-function mergeWesternSahara(features: any[]): any[] {
-  const morocco = features.find((f: any) => f.properties.ADMIN === "Morocco")
-  const sahara  = features.find((f: any) => f.properties.ADMIN === "Western Sahara")
-  if (!morocco || !sahara) return features
-
-  const coords = (f: any) =>
-    f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates
-
-  morocco.geometry.type        = "MultiPolygon"
-  morocco.geometry.coordinates = [...coords(morocco), ...coords(sahara)]
-  return features.filter((f: any) => f.properties.ADMIN !== "Western Sahara")
-}
-
-// ─── Component ────────────────────────────────────────────────────────────────
 export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false }: GlobeViewerProps) {
-  const containerRef    = useRef<HTMLDivElement>(null)
-  const globeRef        = useRef<GlobeInstance | null>(null)
-  const polygonsRef     = useRef<any[]>([])
-  const starsRef        = useRef<THREE.Group | null>(null)
-  const resizeRef       = useRef<ResizeObserver | null>(null)
-  const touchStartRef   = useRef<{ x: number; y: number; t: number } | null>(null)
-  const touchIdRef      = useRef<number | null>(null)
+  const el       = useRef<HTMLDivElement>(null)
+  const globe    = useRef<GlobeInstance | null>(null)
+  const polys    = useRef<any[]>([])
+  const stars    = useRef<THREE.Group | null>(null)
+  const ro       = useRef<ResizeObserver | null>(null)
+  const tapStart = useRef<{ x: number; y: number; t: number; id: number } | null>(null)
 
-  // Color getter — recomputed when selectedCountry changes
-  const getColor = useCallback((d: any) => {
-    const name = d?.properties?.ADMIN || ""
-    return name === selectedCountry ? "rgba(255,255,255,0.95)" : countryColor(name)
+  const capColor = useCallback((d: any) => {
+    const n = d?.properties?.ADMIN ?? ""
+    return n === selectedCountry ? "rgba(255,255,255,0.95)" : countryColor(n)
   }, [selectedCountry])
 
-  // ── Init globe ──────────────────────────────────────────────────────────────
+  // ── init ──────────────────────────────────────────────────────────────────
   useEffect(() => {
-    let aborted = false
-    const ac = new AbortController()
-
+    let dead = false
+    const ac  = new AbortController()
     ;(async () => {
-      if (!containerRef.current) return
+      if (!el.current) return
+      const Factory = (await import("globe.gl")).default
+      if (dead) return
 
-      const GlobeFactory = (await import("globe.gl")).default
-      if (aborted) return
-
-      const globe = GlobeFactory()(containerRef.current)
+      const g = Factory()(el.current)
         .globeImageUrl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")
         .showAtmosphere(true)
         .atmosphereColor("#4488FF")
         .atmosphereAltitude(0.28)
         .polygonSideColor(() => "rgba(0,0,0,0)")
-        .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.3)")
+        .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.25)")
+        .polygonAltitude(0.01)
 
-      globe.scene().background = new THREE.Color(0x000000)
-      globe.renderer().setClearColor(0x000000, 1)
-      globe.renderer().antialias = false
-      globe.renderer().setPixelRatio(Math.min(window.devicePixelRatio, 1.5))
-      globeRef.current = globe
+      g.scene().background = new THREE.Color(0x000000)
+      g.renderer().setClearColor(0x000000, 1)
+      g.renderer().setPixelRatio(Math.min(devicePixelRatio, 1.5))
+      globe.current = g
 
-      // Size
+      // responsive resize
       const resize = () => {
-        if (!containerRef.current || !globeRef.current) return
-        globeRef.current.width(containerRef.current.clientWidth).height(containerRef.current.clientHeight)
+        if (!el.current || !globe.current) return
+        globe.current.width(el.current.clientWidth).height(el.current.clientHeight)
       }
       resize()
-      resizeRef.current = new ResizeObserver(resize)
-      resizeRef.current.observe(containerRef.current)
+      ro.current = new ResizeObserver(resize)
+      ro.current.observe(el.current)
       window.addEventListener("resize", resize)
 
-      // Controls
-      const ctrl = globe.controls()
-      ctrl.autoRotate  = false
-      ctrl.enableZoom  = true
-      ctrl.minDistance = 150
-      ctrl.maxDistance = 500
-      globe.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
+      // controls
+      const ctrl = g.controls()
+      ctrl.autoRotate = false; ctrl.enableZoom = true
+      ctrl.minDistance = 150;  ctrl.maxDistance = 500
+      g.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
 
-      // Stars
-      starsRef.current = addStarsToScene(globe.scene(), isMobile)
+      // stars
+      stars.current = addStars(g.scene(), isMobile)
 
-      // Load countries
+      // load GeoJSON — use reliable ne_110m (comprehensive world coverage)
       try {
         const res  = await fetch(
-          "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_50m_admin_0_countries.geojson",
+          "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_110m_admin_0_countries.geojson",
           { signal: ac.signal },
         )
+        if (!res.ok) throw new Error("GeoJSON fetch failed")
         const data = await res.json()
-        if (aborted) return
+        if (dead) return
 
-        const valid = data.features.filter(
-          (f: any) => f.geometry && (f.geometry.type === "Polygon" || f.geometry.type === "MultiPolygon")
+        const features = fixMorocco(
+          (data.features as any[]).filter(
+            f => f.geometry != null &&
+                 (f.geometry.type === "Polygon" || f.geometry.type === "MultiPolygon")
+          )
         )
-        const features = mergeWesternSahara(valid)
-        polygonsRef.current = features
+        polys.current = features
 
-        globe
-          .polygonsData(features)
+        g.polygonsData(features)
           .polygonGeoJsonGeometry((d: any) => d.geometry)
-          .polygonCapColor(getColor)
-          .polygonAltitude(0.01)
-          .polygonLabel((d: any) => `<span style="font-size:13px;font-weight:600">${d?.properties?.ADMIN ?? ""}</span>`)
+          .polygonCapColor(capColor)
+          .polygonLabel((d: any) => {
+            const name = d?.properties?.ADMIN ?? ""
+            return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ""
+          })
           .onPolygonClick((d: any) => {
-            const name = d?.properties?.ADMIN || ""
+            const name = d?.properties?.ADMIN ?? ""
             if (name) onCountryClick?.(name)
           })
-      } catch {
-        // Network error — globe still shows without country polygons
-      }
+      } catch { /* silent — globe renders without polygons */ }
     })()
 
     return () => {
-      aborted = true
-      ac.abort()
-      resizeRef.current?.disconnect()
-      starsRef.current?.children.forEach((c: any) => { c.geometry?.dispose(); c.material?.dispose() })
-      globeRef.current?.scene().remove(starsRef.current!)
+      dead = true; ac.abort()
+      ro.current?.disconnect()
       window.removeEventListener("resize", () => {})
+      if (stars.current) {
+        stars.current.children.forEach((c: any) => {
+          c.geometry?.dispose(); c.material?.dispose()
+        })
+        globe.current?.scene().remove(stars.current)
+      }
     }
   }, [isMobile])
 
-  // ── Update colors when selection changes ────────────────────────────────────
+  // ── update cap colors on selection change ─────────────────────────────────
   useEffect(() => {
-    if (globeRef.current && polygonsRef.current.length > 0) {
-      globeRef.current.polygonCapColor(getColor)
-    }
-  }, [selectedCountry, getColor])
+    if (globe.current && polys.current.length > 0)
+      globe.current.polygonCapColor(capColor)
+  }, [selectedCountry, capColor])
 
-  // ── Adjust camera distance on mobile/desktop switch ─────────────────────────
+  // ── altitude on mobile/desktop switch ─────────────────────────────────────
   useEffect(() => {
-    globeRef.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 400)
+    globe.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 400)
   }, [isMobile])
 
-  // ── Mobile tap → country click ──────────────────────────────────────────────
+  // ── mobile tap → raycasting country click ─────────────────────────────────
   useEffect(() => {
-    if (!isMobile || !containerRef.current) return
+    if (!isMobile || !el.current) return
+    const div = el.current
 
-    const el = containerRef.current
-
-    const onTouchStart = (e: TouchEvent) => {
+    const onStart = (e: TouchEvent) => {
       if (e.touches.length !== 1) return
       const t = e.touches[0]
-      touchIdRef.current    = t.identifier
-      touchStartRef.current = { x: t.clientX, y: t.clientY, t: Date.now() }
+      tapStart.current = { x: t.clientX, y: t.clientY, t: Date.now(), id: t.identifier }
     }
-
-    const onTouchEnd = (e: TouchEvent) => {
-      if (!touchStartRef.current) return
-      const start = touchStartRef.current
+    const onEnd = (e: TouchEvent) => {
+      if (!tapStart.current || !globe.current) return
+      const s = tapStart.current
       for (const t of Array.from(e.changedTouches)) {
-        if (t.identifier !== touchIdRef.current) continue
-        const dx = Math.abs(t.clientX - start.x)
-        const dy = Math.abs(t.clientY - start.y)
-        if (dx < 15 && dy < 15 && Date.now() - start.t < 300 && globeRef.current) {
-          const rect = el.getBoundingClientRect()
-          const mx   = ((t.clientX - rect.left)  / rect.width)  * 2 - 1
-          const my   = -((t.clientY - rect.top) / rect.height) * 2 + 1
-
+        if (t.identifier !== s.id) continue
+        if (Math.abs(t.clientX - s.x) < 15 && Math.abs(t.clientY - s.y) < 15 && Date.now() - s.t < 300) {
+          const rect = div.getBoundingClientRect()
+          const mx = ((t.clientX - rect.left) / rect.width)  * 2 - 1
+          const my = -((t.clientY - rect.top)  / rect.height) * 2 + 1
           const ray = new THREE.Raycaster()
-          ray.setFromCamera(new THREE.Vector2(mx, my), globeRef.current.camera())
-
-          const hits = ray.intersectObjects(globeRef.current.scene().children, true)
+          ray.setFromCamera(new THREE.Vector2(mx, my), globe.current.camera())
+          const hits = ray.intersectObjects(globe.current.scene().children, true)
           for (const hit of hits) {
             const name = (hit.object as any).userData?.feature?.properties?.ADMIN
             if (name) { onCountryClick?.(name); break }
           }
         }
-        touchIdRef.current = null; touchStartRef.current = null
+        tapStart.current = null
       }
     }
 
-    el.addEventListener("touchstart", onTouchStart, { passive: true })
-    el.addEventListener("touchend",   onTouchEnd,   { passive: true })
+    div.addEventListener("touchstart", onStart, { passive: true })
+    div.addEventListener("touchend",   onEnd,   { passive: true })
     return () => {
-      el.removeEventListener("touchstart", onTouchStart)
-      el.removeEventListener("touchend",   onTouchEnd)
+      div.removeEventListener("touchstart", onStart)
+      div.removeEventListener("touchend",   onEnd)
     }
   }, [isMobile, onCountryClick])
 
   return (
     <div
-      ref={containerRef}
-      className="w-full h-full bg-transparent pointer-events-auto"
-      aria-label="interactive globe"
+      ref={el}
+      className="w-full h-full bg-transparent"
       style={{ touchAction: "none" }}
+      aria-label="interactive globe"
     />
   )
 }
