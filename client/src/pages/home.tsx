@@ -161,7 +161,15 @@ export default function Home() {
     }
   }
 
-  const handleSelectChannel = (channel: string) => setSelectedChannel(channel)
+  const handleSelectChannel = (channel: string) => {
+    setSelectedChannel(channel)
+    // Save to watch history
+    const country = selectedCountry || activeCategory || "Unknown"
+    const stored = localStorage.getItem("soratv_history")
+    const hist: { name: string; country: string }[] = stored ? JSON.parse(stored) : []
+    const updated = [{ name: channel, country }, ...hist.filter((h) => h.name !== channel)].slice(0, 30)
+    localStorage.setItem("soratv_history", JSON.stringify(updated))
+  }
   const handleBackFromPlayer = () => setSelectedChannel(null)
   const toggleMobileSidebar = () => {
     if (isMobile) setMobileSidebarOpen((prev) => !prev)
@@ -177,6 +185,7 @@ export default function Home() {
         onMenuClick={toggleCategorySidebar}
         isMenuOpen={isCategorySidebarOpen}
         selectedCountry={selectedCountry}
+        onSelectChannel={handleSelectChannel}
       />
 
       <div className="flex-1 overflow-hidden relative">

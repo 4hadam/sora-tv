@@ -1,23 +1,45 @@
 "use client"
 
-import { Menu, X } from "lucide-react"
+import { useState, useEffect, useRef } from "react"
+import { Menu, X, History } from "lucide-react"
 
 interface TopNavbarProps {
   onMenuClick?: () => void
   isMenuOpen?: boolean
   selectedCountry?: string | null
+  onSelectChannel?: (channel: string) => void
 }
 
 export default function TopNavbar({
   onMenuClick,
   isMenuOpen = false,
   selectedCountry = null,
+  onSelectChannel,
 }: TopNavbarProps) {
 
   // 🔴 تم حذف 'scrolled' لأن الخلفية أصبحت ثابتة
   // const [scrolled, setScrolled] = useState(false)
   // gradient reference works directly without full base URL in non-hash routing
   const tvFill = "url(#tvGradient)"
+
+  const [showHistory, setShowHistory] = useState(false)
+  const [history, setHistory] = useState<{ name: string; country: string }[]>([])
+  const historyRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const stored = localStorage.getItem("soratv_history")
+    if (stored) setHistory(JSON.parse(stored))
+  }, [showHistory])
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (historyRef.current && !historyRef.current.contains(e.target as Node)) {
+        setShowHistory(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [])
 
   return (
     <header
@@ -81,6 +103,54 @@ export default function TopNavbar({
 
         {/* Right side: menu button */}
         <div className="flex items-center gap-4">
+
+          {/* 🕐 History Button */}
+          <div className="relative" ref={historyRef}>
+            <button
+              onClick={() => setShowHistory((p) => !p)}
+              className="text-white/70 hover:text-white focus:outline-none transition-colors"
+              aria-label="Watch history"
+            >
+              <History size={22} />
+            </button>
+
+            {showHistory && (
+              <div className="absolute right-0 top-10 w-72 bg-[#111318] border border-white/10 rounded-xl shadow-2xl z-50 overflow-hidden">
+                <div className="px-4 py-3 border-b border-white/10 flex items-center justify-between">
+                  <span className="text-white text-sm font-semibold">Recently Watched</span>
+                  {history.length > 0 && (
+                    <button
+                      onClick={() => { localStorage.removeItem("soratv_history"); setHistory([]) }}
+                      className="text-white/40 hover:text-white/70 text-xs transition-colors"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
+                {history.length === 0 ? (
+                  <div className="px-4 py-6 text-center text-white/30 text-sm">No history yet</div>
+                ) : (
+                  <ul className="max-h-80 overflow-y-auto custom-scroll">
+                    {history.map((item, i) => (
+                      <li key={i}>
+                        <button
+                          onClick={() => { onSelectChannel?.(item.name); setShowHistory(false) }}
+                          className="flex items-center gap-3 w-full px-4 py-3 hover:bg-white/5 transition-colors text-left"
+                        >
+                          <History size={14} className="text-white/30 flex-shrink-0" />
+                          <div className="min-w-0">
+                            <p className="text-white text-sm truncate">{item.name}</p>
+                            <p className="text-white/40 text-xs">{item.country}</p>
+                          </div>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            )}
+          </div>
+
           <button
             onClick={onMenuClick}
             className="text-white focus:outline-none"
