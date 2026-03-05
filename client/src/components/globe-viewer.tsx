@@ -171,13 +171,16 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       // Load countries
       try {
         const res  = await fetch(
-          "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_110m_admin_0_countries.geojson",
+          "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_50m_admin_0_countries.geojson",
           { signal: ac.signal },
         )
         const data = await res.json()
         if (aborted) return
 
-        const features = mergeWesternSahara(data.features)
+        const valid = data.features.filter(
+          (f: any) => f.geometry && (f.geometry.type === "Polygon" || f.geometry.type === "MultiPolygon")
+        )
+        const features = mergeWesternSahara(valid)
         polygonsRef.current = features
 
         globe
