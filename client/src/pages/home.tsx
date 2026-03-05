@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, type ComponentType } from "react"
+import { useState, useEffect, lazy, Suspense, useRef, type ComponentType } from "react"
 import { useLocation } from "wouter"
 import TopNavbar from "@/components/top-navbar"
 import { useIsMobileDevice } from "@/hooks/use-is-mobile-device"
@@ -44,6 +44,7 @@ export default function Home() {
   const [currentTime, setCurrentTime] = useState("")
   const [isCategorySidebarOpen, setIsCategorySidebarOpen] = useState(false)
   const [activeCategory, setActiveCategory] = useState("all-channels")
+  const skipChannelReset = useRef(false)
 
   // ✅ Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
@@ -73,7 +74,8 @@ export default function Home() {
       if (countryName) {
         setSelectedCountry(countryName)
         setActiveCategory("all-channels")
-        setSelectedChannel(null)
+        if (!skipChannelReset.current) setSelectedChannel(null)
+        skipChannelReset.current = false
       }
     } else {
       setSelectedCountry(null)
@@ -166,6 +168,7 @@ export default function Home() {
     if (fromCountry && fromCountry !== "all-channels" && fromCountry !== "Unknown") {
       const countryCode = countryCodeMap[fromCountry]
       if (countryCode) {
+        skipChannelReset.current = true
         setSelectedCountry(fromCountry)
         setLocation(`/${countryCode}`)
       }
