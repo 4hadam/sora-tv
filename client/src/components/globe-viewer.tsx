@@ -54,18 +54,20 @@ export default function GlobeViewer({
         .globeImageUrl(
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
         )
-        .showAtmosphere(true)
+        // Atmosphere: desktop only (saves one full sphere draw call on mobile)
+        .showAtmosphere(!isMobile)
         .atmosphereColor("#4488FF")
         .atmosphereAltitude(0.28)
-        .polygonSideColor(() => "rgba(255,255,255,0.1)")
-        // ≡ا¤┤≡ا¤┤≡ا¤┤ ╪د┘╪ز╪╣╪»┘è┘ ┘ç┘╪د: ╪ح╪╕┘ç╪د╪▒ ╪د┘╪ص╪»┘ê╪» ┘┘é╪╖ ╪╣┘┘ë ╪│╪╖╪ص ╪د┘┘à┘â╪ز╪ذ ≡ا¤┤≡ا¤┤≡ا¤┤
-        .polygonStrokeColor(() => isMobile ? "transparent" : "rgba(0,0,0,0.25)")
+        // Side/stroke: transparent on mobile (no 3D extrusion needed)
+        .polygonSideColor(() => "rgba(0,0,0,0)")
+        .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.25)")
 
       globe.renderOrder = 1;
       globe.scene().background = new THREE.Color(0x000000)
       globe.renderer().setClearColor(0x000000, 1)
       globe.renderer().antialias = false
-      globe.renderer().setPixelRatio(Math.min(window.devicePixelRatio, 1.5))
+      // Mobile: cap at 1x — biggest single win for GPU/CPU
+      globe.renderer().setPixelRatio(isMobile ? 1 : Math.min(window.devicePixelRatio, 1.5))
       globeRef.current = globe
 
       const updateSize = () => {
@@ -102,9 +104,9 @@ export default function GlobeViewer({
         { hue: 220, prob: 0.10 },  // ╪ث╪▓╪▒┘é ┘╪د╪ز╪ص
         { hue: 200, prob: 0.15 },  // ╪│┘à╪د┘ê┘è
         { hue: 170, prob: 0.20 },  // ╪ث╪«╪╢╪▒-╪│┘à╪د┘ê┘è
-        { hue:  60, prob: 0.25 },  // ╪ث╪╡┘╪▒ (╪د┘╪ث┘â╪س╪▒ ╪┤┘è┘ê╪╣╪د┘ï)
-        { hue:  30, prob: 0.15 },  // ╪ذ╪▒╪ز┘é╪د┘┘è
-        { hue:   0, prob: 0.10 },  // ╪ث╪ص┘à╪▒
+        { hue: 60, prob: 0.25 },  // ╪ث╪╡┘╪▒ (╪د┘╪ث┘â╪س╪▒ ╪┤┘è┘ê╪╣╪د┘ï)
+        { hue: 30, prob: 0.15 },  // ╪ذ╪▒╪ز┘é╪د┘┘è
+        { hue: 0, prob: 0.10 },  // ╪ث╪ص┘à╪▒
       ]
 
       const pickStarHue = () => {
@@ -124,7 +126,7 @@ export default function GlobeViewer({
           const u = Math.random()
           const v = Math.random()
           const theta = 2 * Math.PI * u
-          const phi   = Math.acos(2 * v - 1)
+          const phi = Math.acos(2 * v - 1)
           pts.push(
             radius * Math.sin(phi) * Math.cos(theta),
             radius * Math.sin(phi) * Math.sin(theta),
@@ -146,7 +148,7 @@ export default function GlobeViewer({
           const hue = pickStarHue()
           const lightness = Math.min((Math.random() * 20 + 70) * (Math.random() * 0.5 + 0.75), 100)
           const color = new THREE.Color(`hsl(${hue}, 100%, ${lightness}%)`)
-          colors[i * 3]     = color.r
+          colors[i * 3] = color.r
           colors[i * 3 + 1] = color.g
           colors[i * 3 + 2] = color.b
         }
@@ -164,14 +166,11 @@ export default function GlobeViewer({
       }
 
       // 3 ╪╖╪ذ┘é╪د╪ز: ╪╡╪║┘è╪▒╪ر ┘â╪س┘è┘╪ر + ┘à╪ز┘ê╪│╪╖╪ر + ┘â╪ذ┘è╪▒╪ر ┘╪د╪»╪▒╪ر (┘┘╪│ ┘╪│╪ذ famelack)
-      if (isMobile) {
-        addStarLayer(500,  1000, 1.0)
-        addStarLayer(600,  1000, 3.5)
-        addStarLayer(200,  1000, 5.0)
-      } else {
-        addStarLayer(700,  1000, 1.0)
-        addStarLayer(800,  1000, 3.5)
-        addStarLayer(300,  1000, 5.0)
+      // Stars: desktop only — skip geometry creation on mobile
+      if (!isMobile) {
+        addStarLayer(700, 1000, 1.0)
+        addStarLayer(800, 1000, 3.5)
+        addStarLayer(300, 1000, 5.0)
       }
 
       scene.add(starGroup)
@@ -232,7 +231,8 @@ export default function GlobeViewer({
           .polygonGeoJsonGeometry((d: any) => d.geometry)
           .polygonCapColor(getPolygonColor)
           .polygonLabel((d: any) => d.properties?.ADMIN || "")
-          .polygonAltitude(0.01) // ┘é┘è┘à╪ر ╪س╪د╪ذ╪ز╪ر (┘╪د ╪ذ╪▒┘ê╪▓)
+          // Mobile: altitude 0 = flat polygons (no extrusion geometry computed)
+          .polygonAltitude(isMobile ? 0 : 0.01)
           .onPolygonHover((hoverD: any) => {
             hoveredPolygonRef.current = hoverD
           })
