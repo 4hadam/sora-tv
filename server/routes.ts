@@ -266,5 +266,22 @@ export async function registerRoutes(
     }
   });
 
+  // Search channel by name across ALL countries
+  app.get("/api/channel-search", async (req, res) => {
+    try {
+      const name = req.query.name as string;
+      if (!name) return res.status(400).json({ error: "name required" });
+      for (const channels of Object.values(channelsByCountry)) {
+        const found = (channels as IPTVChannel[]).find((c) => c.name === name);
+        if (found && found.url) {
+          return res.json({ url: normalizeYouTubeUrl(found.url) });
+        }
+      }
+      res.status(404).json({ error: "Channel not found" });
+    } catch (error) {
+      res.status(500).json({ error: "Search failed" });
+    }
+  });
+
   return httpServer;
 }

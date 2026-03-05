@@ -112,7 +112,24 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             setError("Invalid stream URL format. Only HTTP/HTTPS streams are supported.")
           }
         } else {
-          setError(`Stream not found in database for ${channel} in ${channelSource}`)
+          // Fallback: search across all countries
+          const fallback = await fetch(`/api/channel-search?name=${encodeURIComponent(channel)}`)
+          if (fallback.ok) {
+            const data = await fallback.json()
+            const url = data.url?.trim()
+            if (url && (url.startsWith("http://") || url.startsWith("https://"))) {
+              if (url.includes("youtube.com") || url.includes("youtube-nocookie.com")) {
+                setIsYouTube(true)
+              } else {
+                setIsYouTube(false)
+              }
+              setStreamUrl(url)
+            } else {
+              setError(`Stream not found in database for ${channel}`)
+            }
+          } else {
+            setError(`Stream not found in database for ${channel} in ${channelSource}`)
+          }
         }
       } catch (err) {
         setError("Failed to load stream list or channels: " + (err as Error).message)
