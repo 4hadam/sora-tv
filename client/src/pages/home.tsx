@@ -213,13 +213,13 @@ export default function Home() {
 
         {/* 📊 Stats Counter - Top Left (hidden when channel is playing) */}
         {!selectedChannel && (
-          <div className="absolute top-4 left-4 z-30 pointer-events-none">
+          <div className="fixed bottom-6 left-6 z-50 pointer-events-none">
             <div className="flex items-center gap-2">
-              <span className="text-white/90 text-sm font-light tracking-wide">153</span>
-              <span className="text-white/50 text-xs">countries</span>
-              <span className="text-white/40 text-sm">•</span>
-              <span className="text-white/90 text-sm font-light tracking-wide">9,022</span>
-              <span className="text-white/50 text-xs">channels</span>
+              <span className="text-blue-200/80 text-sm font-light tracking-widest">153</span>
+              <span className="text-blue-200/60 text-sm font-light">countries</span>
+              <span className="text-blue-200/40 text-sm mx-0.5">•</span>
+              <span className="text-blue-200/80 text-sm font-light tracking-widest">9,022</span>
+              <span className="text-blue-200/60 text-sm font-light">channels</span>
             </div>
           </div>
         )}
