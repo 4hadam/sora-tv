@@ -1,8 +1,18 @@
-"use client"
+﻿"use client"
 
-import { useEffect, useRef, useCallback } from "react"
+/**
+ * GlobeViewer — Web Worker + OffscreenCanvas edition
+ *
+ * Architecture:
+ *  - Main thread: canvas DOM + THREE.OrbitControls (camera only, no WebGL)
+ *  - Worker thread: THREE.WebGLRenderer on OffscreenCanvas (TBT ≈ 0ms)
+ *  - Camera state synced main→worker each frame via postMessage
+ *
+ * Gracefully degrades when OffscreenCanvas is unsupported (old Safari).
+ */
+import { useEffect, useRef } from "react"
 import * as THREE from "three"
-import type { GlobeInstance } from "globe.gl"
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
 
 interface GlobeViewerProps {
   selectedCountry: string | null
@@ -15,371 +25,172 @@ export default function GlobeViewer({
   onCountryClick,
   isMobile = false,
 }: GlobeViewerProps) {
-  const containerRef = useRef<HTMLDivElement>(null)
-  const globeRef = useRef<GlobeInstance | null>(null)
-  const hoveredPolygonRef = useRef<any>(null)
-  const polygonsDataRef = useRef<any>(null)
-  const starsRef = useRef<THREE.Group | null>(null)
-  const resizeObserverRef = useRef<ResizeObserver | null>(null)
-  const touchStartRef = useRef<{ x: number; y: number; time: number } | null>(null)
+  const containerRef   = useRef<HTMLDivElement>(null)
+  const workerRef      = useRef<Worker | null>(null)
+  const workerReadyRef = useRef(false)
+  const pendingHlRef   = useRef<string | null>(null)
+  const animIdRef      = useRef<number>(0)
 
-  const vividPalette = [
-    "#FFEB3B", "#FF5722", "#2196F3", "#4CAF50", "#E91E63",
-    "#9C27B0", "#00BCD4", "#FFC107", "#FF9800", "#8BC34A",
-    "#03A9F4", "#F44336", "#FF4081", "#CDDC39", "#00E676"
-  ]
-
-  const getPolygonColor = useCallback(
-    (d: any) => {
-      const countryName = d?.properties?.ADMIN || ""
-      if (countryName === selectedCountry) {
-        return "rgba(255, 255, 255, 0.95)"
-      }
-      const hash = countryName.split("").reduce((acc: number, ch: string) => acc + ch.charCodeAt(0), 0)
-      const color = vividPalette[hash % vividPalette.length]
-      return color
-    },
-    [selectedCountry],
-  )
-
+  // ── Main setup ─────────────────────────────────────────────────────────────
   useEffect(() => {
-    let aborted = false
-    const aborter = new AbortController()
+    const container = containerRef.current
+    if (!container) return
 
-    const initGlobe = async () => {
-      if (!containerRef.current) return
-      const GlobeFactory = (await import("globe.gl")).default
+    let disposed = false
+    let canvas: HTMLCanvasElement | null = null
+    let resizeObserver: ResizeObserver | null = null
+    let controls: OrbitControls | null = null
 
-      const globe = GlobeFactory()(containerRef.current)
-        .globeImageUrl(
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-        )
-        .showAtmosphere(true)
-        .atmosphereColor("#4488FF")
-        .atmosphereAltitude(0.28)
-        .polygonSideColor(() => "rgba(255,255,255,0.1)")
-        // 🔴🔴🔴 التعديل هنا: إظهار الحدود فقط على سطح المكتب 🔴🔴🔴
-        .polygonStrokeColor(() => isMobile ? "transparent" : "rgba(0,0,0,0.25)")
+    const init = async () => {
+      canvas = document.createElement("canvas")
+      canvas.style.cssText = "display:block;width:100%;height:100%;"
+      container.appendChild(canvas)
 
-      globe.renderOrder = 1;
-      globe.scene().background = new THREE.Color(0x000000)
-      globe.renderer().setClearColor(0x000000, 1)
-      globe.renderer().antialias = false
-      globe.renderer().setPixelRatio(Math.min(window.devicePixelRatio, 1.5))
-      globeRef.current = globe
-
-      const updateSize = () => {
-        if (containerRef.current && globeRef.current) {
-          const width = containerRef.current.clientWidth
-          const height = containerRef.current.clientHeight
-          globeRef.current.width(width).height(height)
-        }
-      }
-      updateSize()
-      if (containerRef.current) {
-        resizeObserverRef.current = new ResizeObserver(() => updateSize())
-        resizeObserverRef.current.observe(containerRef.current)
-      }
-      window.addEventListener("resize", updateSize)
-
-      const controls = globe.controls()
-      controls.autoRotate = false
-      controls.enableZoom = true
-      controls.minDistance = 150
-      controls.maxDistance = 500
-
-      const initialAltitude = isMobile ? 3.5 : 2.5;
-      globe.pointOfView({ altitude: initialAltitude }, 0);
-
-      // ✨ نجوم ملونة (مثل famelack) - 3 طبقات + 7 ألوان واقعية + توزيع كروي
-      const scene = globe.scene()
-      const starGroup = new THREE.Group()
-      starGroup.renderOrder = -1
-
-      // توزيع الألوان الواقعية للنجوم (مثل طيف نجوم فعلية)
-      const starColorPalette = [
-        { hue: 240, prob: 0.05 },  // أزرق (نادر)
-        { hue: 220, prob: 0.10 },  // أزرق فاتح
-        { hue: 200, prob: 0.15 },  // سماوي
-        { hue: 170, prob: 0.20 },  // أخضر-سماوي
-        { hue:  60, prob: 0.25 },  // أصفر (الأكثر شيوعاً)
-        { hue:  30, prob: 0.15 },  // برتقالي
-        { hue:   0, prob: 0.10 },  // أحمر
-      ]
-
-      const pickStarHue = () => {
-        const r = Math.random()
-        let acc = 0
-        for (const c of starColorPalette) {
-          acc += c.prob
-          if (r < acc) return c.hue
-        }
-        return 0
+      // Degrade gracefully when OffscreenCanvas is unsupported
+      if (typeof (canvas as any).transferControlToOffscreen !== "function") {
+        console.warn("[GlobeViewer] OffscreenCanvas not supported — globe skipped")
+        return
       }
 
-      // توزيع عشوائي صحيح على سطح الكرة (arccos formula - مثل famelack)
-      const randomSpherePoints = (radius: number, count: number): number[] => {
-        const pts: number[] = []
-        for (let i = 0; i < count; i++) {
-          const u = Math.random()
-          const v = Math.random()
-          const theta = 2 * Math.PI * u
-          const phi   = Math.acos(2 * v - 1)
-          pts.push(
-            radius * Math.sin(phi) * Math.cos(theta),
-            radius * Math.sin(phi) * Math.sin(theta),
-            radius * Math.cos(phi),
-          )
-        }
-        return pts
-      }
+      const offscreen = (canvas as any).transferControlToOffscreen()
+      const w   = container.clientWidth
+      const h   = container.clientHeight
+      const dpr = Math.min(window.devicePixelRatio || 1, 2)
 
-      // إنشاء طبقة نجوم بلون فردي لكل نجمة
-      const addStarLayer = (count: number, radius: number, size: number) => {
-        const positions = randomSpherePoints(radius, count)
-        const geometry = new THREE.BufferGeometry()
-        geometry.setAttribute("position", new THREE.BufferAttribute(new Float32Array(positions), 3))
+      // Camera lives on the main thread (OrbitControls needs DOM events)
+      const camera = new THREE.PerspectiveCamera(45, w / h, 10, 2000)
+      camera.position.set(0, 0, isMobile ? 310 : 260)
 
-        // كل نجمة تأخذ لوناً من الطيف الواقعي
-        const colors = new Float32Array(count * 3)
-        for (let i = 0; i < count; i++) {
-          const hue = pickStarHue()
-          const lightness = Math.min((Math.random() * 20 + 70) * (Math.random() * 0.5 + 0.75), 100)
-          const color = new THREE.Color(`hsl(${hue}, 100%, ${lightness}%)`)
-          colors[i * 3]     = color.r
-          colors[i * 3 + 1] = color.g
-          colors[i * 3 + 2] = color.b
-        }
-        geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3))
+      controls = new OrbitControls(camera, canvas)
+      controls.enablePan     = false
+      controls.enableDamping = true
+      controls.dampingFactor = 0.07
+      controls.minDistance   = 150
+      controls.maxDistance   = 500
 
-        const material = new THREE.PointsMaterial({
-          size,
-          sizeAttenuation: true,
-          vertexColors: true,
-          depthWrite: false,
-          transparent: false,
-          depthTest: false,
-        })
-        starGroup.add(new THREE.Points(geometry, material))
-      }
+      // Worker carries the WebGL renderer + scene
+      const worker = new Worker(
+        new URL("../workers/globe.worker.ts", import.meta.url),
+        { type: "module" },
+      )
+      workerRef.current = worker
 
-      // 3 طبقات: صغيرة كثيفة + متوسطة + كبيرة نادرة (نفس نسب famelack)
-      if (isMobile) {
-        addStarLayer(500,  1000, 1.0)
-        addStarLayer(600,  1000, 3.5)
-        addStarLayer(200,  1000, 5.0)
-      } else {
-        addStarLayer(700,  1000, 1.0)
-        addStarLayer(800,  1000, 3.5)
-        addStarLayer(300,  1000, 5.0)
-      }
-
-      scene.add(starGroup)
-      starsRef.current = starGroup
-
-      // (تحميل بيانات الدول)
-      try {
-        const response = await fetch(
-          "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_110m_admin_0_countries.geojson",
-          { signal: aborter.signal },
-        )
-        const geojsonData = await response.json()
-        if (aborted) return
-
-        // 🔴 --- بداية: كود دمج خريطة المغرب ---
-        const features = geojsonData.features;
-
-        // العثور على مضلع المغرب ومضلع الصحراء الغربية
-        const moroccoFeature = features.find(
-          (f: any) => f.properties.ADMIN === "Morocco"
-        );
-        const wSaharaFeature = features.find(
-          (f: any) => f.properties.ADMIN === "Western Sahara"
-        );
-
-        let unifiedFeatures = features;
-
-        if (moroccoFeature && wSaharaFeature) {
-          // دالة مساعدة لضمان أن الإحداثيات دائماً بتنسيق MultiPolygon
-          const getCoords = (feature: any) => {
-            const geom = feature.geometry;
-            return geom.type === "Polygon"
-              ? [geom.coordinates] // تحويل Polygon إلى [MultiPolygon]
-              : geom.coordinates; // هو أصلاً MultiPolygon
-          };
-
-          // دمج إحداثيات المضلعين
-          const mergedCoords = [
-            ...getCoords(moroccoFeature),
-            ...getCoords(wSaharaFeature),
-          ];
-
-          // تحديث مضلع المغرب ليحتوي على الإحداثيات المدمجة
-          moroccoFeature.geometry.type = "MultiPolygon";
-          moroccoFeature.geometry.coordinates = mergedCoords;
-
-          // حذف مضلع الصحراء الغربية من القائمة
-          unifiedFeatures = features.filter(
-            (f: any) => f.properties.ADMIN !== "Western Sahara"
-          );
-        }
-        // 🔴 --- نهاية: كود دمج خريطة المغرب ---
-
-        polygonsDataRef.current = unifiedFeatures // 👈 استخدم البيانات الموحدة
-
-        globe
-          .polygonsData(unifiedFeatures) // 👈 استخدم البيانات الموحدة
-          .polygonGeoJsonGeometry((d: any) => d.geometry)
-          .polygonCapColor(getPolygonColor)
-          .polygonLabel((d: any) => d.properties?.ADMIN || "")
-          .polygonAltitude(0.01) // قيمة ثابتة (لا بروز)
-          .onPolygonHover((hoverD: any) => {
-            hoveredPolygonRef.current = hoverD
-          })
-          .onPolygonClick((clickedD: any) => {
-            const countryName = clickedD?.properties?.ADMIN || ""
-            if (countryName && onCountryClick) onCountryClick(countryName)
-          })
-      } catch (err) {
-        if (!aborted) {
-          // Error loading countries data - silently fail with fallback
-        }
-      }
-    }
-
-    const cleanup = initGlobe()
-    return () => {
-      aborted = true
-      aborter.abort()
-      if (starsRef.current) {
-        globeRef.current?.scene().remove(starsRef.current)
-        starsRef.current.children.forEach((c: any) => {
-          c.geometry.dispose()
-          c.material.dispose()
+      const syncCamera = () => {
+        if (!workerReadyRef.current) return
+        worker.postMessage({
+          type:            "updateCamera",
+          position:        camera.position.toArray(),
+          quaternion:      camera.quaternion.toArray(),
+          projectionMatrix: Array.from(camera.projectionMatrix.elements),
         })
       }
-      if (resizeObserverRef.current) resizeObserverRef.current.disconnect()
-      cleanup?.then?.((fn) => typeof fn === "function" && fn())
-    }
-  }, [isMobile])
+      controls.addEventListener("change", syncCamera)
 
-  // تحديث الألوان عند تغيير الدولة
-  useEffect(() => {
-    if (globeRef.current && polygonsDataRef.current) {
-      globeRef.current.polygonCapColor(getPolygonColor)
-    }
-  }, [selectedCountry, getPolygonColor])
-
-  // مراقبة تغيير حجم الشاشة (هاتف/مكتب)
-  useEffect(() => {
-    if (globeRef.current) {
-      const altitude = isMobile ? 3.5 : 2.5;
-      globeRef.current.pointOfView({ altitude: altitude }, 400);
-    }
-  }, [isMobile])
-
-  // معالج أحداث Touch للموبايل - تحويل الضغطة إلى Click
-  useEffect(() => {
-    if (!isMobile || !globeRef.current || !containerRef.current) return;
-
-    let touchIdentifier: number | null = null;
-    const touchThreshold = 15; // بكسل
-
-    const handleTouchStart = (e: TouchEvent) => {
-      if (e.touches.length === 1) {
-        const touch = e.touches[0];
-        touchIdentifier = touch.identifier;
-        touchStartRef.current = {
-          x: touch.clientX,
-          y: touch.clientY,
-          time: Date.now()
-        };
+      // Minimal animation loop — only keeps damping alive and camera synced
+      const tick = () => {
+        if (disposed) return
+        animIdRef.current = requestAnimationFrame(tick)
+        controls!.update()
       }
-    };
+      tick()
 
-    const handleTouchEnd = (e: TouchEvent) => {
-      if (!touchStartRef.current || touchIdentifier === null) return;
-
-      let touchEnd = null;
-      for (const touch of Array.from(e.changedTouches)) {
-        if (touch.identifier === touchIdentifier) {
-          touchEnd = touch;
-          break;
-        }
-      }
-
-      if (!touchEnd) return;
-
-      const { x: startX, y: startY, time: startTime } = touchStartRef.current;
-      const deltaX = Math.abs(touchEnd.clientX - startX);
-      const deltaY = Math.abs(touchEnd.clientY - startY);
-      const deltaTime = Date.now() - startTime;
-
-      // التحقق من أنها ضغطة قصيرة وليست حركة مسح
-      if (deltaX <= touchThreshold && deltaY <= touchThreshold && deltaTime < 300) {
-        // محاولة الحصول على الدولة المُضغوط عليها
-        if (polygonsDataRef.current && globeRef.current) {
-          const rect = containerRef.current!.getBoundingClientRect();
-          const canvasX = (touchEnd.clientX - rect.left) / rect.width;
-          const canvasY = (touchEnd.clientY - rect.top) / rect.height;
-
-          // استخدم raycasting داخل globe.gl
-          const camera = globeRef.current.camera?.();
-          const renderer = globeRef.current.renderer?.();
-
-          if (camera && renderer && canvasX >= 0 && canvasX <= 1 && canvasY >= 0 && canvasY <= 1) {
-            const mouse = new THREE.Vector2();
-            mouse.x = canvasX * 2 - 1;
-            mouse.y = -(canvasY * 2 - 1);
-
-            const raycaster = new THREE.Raycaster();
-            raycaster.setFromCamera(mouse, camera);
-
-            const scene = globeRef.current.scene?.();
-            if (scene) {
-              // البحث في جميع الكائنات في المشهد
-              const allObjects: THREE.Object3D[] = [];
-              scene.traverse((obj) => {
-                allObjects.push(obj);
-              });
-
-              const intersects = raycaster.intersectObjects(allObjects, true);
-
-              // البحث عن بيانات feature في الكائنات المتقاطعة
-              for (const intersection of intersects) {
-                const userData = (intersection.object as any).userData;
-                if (userData?.feature?.properties?.ADMIN) {
-                  const countryName = userData.feature.properties.ADMIN;
-                  if (onCountryClick) {
-                    onCountryClick(countryName);
-                  }
-                  break;
-                }
-              }
-            }
+      // Worker messages
+      worker.onmessage = (e: MessageEvent) => {
+        if (e.data.type === "ready") {
+          workerReadyRef.current = true
+          syncCamera()
+          if (pendingHlRef.current !== null) {
+            worker.postMessage({ type: "highlight", name: pendingHlRef.current })
+            pendingHlRef.current = null
           }
+        } else if (e.data.type === "countryClick") {
+          onCountryClick?.(e.data.name as string)
         }
       }
 
-      touchIdentifier = null;
-      touchStartRef.current = null;
-    };
+      // Desktop click → raycasting in worker
+      const handleClick = (ev: MouseEvent) => {
+        if (!canvas) return
+        const rect = canvas.getBoundingClientRect()
+        const x =  ((ev.clientX - rect.left) / rect.width)  * 2 - 1
+        const y = -((ev.clientY - rect.top)  / rect.height) * 2 + 1
+        worker.postMessage({ type: "click", x, y })
+      }
+      canvas.addEventListener("click", handleClick)
 
-    containerRef.current.addEventListener("touchstart", handleTouchStart, { passive: true });
-    containerRef.current.addEventListener("touchend", handleTouchEnd, { passive: true });
+      // Mobile tap → raycasting in worker
+      let touchStart: { x: number; y: number; t: number } | null = null
+      const onTouchStart = (ev: TouchEvent) => {
+        if (ev.touches.length === 1)
+          touchStart = { x: ev.touches[0].clientX, y: ev.touches[0].clientY, t: Date.now() }
+      }
+      const onTouchEnd = (ev: TouchEvent) => {
+        if (!touchStart || !canvas || ev.changedTouches.length === 0) return
+        const t = ev.changedTouches[0]
+        if (Math.abs(t.clientX - touchStart.x) < 15 &&
+            Math.abs(t.clientY - touchStart.y) < 15 &&
+            Date.now() - touchStart.t < 300) {
+          const rect = canvas.getBoundingClientRect()
+          const x =  ((t.clientX - rect.left) / rect.width)  * 2 - 1
+          const y = -((t.clientY - rect.top)  / rect.height) * 2 + 1
+          worker.postMessage({ type: "click", x, y })
+        }
+        touchStart = null
+      }
+      canvas.addEventListener("touchstart", onTouchStart, { passive: true })
+      canvas.addEventListener("touchend",   onTouchEnd,   { passive: true })
+
+      // Resize — update camera aspect + notify worker
+      resizeObserver = new ResizeObserver(() => {
+        if (!container || !canvas || disposed) return
+        const nw = container.clientWidth
+        const nh = container.clientHeight
+        const nd = Math.min(window.devicePixelRatio || 1, 2)
+        canvas.style.width  = `${nw}px`
+        canvas.style.height = `${nh}px`
+        camera.aspect = nw / nh
+        camera.updateProjectionMatrix()
+        worker.postMessage({ type: "resize", width: Math.floor(nw * nd), height: Math.floor(nh * nd), devicePixelRatio: nd })
+        syncCamera()
+      })
+      resizeObserver.observe(container)
+
+      // Send canvas to worker (transfers ownership)
+      worker.postMessage(
+        { type: "init", canvas: offscreen, width: Math.floor(w * dpr), height: Math.floor(h * dpr), devicePixelRatio: dpr, isMobile },
+        [offscreen],
+      )
+    }
+
+    init()
 
     return () => {
-      containerRef.current?.removeEventListener("touchstart", handleTouchStart);
-      containerRef.current?.removeEventListener("touchend", handleTouchEnd);
-    };
-  }, [isMobile, onCountryClick]);
+      disposed = true
+      cancelAnimationFrame(animIdRef.current)
+      controls?.dispose()
+      workerRef.current?.terminate()
+      workerRef.current    = null
+      workerReadyRef.current = false
+      resizeObserver?.disconnect()
+      canvas?.remove()
+    }
+  }, [isMobile])
+
+  // Highlight sync
+  useEffect(() => {
+    if (workerRef.current && workerReadyRef.current) {
+      workerRef.current.postMessage({ type: "highlight", name: selectedCountry })
+    } else {
+      pendingHlRef.current = selectedCountry
+    }
+  }, [selectedCountry])
 
   return (
     <div
       ref={containerRef}
       className="w-full h-full bg-transparent pointer-events-auto"
-      aria-label="pixelated dot stars globe"
+      aria-label="interactive globe viewer"
       style={{ touchAction: "none" }}
     />
-  );
+  )
 }

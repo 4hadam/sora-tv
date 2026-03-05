@@ -45,7 +45,8 @@ export default defineConfig({
       output: {
         manualChunks: {
           // ✅ Separate heavy vendor libraries
-          'globe-gl': ['globe.gl'],
+          // globe.gl removed — replaced by globe.worker.ts (Web Worker + OffscreenCanvas)
+          'three-core': ['three'],
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
           // iptv-channels.ts is now server-only — not in client bundle
           'ui-components': [
