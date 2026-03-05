@@ -108,18 +108,36 @@ export default function Home() {
       })
     }
 
-    // On mobile: small delay so the page renders first, then load globe
     // On desktop: use requestIdleCallback for smoother first paint
-    if (isMobile) {
-      const t = setTimeout(loadGlobe, 500)
-      return () => clearTimeout(t)
-    } else if (typeof requestIdleCallback !== 'undefined') {
-      const id = requestIdleCallback(loadGlobe, { timeout: 2000 })
-      return () => cancelIdleCallback(id)
-    } else {
-      const t = setTimeout(loadGlobe, 300)
-      return () => clearTimeout(t)
+    if (!isMobile) {
+      if (typeof requestIdleCallback !== 'undefined') {
+        const id = requestIdleCallback(loadGlobe, { timeout: 2000 })
+        return () => cancelIdleCallback(id)
+      } else {
+        const t = setTimeout(loadGlobe, 300)
+        return () => clearTimeout(t)
+      }
     }
+
+    // On mobile: wait for first user interaction OR 8s fallback.
+    // This keeps globe.gl OUT of the TBT measurement window (FCP → TTI).
+    let loaded = false
+    const trigger = () => {
+      if (loaded) return
+      loaded = true
+      cleanup()
+      loadGlobe()
+    }
+
+    const events = ['touchstart', 'scroll', 'pointerdown'] as const
+    events.forEach(ev => window.addEventListener(ev, trigger, { once: true, passive: true }))
+    const fallback = setTimeout(trigger, 8000)
+
+    const cleanup = () => {
+      events.forEach(ev => window.removeEventListener(ev, trigger))
+      clearTimeout(fallback)
+    }
+    return cleanup
   }, [isMobile])
 
   // Handle URL-based country selection
