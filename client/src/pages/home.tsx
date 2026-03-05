@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, type ComponentType } from "react"
+import { useState, useEffect, useRef, lazy, Suspense, type ComponentType } from "react"
 import { useLocation } from "wouter"
 import TopNavbar from "@/components/top-navbar"
 import { useIsMobileDevice } from "@/hooks/use-is-mobile-device"
@@ -47,6 +47,7 @@ export default function Home() {
 
   // ✅ Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
+  const pendingChannelRef = useRef<string | null>(null)
 
   useEffect(() => {
     setMounted(true)
@@ -73,7 +74,12 @@ export default function Home() {
       if (countryName) {
         setSelectedCountry(countryName)
         setActiveCategory("all-channels")
-        setSelectedChannel(null)
+        if (pendingChannelRef.current) {
+          setSelectedChannel(pendingChannelRef.current)
+          pendingChannelRef.current = null
+        } else {
+          setSelectedChannel(null)
+        }
       }
     } else {
       setSelectedCountry(null)
@@ -162,12 +168,19 @@ export default function Home() {
   }
 
   const handleSelectChannel = (channel: string, fromCountry?: string) => {
-    // If coming from history with a country, navigate there first
+    // If coming from history with a different country, navigate there first
     if (fromCountry && fromCountry !== "all-channels" && fromCountry !== "Unknown") {
       const countryCode = countryCodeMap[fromCountry]
-      if (countryCode) {
+      if (countryCode && fromCountry !== selectedCountry) {
+        pendingChannelRef.current = channel
         setSelectedCountry(fromCountry)
         setLocation(`/${countryCode}`)
+        // Save to history and return — channel will be set after navigation
+        const stored = localStorage.getItem("soratv_history")
+        const hist: { name: string; country: string }[] = stored ? JSON.parse(stored) : []
+        const updated = [{ name: channel, country: fromCountry }, ...hist.filter((h) => h.name !== channel)].slice(0, 30)
+        localStorage.setItem("soratv_history", JSON.stringify(updated))
+        return
       }
     }
     setSelectedChannel(channel)
