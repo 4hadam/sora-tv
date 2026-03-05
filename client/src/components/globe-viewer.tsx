@@ -91,34 +91,87 @@ export default function GlobeViewer({
       const initialAltitude = isMobile ? 3.5 : 2.5;
       globe.pointOfView({ altitude: initialAltitude }, 0);
 
-      // (نجوم)
+      // ✨ نجوم ملونة (مثل famelack) - 3 طبقات + 7 ألوان واقعية + توزيع كروي
       const scene = globe.scene()
       const starGroup = new THREE.Group()
-      starGroup.renderOrder = -1;
+      starGroup.renderOrder = -1
 
-      const createStars = (count: number, color: string, size: number, spread: number) => {
-        const geometry = new THREE.BufferGeometry()
-        const positions = new Float32Array(count * 3)
-        for (let i = 0; i < count * 3; i++) positions[i] = (Math.random() - 0.5) * spread
-        geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3))
+      // توزيع الألوان الواقعية للنجوم (مثل طيف نجوم فعلية)
+      const starColorPalette = [
+        { hue: 240, prob: 0.05 },  // أزرق (نادر)
+        { hue: 220, prob: 0.10 },  // أزرق فاتح
+        { hue: 200, prob: 0.15 },  // سماوي
+        { hue: 170, prob: 0.20 },  // أخضر-سماوي
+        { hue:  60, prob: 0.25 },  // أصفر (الأكثر شيوعاً)
+        { hue:  30, prob: 0.15 },  // برتقالي
+        { hue:   0, prob: 0.10 },  // أحمر
+      ]
 
-        const material = new THREE.PointsMaterial({
-          color: color, size: size, sizeAttenuation: true,
-          depthWrite: false, transparent: false, depthTest: false,
-        })
-        const stars = new THREE.Points(geometry, material)
-        starGroup.add(stars)
+      const pickStarHue = () => {
+        const r = Math.random()
+        let acc = 0
+        for (const c of starColorPalette) {
+          acc += c.prob
+          if (r < acc) return c.hue
+        }
+        return 0
       }
 
-      const whiteColor = "#FFFFFF";
-      const goldenColor = "#FFEBBE";
+      // توزيع عشوائي صحيح على سطح الكرة (arccos formula - مثل famelack)
+      const randomSpherePoints = (radius: number, count: number): number[] => {
+        const pts: number[] = []
+        for (let i = 0; i < count; i++) {
+          const u = Math.random()
+          const v = Math.random()
+          const theta = 2 * Math.PI * u
+          const phi   = Math.acos(2 * v - 1)
+          pts.push(
+            radius * Math.sin(phi) * Math.cos(theta),
+            radius * Math.sin(phi) * Math.sin(theta),
+            radius * Math.cos(phi),
+          )
+        }
+        return pts
+      }
 
+      // إنشاء طبقة نجوم بلون فردي لكل نجمة
+      const addStarLayer = (count: number, radius: number, size: number) => {
+        const positions = randomSpherePoints(radius, count)
+        const geometry = new THREE.BufferGeometry()
+        geometry.setAttribute("position", new THREE.BufferAttribute(new Float32Array(positions), 3))
+
+        // كل نجمة تأخذ لوناً من الطيف الواقعي
+        const colors = new Float32Array(count * 3)
+        for (let i = 0; i < count; i++) {
+          const hue = pickStarHue()
+          const lightness = Math.min((Math.random() * 20 + 70) * (Math.random() * 0.5 + 0.75), 100)
+          const color = new THREE.Color(`hsl(${hue}, 100%, ${lightness}%)`)
+          colors[i * 3]     = color.r
+          colors[i * 3 + 1] = color.g
+          colors[i * 3 + 2] = color.b
+        }
+        geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3))
+
+        const material = new THREE.PointsMaterial({
+          size,
+          sizeAttenuation: true,
+          vertexColors: true,
+          depthWrite: false,
+          transparent: false,
+          depthTest: false,
+        })
+        starGroup.add(new THREE.Points(geometry, material))
+      }
+
+      // 3 طبقات: صغيرة كثيفة + متوسطة + كبيرة نادرة (نفس نسب famelack)
       if (isMobile) {
-        createStars(500, whiteColor, 4.0, 6000)
-        createStars(300, goldenColor, 3.5, 7500)
+        addStarLayer(500,  1000, 1.0)
+        addStarLayer(600,  1000, 3.5)
+        addStarLayer(200,  1000, 5.0)
       } else {
-        createStars(1500, whiteColor, 4.5, 6000)
-        createStars(1000, goldenColor, 3.6, 7500)
+        addStarLayer(700,  1000, 1.0)
+        addStarLayer(800,  1000, 3.5)
+        addStarLayer(300,  1000, 5.0)
       }
 
       scene.add(starGroup)
