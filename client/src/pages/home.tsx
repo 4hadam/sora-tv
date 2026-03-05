@@ -214,9 +214,25 @@ export default function Home() {
           )}
         </div>
 
-        {/* 📊 Stats Counter - Bottom Left */}
+        {/* 📊 Stats Counter + Credits - Bottom Left */}
         {!selectedChannel && (
-          <div className="fixed bottom-5 left-5 z-50 pointer-events-none">
+          <div className="fixed bottom-5 left-5 z-50 pointer-events-none flex flex-col gap-1">
+            {/* Credits */}
+            <div className="flex flex-col gap-0.5">
+              <a href="https://iptv-org.github.io/" target="_blank" rel="noopener noreferrer" className="pointer-events-auto flex items-center gap-1 hover:opacity-80 transition-opacity" style={{ fontSize: "10px" }}>
+                <span className="text-blue-200/40">⬡</span>
+                <span className="text-blue-200/50 font-light">IPTV-org Database</span>
+              </a>
+              <a href="https://iptv-org.github.io/api/" target="_blank" rel="noopener noreferrer" className="pointer-events-auto flex items-center gap-1 hover:opacity-80 transition-opacity" style={{ fontSize: "10px" }}>
+                <span className="text-blue-200/40">⬡</span>
+                <span className="text-blue-200/50 font-light">IPTV-org API</span>
+              </a>
+              <a href="https://threejs.org/" target="_blank" rel="noopener noreferrer" className="pointer-events-auto flex items-center gap-1 hover:opacity-80 transition-opacity" style={{ fontSize: "10px" }}>
+                <span className="text-blue-200/40">⬡</span>
+                <span className="text-blue-200/50 font-light">Three.js</span>
+              </a>
+            </div>
+            {/* Counter */}
             <div className="flex items-center gap-1">
               <span className="text-blue-200/70 font-light" style={{ fontSize: "10px" }}>153</span>
               <span className="text-blue-200/50 font-light" style={{ fontSize: "10px" }}>countries</span>
