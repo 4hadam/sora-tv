@@ -44,15 +44,12 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
-    // Don't inject <link rel="modulepreload"> for heavy deferred chunks
+    // Don't inject <link rel="modulepreload"> only for truly async heavy chunks
     modulePreload: {
       resolveDependencies: (_filename: string, deps: string[]) =>
         deps.filter((d) =>
           !d.includes('globe') &&
-          !d.includes('video') &&
-          !d.includes('ui-components') &&
-          !d.includes('country-sidebar') &&
-          !d.includes('country-detail')
+          !d.includes('video')
         ),
     },
     rollupOptions: {
