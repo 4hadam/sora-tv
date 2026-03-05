@@ -6310,11 +6310,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     { "name": "Medi 1 TV Maghreb", "url": "https://stream-lb.livemediama.com/medi1tv-maghreb/hls/master.m3u8", "category": "News", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
     { "name": "Medi 1 TV Arabic", "url": "https://stream-lb.livemediama.com/medi1tv-arabic/hls/master.m3u8", "category": "News", "logo": "https://i.imgur.com/3YsZPY6.jpeg" },
     { "name": "Chada TV", "url": "https://stream-lb.livemediama.com/chadatv/hls/master.m3u8", "category": "General", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" },
-    { "name": "Tele Maroc", "url": "https://stream-lb.livemediama.com/telemaroc/hls/master.m3u8", "category": "General", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" },
-    { "name": "MBC 5", "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8", "category": "Family", "logo": "https://i.imgur.com/fRWaDyF.png" },
-    { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
-    { "name": "2M Monde", "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
-    { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "Culture", "logo": "https://i.imgur.com/ZBV6xph.png" }
+    { "name": "Tele Maroc", "url": "https://stream-lb.livemediama.com/telemaroc/hls/master.m3u8", "category": "General", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" }
   ],
   "Spain": [
     { "name": "3Cat Càmeres del temps", "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8", "category": "General", "logo": "https://i.imgur.com/zXy2kbe.png" },
