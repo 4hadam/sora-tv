@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, useRef, type ComponentType } from "react"
+﻿import { useState, useEffect, lazy, Suspense, useRef, type ComponentType } from "react"
 import { useLocation } from "wouter"
 import TopNavbar from "@/components/top-navbar"
 import { useIsMobileDevice } from "@/hooks/use-is-mobile-device"
@@ -11,15 +11,15 @@ type GlobeViewerType = ComponentType<{
   isMobile?: boolean
 }>
 
-// 🚀 Lazy-load heavy components that import 1.7MB iptv-channels.ts
+// ≡اأ Lazy-load heavy components that import 1.7MB iptv-channels.ts
 // This keeps the initial bundle lean and defers channel-data parsing to after first paint
 const CountrySidebar = lazy(() => import("@/components/country-sidebar"))
 const CountryDetail = lazy(() => import("@/components/country-detail"))
 
-// CategorySidebar is tiny — keep static
+// CategorySidebar is tiny ظ¤ keep static
 import CategorySidebar from "@/components/CategorySidebar"
 
-// CSS-only globe — shown on mobile (no Three.js loaded = TBT stays at 20ms)
+// CSS-only globe ظ¤ shown on mobile (no Three.js loaded = TBT stays at 20ms)
 // Also used as placeholder on desktop while globe.gl is loading
 const GlobePlaceholder = ({ isMobile = false }: { isMobile?: boolean }) => (
   <div className="w-full h-full flex flex-col items-center justify-center bg-[#0B0D11] relative overflow-hidden select-none">
@@ -80,7 +80,7 @@ const GlobePlaceholder = ({ isMobile = false }: { isMobile?: boolean }) => (
     {/* Mobile hint */}
     {isMobile && (
       <p style={{ marginTop: 28, color: 'rgba(255,255,255,0.35)', fontSize: 13, letterSpacing: '0.02em' }}>
-        Tap ☰ to explore channels
+        Tap ظء░ to explore channels
       </p>
     )}
   </div>
@@ -98,7 +98,7 @@ export default function Home() {
   const [activeCategory, setActiveCategory] = useState("all-channels")
   const skipChannelReset = useRef(false)
 
-  // ✅ Use optimized mobile detection hook
+  // ظ£à Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
 
   useEffect(() => {
@@ -108,7 +108,8 @@ export default function Home() {
       })
     }
 
-    // Small delay so the page renders first, then load globe
+    // On mobile: small delay so the page renders first, then load globe
+    // On desktop: use requestIdleCallback for smoother first paint
     if (isMobile) {
       const t = setTimeout(loadGlobe, 500)
       return () => clearTimeout(t)
@@ -144,7 +145,7 @@ export default function Home() {
   }, [location])
 
   useEffect(() => {
-    // عندما يتم تحديد دولة على الموبايل، افتح الـ sidebar تلقائياً
+    // ╪╣┘╪»┘à╪د ┘è╪ز┘à ╪ز╪ص╪»┘è╪» ╪»┘ê┘╪ر ╪╣┘┘ë ╪د┘┘à┘ê╪ذ╪د┘è┘╪î ╪د┘╪ز╪ص ╪د┘┘ sidebar ╪ز┘┘é╪د╪خ┘è╪د┘ï
     if (isMobile && selectedCountry) {
       setMobileSidebarOpen(true)
     }
@@ -163,7 +164,7 @@ export default function Home() {
     return () => clearInterval(interval)
   }, [])
 
-  // GeoJSON ADMIN names → app country names
+  // GeoJSON ADMIN names ظْ app country names
   const geoJsonAliases: Record<string, string> = {
     "United States of America": "United States",
     "Russian Federation": "Russia",
@@ -188,7 +189,7 @@ export default function Home() {
     "Macedonia": "North Macedonia",
   }
 
-  // 🎯 --- Event Handlers ---
+  // ≡ا» --- Event Handlers ---
   const handleGlobeCountryClick = (countryName: string) => {
     const resolvedName = geoJsonAliases[countryName] || countryName
     const countryCode = countryCodeMap[resolvedName]
@@ -260,7 +261,7 @@ export default function Home() {
 
       <div className="flex-1 overflow-hidden relative">
 
-        {/* 🌍 Globe Viewer */}
+        {/* ≡اî Globe Viewer */}
         <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
           {GlobeViewer ? (
             <GlobeViewer
@@ -273,21 +274,21 @@ export default function Home() {
           )}
         </div>
 
-        {/* 📊 Stats Counter + Credits - Bottom Left (aria-hidden: decorative only) */}
+        {/* ≡اôè Stats Counter + Credits - Bottom Left (aria-hidden: decorative only) */}
         {!selectedChannel && (
           <div className="fixed bottom-5 left-5 z-50 pointer-events-none flex flex-col gap-1" aria-hidden="true">
             {/* Credits */}
             <div className="flex flex-col gap-0.5">
               <a href="https://iptv-org.github.io/" target="_blank" rel="noopener noreferrer" className="pointer-events-auto flex items-center gap-1 hover:opacity-80 transition-opacity" style={{ fontSize: "10px" }} tabIndex={-1}>
-                <span className="text-blue-200/40">⬡</span>
+                <span className="text-blue-200/40">ظشة</span>
                 <span className="text-blue-200/50 font-light">IPTV-org Database</span>
               </a>
               <a href="https://iptv-org.github.io/api/" target="_blank" rel="noopener noreferrer" className="pointer-events-auto flex items-center gap-1 hover:opacity-80 transition-opacity" style={{ fontSize: "10px" }} tabIndex={-1}>
-                <span className="text-blue-200/40">⬡</span>
+                <span className="text-blue-200/40">ظشة</span>
                 <span className="text-blue-200/50 font-light">IPTV-org API</span>
               </a>
               <a href="https://threejs.org/" target="_blank" rel="noopener noreferrer" className="pointer-events-auto flex items-center gap-1 hover:opacity-80 transition-opacity" style={{ fontSize: "10px" }} tabIndex={-1}>
-                <span className="text-blue-200/40">⬡</span>
+                <span className="text-blue-200/40">ظشة</span>
                 <span className="text-blue-200/50 font-light">Three.js</span>
               </a>
             </div>
@@ -295,13 +296,13 @@ export default function Home() {
             <div className="flex items-center gap-1">
               <span className="text-blue-200/70 font-light" style={{ fontSize: "10px" }}>153</span>
               <span className="text-blue-200/50 font-light" style={{ fontSize: "10px" }}>countries</span>
-              <span className="text-blue-200/30 font-light mx-0.5" style={{ fontSize: "10px" }}>•</span>
+              <span className="text-blue-200/30 font-light mx-0.5" style={{ fontSize: "10px" }}>ظت</span>
               <span className="text-blue-200/70 font-light" style={{ fontSize: "10px" }}>9,022</span>
               <span className="text-blue-200/50 font-light" style={{ fontSize: "10px" }}>channels</span>
             </div>
           </div>
         )}
-        {/* 🎥 Video Player (Desktop Only) */}
+        {/* ≡اح Video Player (Desktop Only) */}
         {!isMobile && selectedChannel && (selectedCountry || activeCategory !== "all-channels") && (
           <div
             className="absolute top-0 bottom-0 z-30 flex items-center justify-center p-4 sm:p-8 
@@ -319,7 +320,7 @@ export default function Home() {
           </div>
         )}
 
-        {/* 🖥️ Desktop Sidebar (Countries - Right) */}
+        {/* ≡اûحي╕ Desktop Sidebar (Countries - Right) */}
         {!isMobile && (
           <div
             className="absolute right-0 top-16 bottom-0 w-[320px] lg:w-[340px] z-20 bg-gray-900/90 backdrop-blur-md"
@@ -341,7 +342,7 @@ export default function Home() {
           </div>
         )}
 
-        {/* 📱 🖥️  Category Sidebar (All Sizes) */}
+        {/* ≡اô▒ ≡اûحي╕  Category Sidebar (All Sizes) */}
         <>
           <div
             className={`fixed top-16 left-0 bottom-0 z-40 w-64 bg-[#0B0D11] shadow-lg transform transition-transform duration-300 ease-in-out
@@ -362,7 +363,7 @@ export default function Home() {
         </>
 
 
-        {/* 📱 Mobile Sidebar (Channels) */}
+        {/* ≡اô▒ Mobile Sidebar (Channels) */}
         {isMobile && (
           <>
             <div
