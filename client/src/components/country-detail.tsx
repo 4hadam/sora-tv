@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, lazy, Suspense } from "react"
 import { AlertCircle, X, Star } from "lucide-react"
 
-import VideoPlayer from "@/components/video-player"
-import VideoJsPlayer from "@/components/videojs-player"
+// 🚀 Lazy-load video players — defers 969KB video.js bundle until user actually watches a stream
+const VideoPlayer = lazy(() => import("@/components/video-player"))
+const VideoJsPlayer = lazy(() => import("@/components/videojs-player"))
 
 interface Channel {
   name: string;
@@ -162,22 +163,28 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             <p className="text-sm text-slate-500 max-w-xs text-center">{error}</p>
           </div>
         ) : streamUrl ? (
-          isYouTube ? (
-            <VideoPlayer
-              src={streamUrl}
-              autoPlay
-              muted={false}
-              isMobile={isMobile}
-            />
-          ) : (
-            <VideoJsPlayer
-              src={streamUrl}
-              isLive={true}
-              autoPlay={true}
-              muted={false}
-              isMobile={isMobile}
-            />
-          )
+          <Suspense fallback={
+            <div className="flex items-center justify-center w-full h-full bg-black text-white">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400" />
+            </div>
+          }>
+            {isYouTube ? (
+              <VideoPlayer
+                src={streamUrl}
+                autoPlay
+                muted={false}
+                isMobile={isMobile}
+              />
+            ) : (
+              <VideoJsPlayer
+                src={streamUrl}
+                isLive={true}
+                autoPlay={true}
+                muted={false}
+                isMobile={isMobile}
+              />
+            )}
+          </Suspense>
         ) : (
           <div className="flex flex-col items-center justify-center w-full h-full bg-black text-white">
             <AlertCircle className="w-12 h-12 text-slate-500 mb-4" />

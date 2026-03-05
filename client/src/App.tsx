@@ -1,12 +1,17 @@
 import { Switch, Route } from "wouter";
+import { lazy, Suspense } from "react";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import FAQ from "@/pages/faq";
 import Privacy from "@/pages/privacy";
 import NotFound from "@/pages/not-found";
+
+// 🚀 Lazy-load Toaster to remove 178KB @radix-ui/react-toast from synchronous bundle
+const LazyToaster = lazy(() =>
+  import("@/components/ui/toaster").then((m) => ({ default: m.Toaster }))
+);
 
 function Router() {
   return (
@@ -24,7 +29,9 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <Toaster />
+        <Suspense fallback={null}>
+          <LazyToaster />
+        </Suspense>
         <Router />
       </TooltipProvider>
     </QueryClientProvider>

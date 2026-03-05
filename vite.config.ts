@@ -33,7 +33,13 @@ export default defineConfig({
     // Don't inject <link rel="modulepreload"> for heavy deferred chunks
     modulePreload: {
       resolveDependencies: (_filename: string, deps: string[]) =>
-        deps.filter((d) => !d.includes('globe') && !d.includes('video')),
+        deps.filter((d) =>
+          !d.includes('globe') &&
+          !d.includes('video') &&
+          !d.includes('ui-components') &&
+          !d.includes('country-sidebar') &&
+          !d.includes('country-detail')
+        ),
     },
     rollupOptions: {
       output: {
