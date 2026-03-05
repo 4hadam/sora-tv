@@ -6,8 +6,11 @@
     "display": "standalone",
     "background_color": "#0B0D11",
     "theme_color": "#0B0D11",
-    "orientation": "portrait-primary",
+    "orientation": "any",
     "scope": "/",
+    "id": "/",
+    "lang": "en",
+    "dir": "ltr",
     "categories": [
         "entertainment",
         "news",
