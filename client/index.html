@@ -6,7 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
 
   <!-- 🚀 Critical CSS inline — prevents white flash before stylesheet loads (improves FCP) -->
-  <style>html,body{margin:0;padding:0;background:#0B0D11;color:#f9f9f9;height:100%}#root{height:100vh;display:flex;flex-direction:column}</style>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0B0D11;
+      color: #f9f9f9;
+      height: 100%
+    }
+
+    #root {
+      height: 100vh;
+      display: flex;
+      flex-direction: column
+    }
+  </style>
 
   <!-- 🚀 Preconnect to logo font CDN BEFORE the preload request fires -->
   <link rel="preconnect" href="https://files.catbox.moe" crossorigin />
@@ -103,6 +118,26 @@
       ]
     }
     </script>
+
+  <!-- 🟢 SiteNavigationElement Schema — helps Google show country sitelinks -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Watch Live TV by Country",
+      "url": "https://soratv.live",
+      "itemListElement": [
+        { "@type": "SiteNavigationElement", "position": 1, "name": "Morocco", "url": "https://soratv.live/ma" },
+        { "@type": "SiteNavigationElement", "position": 2, "name": "Spain",   "url": "https://soratv.live/es" },
+        { "@type": "SiteNavigationElement", "position": 3, "name": "Turkey",  "url": "https://soratv.live/tr" },
+        { "@type": "SiteNavigationElement", "position": 4, "name": "France",  "url": "https://soratv.live/fr" },
+        { "@type": "SiteNavigationElement", "position": 5, "name": "United States", "url": "https://soratv.live/us" },
+        { "@type": "SiteNavigationElement", "position": 6, "name": "Saudi Arabia",  "url": "https://soratv.live/sa" },
+        { "@type": "SiteNavigationElement", "position": 7, "name": "United Kingdom", "url": "https://soratv.live/gb" },
+        { "@type": "SiteNavigationElement", "position": 8, "name": "Egypt",   "url": "https://soratv.live/eg" }
+      ]
+    }
+  </script>
 
   <!-- 🟢 Organization Schema -->
   <script type="application/ld+json">
