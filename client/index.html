@@ -90,6 +90,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
   <link rel="manifest" href="/site.webmanifest" />
 
   <!-- 🔢 Fonts: system font stack — no external font request needed for UI text -->
@@ -204,6 +205,15 @@
         schemaWebsite.innerText = JSON.stringify(wsData);
         schemaOrg.innerText = JSON.stringify(orgData);
       } catch (e) { }
+    }
+  </script>
+
+  <!-- 🔧 Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js').catch(function () { });
+      });
     }
   </script>
 </body>
