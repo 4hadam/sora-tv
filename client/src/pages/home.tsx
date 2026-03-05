@@ -37,7 +37,6 @@ export default function Home() {
   const [location, setLocation] = useLocation()
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [selectedChannel, setSelectedChannel] = useState<string | null>(null)
-  const [mounted, setMounted] = useState(false)
   const [GlobeViewer, setGlobeViewer] = useState<GlobeViewerType | null>(null)
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
@@ -50,15 +49,26 @@ export default function Home() {
   const isMobile = useIsMobileDevice()
 
   useEffect(() => {
-    setMounted(true)
-    // Load globe 300ms after mount — short enough to show quickly, long enough to not block first paint
-    const t = setTimeout(() => {
+    // 🚀 Skip globe.gl entirely on mobile — saves Three.js + WebGL + GeoJSON
+    // parsing which causes 30+ seconds of TBT on slow mobile CPUs.
+    // PageSpeed tests with a mobile UA so this directly fixes the score.
+    if (isMobile) return
+
+    const loadGlobe = () => {
       import("@/components/globe-viewer").then((mod) => {
         setGlobeViewer(() => mod.default)
       })
-    }, 300)
-    return () => clearTimeout(t)
-  }, [])
+    }
+
+    // requestIdleCallback: load globe only when browser has idle time (after first paint)
+    if (typeof requestIdleCallback !== 'undefined') {
+      const id = requestIdleCallback(loadGlobe, { timeout: 2000 })
+      return () => cancelIdleCallback(id)
+    } else {
+      const t = setTimeout(loadGlobe, 300)
+      return () => clearTimeout(t)
+    }
+  }, [isMobile])
 
   // Handle URL-based country selection
   useEffect(() => {
@@ -101,8 +111,6 @@ export default function Home() {
     const interval = setInterval(updateTime, 60000)
     return () => clearInterval(interval)
   }, [])
-
-  if (!mounted) return null
 
   // GeoJSON ADMIN names → app country names
   const geoJsonAliases: Record<string, string> = {
