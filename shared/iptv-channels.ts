@@ -6292,6 +6292,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   ],
   "Morocco": [
     { "name": "Al Aoula Maroc", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8", "category": "General", "logo": "https://i.imgur.com/OmiqZMN.png" },
+    { "name": "Al Maghribia", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_inter/hls_snrt/index.m3u8", "category": "General", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Al_Maghribia_TV_logo.png/240px-Al_Maghribia_TV_logo.png" },
+    { "name": "Assadissa", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa_inter/hls_snrt/index.m3u8", "category": "Religious", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Assadissa_Logo.png/240px-Assadissa_Logo.png" },
+    { "name": "Arryadia", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arryadia_inter/hls_snrt/index.m3u8", "category": "Sports", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Arryadia_TV_logo.png/240px-Arryadia_TV_logo.png" },
+    { "name": "Tamazight TV", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_inter/hls_snrt/index.m3u8", "category": "Culture", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tamazight_TV_logo.png/240px-Tamazight_TV_logo.png" },
     { "name": "2M Monde", "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
     { "name": "2M Monde +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
     { "name": "Chada TV", "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8", "category": "General", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" },
