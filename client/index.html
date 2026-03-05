@@ -5,20 +5,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
 
-  <!-- 🟢 Preload logo font early to unblock LCP -->
+  <!-- 🚀 Critical CSS inline — prevents white flash before stylesheet loads (improves FCP) -->
+  <style>html,body{margin:0;padding:0;background:#0B0D11;color:#f9f9f9;height:100%}#root{height:100vh;display:flex;flex-direction:column}</style>
+
+  <!-- 🚀 Preconnect to logo font CDN BEFORE the preload request fires -->
+  <link rel="preconnect" href="https://files.catbox.moe" crossorigin />
+  <!-- 🔴 Preload logo font early to unblock LCP -->
   <link rel="preload" href="https://files.catbox.moe/9195h1.woff" as="font" type="font/woff" crossorigin="anonymous" />
 
   <!-- 🚀 Preconnect to CDNs used at runtime (reduces globe GeoJSON latency) -->
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
 
-  <!-- 🟢 Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K55932R7WV"></script>
+  <!-- 🔢 Google Analytics — deferred until after page load to avoid blocking FCP -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-K55932R7WV');
+    window.addEventListener('load', function () {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-K55932R7WV';
+      s.async = true;
+      document.head.appendChild(s);
+    });
   </script>
 
   <!-- 🟢 SEO Basic Tags -->
@@ -67,14 +77,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
 
-  <!-- 🟢 Fonts (Optimized Loading) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style"
-    onload="this.rel='stylesheet'" />
-  <noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  </noscript>
+  <!-- 🔢 Fonts: system font stack — no external font request needed for UI text -->
+  <!-- Cairo loaded via Google Fonts removed to eliminate render-blocking DNS lookups -->
 
   <!-- 🟢 Structured Data (JSON-LD) - Website Schema -->
   <script type="application/ld+json">
@@ -145,7 +149,7 @@
     </script>
 </head>
 
-<body style="font-family: 'Cairo', Arial, sans-serif;">
+<body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx" async></script>
 

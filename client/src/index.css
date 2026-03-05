@@ -7,36 +7,7 @@
   font-display: swap;
 }
 
-/* Video.js theme (city) - optimized local version */
-.vjs-theme-city .vjs-control-bar {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.vjs-theme-city .vjs-button>.vjs-icon-placeholder,
-.vjs-theme-city .vjs-menu-button .vjs-menu-content {
-  background-color: #fff;
-}
-
-.vjs-theme-city .vjs-progress-control {
-  height: 5px;
-}
-
-.vjs-theme-city .vjs-progress-control:hover .vjs-progress-holder {
-  height: 8px;
-}
-
-/* Additional video.js optimizations */
-.video-js {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.vjs-big-play-centered.vjs-paused.video-js .vjs-big-play-button {
-  top: 50%;
-  left: 50%;
-  margin-left: -64px;
-  margin-top: -64px;
-}
+/* MusticaPro removed — font file not present, was causing 404 on every page load */
 
 @tailwind base;
 @tailwind components;
@@ -96,16 +67,11 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Cairo', Arial, 'Segoe UI', sans-serif;
   }
 }
 
-@font-face {
-  font-family: 'MusticaPro';
-  src: url('/fonts/MusticaPro-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-}
+/* MusticaPro removed — was 404 (file missing) */
 
 .custom-scroll {
   scrollbar-width: none;
