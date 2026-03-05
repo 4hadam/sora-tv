@@ -3,10 +3,24 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
+// Plugin: convert blocking <link rel="stylesheet"> → non-blocking preload
+const deferCssPlugin = {
+  name: 'defer-css',
+  transformIndexHtml(html: string) {
+    return html.replace(
+      /<link rel="stylesheet" crossorigin href="(\/assets\/index[^"]+)">/g,
+      (_: string, href: string) =>
+        `<link rel="preload" href="${href}" as="style" onload="this.onload=null;this.rel='stylesheet'">` +
+        `<noscript><link rel="stylesheet" href="${href}"></noscript>`,
+    )
+  },
+}
+
 export default defineConfig({
   plugins: [
     react(),
     runtimeErrorOverlay(),
+    deferCssPlugin,
     ...(process.env.NODE_ENV !== "production" &&
       process.env.REPL_ID !== undefined
       ? [
