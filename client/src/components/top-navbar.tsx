@@ -7,7 +7,7 @@ interface TopNavbarProps {
   onMenuClick?: () => void
   isMenuOpen?: boolean
   selectedCountry?: string | null
-  onSelectChannel?: (channel: string) => void
+  onSelectChannel?: (channel: string, country?: string) => void
 }
 
 export default function TopNavbar({
@@ -105,7 +105,7 @@ export default function TopNavbar({
         <div className="flex items-center gap-4">
 
           {/* 🕐 History Button */}
-          <div className="relative" ref={historyRef}>
+          <div className="relative flex items-center" ref={historyRef}>
             <button
               onClick={() => setShowHistory((p) => !p)}
               className="text-white/70 hover:text-white focus:outline-none transition-colors"
@@ -134,7 +134,7 @@ export default function TopNavbar({
                     {history.map((item, i) => (
                       <li key={i}>
                         <button
-                          onClick={() => { onSelectChannel?.(item.name); setShowHistory(false) }}
+                          onClick={() => { onSelectChannel?.(item.name, item.country); setShowHistory(false) }}
                           className="flex items-center gap-3 w-full px-4 py-3 hover:bg-white/5 transition-colors text-left"
                         >
                           <History size={14} className="text-white/30 flex-shrink-0" />

@@ -161,10 +161,18 @@ export default function Home() {
     }
   }
 
-  const handleSelectChannel = (channel: string) => {
+  const handleSelectChannel = (channel: string, fromCountry?: string) => {
+    // If coming from history with a country, navigate there first
+    if (fromCountry && fromCountry !== "all-channels" && fromCountry !== "Unknown") {
+      const countryCode = countryCodeMap[fromCountry]
+      if (countryCode) {
+        setSelectedCountry(fromCountry)
+        setLocation(`/${countryCode}`)
+      }
+    }
     setSelectedChannel(channel)
     // Save to watch history
-    const country = selectedCountry || activeCategory || "Unknown"
+    const country = fromCountry || selectedCountry || activeCategory || "Unknown"
     const stored = localStorage.getItem("soratv_history")
     const hist: { name: string; country: string }[] = stored ? JSON.parse(stored) : []
     const updated = [{ name: channel, country }, ...hist.filter((h) => h.name !== channel)].slice(0, 30)
