@@ -19,73 +19,6 @@ const CountryDetail = lazy(() => import("@/components/country-detail"))
 // CategorySidebar is tiny ظ¤ keep static
 import CategorySidebar from "@/components/CategorySidebar"
 
-// CSS-only globe ظ¤ shown on mobile (no Three.js loaded = TBT stays at 20ms)
-// Also used as placeholder on desktop while globe.gl is loading
-const GlobePlaceholder = ({ isMobile = false }: { isMobile?: boolean }) => (
-  <div className="w-full h-full flex flex-col items-center justify-center bg-[#0B0D11] relative overflow-hidden select-none">
-    {/* Outer glow ring */}
-    <div style={{
-      position: 'absolute',
-      width: isMobile ? 320 : 280,
-      height: isMobile ? 320 : 280,
-      borderRadius: '50%',
-      background: 'radial-gradient(circle at 50% 50%, transparent 48%, rgba(68,120,255,0.07) 52%, transparent 58%)',
-      animation: 'pulse 3s ease-in-out infinite',
-    }} />
-    {/* Globe sphere */}
-    <div style={{
-      width: isMobile ? 280 : 240,
-      height: isMobile ? 280 : 240,
-      borderRadius: '50%',
-      background: 'radial-gradient(circle at 38% 32%, #1b3d7a 0%, #0d1f45 45%, #060d1f 100%)',
-      boxShadow: 'inset -12px -12px 40px rgba(0,0,0,0.7), inset 6px 6px 20px rgba(68,120,255,0.1), 0 0 80px rgba(40,80,200,0.12)',
-      position: 'relative',
-      overflow: 'hidden',
-      flexShrink: 0,
-    }}>
-      {/* Latitude lines */}
-      {[-55, -30, 0, 30, 55].map((pct) => (
-        <div key={pct} style={{
-          position: 'absolute', left: 0, right: 0,
-          top: `${50 + pct}%`, height: 1,
-          background: 'rgba(80,140,255,0.14)',
-        }} />
-      ))}
-      {/* Longitude lines (ellipses) */}
-      {[20, 40, 60, 80].map((pct) => (
-        <div key={pct} style={{
-          position: 'absolute', top: 0, bottom: 0,
-          left: `${pct}%`, width: 1,
-          background: 'rgba(80,140,255,0.14)',
-        }} />
-      ))}
-      {/* Continent blobs */}
-      <div style={{ position: 'absolute', top: '22%', left: '30%', width: '18%', height: '22%', borderRadius: '40% 60% 50% 50%', background: 'rgba(60,180,100,0.22)', filter: 'blur(2px)' }} />
-      <div style={{ position: 'absolute', top: '30%', left: '52%', width: '22%', height: '28%', borderRadius: '50% 40% 60% 45%', background: 'rgba(60,180,100,0.20)', filter: 'blur(2px)' }} />
-      <div style={{ position: 'absolute', top: '50%', left: '20%', width: '16%', height: '20%', borderRadius: '45% 55% 40% 60%', background: 'rgba(60,180,100,0.18)', filter: 'blur(2px)' }} />
-      <div style={{ position: 'absolute', top: '48%', left: '55%', width: '12%', height: '18%', borderRadius: '50%', background: 'rgba(60,180,100,0.17)', filter: 'blur(2px)' }} />
-      <div style={{ position: 'absolute', top: '38%', left: '10%', width: '10%', height: '16%', borderRadius: '50%', background: 'rgba(60,180,100,0.16)', filter: 'blur(2px)' }} />
-      {/* Atmosphere edge */}
-      <div style={{
-        position: 'absolute', inset: 0, borderRadius: '50%',
-        background: 'radial-gradient(circle at 70% 70%, transparent 55%, rgba(40,90,220,0.18) 75%, rgba(20,60,180,0.08) 90%)',
-      }} />
-      {/* Specular highlight */}
-      <div style={{
-        position: 'absolute', top: '8%', left: '18%',
-        width: '28%', height: '22%', borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(255,255,255,0.09) 0%, transparent 70%)',
-      }} />
-    </div>
-    {/* Mobile hint */}
-    {isMobile && (
-      <p style={{ marginTop: 28, color: 'rgba(255,255,255,0.35)', fontSize: 13, letterSpacing: '0.02em' }}>
-        Tap ظء░ to explore channels
-      </p>
-    )}
-  </div>
-)
-
 export default function Home() {
   const [location, setLocation] = useLocation()
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
@@ -270,7 +203,7 @@ export default function Home() {
               isMobile={isMobile}
             />
           ) : (
-            <GlobePlaceholder isMobile={isMobile} />
+            <div className="w-full h-full bg-[#0B0D11]" />
           )}
         </div>
 
