@@ -240,6 +240,7 @@ export default function Home() {
                 currentTime={currentTime}
                 isMobile={isMobile}
                 activeCategory={activeCategory}
+                selectedChannel={selectedChannel}
               />
             </Suspense>
           </div>
@@ -310,6 +311,7 @@ export default function Home() {
                     currentTime={currentTime}
                     isMobile={isMobile}
                     activeCategory={activeCategory}
+                    selectedChannel={selectedChannel}
                   />
                 </Suspense>
               </div>

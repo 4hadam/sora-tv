@@ -27,6 +27,7 @@ interface CountrySidebarProps {
   currentTime: string
   isMobile?: boolean
   activeCategory: string | null
+  selectedChannel?: string | null
 }
 
 /** خريطة لغات افتراضية للدولة كمحفّظ (fallback) */
@@ -363,6 +364,7 @@ export default function CountrySidebar({
   selectedCountry,
   onSelectCountry,
   onSelectChannel,
+  selectedChannel,
   onClose,
   externalSearch = "",
   currentTime,
@@ -535,7 +537,10 @@ export default function CountrySidebar({
                     <li key={`${channel.name}-${index}`} className="sidebar-entry channel-item" style={{ height: 64 }}>
                       <button
                         onClick={() => handleSelectChannel(channel)}
-                        className="flex items-center justify-between w-full h-full px-5 hover:bg-white/5 transition-colors text-left"
+                        className={`flex items-center justify-between w-full h-full px-5 transition-colors text-left ${selectedChannel === channel.name
+                            ? "bg-white/10 border-l-2 border-white"
+                            : "hover:bg-white/5"
+                          }`}
                         title={channel.name}
                       >
                         <div className="flex items-center gap-3 min-w-0">
