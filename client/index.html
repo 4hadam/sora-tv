@@ -8,6 +8,10 @@
   <!-- 🟢 Preload logo font early to unblock LCP -->
   <link rel="preload" href="https://files.catbox.moe/9195h1.woff" as="font" type="font/woff" crossorigin="anonymous" />
 
+  <!-- 🚀 Preconnect to CDNs used at runtime (reduces globe GeoJSON latency) -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
   <!-- 🟢 Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-K55932R7WV"></script>
   <script>
