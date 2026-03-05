@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+﻿import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
@@ -44,11 +44,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // ✅ Separate heavy vendor libraries
-          // globe.gl removed — replaced by globe.worker.ts (Web Worker + OffscreenCanvas)
-          'three-core': ['three'],
+          // ظ£à Separate heavy vendor libraries
+          'globe-gl': ['globe.gl'],
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
-          // iptv-channels.ts is now server-only — not in client bundle
+          // iptv-channels.ts is now server-only ظ¤ not in client bundle
           'ui-components': [
             '@radix-ui/react-dialog',
             '@radix-ui/react-dropdown-menu',
@@ -61,7 +60,7 @@ export default defineConfig({
         }
       }
     },
-    // ✅ Optimization settings
+    // ظ£à Optimization settings
     minify: 'terser',
     terserOptions: {
       compress: {
