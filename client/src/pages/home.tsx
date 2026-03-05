@@ -195,15 +195,17 @@ export default function Home() {
         </div>
 
         {/* 📊 Stats Counter - Top Left (hidden when channel is playing) */}
-        <div className={`absolute top-4 left-4 z-30 pointer-events-none transition-opacity duration-300 ${selectedChannel ? "opacity-0" : "opacity-100"}`}>
-          <div className="flex items-center gap-2">
-            <span className="text-white/90 text-sm font-light tracking-wide">153</span>
-            <span className="text-white/50 text-xs">countries</span>
-            <span className="text-white/40 text-sm">•</span>
-            <span className="text-white/90 text-sm font-light tracking-wide">9,022</span>
-            <span className="text-white/50 text-xs">channels</span>
+        {!selectedChannel && (
+          <div className="absolute top-4 left-4 z-30 pointer-events-none">
+            <div className="flex items-center gap-2">
+              <span className="text-white/90 text-sm font-light tracking-wide">153</span>
+              <span className="text-white/50 text-xs">countries</span>
+              <span className="text-white/40 text-sm">•</span>
+              <span className="text-white/90 text-sm font-light tracking-wide">9,022</span>
+              <span className="text-white/50 text-xs">channels</span>
+            </div>
           </div>
-        </div>
+        )}
         {/* 🎥 Video Player (Desktop Only) */}
         {!isMobile && selectedChannel && (selectedCountry || activeCategory !== "all-channels") && (
           <div
