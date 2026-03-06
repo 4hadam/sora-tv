@@ -1,6 +1,6 @@
 ﻿"use client"
 
-import { useEffect, useRef, useCallback } from "react"
+import { useEffect, useRef, useCallback, useState } from "react"
 import * as THREE from "three"
 import type { GlobeInstance } from "globe.gl"
 
@@ -71,6 +71,8 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
   const stars = useRef<THREE.Group | null>(null)
   const ro = useRef<ResizeObserver | null>(null)
   const tapStart = useRef<{ x: number; y: number; t: number; id: number } | null>(null)
+  // Hidden until globe.gl's internal scale-in animation finishes
+  const [visible, setVisible] = useState(false)
 
   const capColor = useCallback((d: any) => {
     const n = d?.properties?.ADMIN ?? ""
@@ -115,13 +117,9 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
         ctrl.autoRotate = false; ctrl.enableZoom = true
         ctrl.minDistance = 150; ctrl.maxDistance = 500
 
-        // Set camera position immediately (0ms) to skip globe.gl's default zoom-in animation
+        // Set camera immediately — no animation
         const targetAlt = isMobile ? 3.5 : 2.5
         g.pointOfView({ altitude: targetAlt }, 0)
-        // Override globe.gl internal init animation by setting it again after one frame
-        requestAnimationFrame(() => {
-          globe.current?.pointOfView({ altitude: targetAlt }, 0)
-        })
 
         // stars
         stars.current = addStars(g.scene(), isMobile)
@@ -151,6 +149,8 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
               if (name) onCountryClick?.(name)
             })
           // Signal home.tsx that the globe is fully rendered with countries
+          // Show the canvas now — animation has already finished internally
+          setVisible(true)
           onReady?.()
         }
         worker.onerror = () => worker.terminate()
@@ -223,7 +223,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     <div
       ref={el}
       className="w-full h-full bg-transparent"
-      style={{ touchAction: "none" }}
+      style={{ touchAction: "none", opacity: visible ? 1 : 0 }}
       aria-label="interactive globe"
     />
   )
