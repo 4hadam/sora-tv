@@ -41,16 +41,16 @@ export default function Home() {
       })
     }
 
-    // On mobile: small delay so the page renders first, then load globe
-    // On desktop: use requestIdleCallback for smoother first paint
+    // On mobile: longer delay so page renders + TBT stays low
+    // On desktop: use requestIdleCallback to avoid blocking main thread
     if (isMobile) {
-      const t = setTimeout(loadGlobe, 500)
+      const t = setTimeout(loadGlobe, 2000)
       return () => clearTimeout(t)
     } else if (typeof requestIdleCallback !== 'undefined') {
-      const id = requestIdleCallback(loadGlobe, { timeout: 2000 })
+      const id = requestIdleCallback(loadGlobe, { timeout: 3000 })
       return () => cancelIdleCallback(id)
     } else {
-      const t = setTimeout(loadGlobe, 300)
+      const t = setTimeout(loadGlobe, 1500)
       return () => clearTimeout(t)
     }
   }, [isMobile])

@@ -63,19 +63,6 @@ function addStars(scene: THREE.Scene, mobile: boolean): THREE.Group {
   scene.add(g); return g
 }
 
-// Merge Western Sahara into Morocco
-function fixMorocco(features: any[]): any[] {
-  const mo = features.find(f => f.properties?.ADMIN === "Morocco")
-  const ws = features.find(f => f.properties?.ADMIN === "Western Sahara")
-  if (mo && ws) {
-    const toMulti = (f: any) =>
-      f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates
-    mo.geometry = { type: "MultiPolygon", coordinates: [...toMulti(mo), ...toMulti(ws)] }
-    return features.filter(f => f.properties?.ADMIN !== "Western Sahara")
-  }
-  return features
-}
-
 export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false }: GlobeViewerProps) {
   const el       = useRef<HTMLDivElement>(null)
   const globe    = useRef<GlobeInstance | null>(null)
@@ -131,25 +118,20 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       // stars
       stars.current = addStars(g.scene(), isMobile)
 
-      // load GeoJSON — use reliable ne_110m (comprehensive world coverage)
-      try {
-        const res  = await fetch(
-          "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_110m_admin_0_countries.geojson",
-          { signal: ac.signal },
-        )
-        if (!res.ok) throw new Error("GeoJSON fetch failed")
-        const data = await res.json()
-        if (dead) return
-
-        const features = fixMorocco(
-          (data.features as any[]).filter(
-            f => f.geometry != null &&
-                 (f.geometry.type === "Polygon" || f.geometry.type === "MultiPolygon")
-          )
-        )
+      // load GeoJSON via Web Worker — keeps main thread free
+      const worker = new Worker(
+        new URL("../workers/geojson.worker.ts", import.meta.url),
+        { type: "module" }
+      )
+      worker.postMessage(null)
+      worker.onmessage = (e) => {
+        worker.terminate()
+        if (dead || !e.data.ok) return
+        const features = e.data.features
         polys.current = features
-
-        g.polygonsData(features)
+        if (!globe.current) return
+        globe.current
+          .polygonsData(features)
           .polygonGeoJsonGeometry((d: any) => d.geometry)
           .polygonCapColor(capColor)
           .polygonLabel((d: any) => {
@@ -160,7 +142,8 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
             const name = d?.properties?.ADMIN ?? ""
             if (name) onCountryClick?.(name)
           })
-      } catch { /* silent — globe renders without polygons */ }
+      }
+      worker.onerror = () => worker.terminate()
     })()
 
     return () => {
