@@ -40,47 +40,21 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-        // Prevent Rollup from auto-merging dependencies into manual chunks,
-        // which was causing globe imports to pull video stack chunks.
-        onlyExplicitManualChunks: true,
-        manualChunks(id: string) {
-          if (!id.includes("node_modules")) return undefined
-
-          if (
-            id.includes("node_modules/globe.gl") ||
-            id.includes("node_modules/three")
-          ) {
-            return "globe-engine"
-          }
-
-          if (
-            id.includes("node_modules/video.js") ||
-            id.includes("node_modules/@videojs/http-streaming") ||
-            id.includes("node_modules/hls.js") ||
-            id.includes("node_modules/react-player") ||
-            id.includes("node_modules/react-youtube") ||
-            id.includes("node_modules/mpegts.js")
-          ) {
-            return "video-stack"
-          }
-
-          if (id.includes("node_modules/@tanstack/react-query")) {
-            return "query"
-          }
-
-          if (
-            id.includes("node_modules/@radix-ui/react-dialog") ||
-            id.includes("node_modules/@radix-ui/react-dropdown-menu") ||
-            id.includes("node_modules/@radix-ui/react-popover") ||
-            id.includes("node_modules/@radix-ui/react-select") ||
-            id.includes("node_modules/@radix-ui/react-tabs") ||
-            id.includes("node_modules/@radix-ui/react-toast")
-          ) {
-            return "ui-components"
-          }
-
-          return undefined
-        },
+        manualChunks: {
+          // ظ£à Separate heavy vendor libraries
+          'globe-gl': ['globe.gl'],
+          'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
+          // iptv-channels.ts is now server-only ظ¤ not in client bundle
+          'ui-components': [
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-dropdown-menu',
+            '@radix-ui/react-popover',
+            '@radix-ui/react-select',
+            '@radix-ui/react-tabs',
+            '@radix-ui/react-toast',
+          ],
+          'query': ['@tanstack/react-query'],
+        }
       }
     },
     // ظ£à Optimization settings
