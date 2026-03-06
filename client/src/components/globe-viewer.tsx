@@ -52,11 +52,13 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     workerRef.current = worker
 
     // Send init with OffscreenCanvas (transferred)
+    // NOTE: send CSS pixels — worker calls renderer.setPixelRatio(dpr) internally
+    // Sending physical pixels causes double-scaling: controls feel 3x too slow on DPR=3 phones
     worker.postMessage({
       type: "init",
       canvas: offscreen,
-      width: Math.floor(w * dpr),
-      height: Math.floor(h * dpr),
+      width: w,
+      height: h,
       devicePixelRatio: dpr,
       isMobile,
     }, [offscreen])
@@ -103,8 +105,18 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
     // Touch events
     let touchStartX = 0, touchStartY = 0, touchMoved = false
+    let lastPinchDist = 0, isPinching = false
     const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length === 2) {
+        isPinching = true
+        const dx = e.touches[0].clientX - e.touches[1].clientX
+        const dy = e.touches[0].clientY - e.touches[1].clientY
+        lastPinchDist = Math.sqrt(dx * dx + dy * dy)
+        post({ type: "touchend" })
+        return
+      }
       if (e.touches.length !== 1) return
+      isPinching = false
       const t = e.touches[0]
       touchStartX = t.clientX
       touchStartY = t.clientY
@@ -112,16 +124,26 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       post({ type: "touchstart", x: t.clientX, y: t.clientY })
     }
     const onTouchMove = (e: TouchEvent) => {
-      if (e.touches.length !== 1) return
+      e.preventDefault()
+      if (e.touches.length === 2 && isPinching) {
+        const dx = e.touches[0].clientX - e.touches[1].clientX
+        const dy = e.touches[0].clientY - e.touches[1].clientY
+        const dist = Math.sqrt(dx * dx + dy * dy)
+        const delta = (lastPinchDist - dist) * 3
+        lastPinchDist = dist
+        post({ type: "wheel", delta })
+        return
+      }
+      if (e.touches.length !== 1 || isPinching) return
       const t = e.touches[0]
       touchMoved = true
-      e.preventDefault()
       post({ type: "touchmove", x: t.clientX, y: t.clientY })
     }
     const onTouchEnd = (e: TouchEvent) => {
+      if (e.touches.length === 0) isPinching = false
       post({ type: "touchend" })
       // Tap detection: if didn't move, treat as click
-      if (!touchMoved && e.changedTouches.length === 1) {
+      if (!touchMoved && !isPinching && e.changedTouches.length === 1) {
         const t = e.changedTouches[0]
         const dx = t.clientX - touchStartX
         const dy = t.clientY - touchStartY
@@ -140,7 +162,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     canvas.addEventListener("mousemove", onMouseMove)
     canvas.addEventListener("click", onClick)
     canvas.addEventListener("wheel", onWheel, { passive: false })
-    canvas.addEventListener("touchstart", onTouchStart, { passive: true })
+    canvas.addEventListener("touchstart", onTouchStart, { passive: false })
     canvas.addEventListener("touchmove", onTouchMove, { passive: false })
     canvas.addEventListener("touchend", onTouchEnd, { passive: true })
 
@@ -150,8 +172,8 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       const ch = container.clientHeight
       worker.postMessage({
         type: "resize",
-        width: Math.floor(cw * dpr),
-        height: Math.floor(ch * dpr),
+        width: cw,
+        height: ch,
       })
     })
     ro.observe(container)

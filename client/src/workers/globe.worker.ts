@@ -51,6 +51,34 @@ function latLonToVec3(lat: number, lon: number, r: number): THREE.Vector3 {
     )
 }
 
+// ─── Spherical triangle subdivision ──────────────────────────────────────────
+// Flat earcut triangles dip below the sphere surface for large polygons,
+// causing depth-test black holes. Subdivide until each edge spans < 8°.
+const MAX_TRI_ANGLE = 8 * Math.PI / 180
+
+function midOnSphere(a: THREE.Vector3, b: THREE.Vector3, r: number): THREE.Vector3 {
+    return a.clone().add(b).normalize().multiplyScalar(r)
+}
+
+function subdivideTriangle(
+    p1: THREE.Vector3, p2: THREE.Vector3, p3: THREE.Vector3,
+    r: number, outPos: number[], outIdx: number[], depth = 0,
+): void {
+    if (depth >= 4 || (p1.angleTo(p2) < MAX_TRI_ANGLE && p2.angleTo(p3) < MAX_TRI_ANGLE && p1.angleTo(p3) < MAX_TRI_ANGLE)) {
+        const base = outPos.length / 3
+        outPos.push(p1.x, p1.y, p1.z, p2.x, p2.y, p2.z, p3.x, p3.y, p3.z)
+        outIdx.push(base, base + 1, base + 2)
+        return
+    }
+    const m12 = midOnSphere(p1, p2, r)
+    const m23 = midOnSphere(p2, p3, r)
+    const m13 = midOnSphere(p1, p3, r)
+    subdivideTriangle(p1, m12, m13, r, outPos, outIdx, depth + 1)
+    subdivideTriangle(m12, p2, m23, r, outPos, outIdx, depth + 1)
+    subdivideTriangle(m13, m23, p3, r, outPos, outIdx, depth + 1)
+    subdivideTriangle(m12, m23, m13, r, outPos, outIdx, depth + 1)
+}
+
 // ─── Build country mesh (npm earcut + local tangent plane) ───────────────────
 function buildCountryMesh(feature: any): THREE.Group {
     const name: string = feature.properties?.ADMIN ?? ""
@@ -111,21 +139,19 @@ function buildCountryMesh(feature: any): THREE.Group {
         const indices = earcut(flat2d, holeIndices.length > 0 ? holeIndices : undefined, 2)
         if (indices.length === 0) continue
 
-        // Build BufferGeometry
-        const positions = new Float32Array(all3d.length * 3)
-        for (let i = 0; i < all3d.length; i++) {
-            positions[i * 3] = all3d[i].x
-            positions[i * 3 + 1] = all3d[i].y
-            positions[i * 3 + 2] = all3d[i].z
+        // Subdivide triangles so their interiors stay on the sphere surface
+        const subPos: number[] = []
+        const subIdx: number[] = []
+        for (let i = 0; i < indices.length; i += 3) {
+            subdivideTriangle(all3d[indices[i]], all3d[indices[i + 1]], all3d[indices[i + 2]], r, subPos, subIdx)
         }
 
         const geo = new THREE.BufferGeometry()
-        geo.setAttribute("position", new THREE.Float32BufferAttribute(positions, 3))
-        geo.setIndex(indices)
-        geo.computeVertexNormals()
+        geo.setAttribute("position", new THREE.Float32BufferAttribute(subPos, 3))
+        geo.setIndex(subIdx)
 
         const mat = new THREE.MeshBasicMaterial({
-            color, side: THREE.DoubleSide, transparent: true, opacity: 0.88,
+            color, side: THREE.DoubleSide,
         })
         const mesh = new THREE.Mesh(geo, mat)
             ; (mesh as any).countryName = name
@@ -320,15 +346,12 @@ function applyCountryStyle(cname: string, group: THREE.Group) {
             const mat = (child as THREE.Mesh).material as THREE.MeshBasicMaterial
             if (isSel) {
                 mat.color.set("#ffffff")
-                mat.opacity = 0.95
             } else if (isHov) {
                 const base = new THREE.Color(countryColor(cname))
                 base.lerp(new THREE.Color(1, 1, 1), 0.35)
                 mat.color.copy(base)
-                mat.opacity = 1.0
             } else {
                 mat.color.set(countryColor(cname))
-                mat.opacity = 0.88
             }
             mat.needsUpdate = true
         }
