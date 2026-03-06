@@ -41,33 +41,11 @@ export default function Home() {
       })
     }
 
+    // On mobile: longer delay so page renders + TBT stays low
+    // On desktop: use requestIdleCallback to avoid blocking main thread
     if (isMobile) {
-      // On mobile: load globe only after first user interaction.
-      // Lighthouse simulates a bot with no interaction → globe never loads during test.
-      // Real users see globe instantly on first touch/scroll.
-      let loaded = false
-      const onInteract = () => {
-        if (loaded) return
-        loaded = true
-        loadGlobe()
-        window.removeEventListener("touchstart", onInteract)
-        window.removeEventListener("click", onInteract)
-        window.removeEventListener("scroll", onInteract)
-        window.removeEventListener("pointermove", onInteract)
-      }
-      window.addEventListener("touchstart", onInteract, { passive: true })
-      window.addEventListener("click", onInteract, { passive: true })
-      window.addEventListener("scroll", onInteract, { passive: true })
-      window.addEventListener("pointermove", onInteract, { passive: true })
-      // Fallback: load after 8s even if no interaction (safety net)
-      const fallback = setTimeout(() => onInteract(), 8000)
-      return () => {
-        window.removeEventListener("touchstart", onInteract)
-        window.removeEventListener("click", onInteract)
-        window.removeEventListener("scroll", onInteract)
-        window.removeEventListener("pointermove", onInteract)
-        clearTimeout(fallback)
-      }
+      const t = setTimeout(loadGlobe, 2000)
+      return () => clearTimeout(t)
     } else if (typeof requestIdleCallback !== 'undefined') {
       const id = requestIdleCallback(loadGlobe, { timeout: 3000 })
       return () => cancelIdleCallback(id)
