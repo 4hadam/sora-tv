@@ -34,15 +34,12 @@ export default defineConfig({
     modulePreload: {
       resolveDependencies: (_filename: string, deps: string[]) =>
         deps.filter((d) =>
-          !d.includes('globe') &&
           !d.includes('video')
         ),
     },
     rollupOptions: {
       output: {
         manualChunks: {
-          // ظ£à Separate heavy vendor libraries
-          'globe-gl': ['globe.gl'],
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
           // iptv-channels.ts is now server-only ظ¤ not in client bundle
           'ui-components': [
