@@ -71,8 +71,6 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
   const stars = useRef<THREE.Group | null>(null)
   const ro = useRef<ResizeObserver | null>(null)
   const tapStart = useRef<{ x: number; y: number; t: number; id: number } | null>(null)
-  // Hidden until globe.gl's internal scale-in animation finishes
-  const [visible, setVisible] = useState(false)
 
   const capColor = useCallback((d: any) => {
     const n = d?.properties?.ADMIN ?? ""
@@ -149,8 +147,6 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
               if (name) onCountryClick?.(name)
             })
           // Signal home.tsx that the globe is fully rendered with countries
-          // Show the canvas now — animation has already finished internally
-          setVisible(true)
           onReady?.()
         }
         worker.onerror = () => worker.terminate()
@@ -223,7 +219,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     <div
       ref={el}
       className="w-full h-full bg-transparent"
-      style={{ touchAction: "none", opacity: visible ? 1 : 0 }}
+      style={{ touchAction: "none" }}
       aria-label="interactive globe"
     />
   )

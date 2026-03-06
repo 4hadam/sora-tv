@@ -276,14 +276,18 @@ export default function Home() {
 
 
         {/* Globe Viewer */}
+        {/* Globe is always rendered, but placeholder is underneath and disappears when globe is ready */}
         <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
+          <GlobePlaceholder onActivate={triggerGlobeLoad} />
           {GlobeViewer && (
-            <GlobeViewer
-              selectedCountry={selectedCountry}
-              onCountryClick={handleGlobeCountryClick}
-              isMobile={isMobile}
-              onReady={() => setGlobeReady(true)}
-            />
+            <div className={`absolute inset-0 transition-opacity duration-500 ${globeReady ? 'opacity-100' : 'opacity-0'}`}>
+              <GlobeViewer
+                selectedCountry={selectedCountry}
+                onCountryClick={handleGlobeCountryClick}
+                isMobile={isMobile}
+                onReady={() => setGlobeReady(true)}
+              />
+            </div>
           )}
         </div>
 
