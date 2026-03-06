@@ -110,22 +110,9 @@ export default function Home() {
   const isMobile = useIsMobileDevice()
 
   // Load globe automatically on both desktop and mobile.
+  // Load globe immediately on mount — no delay on any device
   useEffect(() => {
-    const loadGlobe = () =>
-      import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
-    if (typeof requestIdleCallback !== 'undefined') {
-      const id = requestIdleCallback(loadGlobe, { timeout: 2000 })
-      return () => cancelIdleCallback(id)
-    }
-    const t = setTimeout(loadGlobe, 800)
-    return () => clearTimeout(t)
-  }, [isMobile])
-
-  const triggerGlobeLoad = useCallback(() => {
-    if (!globeTriggeredRef.current) {
-      globeTriggeredRef.current = true
-      import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
-    }
+    import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
   }, [])
 
   // Fallback: reveal globe after 12 s even if onReady never fires
