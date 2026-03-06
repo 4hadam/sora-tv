@@ -84,6 +84,8 @@ function GlobePlaceholder({ onActivate }: { onActivate?: () => void }) {
   )
 }
 
+import { LoadingScreen } from "@/components/loading-screen";
+
 // ≡اأ Lazy-load heavy components that import 1.7MB iptv-channels.ts
 // This keeps the initial bundle lean and defers channel-data parsing to after first paint
 const CountrySidebar = lazy(() => import("@/components/country-sidebar"))
