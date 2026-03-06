@@ -222,7 +222,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     <div
       ref={el}
       className="w-full h-full bg-transparent"
-      style={{ touchAction: "none", visibility: localReady ? 'visible' : 'hidden' }}
+      style={{ touchAction: "none", opacity: localReady ? 1 : 0, pointerEvents: localReady ? 'auto' : 'none' }}
       aria-label="interactive globe"
     />
   )
