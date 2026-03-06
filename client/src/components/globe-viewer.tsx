@@ -87,6 +87,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
         const Factory = (await import("globe.gl")).default
         if (dead) return
 
+        const targetAlt = isMobile ? 3.5 : 2.5
         const g = Factory()(el.current)
           .globeImageUrl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")
           .showAtmosphere(true)
@@ -95,6 +96,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
           .polygonSideColor(() => "rgba(0,0,0,0)")
           .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.25)")
           .polygonAltitude(0.01)
+          .polygonTransitionDuration(0)
 
         g.scene().background = new THREE.Color(0x000000)
         g.renderer().setClearColor(0x000000, 1)
@@ -111,15 +113,18 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
         ro.current.observe(el.current)
         window.addEventListener("resize", resize)
 
+        // Set camera position immediately — also inside onGlobeReady to override any internal animation
+        g.pointOfView({ altitude: targetAlt }, 0)
+        g.onGlobeReady(() => {
+          if (dead) return
+          g.pointOfView({ altitude: targetAlt }, 0)
+          g.controls().update()
+        })
+
         // controls
         const ctrl = g.controls()
         ctrl.autoRotate = false; ctrl.enableZoom = true
         ctrl.minDistance = 150; ctrl.maxDistance = 500
-        // Set camera AFTER globe canvas is ready to avoid fly-in animation
-        if (typeof (g as any).waitForGlobeReady === 'function') {
-          await (g as any).waitForGlobeReady()
-        }
-        g.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
 
         // stars
         stars.current = addStars(g.scene(), isMobile)
@@ -176,7 +181,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
   // ── altitude on mobile/desktop switch ─────────────────────────────────────
   useEffect(() => {
-    globe.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 400)
+    globe.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
   }, [isMobile])
 
   // ── mobile tap → raycasting country click ─────────────────────────────────
