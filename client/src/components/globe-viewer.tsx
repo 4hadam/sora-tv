@@ -1,6 +1,6 @@
 ﻿"use client"
 
-import { useEffect, useRef, useCallback } from "react"
+import { useEffect, useRef, useCallback, useState } from "react"
 import * as THREE from "three"
 import type { GlobeInstance } from "globe.gl"
 
@@ -71,6 +71,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
   const stars = useRef<THREE.Group | null>(null)
   const ro = useRef<ResizeObserver | null>(null)
   const tapStart = useRef<{ x: number; y: number; t: number; id: number } | null>(null)
+  const [localReady, setLocalReady] = useState(false)
 
   const capColor = useCallback((d: any) => {
     const n = d?.properties?.ADMIN ?? ""
@@ -114,6 +115,10 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
         const ctrl = g.controls()
         ctrl.autoRotate = false; ctrl.enableZoom = true
         ctrl.minDistance = 150; ctrl.maxDistance = 500
+        // Set camera AFTER globe canvas is ready to avoid fly-in animation
+        if (typeof (g as any).waitForGlobeReady === 'function') {
+          await (g as any).waitForGlobeReady()
+        }
         g.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
 
         // stars
@@ -143,7 +148,8 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
               const name = d?.properties?.ADMIN ?? ""
               if (name) onCountryClick?.(name)
             })
-          // Signal home.tsx that the globe is fully rendered with countries
+          // Reveal globe and signal home.tsx — camera is already at final position
+          setLocalReady(true)
           onReady?.()
         }
         worker.onerror = () => worker.terminate()
@@ -216,7 +222,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     <div
       ref={el}
       className="w-full h-full bg-transparent"
-      style={{ touchAction: "none" }}
+      style={{ touchAction: "none", visibility: localReady ? 'visible' : 'hidden' }}
       aria-label="interactive globe"
     />
   )
