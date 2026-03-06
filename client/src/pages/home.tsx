@@ -59,41 +59,13 @@ export default function Home() {
   useEffect(() => {
     // Start in low mode to keep main thread free, then upgrade after idle time.
     setGlobeQualityMode("low")
-
-    if (isMobile) {
-      let upgraded = false
-      const upgrade = () => {
-        if (upgraded) return
-        upgraded = true
-        setGlobeQualityMode("high")
-      }
-
-      const onFirstInteraction = () => {
-        upgrade()
-        window.removeEventListener("pointerdown", onFirstInteraction)
-        window.removeEventListener("touchstart", onFirstInteraction)
-        window.removeEventListener("keydown", onFirstInteraction)
-      }
-
-      window.addEventListener("pointerdown", onFirstInteraction, { passive: true })
-      window.addEventListener("touchstart", onFirstInteraction, { passive: true })
-      window.addEventListener("keydown", onFirstInteraction)
-
-      // Fallback: eventually upgrade for users who only watch without interaction.
-      const t = setTimeout(upgrade, 12000)
-      return () => {
-        clearTimeout(t)
-        window.removeEventListener("pointerdown", onFirstInteraction)
-        window.removeEventListener("touchstart", onFirstInteraction)
-        window.removeEventListener("keydown", onFirstInteraction)
-      }
-    }
-
     if (typeof requestIdleCallback !== "undefined") {
-      const id = requestIdleCallback(() => setGlobeQualityMode("high"), { timeout: 2500 })
+      const id = requestIdleCallback(() => setGlobeQualityMode("high"), {
+        timeout: isMobile ? 4500 : 2500,
+      })
       return () => cancelIdleCallback(id)
     }
-    const t = setTimeout(() => setGlobeQualityMode("high"), 2500)
+    const t = setTimeout(() => setGlobeQualityMode("high"), isMobile ? 4500 : 2500)
     return () => clearTimeout(t)
   }, [isMobile])
 
