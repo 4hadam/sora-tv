@@ -8,6 +8,7 @@ interface GlobeViewerProps {
   selectedCountry: string | null
   onCountryClick?: (countryName: string) => void
   isMobile?: boolean
+  qualityMode?: "low" | "high"
 }
 
 // 15-color vivid palette — hash-based per country
@@ -55,15 +56,17 @@ function starLayer(n: number, sz: number): THREE.Points {
     size: sz, sizeAttenuation: true, vertexColors: true, depthWrite: false, depthTest: false,
   }))
 }
-function addStars(scene: THREE.Scene, mobile: boolean): THREE.Group {
+function addStars(scene: THREE.Scene, mobile: boolean, qualityMode: "low" | "high"): THREE.Group {
   const g = new THREE.Group(); g.renderOrder = -1
-  const counts = mobile ? [280, 360, 120] : [700, 800, 300]
+  const counts = mobile
+    ? qualityMode === "high" ? [280, 360, 120] : [180, 240, 80]
+    : qualityMode === "high" ? [700, 800, 300] : [420, 520, 180]
   const sizes = [1.0, 3.5, 5.0]
   counts.forEach((n, i) => g.add(starLayer(n, sizes[i])))
   scene.add(g); return g
 }
 
-export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false }: GlobeViewerProps) {
+export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false, qualityMode = "high" }: GlobeViewerProps) {
   const el = useRef<HTMLDivElement>(null)
   const globe = useRef<GlobeInstance | null>(null)
   const polys = useRef<any[]>([])
@@ -75,6 +78,32 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     const n = d?.properties?.ADMIN ?? ""
     return n === selectedCountry ? "rgba(255,255,255,0.95)" : countryColor(n)
   }, [selectedCountry])
+
+  const applyQualityMode = useCallback((mode: "low" | "high") => {
+    if (!globe.current) return
+    const renderer = globe.current.renderer()
+    const nextPixelRatio = isMobile
+      ? (mode === "high" ? 1 : 0.85)
+      : (mode === "high" ? Math.min(devicePixelRatio, 1.5) : 1)
+    renderer.setPixelRatio(nextPixelRatio)
+
+    if (stars.current) {
+      stars.current.children.forEach((c: any) => {
+        c.geometry?.dispose(); c.material?.dispose()
+      })
+      globe.current.scene().remove(stars.current)
+      stars.current = null
+    }
+    stars.current = addStars(globe.current.scene(), isMobile, mode)
+
+    globe.current
+      .polygonStrokeColor(() => (mode === "high" && !isMobile) ? "rgba(0,0,0,0.25)" : false)
+      .polygonLabel((d: any) => {
+        if (isMobile || mode === "low") return ""
+        const name = d?.properties?.ADMIN ?? ""
+        return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ""
+      })
+  }, [isMobile])
 
   // ── init ──────────────────────────────────────────────────────────────────
   useEffect(() => {
@@ -92,12 +121,16 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
           .atmosphereColor("#4488FF")
           .atmosphereAltitude(0.28)
           .polygonSideColor(() => "rgba(0,0,0,0)")
-          .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.25)")
+          .polygonStrokeColor(() => (qualityMode === "high" && !isMobile) ? "rgba(0,0,0,0.25)" : false)
           .polygonAltitude(0.01)
 
         g.scene().background = new THREE.Color(0x000000)
         g.renderer().setClearColor(0x000000, 1)
-        g.renderer().setPixelRatio(isMobile ? 1 : Math.min(devicePixelRatio, 1.5))
+        g.renderer().setPixelRatio(
+          isMobile
+            ? (qualityMode === "high" ? 1 : 0.85)
+            : (qualityMode === "high" ? Math.min(devicePixelRatio, 1.5) : 1)
+        )
         globe.current = g
 
         // responsive resize
@@ -118,7 +151,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
         g.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
 
         // stars
-        stars.current = addStars(g.scene(), isMobile)
+        stars.current = addStars(g.scene(), isMobile, qualityMode)
 
         // load GeoJSON via Web Worker — keeps main thread free
         const worker = new Worker(
@@ -137,7 +170,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
             .polygonGeoJsonGeometry((d: any) => d.geometry)
             .polygonCapColor(capColor)
             .polygonLabel((d: any) => {
-              if (isMobile) return ""
+              if (isMobile || qualityMode === "low") return ""
               const name = d?.properties?.ADMIN ?? ""
               return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ""
             })
@@ -161,6 +194,10 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       }
     }
   }, [isMobile])
+
+  useEffect(() => {
+    applyQualityMode(qualityMode)
+  }, [qualityMode, applyQualityMode])
 
   // ── update cap colors on selection change ─────────────────────────────────
   useEffect(() => {
