@@ -114,7 +114,14 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
         const ctrl = g.controls()
         ctrl.autoRotate = false; ctrl.enableZoom = true
         ctrl.minDistance = 150; ctrl.maxDistance = 500
-        g.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
+
+        // Set camera position immediately (0ms) to skip globe.gl's default zoom-in animation
+        const targetAlt = isMobile ? 3.5 : 2.5
+        g.pointOfView({ altitude: targetAlt }, 0)
+        // Override globe.gl internal init animation by setting it again after one frame
+        requestAnimationFrame(() => {
+          globe.current?.pointOfView({ altitude: targetAlt }, 0)
+        })
 
         // stars
         stars.current = addStars(g.scene(), isMobile)
