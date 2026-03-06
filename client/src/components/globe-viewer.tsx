@@ -71,6 +71,9 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       if (msg.type === "countryClick" && msg.name) {
         onCountryClick?.(msg.name)
       }
+      if (msg.type === "hover") {
+        canvas.style.cursor = msg.name ? "pointer" : "grab"
+      }
     }
 
     // ── Forward DOM events to worker ──────────────────────────────────────
@@ -82,7 +85,10 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     const onMouseUp = () => post({ type: "mouseup" })
     const onMouseLeave = () => post({ type: "mouseleave" })
     const onMouseMove = (e: MouseEvent) => {
-      post({ type: "mousemove", x: e.clientX, y: e.clientY })
+      const rect = canvas.getBoundingClientRect()
+      const ndcX = ((e.clientX - rect.left) / rect.width) * 2 - 1
+      const ndcY = -((e.clientY - rect.top) / rect.height) * 2 + 1
+      post({ type: "mousemove", x: e.clientX, y: e.clientY, ndcX, ndcY })
     }
     const onClick = (e: MouseEvent) => {
       const rect = canvas.getBoundingClientRect()
