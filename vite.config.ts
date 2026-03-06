@@ -30,18 +30,25 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
-    // Don't inject <link rel="modulepreload"> only for truly async heavy chunks
+    // Never inject <link rel="modulepreload"> for heavy 3D / video chunks
     modulePreload: {
       resolveDependencies: (_filename: string, deps: string[]) =>
         deps.filter((d) =>
-          !d.includes('video')
+          !d.includes('video') &&
+          !d.includes('three') &&
+          !d.includes('globe') &&
+          !d.includes('mpegts')
         ),
     },
     rollupOptions: {
       output: {
         manualChunks: {
+          // Heavy 3D — isolated so they never block initial parse
+          'three-core': ['three'],
+          'globe-gl': ['globe.gl'],
+          // Video player
           'video-player': ['video.js', '@videojs/http-streaming', 'hls.js'],
-          // iptv-channels.ts is now server-only ظ¤ not in client bundle
+          // iptv-channels.ts is now server-only — not in client bundle
           'ui-components': [
             '@radix-ui/react-dialog',
             '@radix-ui/react-dropdown-menu',

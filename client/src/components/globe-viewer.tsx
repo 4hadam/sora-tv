@@ -58,7 +58,7 @@ function starLayer(n: number, sz: number): THREE.Points {
 }
 function addStars(scene: THREE.Scene, mobile: boolean): THREE.Group {
   const g = new THREE.Group(); g.renderOrder = -1
-  const counts = mobile ? [500, 600, 200] : [700, 800, 300]
+  const counts = mobile ? [150, 200, 50] : [700, 800, 300]  // 75% fewer stars on mobile
   const sizes = [1.0, 3.5, 5.0]
   counts.forEach((n, i) => g.add(starLayer(n, sizes[i])))
   scene.add(g); return g
@@ -88,7 +88,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
         const g = Factory()(el.current)
           .globeImageUrl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")
-          .showAtmosphere(true)
+          .showAtmosphere(!isMobile)  // atmosphere is expensive on mobile GPU
           .atmosphereColor("#4488FF")
           .atmosphereAltitude(0.28)
           .polygonSideColor(() => "rgba(0,0,0,0)")
@@ -97,7 +97,8 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
         g.scene().background = new THREE.Color(0x000000)
         g.renderer().setClearColor(0x000000, 1)
-        g.renderer().setPixelRatio(Math.min(devicePixelRatio, 1.5))
+        // Cap DPR at 1.0 on mobile to halve GPU fill-rate work
+        g.renderer().setPixelRatio(isMobile ? 1.0 : Math.min(devicePixelRatio, 1.5))
         globe.current = g
 
         // responsive resize
