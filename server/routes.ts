@@ -1,71 +1,11 @@
-import type { Express, Request, Response, NextFunction } from "express";
+import type { Express } from "express";
 import { createServer, type Server } from "http";
 import http from "http";
 import https from "https";
 import { storage } from "./storage";
 import { channelsByCountry, getChannelsByCountry, getChannelsByCategory, type IPTVChannel, normalizeYouTubeUrl } from "@shared/iptv-channels";
 
-// ─────────────────────────────────────────────────────────────────────────────
-// SSRF Protection — block requests to private / loopback / link-local ranges
-// ─────────────────────────────────────────────────────────────────────────────
-function isSafeProxyUrl(urlStr: string): boolean {
-  try {
-    const u = new URL(urlStr);
-    if (!["http:", "https:"].includes(u.protocol)) return false;
-    const h = u.hostname.toLowerCase();
-    if (h === "localhost" || h === "0.0.0.0") return false;
-    if (h === "[::1]" || h === "::1") return false;
-    if (/^127\./.test(h)) return false;                        // 127.0.0.0/8
-    if (/^10\./.test(h)) return false;                         // 10.0.0.0/8
-    if (/^172\.(1[6-9]|2\d|3[01])\./.test(h)) return false;   // 172.16-31.x.x
-    if (/^192\.168\./.test(h)) return false;                   // 192.168.0.0/16
-    if (/^169\.254\./.test(h)) return false;                   // 169.254.0.0/16 (link-local)
-    if (/^100\.6[4-9]\.|^100\.[7-9]\d\.|^100\.1[0-1]\d\.|^100\.12[0-7]\./.test(h)) return false; // 100.64.0.0/10 (CGNAT)
-    if (h.endsWith(".local") || h.endsWith(".internal")) return false;
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// Rate Limiter — simple in-memory sliding-window per IP
-// ─────────────────────────────────────────────────────────────────────────────
-interface RateBucket { count: number; reset: number }
-const _rlMap = new Map<string, RateBucket>();
-// Clean stale entries every 5 minutes
-setInterval(() => {
-  const now = Date.now();
-  for (const [key, bucket] of _rlMap) {
-    if (now > bucket.reset) _rlMap.delete(key);
-  }
-}, 5 * 60 * 1000);
-
-function getRateLimiter(limit: number, windowMs: number) {
-  return (req: Request, res: Response, next: NextFunction) => {
-    const ip = (req.headers["x-forwarded-for"] as string)?.split(",")[0]?.trim() || req.socket.remoteAddress || "unknown";
-    const key = `${req.path}:${ip}`;
-    const now = Date.now();
-    const bucket = _rlMap.get(key);
-    if (!bucket || now > bucket.reset) {
-      _rlMap.set(key, { count: 1, reset: now + windowMs });
-      return next();
-    }
-    if (bucket.count >= limit) {
-      res.setHeader("Retry-After", String(Math.ceil((bucket.reset - now) / 1000)));
-      return res.status(429).json({ error: "Too many requests — please slow down" });
-    }
-    bucket.count++;
-    next();
-  };
-}
-
-// Proxy rate limit: 120 requests / minute per IP
-const proxyRateLimit = getRateLimiter(120, 60_000);
-
-// ─────────────────────────────────────────────────────────────────────────────
 // Helper function for channel filtering
-// ─────────────────────────────────────────────────────────────────────────────
 function filterChannel(channel: IPTVChannel, category: string | null): boolean {
   if (!category || category === "all-channels" || category === "about" || category.startsWith("faq") || category.startsWith("privacy") || category.startsWith("feedback")) {
     return true;
@@ -93,24 +33,14 @@ export async function registerRoutes(
   app: Express
 ): Promise<Server> {
 
-  // ── Health check ────────────────────────────────────────────────────────────
-  app.get("/api/health", (_req, res) => {
-    res.json({ status: "ok", timestamp: new Date().toISOString() });
-  });
-
   // Proxy API
-  app.get("/api/proxy", proxyRateLimit, async (req, res) => {
+  app.get("/api/proxy", async (req, res) => {
     try {
       const url = req.query.url as string;
       const key = req.query.key as string;
 
       if (!url) {
         return res.status(400).json({ error: "Missing 'url' parameter" });
-      }
-
-      // SSRF protection — block private / loopback / internal addresses
-      if (!isSafeProxyUrl(url)) {
-        return res.status(403).json({ error: "URL not allowed" });
       }
 
       // Optional API Key check
@@ -235,14 +165,9 @@ export async function registerRoutes(
   });
 
   // Stream proxy — follows redirects and pipes live MPEG-TS reliably
-  app.get("/api/stream", proxyRateLimit, (req, res) => {
+  app.get("/api/stream", (req, res) => {
     const url = req.query.url as string;
     if (!url) return res.status(400).end("Missing url");
-
-    // SSRF protection
-    if (!isSafeProxyUrl(url)) {
-      return res.status(403).end("URL not allowed");
-    }
 
     let activeReq: http.ClientRequest | null = null;
 

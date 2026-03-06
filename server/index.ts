@@ -22,32 +22,6 @@ declare module "http" {
 // Gzip compression for all responses
 app.use(compression());
 
-// Security headers (replaces helmet for zero extra deps)
-app.use((_req: Request, res: Response, next: NextFunction) => {
-  res.setHeader("X-Content-Type-Options", "nosniff");
-  res.setHeader("X-Frame-Options", "SAMEORIGIN");
-  res.setHeader("X-XSS-Protection", "1; mode=block");
-  res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
-  res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
-  // Allow inline scripts & styles needed by Vite/React, media from *
-  res.setHeader(
-    "Content-Security-Policy",
-    [
-      "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.youtube.com https://www.youtube-nocookie.com",
-      "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: https: http:",
-      "media-src 'self' blob: https: http:",
-      "connect-src 'self' https: http: wss: ws:",
-      "frame-src https://www.youtube.com https://www.youtube-nocookie.com",
-      "font-src 'self' data:",
-      "object-src 'none'",
-      "base-uri 'self'",
-    ].join("; ")
-  );
-  next();
-});
-
 // Force HTTPS in production (Railway terminates SSL and sets X-Forwarded-Proto)
 if (process.env.NODE_ENV === "production") {
   app.use((req: Request, res: Response, next: NextFunction) => {
