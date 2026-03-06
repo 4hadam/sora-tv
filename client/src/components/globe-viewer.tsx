@@ -8,7 +8,6 @@ interface GlobeViewerProps {
   selectedCountry: string | null
   onCountryClick?: (countryName: string) => void
   isMobile?: boolean
-  onReady?: () => void
 }
 
 // 15-color vivid palette — hash-based per country
@@ -58,13 +57,13 @@ function starLayer(n: number, sz: number): THREE.Points {
 }
 function addStars(scene: THREE.Scene, mobile: boolean): THREE.Group {
   const g = new THREE.Group(); g.renderOrder = -1
-  const counts = mobile ? [500, 600, 200] : [700, 800, 300]
+  const counts = mobile ? [280, 360, 120] : [700, 800, 300]
   const sizes = [1.0, 3.5, 5.0]
   counts.forEach((n, i) => g.add(starLayer(n, sizes[i])))
   scene.add(g); return g
 }
 
-export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false, onReady }: GlobeViewerProps) {
+export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false }: GlobeViewerProps) {
   const el = useRef<HTMLDivElement>(null)
   const globe = useRef<GlobeInstance | null>(null)
   const polys = useRef<any[]>([])
@@ -81,6 +80,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
   useEffect(() => {
     let dead = false
     const ac = new AbortController()
+    let onWindowResize: (() => void) | null = null
       ; (async () => {
         if (!el.current) return
         const Factory = (await import("globe.gl")).default
@@ -97,7 +97,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
         g.scene().background = new THREE.Color(0x000000)
         g.renderer().setClearColor(0x000000, 1)
-        g.renderer().setPixelRatio(Math.min(devicePixelRatio, 1.5))
+        g.renderer().setPixelRatio(isMobile ? 1 : Math.min(devicePixelRatio, 1.5))
         globe.current = g
 
         // responsive resize
@@ -106,6 +106,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
           globe.current.width(el.current.clientWidth).height(el.current.clientHeight)
         }
         resize()
+        onWindowResize = resize
         ro.current = new ResizeObserver(resize)
         ro.current.observe(el.current)
         window.addEventListener("resize", resize)
@@ -124,7 +125,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
           new URL("../workers/geojson.worker.ts", import.meta.url),
           { type: "module" }
         )
-        worker.postMessage(null)
+        worker.postMessage({ mobile: isMobile })
         worker.onmessage = (e) => {
           worker.terminate()
           if (dead || !e.data.ok) return
@@ -136,6 +137,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
             .polygonGeoJsonGeometry((d: any) => d.geometry)
             .polygonCapColor(capColor)
             .polygonLabel((d: any) => {
+              if (isMobile) return ""
               const name = d?.properties?.ADMIN ?? ""
               return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ""
             })
@@ -143,8 +145,6 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
               const name = d?.properties?.ADMIN ?? ""
               if (name) onCountryClick?.(name)
             })
-          // Signal home.tsx that the globe is fully rendered with countries
-          onReady?.()
         }
         worker.onerror = () => worker.terminate()
       })()
@@ -152,7 +152,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
     return () => {
       dead = true; ac.abort()
       ro.current?.disconnect()
-      window.removeEventListener("resize", () => { })
+      if (onWindowResize) window.removeEventListener("resize", onWindowResize)
       if (stars.current) {
         stars.current.children.forEach((c: any) => {
           c.geometry?.dispose(); c.material?.dispose()
