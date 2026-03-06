@@ -223,9 +223,9 @@ class OrbitControl {
     private _w = 1
     private _h = 1
 
-    constructor(radius: number, mobile: boolean) {
-        this.minDist = mobile ? 180 : 170
-        this.maxDist = mobile ? 500 : 500
+    constructor(radius: number) {
+        this.minDist = 170
+        this.maxDist = 500
         this.spherical.set(radius, Math.PI / 2, 0)
     }
 
@@ -372,8 +372,9 @@ function pickCountry(ndcX: number, ndcY: number): string | null {
 // ─── Init ────────────────────────────────────────────────────────────────────
 function initScene(canvas: OffscreenCanvas, w: number, h: number, dpr: number, mobile: boolean) {
     isMobileDevice = mobile
-    renderer = new THREE.WebGLRenderer({ canvas, antialias: !mobile, alpha: false, powerPreference: "high-performance" })
-    renderer.setPixelRatio(Math.min(dpr, mobile ? 1.0 : 1.5))
+    // Same quality on all devices — no degradation on mobile
+    renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: false, powerPreference: "high-performance" })
+    renderer.setPixelRatio(Math.min(dpr, 2))
     renderer.setSize(w, h, false)
     renderer.setClearColor(0x000000, 1)
 
@@ -382,11 +383,11 @@ function initScene(canvas: OffscreenCanvas, w: number, h: number, dpr: number, m
 
     scene.add(buildGlobe())
     scene.add(buildAtmosphere())
-    addStars(scene, mobile)
+    addStars(scene, false)
 
-    // Mobile: further away so globe is visible as a sphere
-    const initRadius = mobile ? 340 : 280
-    orbit = new OrbitControl(initRadius, mobile)
+    // Same distance for all — aspect ratio handles the rest
+    const initRadius = 280
+    orbit = new OrbitControl(initRadius)
     orbit.setSize(w, h)
 
     fetch(GEO_URL)
