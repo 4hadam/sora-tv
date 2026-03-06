@@ -113,18 +113,23 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
         ro.current.observe(el.current)
         window.addEventListener("resize", resize)
 
-        // Set camera position immediately — also inside onGlobeReady to override any internal animation
-        g.pointOfView({ altitude: targetAlt }, 0)
-        g.onGlobeReady(() => {
-          if (dead) return
-          g.pointOfView({ altitude: targetAlt }, 0)
-          g.controls().update()
-        })
-
         // controls
         const ctrl = g.controls()
         ctrl.autoRotate = false; ctrl.enableZoom = true
         ctrl.minDistance = 150; ctrl.maxDistance = 500
+
+        // Override globe.gl internal intro animation:
+        // Set THREE.js camera position DIRECTLY (bypasses globe.gl tween system)
+        const setCamNow = () => {
+          const cam = g.camera() as THREE.PerspectiveCamera
+          const dist = (1 + targetAlt) * 100 // globe.gl default globe radius = 100
+          cam.position.set(0, 0, dist)
+          cam.lookAt(0, 0, 0)
+          ctrl.target.set(0, 0, 0)
+          ctrl.update()
+        }
+        setCamNow()
+        g.onGlobeReady(() => { if (!dead) setCamNow() })
 
         // stars
         stars.current = addStars(g.scene(), isMobile)
@@ -153,9 +158,15 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
               const name = d?.properties?.ADMIN ?? ""
               if (name) onCountryClick?.(name)
             })
-          // Reveal globe and signal home.tsx — camera is already at final position
-          setLocalReady(true)
-          onReady?.()
+          // Force camera to final position, wait 3 frames for WebGL to render
+          // the correct frame before revealing (avoids seeing the fly-in)
+          setCamNow()
+          requestAnimationFrame(() => requestAnimationFrame(() => requestAnimationFrame(() => {
+            if (dead) return
+            setCamNow()
+            setLocalReady(true)
+            onReady?.()
+          })))
         }
         worker.onerror = () => worker.terminate()
       })()
