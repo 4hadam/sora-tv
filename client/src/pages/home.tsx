@@ -276,18 +276,13 @@ export default function Home() {
 
         {/* ≡اî Globe Viewer */}
         <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
-          {/* CSS placeholder — always on top, fades out when real globe signals onReady */}
-          <div
-            style={{
-              position: 'absolute', inset: 0, zIndex: 1,
-              opacity: globeReady ? 0 : 1,
-              transition: 'opacity 0.8s ease',
-              pointerEvents: globeReady ? 'none' : 'auto',
-            }}
-          >
-            <GlobePlaceholder />
-          </div>
-          {/* Real globe — renders underneath, revealed as placeholder fades out */}
+          {/* CSS placeholder — hidden instantly when real globe signals onReady */}
+          {!globeReady && (
+            <div style={{ position: 'absolute', inset: 0, zIndex: 1 }}>
+              <GlobePlaceholder />
+            </div>
+          )}
+          {/* Real globe — replaces placeholder instantly, no zoom animation */}
           {GlobeViewer && (
             <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
               <GlobeViewer
