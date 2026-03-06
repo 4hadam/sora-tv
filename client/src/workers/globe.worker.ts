@@ -224,8 +224,8 @@ class OrbitControl {
     private _h = 1
 
     constructor(radius: number) {
-        this.minDist = 170
-        this.maxDist = 500
+        this.minDist = 160
+        this.maxDist = 700
         this.spherical.set(radius, Math.PI / 2, 0)
     }
 
@@ -385,9 +385,14 @@ function initScene(canvas: OffscreenCanvas, w: number, h: number, dpr: number, m
     scene.add(buildAtmosphere())
     addStars(scene, false)
 
-    // Same distance for all — aspect ratio handles the rest
-    const initRadius = 280
-    orbit = new OrbitControl(initRadius)
+    // Auto-fit: compute distance so globe fills ~85% of narrower screen dimension
+    // Formula: d = GLOBE_R * h / (0.85 * min(w,h) * tan(22.5°))
+    //   landscape (aspect≥1): d ≈ 284  (same as before)
+    //   portrait mobile (aspect≈0.46): d ≈ 615  (globe fully visible)
+    const tan22_5 = Math.tan(Math.PI / 8)   // tan(22.5°) = 0.4142
+    const minDim = Math.min(w, h)
+    const initRadius = Math.round(GLOBE_R * h / (0.85 * minDim * tan22_5))
+    orbit = new OrbitControl(Math.max(280, Math.min(700, initRadius)))
     orbit.setSize(w, h)
 
     fetch(GEO_URL)
