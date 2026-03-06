@@ -9,10 +9,10 @@ type GlobeViewerType = ComponentType<{
   selectedCountry: string | null
   onCountryClick?: (countryName: string) => void
   isMobile?: boolean
-  qualityMode?: "low" | "high"
 }>
 
-// Lazy-load side/player chunks so the first paint stays fast.
+// ≡اأ Lazy-load heavy components that import 1.7MB iptv-channels.ts
+// This keeps the initial bundle lean and defers channel-data parsing to after first paint
 const CountrySidebar = lazy(() => import("@/components/country-sidebar"))
 const CountryDetail = lazy(() => import("@/components/country-detail"))
 
@@ -29,7 +29,6 @@ export default function Home() {
   const [currentTime, setCurrentTime] = useState("")
   const [isCategorySidebarOpen, setIsCategorySidebarOpen] = useState(false)
   const [activeCategory, setActiveCategory] = useState("all-channels")
-  const [globeQualityMode, setGlobeQualityMode] = useState<"low" | "high">("low")
   const skipChannelReset = useRef(false)
 
   // ظ£à Use optimized mobile detection hook
@@ -54,19 +53,6 @@ export default function Home() {
       const t = setTimeout(loadGlobe, 1500)
       return () => clearTimeout(t)
     }
-  }, [isMobile])
-
-  useEffect(() => {
-    // Start in low mode to keep main thread free, then upgrade after idle time.
-    setGlobeQualityMode("low")
-    if (typeof requestIdleCallback !== "undefined") {
-      const id = requestIdleCallback(() => setGlobeQualityMode("high"), {
-        timeout: isMobile ? 4500 : 2500,
-      })
-      return () => cancelIdleCallback(id)
-    }
-    const t = setTimeout(() => setGlobeQualityMode("high"), isMobile ? 4500 : 2500)
-    return () => clearTimeout(t)
   }, [isMobile])
 
   // Handle URL-based country selection
@@ -196,9 +182,6 @@ export default function Home() {
     setIsCategorySidebarOpen((prev) => !prev)
   }
 
-  const shouldMountMobileSidebar =
-    mobileSidebarOpen || !!selectedCountry || activeCategory !== "all-channels" || !!selectedChannel
-
 
   return (
     <div className="flex flex-col h-screen w-full bg-transparent text-white overflow-hidden">
@@ -218,7 +201,6 @@ export default function Home() {
               selectedCountry={selectedCountry}
               onCountryClick={handleGlobeCountryClick}
               isMobile={isMobile}
-              qualityMode={globeQualityMode}
             />
           ) : (
             <div className="w-full h-full bg-[#0B0D11]" />
@@ -259,7 +241,7 @@ export default function Home() {
             className="absolute top-0 bottom-0 z-30 flex items-center justify-center p-4 sm:p-8 
                       left-0 right-0 sm:right-[320px] lg:right-[340px]"
           >
-            <Suspense fallback={<div className="w-full h-full bg-black/60 rounded-2xl" />}>
+            <Suspense fallback={null}>
               <CountryDetail
                 country={selectedCountry ?? activeCategory}
                 channel={selectedChannel}
@@ -277,7 +259,7 @@ export default function Home() {
             className="absolute right-0 top-16 bottom-0 w-[320px] lg:w-[340px] z-20 bg-gray-900/90 backdrop-blur-md"
             role="complementary"
           >
-            <Suspense fallback={<div className="h-full w-full bg-[#0B0D11]" />}>
+            <Suspense fallback={null}>
               <CountrySidebar
                 selectedCountry={selectedCountry}
                 onSelectCountry={handleSelectCountry}
@@ -348,23 +330,19 @@ export default function Home() {
 
               {/* Note 2: Change h-[60%] to flex-1 */}
               <div className="flex-1 overflow-y-auto custom-scroll">
-                {shouldMountMobileSidebar ? (
-                  <Suspense fallback={<div className="h-full w-full bg-[#0B0D11]" />}>
-                    <CountrySidebar
-                      selectedCountry={selectedCountry}
-                      onSelectCountry={handleSelectCountry}
-                      onSelectChannel={handleSelectChannel}
-                      onClose={toggleMobileSidebar}
-                      externalSearch={searchQuery}
-                      currentTime={currentTime}
-                      isMobile={isMobile}
-                      activeCategory={activeCategory}
-                      selectedChannel={selectedChannel}
-                    />
-                  </Suspense>
-                ) : (
-                  <div className="h-full w-full bg-[#0B0D11]" />
-                )}
+                <Suspense fallback={null}>
+                  <CountrySidebar
+                    selectedCountry={selectedCountry}
+                    onSelectCountry={handleSelectCountry}
+                    onSelectChannel={handleSelectChannel}
+                    onClose={toggleMobileSidebar}
+                    externalSearch={searchQuery}
+                    currentTime={currentTime}
+                    isMobile={isMobile}
+                    activeCategory={activeCategory}
+                    selectedChannel={selectedChannel}
+                  />
+                </Suspense>
               </div>
             </div>
             {mobileSidebarOpen && (
