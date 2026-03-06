@@ -109,15 +109,15 @@ export default function Home() {
   // ظ£à Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
 
-  // Load globe on idle — give mobile extra time so main thread is free first
+  // Load globe on idle on all devices (desktop + mobile)
   useEffect(() => {
     const loadGlobe = () =>
       import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
     if (typeof requestIdleCallback !== 'undefined') {
-      const id = requestIdleCallback(loadGlobe, { timeout: isMobile ? 6000 : 3000 })
+      const id = requestIdleCallback(loadGlobe, { timeout: 3000 })
       return () => cancelIdleCallback(id)
     }
-    const t = setTimeout(loadGlobe, isMobile ? 4000 : 1500)
+    const t = setTimeout(loadGlobe, 1500)
     return () => clearTimeout(t)
   }, [isMobile])
 
