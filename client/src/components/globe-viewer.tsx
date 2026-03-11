@@ -218,8 +218,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
   return (
     <div
       ref={el}
-      className="w-full h-full bg-transparent"
-      style={{ touchAction: "none" }}
+      className="w-full h-full bg-transparent touch-none"
       aria-label="interactive globe"
     />
   )

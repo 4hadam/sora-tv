@@ -1,3 +1,15 @@
+/* Globe container styles for globe components */
+.globe-container {
+  width: 400px;
+  height: 400px;
+  display: block;
+}
+
+/* Utility for disabling touch actions */
+.touch-none {
+  touch-action: none;
+}
+
 /* CarosSoft font — preloaded in index.html, declared here for font-display:swap */
 @font-face {
   font-family: 'CarosSoft';
@@ -74,7 +86,7 @@
 /* MusticaPro removed — was 404 (file missing) */
 
 .custom-scroll {
-  scrollbar-width: none;
+  /* scrollbar-width removed for Chrome/Safari compatibility */
 }
 
 .custom-scroll::-webkit-scrollbar {
