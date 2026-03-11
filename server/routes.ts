@@ -5,6 +5,40 @@ import https from "https";
 import { storage } from "./storage";
 import { channelsByCountry, getChannelsByCountry, getChannelsByCategory, type IPTVChannel, normalizeYouTubeUrl } from "@shared/iptv-channels";
 
+// Simple in-memory rate limiter and host whitelist
+const rateLimits: Map<string, { count: number; resetAt: number }> = new Map();
+const RATE_LIMIT_WINDOW = Number(process.env.RATE_LIMIT_WINDOW_MS || 60000); // 1 minute
+const RATE_LIMIT_MAX = Number(process.env.RATE_LIMIT_MAX || 60); // requests per window
+
+function clientIpFromReq(req: any) {
+  return (req.ip || req.headers['x-forwarded-for'] || req.socket.remoteAddress || 'unknown').toString();
+}
+
+function checkRateLimit(req: any) {
+  const ip = clientIpFromReq(req);
+  const now = Date.now();
+  const rec = rateLimits.get(ip);
+  if (!rec || now > rec.resetAt) {
+    rateLimits.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW });
+    return true;
+  }
+  if (rec.count >= RATE_LIMIT_MAX) return false;
+  rec.count += 1;
+  return true;
+}
+
+function isHostAllowed(targetUrl: string) {
+  const allowed = process.env.ALLOWED_HOSTS; // comma-separated hostnames
+  if (!allowed) return true; // no whitelist configured => allow all (default)
+  try {
+    const parsed = new URL(targetUrl);
+    const hosts = allowed.split(",").map(h => h.trim().toLowerCase()).filter(Boolean);
+    return hosts.includes(parsed.hostname.toLowerCase());
+  } catch (e) {
+    return false;
+  }
+}
+
 // Helper function for channel filtering
 function filterChannel(channel: IPTVChannel, category: string | null): boolean {
   if (!category || category === "all-channels" || category === "about" || category.startsWith("faq") || category.startsWith("privacy") || category.startsWith("feedback")) {
@@ -60,6 +94,10 @@ export async function registerRoutes(
         "Cache-Control": "no-cache",
       };
 
+      // Rate limit and host whitelist checks
+      if (!checkRateLimit(req)) return res.status(429).json({ error: "Rate limit exceeded" });
+      if (!isHostAllowed(url)) return res.status(403).json({ error: "Host not allowed" });
+
       const response = await fetch(url, { headers, redirect: "follow" });
 
       if (!response.ok) {
@@ -75,8 +113,9 @@ export async function registerRoutes(
         url.includes(".m3u8") ||
         url.includes(".m3u");
 
-      // CORS headers always
-      res.setHeader("Access-Control-Allow-Origin", "*");
+      // CORS headers (configurable)
+      const allowedOrigin = process.env.CORS_ORIGIN || "*";
+      res.setHeader("Access-Control-Allow-Origin", allowedOrigin);
       res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
       res.setHeader("Access-Control-Allow-Headers", "*");
 
@@ -168,6 +207,10 @@ export async function registerRoutes(
   app.get("/api/stream", (req, res) => {
     const url = req.query.url as string;
     if (!url) return res.status(400).end("Missing url");
+
+    // Rate limit and host whitelist checks
+    if (!checkRateLimit(req)) return res.status(429).end("Rate limit exceeded");
+    if (!isHostAllowed(url)) return res.status(403).end("Host not allowed");
 
     let activeReq: http.ClientRequest | null = null;
 

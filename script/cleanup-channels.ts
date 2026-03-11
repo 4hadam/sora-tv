@@ -107,10 +107,14 @@ async function main() {
     // 🔄 Auto-push to GitHub
     try {
         console.log("\n🚀 Pushing to GitHub...");
-        execSync("git add shared/iptv-channels.ts", { stdio: "inherit" });
-        execSync(`git commit -m "🧹 Cleanup: Removed ${totalRemoved} dead channels, kept ${totalKept} working channels"`, { stdio: "inherit" });
-        execSync("git push origin main", { stdio: "inherit" });
-        console.log("✅ Successfully pushed to GitHub!");
+        if (process.env.AUTO_PUSH === 'true') {
+            execSync("git add shared/iptv-channels.ts", { stdio: "inherit" });
+            execSync(`git commit -m "🧹 Cleanup: Removed ${totalRemoved} dead channels, kept ${totalKept} working channels"`, { stdio: "inherit" });
+            execSync("git push origin main", { stdio: "inherit" });
+            console.log("✅ Successfully pushed to GitHub!");
+        } else {
+            console.log('⚠️ AUTO_PUSH not enabled — skipped git push. Set AUTO_PUSH=true to enable.');
+        }
     } catch (error) {
         console.warn("⚠️ Warning: Could not auto-push to GitHub");
         console.warn("   Run manually: git add shared/iptv-channels.ts && git commit -m '...' && git push");

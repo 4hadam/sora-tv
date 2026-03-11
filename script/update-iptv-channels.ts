@@ -276,10 +276,14 @@ async function main() {
   // 🔄 Auto-push to GitHub
   try {
     console.log('🚀 جاري الرفع الى GitHub...');
-    execSync('git add shared/iptv-channels.ts', { stdio: 'inherit' });
-    execSync(`git commit -m "🔄 Update: Fetched ${Object.keys(channels).length} countries with ${Object.values(channels).flat().length} total channels"`, { stdio: 'inherit' });
-    execSync('git push origin main', { stdio: 'inherit' });
-    console.log('✅ تم الرفع الى GitHub بنجاح!\n');
+    if (process.env.AUTO_PUSH === 'true') {
+      execSync('git add shared/iptv-channels.ts', { stdio: 'inherit' });
+      execSync(`git commit -m "🔄 Update: Fetched ${Object.keys(channels).length} countries with ${Object.values(channels).flat().length} total channels"`, { stdio: 'inherit' });
+      execSync('git push origin main', { stdio: 'inherit' });
+      console.log('✅ تم الرفع الى GitHub بنجاح!\n');
+    } else {
+      console.log('⚠️ AUTO_PUSH not enabled — skipped git push. Set AUTO_PUSH=true to enable.');
+    }
   } catch (error) {
     console.warn('⚠️ تحذير: لم يتمكن من الرفع الى GitHub تلقائياً');
     console.warn('   شغّل يدويّاً: git add shared/iptv-channels.ts && git commit -m "..." && git push');
