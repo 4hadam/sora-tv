@@ -81,79 +81,114 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
   useEffect(() => {
     let dead = false
     const ac = new AbortController()
-      ; (async () => {
-        if (!el.current) return
-        const Factory = (await import("globe.gl")).default
-        if (dead) return
+    let idleId: number | null = null
 
-        const g = Factory()(el.current)
-          .globeImageUrl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")
-          .showAtmosphere(true)
-          .atmosphereColor("#4488FF")
-          .atmosphereAltitude(0.28)
-          .polygonSideColor(() => "rgba(0,0,0,0)")
-          .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.25)")
-          .polygonAltitude(0.01)
+    const doInit = async () => {
+      if (!el.current) return
+      const Factory = (await import("globe.gl")).default
+      if (dead) return
 
-        g.scene().background = new THREE.Color(0x000000)
-        g.renderer().setClearColor(0x000000, 1)
-        g.renderer().setPixelRatio(Math.min(devicePixelRatio, 1.5))
-        globe.current = g
+      const g = Factory()(el.current)
+        .globeImageUrl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")
+        .showAtmosphere(true)
+        .atmosphereColor("#4488FF")
+        .atmosphereAltitude(0.28)
+        .polygonSideColor(() => "rgba(0,0,0,0)")
+        .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.25)")
+        .polygonAltitude(0.01)
 
-        // responsive resize
-        const resize = () => {
-          if (!el.current || !globe.current) return
-          globe.current.width(el.current.clientWidth).height(el.current.clientHeight)
+      g.scene().background = new THREE.Color(0x000000)
+      g.renderer().setClearColor(0x000000, 1)
+      g.renderer().setPixelRatio(Math.min(devicePixelRatio, 1.5))
+      globe.current = g
+
+      // responsive resize
+      const resize = () => {
+        if (!el.current || !globe.current) return
+        globe.current.width(el.current.clientWidth).height(el.current.clientHeight)
+      }
+      resize()
+      ro.current = new ResizeObserver(resize)
+      ro.current.observe(el.current)
+      window.addEventListener("resize", resize)
+
+      // controls
+      const ctrl = g.controls()
+      ctrl.autoRotate = false; ctrl.enableZoom = true
+      ctrl.minDistance = 150; ctrl.maxDistance = 500
+
+      // Set camera immediately — no animation
+      const targetAlt = isMobile ? 3.5 : 2.5
+      g.pointOfView({ altitude: targetAlt }, 0)
+
+      // stars
+      stars.current = addStars(g.scene(), isMobile)
+
+      // load GeoJSON via Web Worker — keeps main thread free
+      const worker = new Worker(
+        new URL("../workers/geojson.worker.ts", import.meta.url),
+        { type: "module" }
+      )
+      worker.postMessage(null)
+      worker.onmessage = (e) => {
+        worker.terminate()
+        if (dead || !e.data.ok) return
+        const features = e.data.features
+        polys.current = features
+        if (!globe.current) return
+        globe.current
+          .polygonsData(features)
+          .polygonGeoJsonGeometry((d: any) => d.geometry)
+          .polygonCapColor(capColor)
+          .polygonLabel((d: any) => {
+            const name = d?.properties?.ADMIN ?? ""
+            return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ""
+          })
+          .onPolygonClick((d: any) => {
+            const name = d?.properties?.ADMIN ?? ""
+            if (name) onCountryClick?.(name)
+          })
+        // Signal home.tsx that the globe is fully rendered with countries
+        onReady?.()
+      }
+      worker.onerror = () => worker.terminate()
+    }
+
+    // Defer initialization until the globe element is visible, then schedule during idle time
+    let io: IntersectionObserver | null = null
+    const scheduleInit = () => {
+      if (idleId != null) return
+      if (typeof (window as any).requestIdleCallback === "function") {
+        idleId = (window as any).requestIdleCallback(() => { if (!dead) doInit() }, { timeout: 1500 })
+      } else {
+        idleId = window.setTimeout(() => { if (!dead) doInit() }, 2500)
+      }
+    }
+
+    if (el.current && 'IntersectionObserver' in window) {
+      io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            scheduleInit()
+            io?.disconnect()
+            io = null
+            break
+          }
         }
-        resize()
-        ro.current = new ResizeObserver(resize)
-        ro.current.observe(el.current)
-        window.addEventListener("resize", resize)
-
-        // controls
-        const ctrl = g.controls()
-        ctrl.autoRotate = false; ctrl.enableZoom = true
-        ctrl.minDistance = 150; ctrl.maxDistance = 500
-
-        // Set camera immediately — no animation
-        const targetAlt = isMobile ? 3.5 : 2.5
-        g.pointOfView({ altitude: targetAlt }, 0)
-
-        // stars
-        stars.current = addStars(g.scene(), isMobile)
-
-        // load GeoJSON via Web Worker — keeps main thread free
-        const worker = new Worker(
-          new URL("../workers/geojson.worker.ts", import.meta.url),
-          { type: "module" }
-        )
-        worker.postMessage(null)
-        worker.onmessage = (e) => {
-          worker.terminate()
-          if (dead || !e.data.ok) return
-          const features = e.data.features
-          polys.current = features
-          if (!globe.current) return
-          globe.current
-            .polygonsData(features)
-            .polygonGeoJsonGeometry((d: any) => d.geometry)
-            .polygonCapColor(capColor)
-            .polygonLabel((d: any) => {
-              const name = d?.properties?.ADMIN ?? ""
-              return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ""
-            })
-            .onPolygonClick((d: any) => {
-              const name = d?.properties?.ADMIN ?? ""
-              if (name) onCountryClick?.(name)
-            })
-          // Signal home.tsx that the globe is fully rendered with countries
-          onReady?.()
-        }
-        worker.onerror = () => worker.terminate()
-      })()
+      }, { root: null, threshold: 0.1 })
+      io.observe(el.current)
+    } else {
+      // Fallback: schedule after a modest delay if IO not available
+      idleId = window.setTimeout(() => { if (!dead) doInit() }, 3000)
+    }
 
     return () => {
       dead = true; ac.abort()
+      if (idleId != null) {
+        if (typeof (window as any).cancelIdleCallback === "function") (window as any).cancelIdleCallback(idleId)
+        else clearTimeout(idleId)
+      }
+      if (io) { io.disconnect(); io = null }
       ro.current?.disconnect()
       window.removeEventListener("resize", () => { })
       if (stars.current) {
