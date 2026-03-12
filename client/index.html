@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- 🚀 Critical CSS inline — prevents white flash before stylesheet loads (improves FCP) -->
   <style>
@@ -60,7 +60,7 @@
 
   <!-- 🟢 Google Site Verification -->
   <meta name="google-site-verification" content="TZzw1w28qoXlwWdVwt_3GVftL6X51ZTZgCXGU3BGEpw" />
-  <meta name="google-site-verification" content="nhc9JT9MezbCBc14nOBeWH474-ZYSw98WAKaqVws_DY" />
+  <!-- second verification removed to avoid duplicates -->
 
   <!-- 🟢 Open Graph Tags (Social Media) -->
   <meta property="og:type" content="website" />
@@ -90,7 +90,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/manifest.json" />
+  <!-- Use single web manifest to avoid conflicts -->
   <link rel="manifest" href="/site.webmanifest" />
 
   <!-- 🔢 Fonts: system font stack — no external font request needed for UI text -->
@@ -187,7 +187,8 @@
 
 <body>
   <div id="root"></div>
-  <script type="module" src="/src/main.tsx" async></script>
+  <noscript style="color: #fff; text-align:center; padding:1rem">JavaScript مطلوب لتشغيل التطبيق.</noscript>
+  <script type="module" src="/src/main.tsx"></script>
 
   <!-- 🟢 Set Canonical URL dynamically -->
   <script>
