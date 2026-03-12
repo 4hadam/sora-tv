@@ -16,8 +16,17 @@ type GlobeViewerType = ComponentType<{
 // Pure-CSS static globe — renders in 0 ms with zero main-thread blocking.
 // Shown while globe.gl (Three.js / WebGL) initialises in the background.
 function GlobePlaceholder({ onActivate }: { onActivate?: () => void }) {
-  // Placeholder removed per user request — render nothing here to skip the intro image.
-  return null;
+  return (
+    <div aria-hidden="true" className="absolute inset-0 z-10 flex items-center justify-center bg-black">
+      <button
+        onClick={onActivate}
+        className="p-3 rounded-full bg-transparent border-0 flex items-center justify-center hover:scale-105 active:scale-95"
+        aria-label="Load"
+      >
+        <div className="w-10 h-10 border-2 border-blue-400 border-t-transparent rounded-full animate-spin" />
+      </button>
+    </div>
+  )
 }
 
 import { LoadingScreen } from "@/components/loading-screen";
@@ -36,6 +45,7 @@ export default function Home() {
   const [selectedChannel, setSelectedChannel] = useState<string | null>(null)
   const [GlobeViewer, setGlobeViewer] = useState<GlobeViewerType | null>(null)
   const [globeReady, setGlobeReady] = useState(false)
+  const [loadRequested, setLoadRequested] = useState(false)
   const globeTriggeredRef = useRef(false)
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
@@ -47,22 +57,21 @@ export default function Home() {
   // ظ£à Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
 
-  // Load globe on idle on all devices (desktop + mobile)
+  // Load globe only when requested (by user click). This avoids automatic initialization
+  // and any library-controlled entrance animations until the user chooses to load it.
   useEffect(() => {
-    const loadGlobe = () =>
-      import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
-    if (typeof requestIdleCallback !== 'undefined') {
-      const id = requestIdleCallback(loadGlobe, { timeout: 3000 })
-      return () => cancelIdleCallback(id)
-    }
-    const t = setTimeout(loadGlobe, 1500)
-    return () => clearTimeout(t)
-  }, [isMobile])
+    if (!loadRequested) return
+    let mounted = true
+    import("@/components/globe-viewer").then((mod) => {
+      if (mounted) setGlobeViewer(() => mod.default)
+    })
+    return () => { mounted = false }
+  }, [loadRequested])
 
   const triggerGlobeLoad = useCallback(() => {
     if (!globeTriggeredRef.current) {
       globeTriggeredRef.current = true
-      import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
+      setLoadRequested(true)
     }
   }, [])
 
@@ -216,14 +225,15 @@ export default function Home() {
         {/* Globe Viewer */}
         {/* Globe is always rendered, but placeholder is underneath and disappears when globe is ready */}
         <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
-          <GlobePlaceholder onActivate={triggerGlobeLoad} />
+          {!globeReady && <GlobePlaceholder onActivate={triggerGlobeLoad} />}
           {GlobeViewer && (
-            <div className={`absolute inset-0 transition-opacity duration-500 ${globeReady ? 'opacity-100' : 'opacity-0'}`}>
+            <div className="absolute inset-0">
               <GlobeViewer
                 selectedCountry={selectedCountry}
                 onCountryClick={handleGlobeCountryClick}
                 isMobile={isMobile}
                 onReady={() => setGlobeReady(true)}
+                forceInit={loadRequested}
               />
             </div>
           )}

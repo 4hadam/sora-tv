@@ -64,7 +64,7 @@ function addStars(scene: THREE.Scene, mobile: boolean): THREE.Group {
   scene.add(g); return g
 }
 
-export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false, onReady }: GlobeViewerProps) {
+export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile = false, onReady, forceInit = false }: GlobeViewerProps & { forceInit?: boolean }) {
   const el = useRef<HTMLDivElement>(null)
   const globe = useRef<GlobeInstance | null>(null)
   const polys = useRef<any[]>([])
@@ -165,6 +165,11 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       }
     }
 
+    if (forceInit) {
+      // If the parent explicitly requests init (e.g. user clicked), start immediately
+      scheduleInit()
+    }
+
     if (el.current && 'IntersectionObserver' in window) {
       io = new IntersectionObserver((entries) => {
         for (const e of entries) {
@@ -208,7 +213,8 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
   // ── altitude on mobile/desktop switch ─────────────────────────────────────
   useEffect(() => {
-    globe.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 400)
+    // Use instant camera set (duration 0) to avoid entrance animation
+    globe.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
   }, [isMobile])
 
   // ── mobile tap → raycasting country click ─────────────────────────────────
