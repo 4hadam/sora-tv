@@ -19,6 +19,13 @@ export function serveStatic(app: Express) {
   app.use(
     express.static(distPath, {
       setHeaders(res, filePath) {
+        // Ensure service worker file is not aggressively cached so updates are picked up
+        if (filePath.endsWith("/sw.js") || filePath.endsWith("\\sw.js")) {
+          res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+          res.setHeader("Content-Type", "application/javascript");
+          return;
+        }
+
         if (/\.(js|css|woff2?|png|svg|ico|webp)$/.test(filePath)) {
           res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
         } else if (filePath.endsWith(".html")) {

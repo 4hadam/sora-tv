@@ -1,4 +1,5 @@
-const CACHE_NAME = 'soratv-v1';
+// bump this version when you deploy a new release (or use a build hash)
+const CACHE_NAME = 'soratv-v2';
 const OFFLINE_URL = '/';
 
 const PRECACHE_ASSETS = [
@@ -46,7 +47,24 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // Cache-first for static assets
+    // Use network-first for navigations (index.html) so clients receive updates quickly.
+    if (event.request.mode === 'navigate' || url.pathname === '/' || url.pathname.endsWith('/index.html')) {
+        event.respondWith(
+            fetch(event.request)
+                .then((response) => {
+                    // update cache for offline fallback
+                    if (response && response.status === 200) {
+                        const copy = response.clone();
+                        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+                    }
+                    return response;
+                })
+                .catch(() => caches.match(OFFLINE_URL))
+        );
+        return;
+    }
+
+    // Cache-first for other static assets (images, fonts, etc.)
     event.respondWith(
         caches.match(event.request).then((cached) => {
             if (cached) return cached;
@@ -57,7 +75,6 @@ self.addEventListener('fetch', (event) => {
                 }
                 return response;
             }).catch(() => {
-                // Fallback to home page for navigation requests
                 if (event.request.mode === 'navigate') {
                     return caches.match(OFFLINE_URL);
                 }
