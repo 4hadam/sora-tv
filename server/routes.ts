@@ -314,13 +314,44 @@ export async function registerRoutes(
     try {
       const name = req.query.name as string;
       if (!name) return res.status(400).json({ error: "name required" });
-      for (const channels of Object.values(channelsByCountry)) {
-        const found = (channels as IPTVChannel[]).find((c) => c.name === name);
-        if (found && found.url) {
-          return res.json({ url: normalizeYouTubeUrl(found.url) });
+      const q = name.toLowerCase().trim();
+      console.log(`[channel-search] query="${name}" q="${q}"`);
+      const normalize = (s: string) =>
+        s
+          .normalize("NFKD")
+          .replace(/\p{Diacritic}/gu, "")
+          .toLowerCase()
+          .replace(/[^a-z0-9]/g, "");
+      const nq = normalize(q);
+      const results: Array<IPTVChannel & { countryName?: string }> = [];
+      if (q.length === 0) return res.json({ channels: [] });
+
+      for (const [country, channels] of Object.entries(channelsByCountry)) {
+        for (const c of channels as IPTVChannel[]) {
+          if (!c.name) continue;
+          const nameRaw = c.name;
+          const normName = normalize(nameRaw);
+          // match either raw substring or normalized substring
+          if (nameRaw.toLowerCase().includes(q) || (nq && normName.includes(nq))) {
+            results.push({ ...c, countryName: country });
+            if (results.length >= 40) break;
+          }
         }
+        if (results.length >= 40) break;
       }
-      res.status(404).json({ error: "Channel not found" });
+
+      if (results.length === 0) {
+        console.log(`[channel-search] no matches for q="${q}" nq="${nq}"`);
+      } else {
+        console.log(`[channel-search] found ${results.length} matches for q="${q}" (sample: ${results.slice(0, 5).map(r => r.name).join(', ')})`);
+      }
+
+      const normalized = results.map((ch) => ({
+        ...ch,
+        url: normalizeYouTubeUrl(ch.url || ""),
+      }));
+
+      return res.json({ channels: normalized });
     } catch (error) {
       res.status(500).json({ error: "Search failed" });
     }

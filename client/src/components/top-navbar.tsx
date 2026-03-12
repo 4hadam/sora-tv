@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { Menu, X, History } from "lucide-react"
+import { Menu, X, History, Search } from "lucide-react"
 
 interface TopNavbarProps {
   onMenuClick?: () => void
@@ -25,6 +25,11 @@ export default function TopNavbar({
   const [showHistory, setShowHistory] = useState(false)
   const [history, setHistory] = useState<{ name: string; country: string }[]>([])
   const historyRef = useRef<HTMLDivElement>(null)
+  const [showSearchInput, setShowSearchInput] = useState(false)
+  const [query, setQuery] = useState("")
+  const inputRef = useRef<HTMLInputElement | null>(null)
+  const [searchResults, setSearchResults] = useState<Array<{ name: string; url?: string; countryName?: string }>>([])
+  const [searchLoading, setSearchLoading] = useState(false)
 
   useEffect(() => {
     const stored = localStorage.getItem("soratv_history")
@@ -40,6 +45,43 @@ export default function TopNavbar({
     document.addEventListener("mousedown", handleClickOutside)
     return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
+
+  useEffect(() => {
+    if (showSearchInput) {
+      setTimeout(() => inputRef.current?.focus(), 0)
+    } else {
+      setQuery("")
+    }
+  }, [showSearchInput])
+
+  // fetch search results when query changes (debounced)
+  useEffect(() => {
+    const term = query.trim();
+    if (!term || term.length < 2) {
+      setSearchResults([]);
+      setSearchLoading(false);
+      return;
+    }
+
+    setSearchLoading(true);
+    const id = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/channel-search?name=${encodeURIComponent(term)}`);
+        if (res.ok) {
+          const data = await res.json();
+          setSearchResults(data.channels || []);
+        } else {
+          setSearchResults([]);
+        }
+      } catch (err) {
+        setSearchResults([]);
+      } finally {
+        setSearchLoading(false);
+      }
+    }, 300);
+
+    return () => clearTimeout(id);
+  }, [query]);
 
   return (
     <header
@@ -117,34 +159,95 @@ export default function TopNavbar({
             {showHistory && (
               <div className="absolute right-0 top-10 w-72 bg-[#111318] border border-white/10 rounded-xl shadow-2xl z-50 overflow-hidden">
                 <div className="px-4 py-3 border-b border-white/10 flex items-center justify-between">
-                  <span className="text-white text-sm font-semibold">Recently Watched</span>
-                  {history.length > 0 && (
-                    <button
-                      onClick={() => { localStorage.removeItem("soratv_history"); setHistory([]) }}
-                      className="text-white/70 hover:text-white text-xs transition-colors px-2 py-1"
-                    >
-                      Clear
-                    </button>
-                  )}
+                  <div className="flex items-center gap-3">
+                    {!showSearchInput ? (
+                      <span className="text-white text-sm font-semibold">Recently Watched</span>
+                    ) : (
+                      <div className="flex items-center gap-2">
+                        <Search size={14} className="text-white/70" />
+                        <input
+                          ref={inputRef}
+                          value={query}
+                          onChange={(e) => setQuery(e.target.value)}
+                          placeholder="Search channels..."
+                          className="bg-[#0B0D11] text-white text-sm placeholder-white/40 rounded-md px-2 py-1 w-40 outline-none border border-white/5"
+                        />
+                      </div>
+                    )}
+                    {!showSearchInput && (
+                      <button
+                        onClick={() => setShowSearchInput(true)}
+                        aria-label="Search channels"
+                        className="text-white/70 hover:text-white p-1"
+                      >
+                        <Search size={16} />
+                      </button>
+                    )}
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    {showSearchInput && (
+                      <button
+                        onClick={() => { setShowSearchInput(false); setQuery("") }}
+                        className="text-white/70 hover:text-white text-xs transition-colors px-2 py-1"
+                      >
+                        Close
+                      </button>
+                    )}
+
+                    {history.length > 0 && (
+                      <button
+                        onClick={() => { localStorage.removeItem("soratv_history"); setHistory([]) }}
+                        className="text-white/70 hover:text-white text-xs transition-colors px-2 py-1"
+                      >
+                        Clear
+                      </button>
+                    )}
+                  </div>
                 </div>
-                {history.length === 0 ? (
+                {(!query && history.length === 0) ? (
                   <div className="px-4 py-6 text-center text-white/60 text-sm">No history yet</div>
                 ) : (
                   <ul className="max-h-80 overflow-y-auto custom-scroll">
-                    {history.map((item, i) => (
-                      <li key={i}>
-                        <button
-                          onClick={() => { onSelectChannel?.(item.name, item.country); setShowHistory(false) }}
-                          className="flex items-center gap-3 w-full px-4 py-3 hover:bg-white/5 transition-colors text-left"
-                        >
-                          <History size={14} className="text-white/60 flex-shrink-0" />
-                          <div className="min-w-0">
-                            <p className="text-white text-sm truncate">{item.name}</p>
-                            <p className="text-white/70 text-xs">{item.country}</p>
-                          </div>
-                        </button>
-                      </li>
-                    ))}
+                    {query ? (
+                      // show search results when there's a query
+                      searchLoading ? (
+                        <li className="px-4 py-6 text-center text-white/60 text-sm">Searching...</li>
+                      ) : searchResults.length === 0 ? (
+                        <li className="px-4 py-6 text-center text-white/60 text-sm">No channels found</li>
+                      ) : (
+                        searchResults.map((item, i) => (
+                          <li key={i}>
+                            <button
+                              onClick={() => { onSelectChannel?.(item.name, item.countryName); setShowHistory(false); setShowSearchInput(false); setQuery("") }}
+                              className="flex items-center gap-3 w-full px-4 py-3 hover:bg-white/5 transition-colors text-left"
+                            >
+                              <History size={14} className="text-white/60 flex-shrink-0" />
+                              <div className="min-w-0">
+                                <p className="text-white text-sm truncate">{item.name}</p>
+                                <p className="text-white/70 text-xs">{item.countryName}</p>
+                              </div>
+                            </button>
+                          </li>
+                        ))
+                      )
+                    ) : (
+                      // show history when no query
+                      history.map((item, i) => (
+                        <li key={i}>
+                          <button
+                            onClick={() => { onSelectChannel?.(item.name, item.country); setShowHistory(false) }}
+                            className="flex items-center gap-3 w-full px-4 py-3 hover:bg-white/5 transition-colors text-left"
+                          >
+                            <History size={14} className="text-white/60 flex-shrink-0" />
+                            <div className="min-w-0">
+                              <p className="text-white text-sm truncate">{item.name}</p>
+                              <p className="text-white/70 text-xs">{item.country}</p>
+                            </div>
+                          </button>
+                        </li>
+                      ))
+                    )}
                   </ul>
                 )}
               </div>

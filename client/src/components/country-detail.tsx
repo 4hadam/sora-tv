@@ -117,14 +117,29 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
           const fallback = await fetch(`/api/channel-search?name=${encodeURIComponent(channel)}`)
           if (fallback.ok) {
             const data = await fallback.json()
-            const url = data.url?.trim()
-            if (url && (url.startsWith("http://") || url.startsWith("https://"))) {
-              if (url.includes("youtube.com") || url.includes("youtube-nocookie.com")) {
+            // Backwards compatibility: older API returned { url }
+            const singleUrl = data.url?.trim()
+            if (singleUrl && (singleUrl.startsWith("http://") || singleUrl.startsWith("https://"))) {
+              if (singleUrl.includes("youtube.com") || singleUrl.includes("youtube-nocookie.com")) {
                 setIsYouTube(true)
               } else {
                 setIsYouTube(false)
               }
-              setStreamUrl(url)
+              setStreamUrl(singleUrl)
+            } else if (Array.isArray(data.channels) && data.channels.length > 0) {
+              // New API returns channels array; pick first match
+              const first = data.channels[0]
+              const url = first.url?.trim()
+              if (url && (url.startsWith("http://") || url.startsWith("https://"))) {
+                if (url.includes("youtube.com") || url.includes("youtube-nocookie.com")) {
+                  setIsYouTube(true)
+                } else {
+                  setIsYouTube(false)
+                }
+                setStreamUrl(url)
+              } else {
+                setError(`Stream not found in database for ${channel}`)
+              }
             } else {
               setError(`Stream not found in database for ${channel}`)
             }
