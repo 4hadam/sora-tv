@@ -1,4 +1,6 @@
-import { IPTVChannel } from "./schema";\n\nexport const channelsByCountry: Record<string, IPTVChannel[]> = {
+import { IPTVChannel } from "./schema";
+
+export const channelsByCountry: Record<string, IPTVChannel[]> = {
   "Afghanistan": [
     {
       "name": "4 Afghanistan",
@@ -52049,4 +52051,4 @@ import { IPTVChannel } from "./schema";\n\nexport const channelsByCountry: Recor
       "logo": "https://i.imgur.com/4BNVhoC.png"
     }
   ]
-};\n
+};
