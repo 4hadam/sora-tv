@@ -6,7 +6,7 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
 } from 'lucide-react'
-import { DayButton, DayPicker, getDefaultClassNames } from 'react-day-picker'
+import { DayPicker } from 'react-day-picker'
 
 import { cn } from '@/lib/utils'
 import { Button, buttonVariants } from '@/components/ui/button'
@@ -15,7 +15,7 @@ function Calendar({
   className,
   classNames,
   showOutsideDays = true,
-  captionLayout = 'label',
+  captionLayout = 'label' as any,
   buttonVariant = 'ghost',
   formatters,
   components,
@@ -23,7 +23,7 @@ function Calendar({
 }: React.ComponentProps<typeof DayPicker> & {
   buttonVariant?: React.ComponentProps<typeof Button>['variant']
 }) {
-  const defaultClassNames = getDefaultClassNames()
+  const defaultClassNames: any = {}
 
   return (
     <DayPicker
@@ -35,11 +35,10 @@ function Calendar({
         className,
       )}
       captionLayout={captionLayout}
-      formatters={{
-        formatMonthDropdown: (date) =>
-          date.toLocaleString('default', { month: 'short' }),
+      formatters={({
+        formatMonthDropdown: (date: Date) => date.toLocaleString('default', { month: 'short' }),
         ...formatters,
-      }}
+      } as any)}
       classNames={{
         root: cn('w-fit', defaultClassNames.root),
         months: cn(
@@ -79,7 +78,7 @@ function Calendar({
         ),
         caption_label: cn(
           'select-none font-medium',
-          captionLayout === 'label'
+          (captionLayout as any) === 'label'
             ? 'text-sm'
             : 'rounded-md pl-2 pr-1 flex items-center gap-1 text-sm h-8 [&>svg]:text-muted-foreground [&>svg]:size-3.5',
           defaultClassNames.caption_label,
@@ -123,9 +122,9 @@ function Calendar({
         ),
         hidden: cn('invisible', defaultClassNames.hidden),
         ...classNames,
-      }}
+      } as any}
       components={{
-        Root: ({ className, rootRef, ...props }) => {
+        Root: ({ className, rootRef, ...props }: any) => {
           return (
             <div
               data-slot="calendar"
@@ -135,7 +134,7 @@ function Calendar({
             />
           )
         },
-        Chevron: ({ className, orientation, ...props }) => {
+        Chevron: ({ className, orientation, ...props }: any) => {
           if (orientation === 'left') {
             return (
               <ChevronLeftIcon className={cn('size-4', className)} {...props} />
@@ -156,7 +155,7 @@ function Calendar({
           )
         },
         DayButton: CalendarDayButton,
-        WeekNumber: ({ children, ...props }) => {
+        WeekNumber: ({ children, ...props }: any) => {
           return (
             <td {...props}>
               <div className="flex size-(--cell-size) items-center justify-center text-center">
@@ -166,7 +165,7 @@ function Calendar({
           )
         },
         ...components,
-      }}
+      } as any}
       {...props}
     />
   )
@@ -177,8 +176,9 @@ function CalendarDayButton({
   day,
   modifiers,
   ...props
-}: React.ComponentProps<typeof DayButton>) {
-  const defaultClassNames = getDefaultClassNames()
+}: any) {
+  // avoid runtime dependency on react-day-picker default classnames in typing
+  const defaultClassNames: any = {}
 
   const ref = React.useRef<HTMLButtonElement>(null)
   React.useEffect(() => {

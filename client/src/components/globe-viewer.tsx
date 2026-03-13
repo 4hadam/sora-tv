@@ -85,7 +85,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
     const doInit = async () => {
       if (!el.current) return
-      const Factory = (await import("globe.gl")).default
+      const Factory: any = (await import("globe.gl")).default
       if (dead) return
 
       const g = Factory()(el.current)

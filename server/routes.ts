@@ -3,7 +3,9 @@ import { createServer, type Server } from "http";
 import http from "http";
 import https from "https";
 import { storage } from "./storage";
-import { channelsByCountry, getChannelsByCountry, getChannelsByCategory, type IPTVChannel, normalizeYouTubeUrl } from "@shared/iptv-channels";
+import { channelsByCountry } from "@shared/iptv-channels";
+import { getChannelsByCountry, getChannelsByCategory, normalizeYouTubeUrl } from "@shared/iptv-helpers";
+import type { IPTVChannel } from "@shared/iptv-helpers";
 
 // Simple in-memory rate limiter and host whitelist
 const rateLimits: Map<string, { count: number; resetAt: number }> = new Map();
@@ -174,12 +176,9 @@ export async function registerRoutes(
 
       let allChannels: IPTVChannel[] = [];
       for (const country in channelsByCountry) {
-        // @ts-ignore
+        // @ts-ignore - channels contain plain objects; we add countryName for client use
         channelsByCountry[country].forEach(channel => {
-          allChannels.push({
-            ...channel,
-            countryName: country,
-          });
+          allChannels.push({ ...(channel as any), countryName: country } as any);
         });
       }
 
@@ -319,7 +318,7 @@ export async function registerRoutes(
       const normalize = (s: string) =>
         s
           .normalize("NFKD")
-          .replace(/\p{Diacritic}/gu, "")
+          .replace(/[\u0300-\u036f]/g, "")
           .toLowerCase()
           .replace(/[^a-z0-9]/g, "");
       const nq = normalize(q);

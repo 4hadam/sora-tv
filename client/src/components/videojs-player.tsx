@@ -66,7 +66,7 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
       // الاستماع للتغييرات في مستوى الصوت
       player.on('volumechange', () => {
         const newVolume = player.volume()
-        updateVolume(newVolume)
+        if (typeof newVolume === 'number') updateVolume(newVolume)
       })
 
       playerRef.current = player
@@ -113,9 +113,12 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
         }
 
         if (autoPlay) {
-          player.play()?.catch(() => {
-            // Autoplay blocked
-          });
+          const playResult = player.play();
+          if (playResult && typeof (playResult as any).catch === 'function') {
+            (playResult as Promise<void>).catch(() => {
+              // Autoplay blocked
+            })
+          }
         }
       }
 
