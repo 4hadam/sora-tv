@@ -40,8 +40,8 @@ async function main() {
             totalAfter += dedup.length;
         }
 
-        const header = `import { IPTVChannel } from "./schema";\\n\\nexport const channelsByCountry: Record<string, IPTVChannel[]> = `;
-        const fileContent = header + JSON.stringify(result, null, 2) + ";\\n";
+        const header = `import { IPTVChannel } from "./schema";\n\nexport const channelsByCountry: Record<string, IPTVChannel[]> = `;
+        const fileContent = header + JSON.stringify(result, null, 2) + ";\n";
 
         // backup original
         const backupPath = filePath + ".bak";
