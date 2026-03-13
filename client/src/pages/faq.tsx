@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useMemo } from "react"
 import { ChevronDown, ChevronUp, Tv, Globe, Shield, HelpCircle } from "lucide-react"
 import { Link } from "wouter"
 
@@ -106,8 +106,27 @@ function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
 }
 
 export default function FAQ() {
+    const [query, setQuery] = useState("")
+
+    const filtered = useMemo(() => {
+        const q = query.trim().toLowerCase()
+        if (!q) return faqData
+        return faqData.filter((f) => f.question.toLowerCase().includes(q) || f.answer.toLowerCase().includes(q))
+    }, [query])
+
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqData.map((f) => ({
+            "@type": "Question",
+            "name": f.question,
+            "acceptedAnswer": { "@type": "Answer", "text": f.answer },
+        })),
+    }
+
     return (
         <div className="min-h-screen bg-[#0B0D11] text-white">
+            <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
             {/* Navbar */}
             <header className="fixed top-0 left-0 w-full z-50 bg-[#0B0D11] border-b border-white/5">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
@@ -138,6 +157,19 @@ export default function FAQ() {
                 <p className="text-white/50 text-base sm:text-lg max-w-xl mx-auto">
                     Everything you need to know about watching free live TV on Sora tv.
                 </p>
+                <div className="mt-6 max-w-md mx-auto">
+                    <label htmlFor="faq-search" className="sr-only">Search FAQ</label>
+                    <div className="relative">
+                        <input
+                            id="faq-search"
+                            type="search"
+                            value={query}
+                            onChange={(e) => setQuery(e.target.value)}
+                            placeholder="Search questions (e.g. 'privacy', 'channels', 'geo-block')"
+                            className="w-full rounded-md bg-white/3 border border-white/8 px-4 py-2 text-sm text-white/90 placeholder-white/40 focus:ring-2 focus:ring-yellow-400/40"
+                        />
+                    </div>
+                </div>
             </div>
 
             {/* Stats bar */}
@@ -162,9 +194,18 @@ export default function FAQ() {
 
             {/* FAQ list */}
             <div className="max-w-3xl mx-auto px-4 sm:px-6 pb-24 space-y-3">
-                {faqData.map((item, i) => (
+                {filtered.length === 0 && (
+                    <div className="text-center text-white/40 py-8">No results. Try different keywords.</div>
+                )}
+                {filtered.map((item, i) => (
                     <FAQAccordion key={i} item={item} index={i} />
                 ))}
+
+                <div className="mt-6 text-sm text-white/60">
+                    <p>
+                        Can't find an answer? <a href="https://github.com/4hadam/sora-tv/issues" target="_blank" rel="noreferrer" className="text-yellow-400 underline">Report an issue or suggest a channel on GitHub</a>.
+                    </p>
+                </div>
             </div>
 
             {/* Footer */}
