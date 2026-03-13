@@ -18,13 +18,13 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/:countryCode" component={Home} />
       <Route path="/faq">
         <Suspense fallback={null}><FAQ /></Suspense>
       </Route>
       <Route path="/privacy">
         <Suspense fallback={null}><Privacy /></Suspense>
       </Route>
+      <Route path="/:countryCode" component={Home} />
       <Route>
         <Suspense fallback={null}><NotFound /></Suspense>
       </Route>

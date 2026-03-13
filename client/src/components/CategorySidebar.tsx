@@ -16,14 +16,15 @@ export default function CategorySidebar({
   onClose,
 }: CategorySidebarProps) {
 
-  const [, navigate] = useLocation()
+
+  const [location, navigate] = useLocation()
 
   // 2. Click Handler
   const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
     const target = e.currentTarget.dataset.target
     if (!target) return
-    if (target === "faq") { navigate("/faq"); return }
-    if (target === "privacy-policy") { navigate("/privacy"); return }
+    if (target === "faq") { navigate("/faq"); onClose(); return }
+    if (target === "privacy-policy") { navigate("/privacy"); onClose(); return }
     onCategorySelect(target)
   }
 
@@ -32,7 +33,8 @@ export default function CategorySidebar({
     // Base classes
     const baseClass = "flex items-center w-full gap-4 px-3 py-2.5 rounded-lg text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
     // Active state classes
-    const isActive = activeCategory === target ? "bg-gray-800 text-white font-semibold" : ""
+    const routeActive = (target === "faq" && location === "/faq") || (target === "privacy-policy" && location === "/privacy")
+    const isActive = activeCategory === target || routeActive ? "bg-gray-800 text-white font-semibold" : ""
     return `${baseClass} ${isActive}`.trim()
   }
 
