@@ -13,15 +13,15 @@
         "news",
         "entertainment"
     ],
-    "icons": [
+        "icons": [
         {
-            "src": "/android-chrome-192.png",
+            "src": "/placeholder-logo.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable any"
         },
         {
-            "src": "/android-chrome-512.png",
+            "src": "/placeholder-logo.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable any"
@@ -39,14 +39,14 @@
             "purpose": "any"
         }
     ],
-    "screenshots": [
+        "screenshots": [
         {
-            "src": "/android-chrome-512.png",
+            "src": "/placeholder-logo.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-192.png",
+            "src": "/placeholder-logo.png",
             "sizes": "192x192",
             "type": "image/png"
         }
