@@ -236,7 +236,7 @@ Disallow: /node_modules
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
-Request-rate: 500/60s
+# Note: `Request-rate` is non-standard and causes analyzer errors; removed.
 
 # ============================================
 # BING SPECIFIC RULES (BINGBOT)
@@ -244,7 +244,7 @@ Request-rate: 500/60s
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
-Request-rate: 100/60s
+# Note: `Request-rate` is non-standard and causes analyzer errors; removed.
 
 # ============================================
 # OTHER MAJOR SEARCH ENGINES
