@@ -13,7 +13,7 @@
         "news",
         "entertainment"
     ],
-        "icons": [
+    "icons": [
         {
             "src": "/placeholder-logo.png",
             "sizes": "192x192",
@@ -39,7 +39,7 @@
             "purpose": "any"
         }
     ],
-        "screenshots": [
+    "screenshots": [
         {
             "src": "/placeholder-logo.png",
             "sizes": "512x512",
