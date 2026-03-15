@@ -473,7 +473,7 @@ export default function CountrySidebar({
     <aside className={`w-full h-full text-white flex flex-col ${isMobile ? "bg-transparent" : "bg-[#0B0D11]"}`}>
 
       {/* --- الهيدر الخاص بالقائمة --- */}
-      <div className="flex items-center justify-between px-5 py-4">
+      <div className={`flex items-center justify-between px-5 ${isMobile ? "py-3" : "py-4"}`}>
         <div className="flex items-center gap-3">
           {/* إظهار زر الرجوع إذا كنا نعرض قنوات (إما لدولة أو لفئة) */}
           {shouldShowChannels && (

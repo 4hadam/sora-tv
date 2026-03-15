@@ -336,7 +336,7 @@ export default function Home() {
             <div
               className="fixed left-0 right-0 top-16 bottom-0 z-20 flex flex-col overflow-hidden rounded-t-[2rem] border-t border-white/10 bg-[#0B0D11] shadow-[0_-18px_50px_rgba(0,0,0,0.45)] transition-transform duration-500 ease-out"
               style={{
-                transform: mobileSidebarOpen ? "translateY(0)" : "translateY(calc(100% - 6.75rem))",
+                transform: mobileSidebarOpen ? "translateY(0)" : "translateY(calc(100% - 5.75rem))",
               }}
             >
               {selectedChannel && (
@@ -356,7 +356,7 @@ export default function Home() {
 
               <div
                 onClick={toggleMobileSidebar}
-                className={`w-full flex items-center justify-center cursor-grab flex-shrink-0 bg-[#0B0D11] ${selectedChannel ? 'py-3' : 'py-4'
+                className={`w-full flex items-center justify-center cursor-grab flex-shrink-0 bg-[#0B0D11] ${selectedChannel ? 'py-2.5' : 'py-3'
                   }`}
                 aria-label="Toggle sidebar"
               >
