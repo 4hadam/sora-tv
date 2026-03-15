@@ -8206,7 +8206,15 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
         { "name": "MBC 5", "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8", "category": "Family", "logo": "https://i.imgur.com/fRWaDyF.png" },
         { "name": "Medi 1 TV Arabic", "url": "https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/3YsZPY6.jpeg" },
         { "name": "Medi 1 TV Maghreb", "url": "https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
-        { "name": "Tele Maroc", "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8", "category": "Culture;Entertainment;News", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" }
+        { "name": "Tele Maroc", "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8", "category": "Culture;Entertainment;News", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" },
+        { "name": "2M TNT", "url": "https://stream-lb.livemediama.com/2m-tnt/hls/master.m3u8", "category": "General" },
+        { "name": "Aflam", "url": "https://stream-lb.livemediama.com/aflam/hls/master.m3u8", "category": "Movies" },
+        { "name": "Arriyadia", "url": "https://stream-lb.livemediama.com/arryadia/hls/master.m3u8", "category": "Sports" },
+        { "name": "Assadissa", "url": "https://stream-lb.livemediama.com/assadissa/hls/master.m3u8", "category": "General" },
+        { "name": "Athaqafia", "url": "https://stream-lb.livemediama.com/athaqafia/hls/master.m3u8", "category": "Culture" },
+        { "name": "Laâyoune TV", "url": "https://stream-lb.livemediama.com/laayounetv/hls/master.m3u8", "category": "General" },
+        { "name": "M24 Maroc", "url": "https://stream-lb.livemediama.com/m24maroc/hls/master.m3u8", "category": "News" },
+        { "name": "Tamazight", "url": "https://stream-lb.livemediama.com/tamazight/hls/master.m3u8", "category": "Culture" }
     ],
     "Spain": [
         { "name": "3Cat Càmeres del temps", "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8", "category": "General", "logo": "https://i.imgur.com/zXy2kbe.png" },
