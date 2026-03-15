@@ -10,6 +10,8 @@ import "video.js/dist/video-js.css"
 
 // (هام) استيراد محرك HLS/DASH (لإنشاء 'blob:')
 import "@videojs/http-streaming"
+import "videojs-contrib-quality-levels"
+import "videojs-hls-quality-selector"
 
 interface VideoJsPlayerProps {
   src: string
@@ -60,6 +62,13 @@ const VideoJsPlayer: React.FC<VideoJsPlayerProps> = ({
         // تطبيق مستوى الصوت المحفوظ
         if (!muted) {
           player.volume(volume)
+        }
+
+        const withQualitySelector = player as Player & {
+          hlsQualitySelector?: (options?: { displayCurrentQuality?: boolean }) => void
+        }
+        if (typeof withQualitySelector.hlsQualitySelector === "function") {
+          withQualitySelector.hlsQualitySelector({ displayCurrentQuality: true })
         }
       })
 
