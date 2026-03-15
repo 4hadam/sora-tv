@@ -15648,23 +15648,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "category": "General"
     },
     {
-      "name": "KTO",
-      "url": "https://www.ktotv.com/",
-      "category": "General",
-      "logo": "https://i.imgur.com/EY6TsdV.png"
-    },
-    {
-      "name": "L'Equipe",
-      "url": "https://www.lequipe.fr/tv/",
-      "category": "General",
-      "logo": "https://i.imgur.com/t35zhM9.png"
-    },
-    {
-      "name": "LCI",
-      "url": "https://www.tf1.fr/lci/direct",
-      "category": "General"
-    },
-    {
       "name": "Le Figaro IDF",
       "url": "https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8",
       "category": "General",
@@ -16003,12 +15986,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/43at4M2.png"
     },
     {
-      "name": "6ter (1080p) [Geo-blocked] [Geo-Blocked]",
-      "url": "https://www.m6.fr/6ter/direct",
-      "category": "Entertainment",
-      "logo": "https://i.imgur.com/2nd5Cox.png"
-    },
-    {
       "name": "Africa 24 English",
       "url": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8",
       "category": "News",
@@ -16051,12 +16028,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/lAsE6kN.png"
     },
     {
-      "name": "CNews (1080p) [Geo-Blocked]",
-      "url": "https://www.cnews.fr/streaming",
-      "category": "News",
-      "logo": "https://i.imgur.com/sSNhk2g.png"
-    },
-    {
       "name": "Disney Jr.",
       "url": "http://151.80.18.177:86/Disney_Junior_HD/index.m3u8",
       "category": "Kids",
@@ -16086,32 +16057,8 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png"
     },
     {
-      "name": "France 2 HD (720p) [Geo-Blocked]",
-      "url": "https://www.france.tv/france-2/direct.html",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png"
-    },
-    {
-      "name": "France 3 HD (720p) [Geo-Blocked]",
-      "url": "https://www.france.tv/france-3/direct.html",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png"
-    },
-    {
-      "name": "France 4 HD (720p) [Geo-Blocked]",
-      "url": "https://www.france.tv/france-4/direct.html",
-      "category": "Kids",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png"
-    },
-    {
       "name": "France 5",
       "url": "http://69.64.57.208/france5/mono.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png"
-    },
-    {
-      "name": "France 5 HD (720p) [Geo-Blocked]",
-      "url": "https://www.france.tv/france-5/direct.html",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png"
     },
@@ -16146,12 +16093,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/lA9UFMG.png"
     },
     {
-      "name": "Gulli (720p) [Geo-Blocked]",
-      "url": "https://www.m6.fr/gulli/direct",
-      "category": "Kids",
-      "logo": "https://i.imgur.com/kqYssbW.png"
-    },
-    {
       "name": "ici Elsass",
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/icielsass.m3u8",
       "category": "General",
@@ -16170,12 +16111,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/M1Ee79b.png"
     },
     {
-      "name": "LCP [Geo-Blocked]",
-      "url": "https://lcp.fr/direct-lcp-5434",
-      "category": "Legislative",
-      "logo": "https://i.imgur.com/k7UImOJ.png"
-    },
-    {
       "name": "Le Media TV",
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lemedia.m3u8",
       "category": "News",
@@ -16192,12 +16127,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lyoncapitale.m3u8",
       "category": "News",
       "logo": "https://i.imgur.com/4WfnEaj.png"
-    },
-    {
-      "name": "M6 [Geo-blocked] [Geo-Blocked]",
-      "url": "https://www.m6.fr/m6/direct",
-      "category": "Entertainment",
-      "logo": "https://i.imgur.com/7GVp3fW.png"
     },
     {
       "name": "Maison & Travaux TV",
@@ -16338,34 +16267,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/bC3qiGK.png"
     },
     {
-      "name": "TF1 HD (720p) [Geo-Blocked]",
-      "url": "https://www.tf1.fr/tf1/direct",
-      "category": "Entertainment",
-      "logo": "https://i.imgur.com/QxHt9NC.png"
-    },
-    {
-      "name": "TF1 Series Films (1080p) [Geo-Blocked]",
-      "url": "https://www.tf1.fr/tf1-series-films/direct",
-      "category": "Movies",
-      "logo": "https://i.imgur.com/4CJIDKQ.png"
-    },
-    {
-      "name": "TFX (1080p) [Geo-Blocked]",
-      "url": "https://www.tf1.fr/tfx/direct",
-      "category": "Undefined",
-      "logo": "https://i.imgur.com/d91GcVf.png"
-    },
-    {
       "name": "TiVi5 Monde [Geo-blocked]",
       "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8",
       "category": "Undefined",
       "logo": "https://i.imgur.com/fVVKpmk.png"
-    },
-    {
-      "name": "TMC HD (1080p) [Geo-Blocked]",
-      "url": "https://www.tf1.fr/tmc/direct",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png"
     },
     {
       "name": "Trace Sport Stars (Australia)",
@@ -16408,18 +16313,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8",
       "category": "Undefined",
       "logo": "https://www.tvr.bzh/favicon-1024.png"
-    },
-    {
-      "name": "viàOccitanie (540p) [Not 24/7]",
-      "url": "https://www.viaoccitanie.tv/direct-tv/",
-      "category": "General",
-      "logo": "https://i.imgur.com/NzuKt1R.png"
-    },
-    {
-      "name": "W9 [Geo-blocked] [Geo-Blocked]",
-      "url": "https://www.m6.fr/w9/direct",
-      "category": "Entertainment",
-      "logo": "https://i.imgur.com/reYeMuE.png"
     },
     {
       "name": "zenith",
@@ -49772,28 +49665,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/PexhKwp.png"
     },
     {
-      "name": "24 TV",
-      "url": "https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/8FO41es.png"
-    },
-    {
       "name": "360 TV",
       "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/agn47sQ.png"
-    },
-    {
-      "name": "A Türk Izmir",
-      "url": "https://vdo.digitalbox.xyz:3807/stream/play.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/je5wQ3G.png"
-    },
-    {
-      "name": "AA Live",
-      "url": "https://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/dWElJll.png"
     },
     {
       "name": "Afroturk TV",
@@ -49862,64 +49737,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/HyVUwFC.png"
     },
     {
-      "name": "ATV",
-      "url": "http://116.202.238.88/ATV_TR/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/HyVUwFC.png"
-    },
-    {
-      "name": "ATV Alanya",
-      "url": "http://stream2.taksimbilisim.com:1935/alanyatv/alanyatv.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/bUwarR0.png"
-    },
-    {
-      "name": "ATV Avrupa",
-      "url": "https://streamer2.nexgen.bz/ATV/index.m3u8",
-      "category": "General",
-      "logo": "https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png"
-    },
-    {
-      "name": "Benguturk TV",
-      "url": "http://185.234.111.229:8000/play/a05u",
-      "category": "General",
-      "logo": "https://i.imgur.com/p3ON1oX.png"
-    },
-    {
       "name": "BENGÜTÜRK TV",
       "url": "https://tv.ensonhaber.com/benguturk/benguturk.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/p3ON1oX.png"
-    },
-    {
-      "name": "Berat TV",
-      "url": "https://cdn-berattv.yayin.com.tr/berattv/berattv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/BxxH8wE.png"
-    },
-    {
-      "name": "Beyaz TV",
-      "url": "https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3",
-      "category": "General",
-      "logo": "https://i.imgur.com/uykIdML.png"
-    },
-    {
-      "name": "Beyaz TV",
-      "url": "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/uykIdML.png"
-    },
-    {
-      "name": "Bir TV",
-      "url": "https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://birtv.tv/assets/upload/637f83951df60.png"
-    },
-    {
-      "name": "Bizimev TV",
-      "url": "https://mn-nl.mncdn.com/blutv_bizimev/bizimev_sd.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/eJa6sFY.png"
     },
     {
       "name": "Bloomberg HT",
@@ -49934,12 +49755,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/bmkXfIE.png"
     },
     {
-      "name": "BloombergHT",
-      "url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/bmkXfIE.png"
-    },
-    {
       "name": "BRTV [Geo-blocked]",
       "url": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8",
       "category": "General",
@@ -49950,24 +49765,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
       "category": "General",
       "logo": ""
-    },
-    {
-      "name": "Bursa AS TV [Geo-blocked]",
-      "url": "https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": ""
-    },
-    {
-      "name": "Bursa TV",
-      "url": "https://cdn-bursatv.yayin.com.tr/bursatv/bursatv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/9cl1MR8.png"
-    },
-    {
-      "name": "Bursa TV",
-      "url": "https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/9cl1MR8.png"
     },
     {
       "name": "Can TV",
@@ -49988,28 +49785,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/ndupxwu.png"
     },
     {
-      "name": "Cekmeköy TV",
-      "url": "https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/sjAGFWu.png"
-    },
-    {
-      "name": "Cekmeköy TV",
-      "url": "https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/sjAGFWu.png"
-    },
-    {
       "name": "CGTN Documentary",
       "url": "https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CGTN_Documentary_logo.png/400px-CGTN_Documentary_logo.png"
-    },
-    {
-      "name": "Çiftçi TV",
-      "url": "http://stream.taksimbilisim.com:1935/ciftcitv/smil:ciftcitv.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/CLzP4vL.png"
     },
     {
       "name": "Çiftçi TV",
@@ -50022,12 +49801,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8",
       "category": "General",
       "logo": "https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/cnbc-e-buyuk.png?rkt=DfS6Tgv6Hjr93k3"
-    },
-    {
-      "name": "Deha TV [Geo-blocked]",
-      "url": "https://live.artidijitalmedya.com/artidijital_dehatv/dehatv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/Dlsm9XP.png"
     },
     {
       "name": "Deniz Postası TV",
@@ -50046,12 +49819,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/X4QFDhk.png"
-    },
-    {
-      "name": "Disney Jr. [Geo-blocked]",
-      "url": "https://saran-live.ercdn.net/disneyjunior/index.m3u8",
-      "category": "General",
-      "logo": "https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png"
     },
     {
       "name": "Diyanet TV",
@@ -50076,12 +49843,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/vJ8VaZi.png"
-    },
-    {
-      "name": "Edessa TV",
-      "url": "https://tv.digitalbox.xyz:19360/edessatv/edessatv.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/rhU6j9I.png"
     },
     {
       "name": "Er TV [Geo-blocked]",
@@ -50120,12 +49881,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/x9kHsXo.png"
     },
     {
-      "name": "EuroStar TV",
-      "url": "https://canlitvulusal.xyz/live/eurostar/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/kb165Ot.png"
-    },
-    {
       "name": "FB TV",
       "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
       "category": "General",
@@ -50138,28 +49893,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.ibb.co/wBwmB1T/iY0osc7.png"
     },
     {
-      "name": "Flash TV",
-      "url": "https://mn-nl.mncdn.com/blutv_flashtv/live.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/L0NHKBM.png"
-    },
-    {
       "name": "Fortuna TV",
       "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/ZbUSlOC.png"
-    },
-    {
-      "name": "FX [Geo-blocked]",
-      "url": "https://saran-live.ercdn.net/fx/index.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/330px-FX_International_logo.svg.png"
-    },
-    {
-      "name": "GRT",
-      "url": "https://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/eRR0gkC.png"
     },
     {
       "name": "Guneydogu TV",
@@ -50192,18 +49929,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/fu6XeGS.png"
     },
     {
-      "name": "Haber Global",
-      "url": "https://haberglobaldvr.blutv.com/blutv_haberglobal_dvr/live.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/fu6XeGS.png"
-    },
-    {
-      "name": "Habertürk TV",
-      "url": "https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/6Tw3rUp.png"
-    },
-    {
       "name": "Habertürk TV",
       "url": "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
       "category": "General",
@@ -50214,12 +49939,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/xM0HA30.png"
-    },
-    {
-      "name": "Helwa TV",
-      "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/helwa.m3u8",
-      "category": "General",
-      "logo": ""
     },
     {
       "name": "HTSpor TV",
@@ -50234,24 +49953,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/NrxHGnb.png"
     },
     {
-      "name": "Hunat TV",
-      "url": "https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/NrxHGnb.png"
-    },
-    {
-      "name": "IBB TV",
-      "url": "https://npserver1.ibb.gov.tr/webtv/webtv_wowza1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/aXxAz84.png"
-    },
-    {
-      "name": "Icel TV",
-      "url": "http://stream.taksimbilisim.com:1935/iceltv/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/CGwImKv.png"
-    },
-    {
       "name": "Icel TV",
       "url": "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8",
       "category": "General",
@@ -50264,32 +49965,8 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/eXErSv0.png"
     },
     {
-      "name": "Kanal 3",
-      "url": "https://waw2.artiyerelmedya.net/kanal3/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/eXErSv0.png"
-    },
-    {
-      "name": "Kanal 3",
-      "url": "http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/eXErSv0.png"
-    },
-    {
-      "name": "Kanal 3",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/eXErSv0.png"
-    },
-    {
       "name": "Kanal 7",
       "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/0gq9xOm.png"
-    },
-    {
-      "name": "Kanal 7",
-      "url": "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/0gq9xOm.png"
     },
@@ -50331,63 +50008,15 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "Kanal 33",
-      "url": "http://stream.taksimbilisim.com:1935/kanal33/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/5WYaoFZ.png"
-    },
-    {
-      "name": "Kanal 33",
       "url": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/5WYaoFZ.png"
-    },
-    {
-      "name": "Kanal 34",
-      "url": "https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/SIaI6Sj.png"
-    },
-    {
-      "name": "Kanal 34",
-      "url": "https://5be5d840359c6.streamlock.net/kanal34tv/kanal34tv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/SIaI6Sj.png"
-    },
-    {
-      "name": "Kanal 38",
-      "url": "http://yayin3.canlitv.com:1935/live/kanal38/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/WvtZ7Xd.png"
-    },
-    {
-      "name": "KANAL 58",
-      "url": "https://edge1.socialsmart.tv/kanal58/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/Rgc66sv.png"
     },
     {
       "name": "KANAL 58",
       "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/Rgc66sv.png"
-    },
-    {
-      "name": "Kanal 68",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/5y7K9SS.png"
-    },
-    {
-      "name": "Kanal Avrupa",
-      "url": "http://51.15.2.151/hls/kanalavrupa.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/bIGk6RN.png"
-    },
-    {
-      "name": "Kanal B",
-      "url": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/bUsbxTQ.png"
     },
     {
       "name": "Kanal D",
@@ -50427,12 +50056,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "Kay TV [Geo-blocked]",
-      "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/MymuDJ1.png"
-    },
-    {
-      "name": "Kay TV [Geo-blocked]",
       "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/MymuDJ1.png"
@@ -50440,12 +50063,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     {
       "name": "Kent Türk TV",
       "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/FQKPjsm.png"
-    },
-    {
-      "name": "Kent Türk TV",
-      "url": "https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/FQKPjsm.png"
     },
@@ -50462,26 +50079,8 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/ch365lh.png"
     },
     {
-      "name": "Kudüs TV [Geo-blocked]",
-      "url": "https://yayin.kudustv.com/981680400/kudustv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/lwRA84B.png"
-    },
-    {
       "name": "Lalegul TV",
       "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/wwCysFs.png"
-    },
-    {
-      "name": "Lalegül TV",
-      "url": "http://lalegultv.netmedya.net/hls/lalegultv.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/wwCysFs.png"
-    },
-    {
-      "name": "Lalegül TV",
-      "url": "http://lalegultv.netmedya.net/lalegul-tv/lalegultv.stream/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/wwCysFs.png"
     },
@@ -50528,52 +50127,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/3CWV8bS.png"
     },
     {
-      "name": "Milyon TV",
-      "url": "https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/lEIFDwo.png"
-    },
-    {
-      "name": "Minika Cocuk",
-      "url": "https://tgn.bozztv.com/dvrfl05/gin-minikacocuk/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/VCywMTv.png"
-    },
-    {
-      "name": "Minika Go",
-      "url": "https://tgn.bozztv.com/dvrfl05/gin-minikago/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/qIoipDq.png"
-    },
-    {
-      "name": "MovieSmart Turk",
-      "url": "http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174",
-      "category": "General",
-      "logo": "https://i.imgur.com/DWN9ulT.png"
-    },
-    {
       "name": "MTürk TV",
       "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/xj1gvrq.png"
-    },
-    {
-      "name": "National Geographic [Geo-blocked]",
-      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png"
-    },
-    {
-      "name": "National Geographic Wild [Geo-blocked]",
-      "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png"
-    },
-    {
-      "name": "Natural TV",
-      "url": "http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/rfcJ674.png"
     },
     {
       "name": "Natural TV",
@@ -50586,18 +50143,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/5EYjWK7.png"
-    },
-    {
-      "name": "NOW TV",
-      "url": "http://116.202.238.88/FOXTV_TR/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/5EYjWK7.png"
-    },
-    {
-      "name": "NTV",
-      "url": "https://dogus-live.daioncdn.net/ntv/ntv.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/300px-NTV_%28Turkey%29_logo.svg.png"
     },
     {
       "name": "Number 1 Ask",
@@ -50618,20 +50163,8 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/ZM4PSyq.png"
     },
     {
-      "name": "Number 1 Türk",
-      "url": "https://mn-nl.mncdn.com/blutv_nr1turk2/live.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/18zjk3q.png"
-    },
-    {
       "name": "Number 1 TV",
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/02cDIBi.png"
-    },
-    {
-      "name": "Number 1 TV",
-      "url": "https://mn-nl.mncdn.com/blutv_nr12/live.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/02cDIBi.png"
     },
@@ -50648,24 +50181,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/qGRa1KI.png"
     },
     {
-      "name": "On 6",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal16/kanal16/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/k7rS2gC.png"
-    },
-    {
-      "name": "ON Medya Haber [Geo-blocked]",
-      "url": "http://live.arkumedia.com:1935/marmaratv/marmaratv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/thvk3Py.png"
-    },
-    {
-      "name": "Öncü TV",
-      "url": "https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/TGPNYrD.jpg"
-    },
-    {
       "name": "Power Dance",
       "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
       "category": "General",
@@ -50680,12 +50195,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     {
       "name": "Power Turk",
       "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/9OPoXQG.png"
-    },
-    {
-      "name": "Power Turk",
-      "url": "https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/9OPoXQG.png"
     },
@@ -50720,12 +50229,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/XSL1gd7.png"
     },
     {
-      "name": "PowerTurk TV",
-      "url": "https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/9OPoXQG.png"
-    },
-    {
       "name": "PowerTürk TV",
       "url": "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8",
       "category": "General",
@@ -50736,18 +50239,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/hrk7Uce.png"
-    },
-    {
-      "name": "S Sport",
-      "url": "https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/profile_0/chunklist.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png"
-    },
-    {
-      "name": "S Sport 2",
-      "url": "https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/2jIItAy.png"
     },
     {
       "name": "Sat7 Türk",
@@ -50774,46 +50265,16 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/UVGGrQd.png"
     },
     {
-      "name": "Sports TV [Geo-blocked]",
-      "url": "https://live.sportstv.com.tr/hls/low/sportstv.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/tGTVcVe.jpg"
-    },
-    {
       "name": "Sun RTV",
       "url": "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/64tph9N.png"
     },
     {
-      "name": "Sun RTV",
-      "url": "https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/64tph9N.png"
-    },
-    {
-      "name": "Tabii Spor 6 [Geo-blocked]",
-      "url": "https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8",
-      "category": "General",
-      "logo": "https://cms-tabii-public-image.tabii.com/int/w300/43020.jpeg"
-    },
-    {
       "name": "Tarih TV",
       "url": "https://tv1.arectv30.sbs/live/tarihtv.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/HbIGZUt.png"
-    },
-    {
-      "name": "Tarim TV",
-      "url": "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/q30sFms.png"
-    },
-    {
-      "name": "Tatlises TV",
-      "url": "https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/et1sbyq.png"
     },
     {
       "name": "TBMM TV",
@@ -50834,28 +50295,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/tZpx32y.png"
     },
     {
-      "name": "Teve2",
-      "url": "https://demiroren-live.daioncdn.net/teve2/teve2.m3u8",
-      "category": "General",
-      "logo": ""
-    },
-    {
       "name": "TGRT Belgesel TV",
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/VwWTnf0.png"
-    },
-    {
-      "name": "TGRT Belgesel TV",
-      "url": "https://tv.ensonhaber.com/tv/tr/tgrtbelgesel/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/VwWTnf0.png"
-    },
-    {
-      "name": "TGRT Europe",
-      "url": "https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png"
     },
     {
       "name": "TGRT Haber",
@@ -50882,12 +50325,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://www.tjk.org/Media/UserFiles/images/TJK-Logo.png"
     },
     {
-      "name": "TJK TV 2",
-      "url": "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8",
-      "category": "General",
-      "logo": "https://www.tjk.org/Media/UserFiles/images/TJK-Logo.png"
-    },
-    {
       "name": "TMB",
       "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8",
       "category": "General",
@@ -50898,18 +50335,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/f0Soeob.png"
-    },
-    {
-      "name": "Toprak TV",
-      "url": "https://59cba4d34b678.streamlock.net/canlitv/topraktv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/JGnS0qs.png"
-    },
-    {
-      "name": "Torba TV",
-      "url": "https://59cba4d34b678.streamlock.net/canlitv/torbatv/playlist.m3u8",
-      "category": "General",
-      "logo": ""
     },
     {
       "name": "TR24 TV",
@@ -50924,12 +50349,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://tbbweb.tv/img/logo.png"
     },
     {
-      "name": "Trakya Türk TV",
-      "url": "https://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/playlist.m3u8",
-      "category": "General",
-      "logo": "https://trakyaturktv.com/uploads/library/2024/04/unnamed1.jpg"
-    },
-    {
       "name": "TRT 1",
       "url": "https://trt.daioncdn.net/trt-1/master.m3u8?app=web",
       "category": "General",
@@ -50940,12 +50359,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png"
-    },
-    {
-      "name": "TRT 2",
-      "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/iOCQdyD.png"
     },
     {
       "name": "TRT 3",
@@ -50964,18 +50377,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png"
-    },
-    {
-      "name": "TRT Belgesel",
-      "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/512px-TRT_Belgesel_logo_%282019-%29.svg.png"
-    },
-    {
-      "name": "TRT Çocuk",
-      "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/512px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"
     },
     {
       "name": "TRT Diyanet Çocuk",
@@ -51020,18 +50421,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/JgUzRH8.png"
     },
     {
-      "name": "TRT Spor [Geo-blocked]",
-      "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/6tv0zxh.png"
-    },
-    {
-      "name": "TRT Spor Yildiz [Geo-blocked]",
-      "url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/460px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png"
-    },
-    {
       "name": "TRT Türk",
       "url": "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
       "category": "General",
@@ -51063,12 +50452,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "TV 8",
-      "url": "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/300px-Tv8_Yeni_Logo.png"
-    },
-    {
-      "name": "TV 8",
       "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/300px-Tv8_Yeni_Logo.png"
@@ -51080,40 +50463,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": ""
     },
     {
-      "name": "TV 38",
-      "url": "https://59cba4d34b678.streamlock.net/live/tv38/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/KDBXLqn.png"
-    },
-    {
-      "name": "TV 41",
-      "url": "http://stream.taksimbilisim.com:1935/tv41/bant1/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/6T472LM.png"
-    },
-    {
-      "name": "TV 41",
-      "url": "http://stream.taksimbilisim.com:1935/tv41/bant1/TV41.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/6T472LM.png"
-    },
-    {
-      "name": "TV 41",
-      "url": "http://stream.taksimbilisim.com:1935/tv41/smil:tv41.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/6T472LM.png"
-    },
-    {
       "name": "TV 41",
       "url": "https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/6T472LM.png"
-    },
-    {
-      "name": "TV 52",
-      "url": "http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/k4R5CzO.png"
     },
     {
       "name": "TV 52",
@@ -51146,24 +50499,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/mQo8yWQ.png"
     },
     {
-      "name": "TYT Turk",
-      "url": "https://cdn-tytturk.yayin.com.tr/tytturk/index.m3u8",
-      "category": "General",
-      "logo": "https://tytturk.com/upload/tyt-logo.png"
-    },
-    {
-      "name": "Ülke TV",
-      "url": "https://mn-nl.mncdn.com/blutv_ulketv2/live.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/wdWR7Qk.png"
-    },
-    {
-      "name": "Üniversite TV",
-      "url": "https://vdo.digitalbox.xyz:3986/live/unitvlive.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/KeauaSh.png"
-    },
-    {
       "name": "Urfa Natik TV",
       "url": "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8",
       "category": "General",
@@ -51174,12 +50509,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/H5kOQz5.png"
-    },
-    {
-      "name": "V TV",
-      "url": "https://serdar.tiviplayer.com/player/m3u8/65aae71c9b93f0965aaed3a92660d98b/65aae71c9b93f0965aaed3a92660d98b.m3u8",
-      "category": "General",
-      "logo": "https://www.vtv.net.tr/uploads/logo/sitelogo_4.jpg"
     },
     {
       "name": "Vav TV",
@@ -51194,22 +50523,33 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/DyT5pKB.png"
     },
     {
-      "name": "Vizyon 58 TV [Geo-blocked]",
-      "url": "https://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/tITBc59.png"
-    },
-    {
-      "name": "Woman TV",
-      "url": "https://embedlp.becdn.net/womantv.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/f2zGoV3.png"
-    },
-    {
       "name": "Zarok TV",
       "url": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/o0eevnb.png"
+    },
+    {
+      "name": "BloombergHT",
+      "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/bmkXfIE.png"
+    },
+    {
+      "name": "Bursa AS TV [Geo-blocked]",
+      "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
+      "category": "General",
+      "logo": ""
+    },
+    {
+      "name": "Hunat TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8",
+      "category": "General",
+      "logo": "https://i.imgur.com/NrxHGnb.png"
+    },
+    {
+      "name": "Kent T?rk TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
+      "category": "General"
     }
   ],
   "Trinidad and Tobago": [

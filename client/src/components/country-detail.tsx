@@ -1,5 +1,5 @@
 import { useState, useEffect, lazy, Suspense } from "react"
-import { AlertCircle, ExternalLink, X, Star } from "lucide-react"
+import { AlertCircle, X, Star } from "lucide-react"
 
 // 🚀 Lazy-load video players — defers 969KB video.js bundle until user actually watches a stream
 const VideoPlayer = lazy(() => import("@/components/video-player"))
@@ -8,43 +8,6 @@ const VideoJsPlayer = lazy(() => import("@/components/videojs-player"))
 interface Channel {
   name: string;
   url: string;
-}
-
-function isOfficialExternalPage(url: string): boolean {
-  try {
-    const parsed = new URL(url)
-    const host = parsed.hostname.toLowerCase()
-    const pathname = parsed.pathname.toLowerCase()
-    const knownOfficialHosts = [
-      "tf1.fr",
-      "www.tf1.fr",
-      "france.tv",
-      "www.france.tv",
-      "m6.fr",
-      "www.m6.fr",
-      "lequipe.fr",
-      "www.lequipe.fr",
-      "cnews.fr",
-      "www.cnews.fr",
-      "lcp.fr",
-      "www.lcp.fr",
-      "ktotv.com",
-      "www.ktotv.com",
-      "viaoccitanie.tv",
-      "www.viaoccitanie.tv",
-    ]
-
-    const mediaLikePath =
-      pathname.endsWith(".m3u8") ||
-      pathname.endsWith(".mpd") ||
-      pathname.endsWith(".mp4") ||
-      pathname.endsWith(".mp3") ||
-      pathname.endsWith(".mkv")
-
-    return knownOfficialHosts.includes(host) && !mediaLikePath
-  } catch {
-    return false
-  }
 }
 
 interface CountryDetailProps {
@@ -62,7 +25,6 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
   const [isFavorited, setIsFavorited] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
   const [isYouTube, setIsYouTube] = useState(false)
-  const [officialExternalUrl, setOfficialExternalUrl] = useState("")
 
   useEffect(() => {
     setIsMounted(true)
@@ -105,7 +67,6 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
     setError("")
     setStreamUrl("")
     setIsYouTube(false)
-    setOfficialExternalUrl("")
 
     const fetchChannels = async () => {
       try {
@@ -144,9 +105,6 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             if (url.includes("youtube.com") || url.includes("youtube-nocookie.com")) {
               setIsYouTube(true)
               setStreamUrl(url)
-            } else if (isOfficialExternalPage(url)) {
-              setIsYouTube(false)
-              setOfficialExternalUrl(url)
             } else {
               setIsYouTube(false)
               setStreamUrl(url)
@@ -175,14 +133,10 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
               if (url && (url.startsWith("http://") || url.startsWith("https://"))) {
                 if (url.includes("youtube.com") || url.includes("youtube-nocookie.com")) {
                   setIsYouTube(true)
-                } else if (isOfficialExternalPage(url)) {
-                  setOfficialExternalUrl(url)
                 } else {
                   setIsYouTube(false)
                 }
-                if (!isOfficialExternalPage(url)) {
-                  setStreamUrl(url)
-                }
+                setStreamUrl(url)
               } else {
                 setError(`Stream not found in database for ${channel}`)
               }
@@ -222,23 +176,6 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             <AlertCircle className="w-12 h-12 text-red-400 mb-4" />
             <div className="text-red-400 mb-2 font-medium">Stream Error</div>
             <p className="text-sm text-slate-500 max-w-xs text-center">{error}</p>
-          </div>
-        ) : officialExternalUrl ? (
-          <div className="flex flex-col items-center justify-center w-full h-full bg-black text-white px-6 text-center">
-            <ExternalLink className="w-12 h-12 text-cyan-400 mb-4" />
-            <div className="text-white mb-2 font-medium">Official Live Page</div>
-            <p className="text-sm text-slate-400 max-w-md mb-6">
-              This channel is available through its official live page. Open it in a new tab to watch.
-            </p>
-            <a
-              href={officialExternalUrl}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="inline-flex items-center gap-2 rounded-full bg-cyan-500 px-5 py-3 text-sm font-medium text-black transition-colors hover:bg-cyan-400"
-            >
-              Open official stream
-              <ExternalLink className="h-4 w-4" />
-            </a>
           </div>
         ) : streamUrl ? (
           <Suspense fallback={
