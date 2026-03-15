@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, useRef } from "react"
+import { useState, useEffect, lazy, Suspense } from "react"
 import { createPortal } from "react-dom"
 import { AlertCircle, X, Star } from "lucide-react"
 
@@ -27,7 +27,6 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
   const [isMounted, setIsMounted] = useState(false)
   const [isYouTube, setIsYouTube] = useState(false)
   const [isLandscape, setIsLandscape] = useState(false)
-  const playerContainerRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
     setIsMounted(true)
@@ -58,52 +57,6 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
     return () => {
       document.body.style.overflow = ""
     }
-  }, [isMobile, isLandscape])
-
-  useEffect(() => {
-    if (!isMobile) return
-
-    const tryEnterFullscreen = async () => {
-      if (!isLandscape) return
-      if (document.fullscreenElement) return
-
-      const container = playerContainerRef.current
-      const videoEl = container?.querySelector("video") as
-        | (HTMLVideoElement & { webkitEnterFullscreen?: () => void })
-        | null
-
-      try {
-        if (container?.requestFullscreen) {
-          await container.requestFullscreen()
-          return
-        }
-      } catch {
-        // Ignore - fallback to video fullscreen if possible
-      }
-
-      try {
-        if (videoEl?.webkitEnterFullscreen) {
-          videoEl.webkitEnterFullscreen()
-        }
-      } catch {
-        // Ignore - browser may block without user gesture
-      }
-    }
-
-    const tryExitFullscreen = () => {
-      if (document.fullscreenElement && !isLandscape) {
-        document.exitFullscreen?.().catch(() => {})
-      }
-    }
-
-    if (isLandscape) {
-      const id = window.setTimeout(() => {
-        void tryEnterFullscreen()
-      }, 100)
-      return () => clearTimeout(id)
-    }
-
-    tryExitFullscreen()
   }, [isMobile, isLandscape])
 
   useEffect(() => {
@@ -239,7 +192,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
     : "group relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
 
   const playerContent = (
-    <div ref={playerContainerRef} className={playerShellClass}>
+    <div className={playerShellClass}>
         {loading ? (
           <div className="flex flex-col items-center justify-center w-full h-full bg-black text-white">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400 mb-4" />
