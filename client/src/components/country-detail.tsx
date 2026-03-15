@@ -1,4 +1,5 @@
 import { useState, useEffect, lazy, Suspense } from "react"
+import { createPortal } from "react-dom"
 import { AlertCircle, X, Star } from "lucide-react"
 
 // 🚀 Lazy-load video players — defers 969KB video.js bundle until user actually watches a stream
@@ -184,18 +185,14 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
     fetchChannels()
   }, [country, channel, activeCategory])
 
-  return (
-    <div className="relative w-full h-full flex items-center justify-center bg-transparent">
+  const playerShellClass = isMobile
+    ? isLandscape
+      ? "group w-full h-full bg-black"
+      : "group relative w-full aspect-video bg-black"
+    : "group relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
 
-      <div
-        className={
-          isMobile
-            ? isLandscape
-              ? "group fixed inset-0 z-50 w-screen h-screen bg-black"
-              : "group relative w-full aspect-video bg-black"
-            : "group relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
-        }
-      >
+  const playerContent = (
+    <div className={playerShellClass}>
         {loading ? (
           <div className="flex flex-col items-center justify-center w-full h-full bg-black text-white">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400 mb-4" />
@@ -260,7 +257,20 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             <X className="w-5 h-5" />
           </button>
         </div>
-      </div>
+  )
+
+  if (isMobile && isLandscape) {
+    return createPortal(
+      <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black">
+        {playerContent}
+      </div>,
+      document.body,
+    )
+  }
+
+  return (
+    <div className="relative w-full h-full flex items-center justify-center bg-transparent">
+      {playerContent}
     </div>
   )
 }
