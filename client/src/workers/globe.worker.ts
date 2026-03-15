@@ -13,7 +13,7 @@ import earcut from "earcut"
 // ─── Config ──────────────────────────────────────────────────────────────────
 const GLOBE_R = 100
 const COUNTRY_ALT = 1.005
-const GEO_URL = "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_110m_admin_0_countries.geojson"
+const GEO_URL = "/assets/ne_110m_admin_0_countries-B0ua2Esj.geojson"
 
 // ─── Color palette ───────────────────────────────────────────────────────────
 const PALETTE = [

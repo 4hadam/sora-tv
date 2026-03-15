@@ -1,3 +1,51 @@
+// geojson.worker.ts — local GeoJSON loader adapted from OneDrive source
+self.onmessage = async (event: MessageEvent) => {
+  // accept either explicit load or default
+  if (event.data?.type && event.data.type !== 'load') return
+
+  try {
+    const res = await fetch('/assets/ne_110m_admin_0_countries-B0ua2Esj.geojson')
+    if (!res.ok) throw new Error(`fetch failed: ${res.status}`)
+    const payload = await res.json()
+    const features = (payload.features || []).filter((f: any) => {
+      const t = f?.geometry?.type
+      return t === 'Polygon' || t === 'MultiPolygon'
+    }).map((feature: any) => {
+      const center = estimateCenter(feature.geometry)
+      return {
+        type: 'Feature',
+        geometry: feature.geometry,
+        properties: Object.assign({}, feature.properties || {}, {
+          CENTER_LAT: center.lat,
+          CENTER_LNG: center.lng
+        })
+      }
+    })
+    ;(self as any).postMessage({ ok: true, features })
+  } catch (err: any) {
+    ;(self as any).postMessage({ ok: false, error: err?.message ?? String(err) })
+  }
+}
+
+function estimateCenter(geometry: any) {
+  const coordinates = geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates
+  let minLng = Infinity, maxLng = -Infinity, minLat = Infinity, maxLat = -Infinity
+  for (const polygon of coordinates) {
+    for (const ring of polygon) {
+      for (const pt of ring) {
+        const [lng, lat] = pt
+        if (lng < minLng) minLng = lng
+        if (lng > maxLng) maxLng = lng
+        if (lat < minLat) minLat = lat
+        if (lat > maxLat) maxLat = lat
+      }
+    }
+  }
+  return {
+    lat: Number.isFinite(minLat) && Number.isFinite(maxLat) ? (minLat + maxLat) / 2 : 0,
+    lng: Number.isFinite(minLng) && Number.isFinite(maxLng) ? (minLng + maxLng) / 2 : 0
+  }
+}
 // Web Worker: fetch + parse GeoJSON off the main thread
 const GEOJSON_URL =
     "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_110m_admin_0_countries.geojson"
