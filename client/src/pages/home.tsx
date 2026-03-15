@@ -20,10 +20,14 @@ function GlobePlaceholder({ onActivate }: { onActivate?: () => void }) {
     <div aria-hidden="true" className="absolute inset-0 z-10 flex items-center justify-center bg-black">
       <button
         onClick={onActivate}
-        className="p-3 rounded-full bg-transparent border-0 flex items-center justify-center hover:scale-105 active:scale-95"
+        className="flex h-14 w-14 items-center justify-center rounded-full border-0 bg-transparent p-0"
         aria-label="Load"
       >
-        <div className="w-10 h-10 border-2 border-blue-400 border-t-transparent rounded-full animate-spin" />
+        <span className="relative block h-12 w-12">
+          <span className="absolute inset-0 rounded-full border-[4px] border-white/20" />
+          <span className="absolute inset-0 animate-spin rounded-full border-[4px] border-transparent border-l-sky-400 border-t-sky-400" />
+          <span className="absolute inset-[6px] rounded-full bg-black" />
+        </span>
       </button>
     </div>
   )
@@ -52,14 +56,18 @@ export default function Home() {
   const [isCategorySidebarOpen, setIsCategorySidebarOpen] = useState(false)
   const [activeCategory, setActiveCategory] = useState("all-channels")
   const skipChannelReset = useRef(false)
+  const loaderStartRef = useRef(Date.now())
+  const revealTimeoutRef = useRef<number | null>(null)
 
   // ظ£à Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
 
   // Load globe on idle on all devices (desktop + mobile)
   useEffect(() => {
-    const loadGlobe = () =>
-      import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
+    const loadGlobe = () => {
+      loaderStartRef.current = Date.now()
+      return import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
+    }
     if (typeof requestIdleCallback !== 'undefined') {
       const id = requestIdleCallback(loadGlobe, { timeout: 3000 })
       return () => cancelIdleCallback(id)
@@ -71,6 +79,7 @@ export default function Home() {
   const triggerGlobeLoad = useCallback(() => {
     if (!globeTriggeredRef.current) {
       globeTriggeredRef.current = true
+      loaderStartRef.current = Date.now()
       import("@/components/globe-viewer").then((mod) => setGlobeViewer(() => mod.default))
     }
   }, [])
@@ -81,6 +90,14 @@ export default function Home() {
     const t = setTimeout(() => setGlobeReady(true), 12000)
     return () => clearTimeout(t)
   }, [GlobeViewer, globeReady])
+
+  useEffect(() => {
+    return () => {
+      if (revealTimeoutRef.current !== null) {
+        clearTimeout(revealTimeoutRef.current)
+      }
+    }
+  }, [])
 
   // Handle URL-based country selection
   useEffect(() => {
@@ -209,6 +226,21 @@ export default function Home() {
     setIsCategorySidebarOpen((prev) => !prev)
   }
 
+  const handleGlobeReady = useCallback(() => {
+    const minLoaderMs = 1800
+    const elapsed = Date.now() - loaderStartRef.current
+    const remaining = Math.max(0, minLoaderMs - elapsed)
+
+    if (revealTimeoutRef.current !== null) {
+      clearTimeout(revealTimeoutRef.current)
+    }
+
+    revealTimeoutRef.current = window.setTimeout(() => {
+      setGlobeReady(true)
+      revealTimeoutRef.current = null
+    }, remaining)
+  }, [])
+
 
   return (
     <div className="flex flex-col h-screen w-full bg-transparent text-white overflow-hidden">
@@ -227,12 +259,12 @@ export default function Home() {
         <div className="absolute inset-0 z-10 sm:right-[320px] lg:right-[340px]">
           {!globeReady && <GlobePlaceholder onActivate={triggerGlobeLoad} />}
           {GlobeViewer && (
-            <div className={`absolute inset-0 ${globeReady ? 'opacity-100' : 'opacity-0'}`}>
+            <div className={`absolute inset-0 ${globeReady ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
               <GlobeViewer
                 selectedCountry={selectedCountry}
                 onCountryClick={handleGlobeCountryClick}
                 isMobile={isMobile}
-                onReady={() => setGlobeReady(true)}
+                onReady={handleGlobeReady}
               />
             </div>
           )}
