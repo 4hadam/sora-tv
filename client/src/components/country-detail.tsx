@@ -257,6 +257,7 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
             <X className="w-5 h-5" />
           </button>
         </div>
+      </div>
   )
 
   if (isMobile && isLandscape) {
