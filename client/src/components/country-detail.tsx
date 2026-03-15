@@ -25,10 +25,38 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
   const [isFavorited, setIsFavorited] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
   const [isYouTube, setIsYouTube] = useState(false)
+  const [isLandscape, setIsLandscape] = useState(false)
 
   useEffect(() => {
     setIsMounted(true)
   }, [])
+
+  useEffect(() => {
+    if (!isMobile) {
+      setIsLandscape(false)
+      return
+    }
+
+    const media = window.matchMedia("(orientation: landscape)")
+    const update = () => setIsLandscape(media.matches)
+    update()
+
+    if (typeof media.addEventListener === "function") {
+      media.addEventListener("change", update)
+      return () => media.removeEventListener("change", update)
+    }
+
+    media.addListener(update)
+    return () => media.removeListener(update)
+  }, [isMobile])
+
+  useEffect(() => {
+    if (!isMobile) return
+    document.body.style.overflow = isLandscape ? "hidden" : ""
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [isMobile, isLandscape])
 
   useEffect(() => {
     if (!isMounted) return
@@ -159,13 +187,15 @@ export default function CountryDetail({ country, channel, onBack, isMobile, acti
   return (
     <div className="relative w-full h-full flex items-center justify-center bg-transparent">
 
-      <div className={
-        isMobile
-          // Note: Change h-full to aspect-video
-          ? "group relative w-full aspect-video bg-black"
-          // For desktop mode: use original floating window dimensions
-          : "group relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
-      }>
+      <div
+        className={
+          isMobile
+            ? isLandscape
+              ? "group fixed inset-0 z-50 w-screen h-screen bg-black"
+              : "group relative w-full aspect-video bg-black"
+            : "group relative w-[90%] sm:w-[85%] lg:w-[82%] max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-xl bg-black"
+        }
+      >
         {loading ? (
           <div className="flex flex-col items-center justify-center w-full h-full bg-black text-white">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400 mb-4" />
