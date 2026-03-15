@@ -208,7 +208,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
   // ── altitude on mobile/desktop switch ─────────────────────────────────────
   useEffect(() => {
-    globe.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 400)
+    globe.current?.pointOfView({ altitude: isMobile ? 3.5 : 2.5 }, 0)
   }, [isMobile])
 
   // ── mobile tap → raycasting country click ─────────────────────────────────
