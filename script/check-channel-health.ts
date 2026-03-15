@@ -24,6 +24,8 @@ type ProbeResult = {
 
 type Options = {
   country?: string;
+  categories?: string[];
+  categoryFile?: string;
   cleanup: boolean;
   timeoutMs: number;
   concurrency: number;
@@ -43,6 +45,24 @@ function parseArgs(argv: string[]): Options {
 
     if (arg === "--country" && next) {
       options.country = next;
+      i += 1;
+      continue;
+    }
+
+    if (arg === "--category" && next) {
+      const parts = next
+        .split(",")
+        .map((item) => item.trim())
+        .filter(Boolean);
+      if (parts.length > 0) {
+        options.categories = [...(options.categories ?? []), ...parts];
+      }
+      i += 1;
+      continue;
+    }
+
+    if (arg === "--category-file" && next) {
+      options.categoryFile = next;
       i += 1;
       continue;
     }
@@ -83,6 +103,24 @@ function isYouTubeLike(url: string): boolean {
 
 function normalizeCountryName(name: string): string {
   return name.trim().toLowerCase();
+}
+
+function normalizeCategoryName(value: string): string {
+  return value.trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function channelMatchesCategory(channel: ChannelRecord, categories: string[]): boolean {
+  const raw = typeof channel.category === "string" ? channel.category : "";
+  if (!raw) return false;
+  const channelParts = raw.split(";").map((part) => normalizeCategoryName(part));
+  return categories.some((category) => channelParts.includes(normalizeCategoryName(category)));
+}
+
+let categoryFileCache: Record<string, ChannelRecord[]> | null = null;
+
+function loadCategoryFile(filePath: string): Record<string, ChannelRecord[]> {
+  const raw = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(raw) as Record<string, ChannelRecord[]>;
 }
 
 function withTimeout(timeoutMs: number): AbortController {
@@ -254,6 +292,34 @@ async function runWithConcurrency<T, R>(
 }
 
 function buildTargets(options: Options) {
+  if (options.categoryFile) {
+    const resolved = path.resolve(process.cwd(), options.categoryFile);
+    if (!fs.existsSync(resolved)) {
+      throw new Error(`Category file not found: ${resolved}`);
+    }
+
+    const data = loadCategoryFile(resolved);
+    categoryFileCache = data;
+
+    const availableKeys = Object.keys(data);
+    const desired = options.categories?.map((cat) => normalizeCategoryName(cat));
+    const keys = desired && desired.length > 0
+      ? availableKeys.filter((key) => desired.includes(normalizeCategoryName(key)))
+      : availableKeys;
+
+    if (keys.length === 0) {
+      throw new Error("No matching categories found in category file.");
+    }
+
+    return keys.map((key) => {
+      let channels = data[key] || [];
+      if (typeof options.limit === "number") {
+        channels = channels.slice(0, options.limit);
+      }
+      return { country: key, channels };
+    });
+  }
+
   const entries = Object.entries(channelsByCountry as Record<string, ChannelRecord[]>);
   const filtered = options.country
     ? entries.filter(([country]) => normalizeCountryName(country) === normalizeCountryName(options.country!))
@@ -263,10 +329,18 @@ function buildTargets(options: Options) {
     throw new Error(`Country not found: ${options.country}`);
   }
 
-  return filtered.map(([country, channels]) => ({
-    country,
-    channels: typeof options.limit === "number" ? channels.slice(0, options.limit) : channels,
-  }));
+  const normalizedCategories = options.categories?.map((cat) => normalizeCategoryName(cat));
+
+  return filtered.map(([country, channels]) => {
+    let nextChannels = channels;
+    if (normalizedCategories && normalizedCategories.length > 0) {
+      nextChannels = channels.filter((channel) => channelMatchesCategory(channel, normalizedCategories));
+    }
+    if (typeof options.limit === "number") {
+      nextChannels = nextChannels.slice(0, options.limit);
+    }
+    return { country, channels: nextChannels };
+  });
 }
 
 function formatTsFile(data: Record<string, ChannelRecord[]>) {
@@ -295,7 +369,15 @@ async function main() {
   );
 
   console.log("Channel health check");
-  console.log(`Scope: ${options.country ?? "all countries"}`);
+  const scopeParts = [];
+  scopeParts.push(options.country ?? "all countries");
+  if (options.categories && options.categories.length > 0) {
+    scopeParts.push(`categories: ${options.categories.join(", ")}`);
+  }
+  if (options.categoryFile) {
+    scopeParts.push(`category file: ${options.categoryFile}`);
+  }
+  console.log(`Scope: ${scopeParts.join(" | ")}`);
   console.log(`Channels queued: ${flatTargets.length}`);
   console.log(`Concurrency: ${options.concurrency}`);
   console.log(`Cleanup mode: ${options.cleanup ? "enabled" : "disabled"}`);
@@ -336,6 +418,26 @@ async function main() {
   }
 
   const brokenUrls = new Set(broken.map((item) => `${item.country}::${item.url}`));
+  if (options.categoryFile && categoryFileCache) {
+    const resolved = path.resolve(process.cwd(), options.categoryFile);
+    const desired = options.categories?.map((cat) => normalizeCategoryName(cat));
+    const nextData: Record<string, ChannelRecord[]> = {};
+
+    for (const [category, channels] of Object.entries(categoryFileCache)) {
+      const shouldMutateCategory =
+        !desired || desired.length === 0 || desired.includes(normalizeCategoryName(category));
+      nextData[category] = shouldMutateCategory
+        ? channels.filter((channel) => !brokenUrls.has(`${category}::${channel.url}`))
+        : channels;
+    }
+
+    fs.writeFileSync(resolved, JSON.stringify(nextData, null, 2), "utf8");
+    console.log("");
+    console.log(`Removed broken channels from ${resolved}`);
+    console.log("Review the JSON report before committing changes.");
+    return;
+  }
+
   const nextData: Record<string, ChannelRecord[]> = {};
 
   for (const [country, channels] of Object.entries(channelsByCountry as Record<string, ChannelRecord[]>)) {
