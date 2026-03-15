@@ -26,6 +26,7 @@ interface CountrySidebarProps {
   externalSearch?: string
   currentTime: string
   isMobile?: boolean
+  collapsed?: boolean
   activeCategory: string | null
   selectedChannel?: string | null
 }
@@ -369,6 +370,7 @@ export default function CountrySidebar({
   externalSearch = "",
   currentTime,
   isMobile = false,
+  collapsed = false,
   activeCategory,
 }: CountrySidebarProps) {
   const [channels, setChannels] = useState<IPTVChannel[]>([])
@@ -494,7 +496,7 @@ export default function CountrySidebar({
 
 
       {/* --- المحتوى الرئيسي (دول أو قنوات) --- */}
-      <div className="flex-1 overflow-y-auto custom-scroll">
+      <div className={`flex-1 overflow-y-auto custom-scroll ${collapsed ? "hidden" : ""}`}>
         {/* المنطق الجديد للعرض */}
         {!shouldShowChannels ? (
           // --- (أ) عرض قائمة الدول ---

@@ -374,6 +374,7 @@ export default function Home() {
                     externalSearch={searchQuery}
                     currentTime={currentTime}
                     isMobile={isMobile}
+                    collapsed={!mobileSidebarOpen}
                     activeCategory={activeCategory}
                     selectedChannel={selectedChannel}
                   />
