@@ -471,7 +471,6 @@ export default function CountrySidebar({
 
   return (
     <aside className={`w-full h-full text-white flex flex-col ${isMobile ? "bg-transparent" : "bg-[#0B0D11]"}`}>
-      <div className="border-b border-white/10" />
 
       {/* --- الهيدر الخاص بالقائمة --- */}
       <div className="flex items-center justify-between px-5 py-4">
@@ -493,7 +492,6 @@ export default function CountrySidebar({
         <p className="text-sm text-slate-300">{currentTime}</p>
       </div>
 
-      <div className="border-b border-white/10" />
 
       {/* --- المحتوى الرئيسي (دول أو قنوات) --- */}
       <div className="flex-1 overflow-y-auto custom-scroll">
