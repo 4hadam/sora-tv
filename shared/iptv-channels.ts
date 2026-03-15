@@ -24028,11 +24028,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
   ],
   "Algeria": [
     {
-      "name": "AL24 News",
-      "url": "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/playlist.m3u8",
-      "category": "General"
-    },
-    {
       "name": "Amou Yazid",
       "url": "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8",
       "category": "General"
@@ -24050,14 +24045,8 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/ZBV6xph.png"
     },
     {
-      "name": "TV2 Canal Algérie",
-      "url": "http://149.62.177.98:8000/play/a01s/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/VEb631f.png"
-    },
-    {
       "name": "TV4 Tamazight TV",
-      "url": "http://149.62.177.98:8000/play/a01t/index.m3u8",
+      "url": "http://5.253.46.190:8000/play/a0en/index.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/BZvdjBN.png"
     }
