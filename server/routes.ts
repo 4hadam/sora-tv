@@ -179,15 +179,33 @@ export async function registerRoutes(
           if (fs.existsSync(csvPath)) {
             const text = fs.readFileSync(csvPath, "utf8");
             const lines = text.split(/\r?\n/).filter(Boolean);
-            const channels = lines.map((ln) => {
+            const channels: IPTVChannel[] = [];
+
+            for (const ln of lines) {
               const parts = ln.split("|");
-              const name = (parts[0] || "").trim();
+              if (parts.length < 2) continue;
+
+              const rawName = (parts[0] || "").trim();
               const url = (parts[1] || "").trim();
               const logo = (parts[2] || "").trim();
+
+              if (!url) continue;
+
+              let name = rawName;
+              if (rawName.includes("group-title=") || rawName.includes("tvg-id=") || rawName.includes("#EXTINF")) {
+                const lastComma = rawName.lastIndexOf(",");
+                if (lastComma !== -1 && lastComma < rawName.length - 1) {
+                  name = rawName.slice(lastComma + 1).trim();
+                }
+              }
+
+              if (!name) continue;
+
               const ch: IPTVChannel = { name, url, category: "Movies" } as any;
               if (logo) (ch as any).logo = logo;
-              return ch;
-            });
+              channels.push(ch);
+            }
+
             return res.json({ channels });
           }
         } catch (e) {
