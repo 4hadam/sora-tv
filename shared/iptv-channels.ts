@@ -8194,28 +8194,108 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
         { "name": "Zarin TV", "url": "https://fl1002.bozztv.com/gf-zarintv/index.m3u8", "category": "General", "logo": "https://www.lyngsat.com/logo/tv/zz/zarin_tv.png" },
         { "name": "Zoom TV Kurdish", "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8", "category": "News", "logo": "https://t4.ftcdn.net/jpg/03/88/22/21/360_F_388222175_D6PTsMoUyegpPJ63zvkecPsZAttc95mD.jpg" }
     ],
-    "Morocco": [
-        { "name": "Al Aoula Maroc", "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8", "category": "General", "logo": "https://i.imgur.com/OmiqZMN.png" },
-        { "name": "2M Monde +1", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
-        { "name": "Chada TV", "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8", "category": "General", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" },
-        { "name": "Medi 1 TV Afrique", "url": "https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8", "category": "General", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
-        { "name": "StoryChannel TV", "url": "https://136044159.r.cdnsun.net/storychannel.m3u8", "category": "General", "logo": "https://i.imgur.com/ZBV6xph.png" },
-        { "name": "Al Maghribia", "url": "https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd", "category": "General", "logo": "https://i.imgur.com/7GaahYh.png" },
-        { "name": "الأولى (Al Aoula)", "url": "https://snrt.player.easybroadcast.io/events/73_aloula_w1dqfwm", "category": "General" },
-        { "name": "2M Monde", "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8", "category": "General", "logo": "https://i.imgur.com/MvpntzA.png" },
-        { "name": "MBC 5", "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8", "category": "Family", "logo": "https://i.imgur.com/fRWaDyF.png" },
-        { "name": "Medi 1 TV Arabic", "url": "https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/3YsZPY6.jpeg" },
-        { "name": "Medi 1 TV Maghreb", "url": "https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8", "category": "News", "logo": "https://i.imgur.com/F5OFQsp.jpeg" },
-        { "name": "Tele Maroc", "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8", "category": "Culture;Entertainment;News", "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" },
-        { "name": "2M TNT", "url": "https://stream-lb.livemediama.com/2m-tnt/hls/master.m3u8", "category": "General" },
-        { "name": "Aflam", "url": "https://stream-lb.livemediama.com/aflam/hls/master.m3u8", "category": "Movies" },
-        { "name": "Arriyadia", "url": "https://stream-lb.livemediama.com/arryadia/hls/master.m3u8", "category": "Sports" },
-        { "name": "Assadissa", "url": "https://stream-lb.livemediama.com/assadissa/hls/master.m3u8", "category": "General" },
-        { "name": "Athaqafia", "url": "https://stream-lb.livemediama.com/athaqafia/hls/master.m3u8", "category": "Culture" },
-        { "name": "Laâyoune TV", "url": "https://stream-lb.livemediama.com/laayounetv/hls/master.m3u8", "category": "General" },
-        { "name": "M24 Maroc", "url": "https://stream-lb.livemediama.com/m24maroc/hls/master.m3u8", "category": "News" },
-        { "name": "Tamazight", "url": "https://stream-lb.livemediama.com/tamazight/hls/master.m3u8", "category": "Culture" }
-    ],
+  "Morocco": [
+    {
+      "name": "2M",
+      "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "2M TNT",
+      "url": "https://stream-lb.livemediama.com/2m-tnt/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Aflam",
+      "url": "https://stream-lb.livemediama.com/aflam/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Al Aoula",
+      "url": "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Al Aoula TNT",
+      "url": "https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Al Maghribia",
+      "url": "https://stream-lb.livemediama.com/almaghribia/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Arryadia",
+      "url": "https://stream-lb.livemediama.com/arryadia/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Arryadia HD 01",
+      "url": "https://stream-lb.livemediama.com/arryadia-hd-01/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Arryadia HD 02",
+      "url": "https://stream-lb.livemediama.com/arryadia-hd-02/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Arryadia HD 03",
+      "url": "https://stream-lb.livemediama.com/arryadia-hd-03/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Arryadia TNT",
+      "url": "https://stream-lb.livemediama.com/arryadia-tnt/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Assadissa",
+      "url": "https://stream-lb.livemediama.com/assadissa/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Athaqafia",
+      "url": "https://stream-lb.livemediama.com/athaqafia/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Chada TV",
+      "url": "https://stream-lb.livemediama.com/chadatv/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Laayoune TV",
+      "url": "https://stream-lb.livemediama.com/laayounetv/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "M24 Maroc",
+      "url": "https://stream-lb.livemediama.com/m24maroc/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Medi1 TV Arabic",
+      "url": "https://stream-lb.livemediama.com/medi1tv-arabic/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Medi1 TV Maghreb",
+      "url": "https://stream-lb.livemediama.com/medi1tv-maghreb/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Tamazight",
+      "url": "https://stream-lb.livemediama.com/tamazight/hls/master.m3u8",
+      "category": "General"
+    },
+    {
+      "name": "Tele Maroc",
+      "url": "https://stream-lb.livemediama.com/telemaroc/hls/master.m3u8",
+      "category": "General"
+    }
+  ],
     "Spain": [
         { "name": "3Cat Càmeres del temps", "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8", "category": "General", "logo": "https://i.imgur.com/zXy2kbe.png" },
         { "name": "3Cat El búnquer", "url": "https://fast-tailor.3catdirectes.cat/v1/channel/bunquer/hls.m3u8", "category": "General", "logo": "https://i.imgur.com/wiqdIjd.png" },
