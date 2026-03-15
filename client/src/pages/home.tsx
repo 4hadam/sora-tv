@@ -33,8 +33,6 @@ function GlobePlaceholder({ onActivate }: { onActivate?: () => void }) {
   )
 }
 
-import { LoadingScreen } from "@/components/loading-screen";
-
 // ≡اأ Lazy-load heavy components that import 1.7MB iptv-channels.ts
 // This keeps the initial bundle lean and defers channel-data parsing to after first paint
 const CountrySidebar = lazy(() => import("@/components/country-sidebar"))
@@ -61,6 +59,11 @@ export default function Home() {
 
   // ظ£à Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
+  const shouldRenderMobileSidebar =
+    mobileSidebarOpen ||
+    selectedCountry !== null ||
+    selectedChannel !== null ||
+    activeCategory !== "all-channels"
 
   // Load globe on idle on all devices (desktop + mobile)
   useEffect(() => {
@@ -333,7 +336,7 @@ export default function Home() {
 
 
         {/* ≡اô▒ Mobile Sidebar (Channels) */}
-        {isMobile && (
+        {isMobile && shouldRenderMobileSidebar && (
           <>
             <div
               className={`fixed left-0 right-0 z-20 bg-[#0B0D11] transition-transform duration-500 
