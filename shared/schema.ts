@@ -22,4 +22,6 @@ export interface IPTVChannel {
   url: string;
   category: string;
   logo?: string;
+  quality?: string;
+  country?: string;
 }

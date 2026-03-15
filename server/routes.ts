@@ -14,6 +14,31 @@ const rateLimits: Map<string, { count: number; resetAt: number }> = new Map();
 const RATE_LIMIT_WINDOW = Number(process.env.RATE_LIMIT_WINDOW_MS || 60000); // 1 minute
 const RATE_LIMIT_MAX = Number(process.env.RATE_LIMIT_MAX || 60); // requests per window
 
+let iptvFreeCategoryCache: Record<string, IPTVChannel[]> | null = null;
+let iptvFreeCategoryMtime = 0;
+
+function loadIptvFreeCategories(): Record<string, IPTVChannel[]> | null {
+  try {
+    const baseDir = path.resolve(process.cwd(), "output", "iptv-free-by-category");
+    const jsonPath = path.join(baseDir, "categories.json");
+    if (!fs.existsSync(jsonPath)) return null;
+
+    const stat = fs.statSync(jsonPath);
+    if (iptvFreeCategoryCache && stat.mtimeMs === iptvFreeCategoryMtime) {
+      return iptvFreeCategoryCache;
+    }
+
+    const raw = fs.readFileSync(jsonPath, "utf8");
+    const parsed = JSON.parse(raw) as Record<string, IPTVChannel[]>;
+    iptvFreeCategoryCache = parsed;
+    iptvFreeCategoryMtime = stat.mtimeMs;
+    return parsed;
+  } catch (e) {
+    console.error("Failed to load iptv-free categories:", e);
+    return null;
+  }
+}
+
 function clientIpFromReq(req: any) {
   return (req.ip || req.headers['x-forwarded-for'] || req.socket.remoteAddress || 'unknown').toString();
 }
@@ -171,6 +196,15 @@ export async function registerRoutes(
   app.get("/api/channels-by-category", async (req, res) => {
     try {
       const category = req.query.category as string;
+
+      if (category && category !== "all-channels") {
+        const normalized = category.toLowerCase();
+        const alias = normalized === "top-news" ? "news" : normalized;
+        const iptvFree = loadIptvFreeCategories();
+        if (iptvFree && iptvFree[alias] && iptvFree[alias].length > 0) {
+          return res.json({ channels: iptvFree[alias] });
+        }
+      }
 
       // Special-case: serve the pre-parsed Movies CSV if available
       if (category && category.toLowerCase() === "movies") {
