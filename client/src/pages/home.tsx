@@ -59,11 +59,6 @@ export default function Home() {
 
   // ظ£à Use optimized mobile detection hook
   const isMobile = useIsMobileDevice()
-  const shouldRenderMobileSidebar =
-    mobileSidebarOpen ||
-    selectedCountry !== null ||
-    selectedChannel !== null ||
-    activeCategory !== "all-channels"
 
   // Load globe on idle on all devices (desktop + mobile)
   useEffect(() => {
@@ -336,12 +331,13 @@ export default function Home() {
 
 
         {/* ≡اô▒ Mobile Sidebar (Channels) */}
-        {isMobile && shouldRenderMobileSidebar && (
+        {isMobile && (
           <>
             <div
-              className={`fixed left-0 right-0 z-20 bg-[#0B0D11] transition-transform duration-500 
-                ${mobileSidebarOpen ? "translate-y-0" : "translate-y-full"} 
-                top-16 bottom-0 flex flex-col`}
+              className="fixed left-0 right-0 top-16 bottom-0 z-20 flex flex-col overflow-hidden rounded-t-[2rem] border-t border-white/10 bg-[#0B0D11] shadow-[0_-18px_50px_rgba(0,0,0,0.45)] transition-transform duration-500 ease-out"
+              style={{
+                transform: mobileSidebarOpen ? "translateY(0)" : "translateY(calc(100% - 6.75rem))",
+              }}
             >
               {selectedChannel && (
                 // Note 1:
@@ -360,11 +356,11 @@ export default function Home() {
 
               <div
                 onClick={toggleMobileSidebar}
-                className={`w-full flex items-center justify-center cursor-grab flex-shrink-0 ${selectedChannel ? 'py-0' : 'py-1.5' // Previous margin adjustment
+                className={`w-full flex items-center justify-center cursor-grab flex-shrink-0 bg-[#0B0D11] ${selectedChannel ? 'py-3' : 'py-4'
                   }`}
                 aria-label="Toggle sidebar"
               >
-                <span className="w-12 h-1.5 bg-gray-700 rounded-full" />
+                <span className="h-1.5 w-12 rounded-full bg-white/35" />
               </div>
 
               {/* Note 2: Change h-[60%] to flex-1 */}

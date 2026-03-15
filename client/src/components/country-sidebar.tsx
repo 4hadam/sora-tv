@@ -470,7 +470,7 @@ export default function CountrySidebar({
   )
 
   return (
-    <aside className="w-full h-full text-white flex flex-col bg-[#0B0D11]">
+    <aside className={`w-full h-full text-white flex flex-col ${isMobile ? "bg-transparent" : "bg-[#0B0D11]"}`}>
       <div className="border-b border-white/10" />
 
       {/* --- الهيدر الخاص بالقائمة --- */}
