@@ -1,0 +1,28 @@
+[
+  {
+    "country": "France",
+    "channel": "4 Kurd",
+    "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "20 Minutes TV",
+    "url": "https://live-20minutestv.digiteka.com/1961167769/index.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "100% Docs",
+    "url": "https://amg02162-newenconnect-amg02162c2-rakuten-us-1981.playouts.now.amagi.tv/playlist/amg02162-newenconnect-100pour100docs-rakutenus/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  }
+]

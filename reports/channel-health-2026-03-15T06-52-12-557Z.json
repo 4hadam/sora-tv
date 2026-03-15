@@ -1,0 +1,2054 @@
+[
+  {
+    "country": "France",
+    "channel": "4 Kurd",
+    "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "20 Minutes TV",
+    "url": "https://live-20minutestv.digiteka.com/1961167769/index.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "100% Docs",
+    "url": "https://amg02162-newenconnect-amg02162c2-rakuten-us-1981.playouts.now.amagi.tv/playlist/amg02162-newenconnect-100pour100docs-rakutenus/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "ADN TV+",
+    "url": "https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 206,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Africa 24",
+    "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Africa 24 Sport",
+    "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Africanews",
+    "url": "https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Africanews English",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "httpStatus": 404,
+    "reason": "Unexpected response body"
+  },
+  {
+    "country": "France",
+    "channel": "AfricaNews English",
+    "url": "https://www.youtube-nocookie.com/embed/NQjabLGdP5g",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "AfricaNews Français",
+    "url": "https://www.youtube-nocookie.com/embed/b6R9-7KZ8YM",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Africanews French",
+    "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Alpe d’Huez TV",
+    "url": "https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Antenne Réunion",
+    "url": "https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "B SMART",
+    "url": "https://www.youtube-nocookie.com/embed/bKgkcmM4iOQ",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Banijay Mr Bean Animé",
+    "url": "https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Banijay Mr Bean Classic",
+    "url": "https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BBC Top Gear France",
+    "url": "https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Beyblade",
+    "url": "https://amg01796-amg01796c6-rakuten-fr-5334.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladefr-rakutenfr/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM 2",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Alsace",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Business",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM DICI Alpes du Sud",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM DICI Haute-Provence",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Grand Lille",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Grand Littoral",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Grands Reportages",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_GRANDSREPORTAGES/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Lyon",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Lyon",
+    "url": "https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Marseille",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Nice Côte d'Azur",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Normandie",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Tech & Co",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM Toulon Var",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM TV",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?end=END&start=LIVE",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "BFM2",
+    "url": "https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 206,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Brionnais TV",
+    "url": "https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Caillou",
+    "url": "https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 206,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Cannes Lérins TV",
+    "url": "https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "DBM TV",
+    "url": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Drive TV",
+    "url": "https://amg01796-amg01796c2-rakuten-uk-3887.playouts.now.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Enquetes de Choc",
+    "url": "https://fastmedia-enquetesdechoc-rakuten.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews en Español",
+    "url": "https://www.youtube-nocookie.com/embed/O9mOtdZ-nSk",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews English",
+    "url": "https://www.youtube-nocookie.com/embed/pykpO5kQJ98",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Français",
+    "url": "https://www.youtube-nocookie.com/embed/NiRIbKwAejk",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews German",
+    "url": "https://www.youtube-nocookie.com/embed/CQ3KsEbsYHs",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Italiano",
+    "url": "https://www.youtube-nocookie.com/embed/pUcmpyynASM",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Magyar",
+    "url": "https://www.youtube-nocookie.com/embed/jAn7L2Kt32U",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Polski",
+    "url": "https://www.youtube-nocookie.com/embed/fG7PjdiKaBY",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Português",
+    "url": "https://www.youtube-nocookie.com/embed/XuZAl-ZPEcA",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Română",
+    "url": "https://www.youtube-nocookie.com/embed/9LFM3Y9egbw",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Ελληνικά",
+    "url": "https://www.youtube-nocookie.com/embed/uWIhV9gQClg",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Euronews Русский",
+    "url": "https://www.youtube-nocookie.com/embed/lwYzwdBiaho",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "FashionTV Paris L'Original",
+    "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "FilmRise Binge Watch France",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883021",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "FilmRise DeGrassi la nouvelle génération",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883113",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "FilmRise Hot Ones",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883082",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "FilmRise Les Routes du Paradis",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883083",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "FilmRise Séries France",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883033",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "FilmRise Z Nation France",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883103",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "France 24",
+    "url": "https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "France 24",
+    "url": "https://www.youtube-nocookie.com/embed/l8PMl7tUDIE",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "France 24 Arabic",
+    "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "France 24 Espanol",
+    "url": "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "France 24 Español",
+    "url": "https://www.youtube-nocookie.com/embed/Y-IlMeCCtIg",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "France 24 FAST English",
+    "url": "https://amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00106-france24fast-france24-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "France 24 French",
+    "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "franceinfo",
+    "url": "https://www.youtube-nocookie.com/embed/Z-Nwo-ypKtM",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Francophonie24",
+    "url": "https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "HANDICAP TV France",
+    "url": "https://srv.webtvmanager.fr:3697/stream/play.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "ITV Un Village Français",
+    "url": "https://amg00654-itv-amg00654c32-rakuten-fr-6134.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-unvillagesfrancais-rakutenfr/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "KTO",
+    "url": "https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "httpStatus": 400,
+    "reason": "Unexpected response body"
+  },
+  {
+    "country": "France",
+    "channel": "L'Effet Papillon",
+    "url": "https://amg02162-newenconnect-amg02162c1-rakuten-us-1983.playouts.now.amagi.tv/playlist/amg02162-newenconnect-leffetpapillon-rakutenus/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "L'Equipe",
+    "url": "https://dshn8inoshngm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gac2i63dmu8b7/LEquipe_FR.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "LCI",
+    "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/btv/py/lci1.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "httpStatus": 404,
+    "reason": "Unexpected response body"
+  },
+  {
+    "country": "France",
+    "channel": "Le Figaro IDF",
+    "url": "https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 206,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Le Meilleur d'Arthur",
+    "url": "https://amg02393-awpg-amg02393c2-rakuten-uk-2464.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdarthur-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Le Meilleur de la TV Realite",
+    "url": "https://amg02393-awpg-amg02393c4-rakuten-uk-3886.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdelatvrealite-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Les Anges",
+    "url": "https://amg02393-awpg-amg02393c5-rakuten-uk-2463.playouts.now.amagi.tv/playlist/amg02393-awpg-lesanges-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Les Secrets de Nos Régions",
+    "url": "https://amg02393-awpg-amg02393c6-rakuten-uk-2460.playouts.now.amagi.tv/playlist/amg02393-awpg-lessecretsdenosregions-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Les Z'Amours",
+    "url": "https://amg02393-awpg-amg02393c3-rakuten-uk-2462.playouts.now.amagi.tv/playlist/amg02393-awpg-leszamours-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Lou!",
+    "url": "https://www.youtube-nocookie.com/embed/_pyauk1XvRs",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Maurienne TV",
+    "url": "https://www.youtube-nocookie.com/embed/5ARTNKq49WY",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Monte Carlo Digital Television",
+    "url": "https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Mosaïk Cristal",
+    "url": "https://www.youtube-nocookie.com/embed/_O4h74sTg6w",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Motorvision.tv (French)",
+    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=535",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "MyTime Movie Network France",
+    "url": "https://mytimemoviefrance-rakuten.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Nature Time France",
+    "url": "https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "NewsWorld",
+    "url": "https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "OGGY",
+    "url": "https://www.youtube-nocookie.com/embed/dYGEtRvdxIo",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "P2M TV",
+    "url": "https://vdo2.pro-fhi.net:3207/stream/play.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Comedy",
+    "url": "https://comedyhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Docs",
+    "url": "https://scihls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Emirates",
+    "url": "https://pemirateshls.persiana.live/hls/stream.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Family",
+    "url": "https://familyhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Fight",
+    "url": "https://fighthls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Folk",
+    "url": "https://sonhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Iranian",
+    "url": "https://irhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Junior",
+    "url": "https://junhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Korea",
+    "url": "https://korhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Latino",
+    "url": "https://latinohls.persiana.live/hls/stream.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Music",
+    "url": "https://musichls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Nostalgia",
+    "url": "https://noshls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Plus",
+    "url": "https://euhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Plus One",
+    "url": "https://poneplushls.persiana.live/hls/stream.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Reality",
+    "url": "https://twohls.persiana.live/hls/stream.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Series",
+    "url": "https://onehls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Teen",
+    "url": "https://kphls.persiana.live/hls/stream.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Turkiye",
+    "url": "https://turkhls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Persiana Vibe",
+    "url": "https://raphls.persiana.live/hls/stream.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Puissance Télévision",
+    "url": "https://www.youtube-nocookie.com/embed/1a8mVYWZQRs",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Qui Veut Gagner Des Millions La Chaîne",
+    "url": "https://amg02393-awpg-amg02393c1-rakuten-uk-2461.playouts.now.amagi.tv/playlist/amg02393-awpg-quiveutgagnerdesmillions-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Alerte Cobra",
+    "url": "https://alarm-for-cobra-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6477/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Films Action",
+    "url": "https://01ac9352fbfa4204998783d41f9b1a2e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6068/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Films Comédie",
+    "url": "https://cc9f70371e7144e7acae4de8b5832d7a.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6183/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Films Famille",
+    "url": "https://b3088e48baab418a9a95dc8110a1b736.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6206/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Films Romance",
+    "url": "https://9affb6144c4c4cdca25d58908cb55a64.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6195/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Séries Crime",
+    "url": "https://1ffd245e4d30495e9b006502a155479e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6214/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "RFI",
+    "url": "https_//www.youtube-nocookie.com/embed/FbKhiAIaPC8",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "RT France",
+    "url": "https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Simon Super Lapin",
+    "url": "https://www.youtube-nocookie.com/embed/nttxnOHF0oU",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Tech & Co",
+    "url": "https_//www.youtube-nocookie.com/embed/ZbARVTcSZVU",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "The '80s Guy: Darksynth FM",
+    "url": "https_//www.youtube-nocookie.com/embed/Nn87x5B26-c",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Totally Spies!",
+    "url": "https://www.youtube-nocookie.com/embed/MkK8qZGbDbs",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "TRACE Latina",
+    "url": "https://amg01131-tracetv-amg01131c3-stirr-us-4391.playouts.now.amagi.tv/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "httpStatus": 403,
+    "reason": "Unexpected response body"
+  },
+  {
+    "country": "France",
+    "channel": "TRACE Urban",
+    "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TV3V",
+    "url": "https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TV7 Colmar",
+    "url": "https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Vogue Europe",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883060",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Vosges Télévision",
+    "url": "https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Wasabi la chaîne anime",
+    "url": "https://amg01796-amg01796c3-rakuten-uk-2555.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-wasabii-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Zig & Sharko",
+    "url": "https_//www.youtube-nocookie.com/embed/Z-fBXQvXfdM",
+    "status": "skipped",
+    "method": "SKIP",
+    "reason": "Skipped embedded/YouTube source"
+  },
+  {
+    "country": "France",
+    "channel": "Zylo Ciné Western",
+    "url": "https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Films Drames",
+    "url": "https://f396f4db84a54f7bb496b2541477b626.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6095/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Films Thriller",
+    "url": "https://thriller-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6479/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Top Films France",
+    "url": "https://93ed06eba1ef4cf783b66dc6ea7c4f28.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5986/master.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Rakuten TV Trailers France",
+    "url": "https_//a01cb16df2c946afa72d661622953cad.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-4546/master.m3u8",
+    "status": "broken",
+    "method": "SKIP",
+    "reason": "Unsupported URL scheme"
+  },
+  {
+    "country": "France",
+    "channel": "Revry Europe (Frequency backend)",
+    "url": "https://03e7e5beea1d42fea576037d67f531eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_Revry/playlist.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Revry News Europe (Frequency backend)",
+    "url": "https://dce9e10d279f410d87ef5ad1c3740459.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_RevryNews/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "httpStatus": 504,
+    "reason": "Unexpected response body"
+  },
+  {
+    "country": "France",
+    "channel": "TRACE Brazuca",
+    "url": "https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "httpStatus": 403,
+    "reason": "Unexpected response body"
+  },
+  {
+    "country": "France",
+    "channel": "Trace Sports Stars",
+    "url": "https_//tracesportstars-klowdtv.amagi.tv/playlist.m3u8",
+    "status": "broken",
+    "method": "SKIP",
+    "reason": "Unsupported URL scheme"
+  },
+  {
+    "country": "France",
+    "channel": "Trace Sports Stars",
+    "url": "https_//amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8",
+    "status": "broken",
+    "method": "SKIP",
+    "reason": "Unsupported URL scheme"
+  },
+  {
+    "country": "France",
+    "channel": "Vevo Hip-Hop et RnB",
+    "url": "https://amg00056-amg00056c14-rakuten-fr-3244.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevohiphopandrbfr-rakutenfr/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "ViàMatélé",
+    "url": "https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "viàTéléPaese",
+    "url": "https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Zylo Ciné Nanar",
+    "url": "https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Zylo Fréquence Novelas",
+    "url": "https://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Zylo Into Crime",
+    "url": "https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "6ter (1080p) [Geo-blocked] [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "AB1 [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/ab1/browser-dash/ab1.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Africa 24 English",
+    "url": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Angers Tele",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/angerstele.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Animaux [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/animaux/browser-dash/animaux.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "AraBel",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/arabel.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Arte (720p) [Geo-blocked]",
+    "url": "http://c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/15171/index.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "arte HD (1080p) [Geo-Blocked]",
+    "url": "https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "B Smart TV",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/bsmart.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "C Star (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/d17/browser-HLS8/d17.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Canal 32",
+    "url": "https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Canal J HD [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/canalj/browser-HLS8/canalj.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Canal+ en clair (720p) [Geo-blocked] [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-dash/canalplusclair.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "CNews (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/itele/browser-HLS8/itele.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Disney Jr.",
+    "url": "http://151.80.18.177:86/Disney_Junior_HD/index.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "EMCI TV",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/emciafrique.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Equidia",
+    "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "FashionTV Secrets",
+    "url": "https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "France 2",
+    "url": "http://69.64.57.208/france2/mono.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "France 2 HD (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "France 3 HD (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "France 4 HD (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "France 5",
+    "url": "http://69.64.57.208/france5/mono.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "France 5 HD (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "France Inter",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinter.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Franceinfo",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinfotv.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Fun Radio",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/funradiofr.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Generations TV",
+    "url": "https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Gong",
+    "url": "https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Gulli (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/gulli/browser-HLS8/gulli.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "ici Elsass",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/icielsass.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "ILTV",
+    "url": "https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "KOZOOM TV",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8?ads.vf=gPEEXzG-WvO",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 206,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "LCP [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/lcp/browser-HLS8/lcp.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Le Media TV",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lemedia.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Littoral FM",
+    "url": "https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Lyon Capitale TV",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lyoncapitale.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "M6 [Geo-blocked] [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Maison & Travaux TV",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/maisonettravaux.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "MDL",
+    "url": "http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Melody",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiokaraoke.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Men's UP TV",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mensuptv.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Mezzo (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Mouv' TV",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mouv.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Museum TV [Geo-blocked]",
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "MyZen TV",
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Nickelodeon",
+    "url": "http://195.64.140.147:10121/121",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "NOVO19 (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/novo19/browser-HLS8/novo19.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Novo Comedy",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/novo-comedy/video.m3u8?ads.vf=WY7qC3DIF58",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 206,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Planete+ (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/planeteplus/browser-HLS8/planeteplus.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Public Senat 24/24",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Puissance TV",
+    "url": "https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Qwest TV Jazz & Beyond",
+    "url": "https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Radio Frontieres",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiofrontieres.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Radio Karaoke",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiokaraoke-2.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "RMC Decouverte (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/rmcdecouverte/browser-HLS8/rmcdecouverte.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "RMC Life [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "RMC Story (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/numero23/browser-HLS8/numero23.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "RTL2",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/rtl2.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Sony One Blacklist",
+    "url": "https://06cb85ad6ccb4a6b97f561e62d16ad3f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-822-FR-SONYONETHEBLACKLIST-LG_FR/playlist.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Sony One Favoris",
+    "url": "https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Sony One Hits Action",
+    "url": "https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Sony One Hits Comedie",
+    "url": "https://7aa9671895264ec9a384dfed1b992171.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-818-FR-SONYONEHITSCOMDIE-LG_FR/playlist.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Sony One Series Comedie",
+    "url": "https://4f2a3e1ff5274297b115cf0f7da1c2cd.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-819-FR-SONYONESRIESCOMDIE-LG_FR/playlist.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Sony One Series Thriller",
+    "url": "https://483a1e90c18641c9a6d27becd41ad892.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-821-FR-SONYONESRIESTHRILLER-LG_FR/playlist.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  },
+  {
+    "country": "France",
+    "channel": "Sud Radio",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "T18",
+    "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TéléGohelle",
+    "url": "https://videas.agglo-lenslievin.fr/index.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Telenantes",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Telesud",
+    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telesud.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TF1 HD (720p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "TF1 Series Films (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "TFX (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "TiVi5 Monde [Geo-blocked]",
+    "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TMC HD (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Trace Sport Stars (Australia)",
+    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Trace Urban (Australia)",
+    "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "Trek HD (1080p) [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/escales/browser-HLS8/escales.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "TV5Monde Info (1080p) [Geo-blocked]",
+    "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TV5Monde Style (1080p) [Geo-blocked]",
+    "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TV78",
+    "url": "https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "TV Monaco",
+    "url": "https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TVR (Bretagne)",
+    "url": "https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "France",
+    "channel": "TZiK [Not 24/7]",
+    "url": "https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "viàMoselleTV (720p) [Not 24/7]",
+    "url": "https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "httpStatus": 404,
+    "reason": "Unexpected response body"
+  },
+  {
+    "country": "France",
+    "channel": "viàOccitanie (540p) [Not 24/7]",
+    "url": "https://streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "W9 [Geo-blocked] [Geo-Blocked]",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "This operation was aborted"
+  },
+  {
+    "country": "France",
+    "channel": "Wildside TV",
+    "url": "https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8",
+    "status": "broken",
+    "method": "GET",
+    "reason": "fetch failed"
+  },
+  {
+    "country": "France",
+    "channel": "zenith",
+    "url": "https://srv.zenith-tv.fr:8888/zenithwchl/index.m3u8",
+    "status": "ok",
+    "method": "GET",
+    "httpStatus": 200,
+    "reason": "Playable manifest/media response detected"
+  }
+]

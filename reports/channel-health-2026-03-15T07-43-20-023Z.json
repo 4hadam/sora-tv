@@ -1,0 +1,38 @@
+[
+  {
+    "country": "Algeria",
+    "channel": "Amou Yazid",
+    "url": "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "Algeria",
+    "channel": "CNA",
+    "url": "https://live1.mediadesk.al/cnatvlive.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "Algeria",
+    "channel": "StoryChannel TV",
+    "url": "https://136044159.r.cdnsun.net/storychannel.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  },
+  {
+    "country": "Algeria",
+    "channel": "TV4 Tamazight TV",
+    "url": "http://5.253.46.190:8000/play/a0en/index.m3u8",
+    "status": "ok",
+    "method": "HEAD",
+    "httpStatus": 200,
+    "reason": "HEAD request succeeded"
+  }
+]
