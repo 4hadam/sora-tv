@@ -3,6 +3,8 @@ import { createServer, type Server } from "http";
 import http from "http";
 import https from "https";
 import { storage } from "./storage";
+import fs from "fs";
+import path from "path";
 import { channelsByCountry } from "@shared/iptv-channels";
 import { getChannelsByCountry, getChannelsByCategory, normalizeYouTubeUrl } from "@shared/iptv-helpers";
 import type { IPTVChannel } from "@shared/iptv-helpers";
@@ -169,6 +171,29 @@ export async function registerRoutes(
   app.get("/api/channels-by-category", async (req, res) => {
     try {
       const category = req.query.category as string;
+
+      // Special-case: serve the pre-parsed Movies CSV if available
+      if (category && category.toLowerCase() === "movies") {
+        try {
+          const csvPath = path.resolve(process.cwd(), "output", "movies_parsed.csv");
+          if (fs.existsSync(csvPath)) {
+            const text = fs.readFileSync(csvPath, "utf8");
+            const lines = text.split(/\r?\n/).filter(Boolean);
+            const channels = lines.map((ln) => {
+              const parts = ln.split("|");
+              const name = (parts[0] || "").trim();
+              const url = (parts[1] || "").trim();
+              const logo = (parts[2] || "").trim();
+              const ch: IPTVChannel = { name, url, category: "Movies" } as any;
+              if (logo) (ch as any).logo = logo;
+              return ch;
+            });
+            return res.json({ channels });
+          }
+        } catch (e) {
+          console.error("Failed to load movies CSV:", e);
+        }
+      }
 
       if (!category || category === "all-channels" || category === "about" || category.startsWith("faq") || category.startsWith("privacy") || category.startsWith("feedback")) {
         return res.json({ channels: [] });
