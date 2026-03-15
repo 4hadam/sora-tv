@@ -17,6 +17,9 @@
     "db:push": "drizzle-kit push",
     "update-channels": "node_modules/.bin/tsx script/update-iptv-channels.ts",
     "cleanup-channels": "node_modules/.bin/tsx script/cleanup-channels.ts",
+    "channels:health": "tsx script/check-channel-health.ts",
+    "channels:health:cleanup": "tsx script/check-channel-health.ts --cleanup",
+    "channels:france:official": "tsx script/replace-france-broken-with-official.ts",
     "generate-favicon": "node_modules/.bin/tsx script/generate-favicon.ts",
     "test:channels": "node_modules/.bin/tsx script/test-channels.ts",
     "test:channels:cleanup": "node_modules/.bin/tsx script/test-channels.ts --cleanup"

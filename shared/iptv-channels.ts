@@ -15296,11 +15296,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/320px-20_Minutes_TV_IDF_logo_%282023%29.png"
     },
     {
-      "name": "100% Docs",
-      "url": "https://amg02162-newenconnect-amg02162c2-rakuten-us-1981.playouts.now.amagi.tv/playlist/amg02162-newenconnect-100pour100docs-rakutenus/playlist.m3u8",
-      "category": "General"
-    },
-    {
       "name": "ADN TV+",
       "url": "https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8",
       "category": "General",
@@ -15323,11 +15318,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/5UxU4zc.png"
-    },
-    {
-      "name": "Africanews English",
-      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8",
-      "category": "General"
     },
     {
       "name": "AfricaNews English",
@@ -15659,24 +15649,19 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "KTO",
-      "url": "https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8",
+      "url": "https://www.ktotv.com/",
       "category": "General",
       "logo": "https://i.imgur.com/EY6TsdV.png"
     },
     {
-      "name": "L'Effet Papillon",
-      "url": "https://amg02162-newenconnect-amg02162c1-rakuten-us-1983.playouts.now.amagi.tv/playlist/amg02162-newenconnect-leffetpapillon-rakutenus/playlist.m3u8",
-      "category": "General"
-    },
-    {
       "name": "L'Equipe",
-      "url": "https://dshn8inoshngm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gac2i63dmu8b7/LEquipe_FR.m3u8",
+      "url": "https://www.lequipe.fr/tv/",
       "category": "General",
       "logo": "https://i.imgur.com/t35zhM9.png"
     },
     {
       "name": "LCI",
-      "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/btv/py/lci1.m3u8",
+      "url": "https://www.tf1.fr/lci/direct",
       "category": "General"
     },
     {
@@ -15777,11 +15762,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-docs-fr.png"
     },
     {
-      "name": "Persiana Emirates",
-      "url": "https://pemirateshls.persiana.live/hls/stream.m3u8",
-      "category": "General"
-    },
-    {
       "name": "Persiana Family",
       "url": "https://familyhls.persiana.live/hls/stream.m3u8",
       "category": "General",
@@ -15818,12 +15798,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/si2ZnIA.png"
     },
     {
-      "name": "Persiana Latino",
-      "url": "https://latinohls.persiana.live/hls/stream.m3u8",
-      "category": "General",
-      "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-latino-fr.png"
-    },
-    {
       "name": "Persiana Music",
       "url": "https://musichls.persiana.live/hls/stream.m3u8",
       "category": "General"
@@ -15841,27 +15815,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/0xttibX.png"
     },
     {
-      "name": "Persiana Plus One",
-      "url": "https://poneplushls.persiana.live/hls/stream.m3u8",
-      "category": "General"
-    },
-    {
-      "name": "Persiana Reality",
-      "url": "https://twohls.persiana.live/hls/stream.m3u8",
-      "category": "General",
-      "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-reality-fr.png"
-    },
-    {
       "name": "Persiana Series",
       "url": "https://onehls.persiana.live/hls/stream.m3u8",
       "category": "General",
       "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-series-fr.png"
-    },
-    {
-      "name": "Persiana Teen",
-      "url": "https://kphls.persiana.live/hls/stream.m3u8",
-      "category": "General",
-      "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-teen-fr.png"
     },
     {
       "name": "Persiana Turkiye",
@@ -15947,12 +15904,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "category": "General"
     },
     {
-      "name": "TRACE Latina",
-      "url": "https://amg01131-tracetv-amg01131c3-stirr-us-4391.playouts.now.amagi.tv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/CUVAi4u.png"
-    },
-    {
       "name": "TRACE Urban",
       "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8",
       "category": "General",
@@ -16012,34 +15963,8 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "category": "General"
     },
     {
-      "name": "Rakuten TV Trailers France",
-      "url": "https_//a01cb16df2c946afa72d661622953cad.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-4546/master.m3u8",
-      "category": "General"
-    },
-    {
       "name": "Revry Europe (Frequency backend)",
       "url": "https://03e7e5beea1d42fea576037d67f531eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_Revry/playlist.m3u8",
-      "category": "General"
-    },
-    {
-      "name": "Revry News Europe (Frequency backend)",
-      "url": "https://dce9e10d279f410d87ef5ad1c3740459.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_RevryNews/playlist.m3u8",
-      "category": "General"
-    },
-    {
-      "name": "TRACE Brazuca",
-      "url": "https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/DFBocPu.png"
-    },
-    {
-      "name": "Trace Sports Stars",
-      "url": "https_//tracesportstars-klowdtv.amagi.tv/playlist.m3u8",
-      "category": "General"
-    },
-    {
-      "name": "Trace Sports Stars",
-      "url": "https_//amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8",
       "category": "General"
     },
     {
@@ -16079,15 +16004,9 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "6ter (1080p) [Geo-blocked] [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8",
+      "url": "https://www.m6.fr/6ter/direct",
       "category": "Entertainment",
       "logo": "https://i.imgur.com/2nd5Cox.png"
-    },
-    {
-      "name": "AB1 [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/ab1/browser-dash/ab1.mpd",
-      "category": "Entertainment",
-      "logo": "https://i.imgur.com/9C7UsOe.png"
     },
     {
       "name": "Africa 24 English",
@@ -16100,12 +16019,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/angerstele.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/CMKKbaP.png"
-    },
-    {
-      "name": "Animaux [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/animaux/browser-dash/animaux.mpd",
-      "category": "Education",
-      "logo": "https://i.imgur.com/FM9FVAG.png"
     },
     {
       "name": "AraBel",
@@ -16132,32 +16045,14 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/RyVEFcG.png"
     },
     {
-      "name": "C Star (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/d17/browser-HLS8/d17.m3u8",
-      "category": "Entertainment",
-      "logo": "https://i.imgur.com/w4kAX1V.png"
-    },
-    {
       "name": "Canal 32",
       "url": "https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8",
       "category": "General",
       "logo": "https://i.imgur.com/lAsE6kN.png"
     },
     {
-      "name": "Canal J HD [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/canalj/browser-HLS8/canalj.m3u8",
-      "category": "Kids",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/512px-Canal_J_2019_Logo.png"
-    },
-    {
-      "name": "Canal+ en clair (720p) [Geo-blocked] [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-dash/canalplusclair.mpd",
-      "category": "Entertainment",
-      "logo": "https://i.imgur.com/5HcyMnW.png"
-    },
-    {
       "name": "CNews (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/itele/browser-HLS8/itele.m3u8",
+      "url": "https://www.cnews.fr/streaming",
       "category": "News",
       "logo": "https://i.imgur.com/sSNhk2g.png"
     },
@@ -16192,19 +16087,19 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "France 2 HD (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd",
+      "url": "https://www.france.tv/france-2/direct.html",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png"
     },
     {
       "name": "France 3 HD (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd",
+      "url": "https://www.france.tv/france-3/direct.html",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png"
     },
     {
       "name": "France 4 HD (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd",
+      "url": "https://www.france.tv/france-4/direct.html",
       "category": "Kids",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png"
     },
@@ -16216,7 +16111,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "France 5 HD (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd",
+      "url": "https://www.france.tv/france-5/direct.html",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png"
     },
@@ -16252,7 +16147,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "Gulli (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/gulli/browser-HLS8/gulli.m3u8",
+      "url": "https://www.m6.fr/gulli/direct",
       "category": "Kids",
       "logo": "https://i.imgur.com/kqYssbW.png"
     },
@@ -16276,7 +16171,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "LCP [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/lcp/browser-HLS8/lcp.m3u8",
+      "url": "https://lcp.fr/direct-lcp-5434",
       "category": "Legislative",
       "logo": "https://i.imgur.com/k7UImOJ.png"
     },
@@ -16300,7 +16195,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "M6 [Geo-blocked] [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8",
+      "url": "https://www.m6.fr/m6/direct",
       "category": "Entertainment",
       "logo": "https://i.imgur.com/7GVp3fW.png"
     },
@@ -16329,22 +16224,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/5BZwRFs.png"
     },
     {
-      "name": "Mezzo (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8",
-      "category": "Music",
-      "logo": "https://i.imgur.com/auNdGeW.png"
-    },
-    {
       "name": "Mouv' TV",
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mouv.m3u8",
       "category": "Music",
       "logo": "https://i.imgur.com/64nzKEu.jpg"
-    },
-    {
-      "name": "Museum TV [Geo-blocked]",
-      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8",
-      "category": "Culture",
-      "logo": "https://i.imgur.com/WbjURLo.png"
     },
     {
       "name": "MyZen TV",
@@ -16353,28 +16236,10 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/fIi8o0C.png"
     },
     {
-      "name": "Nickelodeon",
-      "url": "http://195.64.140.147:10121/121",
-      "category": "Kids",
-      "logo": "https://i.imgur.com/E84jnP8.png"
-    },
-    {
-      "name": "NOVO19 (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/novo19/browser-HLS8/novo19.m3u8",
-      "category": "General",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/langfr-512px-Logo_NOVO19_-_2025.svg.png"
-    },
-    {
       "name": "Novo Comedy",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/novo-comedy/video.m3u8?ads.vf=WY7qC3DIF58",
       "category": "Comedy",
       "logo": "https://novocomedy.com/wp-content/uploads/LogoNovocomedy.png"
-    },
-    {
-      "name": "Planete+ (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/planeteplus/browser-HLS8/planeteplus.m3u8",
-      "category": "Undefined",
-      "logo": "https://i.imgur.com/RMbMGMg.png"
     },
     {
       "name": "Public Senat 24/24",
@@ -16405,24 +16270,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiokaraoke-2.m3u8",
       "category": "Music",
       "logo": "https://i.imgur.com/9uRggjD.png"
-    },
-    {
-      "name": "RMC Decouverte (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rmcdecouverte/browser-HLS8/rmcdecouverte.m3u8",
-      "category": "Undefined",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/langfr-350px-RMC_D%C3%A9couverte_logo_2017.svg.png"
-    },
-    {
-      "name": "RMC Life [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8",
-      "category": "Entertainment;Interactive",
-      "logo": "https://img1.dc2.oqee.net/channel_pictures/3606/w512"
-    },
-    {
-      "name": "RMC Story (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/numero23/browser-HLS8/numero23.m3u8",
-      "category": "Undefined",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/512px-Logo_RMC_Story_2025.png"
     },
     {
       "name": "RTL2",
@@ -16479,12 +16326,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/langfr-512px-Logo_de_la_chaine_T18.svg.png"
     },
     {
-      "name": "TéléGohelle",
-      "url": "https://videas.agglo-lenslievin.fr/index.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/Oa3Pwbf.png"
-    },
-    {
       "name": "Telenantes",
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8",
       "category": "Undefined",
@@ -16498,19 +16339,19 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "TF1 HD (720p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd",
+      "url": "https://www.tf1.fr/tf1/direct",
       "category": "Entertainment",
       "logo": "https://i.imgur.com/QxHt9NC.png"
     },
     {
       "name": "TF1 Series Films (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8",
+      "url": "https://www.tf1.fr/tf1-series-films/direct",
       "category": "Movies",
       "logo": "https://i.imgur.com/4CJIDKQ.png"
     },
     {
       "name": "TFX (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8",
+      "url": "https://www.tf1.fr/tfx/direct",
       "category": "Undefined",
       "logo": "https://i.imgur.com/d91GcVf.png"
     },
@@ -16522,7 +16363,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "TMC HD (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8",
+      "url": "https://www.tf1.fr/tmc/direct",
       "category": "General",
       "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png"
     },
@@ -16539,12 +16380,6 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://i.imgur.com/DLIbUMx.png"
     },
     {
-      "name": "Trek HD (1080p) [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/escales/browser-HLS8/escales.m3u8",
-      "category": "Undefined",
-      "logo": "https://i.imgur.com/TcF53W4.png"
-    },
-    {
       "name": "TV5Monde Info (1080p) [Geo-blocked]",
       "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8",
       "category": "News",
@@ -16558,7 +16393,7 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
     },
     {
       "name": "TV78",
-      "url": "https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8",
+      "url": "https://www.youtube.com/watch?v=VMWGcvWqhjw",
       "category": "Undefined",
       "logo": "https://i.imgur.com/stzE1Ij.png"
     },
@@ -16575,34 +16410,16 @@ export const channelsByCountry: Record<string, IPTVChannel[]> = {
       "logo": "https://www.tvr.bzh/favicon-1024.png"
     },
     {
-      "name": "TZiK [Not 24/7]",
-      "url": "https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8",
-      "category": "Music",
-      "logo": "https://i.imgur.com/TAagRkn.png"
-    },
-    {
-      "name": "viàMoselleTV (720p) [Not 24/7]",
-      "url": "https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8",
-      "category": "General",
-      "logo": "https://i.imgur.com/hrm5QnU.png"
-    },
-    {
       "name": "viàOccitanie (540p) [Not 24/7]",
-      "url": "https://streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117.m3u8",
+      "url": "https://www.viaoccitanie.tv/direct-tv/",
       "category": "General",
       "logo": "https://i.imgur.com/NzuKt1R.png"
     },
     {
       "name": "W9 [Geo-blocked] [Geo-Blocked]",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8",
+      "url": "https://www.m6.fr/w9/direct",
       "category": "Entertainment",
       "logo": "https://i.imgur.com/reYeMuE.png"
-    },
-    {
-      "name": "Wildside TV",
-      "url": "https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8",
-      "category": "Movies",
-      "logo": "https://i.imgur.com/cQkfRhH.png"
     },
     {
       "name": "zenith",
