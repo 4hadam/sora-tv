@@ -85,16 +85,75 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
 
     const doInit = async () => {
       if (!el.current) return
-      const Factory: any = (await import("globe.gl")).default
+
+      // Prefer OffscreenCanvas + worker rendering when available
+      const supportsOffscreen = typeof (window as any).OffscreenCanvas !== 'undefined' && typeof HTMLCanvasElement.prototype.transferControlToOffscreen === 'function'
+      if (supportsOffscreen) {
+        // Create a canvas element that fills the container and transfer it
+        const canvas = document.createElement('canvas')
+        canvas.style.width = '100%'
+        canvas.style.height = '100%'
+        canvas.width = el.current.clientWidth
+        canvas.height = el.current.clientHeight
+        el.current.appendChild(canvas)
+
+        const off = (canvas as any).transferControlToOffscreen()
+        const worker = new Worker(new URL('../workers/globe.worker.ts', import.meta.url), { type: 'module' })
+        worker.postMessage({ type: 'init', canvas: off, width: canvas.width, height: canvas.height, devicePixelRatio: devicePixelRatio || 1, isMobile }, [off])
+
+        // forward resize
+        ro.current = new ResizeObserver(() => {
+          if (!el.current) return
+          const w = el.current.clientWidth
+          const h = el.current.clientHeight
+          worker.postMessage({ type: 'resize', width: w, height: h })
+        })
+        ro.current.observe(el.current)
+
+        // forward pointer events for picking
+        const forwardPointer = (e: PointerEvent) => {
+          const rect = (el.current as HTMLElement).getBoundingClientRect()
+          const x = e.clientX - rect.left
+          const y = e.clientY - rect.top
+          const ndcX = (x / rect.width) * 2 - 1
+          const ndcY = -((y / rect.height) * 2 - 1)
+          worker.postMessage({ type: e.type, x, y, ndcX, ndcY })
+        }
+        el.current.addEventListener('pointerdown', forwardPointer)
+        el.current.addEventListener('pointermove', forwardPointer)
+        el.current.addEventListener('pointerup', forwardPointer)
+
+        worker.onmessage = (ev: MessageEvent) => {
+          const d = ev.data
+          if (!d) return
+          if (d.type === 'ready') onReady?.()
+          if (d.type === 'countryClick') onCountryClick?.(d.name)
+          if (d.type === 'hover') {
+            // could surface hover UI if needed
+          }
+        }
+
+        // cleanup when unmounting
+        return () => {
+          try { worker.postMessage({ type: 'destroy' }) } catch (e) { }
+          ro.current?.disconnect()
+          el.current?.removeEventListener('pointerdown', forwardPointer)
+          el.current?.removeEventListener('pointermove', forwardPointer)
+          el.current?.removeEventListener('pointerup', forwardPointer)
+        }
+      }
+
+      // Fallback: use globe.gl on main thread with same visuals
+      const Factory: any = (await import('globe.gl')).default
       if (dead) return
 
       const g = Factory()(el.current)
-        .globeImageUrl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")
+        .globeImageUrl('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=')
         .showAtmosphere(true)
-        .atmosphereColor("#4488FF")
+        .atmosphereColor('#4488FF')
         .atmosphereAltitude(0.28)
-        .polygonSideColor(() => "rgba(0,0,0,0)")
-        .polygonStrokeColor(() => isMobile ? false : "rgba(0,0,0,0.25)")
+        .polygonSideColor(() => 'rgba(0,0,0,0)')
+        .polygonStrokeColor(() => isMobile ? false : 'rgba(0,0,0,0.25)')
         .polygonAltitude(0.01)
 
       g.scene().background = new THREE.Color(0x000000)
@@ -110,7 +169,7 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       resize()
       ro.current = new ResizeObserver(resize)
       ro.current.observe(el.current)
-      window.addEventListener("resize", resize)
+      window.addEventListener('resize', resize)
 
       // controls
       const ctrl = g.controls()
@@ -124,13 +183,10 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
       // stars
       stars.current = addStars(g.scene(), isMobile)
 
-      // load GeoJSON via Web Worker — keeps main thread free
-      const worker = new Worker(
-        new URL("../workers/geojson.worker.ts", import.meta.url),
-        { type: "module" }
-      )
-      worker.postMessage(null)
-      worker.onmessage = (e) => {
+      // load GeoJSON via existing local worker
+      const worker = new Worker(new URL('../workers/geojson.worker.ts', import.meta.url), { type: 'module' })
+      worker.postMessage({ type: 'load' })
+      worker.onmessage = (e: MessageEvent) => {
         worker.terminate()
         if (dead || !e.data.ok) return
         const features = e.data.features
@@ -141,14 +197,13 @@ export default function GlobeViewer({ selectedCountry, onCountryClick, isMobile 
           .polygonGeoJsonGeometry((d: any) => d.geometry)
           .polygonCapColor(capColor)
           .polygonLabel((d: any) => {
-            const name = d?.properties?.ADMIN ?? ""
-            return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ""
+            const name = d?.properties?.ADMIN ?? ''
+            return name ? `<span style="font-size:13px;font-weight:600;color:#fff">${name}</span>` : ''
           })
           .onPolygonClick((d: any) => {
-            const name = d?.properties?.ADMIN ?? ""
+            const name = d?.properties?.ADMIN ?? ''
             if (name) onCountryClick?.(name)
           })
-        // Signal home.tsx that the globe is fully rendered with countries
         onReady?.()
       }
       worker.onerror = () => worker.terminate()
